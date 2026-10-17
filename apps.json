@@ -1,0 +1,337 @@
+[
+  {
+    "id": "ca-contractor-law-business-exam-prep",
+    "name": "CSLB Law & Business Exam Prep",
+    "displayName": "CSLB Law",
+    "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+    "sku": "ca-contractor-law-business-exam-prep",
+    "background": "#27272a",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-electrical-contractor-c10-exam-prep",
+    "name": "CA C-10 Electrical Contractor",
+    "displayName": "CA C-10",
+    "bundleId": "com.keatingkonsultancy.caelectricalcontractorc10examprep",
+    "sku": "ca-electrical-contractor-c10-exam-prep",
+    "background": "#0f172a",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-general-building-contractor-b-exam-prep",
+    "name": "CA B General Contractor Exam",
+    "displayName": "CA B General",
+    "bundleId": "com.keatingkonsultancy.cageneralbuildingcontractorbexamprep",
+    "sku": "ca-general-building-contractor-b-exam-prep",
+    "background": "#3a3a40",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-health-insurance-exam-prep",
+    "name": "CA Health Insurance Exam Prep",
+    "displayName": "CA Health",
+    "bundleId": "com.keatingkonsultancy.cahealthinsuranceexamprep",
+    "sku": "ca-health-insurance-exam-prep",
+    "background": "#0b5f77",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-life-health-insurance-exam-prep",
+    "name": "CA Life & Health Exam Prep",
+    "displayName": "CA Life+Health",
+    "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+    "sku": "ca-life-health-insurance-exam-prep",
+    "background": "#3f1a85",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-life-insurance-exam-prep",
+    "name": "California Life Insurance Exam",
+    "displayName": "CA Life",
+    "bundleId": "com.keatingkonsultancy.califeinsuranceexamprep",
+    "sku": "ca-life-insurance-exam-prep",
+    "background": "#4a2377",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-plumbing-contractor-c36-exam-prep",
+    "name": "CA C-36 Plumbing Contractor",
+    "displayName": "CA C-36",
+    "bundleId": "com.keatingkonsultancy.caplumbingcontractorc36examprep",
+    "sku": "ca-plumbing-contractor-c36-exam-prep",
+    "background": "#0a3d5c",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-property-casualty-insurance-exam-prep",
+    "name": "CA Property & Casualty Exam",
+    "displayName": "CA P&C",
+    "bundleId": "com.keatingkonsultancy.capropertycasualtyinsuranceexamprep",
+    "sku": "ca-property-casualty-insurance-exam-prep",
+    "background": "#6d2610",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-real-estate-broker-exam-prep",
+    "name": "CA Real Estate Broker Exam",
+    "displayName": "CA RE Broker",
+    "bundleId": "com.keatingkonsultancy.carealestatebrokerexamprep",
+    "sku": "ca-real-estate-broker-exam-prep",
+    "background": "#22304f",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "ca-real-estate-exam-prep",
+    "name": "California Real Estate Exam",
+    "displayName": "CA RE Sales",
+    "bundleId": "com.keatingkonsultancy.carealestateexamprep",
+    "sku": "ca-real-estate-exam-prep",
+    "background": "#1b3a5c",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "casualty-insurance-exam-prep",
+    "name": "Casualty Insurance Exam Prep",
+    "displayName": "Casualty Prep",
+    "bundleId": "com.keatingkonsultancy.casualtyinsuranceexamprep",
+    "sku": "casualty-insurance-exam-prep",
+    "background": "#1e3a8a",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "deedprep",
+    "name": "Real Estate Exam Prep",
+    "displayName": "RE National",
+    "bundleId": "com.keatingkonsultancy.deedprep",
+    "sku": "deedprep",
+    "background": "#14213d",
+    "permissions": {},
+    "wave": 3,
+    "kind": "exam"
+  },
+  {
+    "id": "electrician-exam-prep",
+    "name": "Electrician Exam Prep",
+    "displayName": "Electric Prep",
+    "bundleId": "com.keatingkonsultancy.electricianexamprep",
+    "sku": "electrician-exam-prep",
+    "background": "#111827",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "general-contractor-exam-prep",
+    "name": "General Contractor Exam Prep",
+    "displayName": "GC Prep",
+    "bundleId": "com.keatingkonsultancy.generalcontractorexamprep",
+    "sku": "general-contractor-exam-prep",
+    "background": "#3f3f46",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "health-insurance-exam-prep",
+    "name": "Health Insurance Exam Prep",
+    "displayName": "Health Prep",
+    "bundleId": "com.keatingkonsultancy.healthinsuranceexamprep",
+    "sku": "health-insurance-exam-prep",
+    "background": "#0e7490",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "life-health-insurance-exam-prep",
+    "name": "Life & Health Insurance Exam",
+    "displayName": "L&H Prep",
+    "bundleId": "com.keatingkonsultancy.lifehealthinsuranceexamprep",
+    "sku": "life-health-insurance-exam-prep",
+    "background": "#4c1d95",
+    "permissions": {},
+    "wave": 3,
+    "kind": "exam"
+  },
+  {
+    "id": "life-insurance-exam-prep",
+    "name": "Life Insurance Exam Prep",
+    "displayName": "Life Prep",
+    "bundleId": "com.keatingkonsultancy.lifeinsuranceexamprep",
+    "sku": "life-insurance-exam-prep",
+    "background": "#5b2a86",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "part-107-drone-test-prep",
+    "name": "Part 107 Drone License Prep",
+    "displayName": "107 Prep",
+    "bundleId": "com.keatingkonsultancy.part107dronetestprep",
+    "sku": "part-107-drone-test-prep",
+    "background": "#1f2937",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "plumber-exam-prep",
+    "name": "Plumber Exam Prep",
+    "displayName": "Plumb Prep",
+    "bundleId": "com.keatingkonsultancy.plumberexamprep",
+    "sku": "plumber-exam-prep",
+    "background": "#0c4a6e",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "policyprep",
+    "name": "Insurance License Exam Prep",
+    "displayName": "Insurance Prep",
+    "bundleId": "com.keatingkonsultancy.policyprep",
+    "sku": "policyprep",
+    "background": "#0f4c3a",
+    "permissions": {},
+    "wave": 3,
+    "kind": "exam"
+  },
+  {
+    "id": "private-pilot-test-prep",
+    "name": "FAA Private Pilot Test Prep",
+    "displayName": "Pilot Prep",
+    "bundleId": "com.keatingkonsultancy.privatepilottestprep",
+    "sku": "private-pilot-test-prep",
+    "background": "#123c69",
+    "permissions": {},
+    "wave": 1,
+    "kind": "exam"
+  },
+  {
+    "id": "property-casualty-insurance-exam-prep",
+    "name": "Property & Casualty Exam Prep",
+    "displayName": "P&C Prep",
+    "bundleId": "com.keatingkonsultancy.propertycasualtyinsuranceexamprep",
+    "sku": "property-casualty-insurance-exam-prep",
+    "background": "#7c2d12",
+    "permissions": {},
+    "wave": 3,
+    "kind": "exam"
+  },
+  {
+    "id": "property-insurance-exam-prep",
+    "name": "Property Insurance Exam Prep",
+    "displayName": "Property Prep",
+    "bundleId": "com.keatingkonsultancy.propertyinsuranceexamprep",
+    "sku": "property-insurance-exam-prep",
+    "background": "#9a3412",
+    "permissions": {},
+    "wave": 2,
+    "kind": "exam"
+  },
+  {
+    "id": "tradeprep",
+    "name": "Contractor License Exam Prep",
+    "displayName": "Trade Prep",
+    "bundleId": "com.keatingkonsultancy.tradeprep",
+    "sku": "tradeprep",
+    "background": "#1f2937",
+    "permissions": {},
+    "wave": 3,
+    "kind": "exam"
+  },
+  {
+    "id": "wingprep",
+    "name": "FAA Pilot & Drone Test Prep",
+    "displayName": "FAA Tests",
+    "bundleId": "com.keatingkonsultancy.wingprep",
+    "sku": "wingprep",
+    "background": "#0b3a66",
+    "permissions": {},
+    "wave": 3,
+    "kind": "exam"
+  },
+  {
+    "id": "tidyquote",
+    "name": "TidyQuote",
+    "displayName": "TidyQuote",
+    "bundleId": "com.keatingkonsultancy.tidyquote",
+    "sku": "tidyquote",
+    "background": "#eef7f3",
+    "permissions": {
+      "NSCameraUsageDescription": "Take a photo of your logo for your quotes and invoices.",
+      "NSPhotoLibraryUsageDescription": "Choose your logo for your quotes and invoices."
+    },
+    "wave": 1,
+    "kind": "tool"
+  },
+  {
+    "id": "shiftledger",
+    "name": "ShiftLedger",
+    "displayName": "ShiftLedger",
+    "bundleId": "com.keatingkonsultancy.shiftledger",
+    "sku": "shiftledger",
+    "background": "#0b1f3a",
+    "permissions": {},
+    "wave": 1,
+    "kind": "tool"
+  },
+  {
+    "id": "firstsip",
+    "name": "FirstSip",
+    "displayName": "FirstSip",
+    "bundleId": "com.keatingkonsultancy.firstsip",
+    "sku": "firstsip",
+    "background": "#fff8f1",
+    "permissions": {},
+    "wave": 1,
+    "kind": "tool"
+  },
+  {
+    "id": "minutebank",
+    "name": "MinuteBank",
+    "displayName": "MinuteBank",
+    "bundleId": "com.keatingkonsultancy.minutebank",
+    "sku": "minutebank",
+    "background": "#f4eeff",
+    "permissions": {},
+    "wave": 1,
+    "kind": "tool"
+  },
+  {
+    "id": "brrr",
+    "name": "BRRR",
+    "displayName": "BRRR",
+    "bundleId": "com.keatingkonsultancy.brrr",
+    "sku": "brrr",
+    "background": "#0a1016",
+    "permissions": {
+      "NSLocationWhenInUseUsageDescription": "Find rental markets near you. Your location stays on your phone."
+    },
+    "wave": 1,
+    "kind": "tool"
+  }
+]

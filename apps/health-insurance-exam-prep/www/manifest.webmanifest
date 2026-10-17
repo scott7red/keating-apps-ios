@@ -1,0 +1,31 @@
+{
+  "name": "Health Insurance License Exam Prep: General Knowledge",
+  "short_name": "Health Prep",
+  "description": "Practice questions and practice exams for the general knowledge portion of the accident and health insurance producer license exam.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0e7490",
+  "theme_color": "#0e7490",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

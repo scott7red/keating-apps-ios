@@ -1,0 +1,31 @@
+{
+  "name": "California Plumbing Contractor (C-36) Exam Prep",
+  "short_name": "CA C-36",
+  "description": "Practice questions and mock exams for both exams a California plumbing contractor must pass: the CSLB C-36 Plumbing trade exam and the Law and Business exam.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a3d5c",
+  "theme_color": "#0a3d5c",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

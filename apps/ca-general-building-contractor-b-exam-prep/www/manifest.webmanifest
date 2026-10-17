@@ -1,0 +1,31 @@
+{
+  "name": "California General Building Contractor (B) Exam Prep",
+  "short_name": "CA B General",
+  "description": "Practice questions and mock exams for both exams a California general building contractor must pass: the CSLB B General Building trade exam and the Law and Business exam.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3a3a40",
+  "theme_color": "#3a3a40",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

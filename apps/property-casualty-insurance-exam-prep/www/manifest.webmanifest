@@ -1,0 +1,31 @@
+{
+  "name": "Property & Casualty Insurance License Exam Prep: General Knowledge",
+  "short_name": "P&C Prep",
+  "description": "Practice questions and practice exams for the general knowledge portions of the property and the casualty insurance license exams.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#7c2d12",
+  "theme_color": "#7c2d12",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

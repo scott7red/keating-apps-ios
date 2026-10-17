@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0" stop-color="#292f3d"/>
+      <stop offset="1" stop-color="#0e1420"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#bg)"/>
+  <g transform="translate(256 256)">
+    <path fill="#fde047" d="M-12.2 -170.93Q-8 -180 2 -180L66 -180Q76 -180 72.4 -170.67L24.16 -45.6Q22 -40 28 -40L104 -40Q114 -40 107.91 -32.07L-51.91 176.07Q-58 184 -55.15 174.41L-15.71 41.75Q-14 36 -20 36L-98 36Q-108 36 -103.8 26.93Z"/>
+  </g>
+  <g id="ca-badge">
+    <circle cx="390" cy="390" r="86" fill="url(#bg)"/>
+    <circle cx="390" cy="390" r="72" fill="#f5c451"/>
+    <text x="390" y="413" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="66" fill="#1b2433">CA</text>
+  </g>
+</svg>

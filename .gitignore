@@ -1,0 +1,17 @@
+# packages are fetched again by the build
+node_modules/
+
+# made by tools/prepare.mjs and `cap sync` on every build
+native/www/
+native/capacitor.config.json
+native/ios/App/App/public/
+native/ios/App/App/capacitor.config.json
+native/ios/App/App/config.xml
+
+# keys never go into the repository
+.vercel/
+.env*
+*.p8
+*.pem
+*.key
+.DS_Store

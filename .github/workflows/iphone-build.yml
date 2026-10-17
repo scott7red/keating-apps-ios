@@ -1,0 +1,126 @@
+# Builds the iPhone apps on GitHub's Macs and sends them to App Store Connect (TestFlight), so no Mac is needed.
+# Start it from the repository's Actions tab: "iPhone builds" > "Run workflow", and type which apps to build:
+# app ids separated by commas, or wave1 / wave2 / wave3 / all (waves are set in apps.json).
+#
+# It needs one repository secret (Settings > Secrets and variables > Actions):
+#   ASC_KEY_P8      everything in the .p8 file of the App Store Connect API key "GitHub build admin"
+#                   (the same key the Plumbline and Rule Breaker builds use)
+# No certificates are kept here. Each app is built without a signature, then Xcode signs it for the App Store
+# using that key. The bundle ID is registered automatically, but each app has to exist in App Store Connect
+# (Apps > + > New App) before its first upload; the build stops with a message saying so if it does not.
+name: iPhone builds
+
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: "Apps to build: ids separated by commas, or wave1 / wave2 / wave3 / all"
+        required: true
+        default: wave1
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      apps: ${{ steps.plan.outputs.apps }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            apps.json
+            tools
+      - id: plan
+        env:
+          APPS_INPUT: ${{ inputs.apps }}
+        run: node tools/plan.mjs >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: plan
+    runs-on: macos-26
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        app: ${{ fromJSON(needs.plan.outputs.apps) }}
+    name: ${{ matrix.app }}
+    env:
+      # the key's ID and the team's issuer ID are names, not secrets; the key itself is the secret ASC_KEY_P8
+      ASC_KEY_ID: 5569LW6J78
+      ASC_ISSUER_ID: 1f8234e3-70ea-4ab2-a594-642551fac704
+      TEAM_ID: 9T738SVTZZ
+      APP: ${{ matrix.app }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Write the App Store Connect key where Xcode looks for it
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          test -n "$ASC_KEY_P8" || { echo "::error::The secret ASC_KEY_P8 is not set."; exit 1; }
+          mkdir -p "$RUNNER_TEMP/keys" ~/.appstoreconnect/private_keys
+          # Pasting from Windows can leave carriage returns in the key; Xcode will not read it with them.
+          KEY="$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
+          printf '%s\n' "$ASC_KEY_P8" | tr -d '\r' > "$KEY"
+          if ! grep -q -- "-----BEGIN PRIVATE KEY-----" "$KEY"; then
+            { echo "-----BEGIN PRIVATE KEY-----"; grep -v '^[[:space:]]*$' "$KEY"; echo "-----END PRIVATE KEY-----"; } > "$KEY.full"
+            mv "$KEY.full" "$KEY"
+          fi
+          openssl pkey -in "$KEY" -noout 2>/dev/null || { echo "::error::ASC_KEY_P8 is not a readable key. Paste the whole .p8 file again."; exit 1; }
+          cp "$KEY" ~/.appstoreconnect/private_keys/
+          echo "ASC_KEY_PATH=$KEY" >> "$GITHUB_ENV"
+
+      - name: Check the bundle ID and the App Store Connect app
+        run: node tools/asc.mjs "$APP"
+
+      - name: Install the app shell's packages
+        working-directory: native
+        run: npm ci
+
+      - name: Put this app, its icon and its settings into the Xcode project
+        run: |
+          node tools/prepare.mjs "$APP"
+          cd native && npx cap sync ios
+
+      - name: Which Xcode
+        run: xcodebuild -version
+
+      # The build number is the run number plus the attempt, so each upload is newer than the last.
+      - name: Build the app
+        working-directory: native
+        run: |
+          xcodebuild archive \
+            -project ios/App/App.xcodeproj \
+            -scheme App \
+            -configuration Release \
+            -destination "generic/platform=iOS" \
+            -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            CURRENT_PROJECT_VERSION=${{ github.run_number }}.${{ github.run_attempt }} \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY=- \
+            AD_HOC_CODE_SIGNING_ALLOWED=YES \
+            PROVISIONING_PROFILE_SPECIFIER= \
+            DEVELOPMENT_TEAM=$TEAM_ID
+
+      - name: Sign it for the App Store
+        working-directory: native
+        run: |
+          xcodebuild -exportArchive \
+            -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            -exportOptionsPlist ios/App/ExportOptions.plist \
+            -exportPath "$RUNNER_TEMP/export" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$ASC_KEY_PATH" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+
+      - name: Upload it to App Store Connect
+        run: xcrun altool --upload-app --type ios --file "$(ls "$RUNNER_TEMP"/export/*.ipa | head -1)" --apiKey "$ASC_KEY_ID" --apiIssuer "$ASC_ISSUER_ID"
+
+      - name: Remove the key from the build machine
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys" ~/.appstoreconnect/private_keys

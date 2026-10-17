@@ -1,0 +1,31 @@
+{
+  "name": "General Contractor License Exam Prep (IRC & OSHA)",
+  "short_name": "GC Prep",
+  "description": "Practice questions and practice exams for general building contractor license exams based on the International Residential Code and federal OSHA standards.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3f3f46",
+  "theme_color": "#3f3f46",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

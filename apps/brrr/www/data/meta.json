@@ -1,0 +1,57 @@
+{
+  "v": 1,
+  "builtAt": "2026-10-12",
+  "dataYear": 2024,
+  "years": "2020–2024",
+  "access": "summary-file",
+  "zipCount": 23617,
+  "bytes": 2523400,
+  "sha1": "4e471242b5cb9e84e1ab355e019111a6f87ee7bc",
+  "minPopulation": 500,
+  "counts": {
+    "zctas": 33772,
+    "belowPopulation": 7175,
+    "missingValueOrRent": 2855,
+    "missingPlace": 125,
+    "kept": 23617
+  },
+  "topCodes": {
+    "val": 2000001,
+    "rent": 3501,
+    "tax": 10001,
+    "ybOrEarlier": 1939
+  },
+  "variables": {
+    "pop": "B01003_001E",
+    "val": "B25077_001E",
+    "rent": "B25064_001E",
+    "r1": "B25031_003E",
+    "r2": "B25031_004E",
+    "r3": "B25031_005E",
+    "r4": "B25031_006E",
+    "tax": "B25103_001E",
+    "inc": "B19013_001E",
+    "units": "B25002_001E",
+    "vacant": "B25002_003E",
+    "occupied": "B25003_001E",
+    "renterOcc": "B25003_003E",
+    "forRent": "B25004_002E",
+    "yb": "B25035_001E"
+  },
+  "variablesCheckedAgainst": "Census Data API variable list",
+  "sources": [
+    {
+      "name": "US Census Bureau, American Community Survey 5-year estimates, 2020–2024, by ZIP Code Tabulation Area",
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/",
+      "via": "ACS Summary File (table-based format)"
+    },
+    {
+      "name": "GeoNames postal codes (US)",
+      "url": "https://download.geonames.org/export/zip/",
+      "license": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "notes": [
+    "Census Data API 2024: the API now requires a key for data requests"
+  ]
+}

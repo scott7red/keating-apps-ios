@@ -1,0 +1,31 @@
+{
+  "name": "Journeyman Plumber Exam Prep (IPC & UPC)",
+  "short_name": "Plumb Prep",
+  "description": "Practice questions and practice exams for journeyman plumber and plumbing contractor exams based on the International Plumbing Code and the Uniform Plumbing Code.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0c4a6e",
+  "theme_color": "#0c4a6e",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

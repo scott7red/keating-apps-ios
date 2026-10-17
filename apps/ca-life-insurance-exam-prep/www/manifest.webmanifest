@@ -1,0 +1,31 @@
+{
+  "name": "California Life Agent (Life-Only) Insurance Exam Prep",
+  "short_name": "CA Life",
+  "description": "Practice questions and 75-question mock exams for the California Life Agent license examination (formerly called Life-Only), including the California Insurance Code and ethics.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#4a2377",
+  "theme_color": "#4a2377",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
