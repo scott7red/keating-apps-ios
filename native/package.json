@@ -6,8 +6,11 @@
   "dependencies": {
     "@capacitor/core": "^8.5.3",
     "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/geolocation": "^8.2.3",
     "@capacitor/ios": "^8.5.3",
-    "@capacitor/share": "^8.0.3"
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/share": "^8.0.3",
+    "@capgo/native-purchases": "^8.9.6"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.5.3"

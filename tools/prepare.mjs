@@ -17,10 +17,15 @@ const ios = path.join(native, 'ios', 'App')
 fs.rmSync(path.join(native, 'www'), { recursive: true, force: true })
 fs.cpSync(path.join(src, 'www'), path.join(native, 'www'), { recursive: true })
 
-// 2. Capacitor settings.
+// 2. Capacitor settings. includePlugins limits cap sync to the plugins this app uses, so no app links
+// a plugin it does not need (an unused location plugin would still need a usage string).
+if (!Array.isArray(app.plugins) || app.plugins.length === 0) throw new Error(`${id}: apps.json has no plugins list`)
+if (app.plugins.includes('@capacitor/geolocation') && !app.permissions?.NSLocationWhenInUseUsageDescription) {
+  throw new Error(`${id}: @capacitor/geolocation needs NSLocationWhenInUseUsageDescription`)
+}
 fs.writeFileSync(
   path.join(native, 'capacitor.config.json'),
-  JSON.stringify({ appId: app.bundleId, appName: app.name, webDir: 'www', backgroundColor: app.background, ios: { contentInset: 'never' } }, null, 2) + '\n',
+  JSON.stringify({ appId: app.bundleId, appName: app.name, webDir: 'www', backgroundColor: app.background, includePlugins: app.plugins, ios: { contentInset: 'never' } }, null, 2) + '\n',
 )
 
 // 3. Icon and launch screen.
@@ -53,4 +58,4 @@ pbx = pbx.replace(/IPHONEOS_DEPLOYMENT_TARGET = [^;]+;/g, 'IPHONEOS_DEPLOYMENT_T
 pbx = pbx.replace(/TARGETED_DEVICE_FAMILY = [^;]+;/g, 'TARGETED_DEVICE_FAMILY = 1;')
 fs.writeFileSync(pbxFile, pbx)
 
-console.log(`${id}: ${app.name} (${app.displayName}), ${app.bundleId}, permissions: ${perms ? Object.keys(app.permissions).join(', ') : 'none'}`)
+console.log(`${id}: ${app.name} (${app.displayName}), ${app.bundleId}, permissions: ${perms ? Object.keys(app.permissions).join(', ') : 'none'}, plugins: ${app.plugins.join(', ')}`)

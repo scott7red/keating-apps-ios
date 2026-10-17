@@ -16,6 +16,10 @@ const root = path.resolve(repo, '..')
 const sharp = createRequire(path.join(root, '_tools', 'package.json'))('sharp')
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'))
 
+// Native plugins each app uses. prepare.mjs passes this to Capacitor as includePlugins, so an app
+// never links a plugin it does not use (an unused location plugin would still need a usage string).
+const FILES = ['@capacitor/share', '@capacitor/filesystem']
+
 const TOOLS = {
   tidyquote: {
     permissions: {
@@ -24,43 +28,63 @@ const TOOLS = {
     },
   },
   shiftledger: {},
-  firstsip: {},
-  minutebank: {},
-  brrr: { permissions: { NSLocationWhenInUseUsageDescription: 'Find rental markets near you. Your location stays on your phone.' } },
+  firstsip: { plugins: [...FILES, '@capacitor/local-notifications'] },
+  minutebank: { plugins: [...FILES, '@capacitor/local-notifications'] },
+  brrr: { plugins: [...FILES, '@capacitor/geolocation'], permissions: { NSLocationWhenInUseUsageDescription: 'Find rental markets near you. Your location stays on your phone.' } },
 }
 
-// Submission waves from app-store/README.md ("Duplicate-app risk").
-const WAVE1 = [
-  'ca-real-estate-exam-prep', 'ca-real-estate-broker-exam-prep', 'private-pilot-test-prep', 'part-107-drone-test-prep',
-  'ca-contractor-law-business-exam-prep', 'ca-life-health-insurance-exam-prep', 'ca-property-casualty-insurance-exam-prep',
-  'tidyquote', 'shiftledger', 'firstsip', 'minutebank', 'brrr',
-]
-const LAST = ['wingprep', 'policyprep', 'tradeprep', 'deedprep', 'life-health-insurance-exam-prep', 'property-casualty-insurance-exam-prep']
+// The exam apps in the App Store: four industry apps, each selling its exams one by one as in-app
+// purchases. They use bundle IDs (and App Store Connect records) registered earlier for single-exam
+// apps, so the bundle ID is set here rather than derived from the id. The 25 single-exam apps stay on
+// the web only (exam-prep/apps) and are not built for the iPhone.
+const EXAM_APPS = {
+  'real-estate-exam-prep': 'com.keatingkonsultancy.carealestateexamprep',
+  'insurance-exam-prep': 'com.keatingkonsultancy.califehealthinsuranceexamprep',
+  'contractor-exam-prep': 'com.keatingkonsultancy.cacontractorlawbusinessexamprep',
+  'pilot-drone-exam-prep': 'com.keatingkonsultancy.privatepilottestprep',
+}
+
+// Every app is in the first submission wave.
+const WAVE1 = [...Object.keys(EXAM_APPS), 'tidyquote', 'shiftledger', 'firstsip', 'minutebank', 'brrr']
+const LAST = []
+
+// The SKU of an existing App Store Connect record, found by bundle ID (app-store/asc-records.json).
+const ascRecords = (() => {
+  try {
+    return Object.values(readJson(path.join(root, 'app-store', 'asc-records.json')))
+  } catch {
+    return []
+  }
+})()
+const skuFor = (id, bundleId) => ascRecords.find((record) => record.bundleId === bundleId)?.sku ?? id
 
 const skipFiles = new Set(['vercel.json', 'sw.js', '.vercel', '.gitignore'])
 const skipDirs = new Set(['support', 'privacy', 'terms']) // public web pages; the app has its own screens for these
 
 function entries() {
   const list = []
-  for (const id of fs.readdirSync(path.join(root, 'exam-prep', 'apps'))) {
+  for (const [id, bundleId] of Object.entries(EXAM_APPS)) {
     const app = readJson(path.join(root, 'exam-prep', 'apps', id, 'app.json'))
-    list.push({ id, kind: 'exam', www: path.join(root, 'exam-prep', 'builds', id), displayName: app.shortName, background: app.theme.primary, permissions: {} })
+    if (app.bundleId !== bundleId) throw new Error(`${id}: app.json bundleId ${app.bundleId} does not match ${bundleId}`)
+    list.push({ id, kind: 'exam', bundleId, www: path.join(root, 'exam-prep', 'builds', id), displayName: app.shortName, background: app.theme.primary, permissions: {}, plugins: [...FILES, '@capgo/native-purchases'] })
   }
   for (const [id, extra] of Object.entries(TOOLS)) {
     const www = path.join(root, id, 'dist')
     const manifest = readJson(path.join(www, 'manifest.webmanifest'))
-    list.push({ id, kind: 'tool', www, displayName: manifest.short_name || manifest.name, background: manifest.background_color, permissions: extra.permissions || {} })
+    list.push({ id, kind: 'tool', www, displayName: manifest.short_name || manifest.name, background: manifest.background_color, permissions: extra.permissions || {}, plugins: extra.plugins || FILES })
   }
   return list.map((e) => {
     const listing = readJson(path.join(root, 'app-store', e.id, 'listing.json'))
+    const bundleId = e.bundleId ?? `com.keatingkonsultancy.${e.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}`
     return {
       id: e.id,
       name: listing.name,
       displayName: e.displayName,
-      bundleId: `com.keatingkonsultancy.${e.id.replace(/[^a-z0-9]/gi, '').toLowerCase()}`,
-      sku: e.id,
+      bundleId,
+      sku: skuFor(e.id, bundleId),
       background: e.background,
       permissions: e.permissions,
+      plugins: e.plugins,
       wave: WAVE1.includes(e.id) ? 1 : LAST.includes(e.id) ? 3 : 2,
       kind: e.kind,
       www: e.www,

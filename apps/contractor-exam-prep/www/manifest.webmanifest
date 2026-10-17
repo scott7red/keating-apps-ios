@@ -1,0 +1,31 @@
+{
+  "name": "Contractor License Exam Coach",
+  "short_name": "Contractor",
+  "description": "Practice questions, practice exams, a study guide and flashcards for the California CSLB exams (Law and Business, C-10, C-36 and B) and for general, electrical and plumbing license exams based on the model codes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1f2937",
+  "theme_color": "#1f2937",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Pilot & Drone License Coach",
+  "short_name": "Pilot+Drone",
+  "description": "Practice questions, practice tests, a study guide and flashcards for the FAA Private Pilot Airplane and the Part 107 remote pilot (drone) knowledge tests.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b3a66",
+  "theme_color": "#0b3a66",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
