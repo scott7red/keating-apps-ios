@@ -100,7 +100,7 @@
   },
   {
     "id": "ca-real-estate-exam-prep",
-    "name": "California Real Estate Exam",
+    "name": "CA Real Estate Sales Exam Prep",
     "displayName": "CA RE Sales",
     "bundleId": "com.keatingkonsultancy.carealestateexamprep",
     "sku": "ca-real-estate-exam-prep",
@@ -221,7 +221,7 @@
   },
   {
     "id": "private-pilot-test-prep",
-    "name": "FAA Private Pilot Test Prep",
+    "name": "Private Pilot Knowledge Test",
     "displayName": "Pilot Prep",
     "bundleId": "com.keatingkonsultancy.privatepilottestprep",
     "sku": "private-pilot-test-prep",
@@ -290,7 +290,7 @@
   },
   {
     "id": "shiftledger",
-    "name": "ShiftLedger",
+    "name": "ShiftLedger: Tips & Overtime",
     "displayName": "ShiftLedger",
     "bundleId": "com.keatingkonsultancy.shiftledger",
     "sku": "shiftledger",
@@ -301,7 +301,7 @@
   },
   {
     "id": "firstsip",
-    "name": "FirstSip",
+    "name": "FirstSip: GLP-1 Pill Timer",
     "displayName": "FirstSip",
     "bundleId": "com.keatingkonsultancy.firstsip",
     "sku": "firstsip",
@@ -323,7 +323,7 @@
   },
   {
     "id": "brrr",
-    "name": "BRRR",
+    "name": "BRRR Deal Analyzer",
     "displayName": "BRRR",
     "bundleId": "com.keatingkonsultancy.brrr",
     "sku": "brrr",

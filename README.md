@@ -15,6 +15,9 @@ Each app is bundled whole inside its iPhone app and works offline. Nothing is lo
   - the submission wave (see `app-store/README.md`).
 - **`apps/<id>/`**: the built web app (`www/`), the 1024 icon and the launch screen.
 - **`native/`**: the shared Xcode project. `tools/prepare.mjs <id>` turns it into one app on the build machine. It sets the name, bundle ID, icon, launch screen and permissions, and makes the app iPhone-only, portrait-only and iOS 16 or later.
+  - It includes two official Capacitor plugins, `@capacitor/filesystem` and `@capacitor/share`, because the iPhone web view cannot save downloads or share files. Each app's `src/lib/files.ts` uses them at run time through `window.Capacitor.Plugins`: it writes an export (PDF, CSV, backup, .ics) to the app's cache and opens the iOS share sheet with it.
+  - `npx cap sync ios` lists the plugins in `ios/App/CapApp-SPM/Package.swift`. The workflow runs it on every build, and the committed copy matches.
+  - `ios/App/App/PrivacyInfo.xcprivacy` declares the file-timestamp reason (C617.1) that Apple requires for the Filesystem plugin.
 - **`.github/workflows/iphone-build.yml`**: the build.
 
 ## Updating the apps

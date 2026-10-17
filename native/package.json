@@ -5,7 +5,9 @@
   "description": "The shared iPhone shell (Capacitor) for the Keating Konsultancy apps. Each app is bundled inside; no server is involved.",
   "dependencies": {
     "@capacitor/core": "^8.5.3",
-    "@capacitor/ios": "^8.5.3"
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/share": "^8.0.3"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.5.3"
