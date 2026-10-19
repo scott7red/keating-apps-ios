@@ -148,17 +148,25 @@ final class TidyQuoteTour: Tour {
             }
         } else if let library = options["Photo Library"] {
             tapFound(library, scroll: false, before: 1.2, after: 2.0)
-            let photos = app.images.matching(NSPredicate(format: "label BEGINSWITH[c] 'Photo'"))
-            _ = photos.firstMatch.waitForExistence(timeout: 10)
+            // The picker lists the newest picture first: the made-up logo the workflow added just before the tour.
+            let newest = app.images.matching(NSPredicate(format: "label BEGINSWITH[c] 'Photo,'")).firstMatch
             dumpTree("photo picker")
-            let shown = photos.allElementsBoundByIndex.filter { $0.isHittable }
-            // The newest picture (the logo the workflow added) is last in the grid.
-            if let newest = shown.max(by: { ($0.frame.maxY, $0.frame.maxX) < ($1.frame.maxY, $1.frame.maxX) }) {
-                pause(1.0)
-                markTap(newest.frame)
-                newest.tap()
+            if newest.waitForExistence(timeout: 10) {
+                pause(2.0)
+                let f = newest.frame
+                mark("note", "picked \(newest.label)")
+                markTap(f)
+                app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: f.midX, dy: f.midY)).tap()
                 pause(1.5)
-                tapIfPresent("Choose", how: .exact, kinds: [[.button]])
+                for name in ["Add", "Choose", "Done"] {
+                    let b = app.buttons[name]
+                    if b.exists && b.isHittable {
+                        markTap(b.frame)
+                        b.tap()
+                        pause(1.0)
+                        break
+                    }
+                }
             } else {
                 mark("note", "no photos in the picker")
                 dumpTree("photo picker empty", force: true)

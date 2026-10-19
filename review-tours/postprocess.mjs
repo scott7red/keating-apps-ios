@@ -55,10 +55,12 @@ const raw = probe('raw.mp4')
 // offset that lines up the most taps wins. If too few line up, the marks are not used on that video: it is
 // kept whole, with no circles, no speeding up and no step pictures.
 let estimated = null
+// The moments the picture changes (showinfo prints each selected frame's time on stderr).
+const changes = marks.some((m) => m.kind === 'tap')
+  ? [...String(spawnSync('ffmpeg', ['-hide_banner', '-i', 'raw.mp4', '-vf', "scale=160:-2,select='gt(scene,0.06)',showinfo", '-f', 'null', '-'],
+    { cwd: dir, encoding: 'utf8', maxBuffer: 1 << 26 }).stderr).matchAll(/pts_time:([\d.]+)/g)].map((m) => Number(m[1]))
+  : []
 if (!fs.existsSync(at('rec-start.txt')) && marks.some((m) => m.kind === 'tap')) {
-  // showinfo prints each selected frame's time on stderr.
-  const r = spawnSync('ffmpeg', ['-hide_banner', '-i', 'raw.mp4', '-vf', "scale=160:-2,select='gt(scene,0.06)',showinfo", '-f', 'null', '-'], { cwd: dir, encoding: 'utf8', maxBuffer: 1 << 26 })
-  const changes = [...String(r.stderr).matchAll(/pts_time:([\d.]+)/g)].map((m) => Number(m[1]))
   const taps = marks.filter((m) => m.kind === 'tap').map((m) => m.t)
   let best = { score: -1, offset: 0 }
   for (const s of changes) {
@@ -80,12 +82,48 @@ const aligned = fs.existsSync(at('rec-start.txt'))
 const recStart = aligned ? Number(fs.readFileSync(at('rec-start.txt'), 'utf8').trim()) : 0
 const first = (kind) => marks.find((m) => m.kind === kind)
 const last = (kind) => [...marks].reverse().find((m) => m.kind === kind)
-const rel = (m) => m.t - recStart
+// The simulator's recording does not keep wall-clock time exactly: it falls behind as it goes (about 10% in
+// a 6-minute tour), so a fixed start time drifts. The drift is tracked from the taps: each tap normally
+// changes the picture a moment later, so the nearest picture change pins that tap's place in the video.
+const anchors = []
+if (aligned && changes.length) {
+  let offset = 0
+  for (const m of marks.filter((x) => x.kind === 'tap')) {
+    const t = m.t - recStart
+    const want = t + offset + 0.3
+    const near = changes.filter((c) => c >= want - 2.5 && c <= want + 2.0)
+    if (!near.length) continue
+    const c = near.reduce((a, b) => (Math.abs(b - want) < Math.abs(a - want) ? b : a))
+    const next = c - 0.3 - t
+    if (Math.abs(next - offset) > 2.5) continue
+    offset = next
+    anchors.push([t, offset])
+  }
+  // A running median smooths out taps matched to the wrong change.
+  const smooth = anchors.map(([t], i) => {
+    const window = anchors.slice(Math.max(0, i - 2), i + 3).map((a) => a[1]).sort((a, b) => a - b)
+    return [t, window[Math.floor(window.length / 2)]]
+  })
+  anchors.splice(0, anchors.length, ...smooth)
+}
+const offsetAt = (t) => {
+  if (!anchors.length) return 0
+  if (t <= anchors[0][0]) return anchors[0][1]
+  for (let i = 1; i < anchors.length; i++) {
+    if (t <= anchors[i][0]) {
+      const [ta, oa] = anchors[i - 1]
+      const [tb, ob] = anchors[i]
+      return oa + ((ob - oa) * (t - ta)) / Math.max(0.001, tb - ta)
+    }
+  }
+  return anchors[anchors.length - 1][1]
+}
+const rel = (m) => m.t - recStart + offsetAt(m.t - recStart)
 
 const startMark = first('start')
 const endMark = last('end') || marks[marks.length - 1]
 const t0 = aligned ? Math.max(0, startMark ? rel(startMark) - 0.8 : 0) : 0
-const t1 = aligned ? Math.min(raw.duration, endMark ? rel(endMark) + 1.2 : raw.duration) : raw.duration
+const t1 = aligned ? Math.min(raw.duration, endMark ? rel(endMark) + 1.5 : raw.duration) : raw.duration
 const T = (m) => rel(m) - t0 // time in the trimmed video
 
 // ---- sped-up waits ----
@@ -227,6 +265,7 @@ const info = {
   spedUp: waits.map((w) => ({ at: Number(finalTime(w.a).toFixed(1)), realSeconds: Math.round(w.real), factor: w.factor, caption: w.caption })),
   aligned,
   alignment: estimated,
+  drift: anchors.length ? { anchors: anchors.length, of: marks.filter((m) => m.kind === 'tap').length, first: Number(anchors[0][1].toFixed(2)), last: Number(anchors[anchors.length - 1][1].toFixed(2)) } : null,
   failed: marks.some((m) => m.kind === 'fail'),
   stepsRun: marks.filter((m) => m.kind === 'step').map((m) => m.detail),
   notes: marks.filter((m) => m.kind === 'note' || m.kind === 'alert').map((m) => `${m.kind}: ${m.detail}`),

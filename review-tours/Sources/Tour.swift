@@ -251,7 +251,8 @@ class Tour: XCTestCase {
             if let kt = keyboardTop, kt > top + 80 { bottom = min(bottom, kt) }
             if f.midY >= top && f.midY <= bottom { return }
             // Already fully on screen and tappable (for example in a fixed bar at the bottom): leave it.
-            if f.minY >= w.minY + 44 && f.maxY <= min(w.maxY - 8, keyboardTop ?? w.maxY) && element.isHittable { return }
+            // (Not in the bottom 110 points, where a tab bar can cover it while the element still counts as hittable.)
+            if f.minY >= w.minY + 44 && f.maxY <= min(w.maxY - 110, keyboardTop ?? w.maxY) && element.isHittable { return }
             let target = top + (bottom - top) * 0.4
             let limit = w.height * 0.42
             drag(max(-limit, min(limit, target - f.midY)))

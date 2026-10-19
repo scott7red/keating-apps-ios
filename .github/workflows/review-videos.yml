@@ -189,6 +189,8 @@ jobs:
             t 20 xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool YES
           done
           if [ "$APP" = "tidyquote" ]; then t 90 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
+          # Installed now, so its icon is on the Home Screen when the tour starts (the test run installs it again).
+          t 180 xcrun simctl install "$UDID" "$RUNNER_TEMP/dd/Build/Products/Debug-iphonesimulator/App.app"
           cat "$FB/setup.log"
 
       - name: Record the tour
