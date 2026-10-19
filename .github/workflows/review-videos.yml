@@ -174,7 +174,7 @@ jobs:
         timeout-minutes: 8
         run: |
           # Each command gets a time limit (macOS has no `timeout`) and a line in setup.log.
-          t() { local s=$1; shift; echo "$(date +%T) $*" >> "$FB/setup.log"; perl -e 'alarm shift; exec @ARGV' "$s" "$@" >> "$FB/setup.log" 2>&1; local r=$?; echo "  -> exit $r" >> "$FB/setup.log"; return 0; }
+          t() { local s=$1; shift; echo "$(date +%T) $*" >> "$FB/setup.log"; local r=0; perl -e 'alarm shift; exec @ARGV' "$s" "$@" >> "$FB/setup.log" 2>&1 || r=$?; echo "  -> exit $r" >> "$FB/setup.log"; return 0; }
           TIME=()
           [ "${{ steps.tour.outputs.clock }}" = "true" ] && TIME=(--time 9:41)
           t 30 xcrun simctl status_bar "$UDID" override "${TIME[@]}" --dataNetwork wifi --wifiMode active --wifiBars 3 \
@@ -188,7 +188,8 @@ jobs:
           for k in DidShowContinuousPathIntroduction DidShowGestureKeyboardIntroduction KeyboardDidShowProductivityTutorial UIKeyboardDidShowInternationalInfoIntroduction; do
             t 20 xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool YES
           done
-          if [ "$APP" = "tidyquote" ]; then t 90 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
+          # (Adding the photo sometimes hangs while Photos starts up: one more try.)
+          if [ "$APP" = "tidyquote" ]; then t 60 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; grep -q "exit 0" <(tail -1 "$FB/setup.log") || t 90 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
           # Installed now, so its icon is on the Home Screen when the tour starts (the test run installs it again).
           t 180 xcrun simctl install "$UDID" "$RUNNER_TEMP/dd/Build/Products/Debug-iphonesimulator/App.app"
           cat "$FB/setup.log"
@@ -495,6 +496,19 @@ jobs:
         run: |
           set +e
           for f in info.json sheet.jpg last.jpg marks.tsv postprocess.log; do [ -f "$OUT/$f" ] && cp "$OUT/$f" "$FB/"; done
+          # The test report from the phone carries the element trees and the failure screenshot.
+          XR=$(find "$OUT/results" -name "*.xcresult" -type d 2>/dev/null | head -1)
+          if [ -n "$XR" ]; then
+            xcrun xcresulttool export attachments --path "$XR" --output-path "$OUT/attachments" > /dev/null 2>&1
+            mkdir -p "$FB/trees"
+            cp "$OUT/attachments/manifest.json" "$FB/trees/" 2>/dev/null
+            for a in "$OUT"/attachments/*; do
+              case "$a" in
+                *.txt) cp "$a" "$FB/trees/" ;;
+                *.png|*.jpg|*.jpeg|*.heic) command -v ffmpeg > /dev/null && ffmpeg -hide_banner -loglevel error -y -i "$a" -vf scale=420:-2 -q:v 4 "$FB/trees/$(basename "${a%.*}").jpg" ;;
+              esac
+            done
+          fi
           [ -f "$OUT/build.log" ] && { grep -E "error:|\*\* BUILD" "$OUT/build.log" | head -80; echo "-----"; tail -60 "$OUT/build.log"; } > "$FB/build-tail.txt"
           [ -f "$FB/status.txt" ] || echo "did not run" > "$FB/status.txt"
           du -sh "$FB"; ls -la "$FB"

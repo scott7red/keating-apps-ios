@@ -118,6 +118,13 @@ class Tour: XCTestCase {
         } catch {
             mark("note", "tree not saved: \(error.localizedDescription)")
         }
+        // On a real iPhone (Test Lab) the file stays on the phone: the test report carries a copy.
+        if !onSimulator || force {
+            let attachment = XCTAttachment(string: text)
+            attachment.name = file.lastPathComponent
+            attachment.lifetime = .keepAlways
+            add(attachment)
+        }
     }
 
     /// One step of the tour: a named activity in the test report and a mark for the step sheet.
@@ -377,7 +384,7 @@ class Tour: XCTestCase {
 
     /// Taps the text field labelled `label`, clears it and types `text` at a readable speed.
     func type(_ text: String, into label: String, clear: Bool = true, how: How? = nil, file: StaticString = #filePath, line: UInt = #line) {
-        let field = waitFor(label, how: how, kinds: [Tour.fields], file: file, line: line)
+        let field = findField(label, how: how) ?? waitFor(label, how: how, kinds: [Tour.fields], file: file, line: line)
         tapElement(field, before: 0.5, after: 0.4)
         _ = app.keyboards.firstMatch.waitForExistence(timeout: 4)
         if clear, let current = field.value as? String, !current.isEmpty, current != (field.placeholderValue ?? "") {
@@ -385,6 +392,31 @@ class Tour: XCTestCase {
         }
         typeSlowly(text)
         pause(0.8)
+    }
+
+    /// A text field by its label. Some iOS versions name a web field by its placeholder, or not at all; then the
+    /// field is the one just below the visible label text.
+    func findField(_ label: String, how: How?, timeout: Double = 15) -> XCUIElement? {
+        let deadline = Date().addingTimeInterval(timeout)
+        repeat {
+            if let f = find(label, how: how, kinds: [Tour.fields]) { return f }
+            let types = Tour.fields.map { NSNumber(value: $0.rawValue) }
+            let byPlaceholder = app.descendants(matching: .any)
+                .matching(NSPredicate(format: "elementType IN %@ AND placeholderValue BEGINSWITH[c] %@", types, label)).firstMatch
+            if byPlaceholder.exists { return byPlaceholder }
+            if let text = find(label, how: how ?? .prefix, kinds: [Tour.passive]) {
+                let lf = text.frame
+                let fields = app.descendants(matching: .any).matching(NSPredicate(format: "elementType IN %@", types))
+                let below = (0..<min(fields.count, 40)).map { fields.element(boundBy: $0) }
+                    .filter { $0.frame.minY >= lf.maxY - 4 && $0.frame.minY < lf.maxY + 80 && $0.frame.maxX > lf.minX && $0.frame.minX < lf.maxX }
+                if let nearest = below.min(by: { $0.frame.minY < $1.frame.minY }) {
+                    mark("note", "field \(label) found below its label")
+                    return nearest
+                }
+            }
+            Thread.sleep(forTimeInterval: 0.4)
+        } while Date() < deadline
+        return nil
     }
 
     /// Types into whatever has the keyboard now.

@@ -41,3 +41,19 @@ Newest entries at the bottom of each section.
   (find() prefers the hittable match, else the last); Settings back buttons are named after the parent screen in
   FirstSip ("Settings", "More"), hence the generic top-left back().
 - Test Lab runs every test in the .xctestrun, so `xctestrun.py` limits it to the app's tour (OnlyTestIdentifiers).
+- Run 2: recording, keyboard, share sheet (Save to Files > On My iPhone > Save) all work. XCTest queries are fast
+  (~0.05 s); a full `app.snapshot()` takes 1-2 s, so a snapshot-based finder (run 5) was slower: reverted to queries.
+- WebKit reports wrong AX frames for TidyQuote's fixed tab bar (left:50% + translateX(-50%)): "Settings" frame
+  centred at x=263 instead of 361. `tab()` taps the k-th of n tabs at (k+0.5)/n of the width (`tabBars` per tour).
+  Elements in the bottom 110 pt are always scrolled up first (else a tap can land on the tab bar).
+- Homebrew's ffmpeg has no drawtext (no FreeType): captions/labels are drawn by `textpng.swift` (AppKit) and overlaid.
+- dumpTree must write non-atomically (atomic writes fail from the simulator's runner).
+- The app icon is not on the Home Screen until installed: the workflow now runs `simctl install` before filming.
+- PHPicker lists the newest photo first ("Photo, October 19, 11:13 AM"); images are not "hittable": tap by frame.
+- simctl's recording falls behind wall-clock time (~10% over 6 min), so marks drift; postprocess tracks the drift
+  from taps matched to picture changes (ffmpeg scene detection), with a running median.
+- Test Lab pilot (runs 5, 6; iPhone 14 Pro iOS 16.6, the newest iPhone on iOS <18): ad hoc signed build accepted
+  and scheduled, then "Infrastructure error occurred" x3 (no logs, no video). Test Lab runs Xcode 26.2; tried:
+  removing Xcode 26's DYLD_INSERT_LIBRARIES=/usr/lib/libRPAC.dylib (absent on iOS 16); next: build with Xcode 26.2.
+  Test Lab iOS devices: iphone14pro/11pro/8 (16.6), iphone16pro (18.3), iphonese3 (18.4, 26.3); no video on 18+.
+- Attachment dry run works: TidyQuote 1.0 is PREPARE_FOR_SUBMISSION with App Review Information present.
