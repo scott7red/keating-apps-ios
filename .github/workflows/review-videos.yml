@@ -486,43 +486,40 @@ jobs:
           compression-level: 0
           retention-days: 30
 
-  # One commit for the whole run, so the matrix jobs never race to push.
-  feedback:
-    needs: [plan, simulator, testlab]
-    if: always() && needs.plan.result == 'success'
+  # The feedback goes to the review-videos-out branch as soon as each kind of recording is done (Test Lab
+  # takes longer); one push per job, so the matrix jobs never race (review-tours/push-feedback.sh).
+  feedback-simulator:
+    needs: [plan, simulator]
+    if: always() && needs.plan.result == 'success' && needs.plan.outputs.simulator == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           sparse-checkout: review-tours
-
       - uses: actions/download-artifact@v4
         with:
-          pattern: feedback-*
+          pattern: feedback-simulator-*
           path: ${{ runner.temp }}/fb
           merge-multiple: true
-
       - name: Push the feedback to the review-videos-out branch
         env:
           GH_TOKEN: ${{ github.token }}
-          RUN: ${{ github.run_number }}
-        run: |
-          set -e
-          ls -R "$RUNNER_TEMP/fb" | head -80
-          W="$RUNNER_TEMP/outbranch"
-          git init -q "$W"
-          cd "$W"
-          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
-          if git fetch -q --depth=1 origin review-videos-out; then git checkout -q FETCH_HEAD -- . ; fi
-          # Keep only the latest runs, as one fresh commit, so the repository does not grow.
-          for d in $(ls -d [0-9]* 2>/dev/null | sort -n | head -n -5); do rm -rf "$d"; done
-          rm -rf "$RUN"
-          mkdir -p "$RUN"
-          cp -R "$RUNNER_TEMP/fb/." "$RUN/"
-          node "$GITHUB_WORKSPACE/review-tours/ci.mjs" summary "$RUN" "$RUN" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          printf '# Review video feedback\n\nOne folder per run of the "Review videos" workflow (only the latest runs are kept). See each run'"'"'s README.md.\n' > README.md
-          git checkout -q --orphan fresh
-          git add -A
-          git -c user.name="github-actions" -c user.email="github-actions@users.noreply.github.com" commit -q -m "Review video feedback, run $RUN"
-          git push -q -f origin HEAD:review-videos-out
-          du -sh "$RUN"
+        run: bash review-tours/push-feedback.sh "$RUNNER_TEMP/fb" "${{ github.run_number }}" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+  feedback-testlab:
+    needs: [plan, testlab]
+    if: always() && needs.plan.result == 'success' && needs.plan.outputs.testlab == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: review-tours
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: feedback-testlab-*
+          path: ${{ runner.temp }}/fb
+          merge-multiple: true
+      - name: Push the feedback to the review-videos-out branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash review-tours/push-feedback.sh "$RUNNER_TEMP/fb" "${{ github.run_number }}" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
