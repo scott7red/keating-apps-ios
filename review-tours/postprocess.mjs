@@ -60,6 +60,11 @@ const changes = marks.some((m) => m.kind === 'tap')
   ? [...String(spawnSync('ffmpeg', ['-hide_banner', '-i', 'raw.mp4', '-vf', "scale=160:-2,select='gt(scene,0.06)',showinfo", '-f', 'null', '-'],
     { cwd: dir, encoding: 'utf8', maxBuffer: 1 << 26 }).stderr).matchAll(/pts_time:([\d.]+)/g)].map((m) => Number(m[1]))
   : []
+// Kept for checking the alignment offline, with the frame timing of the recording.
+const frameInfo = spawnSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-count_packets', '-show_entries',
+  'stream=r_frame_rate,avg_frame_rate,nb_read_packets,duration,start_time', '-of', 'json', 'raw.mp4'], { cwd: dir, encoding: 'utf8' }).stdout
+fs.writeFileSync(at('changes.json'), JSON.stringify({ changes, frames: JSON.parse(frameInfo || '{}').streams?.[0] ?? null,
+  recStop: fs.existsSync(at('rec-stop.txt')) ? Number(fs.readFileSync(at('rec-stop.txt'), 'utf8')) : null }))
 if (!fs.existsSync(at('rec-start.txt')) && marks.some((m) => m.kind === 'tap')) {
   const taps = marks.filter((m) => m.kind === 'tap').map((m) => m.t)
   let best = { score: -1, offset: 0 }
