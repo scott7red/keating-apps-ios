@@ -13,7 +13,7 @@
 // Needs ffmpeg and ffprobe.
 import fs from 'node:fs'
 import path from 'node:path'
-import { execFileSync } from 'node:child_process'
+import { execFileSync, spawnSync } from 'node:child_process'
 
 const dir = path.resolve(process.argv[2] || '.')
 const at = (f) => path.join(dir, f)
@@ -38,11 +38,36 @@ const marks = text.split('\n').filter(Boolean).map((l) => {
   return { t: Number(t), kind, detail: rest.join('\t').trim() }
 }).filter((m) => Number.isFinite(m.t))
 
-// Without rec-start.txt (a Test Lab video, whose start time is not known) the marks cannot be placed on
-// the video: it is kept whole, with no circles, no speeding up and no step pictures.
+const raw = probe('raw.mp4')
+
+// A Test Lab video has no rec-start.txt: when it started is not known. It is worked out by matching the
+// tour's taps with the moments the picture changes (most taps change the screen within a second): the
+// offset that lines up the most taps wins. If too few line up, the marks are not used on that video: it is
+// kept whole, with no circles, no speeding up and no step pictures.
+let estimated = null
+if (!fs.existsSync(at('rec-start.txt')) && marks.some((m) => m.kind === 'tap')) {
+  // showinfo prints each selected frame's time on stderr.
+  const r = spawnSync('ffmpeg', ['-hide_banner', '-i', 'raw.mp4', '-vf', "scale=160:-2,select='gt(scene,0.06)',showinfo", '-f', 'null', '-'], { cwd: dir, encoding: 'utf8', maxBuffer: 1 << 26 })
+  const changes = [...String(r.stderr).matchAll(/pts_time:([\d.]+)/g)].map((m) => Number(m[1]))
+  const taps = marks.filter((m) => m.kind === 'tap').map((m) => m.t)
+  let best = { score: -1, offset: 0 }
+  for (const s of changes) {
+    for (const t of taps.slice(0, 8)) {
+      const offset = s - t - 0.15
+      const score = taps.filter((x) => changes.some((c) => c >= x + offset && c <= x + offset + 1.2)).length
+      if (score > best.score) best = { score, offset }
+    }
+  }
+  if (best.score >= Math.max(4, Math.round(taps.length * 0.35))) {
+    estimated = { recStart: -best.offset, matchedTaps: best.score, taps: taps.length, sceneChanges: changes.length }
+    fs.writeFileSync(at('rec-start.txt'), estimated.recStart.toFixed(3))
+  } else {
+    estimated = { failed: true, matchedTaps: best.score, taps: taps.length, sceneChanges: changes.length }
+  }
+  console.log('alignment', JSON.stringify(estimated))
+}
 const aligned = fs.existsSync(at('rec-start.txt'))
 const recStart = aligned ? Number(fs.readFileSync(at('rec-start.txt'), 'utf8').trim()) : 0
-const raw = probe('raw.mp4')
 const first = (kind) => marks.find((m) => m.kind === kind)
 const last = (kind) => [...marks].reverse().find((m) => m.kind === kind)
 const rel = (m) => m.t - recStart
@@ -172,6 +197,7 @@ const info = {
   taps: taps.length,
   spedUp: waits.map((w) => ({ at: Number(finalTime(w.a).toFixed(1)), realSeconds: Math.round(w.real), factor: w.factor, caption: w.caption })),
   aligned,
+  alignment: estimated,
   failed: marks.some((m) => m.kind === 'fail'),
   stepsRun: marks.filter((m) => m.kind === 'step').map((m) => m.detail),
   notes: marks.filter((m) => m.kind === 'note' || m.kind === 'alert').map((m) => `${m.kind}: ${m.detail}`),
