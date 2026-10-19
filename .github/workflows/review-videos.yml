@@ -315,6 +315,8 @@ jobs:
     env:
       APP: ${{ matrix.app }}
       MODE: testlab
+      # Test Lab runs XCTests with Xcode 26.2: build with the same Xcode.
+      DEVELOPER_DIR: /Applications/Xcode_26.2.app/Contents/Developer
       GCP_READY: ${{ vars.GCP_WIF_PROVIDER != '' && vars.GCP_SERVICE_ACCOUNT != '' && vars.FIREBASE_PROJECT != '' }}
     steps:
       - uses: actions/checkout@v4
@@ -372,7 +374,22 @@ jobs:
           for a in Debug-iphoneos/*.app; do codesign --verify --deep --verbose=2 "$a" 2>&1 | tee -a "$FB/codesign.txt"; done
           zip -qr "$OUT/tests.zip" Debug-iphoneos *.xctestrun
           ls -la "$OUT/tests.zip"
-          plutil -p *.xctestrun | head -60 > "$FB/xctestrun.txt" || true
+          plutil -p *.xctestrun > "$FB/xctestrun.txt" || true
+
+      - name: The team's signing assets (read-only)
+        continue-on-error: true
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          KEY="$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
+          printf '%s\n' "$ASC_KEY_P8" | tr -d '\r' > "$KEY"
+          if ! grep -q -- "-----BEGIN PRIVATE KEY-----" "$KEY"; then
+            { echo "-----BEGIN PRIVATE KEY-----"; grep -v '^[[:space:]]*$' "$KEY"; echo "-----END PRIVATE KEY-----"; } > "$KEY.full"
+            mv "$KEY.full" "$KEY"
+          fi
+          ASC_KEY_PATH="$KEY" node review-tours/signing-check.mjs "$APP" 2>&1 | tee "$FB/signing.txt"
+          rm -rf "$RUNNER_TEMP/keys"
 
       - name: Test Lab is not set up yet
         if: env.GCP_READY != 'true'
@@ -410,7 +427,12 @@ jobs:
           cat "$OUT/testlab.out"; tail -40 "$OUT/testlab.log"
           cp "$OUT/testlab.out" "$FB/testlab-out.txt"; tail -120 "$OUT/testlab.log" > "$FB/testlab-log.txt"
           MATRIX=$(grep -oE "matrix-[a-z0-9]+" "$OUT/testlab.log" | head -1 || true)
-          if [ -n "$MATRIX" ]; then curl -s -H "Authorization: Bearer $(gcloud auth print-access-token)" "https://testing.googleapis.com/v1/projects/$PROJECT/testMatrices/$MATRIX" > "$FB/matrix.json" || true; fi
+          if [ -n "$MATRIX" ]; then
+            TOKEN=$(gcloud auth print-access-token)
+            curl -s -H "Authorization: Bearer $TOKEN" "https://testing.googleapis.com/v1/projects/$PROJECT/testMatrices/$MATRIX" > "$FB/matrix.json" || true
+            STEP=$(node -e 'const m=require(process.argv[1]);const s=m.testExecutions?.[0]?.toolResultsStep;if(s)console.log(`projects/${s.projectId}/histories/${s.historyId}/executions/${s.executionId}/steps/${s.stepId}`)' "$FB/matrix.json" || true)
+            if [ -n "$STEP" ]; then curl -s -H "Authorization: Bearer $TOKEN" "https://toolresults.googleapis.com/toolresults/v1beta3/$STEP" > "$FB/step.json" || true; fi
+          fi
           BUCKET=$(grep -oE "storage/browser/[^/]+" "$OUT/testlab.log" | head -1 | sed 's#storage/browser/##' || true)
           [ -n "$BUCKET" ] || BUCKET=$(gcloud storage buckets list --format="value(name)" | grep -m1 '^test-lab-' || true)
           echo "status $STATUS, results gs://$BUCKET/$DIR"
