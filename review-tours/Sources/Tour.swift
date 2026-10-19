@@ -438,7 +438,20 @@ class Tour: XCTestCase {
         } else if let d = s.nodes.first(where: { $0.type == .button && $0.label == "Done" && kb.contains(CGPoint(x: $0.frame.midX, y: $0.frame.midY)) }) {
             tapPoint(d.frame)
         } else {
-            app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.09)).tap()
+            // A tap on plain text (nothing that reacts to a tap) takes the focus away from the field.
+            // (Not a field's label either: a tap there focuses the field again.)
+            let controls = s.nodes.filter { Tour.actionable.contains($0.type) }.map { $0.frame.insetBy(dx: -6, dy: -6) }
+                + s.nodes.filter { Tour.fields.contains($0.type) }.map { $0.frame.insetBy(dx: -6, dy: -44) }
+            let plain = s.nodes.first { n in
+                n.type == .staticText && !n.frame.isEmpty && n.frame.minY > s.window.height * 0.12 && n.frame.maxY < kb.minY - 60
+                    && !controls.contains { $0.intersects(n.frame) }
+            }
+            if let p = plain {
+                tapPoint(p.frame)
+            } else {
+                mark("note", "no Done button or plain text to put the keyboard away")
+                dumpTree("keyboard stays", force: true)
+            }
         }
         pause(0.8)
     }
