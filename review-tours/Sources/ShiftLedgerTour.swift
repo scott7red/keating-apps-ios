@@ -55,10 +55,10 @@ final class ShiftLedgerTour: Tour {
             show("Toward the caps", hold: 2.0)
         }
         step("The shift list") {
-            tap("Shifts", how: .exact, after: 2.5)
+            tab("Shifts", after: 2.5)
         }
         step("The deduction and how it is worked out") {
-            tap("Deduction", how: .exact, after: 1.5)
+            tab("Deduction", after: 1.5)
             show("Total deduction", hold: 1.5)
             show("Est. federal tax saved", hold: 1.5)
             show("Breakdown", hold: 1.0)
@@ -79,17 +79,17 @@ final class ShiftLedgerTour: Tour {
             shareSheetSaveToFiles()
         }
         step("The quick calculator") {
-            tap("Tools", how: .exact, after: 1.5)
+            tab("Tools", after: 1.5)
             show("Quick calculator", hold: 2.5)
         }
         step("Example data") {
-            tap("Settings", how: .exact)
+            tab("Settings")
             tap("Try the app with example data", how: .prefix)
             tap("Show example data", how: .exact, after: 1.5)
-            tap("Home", how: .exact, after: 1.5)
+            tab("Home", after: 1.5)
             show("You are looking at example data", hold: 1.5)
             scrollDown(0.35, times: 2, hold: 1.3)
-            tap("Settings", how: .exact)
+            tab("Settings")
             tap("Remove example data", how: .exact)
             tap("Remove example data", how: .exact, after: 1.5)
         }

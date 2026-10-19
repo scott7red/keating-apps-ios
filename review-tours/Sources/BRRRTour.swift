@@ -67,11 +67,11 @@ final class BRRRTour: Tour {
             tapIfPresent("Close", how: .exact)
         }
         step("Deals") {
-            tap("Deals", how: .exact, after: 1.5)
+            tab("Deals", after: 1.5)
             show("100 Example St", hold: 2.0)
         }
         step("Markets near me, with the location prompt") {
-            tap("Markets", how: .exact, after: 1.5)
+            tab("Markets", after: 1.5)
             tap("Near me", how: .exact, after: 1.2)
             tap("Use my location", how: .exact, after: 0.5)
             answerSystemAlert(["Allow While Using App", "Allow Once", "Allow"])
@@ -88,20 +88,20 @@ final class BRRRTour: Tour {
             show("Census", hold: 2.5)
         }
         step("Learn") {
-            tap("Learn", how: .exact, after: 1.5)
+            tab("Learn", after: 1.5)
             scrollDown(0.35, times: 2, hold: 1.2)
         }
         step("Analyze") {
-            tap("Analyze", how: .exact, after: 1.5)
+            tab("Analyze", after: 1.5)
             scrollDown(0.35, times: 2, hold: 1.0)
         }
         step("Example data") {
-            tap("Settings", how: .exact, after: 1.2)
+            tab("Settings", after: 1.2)
             tap("Try the app with example data", how: .prefix, after: 1.5)
             tapIfPresent("Add examples", how: .exact)
-            tap("Deals", how: .exact, after: 2.0)
+            tab("Deals", after: 2.0)
             scrollDown(0.3, times: 1, hold: 1.2)
-            tap("Settings", how: .exact, after: 1.2)
+            tab("Settings", after: 1.2)
             tap("Remove example data", how: .exact)
             tap("Remove examples", how: .exact, after: 1.5)
         }

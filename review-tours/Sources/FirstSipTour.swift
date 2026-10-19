@@ -78,18 +78,18 @@ final class FirstSipTour: Tour {
             pause(1.5)
         }
         step("History") {
-            tap("History", how: .exact, after: 1.5)
+            tab("History", after: 1.5)
             show("Doses", hold: 2.0)
         }
         step("Weight") {
-            tap("Weight", how: .exact, after: 1.2)
+            tab("Weight", after: 1.2)
             tap("Log weight", how: .exact)
             type("180", into: "Weight (lb)", how: .prefix)
             hideKeyboard()
             tap("Save weight", how: .exact, after: 2.0)
         }
         step("A symptom") {
-            tap("Symptoms", how: .exact, after: 1.2)
+            tab("Symptoms", after: 1.2)
             tap("Log a symptom", how: .exact)
             tap("Nausea", how: .exact, after: 0.8)
             show("How bad is it?", hold: 0.8)
@@ -97,28 +97,28 @@ final class FirstSipTour: Tour {
             tap("Save symptom", how: .exact, after: 2.0)
         }
         step("The doctor report PDF, through the share sheet") {
-            tap("More", how: .exact, after: 1.2)
+            tab("More", after: 1.2)
             tap("Doctor report", how: .prefix, after: 1.5)
             show("In this report", hold: 2.0)
             tap("Share or save PDF", how: .exact, after: 1.5)
             shareSheetSaveToFiles()
         }
         step("The calendar reminder screen") {
-            tap("More", how: .exact, after: 1.2)
+            tab("More", after: 1.2)
             tap("Daily reminder", how: .prefix, after: 1.5)
             show("Add a daily reminder to the Calendar app", hold: 2.0)
             show("How it works", hold: 2.0)
-            tap("More", how: .exact, after: 1.2)
+            tab("More", after: 1.2)
         }
         step("Example data") {
             tap("Settings", how: .prefix, after: 1.5)
             tap("Try the app with example data", how: .prefix, after: 2.0)
             tapIfPresent("Show example data", how: .exact)
-            tap("History", how: .exact, after: 2.0)
+            tab("History", after: 2.0)
             scrollDown(0.3, times: 1, hold: 1.2)
-            tap("Weight", how: .exact, after: 2.0)
+            tab("Weight", after: 2.0)
             scrollDown(0.3, times: 1, hold: 1.2)
-            tap("More", how: .exact, after: 1.2)
+            tab("More", after: 1.2)
             tap("Settings", how: .prefix, after: 1.5)
             tap("Remove example data", how: .exact)
             tapIfPresent("Remove example data", how: .exact)

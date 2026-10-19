@@ -47,7 +47,7 @@ class ExamTour: Tour {
         setUpProfile(slow: true)
         step("The free sample: practice questions") {
             show("Free sample", hold: 2.5)
-            tap("Practice", how: .exact, after: 1.5)
+            tab("Practice", after: 1.5)
             tap("Start a Quick 10", how: .exact, after: 1.5)
             answer("A")
             show("Next question", hold: 2.0)
@@ -57,7 +57,7 @@ class ExamTour: Tour {
             tap("Close", how: .prefix, after: 1.5)
         }
         step("The free sample: the study guide") {
-            tap("Learn", how: .exact, after: 1.5)
+            tab("Learn", after: 1.5)
             tap("Start reading:", how: .prefix, after: 2.0)
             scrollDown(0.35, times: 2, hold: 1.2)
             back()
@@ -94,8 +94,8 @@ class ExamTour: Tour {
                 show("Glossary", hold: 2.0)
             }
             step("A timed test") {
-                tap("Tests", how: .exact, after: 1.5)
-                tap("Practice Test 1", how: .prefix, after: 1.5)
+                tab("Tests", after: 1.5)
+                tap("Practice Test 1", how: .prefix, pick: .first, after: 1.5)
                 show("Exam mode", hold: 1.5)
                 tap("Start Practice Test 1", how: .exact, after: 2.0)
                 pause(1.5)
@@ -109,7 +109,7 @@ class ExamTour: Tour {
                 scrollDown(0.3, times: 2, hold: 1.5)
             }
             step("Erase all data") {
-                tap("Home", how: .exact, after: 1.5)
+                tab("Home", after: 1.5)
                 tap("Settings", how: .exact, after: 1.5)
                 tap("Erase all data", how: .prefix)
                 tap("Erase everything", how: .exact, after: 2.0)
@@ -120,8 +120,8 @@ class ExamTour: Tour {
             setUpProfile(slow: false)
         } else {
             step("Buy, on a real iPhone without a sandbox account") {
-                if let buy = find("Buy for", how: .prefix, kinds: [[.button]]), buy.isEnabled {
-                    tapElement(buy, before: 1.0, after: 2.0)
+                if let buy = find("Buy for", how: .prefix, kinds: [[.button]]), buy.node.enabled {
+                    tapFound(buy, before: 1.0, after: 2.0)
                     dumpTree("device purchase", force: true)
                     pause(8.0)
                     for name in ["Cancel", "Not Now", "Close"] {
@@ -193,11 +193,19 @@ class ExamTour: Tour {
     }
 
     /// Taps an answer by its letter (the answers read "A ...", "B ...").
-    func answer(_ letter: String) {
-        let q = app.webViews.firstMatch.buttons.matching(NSPredicate(format: "label BEGINSWITH %@ OR label BEGINSWITH %@", letter + " ", letter + ","))
-        let choice = q.firstMatch
-        XCTAssertTrue(choice.waitForExistence(timeout: 15), "No answer \(letter)")
-        tapElement(choice, before: 1.5, after: 2.0)
+    func answer(_ letter: String, file: StaticString = #filePath, line: UInt = #line) {
+        let deadline = Date().addingTimeInterval(15)
+        while Date() < deadline {
+            let s = screen()
+            if let n = s.nodes.first(where: { $0.type == .button && !$0.frame.isEmpty && ($0.label.hasPrefix(letter + " ") || $0.label.hasPrefix(letter + ",")) }) {
+                let found = Found(node: n, text: n.label, how: .exact, ordinal: 0)
+                tapFound(found, before: 1.5, after: 2.0)
+                return
+            }
+            Thread.sleep(forTimeInterval: 0.4)
+        }
+        dumpTree("no answer \(letter)", force: true)
+        XCTFail("No answer \(letter)", file: file, line: line)
     }
 
     /// Waits until the sheet shows the price (or says why not).

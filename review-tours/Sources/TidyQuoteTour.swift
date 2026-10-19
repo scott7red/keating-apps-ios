@@ -73,7 +73,7 @@ final class TidyQuoteTour: Tour {
             show("Paid", hold: 2.0)
         }
         step("A logo for the quotes and invoices") {
-            tap("Settings", how: .exact)
+            tab("Settings")
             tap("Business profile", how: .prefix)
             tap("Upload logo", how: .exact, after: 1.5)
             pickLogo()
@@ -88,14 +88,14 @@ final class TidyQuoteTour: Tour {
         step("Example data") {
             tap("Try the app with example data", how: .prefix)
             tap("Add examples", how: .exact, after: 1.5)
-            tap("Home", how: .exact, after: 1.5)
+            tab("Home", after: 1.5)
             show("Needs attention", hold: 2.5)
             scrollDown(0.3, times: 1, hold: 1.5)
             tap("Remove example data", how: .exact)
             tap("Remove examples", how: .exact, after: 1.5)
         }
         step("Help, Privacy policy and About") {
-            tap("Settings", how: .exact)
+            tab("Settings")
             tap("Help", how: .prefix, after: 1.5)
             scrollDown(0.3, times: 2, hold: 1.2)
             back()
@@ -118,17 +118,18 @@ final class TidyQuoteTour: Tour {
     /// which has no camera: a made-up logo picture from the photo library (put there by the workflow).
     func pickLogo() {
         let menu = ["Take Photo", "Photo Library", "Choose File"]
-        var options: [String: XCUIElement] = [:]
+        var options: [String: Found] = [:]
         let deadline = Date().addingTimeInterval(8)
         while options.isEmpty && Date() < deadline {
+            let s = screen()
             for name in menu {
-                if let e = find(name, how: .exact, kinds: [[.button, .menuItem, .cell, .staticText]]), e.isHittable { options[name] = e }
+                if let e = find(name, how: .exact, kinds: [[.button, .menuItem, .cell, .staticText]], in: s), onScreen(e.frame, s) { options[name] = e }
             }
             if options.isEmpty { Thread.sleep(forTimeInterval: 0.4) }
         }
         dumpTree("logo menu")
         if let camera = options["Take Photo"], !onSimulator {
-            tapElement(camera, before: 1.2, after: 1.0)
+            tapFound(camera, scroll: false, before: 1.2, after: 1.0)
             answerSystemAlert(["Allow", "OK"], timeout: 10)
             let shutter = app.buttons["PhotoCapture"].exists ? app.buttons["PhotoCapture"] : app.buttons["Take Picture"]
             if shutter.waitForExistence(timeout: 10) {
@@ -146,7 +147,7 @@ final class TidyQuoteTour: Tour {
                 dumpTree("camera", force: true)
             }
         } else if let library = options["Photo Library"] {
-            tapElement(library, before: 1.2, after: 2.0)
+            tapFound(library, scroll: false, before: 1.2, after: 2.0)
             let photos = app.images.matching(NSPredicate(format: "label BEGINSWITH[c] 'Photo'"))
             _ = photos.firstMatch.waitForExistence(timeout: 10)
             dumpTree("photo picker")

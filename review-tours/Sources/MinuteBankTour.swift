@@ -61,13 +61,13 @@ final class MinuteBankTour: Tour {
             show("Your score", hold: 2.5)
         }
         step("Earn with a chore") {
-            tap("Earn", how: .exact, after: 1.2)
+            tab("Earn", after: 1.2)
             tap("Chores", how: .prefix, after: 1.2)
             tap("Done: Make your bed", how: .exact, after: 1.2)
             show("Waiting for a parent", hold: 2.0)
         }
         step("The parent approves") {
-            tap("Parents", how: .exact)
+            tab("Parents")
             waitText("Enter your 4-digit PIN")
             enterPin()
             waitText("Approvals")
@@ -77,7 +77,7 @@ final class MinuteBankTour: Tour {
         }
         var started = Date()
         step("Start 10 minutes of screen time") {
-            tap("Use time", how: .exact, after: 1.2)
+            tab("Use time", after: 1.2)
             tap("Another amount", how: .exact, after: 1.2)
             tap("Start 10 minutes", how: .exact, after: 0.5)
             started = Date()
@@ -88,14 +88,14 @@ final class MinuteBankTour: Tour {
             tap("Hide timer", how: .exact, after: 1.5)
         }
         step("The parent area while the timer runs") {
-            tap("Parents", how: .exact)
+            tab("Parents")
             waitText("Enter your 4-digit PIN")
             enterPin()
             for name in ["Kids", "Rules", "Activity"] {
                 tap(name, how: .exact, after: 1.0)
                 scrollDown(0.3, times: 1, hold: 1.0)
             }
-            tap("Settings", how: .exact, after: 1.2)
+            tab("Settings", after: 1.2)
             for name in ["Help", "Privacy policy", "About"] {
                 tap(name, how: .prefix, after: 1.5)
                 scrollDown(0.3, times: 1, hold: 1.2)
@@ -124,18 +124,18 @@ final class MinuteBankTour: Tour {
             tap("End now", how: .exact, after: 2.0)
         }
         step("Example data") {
-            tap("Parents", how: .exact)
+            tab("Parents")
             waitText("Enter your 4-digit PIN")
             enterPin()
-            tap("Settings", how: .exact, after: 1.2)
+            tab("Settings", after: 1.2)
             tap("Show example data", how: .exact)
             tap("Show example data", how: .exact, after: 1.5)
-            tap("Activity", how: .exact, after: 1.5)
+            tab("Activity", after: 1.5)
             scrollDown(0.3, times: 1, hold: 1.5)
             tap("Remove example data", how: .exact, after: 1.5)
         }
         step("Erase all data") {
-            tap("Settings", how: .exact, after: 1.2)
+            tab("Settings", after: 1.2)
             tap("Erase", how: .exact)
             tap("Erase all data", how: .exact, kinds: [[.button]], after: 2.0)
             waitText("Get started", timeout: 20)
