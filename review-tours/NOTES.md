@@ -31,6 +31,17 @@ Newest entries at the bottom of each section.
   Signing: ad hoc (`CODE_SIGN_IDENTITY=-`), relying on Test Lab re-signing; untested yet.
 - Test Lab videos cannot be aligned with the marks (unknown video start), so they are kept whole (no circles/speed-up).
 
+## Status per app (simulator, iPhone 17 Pro, iOS 26.2)
+
+Order (coordinator, Oct 19): tidyquote, shiftledger, firstsip, minutebank, brrr, real-estate, pilot-drone, contractor, insurance.
+One app at a time; Test Lab dropped (coordinator decision).
+
+| App | Status | Run | Video artifact | Length | Notes |
+|---|---|---|---|---|---|
+| tidyquote | PASSED, all 15 steps | 8 (actions run 39191688851) | video-simulator-tidyquote | 5:09 | Logo from the photo library (no camera in the simulator, so no camera prompt); no Airplane Mode in a simulator |
+| shiftledger | in progress (run 8: keyboard covered the tips fields; fixed) | | | | |
+| others | first attempts in run 8 failed early; fixes pushed (answers by position, back links, settle-before-tap, optional location prompt) | | | | |
+
 ## Log
 
 - Run 1: plan, simulator boot (iOS 26.2), npm ci, prepare, add-target.rb and build-for-testing all worked first time.

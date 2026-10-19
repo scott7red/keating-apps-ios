@@ -1,5 +1,4 @@
 {
-  "apps": ["all"],
-  "mode": "simulator",
+  "apps": ["shiftledger"],
   "debug": true
 }

@@ -44,7 +44,8 @@ class Tour: XCTestCase {
     }
 
     override func setUpWithError() throws {
-        continueAfterFailure = false
+        // Carry on after a miss, so the recording always runs to the end (the miss is still reported).
+        continueAfterFailure = true
         // Xcode's default limit per test is 10 minutes; MinuteBank's tour is longer.
         executionTimeAllowance = 3600
         try? FileManager.default.createDirectory(at: Tour.outDir, withIntermediateDirectories: true)
@@ -246,6 +247,7 @@ class Tour: XCTestCase {
 
     /// Scrolls (slowly, with no fling) until the element sits comfortably on screen.
     func reveal(_ element: XCUIElement) {
+        guard element.exists else { return }
         // With the keyboard up, only the part above it (and its toolbar) counts as on screen.
         let keyboard = app.keyboards.firstMatch
         let keyboardTop: CGFloat? = keyboard.exists ? keyboard.frame.minY - 56 : nil
@@ -312,6 +314,10 @@ class Tour: XCTestCase {
 
     /// Taps the element at its centre after bringing it into view, with a pause before and after.
     func tapElement(_ element: XCUIElement, before: Double = 0.7, after: Double = 1.3) {
+        guard element.exists else {
+            mark("note", "skipped a tap: the element is not there")
+            return
+        }
         reveal(element)
         pause(before)
         // Wait for it to stop moving (a sheet sliding up, a list growing after the last tap).
@@ -392,6 +398,7 @@ class Tour: XCTestCase {
     /// Taps the text field labelled `label`, clears it and types `text` at a readable speed.
     func type(_ text: String, into label: String, clear: Bool = true, how: How? = nil, file: StaticString = #filePath, line: UInt = #line) {
         let field = findField(label, how: how) ?? waitFor(label, how: how, kinds: [Tour.fields], file: file, line: line)
+        guard field.exists else { return }
         // A field behind the keyboard (or its bar) cannot always be scrolled above it inside a sheet: put the
         // keyboard away first, then scroll to the field and tap it.
         let keyboard = app.keyboards.firstMatch
