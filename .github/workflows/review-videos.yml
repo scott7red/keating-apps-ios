@@ -1,0 +1,510 @@
+# Records the App Review screen recordings of the iPhone apps on GitHub's Macs, with no one touching a phone.
+# Each app's tour (review-tours/Sources/<App>Tour.swift) opens the real app from the Home Screen and taps
+# through it like a person, following the app's review notes and "App Review Videos.pdf". Nothing is added
+# to the app: the tour is a UI test that only exists on the build machine (review-tours/add-target.rb).
+#
+# Two ways to record (input "mode"):
+#   simulator  an iPhone simulator on the GitHub Mac, filmed with `simctl io recordVideo`. The exam apps buy
+#              their exam through a local StoreKit configuration (made from review-tours/iap-products.json),
+#              so Apple's purchase sheet appears and completes with no account and no money.
+#   testlab    a real iPhone in Firebase Test Lab, which films every run. Needs the repository variables
+#              GCP_WIF_PROVIDER, GCP_SERVICE_ACCOUNT and FIREBASE_PROJECT (Workload Identity Federation,
+#              no key). The free plan allows 5 real-device runs a day.
+#
+# Start it from Actions > "Review videos" > "Run workflow", or push to the review-videos branch, which
+# records what review-tours/run.json lists. The videos are the run's artifacts (video-<mode>-<app>).
+# A small feedback bundle per app (contact sheets, the screen at each step, logs) is pushed to the branch
+# review-videos-out under <run number>/<app>/<mode>/; that branch keeps only the latest runs.
+# With "attach" on, each finished video is added to its app's App Store Connect version as the App Review
+# attachment (review-tours/attach.mjs); otherwise that script only reports what it would do.
+name: Review videos
+
+on:
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: "Apps: ids separated by commas, or all / tools / exams"
+        required: true
+        default: all
+      mode:
+        description: "Where to record"
+        type: choice
+        options: [simulator, testlab, both]
+        default: simulator
+      attach:
+        description: "Add each finished video to its App Store Connect version as the App Review attachment"
+        type: boolean
+        default: false
+      attach_from:
+        description: "Which recording to attach (when attach is on)"
+        type: choice
+        options: [simulator, testlab]
+        default: simulator
+      debug:
+        description: "Also save what the tour sees at every step (element trees)"
+        type: boolean
+        default: false
+  push:
+    branches: [review-videos]
+    paths:
+      - review-tours/**
+      - .github/workflows/review-videos.yml
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: review-videos-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'push' }}
+
+env:
+  ASC_KEY_ID: 5569LW6J78
+  ASC_ISSUER_ID: 1f8234e3-70ea-4ab2-a594-642551fac704
+  TEAM_ID: 9T738SVTZZ
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      apps: ${{ steps.plan.outputs.apps }}
+      simulator: ${{ steps.plan.outputs.simulator }}
+      testlab: ${{ steps.plan.outputs.testlab }}
+      attach: ${{ steps.plan.outputs.attach }}
+      debug: ${{ steps.plan.outputs.debug }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            apps.json
+            review-tours
+      - id: plan
+        env:
+          EVENT: ${{ github.event_name }}
+          IN_APPS: ${{ inputs.apps }}
+          IN_MODE: ${{ inputs.mode }}
+          IN_ATTACH: ${{ inputs.attach }}
+          IN_DEBUG: ${{ inputs.debug }}
+        run: node review-tours/plan.mjs >> "$GITHUB_OUTPUT"
+
+  simulator:
+    needs: plan
+    if: needs.plan.outputs.simulator == 'true'
+    runs-on: macos-26
+    timeout-minutes: 80
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        app: ${{ fromJSON(needs.plan.outputs.apps) }}
+    name: simulator ${{ matrix.app }}
+    defaults:
+      run:
+        shell: bash
+    env:
+      APP: ${{ matrix.app }}
+      MODE: simulator
+      SIM_IOS: "26.2"
+      SIM_DEVICE: iPhone 17 Pro
+      DEBUG_TREES: ${{ needs.plan.outputs.debug }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Folders, and ffmpeg installing in the background
+        run: |
+          echo "OUT=$RUNNER_TEMP/out" >> "$GITHUB_ENV"
+          echo "FB=$RUNNER_TEMP/feedback/$APP/$MODE" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/out" "$RUNNER_TEMP/feedback/$APP/$MODE"
+          if command -v ffmpeg > /dev/null; then touch "$RUNNER_TEMP/ffmpeg.done"; else
+            nohup bash -c 'export HOMEBREW_NO_AUTO_UPDATE=1 HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1; brew install ffmpeg; touch "$RUNNER_TEMP/ffmpeg.done"' > "$RUNNER_TEMP/brew.log" 2>&1 &
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: This app's tour
+        id: tour
+        run: node review-tours/ci.mjs tour "$APP" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Start an iPhone simulator (daytime clock, on-screen keyboard)
+        run: |
+          xcodebuild -version
+          TZONE=$(node review-tours/ci.mjs timezone)
+          sudo ln -sf "/usr/share/zoneinfo/$TZONE" /etc/localtime
+          date
+          RUNTIME=$(xcrun simctl list runtimes -j | node review-tours/ci.mjs runtime "$SIM_IOS")
+          UDID=$(xcrun simctl create "App Review" "$SIM_DEVICE" "$RUNTIME")
+          echo "UDID=$UDID" >> "$GITHUB_ENV"
+          defaults write com.apple.iphonesimulator ConnectHardwareKeyboard -bool false
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b > /dev/null
+          echo "Booted $SIM_DEVICE ($RUNTIME) $UDID"
+
+      - name: Install the app shell's packages
+        working-directory: native
+        run: npm ci
+
+      - name: Put this app into the Xcode project, with its tour beside it
+        run: |
+          node tools/prepare.mjs "$APP"
+          (cd native && npx cap sync ios)
+          gem install xcodeproj --no-document --silent || sudo gem install xcodeproj --no-document --silent
+          SK=()
+          if [ "${{ steps.tour.outputs.storekit }}" = "true" ]; then
+            node review-tours/storekit.mjs "$APP" "$GITHUB_WORKSPACE/review-tours/Review.storekit"
+            SK=("$GITHUB_WORKSPACE/review-tours/Review.storekit")
+          fi
+          ruby review-tours/add-target.rb "$APP" "${SK[@]}"
+
+      - name: Build the app and the tour
+        run: |
+          set +e
+          xcodebuild build-for-testing \
+            -project native/ios/App/App.xcodeproj -scheme ReviewTour -configuration Debug \
+            -destination "id=$UDID" -derivedDataPath "$RUNNER_TEMP/dd" \
+            CODE_SIGNING_ALLOWED=NO > "$OUT/build.log" 2>&1
+          STATUS=$?
+          grep -E "error:|\*\* BUILD" "$OUT/build.log" | head -60
+          [ $STATUS -eq 0 ] || { tail -80 "$OUT/build.log"; echo "build failed" > "$FB/status.txt"; exit 1; }
+
+      - name: Set up the simulator for filming
+        run: |
+          # No autocorrection, suggestions or keyboard tips, so typed text stays exactly as typed.
+          for k in KeyboardAutocorrection KeyboardPrediction KeyboardShowPredictionBar KeyboardCheckSpelling KeyboardAutocapitalization KeyboardSmartPunctuation; do
+            xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool NO
+          done
+          for k in DidShowContinuousPathIntroduction DidShowGestureKeyboardIntroduction KeyboardDidShowProductivityTutorial UIKeyboardDidShowInternationalInfoIntroduction; do
+            xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool YES
+          done
+          TIME=()
+          [ "${{ steps.tour.outputs.clock }}" = "true" ] && TIME=(--time 9:41)
+          xcrun simctl status_bar "$UDID" override "${TIME[@]}" --dataNetwork wifi --wifiMode active --wifiBars 3 \
+            --cellularMode active --cellularBars 4 --operatorName "" --batteryState charged --batteryLevel 100
+          xcrun simctl ui "$UDID" appearance light
+          if [ -n "${{ steps.tour.outputs.location }}" ]; then xcrun simctl location "$UDID" set "${{ steps.tour.outputs.location }}"; fi
+          if [ "$APP" = "tidyquote" ]; then xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
+
+      - name: Record the tour
+        id: record
+        run: |
+          xcrun simctl io "$UDID" recordVideo --codec=h264 --mask=black --force "$OUT/raw.mp4" > "$OUT/record.log" 2>&1 &
+          REC=$!
+          for i in $(seq 1 75); do grep -qi "recording started" "$OUT/record.log" && break; sleep 0.2; done
+          node -e 'console.log((Date.now() / 1000).toFixed(3))' > "$OUT/rec-start.txt"
+          cat "$OUT/record.log"
+          XCTESTRUN=$(ls "$RUNNER_TEMP"/dd/Build/Products/*.xctestrun | head -1)
+          set +e
+          TEST_RUNNER_TOUR_OUT="$OUT" TEST_RUNNER_TOUR_DEBUG="$([ "$DEBUG_TREES" = true ] && echo 1 || echo 0)" \
+            xcodebuild test-without-building -xctestrun "$XCTESTRUN" -destination "id=$UDID" \
+            -only-testing "ReviewTour/${{ steps.tour.outputs.class }}/testTour" \
+            -resultBundlePath "$OUT/tour.xcresult" > "$OUT/test.log" 2>&1
+          STATUS=$?
+          set -e
+          sleep 2
+          kill -INT "$REC"
+          wait "$REC" || true
+          grep -E "Test Case|error:|Executed|TEST (SUCCEEDED|FAILED)|Testing failed" "$OUT/test.log" | tail -25 || true
+          if [ $STATUS -eq 0 ] && grep -q "Executed 1 test, with 0 failures" "$OUT/test.log"; then
+            echo passed > "$FB/status.txt"
+          else
+            echo "failed (xcodebuild exit $STATUS)" > "$FB/status.txt"
+          fi
+          ls -la "$OUT"
+
+      - name: Make the video and the pictures
+        id: video
+        if: always() && steps.record.outcome != 'skipped'
+        run: |
+          for i in $(seq 1 120); do [ -f "$RUNNER_TEMP/ffmpeg.done" ] && break; sleep 5; done
+          command -v ffmpeg > /dev/null || { tail -20 "$RUNNER_TEMP/brew.log"; brew install ffmpeg; }
+          node review-tours/postprocess.mjs "$OUT"
+          mkdir -p "$OUT/video"
+          mv "$OUT/final.mp4" "$OUT/video/${{ steps.tour.outputs.video }}.mp4"
+
+      - name: Write the App Store Connect key (for the attachment step)
+        if: always() && steps.video.outcome == 'success'
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          test -n "$ASC_KEY_P8" || { echo "::warning::The secret ASC_KEY_P8 is not set."; exit 0; }
+          mkdir -p "$RUNNER_TEMP/keys"
+          KEY="$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
+          printf '%s\n' "$ASC_KEY_P8" | tr -d '\r' > "$KEY"
+          if ! grep -q -- "-----BEGIN PRIVATE KEY-----" "$KEY"; then
+            { echo "-----BEGIN PRIVATE KEY-----"; grep -v '^[[:space:]]*$' "$KEY"; echo "-----END PRIVATE KEY-----"; } > "$KEY.full"
+            mv "$KEY.full" "$KEY"
+          fi
+          echo "ASC_KEY_PATH=$KEY" >> "$GITHUB_ENV"
+
+      - name: App Review attachment (only a dry run unless "attach" is on)
+        if: always() && steps.video.outcome == 'success' && env.ASC_KEY_PATH != ''
+        continue-on-error: true
+        run: |
+          FLAG=()
+          if [ "${{ needs.plan.outputs.attach }}" = "true" ] && [ "${{ inputs.attach_from || 'simulator' }}" = "$MODE" ] && [ "$(cat "$FB/status.txt")" = passed ]; then FLAG=(--upload); fi
+          node review-tours/attach.mjs "$APP" "$OUT/video/${{ steps.tour.outputs.video }}.mp4" "${FLAG[@]}" 2>&1 | tee "$FB/attach.txt"
+
+      - name: Remove the key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"
+
+      - name: Collect the feedback
+        if: always()
+        run: |
+          for f in info.json sheet.jpg steps.jpg last.jpg marks.tsv record.log; do [ -f "$OUT/$f" ] && cp "$OUT/$f" "$FB/"; done
+          [ -f "$OUT/test.log" ] && grep -v "^TOURMARK" "$OUT/test.log" | tail -250 > "$FB/test-tail.txt"
+          [ -f "$OUT/build.log" ] && { grep -E "error:|\*\* BUILD" "$OUT/build.log" | head -80; echo "-----"; tail -60 "$OUT/build.log"; } > "$FB/build-tail.txt"
+          if [ -d "$OUT/tour.xcresult" ]; then
+            xcrun xcresulttool get test-results summary --path "$OUT/tour.xcresult" > "$FB/xcresult-summary.json" 2>&1 || true
+            xcrun xcresulttool export attachments --path "$OUT/tour.xcresult" --output-path "$OUT/attachments" > /dev/null 2>&1 || true
+            if command -v ffmpeg > /dev/null && [ -d "$OUT/attachments" ]; then
+              n=0
+              for img in "$OUT"/attachments/*.png "$OUT"/attachments/*.jpeg "$OUT"/attachments/*.jpg "$OUT"/attachments/*.heic; do
+                [ -f "$img" ] || continue
+                n=$((n + 1)); ffmpeg -hide_banner -loglevel error -y -i "$img" -vf scale=420:-2 -q:v 4 "$FB/attachment-$n.jpg" || true
+              done
+            fi
+          fi
+          if [ -d "$OUT/trees" ]; then mkdir -p "$FB/trees" && cp "$OUT"/trees/*.txt "$FB/trees/" 2>/dev/null || true; fi
+          [ -f "$FB/status.txt" ] || echo "did not run" > "$FB/status.txt"
+          du -sh "$FB"; ls -la "$FB"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: feedback-simulator-${{ matrix.app }}
+          path: ${{ runner.temp }}/feedback
+          if-no-files-found: ignore
+
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.video.outcome == 'success'
+        with:
+          name: video-simulator-${{ matrix.app }}
+          path: ${{ runner.temp }}/out/video
+          compression-level: 0
+          retention-days: 30
+
+  testlab:
+    needs: plan
+    if: needs.plan.outputs.testlab == 'true'
+    runs-on: macos-26
+    timeout-minutes: 100
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        app: ${{ fromJSON(needs.plan.outputs.apps) }}
+    name: testlab ${{ matrix.app }}
+    defaults:
+      run:
+        shell: bash
+    env:
+      APP: ${{ matrix.app }}
+      MODE: testlab
+      GCP_READY: ${{ vars.GCP_WIF_PROVIDER != '' && vars.GCP_SERVICE_ACCOUNT != '' && vars.FIREBASE_PROJECT != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Folders, and ffmpeg installing in the background
+        run: |
+          echo "OUT=$RUNNER_TEMP/out" >> "$GITHUB_ENV"
+          echo "FB=$RUNNER_TEMP/feedback/$APP/$MODE" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/out" "$RUNNER_TEMP/feedback/$APP/$MODE"
+          if command -v ffmpeg > /dev/null; then touch "$RUNNER_TEMP/ffmpeg.done"; else
+            nohup bash -c 'export HOMEBREW_NO_AUTO_UPDATE=1 HOMEBREW_NO_INSTALL_CLEANUP=1 HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1; brew install ffmpeg; touch "$RUNNER_TEMP/ffmpeg.done"' > "$RUNNER_TEMP/brew.log" 2>&1 &
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: This app's tour
+        id: tour
+        run: node review-tours/ci.mjs tour "$APP" | tee -a "$GITHUB_OUTPUT"
+
+      - name: Install the app shell's packages
+        working-directory: native
+        run: npm ci
+
+      - name: Put this app into the Xcode project, with its tour beside it
+        run: |
+          node tools/prepare.mjs "$APP"
+          (cd native && npx cap sync ios)
+          gem install xcodeproj --no-document --silent || sudo gem install xcodeproj --no-document --silent
+          ruby review-tours/add-target.rb "$APP"
+
+      # Test Lab signs the app and the tour again with its own certificate and profile, so both are built
+      # with an ad hoc signature here: no certificate or device registration is needed.
+      - name: Build the app and the tour for a real iPhone
+        run: |
+          xcodebuild -version
+          set +e
+          xcodebuild build-for-testing \
+            -project native/ios/App/App.xcodeproj -scheme ReviewTour -configuration Debug \
+            -sdk iphoneos -destination "generic/platform=iOS" -derivedDataPath "$RUNNER_TEMP/dd" \
+            CODE_SIGN_STYLE=Manual CODE_SIGN_IDENTITY=- AD_HOC_CODE_SIGNING_ALLOWED=YES \
+            PROVISIONING_PROFILE_SPECIFIER= DEVELOPMENT_TEAM=$TEAM_ID > "$OUT/build.log" 2>&1
+          STATUS=$?
+          grep -E "error:|\*\* BUILD" "$OUT/build.log" | head -60
+          [ $STATUS -eq 0 ] || { tail -80 "$OUT/build.log"; echo "build failed" > "$FB/status.txt"; exit 1; }
+
+      - name: Package it for Test Lab
+        run: |
+          cd "$RUNNER_TEMP/dd/Build/Products"
+          ls -la . Debug-iphoneos
+          for a in Debug-iphoneos/*.app; do codesign --verify --deep --verbose=2 "$a" 2>&1 | tee -a "$FB/codesign.txt"; done
+          zip -qr "$OUT/tests.zip" Debug-iphoneos *.xctestrun
+          ls -la "$OUT/tests.zip"
+          plutil -p *.xctestrun | head -60 > "$FB/xctestrun.txt" || true
+
+      - name: Test Lab is not set up yet
+        if: env.GCP_READY != 'true'
+        run: |
+          echo "::notice::Test Lab skipped: set the repository variables GCP_WIF_PROVIDER, GCP_SERVICE_ACCOUNT and FIREBASE_PROJECT."
+          echo "skipped: no Google Cloud variables" > "$FB/status.txt"
+
+      - uses: google-github-actions/auth@v2
+        if: env.GCP_READY == 'true'
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+
+      - uses: google-github-actions/setup-gcloud@v2
+        if: env.GCP_READY == 'true'
+
+      - name: Run the tour on a real iPhone in Test Lab
+        id: record
+        if: env.GCP_READY == 'true'
+        env:
+          PROJECT: ${{ vars.FIREBASE_PROJECT }}
+        run: |
+          gcloud config set project "$PROJECT"
+          gcloud firebase test ios models list --format=json > "$OUT/models.json"
+          gcloud firebase test ios models list > "$FB/models.txt" 2>&1 || true
+          DEVICE=$(node review-tours/ci.mjs testlab-device < "$OUT/models.json")
+          echo "$DEVICE" | tee "$FB/device.txt"
+          DIR="review-videos/${{ github.run_number }}-${{ github.run_attempt }}/$APP"
+          set +e
+          gcloud firebase test ios run --test "$OUT/tests.zip" --device "$DEVICE" --timeout 30m \
+            --results-dir "$DIR" --record-video > "$OUT/testlab.out" 2> "$OUT/testlab.log"
+          STATUS=$?
+          set -e
+          cat "$OUT/testlab.out"; tail -40 "$OUT/testlab.log"
+          cp "$OUT/testlab.out" "$FB/testlab-out.txt"; tail -120 "$OUT/testlab.log" > "$FB/testlab-log.txt"
+          BUCKET=$(grep -oE "storage/browser/[^/]+" "$OUT/testlab.log" | head -1 | sed 's#storage/browser/##')
+          [ -n "$BUCKET" ] || BUCKET=$(gcloud storage buckets list --format="value(name)" | grep -m1 '^test-lab-' || true)
+          echo "status $STATUS, results gs://$BUCKET/$DIR"
+          mkdir -p "$OUT/results"
+          if [ -n "$BUCKET" ]; then
+            gcloud storage ls -r "gs://$BUCKET/$DIR/**" > "$FB/results-list.txt" 2>&1 || true
+            gcloud storage cp -r "gs://$BUCKET/$DIR/*" "$OUT/results/" > /dev/null 2>&1 || true
+          fi
+          find "$OUT/results" -type f -exec ls -la {} \; | head -80
+          VIDEO=$(find "$OUT/results" -name "*.mp4" | head -1)
+          LOG=$(find "$OUT/results" -name "xcodebuild_output.log" | head -1)
+          [ -n "$LOG" ] && { cp "$LOG" "$OUT/test.log"; grep -v "^TOURMARK" "$LOG" | tail -250 > "$FB/test-tail.txt"; grep "TOURMARK" "$LOG" | sed 's/^.*TOURMARK\t//' > "$OUT/marks.tsv" || true; }
+          if [ -n "$VIDEO" ]; then cp "$VIDEO" "$OUT/raw.mp4"; echo "video=yes" >> "$GITHUB_OUTPUT"; fi
+          if [ $STATUS -eq 0 ]; then echo passed > "$FB/status.txt"; else echo "failed (gcloud exit $STATUS)" > "$FB/status.txt"; fi
+          [ -n "$VIDEO" ] || echo "no video in the results" >> "$FB/status.txt"
+
+      - name: Make the video and the pictures
+        id: video
+        if: always() && steps.record.outputs.video == 'yes'
+        run: |
+          for i in $(seq 1 120); do [ -f "$RUNNER_TEMP/ffmpeg.done" ] && break; sleep 5; done
+          command -v ffmpeg > /dev/null || { tail -20 "$RUNNER_TEMP/brew.log"; brew install ffmpeg; }
+          node review-tours/postprocess.mjs "$OUT"
+          mkdir -p "$OUT/video"
+          mv "$OUT/final.mp4" "$OUT/video/${{ steps.tour.outputs.video }}.mp4"
+
+      - name: Write the App Store Connect key (for the attachment step)
+        if: always() && steps.video.outcome == 'success'
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          test -n "$ASC_KEY_P8" || { echo "::warning::The secret ASC_KEY_P8 is not set."; exit 0; }
+          mkdir -p "$RUNNER_TEMP/keys"
+          KEY="$RUNNER_TEMP/keys/AuthKey_${ASC_KEY_ID}.p8"
+          printf '%s\n' "$ASC_KEY_P8" | tr -d '\r' > "$KEY"
+          if ! grep -q -- "-----BEGIN PRIVATE KEY-----" "$KEY"; then
+            { echo "-----BEGIN PRIVATE KEY-----"; grep -v '^[[:space:]]*$' "$KEY"; echo "-----END PRIVATE KEY-----"; } > "$KEY.full"
+            mv "$KEY.full" "$KEY"
+          fi
+          echo "ASC_KEY_PATH=$KEY" >> "$GITHUB_ENV"
+
+      - name: App Review attachment (only a dry run unless "attach" is on)
+        if: always() && steps.video.outcome == 'success' && env.ASC_KEY_PATH != ''
+        continue-on-error: true
+        run: |
+          FLAG=()
+          if [ "${{ needs.plan.outputs.attach }}" = "true" ] && [ "${{ inputs.attach_from || 'simulator' }}" = "$MODE" ] && [ "$(cat "$FB/status.txt")" = passed ]; then FLAG=(--upload); fi
+          node review-tours/attach.mjs "$APP" "$OUT/video/${{ steps.tour.outputs.video }}.mp4" "${FLAG[@]}" 2>&1 | tee "$FB/attach.txt"
+
+      - name: Remove the key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"
+
+      - name: Collect the feedback
+        if: always()
+        run: |
+          for f in info.json sheet.jpg last.jpg marks.tsv; do [ -f "$OUT/$f" ] && cp "$OUT/$f" "$FB/"; done
+          [ -f "$OUT/build.log" ] && { grep -E "error:|\*\* BUILD" "$OUT/build.log" | head -80; echo "-----"; tail -60 "$OUT/build.log"; } > "$FB/build-tail.txt"
+          [ -f "$FB/status.txt" ] || echo "did not run" > "$FB/status.txt"
+          du -sh "$FB"; ls -la "$FB"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: feedback-testlab-${{ matrix.app }}
+          path: ${{ runner.temp }}/feedback
+          if-no-files-found: ignore
+
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.video.outcome == 'success'
+        with:
+          name: video-testlab-${{ matrix.app }}
+          path: ${{ runner.temp }}/out/video
+          compression-level: 0
+          retention-days: 30
+
+  # One commit for the whole run, so the matrix jobs never race to push.
+  feedback:
+    needs: [plan, simulator, testlab]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: review-tours
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: feedback-*
+          path: ${{ runner.temp }}/fb
+          merge-multiple: true
+
+      - name: Push the feedback to the review-videos-out branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN: ${{ github.run_number }}
+        run: |
+          set -e
+          ls -R "$RUNNER_TEMP/fb" | head -80
+          W="$RUNNER_TEMP/outbranch"
+          git init -q "$W"
+          cd "$W"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          if git fetch -q --depth=1 origin review-videos-out; then git checkout -q FETCH_HEAD -- . ; fi
+          # Keep only the latest runs, as one fresh commit, so the repository does not grow.
+          for d in $(ls -d [0-9]* 2>/dev/null | sort -n | head -n -5); do rm -rf "$d"; done
+          rm -rf "$RUN"
+          mkdir -p "$RUN"
+          cp -R "$RUNNER_TEMP/fb/." "$RUN/"
+          node "$GITHUB_WORKSPACE/review-tours/ci.mjs" summary "$RUN" "$RUN" "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          printf '# Review video feedback\n\nOne folder per run of the "Review videos" workflow (only the latest runs are kept). See each run'"'"'s README.md.\n' > README.md
+          git checkout -q --orphan fresh
+          git add -A
+          git -c user.name="github-actions" -c user.email="github-actions@users.noreply.github.com" commit -q -m "Review video feedback, run $RUN"
+          git push -q -f origin HEAD:review-videos-out
+          du -sh "$RUN"

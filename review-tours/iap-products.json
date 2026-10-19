@@ -1,0 +1,318 @@
+{
+  "note": "One non-consumable in-app purchase per exam. Price $29.99 (USD tier). Display name 30 characters or fewer, description 45 or fewer. Generated from exam-prep/apps/<appId>/app.json.",
+  "products": [
+    {
+      "appId": "real-estate-exam-prep",
+      "bundleId": "com.keatingkonsultancy.carealestateexamprep",
+      "productId": "com.keatingkonsultancy.carealestateexamprep.national_salesperson",
+      "type": "non-consumable",
+      "referenceName": "Real Estate: National Salesperson",
+      "displayName": "National Salesperson Exam",
+      "description": "Unlocks full prep for the national portion",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "national"
+      ]
+    },
+    {
+      "appId": "real-estate-exam-prep",
+      "bundleId": "com.keatingkonsultancy.carealestateexamprep",
+      "productId": "com.keatingkonsultancy.carealestateexamprep.ca_salesperson",
+      "type": "non-consumable",
+      "referenceName": "Real Estate: CA Salesperson",
+      "displayName": "CA Salesperson Exam",
+      "description": "Unlocks full prep for the CA salesperson exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "california"
+      ]
+    },
+    {
+      "appId": "real-estate-exam-prep",
+      "bundleId": "com.keatingkonsultancy.carealestateexamprep",
+      "productId": "com.keatingkonsultancy.carealestateexamprep.ca_broker",
+      "type": "non-consumable",
+      "referenceName": "Real Estate: CA Broker",
+      "displayName": "CA Broker Exam",
+      "description": "Unlocks full prep for the CA broker exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "california-broker"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.life",
+      "type": "non-consumable",
+      "referenceName": "Insurance: Life (general)",
+      "displayName": "Life Insurance Exam",
+      "description": "Unlocks full prep for the life exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "life"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.health",
+      "type": "non-consumable",
+      "referenceName": "Insurance: Accident & Health (general)",
+      "displayName": "Health Insurance Exam",
+      "description": "Unlocks full prep for the health exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "health"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.life_health",
+      "type": "non-consumable",
+      "referenceName": "Insurance: Life & Health (general)",
+      "displayName": "Life & Health Exam",
+      "description": "Unlocks full prep for life and health exams",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "life",
+        "health"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.property",
+      "type": "non-consumable",
+      "referenceName": "Insurance: Property (general)",
+      "displayName": "Property Insurance Exam",
+      "description": "Unlocks full prep for the property exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "property"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.casualty",
+      "type": "non-consumable",
+      "referenceName": "Insurance: Casualty (general)",
+      "displayName": "Casualty Insurance Exam",
+      "description": "Unlocks full prep for the casualty exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "casualty"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.property_casualty",
+      "type": "non-consumable",
+      "referenceName": "Insurance: Property & Casualty (general)",
+      "displayName": "Property & Casualty Exam",
+      "description": "Unlocks full prep for P&C exams",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "property",
+        "casualty"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.ca_life",
+      "type": "non-consumable",
+      "referenceName": "Insurance: CA Life Agent",
+      "displayName": "CA Life Agent Exam",
+      "description": "Unlocks full prep for the CA Life Agent exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-life"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.ca_health",
+      "type": "non-consumable",
+      "referenceName": "Insurance: CA Accident & Health Agent",
+      "displayName": "CA Accident & Health Exam",
+      "description": "Unlocks full prep for the CA A&H agent exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-health"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.ca_life_health",
+      "type": "non-consumable",
+      "referenceName": "Insurance: CA Life, Accident & Health Agent",
+      "displayName": "CA Life, Accident & Health",
+      "description": "Unlocks full prep for the CA L/A&H exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-life-health"
+      ]
+    },
+    {
+      "appId": "insurance-exam-prep",
+      "bundleId": "com.keatingkonsultancy.califehealthinsuranceexamprep",
+      "productId": "com.keatingkonsultancy.califehealthinsuranceexamprep.ca_property_casualty",
+      "type": "non-consumable",
+      "referenceName": "Insurance: CA Property & Casualty Broker-Agent",
+      "displayName": "CA Property & Casualty Exam",
+      "description": "Unlocks full prep for the CA P&C exam",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-property-casualty"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.ca_law_business",
+      "type": "non-consumable",
+      "referenceName": "Contractor: CSLB Law & Business",
+      "displayName": "CSLB Law & Business Exam",
+      "description": "Unlocks full prep for CSLB Law & Business",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-law-business"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.ca_c10_electrical",
+      "type": "non-consumable",
+      "referenceName": "Contractor: CA C-10 Electrical",
+      "displayName": "CA C-10 Electrical Contractor",
+      "description": "C-10 trade exam plus Law & Business",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-c10-electrical",
+        "ca-law-business"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.ca_c36_plumbing",
+      "type": "non-consumable",
+      "referenceName": "Contractor: CA C-36 Plumbing",
+      "displayName": "CA C-36 Plumbing Contractor",
+      "description": "C-36 trade exam plus Law & Business",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-c36-plumbing",
+        "ca-law-business"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.ca_b_general",
+      "type": "non-consumable",
+      "referenceName": "Contractor: CA B General Building",
+      "displayName": "CA B General Contractor",
+      "description": "B trade exam plus Law & Business",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "ca-b-general",
+        "ca-law-business"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.general_contractor",
+      "type": "non-consumable",
+      "referenceName": "Contractor: General (IRC & OSHA)",
+      "displayName": "General Contractor Exam",
+      "description": "Unlocks full prep for the GC exam (IRC, OSHA)",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "general"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.electrician",
+      "type": "non-consumable",
+      "referenceName": "Contractor: Journeyman Electrician (NEC)",
+      "displayName": "Journeyman Electrician Exam",
+      "description": "Unlocks full prep for NEC electrician exams",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "electrical"
+      ]
+    },
+    {
+      "appId": "contractor-exam-prep",
+      "bundleId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep",
+      "productId": "com.keatingkonsultancy.cacontractorlawbusinessexamprep.plumber",
+      "type": "non-consumable",
+      "referenceName": "Contractor: Journeyman Plumber (IPC & UPC)",
+      "displayName": "Journeyman Plumber Exam",
+      "description": "Unlocks full prep for IPC/UPC plumber exams",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "plumbing"
+      ]
+    },
+    {
+      "appId": "pilot-drone-exam-prep",
+      "bundleId": "com.keatingkonsultancy.privatepilottestprep",
+      "productId": "com.keatingkonsultancy.privatepilottestprep.private_pilot",
+      "type": "non-consumable",
+      "referenceName": "Pilot: FAA Private Pilot (PAR)",
+      "displayName": "Private Pilot Knowledge Test",
+      "description": "Unlocks full prep for the FAA PAR test",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "private-pilot"
+      ]
+    },
+    {
+      "appId": "pilot-drone-exam-prep",
+      "bundleId": "com.keatingkonsultancy.privatepilottestprep",
+      "productId": "com.keatingkonsultancy.privatepilottestprep.part_107",
+      "type": "non-consumable",
+      "referenceName": "Pilot: FAA Part 107 (UAG)",
+      "displayName": "Part 107 Drone Pilot Test",
+      "description": "Unlocks full prep for the FAA UAG test",
+      "price": "29.99",
+      "currency": "USD",
+      "tracks": [
+        "drone-part-107"
+      ]
+    }
+  ]
+}

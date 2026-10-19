@@ -1,0 +1,14 @@
+{
+  "note": "One UI-test tour per app (review-tours/Sources/<class>.swift). storekit: the exam apps buy through a local StoreKit configuration made from iap-products.json. location: BRRR's simulated position (Columbus, OH, ZIP 43215). clock: false keeps the real clock in the status bar (the apps that wait for a notification show times).",
+  "tours": {
+    "tidyquote": { "class": "TidyQuoteTour" },
+    "shiftledger": { "class": "ShiftLedgerTour" },
+    "firstsip": { "class": "FirstSipTour", "clock": false },
+    "minutebank": { "class": "MinuteBankTour", "clock": false },
+    "brrr": { "class": "BRRRTour", "location": "39.9612,-82.9988" },
+    "real-estate-exam-prep": { "class": "RealEstateTour", "storekit": true },
+    "insurance-exam-prep": { "class": "InsuranceTour", "storekit": true },
+    "contractor-exam-prep": { "class": "ContractorTour", "storekit": true },
+    "pilot-drone-exam-prep": { "class": "PilotDroneTour", "storekit": true }
+  }
+}

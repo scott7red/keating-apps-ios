@@ -1,0 +1,5 @@
+{
+  "apps": ["tidyquote"],
+  "mode": "simulator",
+  "debug": true
+}
