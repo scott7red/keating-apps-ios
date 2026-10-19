@@ -2,7 +2,7 @@
   "name": "keating-apps-native",
   "version": "1.0.0",
   "private": true,
-  "description": "The shared iPhone shell (Capacitor) for the Keating Konsultancy apps. Each app is bundled inside; no server is involved.",
+  "description": "The shared iPhone shell (Capacitor) for the Keating Apps LLC apps. Each app is bundled inside; no server is involved.",
   "dependencies": {
     "@capacitor/core": "^8.5.3",
     "@capacitor/filesystem": "^8.1.5",
