@@ -190,6 +190,11 @@ jobs:
           done
           # (Adding the photo sometimes hangs while Photos starts up: one more try.)
           if [ "$APP" = "tidyquote" ]; then t 60 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; grep -q "exit 0" <(tail -1 "$FB/setup.log") || t 90 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
+          # Warm up WebKit with Safari, so the first web view of the fresh simulator does not show a long white
+          # screen at the app's launch (on a phone WebKit is always warm). The app itself is not opened.
+          t 40 xcrun simctl launch "$UDID" com.apple.mobilesafari
+          sleep 15
+          t 20 xcrun simctl terminate "$UDID" com.apple.mobilesafari
           # Installed now, so its icon is on the Home Screen when the tour starts (the test run installs it again).
           t 180 xcrun simctl install "$UDID" "$RUNNER_TEMP/dd/Build/Products/Debug-iphonesimulator/App.app"
           cat "$FB/setup.log"
