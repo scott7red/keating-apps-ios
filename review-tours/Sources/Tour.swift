@@ -111,7 +111,12 @@ class Tour: XCTestCase {
         let file = dir.appendingPathComponent(String(format: "%02d-", treeCount) + safe + ".txt")
         var text = app.debugDescription
         if force { text += "\n\n===== Springboard =====\n" + springboard.debugDescription }
-        try? text.write(to: file, atomically: true, encoding: .utf8)
+        // Not atomically: an atomic write goes through a temporary folder the simulator's runner cannot use.
+        do {
+            try Data(text.utf8).write(to: file)
+        } catch {
+            mark("note", "tree not saved: \(error.localizedDescription)")
+        }
     }
 
     /// One step of the tour: a named activity in the test report and a mark for the step sheet.
@@ -129,8 +134,13 @@ class Tour: XCTestCase {
         pause(1.5)
         let screenFrame = springboard.windows.firstMatch.frame
         mark("screen", "\(Int(screenFrame.width)) \(Int(screenFrame.height))")
-        let icon = springboard.icons[iconName]
-        if icon.waitForExistence(timeout: 15) {
+        var icon = springboard.icons[iconName]
+        if !icon.waitForExistence(timeout: 8) {
+            // On some iOS versions the Home Screen icons are not of type "icon".
+            icon = springboard.descendants(matching: .any).matching(NSPredicate(format: "label ==[c] %@", iconName)).firstMatch
+            dumpTree("home screen", force: true)
+        }
+        if icon.waitForExistence(timeout: 8) {
             var swipes = 0
             while !icon.isHittable && swipes < 4 {
                 springboard.swipeLeft()
@@ -623,7 +633,10 @@ class Tour: XCTestCase {
     func reopenFromIcon() {
         XCUIDevice.shared.press(.home)
         pause(1.0)
-        let icon = springboard.icons[iconName]
+        var icon = springboard.icons[iconName]
+        if !icon.waitForExistence(timeout: 3) {
+            icon = springboard.descendants(matching: .any).matching(NSPredicate(format: "label ==[c] %@", iconName)).firstMatch
+        }
         if icon.waitForExistence(timeout: 5) && icon.isHittable {
             pause(0.8)
             markTap(icon.frame)

@@ -14,6 +14,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { execFileSync, spawnSync } from 'node:child_process'
+import { fileURLToPath } from 'node:url'
 
 const dir = path.resolve(process.argv[2] || '.')
 const at = (f) => path.join(dir, f)
@@ -25,8 +26,17 @@ const probe = (file) => {
   const v = out.streams.find((s) => s.codec_type === 'video')
   return { duration: Number(out.format.duration), width: v.width, height: v.height }
 }
-const FONT = ['/System/Library/Fonts/Helvetica.ttc', '/System/Library/Fonts/Supplemental/Arial.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'].find((f) => fs.existsSync(f))
-const fontArg = FONT ? `fontfile='${FONT}':` : ''
+// Text as PNG pictures, drawn by the Mac's text system (textpng.swift): Homebrew's ffmpeg may have no
+// drawtext filter. Returns whether every picture was made.
+function textPictures(jobs) {
+  if (!jobs.length) return true
+  if (process.platform !== 'darwin') return false
+  const script = path.join(path.dirname(fileURLToPath(import.meta.url)), 'textpng.swift')
+  fs.writeFileSync(at('text-jobs.json'), JSON.stringify(jobs.map((j) => ({ ...j, out: at(j.out) }))))
+  const r = spawnSync('swift', [script, at('text-jobs.json')], { encoding: 'utf8' })
+  if (r.status !== 0) console.log(`textpng.swift failed: ${String(r.stderr).slice(0, 600)}`)
+  return jobs.every((j) => fs.existsSync(at(j.out)))
+}
 
 // ---- marks ----
 let text = fs.existsSync(at('marks.tsv')) ? fs.readFileSync(at('marks.tsv'), 'utf8') : ''
@@ -133,6 +143,17 @@ if (taps.length) {
     cur = next
   })
 }
+// The captions are pictures (see textpng.swift). Without them a wait is not sped up: speeding up needs the caption.
+const captionInputs = []
+if (waits.length) {
+  const jobs = waits.map((w, i) => ({ text: w.caption, out: `caption${i}.png`, size: Math.round(raw.width / 21), maxWidth: Math.round(raw.width * 0.86) }))
+  if (textPictures(jobs)) {
+    waits.forEach((w, i) => { w.image = jobs[i].out; captionInputs.push(jobs[i].out) })
+  } else {
+    console.log('No caption pictures: the waits are kept at normal speed.')
+    waits.length = 0
+  }
+}
 if (waits.length) {
   const cuts = [0]
   for (const w of waits) cuts.push(w.a, w.b)
@@ -141,20 +162,21 @@ if (waits.length) {
   for (let i = 0; i + 1 < cuts.length; i++) if (cuts[i + 1] - cuts[i] > 0.05) pieces.push({ a: cuts[i], b: cuts[i + 1], wait: waits.find((w) => w.a === cuts[i]) })
   lines.push(`[${cur}]split=${pieces.length}${pieces.map((_, i) => `[s${i}]`).join('')}`)
   pieces.forEach((p, i) => {
-    let f = `[s${i}]trim=start=${p.a.toFixed(3)}:end=${p.b.toFixed(3)},setpts=PTS-STARTPTS`
+    const f = `[s${i}]trim=start=${p.a.toFixed(3)}:end=${p.b.toFixed(3)},setpts=PTS-STARTPTS`
     if (p.wait) {
-      const capFile = `caption${i}.txt`
-      fs.writeFileSync(at(capFile), p.wait.caption)
-      f += `,setpts=PTS/${p.wait.factor},fps=30,drawtext=${fontArg}textfile='${capFile}':fontsize=${Math.round(raw.width / 20)}:fontcolor=white:line_spacing=18:box=1:boxcolor=black@0.7:boxborderw=36:x=(w-text_w)/2:y=h*0.58`
+      const input = 2 + captionInputs.indexOf(p.wait.image)
+      lines.push(`${f},setpts=PTS/${p.wait.factor},fps=30[q${i}]`)
+      lines.push(`[q${i}][${input}:v]overlay=x=(W-w)/2:y=H*0.56:shortest=1[p${i}]`)
+    } else {
+      lines.push(`${f}[p${i}]`)
     }
-    lines.push(`${f}[p${i}]`)
   })
   lines.push(`${pieces.map((_, i) => `[p${i}]`).join('')}concat=n=${pieces.length}:v=1:a=0[out]`)
 } else {
   lines.push(`[${cur}]null[out]`)
 }
 fs.writeFileSync(at('filter.txt'), lines.join(';\n'))
-ff(['-i', 'raw.mp4', '-loop', '1', '-i', 'circle.png', '-/filter_complex', 'filter.txt', '-map', '[out]',
+ff(['-i', 'raw.mp4', '-loop', '1', '-i', 'circle.png', ...captionInputs.flatMap((c) => ['-loop', '1', '-i', c]), '-/filter_complex', 'filter.txt', '-map', '[out]',
   '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23', '-pix_fmt', 'yuv420p', '-r', '30', '-movflags', '+faststart', 'final.mp4'])
 const fin = probe('final.mp4')
 
@@ -170,20 +192,27 @@ const steps = stepMarks.map((m, i) => {
   const end = finalTime(Math.max(0, next ? T(next) : t1 - t0))
   return { n: i + 1, title: m.detail, start: Number(begin.toFixed(1)), end: Number(end.toFixed(1)) }
 })
-const frames = path.join(dir, 'frames')
-fs.mkdirSync(frames, { recursive: true })
-steps.forEach((s) => {
-  const t = Math.max(0, Math.min(fin.duration - 0.1, s.end - 0.3))
-  const label = `frames/label${s.n}.txt`
-  fs.writeFileSync(at(label), `${s.n}. ${s.title}`.slice(0, 40))
-  ff(['-ss', t.toFixed(2), '-i', 'final.mp4', '-frames:v', '1', '-vf',
-    `scale=260:-2,drawtext=${fontArg}textfile='${label}':fontsize=13:fontcolor=white:box=1:boxcolor=black@0.75:boxborderw=4:x=4:y=h-th-8`,
-    '-q:v', '4', `frames/s${String(s.n).padStart(3, '0')}.jpg`])
-})
-if (steps.length) {
-  const scols = Math.min(6, steps.length)
-  ff(['-framerate', '1', '-start_number', '1', '-i', 'frames/s%03d.jpg', '-vf',
-    `tile=${scols}x${Math.ceil(steps.length / scols)}:padding=6:margin=6:color=white`, '-frames:v', '1', '-q:v', '4', 'steps.jpg'])
+fs.mkdirSync(path.join(dir, 'frames'), { recursive: true })
+try {
+  // The screen at the end of each step, with the step's number and name on it.
+  const labels = steps.map((s) => ({ text: `${s.n}. ${s.title}`.slice(0, 44), out: `frames/label${s.n}.png`, size: 13, maxWidth: 250 }))
+  const labelled = textPictures(labels)
+  steps.forEach((s, i) => {
+    const t = Math.max(0, Math.min(fin.duration - 0.1, s.end - 0.3))
+    const out = `frames/s${String(s.n).padStart(3, '0')}.jpg`
+    if (labelled) {
+      ff(['-ss', t.toFixed(2), '-i', 'final.mp4', '-i', labels[i].out, '-filter_complex', '[0:v]scale=260:-2[a];[a][1:v]overlay=4:H-h-4', '-frames:v', '1', '-q:v', '4', out])
+    } else {
+      ff(['-ss', t.toFixed(2), '-i', 'final.mp4', '-frames:v', '1', '-vf', 'scale=260:-2', '-q:v', '4', out])
+    }
+  })
+  if (steps.length) {
+    const scols = Math.min(6, steps.length)
+    ff(['-framerate', '1', '-start_number', '1', '-i', 'frames/s%03d.jpg', '-vf',
+      `tile=${scols}x${Math.ceil(steps.length / scols)}:padding=6:margin=6:color=white`, '-frames:v', '1', '-q:v', '4', 'steps.jpg'])
+  }
+} catch (error) {
+  console.log(`steps.jpg not made: ${String(error.stderr || error.message).slice(0, 400)}`)
 }
 ff(['-sseof', '-0.5', '-i', 'final.mp4', '-frames:v', '1', '-vf', 'scale=420:-2', '-q:v', '3', 'last.jpg'])
 
