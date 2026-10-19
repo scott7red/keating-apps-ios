@@ -1,0 +1,26 @@
+11:19:04 xcrun simctl status_bar D880ACBF-DF05-414A-99EF-246534F01F4B override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+11:19:17 xcrun simctl ui D880ACBF-DF05-414A-99EF-246534F01F4B appearance light
+  -> exit 0
+11:19:28 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+11:19:30 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+11:19:30 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+11:19:31 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+11:19:32 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+11:19:33 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+11:19:33 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+11:19:34 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+11:19:35 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+11:19:35 xcrun simctl spawn D880ACBF-DF05-414A-99EF-246534F01F4B defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+11:19:36 xcrun simctl addmedia D880ACBF-DF05-414A-99EF-246534F01F4B review-tours/media/logo.png
+  -> exit 0

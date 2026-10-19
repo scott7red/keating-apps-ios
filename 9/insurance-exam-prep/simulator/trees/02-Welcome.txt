@@ -1,0 +1,47 @@
+Attributes: Application, 0x105b40430, pid: 15651, label: 'Ins Coach'
+Element subtree:
+ →Application, 0x105b40430, pid: 15651, label: 'Ins Coach'
+    Window (Main), 0x105969b20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10596aca0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1059697d0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10596a5c0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x105969e90, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x1059689e0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105969480, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1059690e0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105b3ffb0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105bd6da0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'Insurance License Exam Coach', Focused
+                        Other, 0x105bd6ec0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x105b2e270, {{20.0, 80.0}, {362.0, 4.0}}, label: 'Setup progress', value: 2.00, Focused
+                          Other, 0x105b2e390, {{20.0, 104.0}, {362.0, 37.0}}, label: 'Create your profile', value: 1, Focused
+                            StaticText, 0x105b4ae40, {{20.0, 104.0}, {260.0, 37.0}}, label: 'Create your profile', value: Create your profile, Focused
+                          Other, 0x105b4af60, {{20.0, 149.0}, {362.0, 48.0}}, Focused
+                            StaticText, 0x105b43860, {{20.0, 151.0}, {304.0, 44.0}}, label: 'Your profile and everything you study stay on this device. Nothing is sent anywhere.', value: Your profile and e..., Focused
+                          Other, 0x105b43980, {{20.0, 233.0}, {362.0, 21.0}}, label: 'First name or nickname', Focused
+                            StaticText, 0x105b3b730, {{20.0, 234.0}, {164.0, 18.0}}, label: 'First name or nickname', value: First name or nick..., Focused
+                          TextField, 0x105b3b850, {{20.0, 262.0}, {362.0, 52.0}}, label: 'First name or nickname', Focused
+                          Other, 0x105b43ed0, {{20.0, 332.0}, {362.0, 76.0}}, Focused
+                            StaticText, 0x105b43ff0, {{20.0, 332.0}, {72.0, 19.0}}, label: 'Add a PIN', value: Add a PIN, Focused
+                            StaticText, 0x105b45380, {{20.0, 354.0}, {258.0, 53.0}}, label: 'Optional. A 4-digit PIN keeps people who share this device from mixing up their progress.', value: Optional. A 4-digi..., Focused
+                            Switch, 0x105c42e70, {{20.0, 332.0}, {362.0, 76.0}}, label: 'Add a PIN Optional. A 4-digit PIN keeps people who share this device from mixing up their progress.', value: 0, Focused
+                          Button, 0x105cd4d00, {{20.0, 702.0}, {362.0, 52.0}}, label: 'Continue', Focused
+                          Button, 0x105c3e0e0, {{20.0, 764.0}, {362.0, 52.0}}, label: 'Back', Focused
+                        Other, 0x105c16710, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x105c16040, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x105c3b990, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x105c50860, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105c54b20, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x105ca1990, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x105ca1ab0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x105ca1bd0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105ca1cf0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x105ca1e10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105ca1f30, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105ca2050, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105b40430, pid: 15651, label: 'Ins Coach'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+  Output: {
+    Application, 0x105968d70, pid: 15651, label: 'Ins Coach'
+  }

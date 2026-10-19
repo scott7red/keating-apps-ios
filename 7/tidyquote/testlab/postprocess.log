@@ -1,0 +1,32 @@
+alignment {"failed":true,"matchedTaps":3,"taps":3,"sceneChanges":12}
+{
+  "rawSeconds": 22,
+  "finalSeconds": 22,
+  "finalMinutes": "0:22",
+  "size": "1178x2556",
+  "megabytes": 1.4,
+  "trimmed": {
+    "from": 0,
+    "to": 22
+  },
+  "taps": 0,
+  "spedUp": [],
+  "aligned": false,
+  "alignment": {
+    "failed": true,
+    "matchedTaps": 3,
+    "taps": 3,
+    "sceneChanges": 12
+  },
+  "drift": null,
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome, in English and Spanish",
+    "Your business"
+  ],
+  "notes": [
+    "note: icon TidyQuote not found; opening the app directly"
+  ],
+  "steps": 0
+}

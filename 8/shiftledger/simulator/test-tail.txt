@@ -1,0 +1,250 @@
+    t =    80.70s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    80.74s         Synthesize event
+    t =    80.74s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    80.77s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    80.80s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    81.21s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    81.92s     Waiting 4.0s for Keyboard (First Match) to exist
+    t =    82.96s         Checking `Expect predicate `existsNoRetry == 1` for object Keyboard (First Match)`
+    t =    82.96s             Checking existence of `Keyboard (First Match)`
+    t =    82.98s     Find the "7.5" TextField
+    t =    83.07s     Find the "7.5" TextField
+    t =    83.15s     Type '9' into Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    83.15s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    83.16s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    83.21s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    83.29s         Synthesize event
+    t =    83.53s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    84.34s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Card tips" OR identifier ==[c] "Card tips")'
+    t =    84.39s     Checking existence of `Keyboard (First Match)`
+    t =    84.40s     Find the Keyboard (First Match)
+    t =    84.42s     Find the Any (Element at index 0)
+    t =    84.49s     Find the Window (First Match)
+    t =    84.49s     Find the Window (First Match)
+    t =    84.50s     Checking existence of `Keyboard (First Match)`
+    t =    84.51s     Find the Keyboard (First Match)
+    t =    84.52s     Press Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 513.0) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 254.2) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    84.52s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    84.53s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    84.56s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    84.61s         Synthesize event
+    t =    84.61s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    84.64s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    84.67s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    84.71s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    84.74s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    85.79s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    86.92s     Find the "0.00" TextField
+    t =    87.58s     Find the "0.00" TextField
+    t =    87.67s     Tap Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (125.0, 543.0)
+    t =    87.67s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    87.67s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    87.73s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    87.81s         Synthesize event
+    t =    87.81s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    87.85s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    87.89s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    88.22s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    89.33s     Waiting 4.0s for Keyboard (First Match) to exist
+    t =    90.37s         Checking `Expect predicate `existsNoRetry == 1` for object Keyboard (First Match)`
+    t =    90.37s             Checking existence of `Keyboard (First Match)`
+    t =    90.41s     Find the "0.00" TextField
+    t =    90.50s     Find the "0.00" TextField
+    t =    90.56s     Type '120' into Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    90.56s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    90.56s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    90.61s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    90.66s         Synthesize event
+    t =    90.93s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    91.74s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Cash tips" OR identifier ==[c] "Cash tips")'
+    t =    91.82s     Checking existence of `Keyboard (First Match)`
+    t =    91.83s     Find the Keyboard (First Match)
+    t =    91.86s     Find the Any (Element at index 0)
+    t =    91.95s     Find the Window (First Match)
+    t =    91.97s     Find the Window (First Match)
+    t =    91.98s     Checking existence of `Keyboard (First Match)`
+    t =    91.99s     Find the Keyboard (First Match)
+    t =    92.01s     Press Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 513.0) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 254.2) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    92.01s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    92.01s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    92.06s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    92.12s         Synthesize event
+    t =    92.12s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    92.17s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    92.23s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    92.29s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    92.36s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    93.37s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    94.55s     Find the "0.00" TextField
+    t =    95.11s     Find the "0.00" TextField
+    t =    95.18s     Tap Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (299.0, 543.0)
+    t =    95.18s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    95.18s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    95.22s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    95.25s         Synthesize event
+    t =    95.26s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    95.29s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    95.33s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    95.65s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    96.77s     Waiting 4.0s for Keyboard (First Match) to exist
+    t =    97.79s         Checking `Expect predicate `existsNoRetry == 1` for object Keyboard (First Match)`
+    t =    97.79s             Checking existence of `Keyboard (First Match)`
+    t =    97.80s     Find the "0.00" TextField
+    t =    97.86s     Find the "0.00" TextField
+    t =    97.94s     Type '35' into Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    97.94s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    97.94s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =    97.98s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =    98.03s         Synthesize event
+    t =    98.29s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    99.10s     Checking existence of `Keyboard (First Match)`
+    t =    99.52s     Checking existence of `"Done" Button`
+    t =    99.61s     Find the "Done" Button
+    t =    99.69s     Find the "Done" Button
+    t =    99.75s     Tap "Done" Button
+    t =    99.75s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =    99.75s         Find the "Done" Button
+    t =    99.83s         Check for interrupting elements affecting "Done" Button
+    t =    99.89s         Synthesize event
+    t =   100.21s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =   101.27s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips kept"'
+    t =   101.36s     Checking existence of `Keyboard (First Match)`
+    t =   101.42s     Find the Any (Element at index 0)
+    t =   101.48s     Find the Window (First Match)
+    t =   101.49s     Find the "TIPS KEPT" StaticText
+    t =   103.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Hourly with tips"'
+    t =   103.13s     Checking existence of `Keyboard (First Match)`
+    t =   103.17s     Find the Any (Element at index 0)
+    t =   103.25s     Find the Window (First Match)
+    t =   103.27s     Find the "HOURLY WITH TIPS" StaticText
+    t =   105.39s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Log shift" OR identifier ==[c] "Log shift")'
+    t =   105.43s     Checking existence of `Keyboard (First Match)`
+    t =   105.47s     Find the Any (Element at index 0)
+    t =   105.57s     Find the Window (First Match)
+    t =   105.58s     Find the Window (First Match)
+    t =   105.59s     Checking existence of `Keyboard (First Match)`
+    t =   105.63s     Press Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   105.63s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =   105.63s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   105.67s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =   105.73s         Synthesize event
+    t =   105.74s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   105.80s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   105.86s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   105.89s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   105.94s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   107.10s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =   108.22s     Find the "Log shift" Button
+    t =   108.99s     Find the "Log shift" Button
+    t =   109.04s     Tap Target Application 'com.keatingkonsultancy.shiftledger'[0.00, 0.00] -> (201.0, 804.0)
+    t =   109.04s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =   109.05s         Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   109.07s         Check for interrupting elements affecting "ShiftLedger" Application
+    t =   109.11s         Synthesize event
+    t =   109.12s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   109.14s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   109.19s             Find the Target Application 'com.keatingkonsultancy.shiftledger'
+    t =   109.51s         Wait for com.keatingkonsultancy.shiftledger to idle
+    t =   111.54s Requesting snapshot of accessibility hierarchy for app with pid 16473
+    t =   111.89s Requesting snapshot of accessibility hierarchy for app with pid 16473
+    t =   111.98s This week and the year so far
+    t =   111.98s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Hourly with tips"'
+    t =   112.02s     Checking existence of `Keyboard (First Match)`
+    t =   112.04s     Find the Any (Element at index 0)
+    t =   112.09s     Find the Window (First Match)
+    t =   112.09s     Find the "HOURLY WITH TIPS" StaticText
+    t =   113.64s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   113.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   114.12s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   114.15s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   114.60s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   114.64s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   115.07s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   115.14s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   115.60s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   115.65s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   116.11s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   116.18s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   116.62s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   116.67s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   117.13s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   117.20s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   117.65s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   117.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   118.13s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   118.16s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   118.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   118.65s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   119.09s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   119.13s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   119.57s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   119.61s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   120.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   120.12s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   120.56s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   120.60s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   121.05s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   121.09s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   121.54s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   121.58s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   122.02s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   122.07s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   122.51s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   122.57s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   123.02s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   123.11s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   123.58s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   123.63s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   124.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   124.12s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   124.57s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   124.61s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   125.06s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   125.09s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   125.53s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   125.58s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   126.04s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   126.08s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   126.53s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   126.58s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   127.03s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   127.06s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   127.51s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   127.57s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   128.04s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   128.11s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   128.56s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Tips logged"'
+    t =   128.63s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Tips logged"'
+    t =   129.07s     Requesting snapshot of accessibility hierarchy for app with pid 16473
+    t =   129.54s     Requesting snapshot of accessibility hierarchy for app with pid 16473
+    t =   129.66s     Requesting snapshot of accessibility hierarchy for app with pid 6812
+    t =   130.17s     Requesting snapshot of accessibility hierarchy for app with pid 6812
+    t =   130.23s     Added attachment named '06-missing-Tips-logged.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ShiftLedgerTour.swift:54: error: -[ReviewTour.ShiftLedgerTour testTour] : failed - Could not find "Tips logged" on screen within 15 s
+    t =   130.35s Tear Down
+    t =   130.35s     Requesting snapshot of accessibility hierarchy for app with pid 16473
+    t =   131.00s     Requesting snapshot of accessibility hierarchy for app with pid 16473
+    t =   131.12s     Requesting snapshot of accessibility hierarchy for app with pid 6812
+    t =   131.49s     Requesting snapshot of accessibility hierarchy for app with pid 6812
+    t =   131.54s     Added attachment named '07-failure.txt'
+    t =   131.79s     Added attachment named 'failure'
+Test Case '-[ReviewTour.ShiftLedgerTour testTour]' failed (131.996 seconds).
+Test Suite 'ShiftLedgerTour' failed at 2026-10-19 11:06:45.561.
+	 Executed 1 test, with 1 failure (0 unexpected) in 131.996 (131.998) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 11:06:45.563.
+	 Executed 1 test, with 1 failure (0 unexpected) in 131.996 (132.000) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 11:06:45.563.
+	 Executed 1 test, with 1 failure (0 unexpected) in 131.996 (132.002) seconds
+2026-10-19 11:07:14.319 xcodebuild[14827:47625] [MT] IDETestOperationsObserverDebug: 180.717 elapsed -- Testing started completed.
+2026-10-19 11:07:14.319 xcodebuild[14827:47625] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 11:07:14.319 xcodebuild[14827:47625] [MT] IDETestOperationsObserverDebug: 180.718 sec, +180.718 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	ShiftLedgerTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

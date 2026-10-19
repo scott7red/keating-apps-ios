@@ -1,0 +1,69 @@
+{
+  "rawSeconds": 190.4,
+  "finalSeconds": 67.8,
+  "finalMinutes": "1:08",
+  "size": "1206x2622",
+  "megabytes": 2.3,
+  "trimmed": {
+    "from": 60.6,
+    "to": 133.3
+  },
+  "taps": 9,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 5,
+    "of": 9,
+    "first": -0.04,
+    "last": 1.55
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome",
+    "Before you start",
+    "Which medicine",
+    "A few details",
+    "The label checklist and a dose"
+  ],
+  "notes": [],
+  "steps": [
+    {
+      "n": 1,
+      "title": "Launch from the Home Screen",
+      "start": 0,
+      "end": 15.7
+    },
+    {
+      "n": 2,
+      "title": "Welcome",
+      "start": 15.7,
+      "end": 24.5
+    },
+    {
+      "n": 3,
+      "title": "Before you start",
+      "start": 24.5,
+      "end": 32.2
+    },
+    {
+      "n": 4,
+      "title": "Which medicine",
+      "start": 32.2,
+      "end": 40.7
+    },
+    {
+      "n": 5,
+      "title": "A few details",
+      "start": 40.7,
+      "end": 46.3
+    },
+    {
+      "n": 6,
+      "title": "The label checklist and a dose",
+      "start": 46.3,
+      "end": 69.2
+    }
+  ]
+}

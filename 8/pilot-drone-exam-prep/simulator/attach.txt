@@ -1,0 +1,7 @@
+pilot-drone-exam-prep: Pilot & Drone License Coach - App Review.mp4, 3.0 MB, MD5 e8a34470fa5d23d70d9d3dc0c25e50c2 (dry run: nothing is changed)
+App Store Connect app: Pilot & Drone License Coach (6823849023)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (db7637de-69d4-4fd0-8b06-fef1f0c93c2a)
+App Review Information: f2106e34-185e-4cc0-a8c3-bb0f3f42387f
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"Pilot & Drone License Coach - App Review.mp4","fileSize":2978258},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"f2106e34-185e-4cc0-a8c3-bb0f3f42387f"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum e8a34470fa5d23d70d9d3dc0c25e50c2.

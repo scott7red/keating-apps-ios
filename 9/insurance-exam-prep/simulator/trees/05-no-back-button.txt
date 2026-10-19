@@ -1,0 +1,623 @@
+Attributes: Application, 0x105c937c0, pid: 15651, label: 'Ins Coach'
+Element subtree:
+ →Application, 0x105c937c0, pid: 15651, label: 'Ins Coach'
+    Window (Main), 0x105cc4ce0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105ccf950, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105c43ec0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x105c8b170, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x105caf7e0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x105c57330, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105c61360, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105c492f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105c5a910, {{0.0, -1028.0}, {402.0, 874.0}}
+                      Other, 0x105c16710, {{0.0, -1028.0}, {402.0, 20950.0}}, label: 'Insurance License Exam Coach'
+                        Other, 0x105cd0f70, {{0.0, -1028.0}, {402.0, 20950.0}}, label: 'main', Focused
+                          Other, 0x105cb1070, {{12.0, -954.0}, {378.0, 44.0}}, label: 'section header', Focused
+                            Button, 0x105c16040, {{12.0, -954.0}, {44.0, 44.0}}, label: 'Back to Learn', Focused
+                            Other, 0x1059e8ef0, {{60.0, -947.0}, {282.0, 30.0}}, label: 'Types of Life Policies', value: 1, Focused
+                              StaticText, 0x1059f0480, {{102.0, -945.0}, {198.0, 26.0}}, label: 'Types of Life Policies', value: Types of Life Poli..., Focused
+                            Button, 0x1059dff00, {{346.0, -954.0}, {44.0, 44.0}}, label: 'Text size', Focused
+                          StaticText, 0x1059df5d0, {{20.0, -896.0}, {9.0, 17.0}}, label: '0', value: 0, Focused
+                          StaticText, 0x1059e92e0, {{28.0, -896.0}, {21.0, 17.0}}, label: 'of', value:  of , Focused
+                          StaticText, 0x1059df940, {{48.0, -896.0}, {75.0, 17.0}}, label: '14 sections', value: 14 sections, Focused
+                          StaticText, 0x10599e530, {{122.0, -896.0}, {34.0, 17.0}}, label: 'read', value:  read, Focused
+                          Other, 0x1059ae940, {{20.0, -870.0}, {362.0, 8.0}}, label: 'Sections read', value: 0.00, Focused
+                          Other, 0x1059aecc0, {{20.0, -844.0}, {362.0, 406.0}}, Focused
+                            StaticText, 0x1059ac320, {{20.0, -842.0}, {343.0, 401.0}}, label: 'This topic covers the main kinds of life insurance: term, whole life, universal, variable and indexed policies, plus special designs such as juvenile, family, final expense, joint, survivorship, group and credit life. The exam asks you to tell the policies apart by premium, death benefit, cash value and who bears the investment risk, to match a policy to a client's need, and to apply needs analysis and Social Security survivor rules. A few questions involve simple arithmetic on cash values, death benefits, premiums and benefit gaps.', value: This topic covers ..., Focused
+                          Other, 0x10a353f20, {{20.0, -416.0}, {362.0, 1712.0}}, label: 'Term life insurance, region', Focused
+                            Other, 0x1059828c0, {{38.0, -376.0}, {326.0, 26.0}}, label: 'Term life insurance', value: 2, Focused
+                              StaticText, 0x1059ae230, {{38.0, -376.0}, {194.0, 26.0}}, label: 'Term life insurance', value: Term life insurance, Focused
+                            Other, 0x10593c4d0, {{38.0, -338.0}, {326.0, 1208.0}}, Focused
+                              Other, 0x10595aba0, {{38.0, -338.0}, {326.0, 104.0}}, label: 'Term insurance is pure protection for a stated period and builds no cash value (savings element), which is why it has the lowest initial premium.', Focused
+                                StaticText, 0x105984a60, {{56.0, -335.0}, {274.0, 98.0}}, label: 'Term insurance is pure protection for a stated period and builds no cash value (savings element), which is why it has the lowest initial premium.', value: Term insurance is ..., Focused
+                              Other, 0x105989640, {{38.0, -224.0}, {326.0, 78.0}}, label: 'Level term keeps the death benefit constant for the whole term, so it costs more than decreasing term.', Focused
+                                StaticText, 0x10596ba50, {{56.0, -221.0}, {258.0, 72.0}}, label: 'Level term keeps the death benefit constant for the whole term, so it costs more than decreasing term.', value: Level term keeps t..., Focused
+                              Other, 0x105953930, {{38.0, -136.0}, {326.0, 104.0}}, label: 'Decreasing term has a level premium and a death benefit that declines over the term, which suits a shrinking debt such as a mortgage.', Focused
+                                StaticText, 0x1059a45c0, {{56.0, -133.0}, {277.0, 98.0}}, label: 'Decreasing term has a level premium and a death benefit that declines over the term, which suits a shrinking debt such as a mortgage.', value: Decreasing term ha..., Focused
+                              Other, 0x10596f520, {{38.0, -22.0}, {326.0, 78.0}}, label: 'Increasing term works the opposite way from decreasing term: its death benefit rises over the term.', Focused
+                                StaticText, 0x105955e80, {{56.0, -19.0}, {261.0, 72.0}}, label: 'Increasing term works the opposite way from decreasing term: its death benefit rises over the term.', value: Increasing term wo..., Focused
+                              Other, 0x1059728b0, {{38.0, 66.0}, {326.0, 130.0}}, label: 'A renewable term policy can be renewed without evidence of insurability (proof of good health), but each renewal is priced at the insured's attained age (current age), so the premium goes up.', Focused
+                                StaticText, 0x10598ae40, {{56.0, 69.0}, {302.0, 124.0}}, label: 'A renewable term policy can be renewed without evidence of insurability (proof of good health), but each renewal is priced at the insured's attained age (current age), so the premium goes up.', value: A renewable term p..., Focused
+                              Other, 0x10596bdc0, {{38.0, 206.0}, {326.0, 130.0}}, label: 'A convertible term policy can be exchanged for permanent (lifetime) insurance without evidence of insurability, within the period the policy allows.', Focused
+                                StaticText, 0x1059a3b70, {{56.0, 209.0}, {262.0, 124.0}}, label: 'A convertible term policy can be exchanged for permanent (lifetime) insurance without evidence of insurability, within the period the policy allows.', value: A convertible term..., Focused
+                              Other, 0x105942790, {{38.0, 346.0}, {326.0, 78.0}}, label: 'Term insurance gives the most death benefit per premium dollar, so it fits a temporary need on a tight budget.', Focused
+                                StaticText, 0x10594ce50, {{56.0, 349.0}, {274.0, 72.0}}, label: 'Term insurance gives the most death benefit per premium dollar, so it fits a temporary need on a tight budget.', value: Term insurance giv..., Focused
+                              Other, 0x10598b1c0, {{38.0, 434.0}, {326.0, 130.0}}, label: 'Return of premium term refunds the premiums paid if the insured outlives the term, so it costs considerably more than plain level term for the same face amount.', Focused
+                                StaticText, 0x10596b380, {{56.0, 437.0}, {273.0, 124.0}}, label: 'Return of premium term refunds the premiums paid if the insured outlives the term, so it costs considerably more than plain level term for the same face amount.', value: Return of premium ..., Focused
+                              Other, 0x10598cfd0, {{38.0, 574.0}, {326.0, 130.0}}, label: 'An indeterminate premium policy charges a current premium that the insurer may raise, but never above the guaranteed maximum premium stated in the policy.', Focused
+                                StaticText, 0x105958140, {{56.0, 577.0}, {245.0, 124.0}}, label: 'An indeterminate premium policy charges a current premium that the insurer may raise, but never above the guaranteed maximum premium stated in the policy.', value: An indeterminate p..., Focused
+                              Other, 0x105957a70, {{38.0, 714.0}, {326.0, 156.0}}, label: 'An attained-age conversion uses the insured's current age and a higher premium; an original-age conversion uses the issue age and a lower premium but requires paying the premium or reserve difference.', Focused
+                                StaticText, 0x1059a88b0, {{56.0, 717.0}, {268.0, 150.0}}, label: 'An attained-age conversion uses the insured's current age and a higher premium; an original-age conversion uses the issue age and a lower premium but requires paying the premium or reserve difference.', value: An attained-age co..., Focused
+                            Other, 0x105984380, {{38.0, 884.0}, {326.0, 166.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x1059a92d0, {{76.0, 897.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105990f50, {{52.0, 918.0}, {298.0, 120.0}}, Focused
+                                StaticText, 0x105992460, {{52.0, 920.0}, {274.0, 115.0}}, label: 'Look for the client's need. A temporary need with the largest affordable death benefit points to level term; a debt that shrinks over time points to decreasing term.', value: Look for the clien..., Focused
+                            Other, 0x10598e1f0, {{38.0, 1064.0}, {326.0, 166.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x1059762c0, {{76.0, 1077.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x1059a3ec0, {{52.0, 1098.0}, {298.0, 120.0}}, Focused
+                                StaticText, 0x1059a4920, {{52.0, 1100.0}, {280.0, 115.0}}, label: 'Renewable and convertible are different rights. Renewing continues the term coverage for another period; converting exchanges it for permanent coverage. Neither requires proof of insurability.', value: Renewable and conv..., Focused
+                            Switch, 0x105968660, {{30.0, 1240.0}, {151.0, 44.0}}, label: 'Mark as read : Term life insurance', value: 0, Focused
+                          Other, 0x105957de0, {{20.0, 1310.0}, {362.0, 1472.0}}, label: 'Whole life insurance, region', Focused
+                            Other, 0x105988230, {{38.0, 1350.0}, {326.0, 26.0}}, label: 'Whole life insurance', value: 2, Focused
+                              StaticText, 0x10597da10, {{38.0, 1350.0}, {208.0, 26.0}}, label: 'Whole life insurance', value: Whole life insurance, Focused
+                            Other, 0x1059866a0, {{38.0, 1388.0}, {326.0, 1016.0}}, Focused
+                              Other, 0x105965d90, {{38.0, 1388.0}, {326.0, 104.0}}, label: 'Whole life is permanent insurance: it covers the insured for life at a level premium and builds a guaranteed cash value.', Focused
+                                StaticText, 0x1059791f0, {{56.0, 1391.0}, {270.0, 98.0}}, label: 'Whole life is permanent insurance: it covers the insured for life at a level premium and builds a guaranteed cash value.', value: Whole life is perm..., Focused
+                              Other, 0x105957050, {{38.0, 1502.0}, {326.0, 104.0}}, label: 'Ordinary (straight) whole life premiums are payable until the insured dies or the policy matures, which gives it the lowest annual premium of the whole life forms.', Focused
+                                StaticText, 0x10598a770, {{56.0, 1505.0}, {299.0, 98.0}}, label: 'Ordinary (straight) whole life premiums are payable until the insured dies or the policy matures, which gives it the lowest annual premium of the whole life forms.', value: Ordinary (straight..., Focused
+                              Other, 0x10597d330, {{38.0, 1616.0}, {326.0, 104.0}}, label: 'Limited-pay whole life, such as 20-pay life, compresses the premiums into a shorter period, so each premium is higher and cash value builds faster.', Focused
+                                StaticText, 0x10594dba0, {{56.0, 1619.0}, {287.0, 98.0}}, label: 'Limited-pay whole life, such as 20-pay life, compresses the premiums into a shorter period, so each premium is higher and cash value builds faster.', value: Limited-pay whole ..., Focused
+                              Other, 0x10596d670, {{38.0, 1730.0}, {326.0, 104.0}}, label: 'A limited-pay policy still covers the insured for life: after the last scheduled premium the policy is paid up, and only the payments stop.', Focused
+                                StaticText, 0x105964280, {{56.0, 1733.0}, {274.0, 98.0}}, label: 'A limited-pay policy still covers the insured for life: after the last scheduled premium the policy is paid up, and only the payments stop.', value: A limited-pay poli..., Focused
+                              Other, 0x105989d30, {{38.0, 1844.0}, {326.0, 78.0}}, label: 'Single premium whole life is paid for with one lump sum, so it is fully paid up at issue and has cash value right away.', Focused
+                                StaticText, 0x105969480, {{56.0, 1847.0}, {291.0, 72.0}}, label: 'Single premium whole life is paid for with one lump sum, so it is fully paid up at issue and has cash value right away.', value: Single premium who..., Focused
+                              Other, 0x10596a5c0, {{38.0, 1932.0}, {326.0, 104.0}}, label: 'Modified whole life charges a lower premium for the first few years and then steps up once to a higher level premium for life.', Focused
+                                StaticText, 0x105959d90, {{56.0, 1935.0}, {261.0, 98.0}}, label: 'Modified whole life charges a lower premium for the first few years and then steps up once to a higher level premium for life.', value: Modified whole lif..., Focused
+                              Other, 0x105975560, {{38.0, 2046.0}, {326.0, 78.0}}, label: 'Graded premium whole life raises the premium a little each year for an initial period and then keeps it level for life.', Focused
+                                StaticText, 0x10595de80, {{56.0, 2049.0}, {281.0, 72.0}}, label: 'Graded premium whole life raises the premium a little each year for an initial period and then keeps it level for life.', value: Graded premium who..., Focused
+                              Other, 0x1059626e0, {{38.0, 2134.0}, {326.0, 156.0}}, label: 'Interest-sensitive (current assumption) whole life keeps a fixed premium but credits current interest above a guaranteed minimum, and good results can lower the premium or add cash value.', Focused
+                                StaticText, 0x10599ef60, {{56.0, 2137.0}, {289.0, 150.0}}, label: 'Interest-sensitive (current assumption) whole life keeps a fixed premium but credits current interest above a guaranteed minimum, and good results can lower the premium or add cash value.', value: Interest-sensitive..., Focused
+                              Other, 0x105941310, {{38.0, 2300.0}, {326.0, 104.0}}, label: 'An endowment pays the face amount at death during the endowment period, or to the owner at a stated maturity date, such as age 65, if the insured is living.', Focused
+                                StaticText, 0x105975f60, {{56.0, 2303.0}, {295.0, 98.0}}, label: 'An endowment pays the face amount at death during the endowment period, or to the owner at a stated maturity date, such as age 65, if the insured is living.', value: An endowment pays ..., Focused
+                            Other, 0x105971080, {{38.0, 2418.0}, {326.0, 142.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x10596f880, {{76.0, 2431.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x10597eec0, {{52.0, 2452.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x105981440, {{52.0, 2454.0}, {296.0, 91.0}}, label: 'Compare the whole life forms by how long premiums are paid: the shorter the payment period, the higher each premium and the faster the cash value grows.', value: Compare the whole ..., Focused
+                            Other, 0x10594d510, {{38.0, 2574.0}, {326.0, 142.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105974b20, {{76.0, 2587.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105968310, {{52.0, 2608.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x105973d20, {{52.0, 2610.0}, {292.0, 91.0}}, label: 'A 20-pay whole life policy does not end after 20 years. The number describes the premium-paying period, not the length of coverage.', value: A 20-pay whole lif..., Focused
+                            Switch, 0x10597cfd0, {{30.0, 2726.0}, {151.0, 44.0}}, label: 'Mark as read : Whole life insurance', value: 0, Focused
+                          Other, 0x105967230, {{20.0, 2796.0}, {362.0, 1037.0}}, label: 'Cash value and net amount at risk, region', Focused
+                            Other, 0x10595fde0, {{38.0, 2836.0}, {326.0, 51.0}}, label: 'Cash value and net amount at risk', value: 2, Focused
+                              StaticText, 0x105978140, {{38.0, 2836.0}, {184.0, 51.0}}, label: 'Cash value and net amount at risk', value: Cash value and net..., Focused
+                            Other, 0x105948140, {{38.0, 2899.0}, {326.0, 736.0}}, Focused
+                              Other, 0x10597f250, {{38.0, 2899.0}, {326.0, 78.0}}, label: 'The cash value of a traditional whole life policy is guaranteed in the policy and grows tax-deferred.', Focused
+                                StaticText, 0x10597ad90, {{56.0, 2902.0}, {256.0, 72.0}}, label: 'The cash value of a traditional whole life policy is guaranteed in the policy and grows tax-deferred.', value: The cash value of ..., Focused
+                              Other, 0x1059758a0, {{38.0, 2987.0}, {326.0, 104.0}}, label: 'The policyowner can reach the cash value through a policy loan or by surrendering the policy, and it is not forfeited if premiums stop.', Focused
+                                StaticText, 0x105966b50, {{56.0, 2990.0}, {258.0, 98.0}}, label: 'The policyowner can reach the cash value through a policy loan or by surrendering the policy, and it is not forfeited if premiums stop.', value: The policyowner ca..., Focused
+                              Other, 0x10594e5d0, {{38.0, 3101.0}, {326.0, 104.0}}, label: 'Cash value is designed to grow until it equals the face amount, the death benefit stated in the policy, at the policy's maturity date.', Focused
+                                StaticText, 0x105946600, {{56.0, 3104.0}, {263.0, 98.0}}, label: 'Cash value is designed to grow until it equals the face amount, the death benefit stated in the policy, at the policy's maturity date.', value: Cash value is desi..., Focused
+                              Other, 0x10594e280, {{38.0, 3215.0}, {326.0, 52.0}}, label: 'If the insured is still living at maturity, the face amount is paid to the policyowner.', Focused
+                                StaticText, 0x10598ec90, {{56.0, 3218.0}, {302.0, 46.0}}, label: 'If the insured is still living at maturity, the face amount is paid to the policyowner.', value: If the insured is ..., Focused
+                              Other, 0x105989990, {{38.0, 3277.0}, {326.0, 104.0}}, label: 'The net amount at risk is the pure insurance part of the death benefit, and it shrinks to zero as cash value grows toward the face amount.', Focused
+                                StaticText, 0x105989300, {{56.0, 3280.0}, {262.0, 98.0}}, label: 'The net amount at risk is the pure insurance part of the death benefit, and it shrinks to zero as cash value grows toward the face amount.', value: The net amount at ..., Focused
+                              Other, 0x10594e930, {{38.0, 3391.0}, {326.0, 104.0}}, label: 'At death the beneficiary of a traditional whole life policy receives the face amount, not the face amount plus the cash value.', Focused
+                                StaticText, 0x105974420, {{56.0, 3394.0}, {289.0, 98.0}}, label: 'At death the beneficiary of a traditional whole life policy receives the face amount, not the face amount plus the cash value.', value: At death the benef..., Focused
+                              Other, 0x1059a0e90, {{38.0, 3505.0}, {326.0, 130.0}}, label: 'Level premiums exceed the cost of protection in the early years, because the cost of insurance rises with age, and the excess builds the reserve and cash value.', Focused
+                                StaticText, 0x1059690e0, {{56.0, 3508.0}, {252.0, 124.0}}, label: 'Level premiums exceed the cost of protection in the early years, because the cost of insurance rises with age, and the excess builds the reserve and cash value.', value: Level premiums exc..., Focused
+                            Other, 0x10596e420, {{38.0, 3649.0}, {326.0, 118.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105941a20, {{76.0, 3662.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x1059a00a0, {{52.0, 3683.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x10595efe0, {{52.0, 3685.0}, {296.0, 67.0}}, label: 'Cash value is part of the face amount, not extra. Subtract it to find the net amount at risk; do not add it.', value: Cash value is part..., Focused
+                            Switch, 0x105967580, {{30.0, 3777.0}, {151.0, 44.0}}, label: 'Mark as read : Cash value and net amount at risk', value: 0, Focused
+                          Other, 0x1059769a0, {{20.0, 3847.0}, {362.0, 1430.0}}, label: 'Universal life basics, region', Focused
+                            Other, 0x105963120, {{38.0, 3887.0}, {326.0, 26.0}}, label: 'Universal life basics', value: 2, Focused
+                              StaticText, 0x1059360a0, {{38.0, 3887.0}, {197.0, 26.0}}, label: 'Universal life basics', value: Universal life bas..., Focused
+                            Other, 0x10595ec90, {{38.0, 3925.0}, {326.0, 974.0}}, Focused
+                              Other, 0x10596fbf0, {{38.0, 3925.0}, {326.0, 78.0}}, label: 'Universal life has flexible premiums and an adjustable death benefit, both within policy limits.', Focused
+                                StaticText, 0x10595c720, {{56.0, 3928.0}, {261.0, 72.0}}, label: 'Universal life has flexible premiums and an adjustable death benefit, both within policy limits.', value: Universal life has..., Focused
+                              Other, 0x105976650, {{38.0, 4013.0}, {326.0, 104.0}}, label: 'Universal life cash value is held in the insurer's general account, its own investment portfolio, so the insurer bears the investment risk.', Focused
+                                StaticText, 0x105960160, {{56.0, 4016.0}, {248.0, 98.0}}, label: 'Universal life cash value is held in the insurer's general account, its own investment portfolio, so the insurer bears the investment risk.', value: Universal life cas..., Focused
+                              Other, 0x1059689e0, {{38.0, 4127.0}, {326.0, 78.0}}, label: 'Each month the insurer deducts the cost of insurance and expense charges from the universal life cash value.', Focused
+                                StaticText, 0x105bad5e0, {{56.0, 4130.0}, {291.0, 72.0}}, label: 'Each month the insurer deducts the cost of insurance and expense charges from the universal life cash value.', value: Each month the ins..., Focused
+                              Other, 0x105baf250, {{38.0, 4215.0}, {326.0, 104.0}}, label: 'A universal life policy stays in force as long as its cash value can cover the monthly deductions, even if the owner skips premium payments.', Focused
+                                StaticText, 0x105bacf70, {{56.0, 4218.0}, {262.0, 98.0}}, label: 'A universal life policy stays in force as long as its cash value can cover the monthly deductions, even if the owner skips premium payments.', value: A universal life p..., Focused
+                              Other, 0x105bb08d0, {{38.0, 4329.0}, {326.0, 52.0}}, label: 'Skipped universal life premiums are not a debt, so the owner has nothing to repay.', Focused
+                                StaticText, 0x105bb0340, {{56.0, 4332.0}, {305.0, 46.0}}, label: 'Skipped universal life premiums are not a debt, so the owner has nothing to repay.', value: Skipped universal ..., Focused
+                              Other, 0x105bac150, {{38.0, 4391.0}, {326.0, 78.0}}, label: 'Option A is the level death benefit option: the beneficiary receives the specified (face) amount.', Focused
+                                StaticText, 0x105b4f5a0, {{56.0, 4394.0}, {251.0, 72.0}}, label: 'Option A is the level death benefit option: the beneficiary receives the specified (face) amount.', value: Option A is the le..., Focused
+                              Other, 0x105b486b0, {{38.0, 4479.0}, {326.0, 78.0}}, label: 'Option B is the increasing death benefit option: the beneficiary receives the specified amount plus the cash value.', Focused
+                                StaticText, 0x105b49310, {{56.0, 4482.0}, {293.0, 72.0}}, label: 'Option B is the increasing death benefit option: the beneficiary receives the specified amount plus the cash value.', value: Option B is the in..., Focused
+                              Other, 0x105b49b50, {{38.0, 4567.0}, {326.0, 104.0}}, label: 'Universal life credits a current interest rate declared by the insurer, but never less than the guaranteed minimum rate stated in the policy.', Focused
+                                StaticText, 0x105b9dbd0, {{56.0, 4570.0}, {282.0, 98.0}}, label: 'Universal life credits a current interest rate declared by the insurer, but never less than the guaranteed minimum rate stated in the policy.', value: Universal life cre..., Focused
+                              Other, 0x105b9d7b0, {{38.0, 4681.0}, {326.0, 104.0}}, label: 'The monthly cost of insurance is based on the net amount at risk and the insured's attained age, so the rate per $1,000 rises as the insured grows older.', Focused
+                                StaticText, 0x105b9d270, {{56.0, 4684.0}, {294.0, 98.0}}, label: 'The monthly cost of insurance is based on the net amount at risk and the insured's attained age, so the rate per $1,000 rises as the insured grows older.', value: The monthly cost o..., Focused
+                              Other, 0x105b9ce50, {{38.0, 4795.0}, {326.0, 104.0}}, label: 'Universal life is unbundled: its mortality, interest and expense parts are shown separately, and the annual statement reports each one.', Focused
+                                StaticText, 0x105b9c920, {{56.0, 4798.0}, {264.0, 98.0}}, label: 'Universal life is unbundled: its mortality, interest and expense parts are shown separately, and the annual statement reports each one.', value: Universal life is ..., Focused
+                            Other, 0x105bb2690, {{38.0, 4913.0}, {326.0, 166.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105bab6f0, {{76.0, 4926.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105babb10, {{52.0, 4947.0}, {298.0, 120.0}}, Focused
+                                StaticText, 0x105bcebd0, {{52.0, 4949.0}, {279.0, 115.0}}, label: 'When a question asks what keeps a universal life policy in force, look for the cash value covering the monthly deductions, not a fixed premium schedule.', value: When a question as..., Focused
+                            Other, 0x105bb0eb0, {{38.0, 5093.0}, {326.0, 118.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105bb1a30, {{76.0, 5106.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105bb12d0, {{52.0, 5127.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x105bb2270, {{52.0, 5129.0}, {294.0, 67.0}}, label: 'Flexible premiums belong to universal life. Fixed premiums with a separate account describe variable life.', value: Flexible premiums ..., Focused
+                            Switch, 0x105bcd510, {{30.0, 5221.0}, {151.0, 44.0}}, label: 'Mark as read : Universal life basics', value: 0, Focused
+                          Other, 0x105b93130, {{20.0, 5291.0}, {362.0, 1373.0}}, label: 'Universal life options, changes and guarantees, region', Focused
+                            Other, 0x105c91280, {{38.0, 5331.0}, {326.0, 51.0}}, label: 'Universal life options, changes and guarantees', value: 2, Focused
+                              StaticText, 0x105cc2500, {{38.0, 5331.0}, {242.0, 51.0}}, label: 'Universal life options, changes and guarantees', value: Universal life opt..., Focused
+                            Other, 0x105cb1570, {{38.0, 5394.0}, {326.0, 892.0}}, Focused
+                              Other, 0x105c54720, {{38.0, 5394.0}, {326.0, 104.0}}, label: 'Under Option B the net amount at risk stays equal to the specified amount as the cash value grows; under Option A it shrinks.', Focused
+                                StaticText, 0x105cc3c80, {{56.0, 5397.0}, {251.0, 98.0}}, label: 'Under Option B the net amount at risk stays equal to the specified amount as the cash value grows; under Option A it shrinks.', value: Under Option B the..., Focused
+                              Other, 0x105c510c0, {{38.0, 5508.0}, {326.0, 130.0}}, label: 'A universal life owner can take a partial withdrawal of cash value without a loan, and under Option A a typical policy reduces the specified amount by the same sum.', Focused
+                                StaticText, 0x105ca1f20, {{56.0, 5511.0}, {271.0, 124.0}}, label: 'A universal life owner can take a partial withdrawal of cash value without a loan, and under Option A a typical policy reduces the specified amount by the same sum.', value: A universal life o..., Focused
+                              Other, 0x105caae30, {{38.0, 5648.0}, {326.0, 104.0}}, label: 'Increasing the specified amount requires evidence of insurability because it adds risk, while lowering the death benefit or changing the premium does not.', Focused
+                                StaticText, 0x105cb0210, {{56.0, 5651.0}, {302.0, 98.0}}, label: 'Increasing the specified amount requires evidence of insurability because it adds risk, while lowering the death benefit or changing the premium does not.', value: Increasing the spe..., Focused
+                              Other, 0x105cd2200, {{38.0, 5762.0}, {326.0, 130.0}}, label: 'The target (planned) premium is the suggested amount that should keep the policy in force under the insurer's assumptions; paying less raises the risk of lapse.', Focused
+                                StaticText, 0x105cb1d90, {{56.0, 5765.0}, {255.0, 124.0}}, label: 'The target (planned) premium is the suggested amount that should keep the policy in force under the insurer's assumptions; paying less raises the risk of lapse.', value: The target (planne..., Focused
+                              Other, 0x105cd90f0, {{38.0, 5902.0}, {326.0, 104.0}}, label: 'Cash surrender value equals the cash value minus any surrender charge, which applies in the policy's early years, and minus any policy loans.', Focused
+                                StaticText, 0x105cd8cd0, {{56.0, 5905.0}, {279.0, 98.0}}, label: 'Cash surrender value equals the cash value minus any surrender charge, which applies in the policy's early years, and minus any policy loans.', value: Cash surrender val..., Focused
+                              Other, 0x105cd88b0, {{38.0, 6016.0}, {326.0, 156.0}}, label: 'Guaranteed (no-lapse) universal life keeps a level death benefit in force for life, or to a guaranteed age the owner selects, as long as the required premiums are paid on time, even with little cash value.', Focused
+                                StaticText, 0x105cd8490, {{56.0, 6019.0}, {255.0, 150.0}}, label: 'Guaranteed (no-lapse) universal life keeps a level death benefit in force for life, or to a guaranteed age the owner selects, as long as the required premiums are paid on time, even with little cash value.', value: Guaranteed (no-lap..., Focused
+                              Other, 0x105cd8070, {{38.0, 6182.0}, {326.0, 104.0}}, label: 'Because guaranteed universal life is not built to accumulate cash value, it suits a buyer who wants permanent protection at the lowest guaranteed premium.', Focused
+                                StaticText, 0x105cd7c50, {{56.0, 6185.0}, {295.0, 98.0}}, label: 'Because guaranteed universal life is not built to accumulate cash value, it suits a buyer who wants permanent protection at the lowest guaranteed premium.', value: Because guaranteed..., Focused
+                            Other, 0x105cd7830, {{38.0, 6300.0}, {326.0, 166.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105cd7410, {{76.0, 6313.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105cd6ff0, {{52.0, 6334.0}, {298.0, 120.0}}, Focused
+                                StaticText, 0x105cd6bd0, {{52.0, 6336.0}, {284.0, 115.0}}, label: 'When a universal life question changes the death benefit, check the option first: under Option A a withdrawal lowers the specified amount, and under Option B it lowers the cash value.', value: When a universal l..., Focused
+                            Other, 0x105c9a350, {{38.0, 6480.0}, {326.0, 118.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105c99f30, {{76.0, 6493.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105c9b960, {{52.0, 6514.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x105c96280, {{52.0, 6516.0}, {294.0, 67.0}}, label: 'The surrender value is not the cash value. Subtract any surrender charge and any loans before answering.', value: The surrender valu..., Focused
+                            Switch, 0x105cb6e70, {{30.0, 6608.0}, {151.0, 44.0}}, label: 'Mark as read : Universal life options, changes and guarantees', value: 0, Focused
+                          Other, 0x105cb6a50, {{20.0, 6678.0}, {362.0, 1521.0}}, label: 'Variable life and variable universal life, region', Focused
+                            Other, 0x105cb6630, {{38.0, 6718.0}, {326.0, 51.0}}, label: 'Variable life and variable universal life', value: 2, Focused
+                              StaticText, 0x105caed80, {{38.0, 6718.0}, {214.0, 51.0}}, label: 'Variable life and variable universal life', value: Variable life and ..., Focused
+                            Other, 0x105c98980, {{38.0, 6781.0}, {326.0, 1016.0}}, Focused
+                              Other, 0x105c8f9a0, {{38.0, 6781.0}, {326.0, 130.0}}, label: 'Variable life keeps the fixed, level premium of whole life but holds the cash value in a separate account, in investment subaccounts the owner chooses.', Focused
+                                StaticText, 0x105cabc30, {{56.0, 6784.0}, {261.0, 124.0}}, label: 'Variable life keeps the fixed, level premium of whole life but holds the cash value in a separate account, in investment subaccounts the owner chooses.', value: Variable life keep..., Focused
+                              Other, 0x105cb21b0, {{38.0, 6921.0}, {326.0, 104.0}}, label: 'In variable life the policyowner bears the investment risk, so the cash value is not guaranteed and can fall when the subaccounts lose value.', Focused
+                                StaticText, 0x105c58ed0, {{56.0, 6924.0}, {270.0, 98.0}}, label: 'In variable life the policyowner bears the investment risk, so the cash value is not guaranteed and can fall when the subaccounts lose value.', value: In variable life t..., Focused
+                              Other, 0x105c94740, {{38.0, 7035.0}, {326.0, 78.0}}, label: 'A variable life death benefit can change with investment results, but it cannot fall below the guaranteed minimum.', Focused
+                                StaticText, 0x105c46000, {{56.0, 7038.0}, {293.0, 72.0}}, label: 'A variable life death benefit can change with investment results, but it cannot fall below the guaranteed minimum.', value: A variable life de..., Focused
+                              Other, 0x105ca3df0, {{38.0, 7123.0}, {326.0, 78.0}}, label: 'Variable universal life combines the subaccount investing of variable life with the flexible premiums of universal life.', Focused
+                                StaticText, 0x105cb25d0, {{56.0, 7126.0}, {301.0, 72.0}}, label: 'Variable universal life combines the subaccount investing of variable life with the flexible premiums of universal life.', value: Variable universal..., Focused
+                              Other, 0x105cc44a0, {{38.0, 7211.0}, {326.0, 104.0}}, label: 'Variable products are securities, so the producer needs a securities registration with FINRA (Series 6 or 7) as well as a life insurance license.', Focused
+                                StaticText, 0x105cc4080, {{56.0, 7214.0}, {267.0, 98.0}}, label: 'Variable products are securities, so the producer needs a securities registration with FINRA (Series 6 or 7) as well as a life insurance license.', value: Variable products ..., Focused
+                              Other, 0x105c47b40, {{38.0, 7325.0}, {326.0, 104.0}}, label: 'Because variable life is a security, the prospect must receive a prospectus describing the separate account's investment options, charges and risks.', Focused
+                                StaticText, 0x105c90400, {{56.0, 7328.0}, {285.0, 98.0}}, label: 'Because variable life is a security, the prospect must receive a prospectus describing the separate account's investment options, charges and risks.', value: Because variable l..., Focused
+                              Other, 0x105c953c0, {{38.0, 7439.0}, {326.0, 104.0}}, label: 'Variable products are regulated by state insurance departments as insurance and by the SEC and FINRA under federal law as securities.', Focused
+                                StaticText, 0x105cac470, {{56.0, 7442.0}, {281.0, 98.0}}, label: 'Variable products are regulated by state insurance departments as insurance and by the SEC and FINRA under federal law as securities.', value: Variable products ..., Focused
+                              Other, 0x105c9b120, {{38.0, 7553.0}, {326.0, 130.0}}, label: 'Even in variable life, the insurer bears the mortality and expense risks through guaranteed maximum charges; only investment performance passes to the owner.', Focused
+                                StaticText, 0x105cc1ec0, {{56.0, 7556.0}, {286.0, 124.0}}, label: 'Even in variable life, the insurer bears the mortality and expense risks through guaranteed maximum charges; only investment performance passes to the owner.', value: Even in variable l..., Focused
+                              Other, 0x105cb0610, {{38.0, 7693.0}, {326.0, 104.0}}, label: 'Variable universal life can lapse if low premiums and poor investment returns leave too little cash value to cover the monthly charges.', Focused
+                                StaticText, 0x105c50860, {{56.0, 7696.0}, {260.0, 98.0}}, label: 'Variable universal life can lapse if low premiums and poor investment returns leave too little cash value to cover the monthly charges.', value: Variable universal..., Focused
+                            Other, 0x105c46840, {{38.0, 7811.0}, {326.0, 142.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105cd5810, {{76.0, 7824.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105cd5c30, {{52.0, 7845.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x105cd6590, {{52.0, 7847.0}, {280.0, 91.0}}, label: 'Sort the cash value policies with two questions. Is the premium fixed or flexible? Is the cash value in the general account or a separate account?', value: Sort the cash valu..., Focused
+                            Other, 0x105947de0, {{38.0, 7967.0}, {326.0, 166.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105975c10, {{76.0, 7980.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x1059702b0, {{52.0, 8001.0}, {298.0, 120.0}}, Focused
+                                StaticText, 0x105985fd0, {{52.0, 8003.0}, {276.0, 115.0}}, label: 'A variable universal life policy without a no-lapse guarantee has no guaranteed death benefit to fall back on; the guaranteed minimum belongs to scheduled-premium variable life.', value: A variable univers..., Focused
+                            Switch, 0x105978b40, {{30.0, 8143.0}, {151.0, 44.0}}, label: 'Mark as read : Variable life and variable universal life', value: 0, Focused
+                          Other, 0x10596d320, {{20.0, 8213.0}, {362.0, 694.0}}, label: 'Indexed universal life, region', Focused
+                            Other, 0x105978490, {{38.0, 8253.0}, {326.0, 26.0}}, label: 'Indexed universal life', value: 2, Focused
+                              StaticText, 0x10597c240, {{38.0, 8253.0}, {214.0, 26.0}}, label: 'Indexed universal life', value: Indexed universal ..., Focused
+                            Other, 0x105948b60, {{38.0, 8291.0}, {326.0, 394.0}}, Focused
+                              Other, 0x105974e90, {{38.0, 8291.0}, {326.0, 104.0}}, label: 'Indexed universal life credits interest based on an index such as the S&P 500, with a guaranteed floor and a limit on the upside.', Focused
+                                StaticText, 0x10599e8a0, {{56.0, 8294.0}, {271.0, 98.0}}, label: 'Indexed universal life credits interest based on an index such as the S&P 500, with a guaranteed floor and a limit on the upside.', value: Indexed universal ..., Focused
+                              Other, 0x10597f5a0, {{38.0, 8405.0}, {326.0, 104.0}}, label: 'Indexed universal life is a general account product, not a security, so a life insurance license alone is enough to sell it.', Focused
+                                StaticText, 0x105944dd0, {{56.0, 8408.0}, {244.0, 98.0}}, label: 'Indexed universal life is a general account product, not a security, so a life insurance license alone is enough to sell it.', value: Indexed universal ..., Focused
+                              Other, 0x105947a70, {{38.0, 8519.0}, {326.0, 78.0}}, label: 'The cap limits the interest credited in a good year: with a 9% cap, a 14% index gain is credited as 9%.', Focused
+                                StaticText, 0x105988f90, {{56.0, 8522.0}, {258.0, 72.0}}, label: 'The cap limits the interest credited in a good year: with a 9% cap, a 14% index gain is credited as 9%.', value: The cap limits the..., Focused
+                              Other, 0x105972540, {{38.0, 8607.0}, {326.0, 78.0}}, label: 'The floor protects the cash value in a bad year: with a 0% floor, a 6% index loss is credited as 0% instead of a loss.', Focused
+                                StaticText, 0x105967fa0, {{56.0, 8610.0}, {292.0, 72.0}}, label: 'The floor protects the cash value in a bad year: with a 0% floor, a 6% index loss is credited as 0% instead of a loss.', value: The floor protects..., Focused
+                            Other, 0x105987e90, {{38.0, 8699.0}, {326.0, 142.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x10594f350, {{76.0, 8712.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x1059697d0, {{52.0, 8733.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x10596b6f0, {{52.0, 8735.0}, {272.0, 91.0}}, label: 'Indexed does not mean invested in the market. Interest is credited by formula, and the money is not placed in subaccounts.', value: Indexed does not m..., Focused
+                            Switch, 0x105948810, {{30.0, 8851.0}, {151.0, 44.0}}, label: 'Mark as read : Indexed universal life', value: 0, Focused
+                          Other, 0x105979570, {{20.0, 8921.0}, {362.0, 802.0}}, label: 'Joint life and survivorship life, region', Focused
+                            Other, 0x1059645f0, {{38.0, 8961.0}, {326.0, 26.0}}, label: 'Joint life and survivorship life', value: 2, Focused
+                              StaticText, 0x105935d30, {{38.0, 8961.0}, {293.0, 26.0}}, label: 'Joint life and survivorship life', value: Joint life and sur..., Focused
+                            Other, 0x105982530, {{38.0, 8999.0}, {326.0, 394.0}}, Focused
+                              Other, 0x1059747b0, {{38.0, 8999.0}, {326.0, 104.0}}, label: 'Joint life (first-to-die) insurance covers two or more lives under one policy and pays the death benefit when the first insured dies.', Focused
+                                StaticText, 0x10597b100, {{56.0, 9002.0}, {257.0, 98.0}}, label: 'Joint life (first-to-die) insurance covers two or more lives under one policy and pays the death benefit when the first insured dies.', value: Joint life (first-..., Focused
+                              Other, 0x105956cd0, {{38.0, 9113.0}, {326.0, 78.0}}, label: 'A joint life policy ends after it pays at the first death, so it provides nothing at the second death.', Focused
+                                StaticText, 0x10597e470, {{56.0, 9116.0}, {254.0, 72.0}}, label: 'A joint life policy ends after it pays at the first death, so it provides nothing at the second death.', value: A joint life polic..., Focused
+                              Other, 0x1059a0770, {{38.0, 9201.0}, {326.0, 78.0}}, label: 'Survivorship (second-to-die) life insures two lives under one policy and pays only when the last insured dies.', Focused
+                                StaticText, 0x105983630, {{56.0, 9204.0}, {283.0, 72.0}}, label: 'Survivorship (second-to-die) life insures two lives under one policy and pays only when the last insured dies.', value: Survivorship (seco..., Focused
+                              Other, 0x105960810, {{38.0, 9289.0}, {326.0, 104.0}}, label: 'Survivorship life costs less than two separate policies and is often used to provide cash for estate taxes due at the second death.', Focused
+                                StaticText, 0x1059877d0, {{56.0, 9292.0}, {249.0, 98.0}}, label: 'Survivorship life costs less than two separate policies and is often used to provide cash for estate taxes due at the second death.', value: Survivorship life ..., Focused
+                            Other, 0x10597c5a0, {{38.0, 9407.0}, {326.0, 142.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105965380, {{76.0, 9420.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x10598e900, {{52.0, 9441.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x1059557c0, {{52.0, 9443.0}, {295.0, 91.0}}, label: 'If the need for cash arises only when both people have died, as with estate tax that is not due until the second spouse dies, choose survivorship life.', value: If the need for ca..., Focused
+                            Other, 0x105986a10, {{38.0, 9563.0}, {326.0, 94.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105954a30, {{76.0, 9576.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105957700, {{52.0, 9597.0}, {298.0, 48.0}}, Focused
+                                StaticText, 0x105949270, {{52.0, 9599.0}, {278.0, 43.0}}, label: 'A first-to-die policy would pay too early for an estate tax need and then end.', value: A first-to-die pol..., Focused
+                            Switch, 0x10595c050, {{30.0, 9667.0}, {151.0, 44.0}}, label: 'Mark as read : Joint life and survivorship life', value: 0, Focused
+                          Other, 0x10597a670, {{20.0, 9737.0}, {362.0, 1207.0}}, label: 'Juvenile, family and adjustable policies, region', Focused
+                            Other, 0x105948ed0, {{38.0, 9777.0}, {326.0, 51.0}}, label: 'Juvenile, family and adjustable policies', value: 2, Focused
+                              StaticText, 0x105969b20, {{38.0, 9777.0}, {196.0, 51.0}}, label: 'Juvenile, family and adjustable policies', value: Juvenile, family a..., Focused
+                            Other, 0x10595d120, {{38.0, 9840.0}, {326.0, 726.0}}, Focused
+                              Other, 0x105987b40, {{38.0, 9840.0}, {326.0, 104.0}}, label: 'A jumping juvenile policy's face amount increases automatically at a stated age, such as adulthood, with no increase in premium and no evidence of insurability.', Focused
+                                StaticText, 0x105953fe0, {{56.0, 9843.0}, {299.0, 98.0}}, label: 'A jumping juvenile policy's face amount increases automatically at a stated age, such as adulthood, with no increase in premium and no evidence of insurability.', value: A jumping juvenile..., Focused
+                              Other, 0x10596e780, {{38.0, 9954.0}, {326.0, 130.0}}, label: 'A family income policy combines whole life with decreasing term and pays monthly income from the insured's death until the end of a period measured from the issue date.', Focused
+                                StaticText, 0x1059821e0, {{56.0, 9957.0}, {278.0, 124.0}}, label: 'A family income policy combines whole life with decreasing term and pays monthly income from the insured's death until the end of a period measured from the issue date.', value: A family income po..., Focused
+                              Other, 0x105946960, {{38.0, 10094.0}, {326.0, 104.0}}, label: 'A family maintenance policy combines whole life with level term and pays monthly income for a full fixed period that starts at the insured's death.', Focused
+                                StaticText, 0x105980370, {{56.0, 10097.0}, {284.0, 98.0}}, label: 'A family maintenance policy combines whole life with level term and pays monthly income for a full fixed period that starts at the insured's death.', value: A family maintenan..., Focused
+                              Other, 0x105967900, {{38.0, 10208.0}, {326.0, 130.0}}, label: 'A family policy (family plan) covers several family members under one contract, typically permanent coverage on a parent with term coverage on the spouse and children.', Focused
+                                StaticText, 0x1059a4250, {{56.0, 10211.0}, {279.0, 124.0}}, label: 'A family policy (family plan) covers several family members under one contract, typically permanent coverage on a parent with term coverage on the spouse and children.', value: A family policy (f..., Focused
+                              Other, 0x10596a920, {{38.0, 10348.0}, {326.0, 104.0}}, label: 'Adjustable life lets the owner change the face amount, the premium and even the plan of insurance, such as from term to whole life, within set limits.', Focused
+                                StaticText, 0x1059a0410, {{56.0, 10351.0}, {295.0, 98.0}}, label: 'Adjustable life lets the owner change the face amount, the premium and even the plan of insurance, such as from term to whole life, within set limits.', value: Adjustable life le..., Focused
+                              Other, 0x105977720, {{38.0, 10462.0}, {326.0, 104.0}}, label: 'A child has no income to replace, so a main reason to buy juvenile permanent life is to lock in coverage while the child is insurable.', Focused
+                                StaticText, 0x105960ef0, {{56.0, 10465.0}, {268.0, 98.0}}, label: 'A child has no income to replace, so a main reason to buy juvenile permanent life is to lock in coverage while the child is insurable.', value: A child has no inc..., Focused
+                            Other, 0x105949ce0, {{38.0, 10580.0}, {326.0, 142.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105944a40, {{76.0, 10593.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x10594eff0, {{52.0, 10614.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x10599a150, {{52.0, 10616.0}, {278.0, 91.0}}, label: 'For family income, measure the income period from the policy's issue date: the later the death, the fewer payments the family receives.', value: For family income,..., Focused
+                            Other, 0x105940200, {{38.0, 10736.0}, {326.0, 142.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105996540, {{76.0, 10749.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x10597e0e0, {{52.0, 10770.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x105963f10, {{52.0, 10772.0}, {298.0, 91.0}}, label: 'Family income and family maintenance are easy to swap. Maintenance pays a full period from death; income pays only what is left of a period measured from issue.', value: Family income and ..., Focused
+                            Switch, 0x10596e0a0, {{30.0, 10888.0}, {151.0, 44.0}}, label: 'Mark as read : Juvenile, family and adjustable policies', value: 0, Focused
+                          Other, 0x105943c40, {{20.0, 10958.0}, {362.0, 1139.0}}, label: 'Final expense, industrial and credit life, region', Focused
+                            Other, 0x105971ae0, {{38.0, 10998.0}, {326.0, 51.0}}, label: 'Final expense, industrial and credit life', value: 2, Focused
+                              StaticText, 0x10595cdd0, {{38.0, 10998.0}, {240.0, 51.0}}, label: 'Final expense, industrial and credit life', value: Final expense, ind..., Focused
+                            Other, 0x1059660f0, {{38.0, 11061.0}, {326.0, 814.0}}, Focused
+                              Other, 0x105945ba0, {{38.0, 11061.0}, {326.0, 130.0}}, label: 'Guaranteed-issue policies sold with no health questions often carry a graded death benefit, paying only premiums plus interest if the insured dies of illness in the early years.', Focused
+                                StaticText, 0x10597eb60, {{56.0, 11064.0}, {271.0, 124.0}}, label: 'Guaranteed-issue policies sold with no health questions often carry a graded death benefit, paying only premiums plus interest if the insured dies of illness in the early years.', value: Guaranteed-issue p..., Focused
+                              Other, 0x1059afe00, {{38.0, 11201.0}, {326.0, 104.0}}, label: 'The graded death benefit guards against adverse selection, because a policy that screens no one out attracts buyers in poor health.', Focused
+                                StaticText, 0x10595b610, {{56.0, 11204.0}, {261.0, 98.0}}, label: 'The graded death benefit guards against adverse selection, because a policy that screens no one out attracts buyers in poor health.', value: The graded death b..., Focused
+                              Other, 0x10595b960, {{38.0, 11315.0}, {326.0, 104.0}}, label: 'Preneed funeral insurance funds a funeral arranged and priced in advance, with the proceeds paid to the funeral home that provides the services.', Focused
+                                StaticText, 0x1059519a0, {{56.0, 11318.0}, {296.0, 98.0}}, label: 'Preneed funeral insurance funds a funeral arranged and priced in advance, with the proceeds paid to the funeral home that provides the services.', value: Preneed funeral in..., Focused
+                              Other, 0x105946290, {{38.0, 11429.0}, {326.0, 130.0}}, label: 'Industrial (home service) life insurance has small face amounts and weekly or monthly premiums historically collected at the home, which makes it costly per $1,000.', Focused
+                                StaticText, 0x105972f80, {{56.0, 11432.0}, {287.0, 124.0}}, label: 'Industrial (home service) life insurance has small face amounts and weekly or monthly premiums historically collected at the home, which makes it costly per $1,000.', value: Industrial (home s..., Focused
+                              Other, 0x10599ebf0, {{38.0, 11569.0}, {326.0, 78.0}}, label: 'Credit life insures a debtor for the amount owed, and the creditor is the beneficiary.', Focused
+                                StaticText, 0x105965a30, {{56.0, 11572.0}, {249.0, 72.0}}, label: 'Credit life insures a debtor for the amount owed, and the creditor is the beneficiary.', value: Credit life insure..., Focused
+                              Other, 0x10598a3f0, {{38.0, 11657.0}, {326.0, 104.0}}, label: 'Credit life coverage cannot exceed the debt, so a decreasing term credit policy pays the creditor only the balance still owed at death.', Focused
+                                StaticText, 0x105979c40, {{56.0, 11660.0}, {258.0, 98.0}}, label: 'Credit life coverage cannot exceed the debt, so a decreasing term credit policy pays the creditor only the balance still owed at death.', value: Credit life covera..., Focused
+                              Other, 0x10597b450, {{38.0, 11771.0}, {326.0, 104.0}}, label: 'Group credit life is issued to the creditor as master policyholder, and each covered borrower receives a certificate of insurance.', Focused
+                                StaticText, 0x105962010, {{56.0, 11774.0}, {266.0, 98.0}}, label: 'Group credit life is issued to the creditor as master policyholder, and each covered borrower receives a certificate of insurance.', value: Group credit life ..., Focused
+                            Other, 0x1059806b0, {{38.0, 11889.0}, {326.0, 142.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105961ca0, {{76.0, 11902.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105970980, {{52.0, 11923.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x1059446c0, {{52.0, 11925.0}, {297.0, 91.0}}, label: 'When a lender is involved, think credit life: the creditor holds the master policy and is the beneficiary, but it collects only the unpaid balance.', value: When a lender is i..., Focused
+                            Switch, 0x10599f9b0, {{30.0, 12041.0}, {151.0, 44.0}}, label: 'Mark as read : Final expense, industrial and credit life', value: 0, Focused
+                          Other, 0x10599de10, {{20.0, 12111.0}, {362.0, 1562.0}}, label: 'Group life, region', Focused
+                            Other, 0x105958fb0, {{38.0, 12151.0}, {326.0, 26.0}}, label: 'Group life', value: 2, Focused
+                              StaticText, 0x10599e1b0, {{38.0, 12151.0}, {100.0, 26.0}}, label: 'Group life', value: Group life, Focused
+                            Other, 0x105977070, {{38.0, 12189.0}, {326.0, 1130.0}}, Focused
+                              Other, 0x105981e80, {{38.0, 12189.0}, {326.0, 104.0}}, label: 'In group life insurance the employer or other sponsor holds the master policy, which is the actual contract with the insurer.', Focused
+                                StaticText, 0x1059473b0, {{56.0, 12192.0}, {266.0, 98.0}}, label: 'In group life insurance the employer or other sponsor holds the master policy, which is the actual contract with the insurer.', value: In group life insu..., Focused
+                              Other, 0x105945f10, {{38.0, 12303.0}, {326.0, 104.0}}, label: 'Each person covered by a group plan receives a certificate of insurance, which summarizes the coverage and serves as evidence of it.', Focused
+                                StaticText, 0x1059b2730, {{56.0, 12306.0}, {276.0, 98.0}}, label: 'Each person covered by a group plan receives a certificate of insurance, which summarizes the coverage and serves as evidence of it.', value: Each person covere..., Focused
+                              Other, 0x1059b2ac0, {{38.0, 12417.0}, {326.0, 104.0}}, label: 'Group insurance is available only to natural groups, such as employers, unions and associations, formed for a purpose other than obtaining insurance.', Focused
+                                StaticText, 0x105918730, {{56.0, 12420.0}, {297.0, 98.0}}, label: 'Group insurance is available only to natural groups, such as employers, unions and associations, formed for a purpose other than obtaining insurance.', value: Group insurance is..., Focused
+                              Other, 0x10598c8e0, {{38.0, 12531.0}, {326.0, 78.0}}, label: 'The insurer underwrites the group as a whole, so members usually join without individual evidence of insurability.', Focused
+                                StaticText, 0x105970ce0, {{56.0, 12534.0}, {291.0, 72.0}}, label: 'The insurer underwrites the group as a whole, so members usually join without individual evidence of insurability.', value: The insurer underw..., Focused
+                              Other, 0x10594c340, {{38.0, 12619.0}, {326.0, 104.0}}, label: 'Coverage amounts follow a formula, such as a salary multiple, a job class or a flat amount, so that members in poor health cannot choose large amounts.', Focused
+                                StaticText, 0x10594f6b0, {{56.0, 12622.0}, {288.0, 98.0}}, label: 'Coverage amounts follow a formula, such as a salary multiple, a job class or a flat amount, so that members in poor health cannot choose large amounts.', value: Coverage amounts f..., Focused
+                              Other, 0x1059a6590, {{38.0, 12733.0}, {326.0, 104.0}}, label: 'A group plan is noncontributory when the employer pays the whole premium and contributory when employees pay part of it.', Focused
+                                StaticText, 0x105992110, {{56.0, 12736.0}, {258.0, 98.0}}, label: 'A group plan is noncontributory when the employer pays the whole premium and contributory when employees pay part of it.', value: A group plan is no..., Focused
+                              Other, 0x105990870, {{38.0, 12847.0}, {326.0, 78.0}}, label: 'Participating and nonparticipating describe whether a policy can pay dividends, not who pays the premium.', Focused
+                                StaticText, 0x10597a310, {{56.0, 12850.0}, {282.0, 72.0}}, label: 'Participating and nonparticipating describe whether a policy can pay dividends, not who pays the premium.', value: Participating and ..., Focused
+                              Other, 0x10594df10, {{38.0, 12935.0}, {326.0, 130.0}}, label: 'Each insured member names his or her own beneficiary, while the employer selects the plan, enrolls employees, keeps records, remits premiums and treats each class alike.', Focused
+                                StaticText, 0x1059a6c50, {{56.0, 12938.0}, {278.0, 124.0}}, label: 'Each insured member names his or her own beneficiary, while the employer selects the plan, enrolls employees, keeps records, remits premiums and treats each class alike.', value: Each insured membe..., Focused
+                              Other, 0x1059a7b40, {{38.0, 13075.0}, {326.0, 130.0}}, label: 'The conversion privilege lets a member who leaves the group convert to an individual policy, within a limited period, without proving insurability, at an attained-age premium.', Focused
+                                StaticText, 0x105950c00, {{56.0, 13078.0}, {299.0, 124.0}}, label: 'The conversion privilege lets a member who leaves the group convert to an individual policy, within a limited period, without proving insurability, at an attained-age premium.', value: The conversion pri..., Focused
+                              Other, 0x10593feb0, {{38.0, 13215.0}, {326.0, 104.0}}, label: 'If a former member dies during the conversion period without converting, the group insurer pays the amount that could have been converted.', Focused
+                                StaticText, 0x10595a4d0, {{56.0, 13218.0}, {280.0, 98.0}}, label: 'If a former member dies during the conversion period without converting, the group insurer pays the amount that could have been converted.', value: If a former member..., Focused
+                            Other, 0x1059a81f0, {{38.0, 13333.0}, {326.0, 142.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x10595af10, {{76.0, 13346.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x1059512d0, {{52.0, 13367.0}, {298.0, 96.0}}, Focused
+                                StaticText, 0x10596ee30, {{52.0, 13369.0}, {282.0, 91.0}}, label: 'Group conversion questions test two facts: no medical exam or other proof of insurability is required, and the new premium is based on attained age.', value: Group conversion q..., Focused
+                            Other, 0x10598f3b0, {{38.0, 13489.0}, {326.0, 118.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105952430, {{76.0, 13502.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105952b20, {{52.0, 13523.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x10595a850, {{52.0, 13525.0}, {296.0, 67.0}}, label: 'Contributory and participating sound alike. Contributory is about who pays the premium; participating is about dividends.', value: Contributory and p..., Focused
+                            Switch, 0x10594d1a0, {{30.0, 13617.0}, {151.0, 44.0}}, label: 'Mark as read : Group life', value: 0, Focused
+                          Other, 0x10598f720, {{20.0, 13687.0}, {362.0, 1616.0}}, label: 'Policy roles and needs analysis, region', Focused
+                            Other, 0x1059504f0, {{38.0, 13727.0}, {326.0, 26.0}}, label: 'Policy roles and needs analysis', value: 2, Focused
+                              StaticText, 0x1059a8f70, {{38.0, 13727.0}, {307.0, 26.0}}, label: 'Policy roles and needs analysis', value: Policy roles and n..., Focused
+                            Other, 0x105947030, {{38.0, 13765.0}, {326.0, 1208.0}}, Focused
+                              Other, 0x105952ea0, {{38.0, 13765.0}, {326.0, 104.0}}, label: 'The applicant applies for the policy, the policyowner holds its rights, the insured is the person whose life is covered, and the beneficiary receives the proceeds.', Focused
+                                StaticText, 0x10596ead0, {{56.0, 13768.0}, {295.0, 98.0}}, label: 'The applicant applies for the policy, the policyowner holds its rights, the insured is the person whose life is covered, and the beneficiary receives the proceeds.', value: The applicant appl..., Focused
+                              Other, 0x10599c480, {{38.0, 13879.0}, {326.0, 104.0}}, label: 'Only the policyowner can name or change the beneficiary, assign the policy or borrow against it, even when the insured is a different person.', Focused
+                                StaticText, 0x1059b3180, {{56.0, 13882.0}, {281.0, 98.0}}, label: 'Only the policyowner can name or change the beneficiary, assign the policy or borrow against it, even when the insured is a different person.', value: Only the policyown..., Focused
+                              Other, 0x105998320, {{38.0, 13993.0}, {326.0, 104.0}}, label: 'Life insurance creates an immediate estate: once coverage is in force, the full face amount is available at death, unlike savings that build over time.', Focused
+                                StaticText, 0x105937aa0, {{56.0, 13996.0}, {274.0, 98.0}}, label: 'Life insurance creates an immediate estate: once coverage is in force, the full face amount is available at death, unlike savings that build over time.', value: Life insurance cre..., Focused
+                              Other, 0x1059961c0, {{38.0, 14107.0}, {326.0, 130.0}}, label: 'The human life value approach sets coverage at the present value of the income the insured would provide to dependents over the rest of a working life.', Focused
+                                StaticText, 0x105963b80, {{56.0, 14110.0}, {256.0, 124.0}}, label: 'The human life value approach sets coverage at the present value of the income the insured would provide to dependents over the rest of a working life.', value: The human life val..., Focused
+                              Other, 0x10599cf20, {{38.0, 14247.0}, {326.0, 130.0}}, label: 'The needs approach adds up the family's specific needs, such as final expenses, debts, the mortgage, income and education, and subtracts existing resources.', Focused
+                                StaticText, 0x1059b1990, {{56.0, 14250.0}, {276.0, 124.0}}, label: 'The needs approach adds up the family's specific needs, such as final expenses, debts, the mortgage, income and education, and subtracts existing resources.', value: The needs approach..., Focused
+                              Other, 0x105998a20, {{38.0, 14387.0}, {326.0, 78.0}}, label: 'The cleanup (final expense) fund pays funeral costs, final medical bills, short-term debts and taxes due at death.', Focused
+                                StaticText, 0x10594bff0, {{56.0, 14390.0}, {287.0, 72.0}}, label: 'The cleanup (final expense) fund pays funeral costs, final medical bills, short-term debts and taxes due at death.', value: The cleanup (final..., Focused
+                              Other, 0x10595a130, {{38.0, 14475.0}, {326.0, 104.0}}, label: 'The readjustment period is a short span right after the death when near-normal income lets the family adjust before cutting back.', Focused
+                                StaticText, 0x1059b1d00, {{56.0, 14478.0}, {258.0, 98.0}}, label: 'The readjustment period is a short span right after the death when near-normal income lets the family adjust before cutting back.', value: The readjustment p..., Focused
+                              Other, 0x105946cb0, {{38.0, 14589.0}, {326.0, 130.0}}, label: 'The blackout period runs from the youngest child's 16th birthday, when the surviving parent's Social Security benefit stops, until the spouse can claim a widow's or widower's benefit at 60.', Focused
+                                StaticText, 0x10599bd80, {{56.0, 14592.0}, {299.0, 124.0}}, label: 'The blackout period runs from the youngest child's 16th birthday, when the surviving parent's Social Security benefit stops, until the spouse can claim a widow's or widower's benefit at 60.', value: The blackout perio..., Focused
+                              Other, 0x10594fdf0, {{38.0, 14729.0}, {326.0, 130.0}}, label: 'Under the capital retention approach the family spends only the interest on the proceeds, so more insurance is needed than under capital liquidation, which spends principal and interest.', Focused
+                                StaticText, 0x105997080, {{56.0, 14732.0}, {280.0, 124.0}}, label: 'Under the capital retention approach the family spends only the interest on the proceeds, so more insurance is needed than under capital liquidation, which spends principal and interest.', value: Under the capital ..., Focused
+                              Other, 0x105979fa0, {{38.0, 14869.0}, {326.0, 104.0}}, label: 'The dependency period runs from the death until the youngest child is self-supporting, when the family usually needs the most income.', Focused
+                                StaticText, 0x10599f620, {{56.0, 14872.0}, {257.0, 98.0}}, label: 'The dependency period runs from the death until the youngest child is self-supporting, when the family usually needs the most income.', value: The dependency per..., Focused
+                            Other, 0x105993fc0, {{38.0, 14987.0}, {326.0, 118.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x1059721d0, {{76.0, 15000.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105999dc0, {{52.0, 15021.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x1059a77b0, {{52.0, 15023.0}, {288.0, 67.0}}, label: 'In a third-party policy, find out who owns it before deciding who can change anything.', value: In a third-party p..., Focused
+                            Other, 0x105944320, {{38.0, 15119.0}, {326.0, 118.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x10599ba00, {{76.0, 15132.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x1059b23e0, {{52.0, 15153.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x105940f90, {{52.0, 15155.0}, {290.0, 67.0}}, label: 'The human life value approach values future income; the needs approach totals specific needs. Do not swap them.', value: The human life val..., Focused
+                            Switch, 0x105950f70, {{30.0, 15247.0}, {151.0, 44.0}}, label: 'Mark as read : Policy roles and needs analysis', value: 0, Focused
+                          Other, 0x1059aaeb0, {{20.0, 15317.0}, {362.0, 1012.0}}, label: 'Social Security survivor benefits, region', Focused
+                            Other, 0x1059839a0, {{38.0, 15357.0}, {326.0, 26.0}}, label: 'Social Security survivor benefits', value: 2, Focused
+                              StaticText, 0x105992b40, {{38.0, 15357.0}, {320.0, 26.0}}, label: 'Social Security survivor benefits', value: Social Security su..., Focused
+                            Other, 0x1059a9d50, {{38.0, 15395.0}, {326.0, 736.0}}, Focused
+                              Other, 0x105999140, {{38.0, 15395.0}, {326.0, 104.0}}, label: 'Fully insured status for Social Security retirement benefits requires 40 credits, about 10 years of covered work, and no one needs more than 40 credits.', Focused
+                                StaticText, 0x10599cb90, {{56.0, 15398.0}, {290.0, 98.0}}, label: 'Fully insured status for Social Security retirement benefits requires 40 credits, about 10 years of covered work, and no one needs more than 40 credits.', value: Fully insured stat..., Focused
+                              Other, 0x1059a34a0, {{38.0, 15509.0}, {326.0, 130.0}}, label: 'A worker who is not fully insured is still currently insured with 6 credits in the 3 years before death, enough for benefits to young children and their caregiver parent.', Focused
+                                StaticText, 0x1059a3110, {{56.0, 15512.0}, {279.0, 124.0}}, label: 'A worker who is not fully insured is still currently insured with 6 credits in the 3 years before death, enough for benefits to young children and their caregiver parent.', value: A worker who is no..., Focused
+                              Other, 0x1059a1c70, {{38.0, 15649.0}, {326.0, 78.0}}, label: 'A surviving parent caring for the worker's child under age 16 can receive a survivor benefit at any age.', Focused
+                                StaticText, 0x10596b020, {{56.0, 15652.0}, {273.0, 72.0}}, label: 'A surviving parent caring for the worker's child under age 16 can receive a survivor benefit at any age.', value: A surviving parent..., Focused
+                              Other, 0x105974080, {{38.0, 15737.0}, {326.0, 104.0}}, label: 'A widow or widower without a young child in care can first claim a survivor benefit at 60, or 50 if disabled, which is why the blackout period ends at 60.', Focused
+                                StaticText, 0x10597b7f0, {{56.0, 15740.0}, {282.0, 98.0}}, label: 'A widow or widower without a young child in care can first claim a survivor benefit at 60, or 50 if disabled, which is why the blackout period ends at 60.', value: A widow or widower..., Focused
+                              Other, 0x105940c40, {{38.0, 15851.0}, {326.0, 104.0}}, label: 'Survivor benefits are percentages of the worker's primary insurance amount (PIA), the basic benefit figured from average indexed lifetime earnings.', Focused
+                                StaticText, 0x105964930, {{56.0, 15854.0}, {290.0, 98.0}}, label: 'Survivor benefits are percentages of the worker's primary insurance amount (PIA), the basic benefit figured from average indexed lifetime earnings.', value: Survivor benefits ..., Focused
+                              Other, 0x105966ed0, {{38.0, 15965.0}, {326.0, 78.0}}, label: 'A surviving child receives benefits until 18, or 19 while a full-time elementary or secondary student.', Focused
+                                StaticText, 0x10595d7c0, {{56.0, 15968.0}, {253.0, 72.0}}, label: 'A surviving child receives benefits until 18, or 19 while a full-time elementary or secondary student.', value: A surviving child ..., Focused
+                              Other, 0x1059a2d80, {{38.0, 16053.0}, {326.0, 78.0}}, label: 'Social Security also pays a one-time lump-sum death payment of $255 to an eligible spouse or child.', Focused
+                                StaticText, 0x105988580, {{56.0, 16056.0}, {260.0, 72.0}}, label: 'Social Security also pays a one-time lump-sum death payment of $255 to an eligible spouse or child.', value: Social Security al..., Focused
+                            Other, 0x10597aa00, {{38.0, 16145.0}, {326.0, 118.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x1059846e0, {{76.0, 16158.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x10598a0a0, {{52.0, 16179.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x105986d80, {{52.0, 16181.0}, {283.0, 67.0}}, label: 'Six credits in three years is the currently insured test; forty credits is the most anyone needs for fully insured status.', value: Six credits in thr..., Focused
+                            Switch, 0x10595f6f0, {{30.0, 16273.0}, {151.0, 44.0}}, label: 'Mark as read : Social Security survivor benefits', value: 0, Focused
+                          Other, 0x105959330, {{20.0, 16343.0}, {362.0, 1596.0}}, label: 'Policy math, region', Focused
+                            Other, 0x1059a1220, {{38.0, 16383.0}, {326.0, 26.0}}, label: 'Policy math', value: 2, Focused
+                              StaticText, 0x1059751e0, {{38.0, 16383.0}, {119.0, 26.0}}, label: 'Policy math', value: Policy math, Focused
+                            Other, 0x10595d470, {{38.0, 16421.0}, {326.0, 1140.0}}, Focused
+                              Other, 0x1059495d0, {{38.0, 16421.0}, {326.0, 78.0}}, label: 'The net amount at risk equals the policy's face amount minus its cash value.', Focused
+                                StaticText, 0x105949950, {{56.0, 16424.0}, {231.0, 72.0}}, label: 'The net amount at risk equals the policy's face amount minus its cash value.', value: The net amount at ..., Focused
+                              Other, 0x105986340, {{38.0, 16509.0}, {326.0, 104.0}}, label: 'Example: a $250,000 face amount with $60,000 of cash value leaves $250,000 - $60,000 = $190,000 as the net amount at risk.', Focused
+                                StaticText, 0x105977dd0, {{56.0, 16512.0}, {255.0, 98.0}}, label: 'Example: a $250,000 face amount with $60,000 of cash value leaves $250,000 - $60,000 = $190,000 as the net amount at risk.', value: Example: a $250,00..., Focused
+                              Other, 0x10594fa50, {{38.0, 16623.0}, {326.0, 104.0}}, label: 'Under universal life Option A the death benefit equals the specified amount; under Option B it equals the specified amount plus the cash value.', Focused
+                                StaticText, 0x105993210, {{56.0, 16626.0}, {280.0, 98.0}}, label: 'Under universal life Option A the death benefit equals the specified amount; under Option B it equals the specified amount plus the cash value.', value: Under universal li..., Focused
+                              Other, 0x105950860, {{38.0, 16737.0}, {326.0, 104.0}}, label: 'Example: a $200,000 specified amount with $35,000 of cash value pays $200,000 under Option A and $200,000 + $35,000 = $235,000 under Option B.', Focused
+                                StaticText, 0x105953590, {{56.0, 16740.0}, {300.0, 98.0}}, label: 'Example: a $200,000 specified amount with $35,000 of cash value pays $200,000 under Option A and $200,000 + $35,000 = $235,000 under Option B.', value: Example: a $200,00..., Focused
+                              Other, 0x1059abc60, {{38.0, 16851.0}, {326.0, 104.0}}, label: 'Credit life pays the loan balance at death: on a $20,000 loan with $12,000 still owed, the policy pays $12,000 to the creditor.', Focused
+                                StaticText, 0x1059935a0, {{56.0, 16854.0}, {255.0, 98.0}}, label: 'Credit life pays the loan balance at death: on a $20,000 loan with $12,000 still owed, the policy pays $12,000 to the creditor.', value: Credit life pays t..., Focused
+                              Other, 0x1059af3d0, {{38.0, 16965.0}, {326.0, 104.0}}, label: 'Modal premium: monthly premium = annual premium x monthly factor, so $1,200 x 0.09 = $108, and 12 x $108 = $1,296, or $96 more a year.', Focused
+                                StaticText, 0x1059a5010, {{56.0, 16968.0}, {262.0, 98.0}}, label: 'Modal premium: monthly premium = annual premium x monthly factor, so $1,200 x 0.09 = $108, and 12 x $108 = $1,296, or $96 more a year.', value: Modal premium: mon..., Focused
+                              Other, 0x10598f030, {{38.0, 17079.0}, {326.0, 78.0}}, label: 'Universal life surrender value = cash value - surrender charge - loans: $24,000 - $1,800 = $22,200.', Focused
+                                StaticText, 0x105991dc0, {{56.0, 17082.0}, {264.0, 72.0}}, label: 'Universal life surrender value = cash value - surrender charge - loans: $24,000 - $1,800 = $22,200.', value: Universal life sur..., Focused
+                              Other, 0x105982f90, {{38.0, 17167.0}, {326.0, 78.0}}, label: 'Option A partial withdrawal: the specified amount falls by the amount withdrawn, so $250,000 - $10,000 = $240,000.', Focused
+                                StaticText, 0x1059ab910, {{56.0, 17170.0}, {305.0, 72.0}}, label: 'Option A partial withdrawal: the specified amount falls by the amount withdrawn, so $250,000 - $10,000 = $240,000.', value: Option A partial w..., Focused
+                              Other, 0x1059aca00, {{38.0, 17255.0}, {326.0, 104.0}}, label: 'Blackout period: a 38-year-old widow with a 7-year-old child loses the parent's benefit at 47 and waits until 60, a gap of 60 - 47 = 13 years.', Focused
+                                StaticText, 0x1059a6220, {{56.0, 17258.0}, {279.0, 98.0}}, label: 'Blackout period: a 38-year-old widow with a 7-year-old child loses the parent's benefit at 47 and waits until 60, a gap of 60 - 47 = 13 years.', value: Blackout period: a..., Focused
+                              Other, 0x1059a5ea0, {{38.0, 17369.0}, {326.0, 104.0}}, label: 'Needs approach: total needs minus existing resources. $645,000 of needs - ($150,000 group life + $45,000 savings) = $450,000 of insurance needed.', Focused
+                                StaticText, 0x1059667d0, {{56.0, 17372.0}, {299.0, 98.0}}, label: 'Needs approach: total needs minus existing resources. $645,000 of needs - ($150,000 group life + $45,000 savings) = $450,000 of insurance needed.', value: Needs approach: to..., Focused
+                              Other, 0x10595c3c0, {{38.0, 17483.0}, {326.0, 78.0}}, label: 'Human life value: (earnings - personal costs) x present value factor, so ($90,000 - $20,000) x 15.0 = $1,050,000.', Focused
+                                StaticText, 0x1059a68f0, {{56.0, 17486.0}, {308.0, 72.0}}, label: 'Human life value: (earnings - personal costs) x present value factor, so ($90,000 - $20,000) x 15.0 = $1,050,000.', value: Human life value: ..., Focused
+                            Other, 0x105951d20, {{38.0, 17575.0}, {326.0, 166.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105983cf0, {{76.0, 17588.0}, {68.0, 15.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105945130, {{52.0, 17609.0}, {298.0, 120.0}}, Focused
+                                StaticText, 0x1059a8550, {{52.0, 17611.0}, {285.0, 115.0}}, label: 'Write the formula before you calculate. Most wrong answers come from adding when you should subtract, or from using the original loan amount instead of the balance.', value: Write the formula ..., Focused
+                            Other, 0x1059aa430, {{38.0, 17755.0}, {326.0, 118.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x10595fa40, {{76.0, 17768.0}, {107.0, 15.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x1059ac690, {{52.0, 17789.0}, {298.0, 72.0}}, Focused
+                                StaticText, 0x1059b3880, {{52.0, 17791.0}, {283.0, 67.0}}, label: 'For net amount at risk, adding the face amount and the cash value ($310,000 in the example) is the common mistake.', value: For net amount at ..., Focused
+                            Switch, 0x1059a5b50, {{30.0, 17883.0}, {151.0, 44.0}}, label: 'Mark as read : Policy math', value: 0, Focused
+                          Other, 0x1059a4c80, {{20.0, 17961.0}, {362.0, 1755.0}}, label: 'Must know, region', Focused
+                            Other, 0x10594b570, {{38.0, 17979.0}, {326.0, 29.0}}, label: 'Must know', value: 2, Focused
+                              StaticText, 0x1059af050, {{66.0, 17981.0}, {107.0, 25.0}}, label: 'Must know', value: Must know, Focused
+                            Other, 0x1059ab590, {{38.0, 18020.0}, {326.0, 1678.0}}, Focused
+                              Other, 0x105971770, {{38.0, 18020.0}, {326.0, 72.0}}, label: 'Term insurance: coverage for a set period, no cash value, lowest initial premium.', Focused
+                                StaticText, 0x105991a40, {{60.0, 18022.0}, {252.0, 68.0}}, label: 'Term insurance: coverage for a set period, no cash value, lowest initial premium.', value: Term insurance: co..., Focused
+                              Other, 0x1059aa7b0, {{38.0, 18102.0}, {326.0, 48.0}}, label: 'Decreasing term: level premium, declining death benefit.', Focused
+                                StaticText, 0x105950170, {{60.0, 18104.0}, {304.0, 44.0}}, label: 'Decreasing term: level premium, declining death benefit.', value: Decreasing term: l..., Focused
+                              Other, 0x1059acd70, {{38.0, 18160.0}, {326.0, 120.0}}, label: 'Renewable term renews without evidence of insurability at an attained-age premium; convertible term can be exchanged for permanent coverage without evidence of insurability.', Focused
+                                StaticText, 0x1059aab10, {{60.0, 18162.0}, {302.0, 116.0}}, label: 'Renewable term renews without evidence of insurability at an attained-age premium; convertible term can be exchanged for permanent coverage without evidence of insurability.', value: Renewable term ren..., Focused
+                              Other, 0x1059b04f0, {{38.0, 18290.0}, {326.0, 96.0}}, label: 'Straight whole life has the lowest annual premium of the whole life forms; limited-pay costs more each year but still covers for life.', Focused
+                                StaticText, 0x1059ab230, {{60.0, 18292.0}, {295.0, 92.0}}, label: 'Straight whole life has the lowest annual premium of the whole life forms; limited-pay costs more each year but still covers for life.', value: Straight whole lif..., Focused
+                              Other, 0x1059ade90, {{38.0, 18396.0}, {326.0, 48.0}}, label: 'Single premium whole life is paid up at issue with immediate cash value.', Focused
+                                StaticText, 0x1059656e0, {{60.0, 18398.0}, {278.0, 44.0}}, label: 'Single premium whole life is paid up at issue with immediate cash value.', value: Single premium who..., Focused
+                              Other, 0x1059abfc0, {{38.0, 18454.0}, {326.0, 48.0}}, label: 'Whole life cash value equals the face amount at maturity.', Focused
+                                StaticText, 0x1059a8c20, {{60.0, 18456.0}, {268.0, 44.0}}, label: 'Whole life cash value equals the face amount at maturity.', value: Whole life cash va..., Focused
+                              Other, 0x1059b0170, {{38.0, 18512.0}, {326.0, 48.0}}, label: 'Net amount at risk = face amount - cash value.', Focused
+                                StaticText, 0x1059b2050, {{60.0, 18514.0}, {292.0, 44.0}}, label: 'Net amount at risk = face amount - cash value.', value: Net amount at risk..., Focused
+                              Other, 0x10597d6a0, {{38.0, 18570.0}, {326.0, 96.0}}, label: 'Universal life: flexible premiums and adjustable death benefit. Option A pays the specified amount; Option B pays the specified amount plus cash value.', Focused
+                                StaticText, 0x105951630, {{60.0, 18572.0}, {291.0, 92.0}}, label: 'Universal life: flexible premiums and adjustable death benefit. Option A pays the specified amount; Option B pays the specified amount plus cash value.', value: Universal life: fl..., Focused
+                              Other, 0x1059b3510, {{38.0, 18676.0}, {326.0, 72.0}}, label: 'Variable life: fixed premium and separate account. Variable universal life: flexible premium and separate account.', Focused
+                                StaticText, 0x1059a99c0, {{60.0, 18678.0}, {295.0, 68.0}}, label: 'Variable life: fixed premium and separate account. Variable universal life: flexible premium and separate account.', value: Variable life: fix..., Focused
+                              Other, 0x105992eb0, {{38.0, 18758.0}, {326.0, 72.0}}, label: 'Variable products require a life license plus FINRA Series 6 or 7; indexed universal life requires only a life license.', Focused
+                                StaticText, 0x1059a1fe0, {{60.0, 18760.0}, {286.0, 68.0}}, label: 'Variable products require a life license plus FINRA Series 6 or 7; indexed universal life requires only a life license.', value: Variable products ..., Focused
+                              Other, 0x1059a9660, {{38.0, 18840.0}, {326.0, 48.0}}, label: 'Joint life pays at the first death; survivorship life pays at the last death.', Focused
+                                StaticText, 0x105954360, {{60.0, 18842.0}, {278.0, 44.0}}, label: 'Joint life pays at the first death; survivorship life pays at the last death.', value: Joint life pays at..., Focused
+                              Other, 0x1059634a0, {{38.0, 18898.0}, {326.0, 96.0}}, label: 'Group life: master policy to the employer, certificates to members; noncontributory means the employer pays the whole premium.', Focused
+                                StaticText, 0x105960b90, {{60.0, 18900.0}, {298.0, 92.0}}, label: 'Group life: master policy to the employer, certificates to members; noncontributory means the employer pays the whole premium.', value: Group life: master..., Focused
+                              Other, 0x1059817c0, {{38.0, 19004.0}, {326.0, 48.0}}, label: 'Return of premium term refunds the premiums if the insured outlives the term.', Focused
+                                StaticText, 0x10598b530, {{60.0, 19006.0}, {301.0, 44.0}}, label: 'Return of premium term refunds the premiums if the insured outlives the term.', value: Return of premium ..., Focused
+                              Other, 0x1059927c0, {{38.0, 19062.0}, {326.0, 72.0}}, label: 'Indeterminate premium: the current premium can rise, but never above the guaranteed maximum.', Focused
+                                StaticText, 0x1059b0bf0, {{60.0, 19064.0}, {278.0, 68.0}}, label: 'Indeterminate premium: the current premium can rise, but never above the guaranteed maximum.', value: Indeterminate prem..., Focused
+                              Other, 0x10596c160, {{38.0, 19144.0}, {326.0, 96.0}}, label: 'Universal life credits a current rate with a guaranteed minimum; the cost of insurance is based on the net amount at risk and attained age.', Focused
+                                StaticText, 0x10596d9f0, {{60.0, 19146.0}, {296.0, 92.0}}, label: 'Universal life credits a current rate with a guaranteed minimum; the cost of insurance is based on the net amount at risk and attained age.', value: Universal life cre..., Focused
+                              Other, 0x1059787f0, {{38.0, 19250.0}, {326.0, 96.0}}, label: 'Increasing a universal life death benefit requires evidence of insurability; under Option A a partial withdrawal usually lowers the specified amount.', Focused
+                                StaticText, 0x105961920, {{60.0, 19252.0}, {283.0, 92.0}}, label: 'Increasing a universal life death benefit requires evidence of insurability; under Option A a partial withdrawal usually lowers the specified amount.', value: Increasing a unive..., Focused
+                              Other, 0x10597c920, {{38.0, 19356.0}, {326.0, 72.0}}, label: 'Variable life requires a prospectus and is regulated by the state and by the SEC and FINRA.', Focused
+                                StaticText, 0x1059420e0, {{60.0, 19358.0}, {293.0, 68.0}}, label: 'Variable life requires a prospectus and is regulated by the state and by the SEC and FINRA.', value: Variable life requ..., Focused
+                              Other, 0x10599d2c0, {{38.0, 19438.0}, {326.0, 72.0}}, label: 'Group life is for groups formed for a purpose other than buying insurance, and coverage amounts are set by formula.', Focused
+                                StaticText, 0x10596ff40, {{60.0, 19440.0}, {303.0, 68.0}}, label: 'Group life is for groups formed for a purpose other than buying insurance, and coverage amounts are set by formula.', value: Group life is for ..., Focused
+                              Other, 0x105976d20, {{38.0, 19520.0}, {326.0, 72.0}}, label: 'Death during the group conversion period: the group policy pays the amount that could have been converted.', Focused
+                                StaticText, 0x1059431d0, {{60.0, 19522.0}, {298.0, 68.0}}, label: 'Death during the group conversion period: the group policy pays the amount that could have been converted.', value: Death during the g..., Focused
+                              Other, 0x10595db20, {{38.0, 19602.0}, {326.0, 96.0}}, label: 'Social Security: 40 credits = fully insured; 6 credits in 3 years = currently insured; blackout runs from the youngest child's 16th birthday to the spouse's 60th.', Focused
+                                StaticText, 0x10597dd70, {{60.0, 19604.0}, {301.0, 92.0}}, label: 'Social Security: 40 credits = fully insured; 6 credits in 3 years = currently insured; blackout runs from the youngest child's 16th birthday to the spouse's 60th.', value: Social Security: 4..., Focused
+                          Button, 0x10597bb50, {{20.0, 19740.0}, {362.0, 52.0}}, label: 'Quiz me on this topic', Focused
+                        Other, 0x1059438c0, {{0.0, 775.0}, {599.0, 99.0}}, label: 'Main, navigation'
+                          Link, 0x105953c80, {{26.0, 814.0}, {35.0, 15.0}}, label: 'Home'
+                            StaticText, 0x105961240, {{26.0, 814.0}, {35.0, 15.0}}, label: 'Home', value: Home
+                          Link, 0x10597fc80, {{105.0, 814.0}, {34.0, 15.0}}, label: 'Learn'
+                            StaticText, 0x105970610, {{105.0, 814.0}, {34.0, 15.0}}, label: 'Learn', value: Learn
+                          Link, 0x10595b290, {{177.0, 814.0}, {48.0, 15.0}}, label: 'Practice'
+                            StaticText, 0x10595bcc0, {{177.0, 814.0}, {48.0, 15.0}}, label: 'Practice', value: Practice
+                          Link, 0x105947700, {{264.0, 814.0}, {32.0, 15.0}}, label: 'Tests'
+                            StaticText, 0x105987100, {{264.0, 814.0}, {32.0, 15.0}}, label: 'Tests', value: Tests
+                          Link, 0x10595e8f0, {{333.0, 814.0}, {51.0, 15.0}}, label: 'Progress'
+                            StaticText, 0x105943550, {{333.0, 814.0}, {51.0, 15.0}}, label: 'Progress', value: Progress
+                        Other, 0x1059615a0, {{0.0, -1028.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x10597bed0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 24 pages', value: 5%
+                Other, 0x10598e580, {{396.0, 101.3}, {3.0, 36.0}}
+              Other, 0x10594d850, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10597fff0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x105985140, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 24 pages', value: 5%
+                Other, 0x1059408e0, {{396.0, 101.3}, {3.0, 36.0}}
+              Other, 0x1059a3810, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10598cc50, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x1059520b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10595f370, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10594ab00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105c937c0, pid: 15651, label: 'Ins Coach'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+  Output: {
+    Application, 0x105b95680, pid: 15651, label: 'Ins Coach'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x10a361050, pid: 3766, label: ' '
+Element subtree:
+ →Application, 0x10a361050, pid: 3766, label: ' '
+    Window, 0x10a360a10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a35fdb0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a3601d0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a3605f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a35f990, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a35f570, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x10a35f150, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x10a35ed30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a35e910, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a35e4f0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a361450, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a361570, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10a361690, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10a3617b0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10a3618d0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10a3619f0, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x10a361b10, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a361c30, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10a361d50, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x10a361e70, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10a361f90, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x10a3620b0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a3621d0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10a3622f0, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x10a362410, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10a362530, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x10a362650, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x10a362770, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x10a362890, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a3629b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a362ad0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a362bf0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a362d10, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a362e30, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a362f50, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a363070, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a363190, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a3632b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a3633d0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a3634f0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a363610, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a363730, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a363850, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a363970, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a363a90, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a363bb0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a363cd0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a363df0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a363f10, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a364030, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a364150, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a364270, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a364390, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a3644b0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x10a3645d0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x10a3646f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a364810, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10a364930, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10a364a50, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x10a364b70, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10a364c90, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x10a364db0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10a364ed0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10a364ff0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10a365110, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.califehealthinsuranceexamprep:sceneID:com.keatingkonsultancy.califehealthinsuranceexamprep-default', label: 'Ins Coach'
+                  Other, 0x10a365230, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10a365350, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10a365470, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x10a365590, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x10a3656b0, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x10a3657d0, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x10a3658f0, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x10a365a10, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x10a365b30, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x10a365c50, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x10a365d70, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x10a365e90, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x10a365fb0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x10a3660d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x10a3661f0, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x10a366310, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x10a366430, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x10a366550, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x10a366670, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x10a366790, {{55.7, 22.3}, {36.7, 20.3}}, label: '11:39 AM'
+                                                      Other, 0x10a3668b0, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x10a3669d0, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x10a366af0, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x10a366c10, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x10a366d30, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x10a366e50, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x10a366f70, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x10a367090, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x10a3671b0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10a3672d0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10a3673f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10a367510, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10a367630, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a367750, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x10a367870, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x10a367990, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x10a367ab0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a367bd0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a367cf0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a367e10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a367f30, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a368050, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a368170, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a368290, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10a3683b0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a3684d0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x10a3685f0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x10a368710, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x10a368830, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x10a368950, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x10a368a70, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a368b90, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a368cb0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a368dd0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10a368ef0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10a369010, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10a361050, pid: 3766, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x105b7a7e0, pid: 3766, label: ' '
+  }

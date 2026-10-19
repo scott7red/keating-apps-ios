@@ -1,0 +1,28 @@
+11:04:27 xcrun simctl status_bar 274FA83D-9853-4F92-B849-C6D68819D02A override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+11:04:32 xcrun simctl ui 274FA83D-9853-4F92-B849-C6D68819D02A appearance light
+  -> exit 0
+11:04:32 xcrun simctl location 274FA83D-9853-4F92-B849-C6D68819D02A set 39.9612,-82.9988
+  -> exit 0
+11:04:32 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+11:04:33 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+11:04:33 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+11:04:34 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+11:04:34 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+11:04:35 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+11:04:35 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+11:04:36 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+11:04:36 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+11:04:37 xcrun simctl spawn 274FA83D-9853-4F92-B849-C6D68819D02A defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+11:04:37 xcrun simctl install 274FA83D-9853-4F92-B849-C6D68819D02A /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

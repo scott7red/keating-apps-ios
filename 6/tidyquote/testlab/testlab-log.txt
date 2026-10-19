@@ -1,0 +1,17 @@
+
+Have questions, feedback, or issues? Get support by emailing:
+  ftl-ios-feedback@google.com
+
+Uploading [/Users/runner/work/_temp/out/tests.zip] to Firebase Test Lab...
+Raw results will be stored in your GCS bucket at [https://console.developers.google.com/storage/browser/test-lab-s511y46ssd7iz-ipjw7smxjyzjx/review-videos/6-1/tidyquote/]
+
+Test [matrix-1u22c4wqzmz8r] has been created in the Google Cloud.
+Firebase Test Lab will execute your xctest test on 0 device(s). More devices may be added later if flaky test attempts are specified.
+Creating individual test executions...
+.......................done.
+
+Test results will be streamed to [ https://console.firebase.google.com/project/keating-app-review/testlab/histories/bh.ef7a12d847b99465/matrices/7258410592708629503 ].
+02:16:04 Test matrix status: Pending:1 02:16:16 Test matrix status: Pending:1 02:16:28 Test matrix status: Running:1 02:16:41 Test matrix status: Running:1 02:16:53 Test matrix status: Running:1 02:17:05 Test matrix status: Running:1 02:17:17 Test matrix status: Running:1 02:17:29 Test matrix status: Running:1 02:17:42 Test matrix status: Running:1 02:17:54 Test matrix status: Pending:1 02:18:06 Test matrix status: Pending:1 02:18:18 Test matrix status: Running:1 02:18:30 Test matrix status: Running:1 02:18:43 Test matrix status: Running:1 02:18:55 Test matrix status: Running:1 02:19:07 Test matrix status: Running:1 02:19:19 Test matrix status: Running:1 02:19:31 Test matrix status: Running:1 02:19:43 Test matrix status: Running:1 02:19:56 Test matrix status: Running:1 02:20:08 Test matrix status: Running:1 02:20:20 Test matrix status: Running:1 02:20:32 Test matrix status: Running:1 02:20:44 Test matrix status: Running:1 02:20:56 Test matrix status: Pending:1 02:21:09 Test matrix status: Pending:1 02:21:21 Test matrix status: Finished:1 
+Xctest testing complete.
+
+More details are available at [ https://console.firebase.google.com/project/keating-app-review/testlab/histories/bh.ef7a12d847b99465/matrices/7258410592708629503 ].

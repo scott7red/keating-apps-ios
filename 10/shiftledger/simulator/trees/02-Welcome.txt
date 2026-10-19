@@ -1,0 +1,65 @@
+Attributes: Application, 0x103f51650, pid: 20211, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x103f51650, pid: 20211, label: 'ShiftLedger'
+    Window (Main), 0x103f5cf40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f5d990, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f5dcf0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103f5d2c0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103f5d620, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103f5e060, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103f5e760, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103f5f240, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103f5f5c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103f608e0, {{0.0, 0.0}, {402.0, 903.0}}, label: 'ShiftLedger'
+                        Other, 0x103f5e400, {{0.0, 0.0}, {402.0, 837.0}}, label: 'main'
+                          Other, 0x103f60c30, {{16.0, 90.0}, {370.0, 747.0}}, label: 'form'
+                            Other, 0x103f3d810, {{16.0, 90.0}, {86.0, 15.0}}
+                              StaticText, 0x103f5c130, {{16.0, 90.0}, {39.0, 14.0}}, label: 'STEP', value: STEP 
+                              StaticText, 0x103f36960, {{54.0, 90.0}, {9.0, 14.0}}, label: '1', value: 1
+                              StaticText, 0x103f3b870, {{62.0, 90.0}, {40.0, 14.0}}, label: 'OF 2', value:  OF 2
+                            Other, 0x103f3bbf0, {{16.0, 115.0}, {370.0, 37.0}}, label: 'Your first job', value: 1, Focused
+                              StaticText, 0x103f3ca40, {{16.0, 115.0}, {168.0, 37.0}}, label: 'Your first job', value: Your first job, Focused
+                            Other, 0x103f30620, {{16.0, 158.0}, {370.0, 46.0}}
+                              StaticText, 0x103f2fbe0, {{16.0, 159.0}, {345.0, 43.0}}, label: 'The basics are enough to start. You can change any of this later in Settings.', value: The basics are eno...
+                            Other, 0x103f35470, {{16.0, 226.0}, {370.0, 21.0}}, label: 'Job name'
+                              StaticText, 0x103f3dbb0, {{16.0, 227.0}, {69.0, 18.0}}, label: 'Job name', value: Job name
+                            TextField, 0x103f3c6a0, {{17.0, 254.0}, {368.0, 48.0}}, label: 'Job name', placeholderValue: 'Where you work', value: Where you work
+                            Other, 0x103f52ab0, {{16.0, 319.0}, {370.0, 21.0}}, label: 'Hourly rate'
+                              StaticText, 0x103f3d120, {{16.0, 320.0}, {80.0, 18.0}}, label: 'Hourly rate', value: Hourly rate
+                            TextField, 0x103f4a3e0, {{39.0, 347.0}, {321.0, 48.0}}, label: 'Hourly rate', placeholderValue: '0.00', value: 0.00
+                            Other, 0x103f47700, {{16.0, 402.0}, {370.0, 36.0}}
+                              StaticText, 0x103f48f70, {{16.0, 402.0}, {367.0, 35.0}}, label: 'Your base pay per hour before tips. Each shift keeps the rate it was logged with.', value: Your base pay per ...
+                            Other, 0x103f45bd0, {{16.0, 454.0}, {370.0, 80.0}}, label: 'How you are paid'
+                              Other, 0x103f52400, {{16.0, 454.0}, {370.0, 21.0}}
+                                StaticText, 0x103f4b940, {{16.0, 455.0}, {122.0, 18.0}}, label: 'How you are paid', value: How you are paid
+                              Other, 0x103f5cbc0, {{21.0, 486.0}, {178.0, 43.0}}
+                                Other, 0x103f49d10, {{20.0, 485.0}, {179.0, 44.0}}, label: 'W-2 employee', value: 1
+                                StaticText, 0x103f30980, {{58.0, 498.0}, {104.0, 19.0}}, label: 'W-2 employee', value: W-2 employee
+                              Other, 0x103f48120, {{203.0, 486.0}, {178.0, 43.0}}
+                                Other, 0x103f47030, {{202.0, 485.0}, {179.0, 44.0}}, label: 'Self-employed or gig', value: 0
+                                StaticText, 0x103f499a0, {{218.0, 498.0}, {148.0, 19.0}}, label: 'Self-employed or gig', value: Self-employed or gig
+                            Other, 0x103f47a60, {{16.0, 549.0}, {370.0, 49.0}}
+                              StaticText, 0x103f48470, {{16.0, 563.0}, {155.0, 21.0}}, label: 'I earn tips at this job', value: I earn tips at thi...
+                              Switch, 0x103f492f0, {{16.0, 549.0}, {370.0, 49.0}}, label: 'I earn tips at this job', value: 0
+                            Button, 0x103f454b0, {{17.0, 614.0}, {368.0, 86.0}}, label: 'Workweek and overtime Week starts Sunday. Overtime over 40 hours a week, paid at time and a half.'
+                            Button, 0x103f44a40, {{16.0, 724.0}, {370.0, 55.0}}, label: 'Continue'
+                            Button, 0x103f44dc0, {{16.0, 788.0}, {65.0, 49.0}}, label: 'Back'
+                            Button, 0x103f51990, {{277.0, 788.0}, {109.0, 49.0}}, label: 'Skip setup'
+              Other, 0x103f45f20, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x103f47dc0, {{396.0, 65.0}, {3.0, 720.0}}
+              Other, 0x103f46cd0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103f45140, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103f4fdc0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x103f51ce0, {{396.0, 65.0}, {3.0, 720.0}}
+              Other, 0x103f4df60, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103f46280, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103f46600, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f50f30, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f3bf80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103f51650, pid: 20211, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x1058379d0, pid: 20211, label: 'ShiftLedger'
+  }

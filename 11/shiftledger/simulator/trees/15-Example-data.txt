@@ -1,0 +1,116 @@
+Attributes: Application, 0x1064890e0, pid: 17028, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x1064890e0, pid: 17028, label: 'ShiftLedger'
+    Window (Main), 0x1063c6880, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106359910, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10635f080, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x106384010, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x106343cb0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x106362350, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x106367ea0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x106354620, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10635bbd0, {{0.0, -1202.0}, {402.0, 874.0}}
+                      Other, 0x10635fe40, {{0.0, -1202.0}, {402.0, 2168.0}}, label: 'ShiftLedger', Focused
+                        Other, 0x106344d80, {{0.0, -1202.0}, {402.0, 2044.0}}, label: 'main', Focused
+                          Other, 0x106350140, {{16.0, -1202.0}, {370.0, 126.0}}, label: 'section header', Focused
+                            Other, 0x1063692e0, {{16.0, -1124.0}, {106.0, 34.0}}, label: 'Settings', value: 1, Focused
+                              StaticText, 0x10634d040, {{16.0, -1124.0}, {107.0, 34.0}}, label: 'Settings', value: Settings, Focused
+                          Other, 0x106642d50, {{16.0, -1045.0}, {39.0, 22.0}}, label: 'Jobs', value: 2, Focused
+                            StaticText, 0x106440a90, {{16.0, -1045.0}, {39.0, 22.0}}, label: 'Jobs', value: Jobs, Focused
+                          Other, 0x106438190, {{234.0, -1056.0}, {152.0, 44.0}}, Focused
+                            StaticText, 0x10643bf80, {{259.0, -1042.0}, {21.0, 15.0}}, label: 'Pro', value: Pro, Focused
+                            Button, 0x106360190, {{296.0, -1056.0}, {91.0, 44.0}}, label: 'Add a job', Focused
+                          Other, 0x10635d7e0, {{16.0, -1012.0}, {370.0, 67.0}}, Focused
+                            Other, 0x10635aa00, {{17.0, -1011.0}, {368.0, 65.0}}, Focused
+                              StaticText, 0x106339430, {{31.0, -998.0}, {132.0, 20.0}}, label: 'Test Diner server', value: Test Diner server, Focused
+                              StaticText, 0x106354280, {{31.0, -976.0}, {139.0, 17.0}}, label: '$15.00/h, W-2, Tipped', value: $15.00/h, W-2, Tip..., Focused
+                              Button, 0x106645380, {{235.0, -1001.0}, {60.0, 45.0}}, label: 'Edit Test Diner server', Focused
+                              Button, 0x1064467c0, {{294.0, -1001.0}, {85.0, 45.0}}, label: 'Archive Test Diner server', Focused
+                          Other, 0x106436320, {{16.0, -916.0}, {126.0, 22.0}}, label: 'ShiftLedger Pro', value: 2, Focused
+                            StaticText, 0x106446b40, {{16.0, -916.0}, {126.0, 22.0}}, label: 'ShiftLedger Pro', value: ShiftLedger Pro, Focused
+                          Other, 0x106433d20, {{33.0, -867.0}, {336.0, 23.0}}, Focused
+                            StaticText, 0x10643c9c0, {{33.0, -866.0}, {72.0, 20.0}}, label: 'Free plan', value: Free plan, Focused
+                          Other, 0x10643d430, {{33.0, -840.0}, {336.0, 21.0}}, Focused
+                            StaticText, 0x106440df0, {{33.0, -839.0}, {276.0, 18.0}}, label: 'Shifts, totals, the calculator and backups.', value: Shifts, totals, th..., Focused
+                          Button, 0x106446420, {{33.0, -805.0}, {336.0, 48.0}}, label: 'See plans', Focused
+                          Button, 0x10643b0f0, {{33.0, -747.0}, {336.0, 48.0}}, label: 'Restore Purchases', Focused
+                          Other, 0x106445670, {{16.0, -652.0}, {83.0, 22.0}}, label: 'Tax profile', value: 2, Focused
+                            StaticText, 0x106430110, {{16.0, -652.0}, {84.0, 22.0}}, label: 'Tax profile', value: Tax profile, Focused
+                          Other, 0x10643f2b0, {{354.0, -661.0}, {33.0, 44.0}}, Focused
+                            Button, 0x106440720, {{354.0, -661.0}, {33.0, 44.0}}, label: 'Edit tax profile', Focused
+                          Other, 0x10643e530, {{16.0, -617.0}, {370.0, 151.0}}, Focused
+                            Other, 0x10643f5f0, {{31.0, -601.0}, {80.0, 21.0}}, Focused
+                              StaticText, 0x106434420, {{31.0, -600.0}, {81.0, 18.0}}, label: 'Filing status', value: Filing status, Focused
+                            Other, 0x106439290, {{322.0, -603.0}, {50.0, 23.0}}, Focused
+                              StaticText, 0x1064403a0, {{322.0, -602.0}, {49.0, 20.0}}, label: 'Single', value: Single, Focused
+                            Other, 0x10643f940, {{31.0, -551.0}, {153.0, 21.0}}, Focused
+                              StaticText, 0x106444140, {{31.0, -550.0}, {153.0, 18.0}}, label: 'Estimated total income', value: Estimated total in..., Focused
+                            Other, 0x106435550, {{277.0, -553.0}, {95.0, 23.0}}, Focused
+                              StaticText, 0x106438f40, {{277.0, -552.0}, {94.0, 20.0}}, label: '$40,000.00', value: $40,000.00, Focused
+                            Other, 0x1064444d0, {{31.0, -501.0}, {185.0, 21.0}}, Focused
+                              StaticText, 0x10643daf0, {{31.0, -500.0}, {186.0, 18.0}}, label: 'Tax saved is estimated from', value: Tax saved is estim..., Focused
+                            Other, 0x10643cd30, {{269.0, -503.0}, {102.0, 23.0}}, Focused
+                              StaticText, 0x106442520, {{269.0, -502.0}, {102.0, 20.0}}, label: 'The brackets', value: The brackets, Focused
+                          Other, 0x10643ebe0, {{16.0, -437.0}, {126.0, 22.0}}, label: 'Default tax year', value: 2, Focused
+                            StaticText, 0x1064414e0, {{16.0, -437.0}, {126.0, 22.0}}, label: 'Default tax year', value: Default tax year, Focused
+                          Other, 0x106437080, {{33.0, -388.0}, {336.0, 21.0}}, label: 'Open the app on', Focused
+                            StaticText, 0x10643bc00, {{33.0, -387.0}, {116.0, 18.0}}, label: 'Open the app on', value: Open the app on, Focused
+                          Other, 0x10642fd70, {{34.0, -360.0}, {334.0, 48.0}}, label: 'Open the app on', value: Follow the calenda..., Focused
+                          Other, 0x106437770, {{33.0, -305.0}, {336.0, 36.0}}, Focused
+                            StaticText, 0x106446ea0, {{33.0, -305.0}, {320.0, 35.0}}, label: 'Home and the Deduction page start on this year. You can still switch years on the Deduction page.', value: Home and the Deduc..., Focused
+                          Other, 0x106430800, {{16.0, -223.0}, {156.0, 22.0}}, label: 'Backup and restore', value: 2, Focused
+                            StaticText, 0x106447990, {{16.0, -223.0}, {156.0, 22.0}}, label: 'Backup and restore', value: Backup and restore, Focused
+                          Other, 0x10643de40, {{33.0, -174.0}, {336.0, 63.0}}, Focused
+                            StaticText, 0x106435200, {{33.0, -173.0}, {327.0, 60.0}}, label: 'Everything lives on this device and saves as you go. A backup file is how you keep a copy or move to a new phone.', value: Everything lives o..., Focused
+                          Button, 0x106438bf0, {{33.0, -97.0}, {336.0, 48.0}}, label: 'Export backup', Focused
+                          Button, 0x10643d780, {{33.0, -39.0}, {336.0, 48.0}}, label: 'Import backup', Focused
+                          Other, 0x106461180, {{16.0, 55.0}, {168.0, 22.0}}, label: 'Help and information', value: 2, Focused
+                            StaticText, 0x106434e70, {{16.0, 55.0}, {168.0, 22.0}}, label: 'Help and information', value: Help and information, Focused
+                          Other, 0x106436660, {{16.0, 87.0}, {370.0, 285.0}}, Focused
+                            Other, 0x10643fce0, {{17.0, 88.0}, {368.0, 79.0}}, Focused
+                              Button, 0x106437e30, {{17.0, 88.0}, {368.0, 79.0}}, label: 'Help Backups, a new phone, what the numbers mean', Focused
+                            Other, 0x10643a690, {{17.0, 167.0}, {368.0, 80.0}}, Focused
+                              Button, 0x1064369b0, {{17.0, 168.0}, {368.0, 79.0}}, label: 'Privacy policy No account, no tracking, nothing leaves this device', Focused
+                            Other, 0x106440050, {{17.0, 247.0}, {368.0, 62.0}}, Focused
+                              Button, 0x10643c2f0, {{17.0, 248.0}, {368.0, 61.0}}, label: 'About Version 1.0.0, sources and disclaimers', Focused
+                            Other, 0x106439ca0, {{17.0, 309.0}, {368.0, 62.0}}, Focused
+                              Link, 0x10643ada0, {{17.0, 310.0}, {368.0, 61.0}}, label: 'Contact support scott+shiftledger@keatingkonsultancy.com (opens your email app)', Focused
+                          Other, 0x106438870, {{16.0, 401.0}, {45.0, 22.0}}, label: 'Erase', value: 2, Focused
+                            StaticText, 0x106441170, {{16.0, 401.0}, {45.0, 22.0}}, label: 'Erase', value: Erase, Focused
+                          Other, 0x106439950, {{33.0, 450.0}, {336.0, 21.0}}, Focused
+                            StaticText, 0x106644590, {{33.0, 451.0}, {332.0, 18.0}}, label: 'Deletes every job, shift and setting on this device.', value: Deletes every job,..., Focused
+                          Button, 0x10636bec0, {{33.0, 485.0}, {336.0, 48.0}}, label: 'Erase all data', Focused
+                          Other, 0x10636eb70, {{16.0, 579.0}, {108.0, 22.0}}, label: 'Example data', value: 2, Focused
+                            StaticText, 0x10634d700, {{16.0, 579.0}, {108.0, 22.0}}, label: 'Example data', value: Example data, Focused
+                          Other, 0x106356550, {{33.0, 628.0}, {336.0, 84.0}}, Focused
+                            StaticText, 0x1063354e0, {{33.0, 629.0}, {328.0, 81.0}}, label: 'See the app full: a made-up server job with about nine months of shifts, including busy weeks over 40 hours. Your own data is set aside and comes back when you remove the example.', value: See the app full: ..., Focused
+                          Button, 0x106352ab0, {{33.0, 726.0}, {336.0, 48.0}}, label: 'Try the app with example data', Focused
+                          Other, 0x106347d80, {{16.0, 819.0}, {370.0, 15.0}}, Focused
+                            StaticText, 0x106344380, {{137.0, 819.0}, {83.0, 14.0}}, label: 'ShiftLedger', value: ShiftLedger, Focused
+                            StaticText, 0x10634efd0, {{227.0, 819.0}, {38.0, 14.0}}, label: '1.0.0', value: 1.0.0, Focused
+                        Other, 0x106355b00, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x106345110, {{0.0, 778.0}, {258.0, 62.0}}, label: 'Home', Focused
+                          Button, 0x1063390e0, {{0.0, 778.0}, {258.0, 62.0}}, label: 'Shifts', Focused
+                          Button, 0x1063446e0, {{0.0, 778.0}, {271.0, 62.0}}, label: 'Deduction', Focused
+                          Button, 0x1063457c0, {{65.0, 778.0}, {257.0, 62.0}}, label: 'Tools', Focused
+                          Button, 0x106348b50, {{136.0, 778.0}, {266.0, 62.0}}, label: 'Settings', Focused
+                        Other, 0x10635a350, {{0.0, 719.0}, {511.0, 45.0}}, label: 'application status', Focused
+                          StaticText, 0x10636fca0, {{134.0, 732.0}, {160.0, 18.0}}, label: 'Example data removed', value: Example data removed, Focused
+              Other, 0x106345ee0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 93%
+                Other, 0x10636e110, {{396.0, 477.3}, {3.0, 300.0}}
+              Other, 0x106335bc0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10634f6b0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x106361600, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 93%
+                Other, 0x106346fc0, {{396.0, 477.3}, {3.0, 300.0}}
+              Other, 0x106357a40, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x106348800, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x106337e90, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1063626b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10634f330, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1064890e0, pid: 17028, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x106648010, pid: 17028, label: 'ShiftLedger'
+  }

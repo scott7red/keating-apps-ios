@@ -1,0 +1,32 @@
+{
+  "rawSeconds": 190.4,
+  "finalSeconds": 67.8,
+  "finalMinutes": "1:08",
+  "size": "1206x2622",
+  "megabytes": 2.3,
+  "trimmed": {
+    "from": 60.6,
+    "to": 133.3
+  },
+  "taps": 9,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 5,
+    "of": 9,
+    "first": -0.04,
+    "last": 1.55
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome",
+    "Before you start",
+    "Which medicine",
+    "A few details",
+    "The label checklist and a dose"
+  ],
+  "notes": [],
+  "steps": 6
+}

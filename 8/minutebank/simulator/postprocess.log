@@ -1,0 +1,49 @@
+{
+  "rawSeconds": 316.7,
+  "finalSeconds": 179,
+  "finalMinutes": "2:59",
+  "size": "1206x2622",
+  "megabytes": 4.8,
+  "trimmed": {
+    "from": 38.8,
+    "to": 219.2
+  },
+  "taps": 75,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 55,
+    "of": 75,
+    "first": 2.86,
+    "last": -52.47
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "How it works",
+    "Parent PIN",
+    "Who is the bank for?",
+    "Earn with the math challenge",
+    "Earn with a chore",
+    "The parent approves",
+    "Start 10 minutes of screen time",
+    "Notification permission and the countdown",
+    "The parent area while the timer runs"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done",
+    "note: question 1: 7 plus 2 equals blank = 9",
+    "note: question 2: 9 plus 1 equals blank = 10",
+    "note: question 3: 3 minus 3 equals blank = 0",
+    "note: question 4: 6 minus 5 equals blank = 1",
+    "note: question 5: 4 plus 4 equals blank = 8",
+    "note: question 6: 3 plus 2 equals blank = 5",
+    "note: question 7: 3 minus 1 equals blank = 2",
+    "note: question 8: 8 minus 4 equals blank = 4",
+    "note: question 9: 5 plus 3 equals blank = 8",
+    "note: question 10: 1 plus 5 equals blank = 6",
+    "alert: “MinuteBank” Would Like to Send You Notifications"
+  ],
+  "steps": 10
+}

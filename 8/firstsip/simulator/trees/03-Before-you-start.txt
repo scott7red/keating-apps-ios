@@ -1,0 +1,50 @@
+Attributes: Application, 0x1039478d0, pid: 11012, label: 'FirstSip'
+Element subtree:
+ →Application, 0x1039478d0, pid: 11012, label: 'FirstSip'
+    Window (Main), 0x103942430, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103941390, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10393c350, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1039213e0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10395aed0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103939e40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10393d5d0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1039452f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1039534d0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1039535f0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'FirstSip'
+                        Other, 0x103953710, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main'
+                          Other, 0x103953830, {{22.0, 92.0}, {358.0, 726.0}}, label: 'form'
+                            Other, 0x103953950, {{110.0, 92.0}, {72.0, 19.0}}
+                              StaticText, 0x103953a70, {{110.0, 93.0}, {34.0, 17.0}}, label: 'Step', value: Step 
+                              StaticText, 0x103953b90, {{143.0, 93.0}, {10.0, 17.0}}, label: '2', value: 2
+                              StaticText, 0x103953cb0, {{152.0, 93.0}, {30.0, 17.0}}, label: 'of 3', value:  of 3
+                            Other, 0x103953dd0, {{22.0, 121.0}, {358.0, 72.0}}, label: 'Which medicine do you take?', value: 1, Focused
+                              StaticText, 0x103953ef0, {{22.0, 121.0}, {221.0, 72.0}}, label: 'Which medicine do you take?', value: Which medicine do ..., Focused
+                            Other, 0x103954010, {{22.0, 199.0}, {358.0, 46.0}}
+                              StaticText, 0x103954130, {{22.0, 200.0}, {342.0, 43.0}}, label: 'This sets your checklist and wait timer. You can change it in Settings.', value: This sets your che...
+                            Other, 0x103954250, {{22.0, 265.0}, {358.0, 361.0}}, label: 'Medicine'
+                              Other, 0x103954370, {{22.0, 265.0}, {358.0, 93.0}}, label: 'Semaglutide tablets (Wegovy pill) Morning checklist and a 30 minute wait timer', value: 1
+                              Other, 0x103954490, {{22.0, 367.0}, {358.0, 94.0}}, label: 'Semaglutide tablets (Rybelsus) Morning checklist and a 30 minute wait timer', value: 0
+                              Other, 0x1039545b0, {{22.0, 470.0}, {358.0, 73.0}}, label: 'Orforglipron (Foundayo) One tap a day, no wait timer', value: 0
+                              Other, 0x1039546d0, {{22.0, 552.0}, {358.0, 74.0}}, label: 'Another medicine Your own name and wait time', value: 0
+                            Button, 0x1039547f0, {{22.0, 710.0}, {358.0, 58.0}}, label: 'Continue'
+                            Button, 0x103954910, {{22.0, 774.0}, {68.0, 44.0}}, label: 'Back'
+                            Button, 0x103954a30, {{269.0, 774.0}, {111.0, 44.0}}, label: 'Skip setup'
+                        Other, 0x103954b50, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x103954c70, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103954d90, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103954eb0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103954fd0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1039550f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103955210, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103955330, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103955450, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103955570, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103955690, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1039557b0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1039478d0, pid: 11012, label: 'FirstSip'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.firstsip'
+  Output: {
+    Application, 0x103ab47f0, pid: 11012, label: 'FirstSip'
+  }

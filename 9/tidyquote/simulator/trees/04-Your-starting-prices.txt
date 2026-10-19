@@ -1,0 +1,55 @@
+Attributes: Application, 0x101b3aa50, pid: 55784, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101b3aa50, pid: 55784, label: 'TidyQuote'
+    Window (Main), 0x101bb7920, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b38b40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b3e160, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101b35b70, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101b56130, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101b33cd0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b456e0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101b39c40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101b3c980, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101b52e10, {{0.0, 0.0}, {402.0, 874.0}}, label: 'TidyQuote', Focused
+                        Other, 0x101b4a020, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x101b51980, {{0.0, 0.0}, {402.0, 131.0}}, label: 'section header', Focused
+                            Other, 0x101b3d3a0, {{68.0, 80.0}, {220.0, 25.0}}, label: 'Sparkle Test Cleaning', value: 1, Focused
+                              StaticText, 0x101b48e90, {{68.0, 79.0}, {220.0, 27.0}}, label: 'Sparkle Test Cleaning', value: Sparkle Test Clean..., Focused
+                            Other, 0x101b49c80, {{68.0, 105.0}, {220.0, 20.0}}, Focused
+                              StaticText, 0x101b3f250, {{68.0, 106.0}, {114.0, 18.0}}, label: 'October 19, 2026', value: October 19, 2026, Focused
+                          Other, 0x101b34dd0, {{34.0, 176.0}, {334.0, 27.0}}, Focused
+                            StaticText, 0x101b50820, {{34.0, 176.0}, {210.0, 27.0}}, label: 'Price your first home', value: Price your first h..., Focused
+                          Other, 0x101b3ccf0, {{34.0, 211.0}, {334.0, 42.0}}, Focused
+                            StaticText, 0x101b44600, {{34.0, 212.0}, {316.0, 40.0}}, label: 'Add the rooms, pick the type of clean, and the quote is ready to send.', value: Add the rooms, pic..., Focused
+                          Button, 0x101b4a370, {{34.0, 271.0}, {334.0, 62.0}}, label: 'New quote', Focused
+                          Other, 0x101b4c8c0, {{16.0, 377.0}, {113.0, 26.0}}, label: 'Make it yours', value: 2, Focused
+                            StaticText, 0x101b38110, {{16.0, 378.0}, {113.0, 23.0}}, label: 'Make it yours', value: Make it yours, Focused
+                          Button, 0x101b47d20, {{22.0, 419.0}, {358.0, 77.0}}, label: 'Check your prices Rates, add-ons and repeat-visit discounts', Focused
+                          Button, 0x101b45020, {{22.0, 496.0}, {358.0, 58.0}}, label: 'Add your business details Name, logo and how clients pay you', Focused
+                          Other, 0x101b48b20, {{16.0, 578.0}, {370.0, 40.0}}, Focused
+                            StaticText, 0x101b46f50, {{41.0, 579.0}, {320.0, 38.0}}, label: 'Your totals for the month and anything that needs attention show up here once you write a quote.', value: Your totals for th..., Focused
+                        Other, 0x101b4a6d0, {{0.0, 778.0}, {577.0, 96.0}}, label: 'Main, navigation', Focused
+                          Button, 0x101b387d0, {{0.0, 784.0}, {259.0, 50.0}}, label: 'Home', Focused
+                          Button, 0x101b34030, {{0.0, 784.0}, {262.0, 50.0}}, label: 'Quotes', Focused
+                          Button, 0x101b3ef00, {{0.0, 784.0}, {265.0, 50.0}}, label: 'Invoices', Focused
+                          Button, 0x101b45a40, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients', Focused
+                          Button, 0x101b49900, {{131.0, 784.0}, {265.0, 50.0}}, label: 'Settings', Focused
+                        Other, 0x101b3b820, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x101b36240, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101b3bf00, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101b3ddf0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101b39fb0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101b418f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101b3a6c0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101b3b4c0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101b38e80, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101b354b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b46140, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b479c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101b3aa50, pid: 55784, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x101a4baf0, pid: 55784, label: 'TidyQuote'
+  }

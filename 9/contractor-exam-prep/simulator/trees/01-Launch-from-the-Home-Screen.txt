@@ -1,0 +1,69 @@
+Attributes: Application, 0x105f3b0d0, pid: 23510, label: 'Contractor'
+Element subtree:
+ →Application, 0x105f3b0d0, pid: 23510, label: 'Contractor'
+    Window (Main), 0x10623cb50, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1062358c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106235fe0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10622ea10, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x106236340, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10623ce70, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10622e330, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10622f480, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10622f100, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10622f810, {{0.0, 0.0}, {402.0, 1413.0}}, label: 'Contractor License Exam Coach', Focused
+                        Other, 0x106230280, {{0.0, 0.0}, {402.0, 1413.0}}, label: 'main', Focused
+                          Other, 0x106235c40, {{20.0, 80.0}, {362.0, 4.0}}, label: 'Setup progress', value: 1.00, Focused
+                          Image, 0x106234710, {{127.0, 110.0}, {148.0, 148.0}}, label: 'Readiness estimate not ready yet: 0 of 40 answers', Focused
+                          Other, 0x106234ab0, {{20.0, 282.0}, {362.0, 30.0}}, Focused
+                            StaticText, 0x1062343a0, {{20.0, 282.0}, {343.0, 30.0}}, label: 'CALIFORNIA, AND STATES THAT USE THE MODEL CODES', value: CALIFORNIA, AND ST..., Focused
+                          Other, 0x106235190, {{20.0, 320.0}, {362.0, 70.0}}, label: 'Contractor License Exam Coach', value: 1, Focused
+                            StaticText, 0x10623a170, {{20.0, 320.0}, {265.0, 70.0}}, label: 'Contractor License Exam Coach', value: Contractor License..., Focused
+                          Other, 0x106234e10, {{20.0, 396.0}, {362.0, 44.0}}, Focused
+                            StaticText, 0x106235520, {{20.0, 396.0}, {357.0, 44.0}}, label: 'Contractor license exam prep, one exam at a time', value: Contractor license..., Focused
+                          Other, 0x106239ac0, {{20.0, 446.0}, {362.0, 120.0}}, Focused
+                            StaticText, 0x1062332b0, {{20.0, 448.0}, {320.0, 116.0}}, label: 'Practice questions, practice exams, a study guide and flashcards for the California CSLB exams (Law and Business, C-10, C-36 and B) and for general, electrical and plumbing license exams based on the model codes.', value: Practice questions..., Focused
+                          Other, 0x106234050, {{20.0, 584.0}, {362.0, 15.0}}, label: 'WHAT IS INSIDE', value: 2, Focused
+                            StaticText, 0x106239e10, {{20.0, 584.0}, {112.0, 15.0}}, label: 'WHAT IS INSIDE', value: WHAT IS INSIDE, Focused
+                          Other, 0x106232f40, {{20.0, 609.0}, {362.0, 366.0}}, Focused
+                            Other, 0x10623aef0, {{20.0, 610.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x106233980, {{20.0, 618.0}, {71.0, 34.0}}, label: '2,000', value: 2,000, Focused
+                              StaticText, 0x10623a830, {{104.0, 630.0}, {243.0, 40.0}}, label: 'original questions across 24 topics, each with an explanation', value: original questions..., Focused
+                            Other, 0x10623f820, {{20.0, 683.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x10623ab90, {{23.0, 691.0}, {33.0, 34.0}}, label: '46', value: 46, Focused
+                              StaticText, 0x10623e360, {{69.0, 703.0}, {312.0, 40.0}}, label: 'full-length practice tests, timed and weighted like the real exams', value: full-length practi..., Focused
+                            Other, 0x10623d560, {{20.0, 756.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x10623ea50, {{20.0, 764.0}, {71.0, 34.0}}, label: '1,420', value: 1,420, Focused
+                              StaticText, 0x10623e6e0, {{104.0, 776.0}, {271.0, 40.0}}, label: 'flashcards that bring back what you are about to forget', value: flashcards that br..., Focused
+                            Other, 0x10623edd0, {{20.0, 829.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x10623d8f0, {{23.0, 837.0}, {33.0, 34.0}}, label: '24', value: 24, Focused
+                              StaticText, 0x10623dfe0, {{69.0, 849.0}, {259.0, 40.0}}, label: 'study guide topics with exam tips and common traps', value: study guide topics..., Focused
+                            Other, 0x10623dc70, {{20.0, 902.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x10623d1e0, {{39.0, 910.0}, {17.0, 34.0}}, label: '7', value: 7, Focused
+                              StaticText, 0x1062313e0, {{69.0, 922.0}, {299.0, 40.0}}, label: 'exams in one app: study for one, switch any time', value: exams in one app: ..., Focused
+                          StaticText, 0x106238d50, {{48.0, 994.0}, {207.0, 19.0}}, label: 'Each exam has a free sample:', value: Each exam has a fr..., Focused
+                          StaticText, 0x10623f170, {{254.0, 994.0}, {19.0, 19.0}}, label: '25', value: 25, Focused
+                          StaticText, 0x106237b80, {{48.0, 994.0}, {285.0, 40.0}}, label: 'practice questions and one study guide topic.', value:  practice question..., Focused
+                          StaticText, 0x1062374d0, {{48.0, 1015.0}, {325.0, 61.0}}, label: 'The full exam unlocks with a one-time in-app purchase, one exam at a time. No subscription.', value: The full exam unlo..., Focused
+                          StaticText, 0x1062389e0, {{48.0, 1090.0}, {334.0, 40.0}}, label: 'Works without a connection. Your progress stays on this device.', value: Works without a co..., Focused
+                          Other, 0x106238690, {{20.0, 1149.0}, {362.0, 126.0}}, Focused
+                            StaticText, 0x106237150, {{20.0, 1150.0}, {332.0, 124.0}}, label: 'Practice material only. Not affiliated with the Contractors State License Board (CSLB), any other state or local contractor, electrical or plumbing licensing board, the testing companies that give their exams, including PSI, Prometric and Pearson VUE, Cal/OSHA, or the NFPA, ICC, IAPMO, NASCLA or OSHA. Does not count toward pre-license or continuing education credit.', value: Practice material ..., Focused
+                          Button, 0x1062321a0, {{20.0, 1303.0}, {362.0, 52.0}}, label: 'Get started', Focused
+                        Other, 0x106232870, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x1062324f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x106231750, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x106231ad0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x106231e40, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x106230ce0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x106231050, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x106230610, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x106230970, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x10622ed90, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10623b290, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10623b630, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105f3b0d0, pid: 23510, label: 'Contractor'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+  Output: {
+    Application, 0x1062897f0, pid: 23510, label: 'Contractor'
+  }

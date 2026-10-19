@@ -1,0 +1,30 @@
+11:34:21 xcrun simctl status_bar 5CF9D394-B02A-4F63-863E-85B6328094B5 override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+11:34:25 xcrun simctl ui 5CF9D394-B02A-4F63-863E-85B6328094B5 appearance light
+  -> exit 0
+11:34:26 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+11:34:26 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+11:34:27 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+11:34:27 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+11:34:28 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+11:34:29 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+11:34:29 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+11:34:30 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+11:34:30 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+11:34:31 xcrun simctl spawn 5CF9D394-B02A-4F63-863E-85B6328094B5 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+11:34:31 xcrun simctl launch 5CF9D394-B02A-4F63-863E-85B6328094B5 com.apple.mobilesafari
+  -> exit 142
+11:35:26 xcrun simctl terminate 5CF9D394-B02A-4F63-863E-85B6328094B5 com.apple.mobilesafari
+  -> exit 142
+11:35:47 xcrun simctl install 5CF9D394-B02A-4F63-863E-85B6328094B5 /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

@@ -1,0 +1,17 @@
+
+Have questions, feedback, or issues? Get support by emailing:
+  ftl-ios-feedback@google.com
+
+Uploading [/Users/runner/work/_temp/out/tests.zip] to Firebase Test Lab...
+Raw results will be stored in your GCS bucket at [https://console.developers.google.com/storage/browser/test-lab-s511y46ssd7iz-ipjw7smxjyzjx/review-videos/7-1/tidyquote/]
+
+Test [matrix-vo1ea9pfjluva] has been created in the Google Cloud.
+Firebase Test Lab will execute your xctest test on 0 device(s). More devices may be added later if flaky test attempts are specified.
+Creating individual test executions...
+...........done.
+
+Test results will be streamed to [ https://console.firebase.google.com/project/keating-app-review/testlab/histories/bh.ef7a12d847b99465/matrices/7758364295416766655 ].
+02:40:56 Test matrix status: Pending:1 02:41:08 Test matrix status: Pending:1 02:41:20 Test matrix status: Running:1 02:41:32 Test matrix status: Running:1 02:41:44 Test matrix status: Running:1 02:41:57 Test matrix status: Running:1 02:42:09 Test matrix status: Running:1 02:42:21 Test matrix status: Running:1 02:42:33 Test matrix status: Running:1 02:42:45 Test matrix status: Running:1 02:42:57 Test matrix status: Running:1 02:43:10 Test matrix status: Running:1 02:43:22 Test matrix status: Running:1 02:43:34 Test matrix status: Running:1 02:43:46 Test matrix status: Running:1 02:43:59 Test matrix status: Running:1 02:44:11 Test matrix status: Finished:1 
+Xctest testing complete.
+
+More details are available at [ https://console.firebase.google.com/project/keating-app-review/testlab/histories/bh.ef7a12d847b99465/matrices/7758364295416766655 ].

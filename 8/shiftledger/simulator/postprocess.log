@@ -1,0 +1,34 @@
+{
+  "rawSeconds": 179.5,
+  "finalSeconds": 139.5,
+  "finalMinutes": "2:20",
+  "size": "1206x2622",
+  "megabytes": 3.3,
+  "trimmed": {
+    "from": 37.7,
+    "to": 162
+  },
+  "taps": 18,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 13,
+    "of": 18,
+    "first": 1.6,
+    "last": -0.37
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome",
+    "Your first job",
+    "Your tax profile",
+    "Log a shift with tips",
+    "This week and the year so far"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done"
+  ],
+  "steps": 6
+}

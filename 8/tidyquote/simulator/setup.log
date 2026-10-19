@@ -1,0 +1,28 @@
+10:55:39 xcrun simctl status_bar 163F13A4-56D5-4F15-A56A-FD74DB75CB9F override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+10:55:45 xcrun simctl ui 163F13A4-56D5-4F15-A56A-FD74DB75CB9F appearance light
+  -> exit 0
+10:55:52 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+10:55:55 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+10:55:57 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+10:56:05 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+10:56:09 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+10:56:11 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+10:56:12 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+10:56:13 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+10:56:14 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+10:56:15 xcrun simctl spawn 163F13A4-56D5-4F15-A56A-FD74DB75CB9F defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+10:56:20 xcrun simctl addmedia 163F13A4-56D5-4F15-A56A-FD74DB75CB9F review-tours/media/logo.png
+  -> exit 0
+10:57:14 xcrun simctl install 163F13A4-56D5-4F15-A56A-FD74DB75CB9F /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

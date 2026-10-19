@@ -1,0 +1,49 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "FC598180-4737-432D-B385-AB00FD48D33A",
+        "deviceName" : "App Review",
+        "modelName" : "iPhone 17 Pro",
+        "osBuildNumber" : "23C54",
+        "osVersion" : "26.2",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 0,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "ReviewTour · Built with macOS 26.6.2",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1792381266.242,
+  "passedTests" : 0,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1792380971.205,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "failed - No back button at the top left",
+      "targetName" : "ReviewTour",
+      "testIdentifier" : 1,
+      "testIdentifierString" : "InsuranceTour/testTour()",
+      "testIdentifierURL" : "test://com.apple.xcode/App/ReviewTour/InsuranceTour/testTour",
+      "testName" : "testTour()"
+    }
+  ],
+  "title" : "Test - ReviewTour",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 1
+}

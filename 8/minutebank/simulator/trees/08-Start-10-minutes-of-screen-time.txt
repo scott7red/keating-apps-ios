@@ -1,0 +1,98 @@
+Attributes: Application, 0x10177e080, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x10177e080, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x1017bba70, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101795490, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10178fc40, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101758510, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101798890, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101748600, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101744080, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101727b40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10174af10, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1017675c0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank', Focused
+                        Other, 0x101a7f2e0, {{0.0, 0.0}, {402.0, 774.0}}, label: 'main', Focused
+                          Other, 0x101a3deb0, {{20.0, 76.0}, {362.0, 60.0}}, label: 'section header', Focused
+                            StaticText, 0x101a482e0, {{80.0, 93.0}, {43.0, 26.0}}, label: 'Sam', value: Sam, Focused
+                          Other, 0x101a48820, {{200.0, 149.0}, {2.0, 1.0}}, label: 'Sam’s bank', value: 1, Focused
+                            StaticText, 0x101a6e3a0, {{200.0, 152.0}, {72.0, 42.0}}, label: 'Sam', value: Sam, Focused
+                            StaticText, 0x101a7e860, {{271.0, 152.0}, {112.0, 42.0}}, label: '’s bank', value: ’s bank, Focused
+                          StaticText, 0x101a411e0, {{170.0, 194.0}, {62.0, 114.0}}, label: '0', value: 0, Focused
+                          StaticText, 0x101a74d80, {{166.0, 295.0}, {70.0, 23.0}}, label: 'minutes', value: minutes, Focused
+                          Other, 0x101a077a0, {{76.0, 394.0}, {249.0, 21.0}}, Focused
+                            StaticText, 0x101a3f3a0, {{76.0, 395.0}, {250.0, 19.0}}, label: 'Your bank holds up to 180 minutes', value: Your bank holds up..., Focused
+                          Button, 0x101a42e40, {{20.0, 429.0}, {362.0, 65.0}}, label: 'Screen time is running 10:00 left', Focused
+                          Link, 0x101a43aa0, {{47.0, 560.0}, {121.0, 25.0}}, label: 'Earn minutes', Focused
+                            StaticText, 0x101a6c3e0, {{47.0, 560.0}, {121.0, 25.0}}, label: 'Earn minutes', value: Earn minutes, Focused
+                          Link, 0x101a404a0, {{238.0, 560.0}, {113.0, 25.0}}, label: 'Use my time', Focused
+                            StaticText, 0x101a43680, {{238.0, 560.0}, {113.0, 25.0}}, label: 'Use my time', value: Use my time, Focused
+                          Other, 0x101a46fe0, {{20.0, 624.0}, {362.0, 177.0}}, label: 'Today', Focused
+                            Other, 0x101a3e2e0, {{20.0, 624.0}, {176.0, 78.0}}, Focused
+                              StaticText, 0x101a43260, {{34.0, 635.0}, {42.0, 38.0}}, label: '10', value: 10, Focused
+                              StaticText, 0x101a784a0, {{55.0, 670.0}, {88.0, 18.0}}, label: 'Earned today', value: Earned today, Focused
+                            Other, 0x101a785c0, {{206.0, 624.0}, {176.0, 78.0}}, Focused
+                              StaticText, 0x101a786e0, {{220.0, 635.0}, {42.0, 38.0}}, label: '10', value: 10, Focused
+                              StaticText, 0x101a78800, {{241.0, 670.0}, {75.0, 18.0}}, label: 'Used today', value: Used today, Focused
+                            Other, 0x101a78920, {{20.0, 712.0}, {176.0, 89.0}}, Focused
+                              StaticText, 0x101a78a40, {{34.0, 721.0}, {21.0, 37.0}}, label: '0', value: 0, Focused
+                              StaticText, 0x101a78b60, {{55.0, 756.0}, {83.0, 33.0}}, label: 'Waiting for a parent', value: Waiting for a parent, Focused
+                            Other, 0x101a78c80, {{206.0, 712.0}, {176.0, 89.0}}, Focused
+                              StaticText, 0x101a78da0, {{220.0, 729.0}, {21.0, 37.0}}, label: '1', value: 1, Focused
+                              StaticText, 0x101a78ec0, {{241.0, 764.0}, {80.0, 17.0}}, label: 'Day in a row', value: Day in a row, Focused
+                          Other, 0x101a78fe0, {{20.0, 815.0}, {362.0, 184.0}}, label: 'Lately, region', Focused
+                            Other, 0x101a79100, {{20.0, 815.0}, {362.0, 26.0}}, label: 'Lately', value: 2, Focused
+                              StaticText, 0x101a79220, {{20.0, 816.0}, {56.0, 23.0}}, label: 'Lately', value: Lately, Focused
+                            Other, 0x101a79340, {{20.0, 849.0}, {362.0, 150.0}}, Focused
+                              Other, 0x101a79460, {{20.0, 849.0}, {362.0, 50.0}}, Focused
+                                StaticText, 0x101a79580, {{34.0, 863.0}, {97.0, 22.0}}, label: 'Screen time', value: Screen time, Focused
+                                StaticText, 0x101a796a0, {{330.0, 862.0}, {38.0, 23.0}}, label: '−10', value: −10, Focused
+                              Other, 0x101a797c0, {{20.0, 899.0}, {362.0, 50.0}}, Focused
+                                StaticText, 0x101a798e0, {{34.0, 914.0}, {118.0, 22.0}}, label: 'Make your bed', value: Make your bed, Focused
+                                StaticText, 0x101a79a00, {{342.0, 913.0}, {26.0, 23.0}}, label: '+5', value: +5, Focused
+                              Other, 0x101a79b20, {{20.0, 949.0}, {362.0, 50.0}}, Focused
+                                StaticText, 0x101a79c40, {{34.0, 964.0}, {71.0, 22.0}}, label: 'Math set', value: Math set, Focused
+                                StaticText, 0x101a79d60, {{342.0, 963.0}, {26.0, 23.0}}, label: '+5', value: +5, Focused
+                        Other, 0x101a79e80, {{0.0, 774.0}, {402.0, 100.0}}, label: 'Main, navigation', Focused
+                          Link, 0x101a79fa0, {{36.0, 815.0}, {38.0, 17.0}}, label: 'Home', Focused
+                            StaticText, 0x101a7a0c0, {{36.0, 815.0}, {38.0, 17.0}}, label: 'Home', value: Home, Focused
+                          Link, 0x101a7a1e0, {{138.0, 815.0}, {29.0, 17.0}}, label: 'Earn', Focused
+                            StaticText, 0x101a7a300, {{138.0, 815.0}, {29.0, 17.0}}, label: 'Earn', value: Earn, Focused
+                          Link, 0x101a7a420, {{222.0, 815.0}, {55.0, 17.0}}, label: 'Use time', Focused
+                            StaticText, 0x101a7a540, {{222.0, 815.0}, {55.0, 17.0}}, label: 'Use time', value: Use time, Focused
+                          Link, 0x101a7a660, {{323.0, 815.0}, {48.0, 17.0}}, label: 'Parents', Focused
+                            StaticText, 0x101a7a780, {{323.0, 815.0}, {48.0, 17.0}}, label: 'Parents', value: Parents, Focused
+                        Other, 0x101a7a8a0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'Sam’s screen time, web dialog', Focused
+                          StaticText, 0x101a7a9c0, {{140.0, 152.0}, {41.0, 25.0}}, label: 'Sam', value: Sam, Focused
+                          StaticText, 0x101a7aae0, {{180.0, 152.0}, {128.0, 25.0}}, label: '’s screen time', value: ’s screen time, Focused
+                          Other, 0x101a7ac00, {{98.0, 296.0}, {206.0, 87.0}}, label: 'Time left, timer', Focused
+                            StaticText, 0x101a7ad20, {{98.0, 296.0}, {206.0, 87.0}}, label: '10:00', value: 10:00, Focused
+                          StaticText, 0x101a7ae40, {{186.0, 379.0}, {30.0, 24.0}}, label: 'left', value: left, Focused
+                          Other, 0x101a7af60, {{66.0, 536.0}, {270.0, 24.0}}, Focused
+                            StaticText, 0x101a7b080, {{66.0, 537.0}, {85.0, 21.0}}, label: '10 minutes', value: 10 minutes, Focused
+                            StaticText, 0x101a7b1a0, {{150.0, 537.0}, {112.0, 21.0}}, label: 'timer. Ends at', value:  timer. Ends at , Focused
+                            StaticText, 0x101a7b2c0, {{261.0, 537.0}, {70.0, 21.0}}, label: '11:19 AM', value: 11:19 AM, Focused
+                            StaticText, 0x101a7b3e0, {{330.0, 537.0}, {6.0, 21.0}}, label: '.', value: ., Focused
+                          Button, 0x101a7b500, {{41.0, 575.0}, {320.0, 65.0}}, label: 'End early', Focused
+                          Button, 0x101a7b620, {{41.0, 653.0}, {320.0, 47.0}}, label: 'Hide timer', Focused
+                          Other, 0x101a7b740, {{59.0, 715.0}, {284.0, 41.0}}, Focused
+                            StaticText, 0x101a7b860, {{75.0, 716.0}, {252.0, 39.0}}, label: 'Keep this screen where you can see it. When the alarm rings, screens go off.', value: Keep this screen w..., Focused
+                        Other, 0x101a7b980, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+                        Other, 0x101742c40, {{0.0, 0.0}, {402.0, 874.0}}, Focused
+              Other, 0x101793920, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101767930, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101759670, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10173fb90, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10176dbe0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x1017413e0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101753270, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10174ce60, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101773860, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10175da50, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10176fa60, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10177e080, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x101a81be0, pid: 21046, label: 'MinuteBank'
+  }

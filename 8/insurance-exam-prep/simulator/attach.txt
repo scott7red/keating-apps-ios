@@ -1,0 +1,7 @@
+insurance-exam-prep: Insurance License Exam Coach - App Review.mp4, 4.6 MB, MD5 88d7a6e97f99351a38c30703ba2f6dd9 (dry run: nothing is changed)
+App Store Connect app: Insurance License Exam Coach (6823849528)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (ed6f56fd-df62-4c3b-97fa-84a1989daaab)
+App Review Information: f861af47-f308-4533-820e-1faf5bb2dda5
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"Insurance License Exam Coach - App Review.mp4","fileSize":4576623},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"f861af47-f308-4533-820e-1faf5bb2dda5"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 88d7a6e97f99351a38c30703ba2f6dd9.

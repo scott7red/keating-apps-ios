@@ -1,0 +1,61 @@
+-----
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTestSupport.framework
+/Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTestSupport.framework: replacing existing signature
+
+CodeSign /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTestCore.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTestCore.framework
+/Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTestCore.framework: replacing existing signature
+
+CodeSign /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTest.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTest.framework
+/Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTest.framework: replacing existing signature
+
+CodeSign /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTAutomationSupport.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTAutomationSupport.framework
+/Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/XCTAutomationSupport.framework: replacing existing signature
+
+CodeSign /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/Testing.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --preserve-metadata\=identifier,entitlements,flags --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/Testing.framework
+/Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/Frameworks/Testing.framework: replacing existing signature
+
+CodeSign /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/runner/work/_temp/dd/Build/Intermediates.noindex/App.build/Debug-iphoneos/ReviewTour.build/ReviewTour.xctest.xcent --timestamp\=none --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest
+
+RegisterExecutionPolicyException /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-RegisterExecutionPolicyException /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest
+
+Touch /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    /usr/bin/touch -c /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest
+
+CodeSign /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/runner/work/_temp/dd/Build/Intermediates.noindex/App.build/Debug-iphoneos/ReviewTour.build/ReviewTour.xctest.xcent --timestamp\=none --generate-entitlement-der /Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app
+/Users/runner/work/_temp/dd/Build/Products/Debug-iphoneos/ReviewTour-Runner.app: replacing existing signature
+
+** TEST BUILD SUCCEEDED **
+

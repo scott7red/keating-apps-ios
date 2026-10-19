@@ -1,0 +1,58 @@
+Attributes: Application, 0x103f3d4a0, pid: 20211, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x103f3d4a0, pid: 20211, label: 'ShiftLedger'
+    Window (Main), 0x103f4b5d0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f57cd0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f4caf0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103f45830, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103f4c3d0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103f4d8b0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103f4fa60, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103f4f3c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103f4f710, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103f50120, {{0.0, 0.0}, {402.0, 874.0}}, label: 'ShiftLedger'
+                        Other, 0x103f3c320, {{0.0, 0.0}, {402.0, 732.0}}, label: 'main'
+                          Other, 0x103f50b90, {{16.0, 90.0}, {370.0, 642.0}}, label: 'form'
+                            Other, 0x103f4a080, {{16.0, 90.0}, {86.0, 15.0}}
+                              StaticText, 0x103f55e20, {{16.0, 90.0}, {39.0, 14.0}}, label: 'STEP', value: STEP 
+                              StaticText, 0x103f56f40, {{54.0, 90.0}, {9.0, 14.0}}, label: '2', value: 2
+                              StaticText, 0x103f55040, {{62.0, 90.0}, {40.0, 14.0}}, label: 'OF 2', value:  OF 2
+                            Other, 0x103f4ce40, {{16.0, 115.0}, {370.0, 37.0}}, label: 'Your tax profile', value: 1, Focused
+                              StaticText, 0x103f53bc0, {{16.0, 115.0}, {200.0, 37.0}}, label: 'Your tax profile', value: Your tax profile, Focused
+                            Other, 0x103f54620, {{16.0, 158.0}, {370.0, 46.0}}
+                              StaticText, 0x103f52750, {{16.0, 159.0}, {366.0, 43.0}}, label: 'Two answers set your caps, the phase-out and the tax estimate.', value: Two answers set yo...
+                            Other, 0x103f54980, {{16.0, 226.0}, {370.0, 21.0}}, label: 'Filing status'
+                              StaticText, 0x103f4bcb0, {{16.0, 227.0}, {87.0, 18.0}}, label: 'Filing status', value: Filing status
+                            Other, 0x103f53190, {{17.0, 254.0}, {368.0, 48.0}}, label: 'Filing status', value: Single
+                            Other, 0x103f53840, {{16.0, 319.0}, {370.0, 21.0}}, label: 'Estimated total income for the year'
+                              StaticText, 0x103f5ac80, {{16.0, 320.0}, {248.0, 18.0}}, label: 'Estimated total income for the year', value: Estimated total in...
+                            TextField, 0x103f51280, {{39.0, 347.0}, {346.0, 48.0}}, label: 'Estimated total income for the year', placeholderValue: '48000', value: 48000
+                            Other, 0x103f5ba70, {{16.0, 402.0}, {370.0, 54.0}}
+                              StaticText, 0x103f59170, {{16.0, 402.0}, {363.0, 53.0}}, label: 'Everything you expect to earn this year: wages, tips and any other income. A rough figure is fine. It sets the phase-out and the tax estimate.', value: Everything you exp...
+                            Other, 0x103f58720, {{16.0, 472.0}, {370.0, 48.0}}
+                              StaticText, 0x103f55ad0, {{16.0, 485.0}, {155.0, 21.0}}, label: 'Use my own tax rate', value: Use my own tax rate
+                              Switch, 0x103f46600, {{16.0, 472.0}, {370.0, 48.0}}, label: 'Use my own tax rate', value: 0
+                            Other, 0x103f51610, {{16.0, 526.0}, {370.0, 36.0}}
+                              StaticText, 0x103f4c770, {{16.0, 526.0}, {311.0, 35.0}}, label: 'Skip the bracket estimate. Tax saved becomes your deduction x the rate you pick.', value: Skip the bracket e...
+                            StaticText, 0x103f58a70, {{39.0, 578.0}, {184.0, 17.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no...
+                            Button, 0x103f4c030, {{16.0, 620.0}, {370.0, 54.0}}, label: 'Finish setup'
+                            Button, 0x103f56520, {{16.0, 684.0}, {65.0, 48.0}}, label: 'Back'
+                            Button, 0x103f56890, {{254.0, 684.0}, {132.0, 48.0}}, label: 'Skip this step'
+              Other, 0x103f56bd0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103f4e660, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103f58030, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103f5d2c0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103f57980, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103f47380, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103f57620, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103f5f5c0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103f5a5b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f30620, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f5c130, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103f3d4a0, pid: 20211, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x103d319b0, pid: 20211, label: 'ShiftLedger'
+  }

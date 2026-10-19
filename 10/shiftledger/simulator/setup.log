@@ -1,0 +1,31 @@
+10:50:31 xcrun simctl status_bar 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+10:50:46 xcrun simctl ui 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 appearance light
+  -> exit 0
+10:50:52 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+10:51:08 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+10:51:15 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+10:51:18 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+10:51:19 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+10:51:21 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+10:51:22 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+10:51:23 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+10:51:24 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+10:51:25 xcrun simctl spawn 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+10:51:26 xcrun simctl launch 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 com.apple.mobilesafari
+com.apple.mobilesafari: 16388
+  -> exit 0
+10:51:44 xcrun simctl terminate 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 com.apple.mobilesafari
+  -> exit 0
+10:51:48 xcrun simctl install 13CBFF5A-5A57-4E8D-8DCD-DD44AE4B4574 /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

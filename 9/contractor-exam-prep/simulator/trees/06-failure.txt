@@ -1,0 +1,530 @@
+Attributes: Application, 0x1060b6bf0, pid: 23510, label: 'Contractor'
+Element subtree:
+ →Application, 0x1060b6bf0, pid: 23510, label: 'Contractor'
+    Window (Main), 0x1060a7f10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10607ec10, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106086720, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x106069e30, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x106082610, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x1060a5e10, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10607dc90, {{0.0, 0.0}, {402.0, 875.0}}
+                  Other, 0x106090380, {{0.0, 0.0}, {402.0, 875.0}}
+                    Other, 0x10607f030, {{0.0, -1047.0}, {402.0, 875.0}}
+                      Other, 0x10608adf0, {{0.0, -1047.0}, {402.0, 17768.0}}, label: 'Contractor License Exam Coach'
+                        Other, 0x1060b39f0, {{0.0, -1047.0}, {402.0, 17768.0}}, label: 'main', Focused
+                          Other, 0x106083700, {{12.0, -973.0}, {378.0, 59.0}}, label: 'section header', Focused
+                            Button, 0x10607fc90, {{12.0, -966.0}, {44.0, 45.0}}, label: 'Back to Learn', Focused
+                            Other, 0x106085360, {{60.0, -973.0}, {282.0, 59.0}}, label: 'Business Organization & Licensing', value: 1, Focused
+                              StaticText, 0x10606e9a0, {{83.0, -971.0}, {236.0, 55.0}}, label: 'Business Organization & Licensing', value: Business Organizat..., Focused
+                            Button, 0x10608ff60, {{346.0, -966.0}, {44.0, 45.0}}, label: 'Text size', Focused
+                          StaticText, 0x106096ef0, {{20.0, -901.0}, {9.0, 18.0}}, label: '0', value: 0, Focused
+                          StaticText, 0x10607f450, {{28.0, -901.0}, {21.0, 18.0}}, label: 'of', value:  of , Focused
+                          StaticText, 0x106091140, {{48.0, -901.0}, {75.0, 18.0}}, label: '11 sections', value: 11 sections, Focused
+                          StaticText, 0x106086b40, {{122.0, -901.0}, {34.0, 18.0}}, label: 'read', value:  read, Focused
+                          Other, 0x1060b4e90, {{20.0, -875.0}, {362.0, 9.0}}, label: 'Sections read', value: 0.00, Focused
+                          Other, 0x1060890d0, {{20.0, -849.0}, {362.0, 320.0}}, Focused
+                            StaticText, 0x10608a190, {{20.0, -847.0}, {345.0, 315.0}}, label: 'This topic covers who must hold a California contractor license, what each classification allows, and the qualifier, bond, entity, renewal, advertising and discipline rules that keep a license in good standing. The exam tests it with short scenarios that turn on exact thresholds, such as $1,000, 90 days, 10 percent and five years, and on what happens to a license when people or business entities change.', value: This topic covers ..., Focused
+                          Other, 0x1060b52b0, {{20.0, -508.0}, {362.0, 1801.0}}, label: 'Who needs a license, region', Focused
+                            Other, 0x106088610, {{38.0, -468.0}, {326.0, 27.0}}, label: 'Who needs a license', value: 2, Focused
+                              StaticText, 0x10608fb40, {{38.0, -468.0}, {204.0, 27.0}}, label: 'Who needs a license', value: Who needs a license, Focused
+                            Other, 0x1060b3e10, {{38.0, -430.0}, {326.0, 1297.0}}, Focused
+                              Other, 0x10608b870, {{38.0, -430.0}, {326.0, 105.0}}, label: 'Anyone who bids on or does construction work in California needs a license from the Contractors State License Board (CSLB) unless an exemption applies.', Focused
+                                StaticText, 0x106085ee0, {{56.0, -427.0}, {308.0, 99.0}}, label: 'Anyone who bids on or does construction work in California needs a license from the Contractors State License Board (CSLB) unless an exemption applies.', value: Anyone who bids on..., Focused
+                              Other, 0x106087380, {{38.0, -316.0}, {326.0, 105.0}}, label: 'The minor-work exemption covers a project whose total price for labor, materials and everything else is under $1,000.', Focused
+                                StaticText, 0x1060894f0, {{56.0, -313.0}, {253.0, 99.0}}, label: 'The minor-work exemption covers a project whose total price for labor, materials and everything else is under $1,000.', value: The minor-work exe..., Focused
+                              Other, 0x105ffd9f0, {{38.0, -202.0}, {326.0, 79.0}}, label: 'The minor-work exemption applies only if the work needs no building permit and is done without employees or helpers.', Focused
+                                StaticText, 0x105ffc530, {{56.0, -199.0}, {299.0, 73.0}}, label: 'The minor-work exemption applies only if the work needs no building permit and is done without employees or helpers.', value: The minor-work exe..., Focused
+                              Other, 0x105ffc110, {{38.0, -114.0}, {326.0, 79.0}}, label: 'A larger job may not be split into separate contracts under $1,000, because the whole project is counted.', Focused
+                                StaticText, 0x105ffbcf0, {{56.0, -111.0}, {283.0, 73.0}}, label: 'A larger job may not be split into separate contracts under $1,000, because the whole project is counted.', value: A larger job may n..., Focused
+                              Other, 0x105ff2cb0, {{38.0, -26.0}, {326.0, 105.0}}, label: 'An unlicensed person may advertise only for projects totaling less than $1,000, and the advertisement must state that the person is not licensed.', Focused
+                                StaticText, 0x105ff2890, {{56.0, -23.0}, {271.0, 99.0}}, label: 'An unlicensed person may advertise only for projects totaling less than $1,000, and the advertisement must state that the person is not licensed.', value: An unlicensed pers..., Focused
+                              Other, 0x105ff2470, {{38.0, 88.0}, {326.0, 131.0}}, label: 'The sale or installation of finished products that do not become a fixed part of the structure, such as a freestanding appliance, is exempt, but installed carpet is not.', Focused
+                                StaticText, 0x105ff2050, {{56.0, 91.0}, {257.0, 125.0}}, label: 'The sale or installation of finished products that do not become a fixed part of the structure, such as a freestanding appliance, is exempt, but installed carpet is not.', value: The sale or instal..., Focused
+                              Other, 0x105fff8e0, {{38.0, 228.0}, {326.0, 105.0}}, label: 'An owner-builder is exempt when building on his or her own property, not for sale, doing the work personally or with employees paid wages only.', Focused
+                                StaticText, 0x105fffa00, {{56.0, 231.0}, {283.0, 99.0}}, label: 'An owner-builder is exempt when building on his or her own property, not for sale, doing the work personally or with employees paid wages only.', value: An owner-builder i..., Focused
+                              Other, 0x105fffb20, {{38.0, 342.0}, {326.0, 131.0}}, label: 'An owner may also build through licensed contractors, but if the owner does not hire a general contractor, no more than four single-family structures a year may be offered for sale.', Focused
+                                StaticText, 0x105fffc40, {{56.0, 345.0}, {290.0, 125.0}}, label: 'An owner may also build through licensed contractors, but if the owner does not hire a general contractor, no more than four single-family structures a year may be offered for sale.', value: An owner may also ..., Focused
+                              Other, 0x105fffd60, {{38.0, 482.0}, {326.0, 131.0}}, label: 'Selling an owner-built structure within one year after completion creates a rebuttable presumption it was built for sale, and selling five or more within that year makes it conclusive.', Focused
+                                StaticText, 0x105fffe80, {{56.0, 485.0}, {281.0, 125.0}}, label: 'Selling an owner-built structure within one year after completion creates a rebuttable presumption it was built for sale, and selling five or more within that year makes it conclusive.', value: Selling an owner-b..., Focused
+                              Other, 0x105f461b0, {{38.0, 622.0}, {326.0, 157.0}}, label: 'A homeowner improving a principal residence before sale is exempt only after living there for the 12 months before the work is completed, and the exemption is limited within a three-year period.', Focused
+                                StaticText, 0x105f462d0, {{56.0, 625.0}, {271.0, 151.0}}, label: 'A homeowner improving a principal residence before sale is exempt only after living there for the 12 months before the work is completed, and the exemption is limited within a three-year period.', value: A homeowner improv..., Focused
+                              Other, 0x105f463f0, {{38.0, 788.0}, {326.0, 79.0}}, label: 'An application becomes void if the applicant does not pass the exam within 18 months after it is accepted.', Focused
+                                StaticText, 0x105f46510, {{56.0, 791.0}, {274.0, 73.0}}, label: 'An application becomes void if the applicant does not pass the exam within 18 months after it is accepted.', value: An application bec..., Focused
+                            Other, 0x105f46630, {{38.0, 880.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105f46750, {{76.0, 893.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105f46870, {{52.0, 914.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x105f46990, {{52.0, 916.0}, {279.0, 92.0}}, label: 'Check three things in order: total price under $1,000, no building permit, no helpers. A job that fails any one of them needs a license.', value: Check three things..., Focused
+                            Other, 0x105f46ab0, {{38.0, 1036.0}, {326.0, 191.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f46bd0, {{76.0, 1049.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f46cf0, {{52.0, 1070.0}, {298.0, 145.0}}, Focused
+                                StaticText, 0x105f46e10, {{52.0, 1072.0}, {295.0, 140.0}}, label: 'Three dollar thresholds sit close together: under $1,000 is the licensing exemption, over $500 triggers the home improvement contract rules, and $750 or less is the ceiling for a service and repair contract.', value: Three dollar thres..., Focused
+                            Switch, 0x105f46f30, {{30.0, 1236.0}, {151.0, 45.0}}, label: 'Mark as read : Who needs a license', value: 0, Focused
+                          Other, 0x105f47050, {{20.0, 1306.0}, {362.0, 1444.0}}, label: 'Unlicensed contracting and its consequences, region', Focused
+                            Other, 0x105f47170, {{38.0, 1346.0}, {326.0, 52.0}}, label: 'Unlicensed contracting and its consequences', value: 2, Focused
+                              StaticText, 0x105f47290, {{38.0, 1346.0}, {232.0, 52.0}}, label: 'Unlicensed contracting and its consequences', value: Unlicensed contrac..., Focused
+                            Other, 0x105f473b0, {{38.0, 1409.0}, {326.0, 1095.0}}, Focused
+                              Other, 0x105f474d0, {{38.0, 1409.0}, {326.0, 105.0}}, label: 'Unlicensed contracting is a misdemeanor, and a person who was not licensed at all times during the work cannot sue to collect payment.', Focused
+                                StaticText, 0x105f475f0, {{56.0, 1412.0}, {275.0, 99.0}}, label: 'Unlicensed contracting is a misdemeanor, and a person who was not licensed at all times during the work cannot sue to collect payment.', value: Unlicensed contrac..., Focused
+                              Other, 0x105f47710, {{38.0, 1523.0}, {326.0, 131.0}}, label: 'The customer of an unlicensed contractor may sue to recover all compensation already paid, and getting a license afterward does not cure the problem.', Focused
+                                StaticText, 0x105f47830, {{56.0, 1526.0}, {230.0, 125.0}}, label: 'The customer of an unlicensed contractor may sue to recover all compensation already paid, and getting a license afterward does not cure the problem.', value: The customer of an..., Focused
+                              Other, 0x105f47950, {{38.0, 1663.0}, {326.0, 105.0}}, label: 'A first conviction for unlicensed contracting is punishable by a fine of up to $5,000, up to six months in county jail, or both.', Focused
+                                StaticText, 0x105f861d0, {{56.0, 1666.0}, {254.0, 99.0}}, label: 'A first conviction for unlicensed contracting is punishable by a fine of up to $5,000, up to six months in county jail, or both.', value: A first conviction..., Focused
+                              Other, 0x105f862f0, {{38.0, 1777.0}, {326.0, 105.0}}, label: 'A security interest taken to secure payment for work requiring a license is unenforceable if the contractor was not licensed at all times during the work.', Focused
+                                StaticText, 0x105f86410, {{56.0, 1780.0}, {293.0, 99.0}}, label: 'A security interest taken to secure payment for work requiring a license is unenforceable if the contractor was not licensed at all times during the work.', value: A security interes..., Focused
+                              Other, 0x105f86530, {{38.0, 1891.0}, {326.0, 131.0}}, label: 'A court may find substantial compliance when a previously licensed contractor acted in good faith to keep its license and promptly fixed a lapse, but never for someone never licensed.', Focused
+                                StaticText, 0x105f86650, {{56.0, 1894.0}, {297.0, 125.0}}, label: 'A court may find substantial compliance when a previously licensed contractor acted in good faith to keep its license and promptly fixed a lapse, but never for someone never licensed.', value: A court may find s..., Focused
+                              Other, 0x105f85150, {{38.0, 2031.0}, {326.0, 131.0}}, label: 'A licensee who contracts with an unlicensed contractor, or aids an unlicensed person to evade the license law, commits a cause for disciplinary action.', Focused
+                                StaticText, 0x105f85270, {{56.0, 2034.0}, {243.0, 125.0}}, label: 'A licensee who contracts with an unlicensed contractor, or aids an unlicensed person to evade the license law, commits a cause for disciplinary action.', value: A licensee who con..., Focused
+                              Other, 0x105f85390, {{38.0, 2171.0}, {326.0, 105.0}}, label: 'A second conviction brings a fine of 20 percent of the contract price or $5,000, whichever is greater, and at least 90 days in county jail.', Focused
+                                StaticText, 0x105f854b0, {{56.0, 2174.0}, {257.0, 99.0}}, label: 'A second conviction brings a fine of 20 percent of the contract price or $5,000, whichever is greater, and at least 90 days in county jail.', value: A second convictio..., Focused
+                              Other, 0x105f855d0, {{38.0, 2285.0}, {326.0, 105.0}}, label: 'When licensure is disputed, the contractor must prove it with a verified CSLB certificate covering the whole time of the work.', Focused
+                                StaticText, 0x105f856f0, {{56.0, 2288.0}, {248.0, 99.0}}, label: 'When licensure is disputed, the contractor must prove it with a verified CSLB certificate covering the whole time of the work.', value: When licensure is ..., Focused
+                              Other, 0x105f85810, {{38.0, 2399.0}, {326.0, 105.0}}, label: 'Contractors who are each individually licensed but act jointly without a joint venture license are not barred from suing for payment.', Focused
+                                StaticText, 0x105f85930, {{56.0, 2402.0}, {279.0, 99.0}}, label: 'Contractors who are each individually licensed but act jointly without a joint venture license are not barred from suing for payment.', value: Contractors who ar..., Focused
+                            Other, 0x105f85a50, {{38.0, 2517.0}, {326.0, 167.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f85b70, {{76.0, 2530.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f85c90, {{52.0, 2551.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x105f85db0, {{52.0, 2553.0}, {296.0, 116.0}}, label: 'Good work does not rescue an unlicensed contractor's claim for payment, and a licensed general contractor that hires an unlicensed subcontractor puts its own license at risk.', value: Good work does not..., Focused
+                            Switch, 0x105f6bc20, {{30.0, 2693.0}, {151.0, 45.0}}, label: 'Mark as read : Unlicensed contracting and its consequences', value: 0, Focused
+                          Other, 0x105f6bd40, {{20.0, 2763.0}, {362.0, 1483.0}}, label: 'License classifications, region', Focused
+                            Other, 0x105f6be60, {{38.0, 2803.0}, {326.0, 27.0}}, label: 'License classifications', value: 2, Focused
+                              StaticText, 0x105f6bf80, {{38.0, 2803.0}, {223.0, 27.0}}, label: 'License classifications', value: License classifica..., Focused
+                            Other, 0x105f6c0a0, {{38.0, 2841.0}, {326.0, 955.0}}, Focused
+                              Other, 0x105f6c1c0, {{38.0, 2841.0}, {326.0, 79.0}}, label: 'Class A, the general engineering license, covers fixed works that need specialized engineering skill.', Focused
+                                StaticText, 0x105f6c2e0, {{56.0, 2844.0}, {254.0, 73.0}}, label: 'Class A, the general engineering license, covers fixed works that need specialized engineering skill.', value: Class A, the gener..., Focused
+                              Other, 0x105f6c400, {{38.0, 2929.0}, {326.0, 105.0}}, label: 'Class B, the general building license, covers structures that need at least two unrelated trades besides framing or carpentry.', Focused
+                                StaticText, 0x105f6c520, {{56.0, 2932.0}, {272.0, 99.0}}, label: 'Class B, the general building license, covers structures that need at least two unrelated trades besides framing or carpentry.', value: Class B, the gener..., Focused
+                              Other, 0x105f6c640, {{38.0, 3043.0}, {326.0, 131.0}}, label: 'A Class B contractor may take a contract for framing or carpentry alone; any other single trade requires holding that specialty license or subcontracting to a licensed specialty contractor.', Focused
+                                StaticText, 0x105f6c760, {{56.0, 3046.0}, {303.0, 125.0}}, label: 'A Class B contractor may take a contract for framing or carpentry alone; any other single trade requires holding that specialty license or subcontracting to a licensed specialty contractor.', value: A Class B contract..., Focused
+                              Other, 0x105f6c880, {{38.0, 3183.0}, {326.0, 105.0}}, label: 'A Class B contractor may not do fire protection or well drilling without that license or a licensed subcontractor; fire protection needs a C-16.', Focused
+                                StaticText, 0x105f6c9a0, {{56.0, 3186.0}, {276.0, 99.0}}, label: 'A Class B contractor may not do fire protection or well drilling without that license or a licensed subcontractor; fire protection needs a C-16.', value: A Class B contract..., Focused
+                              Other, 0x105f6cac0, {{38.0, 3297.0}, {326.0, 157.0}}, label: 'Class B-2, residential remodeling, covers existing residential wood-frame structures under contracts requiring at least three unrelated trades, with no structural changes to load-bearing portions.', Focused
+                                StaticText, 0x105f6cbe0, {{56.0, 3300.0}, {254.0, 151.0}}, label: 'Class B-2, residential remodeling, covers existing residential wood-frame structures under contracts requiring at least three unrelated trades, with no structural changes to load-bearing portions.', value: Class B-2, residen..., Focused
+                              Other, 0x105f6cd00, {{38.0, 3463.0}, {326.0, 131.0}}, label: 'Class C licenses cover specialty trades, such as C-10 electrical and C-33 painting, plus incidental and supplemental work that is essential to completing the licensed work.', Focused
+                                StaticText, 0x105f6ce20, {{56.0, 3466.0}, {261.0, 125.0}}, label: 'Class C licenses cover specialty trades, such as C-10 electrical and C-33 painting, plus incidental and supplemental work that is essential to completing the licensed work.', value: Class C licenses c..., Focused
+                              Other, 0x105f6cf40, {{38.0, 3603.0}, {326.0, 79.0}}, label: 'The C-61 limited specialty license is issued in D subcategories, such as D-49 tree service.', Focused
+                                StaticText, 0x105f6d060, {{56.0, 3606.0}, {252.0, 73.0}}, label: 'The C-61 limited specialty license is issued in D subcategories, such as D-49 tree service.', value: The C-61 limited s..., Focused
+                              Other, 0x105f6d180, {{38.0, 3691.0}, {326.0, 105.0}}, label: 'Removing an underground storage tank or other hazardous substance requires a qualifier who has passed CSLB's hazardous substance certification exam.', Focused
+                                StaticText, 0x105f6d2a0, {{56.0, 3694.0}, {300.0, 99.0}}, label: 'Removing an underground storage tank or other hazardous substance requires a qualifier who has passed CSLB's hazardous substance certification exam.', value: Removing an underg..., Focused
+                            Other, 0x105f6d3c0, {{38.0, 3809.0}, {326.0, 191.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105f6d4e0, {{76.0, 3822.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105f6d600, {{52.0, 3843.0}, {298.0, 145.0}}, Focused
+                                StaticText, 0x105f6d720, {{52.0, 3845.0}, {296.0, 140.0}}, label: 'Count the unrelated trades in the job. One trade points to a specialty license (framing or carpentry alone is the exception for a B), at least two fits a B, and at least three on an existing wood-frame home fits a B-2.', value: Count the unrelate..., Focused
+                            Other, 0x105f6d840, {{38.0, 4013.0}, {326.0, 167.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f6d960, {{76.0, 4026.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f92260, {{52.0, 4047.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x105f92380, {{52.0, 4049.0}, {292.0, 116.0}}, label: 'Painting alone on an existing house is a single trade, so it calls for a C-33 license, not a B-2. Roofing or electrical work alone, done with a B contractor's own employees, is outside the B license.', value: Painting alone on ..., Focused
+                            Switch, 0x105f924a0, {{30.0, 4189.0}, {151.0, 45.0}}, label: 'Mark as read : License classifications', value: 0, Focused
+                          Other, 0x105f925c0, {{20.0, 4259.0}, {362.0, 1743.0}}, label: 'The qualifying individual, region', Focused
+                            Other, 0x105f926e0, {{38.0, 4299.0}, {326.0, 27.0}}, label: 'The qualifying individual', value: 2, Focused
+                              StaticText, 0x105f92800, {{38.0, 4299.0}, {251.0, 27.0}}, label: 'The qualifying individual', value: The qualifying ind..., Focused
+                            Other, 0x105f92920, {{38.0, 4337.0}, {326.0, 1287.0}}, Focused
+                              Other, 0x105f92a40, {{38.0, 4337.0}, {326.0, 157.0}}, label: 'Every license needs a qualifying individual, or qualifier: the person who meets the experience and examination requirements and is responsible for supervising and controlling the construction work.', Focused
+                                StaticText, 0x105f92b60, {{56.0, 4340.0}, {250.0, 151.0}}, label: 'Every license needs a qualifying individual, or qualifier: the person who meets the experience and examination requirements and is responsible for supervising and controlling the construction work.', value: Every license need..., Focused
+                              Other, 0x105f713f0, {{38.0, 4503.0}, {326.0, 105.0}}, label: 'The qualifier must document at least four years of experience at journey level or higher within the 10 years before the application is filed.', Focused
+                                StaticText, 0x105f71510, {{56.0, 4506.0}, {264.0, 99.0}}, label: 'The qualifier must document at least four years of experience at journey level or higher within the 10 years before the application is filed.', value: The qualifier must..., Focused
+                              Other, 0x105f71630, {{38.0, 4617.0}, {326.0, 131.0}}, label: 'Qualifying experience is work as a journeyman, foreman, supervising employee or contractor in the classification; trainee or helper time does not count.', Focused
+                                StaticText, 0x105f71750, {{56.0, 4620.0}, {252.0, 125.0}}, label: 'Qualifying experience is work as a journeyman, foreman, supervising employee or contractor in the classification; trainee or helper time does not count.', value: Qualifying experie..., Focused
+                              Other, 0x105f71870, {{38.0, 4757.0}, {326.0, 131.0}}, label: 'A responsible managing employee (RME) is a qualifier who is a permanent employee, and a responsible managing officer (RMO) is a qualifier who is an officer of a corporation.', Focused
+                                StaticText, 0x105f8de70, {{56.0, 4760.0}, {290.0, 125.0}}, label: 'A responsible managing employee (RME) is a qualifier who is a permanent employee, and a responsible managing officer (RMO) is a qualifier who is an officer of a corporation.', value: A responsible mana..., Focused
+                              Other, 0x105f8df90, {{38.0, 4897.0}, {326.0, 79.0}}, label: 'An RME must work at least 32 hours a week or 80 percent of the hours the business operates, whichever is less.', Focused
+                                StaticText, 0x105f8e0b0, {{56.0, 4900.0}, {280.0, 73.0}}, label: 'An RME must work at least 32 hours a week or 80 percent of the hours the business operates, whichever is less.', value: An RME must work a..., Focused
+                              Other, 0x105f8e1d0, {{38.0, 4985.0}, {326.0, 105.0}}, label: 'For a business that operates 30 hours a week, 0.80 x 30 = 24 hours, which is less than 32, so the RME must work at least 24 hours.', Focused
+                                StaticText, 0x105f8e2f0, {{56.0, 4988.0}, {267.0, 99.0}}, label: 'For a business that operates 30 hours a week, 0.80 x 30 = 24 hours, which is less than 32, so the RME must work at least 24 hours.', value: For a business tha..., Focused
+                              Other, 0x105f8e410, {{38.0, 5099.0}, {326.0, 131.0}}, label: 'If the qualifier leaves, CSLB must be notified in writing and a replacement put in place within 90 days, or the license is automatically suspended or the affected classification removed.', Focused
+                                StaticText, 0x105f8e530, {{56.0, 5102.0}, {278.0, 125.0}}, label: 'If the qualifier leaves, CSLB must be notified in writing and a replacement put in place within 90 days, or the license is automatically suspended or the affected classification removed.', value: If the qualifier l..., Focused
+                              Other, 0x105f8e650, {{38.0, 5239.0}, {326.0, 131.0}}, label: 'CSLB may waive the examination when the qualifier has been listed on an active, good-standing license in the same classification for five of the last seven years.', Focused
+                                StaticText, 0x105f8e770, {{56.0, 5242.0}, {265.0, 125.0}}, label: 'CSLB may waive the examination when the qualifier has been listed on an active, good-standing license in the same classification for five of the last seven years.', value: CSLB may waive the..., Focused
+                              Other, 0x105f8e890, {{38.0, 5379.0}, {326.0, 131.0}}, label: 'Up to three years of the experience requirement may be credited for technical training, apprenticeship or education, but at least one year must be practical experience.', Focused
+                                StaticText, 0x105f8e9b0, {{56.0, 5382.0}, {262.0, 125.0}}, label: 'Up to three years of the experience requirement may be credited for technical training, apprenticeship or education, but at least one year must be practical experience.', value: Up to three years ..., Focused
+                              Other, 0x105f8ead0, {{38.0, 5519.0}, {326.0, 105.0}}, label: 'Experience is certified by a responsible person who observed the work, such as an employer, foreman, inspector or homeowner.', Focused
+                                StaticText, 0x105f8ebf0, {{56.0, 5522.0}, {290.0, 99.0}}, label: 'Experience is certified by a responsible person who observed the work, such as an employer, foreman, inspector or homeowner.', value: Experience is cert..., Focused
+                            Other, 0x105f8ed10, {{38.0, 5637.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105f8ee30, {{76.0, 5650.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105f8ef50, {{52.0, 5671.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x105f8f070, {{52.0, 5673.0}, {288.0, 92.0}}, label: 'For RME hours, compute 80 percent of the weekly operating hours and compare it with 32. The smaller number is the answer.', value: For RME hours, com..., Focused
+                            Other, 0x105f8f190, {{38.0, 5793.0}, {326.0, 143.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f8f2b0, {{76.0, 5806.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f8f3d0, {{52.0, 5827.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x105f8f4f0, {{52.0, 5829.0}, {297.0, 92.0}}, label: 'A license whose qualifier has left does not ride along until renewal. The 90 days run from the qualifier's departure unless CSLB grants an extension.', value: A license whose qu..., Focused
+                            Switch, 0x105f8f610, {{30.0, 5945.0}, {151.0, 45.0}}, label: 'Mark as read : The qualifying individual', value: 0, Focused
+                          Other, 0x105f8f730, {{20.0, 6015.0}, {362.0, 1184.0}}, label: 'Qualifier duties, limits and departures, region', Focused
+                            Other, 0x105f8f850, {{38.0, 6055.0}, {326.0, 52.0}}, label: 'Qualifier duties, limits and departures', value: 2, Focused
+                              StaticText, 0x105f8f970, {{38.0, 6055.0}, {215.0, 52.0}}, label: 'Qualifier duties, limits and departures', value: Qualifier duties, ..., Focused
+                            Other, 0x105f8fa90, {{38.0, 6118.0}, {326.0, 727.0}}, Focused
+                              Other, 0x105f8fbb0, {{38.0, 6118.0}, {326.0, 131.0}}, label: 'A person may qualify more than one firm only with at least 20 percent common ownership, a subsidiary or joint venture tie, or a majority of the same partners, officers or managers.', Focused
+                                StaticText, 0x105f8fcd0, {{56.0, 6121.0}, {274.0, 125.0}}, label: 'A person may qualify more than one firm only with at least 20 percent common ownership, a subsidiary or joint venture tie, or a majority of the same partners, officers or managers.', value: A person may quali..., Focused
+                              Other, 0x105f8fdf0, {{38.0, 6258.0}, {326.0, 79.0}}, label: 'Even when one of those conditions is met, a qualifier may act for no more than three firms in any one-year period.', Focused
+                                StaticText, 0x105f8ff10, {{56.0, 6261.0}, {294.0, 73.0}}, label: 'Even when one of those conditions is met, a qualifier may act for no more than three firms in any one-year period.', value: Even when one of t..., Focused
+                              Other, 0x105f90030, {{38.0, 6346.0}, {326.0, 105.0}}, label: 'A cause for discipline against a licensee is also a cause for discipline against its qualifier at the time, whether or not the qualifier knew of or took part in the act.', Focused
+                                StaticText, 0x105f90150, {{56.0, 6349.0}, {295.0, 99.0}}, label: 'A cause for discipline against a licensee is also a cause for discipline against its qualifier at the time, whether or not the qualifier knew of or took part in the act.', value: A cause for discip..., Focused
+                              Other, 0x105f90270, {{38.0, 6460.0}, {326.0, 131.0}}, label: 'A departing qualifier stays responsible for the construction operations until the date of disassociation or the date CSLB receives written notice, whichever is later.', Focused
+                                StaticText, 0x105f90390, {{56.0, 6463.0}, {284.0, 125.0}}, label: 'A departing qualifier stays responsible for the construction operations until the date of disassociation or the date CSLB receives written notice, whichever is later.', value: A departing qualif..., Focused
+                              Other, 0x105f904b0, {{38.0, 6600.0}, {326.0, 105.0}}, label: 'For good cause, such as a disputed departure date or the qualifier's death, CSLB may grant one 90-day extension, for no more than 180 days in all.', Focused
+                                StaticText, 0x105f905d0, {{56.0, 6603.0}, {291.0, 99.0}}, label: 'For good cause, such as a disputed departure date or the qualifier's death, CSLB may grant one 90-day extension, for no more than 180 days in all.', value: For good cause, su..., Focused
+                              Other, 0x105f906f0, {{38.0, 6714.0}, {326.0, 131.0}}, label: 'A qualifier who fails to supervise and control the construction operations commits a misdemeanor: up to six months in jail, a $3,000 to $5,000 fine, or both.', Focused
+                                StaticText, 0x105f90810, {{56.0, 6717.0}, {272.0, 125.0}}, label: 'A qualifier who fails to supervise and control the construction operations commits a misdemeanor: up to six months in jail, a $3,000 to $5,000 fine, or both.', value: A qualifier who fa..., Focused
+                            Other, 0x105f90930, {{38.0, 6858.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105f90a50, {{76.0, 6871.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105f90b70, {{52.0, 6892.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x105f90c90, {{52.0, 6894.0}, {292.0, 92.0}}, label: 'A qualifier who leaves should make sure CSLB gets written notice right away, because responsibility continues until the notice arrives.', value: A qualifier who le..., Focused
+                            Other, 0x105f90db0, {{38.0, 7014.0}, {326.0, 119.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f89bc0, {{76.0, 7027.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f89ce0, {{52.0, 7048.0}, {298.0, 73.0}}, Focused
+                                StaticText, 0x105f89e00, {{52.0, 7050.0}, {285.0, 68.0}}, label: 'Not knowing about a violation is no defense for a qualifier; supervising and controlling the work is the qualifier's job.', value: Not knowing about ..., Focused
+                            Switch, 0x105f89f20, {{30.0, 7142.0}, {151.0, 45.0}}, label: 'Mark as read : Qualifier duties, limits and departures', value: 0, Focused
+                          Other, 0x105f8a040, {{20.0, 7212.0}, {362.0, 1713.0}}, label: 'Bonds and LLC requirements, region', Focused
+                            Other, 0x105f8a160, {{38.0, 7252.0}, {326.0, 27.0}}, label: 'Bonds and LLC requirements', value: 2, Focused
+                              StaticText, 0x105f8a280, {{38.0, 7252.0}, {290.0, 27.0}}, label: 'Bonds and LLC requirements', value: Bonds and LLC requ..., Focused
+                            Other, 0x105f8a3a0, {{38.0, 7290.0}, {326.0, 1365.0}}, Focused
+                              Other, 0x105f8a4c0, {{38.0, 7290.0}, {326.0, 53.0}}, label: 'An active license requires a $25,000 contractor's bond on file with CSLB.', Focused
+                                StaticText, 0x105f8a5e0, {{56.0, 7293.0}, {270.0, 47.0}}, label: 'An active license requires a $25,000 contractor's bond on file with CSLB.', value: An active license ..., Focused
+                              Other, 0x105f8a700, {{38.0, 7352.0}, {326.0, 157.0}}, label: 'The contractor's bond protects homeowners damaged by license-law violations on home improvements, people hurt by willful violations or fraud, and employees owed wages or fringe benefits.', Focused
+                                StaticText, 0x105f8a820, {{56.0, 7355.0}, {281.0, 151.0}}, label: 'The contractor's bond protects homeowners damaged by license-law violations on home improvements, people hurt by willful violations or fraud, and employees owed wages or fringe benefits.', value: The contractor's b..., Focused
+                              Other, 0x105f8a940, {{38.0, 7518.0}, {326.0, 183.0}}, label: 'Claims by everyone other than homeowners contracting for home improvement on their own residence, including employee wage and fringe benefit claims, are capped at $7,500 in total, and the rest of the bond is reserved for those homeowners.', Focused
+                                StaticText, 0x105f8aa60, {{56.0, 7521.0}, {275.0, 177.0}}, label: 'Claims by everyone other than homeowners contracting for home improvement on their own residence, including employee wage and fringe benefit claims, are capped at $7,500 in total, and the rest of the bond is reserved for those homeowners.', value: Claims by everyone..., Focused
+                              Other, 0x105f8ab80, {{38.0, 7710.0}, {326.0, 131.0}}, label: 'CSLB may require an applicant convicted of unlicensed contracting that substantially injured the public to post a bond of twice the normal amount until the first renewal.', Focused
+                                StaticText, 0x105f8aca0, {{56.0, 7713.0}, {266.0, 125.0}}, label: 'CSLB may require an applicant convicted of unlicensed contracting that substantially injured the public to post a bond of twice the normal amount until the first renewal.', value: CSLB may require a..., Focused
+                              Other, 0x105f8adc0, {{38.0, 7850.0}, {326.0, 105.0}}, label: 'A licensee must report an unsatisfied final judgment to CSLB within 90 days, or the license is automatically suspended once CSLB learns of the judgment.', Focused
+                                StaticText, 0x105f8aee0, {{56.0, 7853.0}, {306.0, 99.0}}, label: 'A licensee must report an unsatisfied final judgment to CSLB within 90 days, or the license is automatically suspended once CSLB learns of the judgment.', value: A licensee must re..., Focused
+                              Other, 0x105f8b000, {{38.0, 7964.0}, {326.0, 157.0}}, label: 'A separate $25,000 bond of qualifying individual is required when the qualifier is an RME, an RMO who owns less than 10 percent of the voting stock, or an LLC qualifier who owns less than a 10 percent membership interest.', Focused
+                                StaticText, 0x105f8b120, {{56.0, 7967.0}, {290.0, 151.0}}, label: 'A separate $25,000 bond of qualifying individual is required when the qualifier is an RME, an RMO who owns less than 10 percent of the voting stock, or an LLC qualifier who owns less than a 10 percent membership interest.', value: A separate $25,000..., Focused
+                              Other, 0x105f8b240, {{38.0, 8130.0}, {326.0, 183.0}}, label: 'No bond of qualifying individual is needed when the qualifier is the sole owner or a general partner, an RMO who certifies owning at least 10 percent of the voting stock, or an LLC qualifier who certifies owning at least a 10 percent membership interest.', Focused
+                                StaticText, 0x105f8b470, {{56.0, 8133.0}, {280.0, 177.0}}, label: 'No bond of qualifying individual is needed when the qualifier is the sole owner or a general partner, an RMO who certifies owning at least 10 percent of the voting stock, or an LLC qualifier who certifies owning at least a 10 percent membership interest.', value: No bond of qualify..., Focused
+                              Other, 0x105f8b7b0, {{38.0, 8322.0}, {326.0, 105.0}}, label: 'A limited liability company (LLC) must also file a $100,000 surety bond that protects employees and workers against unpaid wages and fringe benefits.', Focused
+                                StaticText, 0x105f8b8d0, {{56.0, 8325.0}, {300.0, 99.0}}, label: 'A limited liability company (LLC) must also file a $100,000 surety bond that protects employees and workers against unpaid wages and fringe benefits.', value: A limited liabilit..., Focused
+                              Other, 0x105f8b9f0, {{38.0, 8436.0}, {326.0, 131.0}}, label: 'An LLC must carry liability insurance of at least $1 million with five or fewer personnel of record, rising $100,000 for each additional person to a $5 million maximum.', Focused
+                                StaticText, 0x105f8bb10, {{56.0, 8439.0}, {270.0, 125.0}}, label: 'An LLC must carry liability insurance of at least $1 million with five or fewer personnel of record, rising $100,000 for each additional person to a $5 million maximum.', value: An LLC must carry ..., Focused
+                              Other, 0x105f8bc30, {{38.0, 8576.0}, {326.0, 79.0}}, label: 'No contractor's bond or bond of qualifying individual is needed while a license is inactive.', Focused
+                                StaticText, 0x105f8bd50, {{56.0, 8579.0}, {240.0, 73.0}}, label: 'No contractor's bond or bond of qualifying individual is needed while a license is inactive.', value: No contractor's bo..., Focused
+                            Other, 0x105f8be70, {{38.0, 8668.0}, {326.0, 191.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f8bf90, {{76.0, 8681.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f8c0b0, {{52.0, 8702.0}, {298.0, 145.0}}, Focused
+                                StaticText, 0x105f8c1d0, {{52.0, 8704.0}, {294.0, 140.0}}, label: 'The $100,000 LLC bond and the $1,000,000 LLC insurance minimum are separate requirements, so do not swap them. An RMO who owns 5 percent of the voting stock still needs the bond of qualifying individual.', value: The $100,000 LLC b..., Focused
+                            Switch, 0x105f8c2f0, {{30.0, 8868.0}, {151.0, 45.0}}, label: 'Mark as read : Bonds and LLC requirements', value: 0, Focused
+                          Other, 0x105f8c410, {{20.0, 8938.0}, {362.0, 1216.0}}, label: 'Business entities and license changes, region', Focused
+                            Other, 0x106246090, {{38.0, 8978.0}, {326.0, 52.0}}, label: 'Business entities and license changes', value: 2, Focused
+                              StaticText, 0x106254920, {{38.0, 8978.0}, {200.0, 52.0}}, label: 'Business entities and license changes', value: Business entities ..., Focused
+                            Other, 0x10626c5b0, {{38.0, 9041.0}, {326.0, 867.0}}, Focused
+                              Other, 0x10625be50, {{38.0, 9041.0}, {326.0, 131.0}}, label: 'A license belongs to the business entity that holds it, such as a sole owner, partnership, corporation or LLC, and it does not convert or transfer to a different entity.', Focused
+                                StaticText, 0x10624a820, {{56.0, 9044.0}, {248.0, 125.0}}, label: 'A license belongs to the business entity that holds it, such as a sole owner, partnership, corporation or LLC, and it does not convert or transfer to a different entity.', value: A license belongs ..., Focused
+                              Other, 0x106267de0, {{38.0, 9181.0}, {326.0, 131.0}}, label: 'When a sole owner incorporates, the corporation needs its own license, though the old number may be reissued to it if the owner holds more than 50 percent of the voting power.', Focused
+                                StaticText, 0x106248cb0, {{56.0, 9184.0}, {275.0, 125.0}}, label: 'When a sole owner incorporates, the corporation needs its own license, though the old number may be reissued to it if the owner holds more than 50 percent of the voting power.', value: When a sole owner ..., Focused
+                              Other, 0x1062313e0, {{38.0, 9321.0}, {326.0, 131.0}}, label: 'An individual license is canceled when the licensee dies, but an immediate family member may request a continuance in writing within 90 days to finish and take on work.', Focused
+                                StaticText, 0x10625eb30, {{56.0, 9324.0}, {289.0, 125.0}}, label: 'An individual license is canceled when the licensee dies, but an immediate family member may request a continuance in writing within 90 days to finish and take on work.', value: An individual lice..., Focused
+                              Other, 0x10623dfe0, {{38.0, 9461.0}, {326.0, 79.0}}, label: 'A partnership license is canceled when a general partner leaves, and CSLB must be told in writing within 90 days.', Focused
+                                StaticText, 0x1062343a0, {{56.0, 9464.0}, {289.0, 73.0}}, label: 'A partnership license is canceled when a general partner leaves, and CSLB must be told in writing within 90 days.', value: A partnership lice..., Focused
+                              Other, 0x10624f070, {{38.0, 9549.0}, {326.0, 131.0}}, label: 'After a general partner leaves, the remaining partner may ask for a continuance to finish projects already contracted for or in progress, but must obtain a new license for new work.', Focused
+                                StaticText, 0x106240920, {{56.0, 9552.0}, {288.0, 125.0}}, label: 'After a general partner leaves, the remaining partner may ask for a continuance to finish projects already contracted for or in progress, but must obtain a new license for new work.', value: After a general pa..., Focused
+                              Other, 0x106266940, {{38.0, 9689.0}, {326.0, 105.0}}, label: 'A joint venture license is issued to a combination of licensees that each hold an active license, in any classification held by at least one member.', Focused
+                                StaticText, 0x106233620, {{56.0, 9692.0}, {295.0, 99.0}}, label: 'A joint venture license is issued to a combination of licensees that each hold an active license, in any classification held by at least one member.', value: A joint venture li..., Focused
+                              Other, 0x10624ca80, {{38.0, 9803.0}, {326.0, 105.0}}, label: 'Licensees may bid jointly before obtaining a joint venture license, but they may not be awarded a contract jointly or act together as a contractor without one.', Focused
+                                StaticText, 0x106259c60, {{56.0, 9806.0}, {305.0, 99.0}}, label: 'Licensees may bid jointly before obtaining a joint venture license, but they may not be awarded a contract jointly or act together as a contractor without one.', value: Licensees may bid ..., Focused
+                            Other, 0x106267390, {{38.0, 9921.0}, {326.0, 167.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x10624c050, {{76.0, 9934.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x10625b0c0, {{52.0, 9955.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x10623cb10, {{52.0, 9957.0}, {270.0, 116.0}}, label: 'When a general partner leaves, the partnership license is canceled, not suspended, and it does not turn into a sole owner license for the partner who stays.', value: When a general par..., Focused
+                            Switch, 0x10625c1c0, {{30.0, 10097.0}, {151.0, 45.0}}, label: 'Mark as read : Business entities and license changes', value: 0, Focused
+                          Other, 0x1062496c0, {{20.0, 10167.0}, {362.0, 1148.0}}, label: 'Renewal, inactive status and records, region', Focused
+                            Other, 0x106262c10, {{38.0, 10207.0}, {326.0, 52.0}}, label: 'Renewal, inactive status and records', value: 2, Focused
+                              StaticText, 0x105f8c530, {{38.0, 10207.0}, {184.0, 52.0}}, label: 'Renewal, inactive status and records', value: Renewal, inactive ..., Focused
+                            Other, 0x105f8c650, {{38.0, 10270.0}, {326.0, 799.0}}, Focused
+                              Other, 0x105f8c770, {{38.0, 10270.0}, {326.0, 79.0}}, label: 'An active license is renewed every two years, and an inactive license is renewed every four years.', Focused
+                                StaticText, 0x105f8c890, {{56.0, 10273.0}, {255.0, 73.0}}, label: 'An active license is renewed every two years, and an inactive license is renewed every four years.', value: An active license ..., Focused
+                              Other, 0x105f8c9b0, {{38.0, 10358.0}, {326.0, 131.0}}, label: 'An expired license may be renewed within five years, but the renewal is effective only on the date an acceptable application is filed, so the gap is unlicensed time.', Focused
+                                StaticText, 0x105f8cad0, {{56.0, 10361.0}, {263.0, 125.0}}, label: 'An expired license may be renewed within five years, but the renewal is effective only on the date an acceptable application is filed, so the gap is unlicensed time.', value: An expired license..., Focused
+                              Other, 0x105f8cbf0, {{38.0, 10498.0}, {326.0, 79.0}}, label: 'If an expired license is not renewed within five years, the licensee must apply for a new license.', Focused
+                                StaticText, 0x105f8cd10, {{56.0, 10501.0}, {261.0, 73.0}}, label: 'If an expired license is not renewed within five years, the licensee must apply for a new license.', value: If an expired lice..., Focused
+                              Other, 0x106083b20, {{38.0, 10586.0}, {326.0, 53.0}}, label: 'The holder of an inactive license may not bid on or contract for construction work.', Focused
+                                StaticText, 0x106086f60, {{56.0, 10589.0}, {304.0, 47.0}}, label: 'The holder of an inactive license may not bid on or contract for construction work.', value: The holder of an i..., Focused
+                              Other, 0x10608f720, {{38.0, 10648.0}, {326.0, 131.0}}, label: 'An inactive license needs no bond, qualifier or workers' compensation, and it is reactivated without an exam by paying the active renewal fee and meeting the usual requirements.', Focused
+                                StaticText, 0x10608f300, {{56.0, 10651.0}, {271.0, 125.0}}, label: 'An inactive license needs no bond, qualifier or workers' compensation, and it is reactivated without an exam by paying the active renewal fee and meeting the usual requirements.', value: An inactive licens..., Focused
+                              Other, 0x105f8ce30, {{38.0, 10788.0}, {326.0, 79.0}}, label: 'A change of address, business name or personnel must be reported to CSLB in writing within 90 days.', Focused
+                                StaticText, 0x105f8cf50, {{56.0, 10791.0}, {273.0, 73.0}}, label: 'A change of address, business name or personnel must be reported to CSLB in writing within 90 days.', value: A change of addres..., Focused
+                              Other, 0x105f8d070, {{38.0, 10876.0}, {326.0, 105.0}}, label: 'A change reported late takes effect only on the date CSLB receives the notice, and missing the 90-day deadline is grounds for discipline.', Focused
+                                StaticText, 0x105f8d190, {{56.0, 10879.0}, {262.0, 99.0}}, label: 'A change reported late takes effect only on the date CSLB receives the notice, and missing the 90-day deadline is grounds for discipline.', value: A change reported ..., Focused
+                              Other, 0x105f8d2b0, {{38.0, 10990.0}, {326.0, 79.0}}, label: 'Contracts, receipts and other job records must be kept for five years after the project is completed.', Focused
+                                StaticText, 0x105f8d3d0, {{56.0, 10993.0}, {258.0, 73.0}}, label: 'Contracts, receipts and other job records must be kept for five years after the project is completed.', value: Contracts, receipt..., Focused
+                            Other, 0x105f8d4f0, {{38.0, 11082.0}, {326.0, 167.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105f8d610, {{76.0, 11095.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105f8d730, {{52.0, 11116.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x105f8d850, {{52.0, 11118.0}, {291.0, 116.0}}, label: 'Ninety days is the notice deadline that repeats in this topic: a qualifier's departure, a general partner's departure, an unsatisfied judgment, and a change of address, business name or personnel.', value: Ninety days is the..., Focused
+                            Switch, 0x105f8d970, {{30.0, 11258.0}, {151.0, 45.0}}, label: 'Mark as read : Renewal, inactive status and records', value: 0, Focused
+                          Other, 0x105f8da90, {{20.0, 11328.0}, {362.0, 1126.0}}, label: 'Advertising, business names and vehicles, region', Focused
+                            Other, 0x105f9a730, {{38.0, 11368.0}, {326.0, 52.0}}, label: 'Advertising, business names and vehicles', value: 2, Focused
+                              StaticText, 0x105f9a850, {{38.0, 11368.0}, {212.0, 52.0}}, label: 'Advertising, business names and vehicles', value: Advertising, busin..., Focused
+                            Other, 0x105f9a970, {{38.0, 11431.0}, {326.0, 753.0}}, Focused
+                              Other, 0x105f9aa90, {{38.0, 11431.0}, {326.0, 79.0}}, label: 'The license number must appear on every contract, subcontract, bid and advertisement.', Focused
+                                StaticText, 0x105f9abb0, {{56.0, 11434.0}, {244.0, 73.0}}, label: 'The license number must appear on every contract, subcontract, bid and advertisement.', value: The license number..., Focused
+                              Other, 0x105f9acd0, {{38.0, 11519.0}, {326.0, 131.0}}, label: 'Advertising for work in a classification the advertiser does not hold is a misdemeanor, except that a Class A or B licensee may advertise as a general contractor.', Focused
+                                StaticText, 0x105f9adf0, {{56.0, 11522.0}, {280.0, 125.0}}, label: 'Advertising for work in a classification the advertiser does not hold is a misdemeanor, except that a Class A or B licensee may advertise as a general contractor.', value: Advertising for wo..., Focused
+                              Other, 0x105f9af10, {{38.0, 11659.0}, {326.0, 105.0}}, label: 'Advertising may not refer to the license bond, because the word 'bonded' suggests protection that the required bond does not give.', Focused
+                                StaticText, 0x105f9b030, {{56.0, 11662.0}, {253.0, 99.0}}, label: 'Advertising may not refer to the license bond, because the word 'bonded' suggests protection that the required bond does not give.', value: Advertising may no..., Focused
+                              Other, 0x105f99730, {{38.0, 11773.0}, {326.0, 105.0}}, label: 'A contractor may advertise being insured as long as the advertisement names the type of insurance, such as commercial general liability.', Focused
+                                StaticText, 0x105f99850, {{56.0, 11776.0}, {273.0, 99.0}}, label: 'A contractor may advertise being insured as long as the advertisement names the type of insurance, such as commercial general liability.', value: A contractor may a..., Focused
+                              Other, 0x105f99970, {{38.0, 11887.0}, {326.0, 131.0}}, label: 'A business name may not suggest classifications the license lacks or be incompatible with the type of entity, and a licensee may use only one business name per license.', Focused
+                                StaticText, 0x105f99a90, {{56.0, 11890.0}, {257.0, 125.0}}, label: 'A business name may not suggest classifications the license lacks or be incompatible with the type of entity, and a licensee may use only one business name per license.', value: A business name ma..., Focused
+                              Other, 0x105f99bb0, {{38.0, 12027.0}, {326.0, 157.0}}, label: 'C-36 plumbing, C-45 sign and C-57 well-drilling contractors must show their name, business address and license number on both sides of each commercial vehicle, in letters at least 1 1/2 inches high.', Focused
+                                StaticText, 0x105f99cd0, {{56.0, 12030.0}, {261.0, 151.0}}, label: 'C-36 plumbing, C-45 sign and C-57 well-drilling contractors must show their name, business address and license number on both sides of each commercial vehicle, in letters at least 1 1/2 inches high.', value: C-36 plumbing, C-4..., Focused
+                            Other, 0x105f99df0, {{38.0, 12197.0}, {326.0, 191.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x105f99f10, {{76.0, 12210.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x105f9a030, {{52.0, 12231.0}, {298.0, 145.0}}, Focused
+                                StaticText, 0x105f9a150, {{52.0, 12233.0}, {293.0, 140.0}}, label: ''Bonded' is a violation even when the statement is true, because every licensee has to file the same license bond. A specialty contractor calling itself a 'general contractor' is a violation even with its license number in the ad.', value: 'Bonded' is a viol..., Focused
+                            Switch, 0x105f9a270, {{30.0, 12397.0}, {151.0, 45.0}}, label: 'Mark as read : Advertising, business names and vehicles', value: 0, Focused
+                          Other, 0x105f9a390, {{20.0, 12467.0}, {362.0, 1288.0}}, label: 'Home improvement salespersons, region', Focused
+                            Other, 0x105f92ec0, {{38.0, 12507.0}, {326.0, 52.0}}, label: 'Home improvement salespersons', value: 2, Focused
+                              StaticText, 0x105f92fe0, {{38.0, 12507.0}, {201.0, 52.0}}, label: 'Home improvement salespersons', value: Home improvement s..., Focused
+                            Other, 0x105f93100, {{38.0, 12570.0}, {326.0, 939.0}}, Focused
+                              Other, 0x105f93220, {{38.0, 12570.0}, {326.0, 131.0}}, label: 'A home improvement salesperson is a person who solicits, sells, negotiates or executes home improvement contracts on behalf of a licensed home improvement contractor.', Focused
+                                StaticText, 0x105f93340, {{56.0, 12573.0}, {282.0, 125.0}}, label: 'A home improvement salesperson is a person who solicits, sells, negotiates or executes home improvement contracts on behalf of a licensed home improvement contractor.', value: A home improvement..., Focused
+                              Other, 0x105f93460, {{38.0, 12710.0}, {326.0, 105.0}}, label: 'A home improvement salesperson must be registered with CSLB, and the registration requires no examination and no bond.', Focused
+                                StaticText, 0x105f93580, {{56.0, 12713.0}, {253.0, 99.0}}, label: 'A home improvement salesperson must be registered with CSLB, and the registration requires no examination and no bond.', value: A home improvement..., Focused
+                              Other, 0x105f936a0, {{38.0, 12824.0}, {326.0, 79.0}}, label: 'The contractor must notify CSLB in writing before a home improvement salesperson starts work for the company.', Focused
+                                StaticText, 0x105f937c0, {{56.0, 12827.0}, {306.0, 73.0}}, label: 'The contractor must notify CSLB in writing before a home improvement salesperson starts work for the company.', value: The contractor mus..., Focused
+                              Other, 0x105f938e0, {{38.0, 12912.0}, {326.0, 79.0}}, label: 'The contractor must also notify CSLB in writing within 90 days after a registered salesperson stops working for it.', Focused
+                                StaticText, 0x105f93a00, {{56.0, 12915.0}, {296.0, 73.0}}, label: 'The contractor must also notify CSLB in writing within 90 days after a registered salesperson stops working for it.', value: The contractor mus..., Focused
+                              Other, 0x105f93b20, {{38.0, 13000.0}, {326.0, 105.0}}, label: 'Before soliciting or negotiating, a salesperson must tell the owner the business name and license number of the contractor being represented.', Focused
+                                StaticText, 0x105f911e0, {{56.0, 13003.0}, {270.0, 99.0}}, label: 'Before soliciting or negotiating, a salesperson must tell the owner the business name and license number of the contractor being represented.', value: Before soliciting ..., Focused
+                              Other, 0x105f91300, {{38.0, 13114.0}, {326.0, 131.0}}, label: 'Officers of record, general partners and the qualifier listed on the license need not register, nor do people who only schedule appointments for a registered salesperson.', Focused
+                                StaticText, 0x105f91420, {{56.0, 13117.0}, {272.0, 125.0}}, label: 'Officers of record, general partners and the qualifier listed on the license need not register, nor do people who only schedule appointments for a registered salesperson.', value: Officers of record..., Focused
+                              Other, 0x105f91540, {{38.0, 13254.0}, {326.0, 79.0}}, label: 'A salesperson registration is renewed every two years and may be renewed within three years after it expires.', Focused
+                                StaticText, 0x105f91660, {{56.0, 13257.0}, {278.0, 73.0}}, label: 'A salesperson registration is renewed every two years and may be renewed within three years after it expires.', value: A salesperson regi..., Focused
+                              Other, 0x105f91780, {{38.0, 13342.0}, {326.0, 79.0}}, label: 'A bona fide service repairperson doing only the repair the buyer requested need not register.', Focused
+                                StaticText, 0x105f918a0, {{56.0, 13345.0}, {241.0, 73.0}}, label: 'A bona fide service repairperson doing only the repair the buyer requested need not register.', value: A bona fide servic..., Focused
+                              Other, 0x105f919c0, {{38.0, 13430.0}, {326.0, 79.0}}, label: 'A salesperson may accept compensation only from the contractor represented, not from suppliers or others.', Focused
+                                StaticText, 0x105f91ae0, {{56.0, 13433.0}, {305.0, 73.0}}, label: 'A salesperson may accept compensation only from the contractor represented, not from suppliers or others.', value: A salesperson may ..., Focused
+                            Other, 0x105f91c00, {{38.0, 13522.0}, {326.0, 167.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x105f91d20, {{76.0, 13535.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x105f91e40, {{52.0, 13556.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x105f70bb0, {{52.0, 13558.0}, {280.0, 116.0}}, label: 'Ask whether the seller is personnel of record. A commissioned sales representative who is not on the license record must register; an officer or the qualifier need not.', value: Ask whether the se..., Focused
+                            Switch, 0x1060a6e90, {{30.0, 13698.0}, {151.0, 45.0}}, label: 'Mark as read : Home improvement salespersons', value: 0, Focused
+                          Other, 0x1060b4650, {{20.0, 13768.0}, {362.0, 946.0}}, label: 'Complaints, discipline and disclosure, region', Focused
+                            Other, 0x1060b56d0, {{38.0, 13808.0}, {326.0, 52.0}}, label: 'Complaints, discipline and disclosure', value: 2, Focused
+                              StaticText, 0x106091560, {{38.0, 13808.0}, {223.0, 52.0}}, label: 'Complaints, discipline and disclosure', value: Complaints, discip..., Focused
+                            Other, 0x106080340, {{38.0, 13871.0}, {326.0, 597.0}}, Focused
+                              Other, 0x1060b4a70, {{38.0, 13871.0}, {326.0, 79.0}}, label: 'A complaint against a licensee must be filed within four years of the act, or within 10 years for hidden structural defects.', Focused
+                                StaticText, 0x1060a6230, {{56.0, 13874.0}, {307.0, 73.0}}, label: 'A complaint against a licensee must be filed within four years of the act, or within 10 years for hidden structural defects.', value: A complaint agains..., Focused
+                              Other, 0x1060a2db0, {{38.0, 13959.0}, {326.0, 79.0}}, label: 'CSLB discloses a citation to the public from the date it is issued until five years after the date of compliance.', Focused
+                                StaticText, 0x1060a8dd0, {{56.0, 13962.0}, {284.0, 73.0}}, label: 'CSLB discloses a citation to the public from the date it is issued until five years after the date of compliance.', value: CSLB discloses a c..., Focused
+                              Other, 0x1060a8ef0, {{38.0, 14047.0}, {326.0, 79.0}}, label: 'An accusation that ends in a suspension or a stayed revocation is disclosed for seven years.', Focused
+                                StaticText, 0x1060a9010, {{56.0, 14050.0}, {299.0, 73.0}}, label: 'An accusation that ends in a suspension or a stayed revocation is disclosed for seven years.', value: An accusation that..., Focused
+                              Other, 0x1060a9130, {{38.0, 14135.0}, {326.0, 79.0}}, label: 'A revocation that is not stayed is disclosed on the public license record indefinitely.', Focused
+                                StaticText, 0x1060a9250, {{56.0, 14138.0}, {241.0, 73.0}}, label: 'A revocation that is not stayed is disclosed on the public license record indefinitely.', value: A revocation that ..., Focused
+                              Other, 0x1060a9370, {{38.0, 14223.0}, {326.0, 105.0}}, label: 'CSLB arbitration is binding: mandatory for disputes of $25,000 or less, and voluntary, with both sides agreeing, from $25,000 to $50,000.', Focused
+                                StaticText, 0x1060a9490, {{56.0, 14226.0}, {287.0, 99.0}}, label: 'CSLB arbitration is binding: mandatory for disputes of $25,000 or less, and voluntary, with both sides agreeing, from $25,000 to $50,000.', value: CSLB arbitration i..., Focused
+                              Other, 0x1060a95b0, {{38.0, 14337.0}, {326.0, 131.0}}, label: 'A person who took part in the acts behind a revocation may not serve as an officer, qualifier or other personnel of record of a licensee, only as a nonsupervising employee.', Focused
+                                StaticText, 0x1060a96d0, {{56.0, 14340.0}, {264.0, 125.0}}, label: 'A person who took part in the acts behind a revocation may not serve as an officer, qualifier or other personnel of record of a licensee, only as a nonsupervising employee.', value: A person who took ..., Focused
+                            Other, 0x1060a97f0, {{38.0, 14481.0}, {326.0, 167.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x1060a9910, {{76.0, 14494.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x1060a9a30, {{52.0, 14515.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x1060a9b50, {{52.0, 14517.0}, {263.0, 116.0}}, label: 'Match the discipline to the disclosure period: citation, five years after compliance; suspension or stayed revocation, seven years; unstayed revocation, indefinitely.', value: Match the discipli..., Focused
+                            Switch, 0x1060a9c70, {{30.0, 14657.0}, {151.0, 45.0}}, label: 'Mark as read : Complaints, discipline and disclosure', value: 0, Focused
+                          Other, 0x1060a9d90, {{20.0, 14735.0}, {362.0, 1780.0}}, label: 'Must know, region', Focused
+                            Other, 0x1060a9eb0, {{38.0, 14753.0}, {326.0, 30.0}}, label: 'Must know', value: 2, Focused
+                              StaticText, 0x1060a9fd0, {{66.0, 14755.0}, {107.0, 26.0}}, label: 'Must know', value: Must know, Focused
+                            Other, 0x1060aa0f0, {{38.0, 14794.0}, {326.0, 1703.0}}, Focused
+                              Other, 0x1060aa210, {{38.0, 14794.0}, {326.0, 73.0}}, label: 'Minor-work exemption: total price under $1,000, no building permit, no employees or helpers, no splitting the job.', Focused
+                                StaticText, 0x1060aa330, {{60.0, 14796.0}, {298.0, 69.0}}, label: 'Minor-work exemption: total price under $1,000, no building permit, no employees or helpers, no splitting the job.', value: Minor-work exempti..., Focused
+                              Other, 0x1060aa450, {{38.0, 14876.0}, {326.0, 73.0}}, label: 'Unlicensed contractors cannot sue for payment; the customer can sue to recover everything paid.', Focused
+                                StaticText, 0x1060aa570, {{60.0, 14878.0}, {277.0, 69.0}}, label: 'Unlicensed contractors cannot sue for payment; the customer can sue to recover everything paid.', value: Unlicensed contrac..., Focused
+                              Other, 0x1060aa690, {{38.0, 14958.0}, {326.0, 73.0}}, label: 'Class B: at least two unrelated trades besides framing or carpentry; framing or carpentry alone is allowed.', Focused
+                                StaticText, 0x1060aa7b0, {{60.0, 14960.0}, {293.0, 69.0}}, label: 'Class B: at least two unrelated trades besides framing or carpentry; framing or carpentry alone is allowed.', value: Class B: at least ..., Focused
+                              Other, 0x1060aa8d0, {{38.0, 15040.0}, {326.0, 73.0}}, label: 'Class B-2: existing wood-frame homes, at least three unrelated trades, no structural changes.', Focused
+                                StaticText, 0x1060aa9f0, {{60.0, 15042.0}, {304.0, 69.0}}, label: 'Class B-2: existing wood-frame homes, at least three unrelated trades, no structural changes.', value: Class B-2: existin..., Focused
+                              Other, 0x1060aab10, {{38.0, 15122.0}, {326.0, 49.0}}, label: 'Qualifier experience: four years at journey level or higher within the last 10 years.', Focused
+                                StaticText, 0x1060aac30, {{60.0, 15124.0}, {302.0, 45.0}}, label: 'Qualifier experience: four years at journey level or higher within the last 10 years.', value: Qualifier experien..., Focused
+                              Other, 0x1060aad50, {{38.0, 15180.0}, {326.0, 73.0}}, label: 'RME hours: the lesser of 32 hours a week or 80% of the hours the business operates.', Focused
+                                StaticText, 0x1060aae70, {{60.0, 15182.0}, {300.0, 69.0}}, label: 'RME hours: the lesser of 32 hours a week or 80% of the hours the business operates.', value: RME hours: the les..., Focused
+                              Other, 0x1060aaf90, {{38.0, 15262.0}, {326.0, 97.0}}, label: 'Replace a departed qualifier within 90 days; report address, name and personnel changes in writing within 90 days.', Focused
+                                StaticText, 0x1060ab0b0, {{60.0, 15264.0}, {279.0, 93.0}}, label: 'Replace a departed qualifier within 90 days; report address, name and personnel changes in writing within 90 days.', value: Replace a departed..., Focused
+                              Other, 0x1060ab1d0, {{38.0, 15368.0}, {326.0, 97.0}}, label: 'Contractor's bond: $25,000. Bond of qualifying individual: $25,000 for an RME, or an RMO owning less than 10% of the voting stock.', Focused
+                                StaticText, 0x1060ab2f0, {{60.0, 15370.0}, {301.0, 93.0}}, label: 'Contractor's bond: $25,000. Bond of qualifying individual: $25,000 for an RME, or an RMO owning less than 10% of the voting stock.', value: Contractor's bond:..., Focused
+                              Other, 0x1060ab410, {{38.0, 15474.0}, {326.0, 73.0}}, label: 'LLC extras: a $100,000 bond for employees and workers, and liability insurance from $1 million up to $5 million.', Focused
+                                StaticText, 0x1060ab530, {{60.0, 15476.0}, {301.0, 69.0}}, label: 'LLC extras: a $100,000 bond for employees and workers, and liability insurance from $1 million up to $5 million.', value: LLC extras: a $100..., Focused
+                              Other, 0x1060ab650, {{38.0, 15556.0}, {326.0, 49.0}}, label: 'Renewal: active licenses every two years, inactive licenses every four years.', Focused
+                                StaticText, 0x1060ab770, {{60.0, 15558.0}, {298.0, 45.0}}, label: 'Renewal: active licenses every two years, inactive licenses every four years.', value: Renewal: active li..., Focused
+                              Other, 0x1060ab890, {{38.0, 15614.0}, {326.0, 97.0}}, label: 'Keep job records five years after completion; put the license number on every contract, subcontract, bid and advertisement.', Focused
+                                StaticText, 0x1060ab9b0, {{60.0, 15616.0}, {279.0, 93.0}}, label: 'Keep job records five years after completion; put the license number on every contract, subcontract, bid and advertisement.', value: Keep job records f..., Focused
+                              Other, 0x1060abad0, {{38.0, 15720.0}, {326.0, 73.0}}, label: 'Public disclosure: citation five years after compliance; suspension or stayed revocation seven years.', Focused
+                                StaticText, 0x1060abbf0, {{60.0, 15722.0}, {297.0, 69.0}}, label: 'Public disclosure: citation five years after compliance; suspension or stayed revocation seven years.', value: Public disclosure:..., Focused
+                              Other, 0x1060abd10, {{38.0, 15802.0}, {326.0, 73.0}}, label: 'Unlicensed advertising: only for jobs under $1,000, and the ad must say the person is not licensed.', Focused
+                                StaticText, 0x1060abe30, {{60.0, 15804.0}, {278.0, 69.0}}, label: 'Unlicensed advertising: only for jobs under $1,000, and the ad must say the person is not licensed.', value: Unlicensed adverti..., Focused
+                              Other, 0x1060abf50, {{38.0, 15884.0}, {326.0, 97.0}}, label: 'Owner-builder sale within one year of completion: rebuttable presumption of building for sale; five or more structures: conclusive.', Focused
+                                StaticText, 0x1060ac070, {{60.0, 15886.0}, {293.0, 93.0}}, label: 'Owner-builder sale within one year of completion: rebuttable presumption of building for sale; five or more structures: conclusive.', value: Owner-builder sale..., Focused
+                              Other, 0x1060ac190, {{38.0, 15990.0}, {326.0, 73.0}}, label: 'First unlicensed-contracting conviction: up to $5,000, up to six months in jail, or both.', Focused
+                                StaticText, 0x1060ac2b0, {{60.0, 15992.0}, {288.0, 69.0}}, label: 'First unlicensed-contracting conviction: up to $5,000, up to six months in jail, or both.', value: First unlicensed-c..., Focused
+                              Other, 0x1060ac3d0, {{38.0, 16072.0}, {326.0, 73.0}}, label: 'One qualifier for several firms: 20% common ownership (or another listed tie), and no more than three firms a year.', Focused
+                                StaticText, 0x1060ac4f0, {{60.0, 16074.0}, {303.0, 69.0}}, label: 'One qualifier for several firms: 20% common ownership (or another listed tie), and no more than three firms a year.', value: One qualifier for ..., Focused
+                              Other, 0x1060ac610, {{38.0, 16154.0}, {326.0, 73.0}}, label: 'A qualifier can be disciplined for the licensee's violations whether or not the qualifier knew of them.', Focused
+                                StaticText, 0x1060ac730, {{60.0, 16156.0}, {284.0, 69.0}}, label: 'A qualifier can be disciplined for the licensee's violations whether or not the qualifier knew of them.', value: A qualifier can be..., Focused
+                              Other, 0x1060ac850, {{38.0, 16236.0}, {326.0, 97.0}}, label: 'License bond: no more than $7,500 in total for claims other than homeowners' home improvement claims; the rest is reserved for those homeowners.', Focused
+                                StaticText, 0x1060ac970, {{60.0, 16238.0}, {288.0, 93.0}}, label: 'License bond: no more than $7,500 in total for claims other than homeowners' home improvement claims; the rest is reserved for those homeowners.', value: License bond: no m..., Focused
+                              Other, 0x1060aca90, {{38.0, 16342.0}, {326.0, 73.0}}, label: 'Licenses never transfer; a late renewal is effective only when filed; renew within five years of expiration.', Focused
+                                StaticText, 0x1060acbb0, {{60.0, 16344.0}, {294.0, 69.0}}, label: 'Licenses never transfer; a late renewal is effective only when filed; renew within five years of expiration.', value: Licenses never tra..., Focused
+                              Other, 0x1060accd0, {{38.0, 16424.0}, {326.0, 73.0}}, label: 'C-36, C-45 and C-57 contractors put name, address and license number on both sides of their vehicles.', Focused
+                                StaticText, 0x1060acdf0, {{60.0, 16426.0}, {276.0, 69.0}}, label: 'C-36, C-45 and C-57 contractors put name, address and license number on both sides of their vehicles.', value: C-36, C-45 and C-5..., Focused
+                          Button, 0x1060acf10, {{20.0, 16538.0}, {362.0, 53.0}}, label: 'Quiz me on this topic', Focused
+                        Other, 0x1060ad030, {{0.0, 775.0}, {599.0, 100.0}}, label: 'Main, navigation'
+                          Link, 0x1060ad150, {{26.0, 814.0}, {35.0, 16.0}}, label: 'Home'
+                            StaticText, 0x1060ad270, {{26.0, 814.0}, {35.0, 16.0}}, label: 'Home', value: Home
+                          Link, 0x1060ad390, {{105.0, 814.0}, {34.0, 16.0}}, label: 'Learn'
+                            StaticText, 0x1060ad4b0, {{105.0, 814.0}, {34.0, 16.0}}, label: 'Learn', value: Learn
+                          Link, 0x1060ad5d0, {{177.0, 814.0}, {48.0, 16.0}}, label: 'Practice'
+                            StaticText, 0x1060ad6f0, {{177.0, 814.0}, {48.0, 16.0}}, label: 'Practice', value: Practice
+                          Link, 0x1060ad810, {{264.0, 814.0}, {32.0, 16.0}}, label: 'Tests'
+                            StaticText, 0x1060ad930, {{264.0, 814.0}, {32.0, 16.0}}, label: 'Tests', value: Tests
+                          Link, 0x1060ada50, {{333.0, 814.0}, {51.0, 16.0}}, label: 'Progress'
+                            StaticText, 0x1060adb70, {{333.0, 814.0}, {51.0, 16.0}}, label: 'Progress', value: Progress
+                        Other, 0x1060adc90, {{0.0, -1047.0}, {402.0, 11.0}}, label: 'application status'
+              Other, 0x1060addb0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 21 pages', value: 6%
+                Other, 0x1060aded0, {{396.0, 108.7}, {3.0, 36.7}}
+              Other, 0x1060adff0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1060ae110, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1060ae230, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 21 pages', value: 6%
+                Other, 0x1060ae350, {{396.0, 108.7}, {3.0, 36.7}}
+              Other, 0x1060ae470, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1060ae590, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x1060ae6b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1060ae7d0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1060ae8f0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1060b6bf0, pid: 23510, label: 'Contractor'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+  Output: {
+    Application, 0x105f87af0, pid: 23510, label: 'Contractor'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x105f58390, pid: 7997, label: ' '
+Element subtree:
+ →Application, 0x105f58390, pid: 7997, label: ' '
+    Window, 0x105f587b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fdb0d0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fdae30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fdaf50, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fdb670, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fdb1f0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x105fdb310, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x105fdb430, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fdb550, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fdb790, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fdb8b0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fdb9d0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105fdbaf0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105fdbc10, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x105fdbd30, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105fdbe50, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x105fdbf70, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fdc090, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105fdc1b0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x105fdc2d0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105fdc3f0, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x105fdc510, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fdc630, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105fdc750, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x105fdc870, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x105fdc990, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x105fdcab0, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x105fdcbd0, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x105fdccf0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fdce10, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fdcf30, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fdd050, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fdd170, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd290, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd3b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd4d0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd5f0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd710, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd830, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdd950, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdda70, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fddb90, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fddcb0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fdddd0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fddef0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fde010, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fde130, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fde250, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fde370, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fde490, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fde5b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fde6d0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fde7f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fde910, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x105fdea30, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x105fdeb50, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fdec70, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105fded90, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105fdeeb0, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x105fdefd0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105fdf0f0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x105fdf210, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105fdf330, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105fdf450, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105fdf570, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.cacontractorlawbusinessexamprep:sceneID:com.keatingkonsultancy.cacontractorlawbusinessexamprep-default', label: 'Contractor'
+                  Other, 0x105fdf690, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105fdf7b0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105fdf8d0, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x105fdf9f0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x105fdfb10, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x105fdfc30, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x105fdfd50, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x105fdfe70, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x105fdff90, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x105fe00b0, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x105fe01d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x105fe02f0, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x105fe0410, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x105fe0530, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x105fe0650, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x105fe0770, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x105fe0890, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x105fe09b0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x105fe0ad0, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x105fe0bf0, {{55.7, 22.3}, {36.7, 20.3}}, label: '11:39 AM'
+                                                      Other, 0x105fe0d10, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x105fe0e30, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x105fe0f50, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x105fe1070, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x105fe1190, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x105fe12b0, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x105fe13d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x105fe14f0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x105fe1610, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105fe1730, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105fe1850, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105fe1970, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105fe1a90, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fe1bb0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x105fe1cd0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x105fe1df0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x105fe1f10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fe2030, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fe2150, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fe2270, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fe2390, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fe24b0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fe25d0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fe26f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fe2810, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fe2930, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x105fe2a50, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x105fe2b70, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x105fe2c90, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x105fe2db0, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x105fe2ed0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fe2ff0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fe3110, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fe3230, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105fe3350, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fe3470, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105f58390, pid: 7997, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x1060a55f0, pid: 7997, label: ' '
+  }

@@ -1,0 +1,191 @@
+Attributes: Application, 0x101c402e0, pid: 37224, label: 'Contractor'
+Element subtree:
+ →Application, 0x101c402e0, pid: 37224, label: 'Contractor'
+    Window (Main), 0x101c1e530, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101cef870, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101ce06e0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101ce1270, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101ce0dc0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101ce4220, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101c442a0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101ceeaf0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101ce3790, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101c3fcc0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'Contractor License Exam Coach'
+                        Other, 0x101c503e0, {{0.0, 0.0}, {402.0, 762.0}}, label: 'main', Focused
+                          Other, 0x101ce1a30, {{10.0, 72.0}, {382.0, 44.0}}, label: 'section header', Focused
+                            Button, 0x101c51760, {{10.0, 72.0}, {44.0, 44.0}}, label: 'Close. Your progress is saved', Focused
+                            StaticText, 0x101cf2df0, {{60.0, 78.0}, {58.0, 18.0}}, label: 'Quick 10', value: Quick 10, Focused
+                            StaticText, 0x101c51340, {{117.0, 78.0}, {12.0, 18.0}}, label: '·', value:  · , Focused
+                            StaticText, 0x101cf5910, {{128.0, 78.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                            StaticText, 0x101c50f20, {{136.0, 78.0}, {21.0, 18.0}}, label: 'of', value:  of , Focused
+                            StaticText, 0x101ce60b0, {{156.0, 78.0}, {18.0, 18.0}}, label: '10', value: 10, Focused
+                            Other, 0x101cde6d0, {{60.0, 103.0}, {282.0, 7.0}}, label: 'Session progress', value: 0.00, Focused
+                            Switch, 0x101c42010, {{348.0, 72.0}, {44.0, 44.0}}, label: 'Bookmark this question', value: 0, Focused
+                          Other, 0x101c3eb30, {{20.0, 134.0}, {362.0, 422.0}}, label: 'Which federal payroll tax is paid entirely by the employer, with nothing withheld from the employee's wages?, article', Focused
+                            Other, 0x101cf54f0, {{20.0, 134.0}, {362.0, 17.0}}, Focused
+                              StaticText, 0x101c54ec0, {{20.0, 135.0}, {145.0, 15.0}}, label: 'BUSINESS FINANCES', value: BUSINESS FINANCES, Focused
+                              StaticText, 0x101ce3370, {{164.0, 135.0}, {14.0, 15.0}}, label: '·', value:  · , Focused
+                              StaticText, 0x101c4ffc0, {{177.0, 135.0}, {147.0, 15.0}}, label: 'PAYROLL AND TAXES', value: PAYROLL AND TAXES, Focused
+                            Other, 0x101cecfb0, {{20.0, 161.0}, {362.0, 84.0}}, label: 'Which federal payroll tax is paid entirely by the employer, with nothing withheld from the employee's wages?', value: 1, Focused
+                              StaticText, 0x101c3ef50, {{20.0, 163.0}, {323.0, 79.0}}, label: 'Which federal payroll tax is paid entirely by the employer, with nothing withheld from the employee's wages?', value: Which federal payr..., Focused
+                            Other, 0x101cef320, {{20.0, 267.0}, {362.0, 289.0}}, label: 'Answer choices', Focused
+                              Switch, 0x101c3f370, {{20.0, 267.0}, {362.0, 65.0}}, label: 'Social Security (FICA) tax', value: 0, Focused
+                              Switch, 0x101ce64d0, {{20.0, 341.0}, {362.0, 66.0}}, label: 'Medicare (FICA) tax', value: 0, Focused
+                              Switch, 0x101cf4db0, {{20.0, 416.0}, {362.0, 65.0}}, label: 'Federal income tax withholding', value: 0, Focused
+                              Switch, 0x101cf4ed0, {{20.0, 490.0}, {362.0, 66.0}}, label: 'Federal unemployment (FUTA) tax', value: 0, Focused
+                          Other, 0x101cf4ff0, {{19.0, 554.0}, {1.0, 2.0}}, label: 'application status', Focused
+                            StaticText, 0x101cf5110, {{19.0, 555.0}, {92.0, 21.0}}, label: '10 questions', value: 10 questions, Focused
+                            StaticText, 0x101c51b80, {{110.0, 555.0}, {29.0, 21.0}}, label: 'left', value:  left, Focused
+                        Other, 0x101c51ca0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101c51dc0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101c51ee0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101c52000, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101c52120, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101c52240, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101c52360, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101c52480, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101c525a0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101c526c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c527e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c52900, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101c402e0, pid: 37224, label: 'Contractor'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+  Output: {
+    Application, 0x101c54500, pid: 37224, label: 'Contractor'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x101a1ebd0, pid: 27168, label: ' '
+Element subtree:
+ →Application, 0x101a1ebd0, pid: 27168, label: ' '
+    Window, 0x101a65c80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c5cae0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c5ed00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c5ee20, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c5ef40, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c5e880, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101c5e9a0, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x101c5eac0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c5ebe0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c5f060, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c5f180, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c5f2a0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c5f3c0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c5f4e0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101c5f600, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c5f720, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x101c5f840, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c5f960, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c5fa80, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101c5fba0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c5fcc0, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x101c5fde0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c5ff00, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c60020, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x101c60140, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101c60260, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x101c60380, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x101c604a0, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x101c605c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c606e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c60800, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c60920, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c60a40, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c60b60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c60c80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c60da0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c60ec0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c60fe0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61100, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61220, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61340, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61460, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c61580, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c616a0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c617c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c618e0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61a00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c61b20, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c61c40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c61d60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61e80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c61fa0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c620c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c621e0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x101c62300, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x101c62420, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c62540, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c62660, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c62780, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x101c628a0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c629c0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x101c62ae0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101c62c00, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c62d20, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101c62e40, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.cacontractorlawbusinessexamprep:sceneID:com.keatingkonsultancy.cacontractorlawbusinessexamprep-default', label: 'Contractor'
+                  Other, 0x101c62f60, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c63080, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101c631a0, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x101c632c0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x101c633e0, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x101c63500, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x101c63620, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x101c63740, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101c63860, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x101c63980, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x101c63aa0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x101c63bc0, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x101c63ce0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101c63e00, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101c63f20, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x101c64040, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x101c64160, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x101c64280, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x101c643a0, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x101c644c0, {{55.7, 22.3}, {36.7, 20.3}}, label: '10:57 AM'
+                                                      Other, 0x101c645e0, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x101c64700, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x101c64820, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x101c64940, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x101c64a60, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101c64b80, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101c64ca0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101c64dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101c64ee0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101c65000, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101c65120, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c65240, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101c65360, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c65480, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101c655a0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101c656c0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101c657e0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c65900, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c65a20, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c65b40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c65c60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c65d80, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c65ea0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c65fc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c660e0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c66200, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101c66320, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101c66440, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101c66560, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x101c66680, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x101c667a0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c668c0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c669e0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c66b00, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c66c20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c66d40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101a1ebd0, pid: 27168, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x101d8a7e0, pid: 27168, label: ' '
+  }

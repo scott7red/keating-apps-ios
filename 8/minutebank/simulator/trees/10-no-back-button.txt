@@ -1,0 +1,292 @@
+Attributes: Application, 0x101744aa0, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x101744aa0, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x101759300, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1017a39b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101764590, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10173fb90, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101797ab0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x1017f7b80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1017385c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101766ed0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101760e40, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101739710, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank'
+                        Other, 0x101763490, {{0.0, 0.0}, {402.0, 121.0}}, label: 'banner'
+                          Link, 0x101762a60, {{6.0, 69.0}, {44.0, 44.0}}, label: 'Back to Settings'
+                          Other, 0x101757400, {{56.0, 78.0}, {245.0, 25.0}}, label: 'Help', value: 1, Focused
+                            StaticText, 0x101743d20, {{56.0, 78.0}, {44.0, 25.0}}, label: 'Help', value: Help, Focused
+                          Link, 0x1017660d0, {{347.0, 81.0}, {36.0, 19.0}}, label: 'Lock'
+                            StaticText, 0x10175ae20, {{347.0, 81.0}, {36.0, 19.0}}, label: 'Lock', value: Lock
+                        Other, 0x1017914f0, {{0.0, 121.0}, {402.0, 654.0}}, label: 'main'
+                          Other, 0x101766470, {{16.0, -322.0}, {370.0, 2948.0}}, label: 'How MinuteBank works, article'
+                            Other, 0x101768000, {{18.0, -319.0}, {366.0, 22.0}}, label: 'How MinuteBank works', value: 2
+                              StaticText, 0x101791bf0, {{18.0, -319.0}, {41.0, 22.0}}, label: 'How ', value: How 
+                              StaticText, 0x10176a950, {{58.0, -319.0}, {100.0, 22.0}}, label: 'MinuteBank', value: MinuteBank
+                              StaticText, 0x10178eaa0, {{157.0, -319.0}, {55.0, 22.0}}, label: ' works', value:  works
+                            Other, 0x101742590, {{18.0, -289.0}, {366.0, 72.0}}
+                              StaticText, 0x101741730, {{18.0, -287.0}, {345.0, 67.0}}, label: 'Your child earns minutes by doing a math set, reading, or finishing a chore. The minutes go into their bank.', value: Your child earns m...
+                            Other, 0x10174a4d0, {{18.0, -209.0}, {366.0, 120.0}}
+                              StaticText, 0x10173df50, {{18.0, -207.0}, {363.0, 115.0}}, label: 'When they want screen time, they pick how long and a countdown runs on this device while they use the TV, console or tablet. A chime plays with 5 minutes left and again with 1 minute left, and an alarm rings when time is up.', value: When they want scr...
+                            Other, 0x10176ac90, {{18.0, -81.0}, {366.0, 72.0}}
+                              StaticText, 0x10174caf0, {{18.0, -79.0}, {349.0, 43.0}}, label: 'MinuteBank is a bank and a timer. It does not lock other apps or devices.', value: MinuteBank is a ba...
+                              StaticText, 0x101770180, {{18.0, -55.0}, {340.0, 43.0}}, label: 'Turning screens off when the alarm rings is up to your family.', value:  Turning screens o...
+                            Other, 0x1017405f0, {{18.0, 12.0}, {366.0, 22.0}}, label: 'What the numbers mean', value: 2
+                              StaticText, 0x10175a090, {{18.0, 12.0}, {202.0, 22.0}}, label: 'What the numbers mean', value: What the numbers m...
+                            Other, 0x1017935a0, {{18.0, 42.0}, {366.0, 518.0}}
+                              Other, 0x101770f40, {{18.0, 42.0}, {366.0, 24.0}}
+                                StaticText, 0x10176d1c0, {{18.0, 44.0}, {178.0, 19.0}}, label: 'The number on the coin', value: The number on the ...
+                              Other, 0x1017439c0, {{18.0, 68.0}, {366.0, 72.0}}
+                                StaticText, 0x10176c7c0, {{18.0, 70.0}, {366.0, 67.0}}, label: 'Minutes in the bank, ready to use. The ring of marks around the coin fills in as the bank gets closer to full.', value: Minutes in the ban...
+                              Other, 0x1017999b0, {{18.0, 150.0}, {366.0, 24.0}}
+                                StaticText, 0x10175b4e0, {{18.0, 152.0}, {100.0, 19.0}}, label: 'Earned today', value: Earned today
+                              Other, 0x101758890, {{18.0, 176.0}, {366.0, 48.0}}
+                                StaticText, 0x101762390, {{18.0, 178.0}, {324.0, 43.0}}, label: 'Minutes added to the bank today. Minutes still waiting for you are not counted yet.', value: Minutes added to t...
+                              Other, 0x101753ce0, {{18.0, 234.0}, {366.0, 24.0}}
+                                StaticText, 0x101798170, {{18.0, 236.0}, {86.0, 19.0}}, label: 'Used today', value: Used today
+                              Other, 0x10177cf30, {{18.0, 260.0}, {366.0, 48.0}}
+                                StaticText, 0x10177a1e0, {{18.0, 262.0}, {363.0, 43.0}}, label: 'Screen time started today, less any unused minutes that went back in the bank.', value: Screen time starte...
+                              Other, 0x101754ae0, {{18.0, 318.0}, {366.0, 24.0}}
+                                StaticText, 0x101787850, {{18.0, 320.0}, {149.0, 19.0}}, label: 'Waiting for a parent', value: Waiting for a parent
+                              Other, 0x10175ccf0, {{18.0, 344.0}, {366.0, 48.0}}
+                                StaticText, 0x10176e5e0, {{18.0, 346.0}, {323.0, 43.0}}, label: 'Reading and chores you have not approved or denied yet.', value: Reading and chores...
+                              Other, 0x10175f9b0, {{18.0, 402.0}, {366.0, 24.0}}
+                                StaticText, 0x10178de10, {{18.0, 404.0}, {99.0, 19.0}}, label: 'Days in a row', value: Days in a row
+                              Other, 0x101779ad0, {{18.0, 428.0}, {366.0, 48.0}}
+                                StaticText, 0x10179a070, {{18.0, 430.0}, {360.0, 43.0}}, label: 'Days in a row with at least one earning. Today does not break the run until the day is over.', value: Days in a row with...
+                              Other, 0x10179af40, {{18.0, 486.0}, {366.0, 24.0}}
+                                StaticText, 0x1017a8900, {{18.0, 488.0}, {114.0, 19.0}}, label: 'Plus and minus', value: Plus and minus
+                              Other, 0x10173d1d0, {{18.0, 512.0}, {366.0, 48.0}}
+                                StaticText, 0x101797060, {{18.0, 514.0}, {341.0, 43.0}}, label: 'A plus sign means minutes went into the bank. A minus sign means minutes came out.', value: A plus sign means ...
+                            Other, 0x10178a450, {{18.0, 581.0}, {366.0, 22.0}}, label: 'Earning minutes', value: 2
+                              StaticText, 0x1017458e0, {{18.0, 581.0}, {134.0, 22.0}}, label: 'Earning minutes', value: Earning minutes
+                            Other, 0x10172afb0, {{18.0, 611.0}, {366.0, 120.0}}
+                              StaticText, 0x101784b10, {{18.0, 613.0}, {44.0, 19.0}}, label: 'Math.', value: Math.
+                              StaticText, 0x10178aeb0, {{61.0, 613.0}, {61.0, 19.0}}, label: 'A set is', value:  A set is 
+                              StaticText, 0x101754e30, {{121.0, 613.0}, {17.0, 19.0}}, label: '10', value: 10
+                              StaticText, 0x101774990, {{18.0, 613.0}, {363.0, 91.0}}, label: 'questions at your child’s level. A score at or above the pass mark earns the reward, for a set number of sets each day. Extra sets are for practice. After', value:  questions at your...
+                              StaticText, 0x10173a890, {{122.0, 685.0}, {11.0, 19.0}}, label: '3', value: 3
+                              StaticText, 0x1017a3620, {{18.0, 685.0}, {332.0, 43.0}}, label: 'perfect sets at a level, the app suggests the next level and you decide.', value:  perfect sets at a...
+                            Other, 0x101778a20, {{18.0, 739.0}, {366.0, 96.0}}
+                              StaticText, 0x10172eab0, {{18.0, 741.0}, {67.0, 19.0}}, label: 'Reading.', value: Reading.
+                              StaticText, 0x10173e2c0, {{18.0, 741.0}, {355.0, 91.0}}, label: 'Your child starts the reading timer when they begin and finishes it when they stop. Reading shorter than the minimum earns nothing, and reading beyond the daily maximum is not counted.', value:  Your child starts...
+                            Other, 0x10176f390, {{18.0, 843.0}, {366.0, 48.0}}
+                              StaticText, 0x101793c90, {{18.0, 845.0}, {60.0, 19.0}}, label: 'Chores.', value: Chores.
+                              StaticText, 0x101763b70, {{18.0, 845.0}, {334.0, 43.0}}, label: 'Your child taps Done on a chore. Each chore can be done a set number of times a day.', value:  Your child taps D...
+                            Other, 0x1017946b0, {{18.0, 899.0}, {366.0, 48.0}}
+                              StaticText, 0x10179a400, {{18.0, 901.0}, {341.0, 43.0}}, label: 'Reading and chores wait for your approval under Approvals, unless you turn that off under Rules.', value: Reading and chores...
+                            Other, 0x10172f4f0, {{18.0, 968.0}, {366.0, 22.0}}, label: 'Limits and rules', value: 2
+                              StaticText, 0x101795b60, {{18.0, 968.0}, {131.0, 22.0}}, label: 'Limits and rules', value: Limits and rules
+                            Other, 0x1017675c0, {{18.0, 998.0}, {366.0, 96.0}}
+                              StaticText, 0x10176ba40, {{18.0, 1000.0}, {363.0, 91.0}}, label: 'Under Rules you set the most your child can earn in a day, the most screen time in a day, and the most the bank can hold. When a limit trims or stops an earning, your child is told why.', value: Under Rules you se...
+                            Other, 0x10176df30, {{18.0, 1102.0}, {366.0, 96.0}}
+                              StaticText, 0x10173d530, {{18.0, 1104.0}, {365.0, 91.0}}, label: 'Allowed hours keep screen time from starting outside the hours you choose, and a session cannot run past the end time. The weekend bonus multiplies what is earned on Saturday and Sunday.', value: Allowed hours keep...
+                            Other, 0x101bf3ff0, {{18.0, 1219.0}, {366.0, 22.0}}, label: 'The timer', value: 2
+                              StaticText, 0x101bf5950, {{18.0, 1219.0}, {80.0, 22.0}}, label: 'The timer', value: The timer
+                            Other, 0x101bf5a70, {{18.0, 1249.0}, {366.0, 240.0}}
+                              StaticText, 0x101bf5b90, {{18.0, 1251.0}, {364.0, 19.0}}, label: 'The countdown, the chimes and the alarm run while', value: The countdown, the...
+                              StaticText, 0x101bf5cb0, {{18.0, 1275.0}, {84.0, 19.0}}, label: 'MinuteBank', value: MinuteBank
+                              StaticText, 0x101bf5dd0, {{18.0, 1275.0}, {351.0, 67.0}}, label: 'is open and on screen. If notifications are allowed, the device also shows a notification with 5 minutes left and when time is up, even if', value:  is open and on sc...
+                              StaticText, 0x101bf5ef0, {{18.0, 1347.0}, {84.0, 19.0}}, label: 'MinuteBank', value: MinuteBank
+                              StaticText, 0x101bf6010, {{101.0, 1347.0}, {233.0, 19.0}}, label: 'is closed or the device is locked.', value:  is closed or the ...
+                              StaticText, 0x101bf6130, {{18.0, 1371.0}, {84.0, 19.0}}, label: 'MinuteBank', value: MinuteBank
+                              StaticText, 0x101bf6250, {{18.0, 1371.0}, {354.0, 115.0}}, label: 'asks the first time a timer starts; you can change the answer in the device’s Settings. Keep this device nearby during a session. The app asks the device to keep the screen awake while a countdown is running.', value:  asks the first ti...
+                            Other, 0x101bf66f0, {{18.0, 1497.0}, {366.0, 72.0}}
+                              StaticText, 0x101bf6810, {{18.0, 1499.0}, {348.0, 67.0}}, label: 'Sound follows the device. If it is on silent or the volume is down, the chimes and the alarm cannot be heard. The alarm still fills the screen.', value: Sound follows the ...
+                            Other, 0x101bf6930, {{18.0, 1577.0}, {366.0, 48.0}}
+                              StaticText, 0x101b7c2c0, {{18.0, 1579.0}, {339.0, 43.0}}, label: 'If the app was closed when the time ran out, the alarm shows as soon as it is opened again.', value: If the app was clo...
+                            Other, 0x101b7c3e0, {{18.0, 1633.0}, {366.0, 72.0}}
+                              StaticText, 0x101b7c500, {{18.0, 1635.0}, {357.0, 67.0}}, label: 'Ending a session early returns the unused whole minutes to the bank, unless you turn that off under Rules.', value: Ending a session e...
+                            Other, 0x101b7c620, {{18.0, 1726.0}, {366.0, 22.0}}, label: 'How your data is saved', value: 2
+                              StaticText, 0x101b7c740, {{18.0, 1726.0}, {190.0, 22.0}}, label: 'How your data is saved', value: How your data is s...
+                            Other, 0x101b7c860, {{18.0, 1756.0}, {366.0, 72.0}}
+                              StaticText, 0x101b7c980, {{18.0, 1758.0}, {364.0, 67.0}}, label: 'Everything is saved automatically on this device. There is no account and nothing is stored online, so nothing syncs between devices.', value: Everything is save...
+                            Other, 0x101b7caa0, {{18.0, 1836.0}, {366.0, 48.0}}
+                              StaticText, 0x101b7cbc0, {{18.0, 1838.0}, {351.0, 43.0}}, label: 'Deleting the app deletes its data. Export a backup first if you want to keep it.', value: Deleting the app d...
+                            Other, 0x101bf6d90, {{18.0, 1905.0}, {366.0, 22.0}}, label: 'Backing up and restoring', value: 2
+                              StaticText, 0x101bf6eb0, {{18.0, 1905.0}, {206.0, 22.0}}, label: 'Backing up and restoring', value: Backing up and res...
+                            Other, 0x101bf6fd0, {{18.0, 1935.0}, {366.0, 72.0}}
+                              StaticText, 0x101bf70f0, {{18.0, 1937.0}, {346.0, 67.0}}, label: 'In Settings, tap Export backup and save the file somewhere safe, such as your files or an email to yourself.', value: In Settings, tap E...
+                            Other, 0x101bf7210, {{18.0, 2015.0}, {366.0, 72.0}}
+                              StaticText, 0x101bf7330, {{18.0, 2017.0}, {365.0, 67.0}}, label: 'To restore, tap Import backup and choose the file. It replaces everything on this device, including the PIN.', value: To restore, tap Im...
+                            Other, 0x101bf7450, {{18.0, 2108.0}, {366.0, 22.0}}, label: 'Moving to a new phone', value: 2
+                              StaticText, 0x101bf7570, {{18.0, 2108.0}, {188.0, 22.0}}, label: 'Moving to a new phone', value: Moving to a new ph...
+                            Other, 0x101bf7690, {{18.0, 2138.0}, {366.0, 120.0}}
+                              StaticText, 0x101bf77b0, {{18.0, 2140.0}, {359.0, 43.0}}, label: 'Export a backup on the old phone and send the file to the new one. On the new phone, open', value: Export a backup on...
+                              StaticText, 0x101bf78d0, {{18.0, 2188.0}, {84.0, 19.0}}, label: 'MinuteBank', value: MinuteBank
+                              StaticText, 0x101bf79f0, {{18.0, 2188.0}, {358.0, 67.0}}, label: 'and tap Restore from a backup on the first screen. Your children, history, rules and PIN all come across.', value:  and tap Restore f...
+                            Other, 0x101bf7c60, {{18.0, 2279.0}, {366.0, 22.0}}, label: 'If you forget the PIN', value: 2
+                              StaticText, 0x101bf7d80, {{18.0, 2279.0}, {164.0, 22.0}}, label: 'If you forget the PIN', value: If you forget the ...
+                            Other, 0x101bf7ea0, {{18.0, 2309.0}, {366.0, 96.0}}
+                              StaticText, 0x101bf7fc0, {{18.0, 2311.0}, {364.0, 91.0}}, label: 'On the PIN screen, tap Forgot your PIN? to see your hint. There is no PIN reset. Without the PIN, the only way back in is to erase everything on this device and set up again.', value: On the PIN screen,...
+                            Other, 0x101bf80e0, {{18.0, 2426.0}, {366.0, 22.0}}, label: 'Example data', value: 2
+                              StaticText, 0x101bf8200, {{18.0, 2426.0}, {112.0, 22.0}}, label: 'Example data', value: Example data
+                            Other, 0x101bf8320, {{18.0, 2456.0}, {366.0, 96.0}}
+                              StaticText, 0x101bf8440, {{18.0, 2458.0}, {363.0, 91.0}}, label: 'At the bottom of Settings, Try the app with example data shows an example family so you can see every screen filled in. Your own data is set aside and comes back when you remove the example data.', value: At the bottom of S...
+                            Other, 0x101bf8560, {{18.0, 2574.0}, {366.0, 44.0}}
+                              StaticText, 0x101bf8680, {{18.0, 2586.0}, {149.0, 19.0}}, label: 'Still have a question?', value: Still have a quest...
+                              Link, 0x101bf87a0, {{170.0, 2574.0}, {144.0, 44.0}}, label: 'Contact support (opens outside the app)'
+                        Other, 0x101bf8ac0, {{0.0, 775.0}, {402.0, 99.0}}, label: 'Parent sections, navigation'
+                          Link, 0x101bf8be0, {{15.0, 816.0}, {60.0, 15.0}}, label: 'Approvals'
+                            StaticText, 0x101bf8d00, {{15.0, 816.0}, {60.0, 15.0}}, label: 'Approvals', value: Approvals
+                          Link, 0x101bf8e20, {{110.0, 816.0}, {26.0, 15.0}}, label: 'Kids'
+                            StaticText, 0x101bf8f40, {{110.0, 816.0}, {26.0, 15.0}}, label: 'Kids', value: Kids
+                          Link, 0x101bf9060, {{184.0, 816.0}, {34.0, 15.0}}, label: 'Rules'
+                            StaticText, 0x101bf9180, {{184.0, 816.0}, {34.0, 15.0}}, label: 'Rules', value: Rules
+                          Link, 0x101bf92a0, {{256.0, 816.0}, {46.0, 15.0}}, label: 'Activity'
+                            StaticText, 0x101bf93c0, {{256.0, 816.0}, {46.0, 15.0}}, label: 'Activity', value: Activity
+                          Link, 0x101bf94e0, {{331.0, 816.0}, {52.0, 15.0}}, label: 'Settings'
+                            StaticText, 0x101bf9600, {{331.0, 816.0}, {52.0, 15.0}}, label: 'Settings', value: Settings
+                        Other, 0x101bf9720, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+                        Other, 0x101bf9840, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101bf9960, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101bf9cb0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101bf9dd0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101bf9ef0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101bfa010, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101bfa130, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101bfa250, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101bfa370, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101bfa490, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101bfa5b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101bfa6d0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101744aa0, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x101764c70, pid: 21046, label: 'MinuteBank'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x101a63e80, pid: 10480, label: ' '
+Element subtree:
+ →Application, 0x101a63e80, pid: 10480, label: ' '
+    Window, 0x101aeb830, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101aac780, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101a44300, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101a8a8b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101af3f10, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101a815b0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101ad6180, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x101ac03c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ad2e00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101a8f940, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101afa030, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101accca0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101a3f3a0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101af72d0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101a43260, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101a869a0, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x101afa450, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101aa3c20, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101a63ab0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101aa4460, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101aa2780, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x101aedf50, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101af93d0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101a99480, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x101abd920, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101a94c30, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x101acdb80, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x101ae68a0, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x101aedb30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101af3050, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101ad04c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101aec690, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101ae6480, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101a6c3e0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101acd0c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101af7f30, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101ac07e0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101a973a0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101a43aa0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101af4b50, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101af6eb0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101af8770, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101a96610, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101af2c30, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101af4730, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101a9ad40, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101a937c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101abe160, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101abba80, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101a96e50, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101ad1540, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101ad08e0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101a92f80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ad21a0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x101a44c60, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x101acf440, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101abf1e0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101ad25c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101afac90, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x101ac0c00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101abb540, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x101aa3800, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101abfb80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101af8fb0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101af97f0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.minutebank:sceneID:com.keatingkonsultancy.minutebank-default', label: 'MinuteBank'
+                  Other, 0x101a95050, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101afa870, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101af8350, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x101afb0b0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x101a78360, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x101af0830, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x101aecab0, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x101af4310, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101ade080, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x101a89290, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x101aebe50, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x101a9ca20, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x101add840, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101aec270, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101af7b10, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x101acdfa0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x101a77be0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x101ae5a90, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      StaticText, 0x101aeced0, {{54.0, 22.3}, {40.0, 20.3}}, label: '11:10 AM'
+                                                      Other, 0x101aed2f0, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x101a777c0, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x101aee370, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x101acec00, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x101af38d0, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x101aed710, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101a773a0, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101a91f00, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101af8b90, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101aa4040, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101af76f0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101af6670, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101abe580, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101a9b9a0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101abffa0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101ad5520, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101acd4e0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101a88e70, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101af50c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101acfc80, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101acf020, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101aa33e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101adcfc0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101aa4ca0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101abc760, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101ace7e0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101abcb80, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101a411e0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101ace3c0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101af9c10, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x101a873e0, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x101acf860, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ad1120, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101af5660, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ae90c0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101a96a30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101a896b0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101a63e80, pid: 10480, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x101ae94e0, pid: 10480, label: ' '
+  }

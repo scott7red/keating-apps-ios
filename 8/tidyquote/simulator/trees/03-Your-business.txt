@@ -1,0 +1,67 @@
+Attributes: Application, 0x10595ad60, pid: 16564, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x10595ad60, pid: 16564, label: 'TidyQuote'
+    Window (Main), 0x10595a6b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10595fd80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105946920, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1059587a0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10595c6c0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x105949d40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10595ca40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105956220, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10595ec60, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10595bfe0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'TidyQuote', Focused
+                        Other, 0x105946230, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x10594a790, {{70.0, 97.0}, {62.0, 6.0}}, label: 'Step 2 of 2', Focused
+                            Other, 0x10595f6c0, {{70.0, 97.0}, {22.0, 6.0}}, Focused
+                            Other, 0x105948860, {{98.0, 97.0}, {34.0, 6.0}}, Focused
+                          Button, 0x105951d80, {{296.0, 78.0}, {87.0, 44.0}}, label: 'Skip setup', Focused
+                          Other, 0x105952e90, {{20.0, 156.0}, {362.0, 17.0}}, Focused
+                            StaticText, 0x105957d60, {{20.0, 157.0}, {83.0, 15.0}}, label: 'STEP 2 OF 2', value: STEP 2 OF 2, Focused
+                          Other, 0x1059580d0, {{20.0, 179.0}, {362.0, 39.0}}, label: 'Your starting prices', value: 1, Focused
+                            StaticText, 0x105945770, {{20.0, 179.0}, {283.0, 39.0}}, label: 'Your starting prices', value: Your starting prices, Focused
+                          Other, 0x1059598f0, {{20.0, 228.0}, {362.0, 46.0}}, Focused
+                            StaticText, 0x10594bbe0, {{20.0, 229.0}, {343.0, 43.0}}, label: 'These are starting points to adjust, not market advice. Change them to fit your area.', value: These are starting..., Focused
+                          Other, 0x1059604b0, {{20.0, 300.0}, {362.0, 20.0}}, label: 'Currency', Focused
+                            StaticText, 0x105942400, {{20.0, 301.0}, {64.0, 18.0}}, label: 'Currency', value: Currency, Focused
+                          Other, 0x10595d120, {{20.0, 326.0}, {362.0, 48.0}}, label: 'Currency', value: US dollar (USD), Focused
+                          Other, 0x10594f070, {{20.0, 388.0}, {175.0, 20.0}}, label: 'Base price', Focused
+                            StaticText, 0x10594db30, {{20.0, 389.0}, {72.0, 18.0}}, label: 'Base price', value: Base price, Focused
+                          TextField, 0x10594cd90, {{20.0, 414.0}, {175.0, 48.0}}, label: 'Base price', value: 60, Focused
+                          Other, 0x105961cb0, {{207.0, 388.0}, {175.0, 20.0}}, label: 'Minimum job', Focused
+                            StaticText, 0x105959c40, {{207.0, 389.0}, {88.0, 18.0}}, label: 'Minimum job', value: Minimum job, Focused
+                          TextField, 0x10593b8d0, {{207.0, 414.0}, {175.0, 48.0}}, label: 'Minimum job', value: 120, Focused
+                          Other, 0x10593b1f0, {{20.0, 474.0}, {175.0, 20.0}}, label: 'Per bedroom', Focused
+                            StaticText, 0x105952480, {{20.0, 475.0}, {88.0, 18.0}}, label: 'Per bedroom', value: Per bedroom, Focused
+                          TextField, 0x10594f3f0, {{20.0, 500.0}, {175.0, 48.0}}, label: 'Per bedroom', value: 25, Focused
+                          Other, 0x10595e200, {{207.0, 474.0}, {175.0, 20.0}}, label: 'Per bathroom', Focused
+                            StaticText, 0x10594dea0, {{207.0, 475.0}, {93.0, 18.0}}, label: 'Per bathroom', value: Per bathroom, Focused
+                          TextField, 0x105955430, {{207.0, 500.0}, {175.0, 48.0}}, label: 'Per bathroom', value: 30, Focused
+                          Other, 0x10595e8d0, {{20.0, 562.0}, {362.0, 93.0}}, Focused
+                            StaticText, 0x10594c290, {{36.0, 577.0}, {139.0, 15.0}}, label: 'WITH THESE PRICES', value: WITH THESE PRICES, Focused
+                            StaticText, 0x10595f370, {{36.0, 600.0}, {117.0, 20.0}}, label: 'Standard clean', value: Standard clean, Focused
+                            StaticText, 0x105958440, {{36.0, 623.0}, {166.0, 17.0}}, label: '3 bedrooms, 2 bathrooms', value: 3 bedrooms, 2 bath..., Focused
+                            StaticText, 0x105960810, {{261.0, 609.0}, {105.0, 29.0}}, label: '$195.00', value: $195.00, Focused
+                          Other, 0x10594b520, {{20.0, 669.0}, {362.0, 36.0}}, Focused
+                            StaticText, 0x105952b20, {{20.0, 669.0}, {331.0, 35.0}}, label: 'Service types, add-ons and discounts are in Settings under Price book.', value: Service types, add..., Focused
+                          Button, 0x1059527e0, {{20.0, 770.0}, {77.0, 48.0}}, label: 'Back', Focused
+                          Button, 0x105962050, {{106.0, 770.0}, {276.0, 48.0}}, label: 'Start using TidyQuote', Focused
+                        Other, 0x1059516d0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x105963210, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x1059638e0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10595e550, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105965e30, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1059501f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x105966bd0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x105959560, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105965ae0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x10595b440, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105950910, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1059549b0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10595ad60, pid: 16564, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x1059550a0, pid: 16564, label: 'TidyQuote'
+  }

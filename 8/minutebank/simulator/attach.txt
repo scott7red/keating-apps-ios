@@ -1,0 +1,7 @@
+minutebank: MinuteBank - App Review.mp4, 4.8 MB, MD5 12414c7f1640686e23d25242f5d112b2 (dry run: nothing is changed)
+App Store Connect app: MinuteBank (6823850313)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (244ba433-967b-4c10-aac6-8000b3b0832a)
+App Review Information: d70c498d-4001-40d6-8b19-be3bc744462a
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"MinuteBank - App Review.mp4","fileSize":4791168},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"d70c498d-4001-40d6-8b19-be3bc744462a"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 12414c7f1640686e23d25242f5d112b2.

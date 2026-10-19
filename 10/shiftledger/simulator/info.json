@@ -1,0 +1,136 @@
+{
+  "rawSeconds": 517,
+  "finalSeconds": 443.9,
+  "finalMinutes": "7:24",
+  "size": "1206x2622",
+  "megabytes": 21.5,
+  "trimmed": {
+    "from": 59.9,
+    "to": 481.3
+  },
+  "taps": 36,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 28,
+    "of": 36,
+    "first": 1.99,
+    "last": -1.67
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome",
+    "Your first job",
+    "Your tax profile",
+    "Log a shift with tips",
+    "This week and the year so far",
+    "The shift list",
+    "The deduction and how it is worked out",
+    "The W-2 check",
+    "The summary PDF, through the share sheet",
+    "The quick calculator",
+    "Example data",
+    "Help, Privacy policy and About",
+    "Erase all data"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done",
+    "note: tab Deduction: reported at x 135, tapped at 201",
+    "note: tab Tools: reported at x 193, tapped at 281",
+    "note: tab Settings: reported at x 269, tapped at 361",
+    "note: tab Home: reported at x 129, tapped at 40",
+    "note: tab Settings: reported at x 269, tapped at 361",
+    "note: skipped a tap: the element is not there",
+    "note: skipped a tap: the element is not there",
+    "note: skipped a tap: the element is not there",
+    "note: skipped a tap: the element is not there"
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "title": "Launch from the Home Screen",
+      "start": 0,
+      "end": 24.4
+    },
+    {
+      "n": 2,
+      "title": "Welcome",
+      "start": 24.4,
+      "end": 32.6
+    },
+    {
+      "n": 3,
+      "title": "Your first job",
+      "start": 32.6,
+      "end": 61.4
+    },
+    {
+      "n": 4,
+      "title": "Your tax profile",
+      "start": 61.4,
+      "end": 73.1
+    },
+    {
+      "n": 5,
+      "title": "Log a shift with tips",
+      "start": 73.1,
+      "end": 111.6
+    },
+    {
+      "n": 6,
+      "title": "This week and the year so far",
+      "start": 111.6,
+      "end": 121.6
+    },
+    {
+      "n": 7,
+      "title": "The shift list",
+      "start": 121.6,
+      "end": 126
+    },
+    {
+      "n": 8,
+      "title": "The deduction and how it is worked out",
+      "start": 126,
+      "end": 160.7
+    },
+    {
+      "n": 9,
+      "title": "The W-2 check",
+      "start": 160.7,
+      "end": 185.6
+    },
+    {
+      "n": 10,
+      "title": "The summary PDF, through the share sheet",
+      "start": 185.6,
+      "end": 223.4
+    },
+    {
+      "n": 11,
+      "title": "The quick calculator",
+      "start": 223.4,
+      "end": 236.5
+    },
+    {
+      "n": 12,
+      "title": "Example data",
+      "start": 236.5,
+      "end": 290.9
+    },
+    {
+      "n": 13,
+      "title": "Help, Privacy policy and About",
+      "start": 290.9,
+      "end": 360.2
+    },
+    {
+      "n": 14,
+      "title": "Erase all data",
+      "start": 360.2,
+      "end": 418.6
+    }
+  ]
+}

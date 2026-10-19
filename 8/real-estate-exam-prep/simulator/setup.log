@@ -1,0 +1,26 @@
+10:54:04 xcrun simctl status_bar B492D811-F1BF-425A-A732-75B80E7D5C21 override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+10:54:10 xcrun simctl ui B492D811-F1BF-425A-A732-75B80E7D5C21 appearance light
+  -> exit 0
+10:54:12 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+10:54:14 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+10:54:16 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+10:54:17 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+10:54:18 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+10:54:19 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+10:54:19 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+10:54:20 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+10:54:20 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+10:54:21 xcrun simctl spawn B492D811-F1BF-425A-A732-75B80E7D5C21 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+10:54:21 xcrun simctl install B492D811-F1BF-425A-A732-75B80E7D5C21 /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

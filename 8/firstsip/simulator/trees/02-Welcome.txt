@@ -1,0 +1,53 @@
+Attributes: Application, 0x103a2c600, pid: 11012, label: 'FirstSip'
+Element subtree:
+ →Application, 0x103a2c600, pid: 11012, label: 'FirstSip'
+    Window (Main), 0x103ab47f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a341f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a311a0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103aa5aa0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a30400, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a333e0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a31870, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a31be0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a30e20, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a2a020, {{0.0, 0.0}, {402.0, 874.0}}, label: 'FirstSip'
+                        Other, 0x103a33ac0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main'
+                          Other, 0x103a2f2a0, {{110.0, 92.0}, {70.0, 19.0}}
+                            StaticText, 0x103a34910, {{110.0, 93.0}, {34.0, 17.0}}, label: 'Step', value: Step 
+                            StaticText, 0x103a34ff0, {{143.0, 93.0}, {8.0, 17.0}}, label: '1', value: 1
+                            StaticText, 0x103a30080, {{150.0, 93.0}, {30.0, 17.0}}, label: 'of 3', value:  of 3
+                          Other, 0x103a3c220, {{22.0, 121.0}, {358.0, 38.0}}, label: 'Before you start', value: 1, Focused
+                            StaticText, 0x103a33e50, {{22.0, 121.0}, {218.0, 38.0}}, label: 'Before you start', value: Before you start, Focused
+                          Other, 0x103a3ef00, {{22.0, 165.0}, {358.0, 50.0}}
+                            StaticText, 0x103a3f250, {{22.0, 166.0}, {59.0, 22.0}}, label: 'FirstSip', value: FirstSip
+                            StaticText, 0x103a3eba0, {{22.0, 166.0}, {291.0, 47.0}}, label: 'records and reminds. It is not medical advice.', value:  records and remin...
+                          Other, 0x103a3fc90, {{22.0, 235.0}, {358.0, 397.0}}
+                            Other, 0x103a46bd0, {{41.0, 238.0}, {320.0, 74.0}}
+                              StaticText, 0x103a2cfc0, {{77.0, 253.0}, {254.0, 43.0}}, label: 'It never recommends, calculates or adjusts a dose.', value: It never recommend...
+                            Other, 0x103a2a370, {{41.0, 312.0}, {320.0, 121.0}}
+                              StaticText, 0x103a292a0, {{77.0, 328.0}, {268.0, 89.0}}, label: 'It does not replace your prescriber, your pharmacist or the medication guide that came with your medicine. Follow your prescriber's instructions.', value: It does not replac...
+                            Other, 0x103a2d6c0, {{41.0, 433.0}, {320.0, 98.0}}
+                              StaticText, 0x103a2cc60, {{77.0, 449.0}, {274.0, 66.0}}, label: 'If you miss a dose or are unsure what to do: check your medication guide or ask your pharmacist or prescriber.', value: If you miss a dose...
+                            Other, 0x103a2a6c0, {{41.0, 531.0}, {320.0, 98.0}}
+                              StaticText, 0x103a2c900, {{77.0, 547.0}, {245.0, 66.0}}, label: 'Everything you enter stays on this device. There is no account and nothing is sent anywhere.', value: Everything you ent...
+                          Button, 0x103a28f30, {{22.0, 710.0}, {358.0, 58.0}}, label: 'I understand'
+                          Button, 0x103a29970, {{166.0, 774.0}, {69.0, 44.0}}, label: 'Back'
+                        Other, 0x103a36160, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x103a383f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103a3a2e0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a4a980, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a295f0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a2c250, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103a2f980, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a2b480, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a2b820, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103a2bef0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a2ef40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a32cd0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a2c600, pid: 11012, label: 'FirstSip'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.firstsip'
+  Output: {
+    Application, 0x103a4b060, pid: 11012, label: 'FirstSip'
+  }

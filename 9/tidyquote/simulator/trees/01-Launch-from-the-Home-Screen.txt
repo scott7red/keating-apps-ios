@@ -1,0 +1,55 @@
+Attributes: Application, 0x101bb7920, pid: 55784, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101bb7920, pid: 55784, label: 'TidyQuote'
+    Window (Main), 0x101863980, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101849620, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101868140, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101867220, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101867bb0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x1018603a0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101848380, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10184e1d0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10184e2f0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10184e410, {{0.0, 0.0}, {402.0, 965.0}}, label: 'TidyQuote', Focused
+                        Other, 0x10184e530, {{0.0, 0.0}, {402.0, 965.0}}, label: 'main', Focused
+                          StaticText, 0x10184e650, {{70.0, 91.0}, {93.0, 25.0}}, label: 'TidyQuote', value: TidyQuote, Focused
+                          StaticText, 0x10184e770, {{213.0, 78.0}, {101.0, 20.0}}, label: 'App language', value: App language, Focused
+                          Other, 0x10184e890, {{214.0, 78.0}, {168.0, 52.0}}, label: 'App language', Focused
+                            Other, 0x10184e9b0, {{218.0, 82.0}, {79.0, 44.0}}, label: 'English', value: 1, Focused
+                            Other, 0x10184ead0, {{300.0, 82.0}, {79.0, 44.0}}, label: 'Español', value: 0, Focused
+                          Image, 0x10184ebf0, {{24.0, 154.0}, {326.0, 262.0}}, label: 'A sample quote', Focused
+                          Other, 0x10184ed10, {{20.0, 439.0}, {362.0, 40.0}}, label: 'Welcome to TidyQuote', value: 1, Focused
+                            StaticText, 0x10184ee30, {{20.0, 439.0}, {330.0, 40.0}}, label: 'Welcome to TidyQuote', value: Welcome to TidyQuote, Focused
+                          Other, 0x10184ef50, {{20.0, 488.0}, {362.0, 47.0}}, Focused
+                            StaticText, 0x10184f070, {{20.0, 489.0}, {356.0, 44.0}}, label: 'Price a home, send the quote, and keep track of what you are owed.', value: Price a home, send..., Focused
+                          Other, 0x10184f190, {{20.0, 560.0}, {362.0, 225.0}}, Focused
+                            Other, 0x10184f2b0, {{20.0, 560.0}, {362.0, 65.0}}, Focused
+                              StaticText, 0x10184f3d0, {{74.0, 561.0}, {157.0, 21.0}}, label: 'A price in a few taps', value: A price in a few t..., Focused
+                              StaticText, 0x10184f4f0, {{74.0, 585.0}, {291.0, 39.0}}, label: 'Rooms, add-ons and repeat-visit discounts, worked out from your own price book.', value: Rooms, add-ons and..., Focused
+                            Other, 0x10184f610, {{20.0, 640.0}, {362.0, 65.0}}, Focused
+                              StaticText, 0x10184f730, {{74.0, 641.0}, {233.0, 21.0}}, label: 'Paperwork that looks the part', value: Paperwork that loo..., Focused
+                              StaticText, 0x10184f850, {{74.0, 665.0}, {298.0, 39.0}}, label: 'Quotes and invoices as PDFs with your name and logo, in English or Spanish.', value: Quotes and invoice..., Focused
+                            Other, 0x101b30490, {{20.0, 720.0}, {362.0, 65.0}}, Focused
+                              StaticText, 0x101b365a0, {{74.0, 721.0}, {176.0, 21.0}}, label: 'See who still owes you', value: See who still owes..., Focused
+                              StaticText, 0x101b36c40, {{74.0, 745.0}, {304.0, 39.0}}, label: 'Turn a quote into an invoice, record payments and keep unpaid work in view.', value: Turn a quote into ..., Focused
+                          Button, 0x101b32f30, {{20.0, 722.0}, {362.0, 62.0}}, label: 'Get started', Focused
+                          StaticText, 0x101b332b0, {{46.0, 789.0}, {331.0, 36.0}}, label: 'Everything stays on this phone. No account, no sign-up.', value: Everything stays o..., Focused
+                        Other, 0x101b31e10, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x101b31200, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x10184f970, {{396.0, 808.0}, {3.0, 7.0}}
+              Other, 0x10184fa90, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10184fbb0, {{336.0, 868.0}, {7.0, 3.0}}
+              Other, 0x10184fcd0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x10184fdf0, {{396.0, 808.0}, {3.0, 7.0}}
+              Other, 0x10184ff10, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101850030, {{336.0, 868.0}, {7.0, 3.0}}
+    Window, 0x101850150, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101850270, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101850390, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101bb7920, pid: 55784, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x1018ada60, pid: 55784, label: 'TidyQuote'
+  }

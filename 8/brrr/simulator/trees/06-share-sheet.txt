@@ -1,0 +1,134 @@
+Attributes: Application, 0x103a72b70, pid: 16950, label: 'BRRR'
+Element subtree:
+ →Application, 0x103a72b70, pid: 16950, label: 'BRRR'
+    Window (Main), 0x103a5c770, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a95b00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a40160, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a57bb0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103a35aa0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a41260, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a46240, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a6a240, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a69ed0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a426b0, {{0.0, -1763.0}, {402.0, 874.0}}
+                      Other, 0x103a66470, {{0.0, -1763.0}, {402.0, 6558.0}}, label: 'BRRR'
+                        Other, 0x103a36180, {{0.0, 589.0}, {402.0, 285.0}}, label: 'Report ready, web dialog', Focused
+                          Other, 0x103a88cb0, {{21.0, 616.0}, {320.0, 25.0}}, label: 'Report ready', value: 2, Focused
+                            StaticText, 0x103a85ee0, {{21.0, 616.0}, {120.0, 25.0}}, label: 'Report ready', value: Report ready, Focused
+                          Button, 0x103a757c0, {{349.0, 607.0}, {44.0, 44.0}}, label: 'Close', Focused
+                          Other, 0x103a7f6e0, {{21.0, 663.0}, {360.0, 63.0}}, Focused
+                            StaticText, 0x103a987f0, {{21.0, 664.0}, {68.0, 18.0}}, label: 'A PDF for', value: A PDF for , Focused
+                            StaticText, 0x103c3a9f0, {{88.0, 664.0}, {110.0, 18.0}}, label: '100 Example St', value: 100 Example St, Focused
+                            StaticText, 0x103a74370, {{21.0, 664.0}, {359.0, 60.0}}, label: 'with the inputs, the BRRRR scorecard, the rules of thumb and the stress test. It was built on this device.', value:  with the inputs, ..., Focused
+                          Button, 0x103a5dfa0, {{21.0, 738.0}, {360.0, 48.0}}, label: 'Share or save the PDF', Focused
+                          Other, 0x103a9f9b0, {{21.0, 798.0}, {360.0, 18.0}}, Focused
+                            StaticText, 0x103a293f0, {{106.0, 799.0}, {145.0, 16.0}}, label: 'brrr-100-example-st.pdf', value: brrr-100-example-s..., Focused
+                            StaticText, 0x103a95450, {{250.0, 799.0}, {12.0, 16.0}}, label: '·', value:  · , Focused
+                            StaticText, 0x103a8f260, {{261.0, 799.0}, {15.0, 16.0}}, label: '19', value: 19, Focused
+                            StaticText, 0x103a656d0, {{275.0, 799.0}, {21.0, 16.0}}, label: 'KB', value:  KB, Focused
+              Other, 0x103a2bcb0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 8 pages', value: 31%
+                Other, 0x103a97a60, {{396.0, 265.0}, {3.0, 99.0}}
+              Other, 0x103a9de30, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a7e270, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a4adc0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 8 pages', value: 31%
+                Other, 0x103a8f940, {{396.0, 265.0}, {3.0, 99.0}}
+              Other, 0x103a7b130, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a9cd20, {{65.0, 868.0}, {272.0, 3.0}}
+      Other, 0x103a99230, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103c55250, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'PopoverDismissRegion', label: 'dismiss popup'
+        Popover, 0x103a61a10, {{9.0, 498.0}, {384.0, 366.7}}
+          Image, 0x103a58990, {{-141.0, 348.0}, {684.0, 666.7}}
+          Other, 0x103ca94b0, {{9.0, 498.0}, {384.0, 366.7}}
+            Other, 0x103c71410, {{9.0, 498.0}, {384.0, 366.7}}
+              Other, 0x103c90f10, {{9.0, 498.0}, {384.0, 366.7}}
+                Other, 0x103c4d8e0, {{9.0, 498.0}, {384.0, 366.7}}
+                  Other, 0x103c8c320, {{9.0, 498.0}, {384.0, 366.7}}
+                    Other, 0x103c906d0, {{9.0, 498.0}, {384.0, 366.7}}
+                      Other, 0x103cdc7c0, {{9.0, 498.0}, {0.0, 0.0}}
+                        Other, 0x103cdece0, {{9.0, 498.0}, {384.0, 366.7}}
+                          Other, 0x103cdb320, {{9.0, 498.0}, {384.0, 366.7}}
+                            Other, 0x1039839f0, {{9.0, 498.0}, {384.0, 366.7}}
+                              Other, 0x10397f230, {{9.0, 498.0}, {384.0, 366.7}}
+            Other, 0x1039e4c40, {{9.0, 498.0}, {384.0, 366.7}}
+              Other, 0x103961030, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'ActivityListView'
+                Other, 0x1039853f0, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'ShareSheet.RemoteContainerView'
+                  Other, 0x1039963b0, {{9.0, 498.0}, {384.0, 366.7}}
+                    Other, 0x1039d3eb0, {{9.0, 498.0}, {384.0, 366.7}}
+                      Other, 0x1039e64c0, {{9.0, 498.0}, {384.0, 366.7}}
+                        Other, 0x1039609f0, {{9.0, 498.0}, {384.0, 366.7}}
+                          Other, 0x1039dd260, {{9.0, 498.0}, {384.0, 366.7}}
+                            Other, 0x1039c02a0, {{9.0, 498.0}, {384.0, 366.7}}
+                              Other, 0x1039abd80, {{9.0, 498.0}, {384.0, 366.7}}
+                                Other, 0x103990f80, {{9.0, 498.0}, {384.0, 366.7}}
+                                  NavigationBar, 0x1039db880, {{9.0, 498.0}, {384.0, 104.3}}, identifier: 'UIActivityContentView'
+                                    Image, 0x1039a4560, {{33.3, 522.3}, {64.0, 64.0}}, identifier: 'doc', label: 'document'
+                                    Other, 0x1039a34c0, {{112.3, 544.3}, {256.3, 20.0}}, identifier: 'LP.CaptionBar.BottomCaption', label: 'brrr-100-example-st.pdf'
+                                  Other, 0x1039ac1a0, {{9.0, 498.0}, {384.0, 366.7}}
+                                    Other, 0x1039fb280, {{9.0, 498.0}, {384.0, 366.7}}
+                                      Other, 0x103993430, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'shareSheet.activity.contentView'
+                                        CollectionView, 0x10395e290, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'activityCollectionView'
+                                          Other, 0x103993c70, {{9.0, 498.0}, {384.0, 366.7}}
+                                            Other, 0x103993010, {{9.0, 498.0}, {384.0, 159.1}}
+                                          Other, 0x103994090, {{9.0, 498.0}, {384.0, 366.7}}
+                                          ScrollView, 0x10397f7d0, {{27.3, 602.3}, {347.3, 123.0}}
+                                            Cell, 0x1039944b0, {{27.3, 602.3}, {82.0, 122.3}}, identifier: 'shareCell', label: 'Preview'
+                                              Other, 0x103995110, {{27.3, 602.3}, {82.0, 122.3}}
+                                                Other, 0x1039f61a0, {{27.3, 694.3}, {82.0, 14.3}}
+                                                  StaticText, 0x1039fb6a0, {{27.3, 694.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Preview'
+                                                  StaticText, 0x1039fae60, {{27.3, 694.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x1039fbac0, {{27.3, 694.3}, {82.0, 14.3}}
+                                                Image, 0x103984610, {{34.3, 618.3}, {68.0, 68.0}}, identifier: 'activityImageView'
+                                            Cell, 0x103c48f40, {{115.7, 602.3}, {82.0, 122.3}}, identifier: 'shareCell', label: 'More'
+                                              Other, 0x1039faa40, {{115.7, 602.3}, {82.0, 122.3}}
+                                                Other, 0x1039eebd0, {{115.7, 694.3}, {82.0, 14.3}}
+                                                  StaticText, 0x10398fcc0, {{115.7, 694.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'More'
+                                                  StaticText, 0x10398d520, {{115.7, 694.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x1039ec5a0, {{115.7, 694.3}, {82.0, 14.3}}
+                                                Image, 0x103a89af0, {{122.7, 618.3}, {68.0, 68.0}}, identifier: 'activityImageView'
+                                          ScrollView, 0x103a33860, {{27.3, 726.3}, {347.3, 138.3}}
+                                            Cell, 0x103a50060, {{27.3, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Copy'
+                                              Other, 0x103a2c6e0, {{27.3, 726.3}, {82.0, 138.3}}
+                                                Other, 0x103c4f400, {{27.3, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x103ce5ab0, {{27.3, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Copy'
+                                                  StaticText, 0x103cdf100, {{27.3, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x103c4fc40, {{27.3, 818.3}, {82.0, 14.3}}
+                                                Other, 0x103c5f310, {{33.3, 742.3}, {70.0, 70.0}}
+                                                Image, 0x103cc3480, {{52.3, 759.0}, {32.0, 36.7}}, identifier: 'activityImageView', label: 'copy'
+                                            Cell, 0x103ce5690, {{115.7, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Markup'
+                                              Other, 0x103cde8c0, {{115.7, 726.3}, {82.0, 138.3}}
+                                                Other, 0x103cb0390, {{115.7, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x103cdf520, {{115.7, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Markup'
+                                                  StaticText, 0x103c46930, {{115.7, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x103cd9220, {{115.7, 818.3}, {82.0, 14.3}}
+                                                Other, 0x103cd9a60, {{121.7, 742.3}, {70.0, 70.0}}
+                                                Image, 0x103c60c70, {{140.7, 762.0}, {32.0, 30.7}}, identifier: 'activityImageView', label: 'Markup'
+                                            Cell, 0x103c8dde0, {{204.0, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Print'
+                                              Other, 0x103c48700, {{204.0, 726.3}, {82.0, 138.3}}
+                                                Other, 0x103c60430, {{204.0, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x103c5d630, {{204.0, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Print'
+                                                  StaticText, 0x103c5da50, {{204.0, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x103c61090, {{204.0, 818.3}, {82.0, 14.3}}
+                                                Other, 0x103c5eef0, {{210.0, 742.3}, {70.0, 70.0}}
+                                                Image, 0x103cdaae0, {{229.0, 761.7}, {32.0, 32.0}}, identifier: 'activityImageView', label: 'print'
+                                            Cell, 0x103cde4a0, {{292.3, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Save to Files'
+                                              Other, 0x103cde080, {{292.3, 726.3}, {82.0, 138.3}}
+                                                Other, 0x103cdd840, {{292.3, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x103cddc60, {{292.3, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Save to Files'
+                                                  StaticText, 0x103a5fb20, {{292.3, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x103a9b170, {{292.3, 818.3}, {82.0, 14.3}}
+                                                Other, 0x103a6a910, {{298.3, 742.3}, {70.0, 70.0}}
+                                                Image, 0x103a376b0, {{311.7, 755.7}, {43.3, 43.3}}, identifier: 'activityImageView'
+                                          Other, 0x103a2c380, {{33.3, 725.3}, {335.3, 1.0}}, identifier: 'collectionView.footerView'
+                                        Other, 0x103a63f50, {{33.3, 602.3}, {335.3, 1.0}}
+                                  Other, 0x103a342a0, {{9.0, 498.0}, {384.0, 366.7}}
+                                    Other, 0x103a8e130, {{9.0, 498.0}, {384.0, 366.7}}
+    Window, 0x103a9f2f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a41ff0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a66b40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a72b70, pid: 16950, label: 'BRRR'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.brrr'
+  Output: {
+    Application, 0x114b324d0, pid: 16950, label: 'BRRR'
+  }

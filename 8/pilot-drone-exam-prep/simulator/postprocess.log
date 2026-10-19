@@ -1,0 +1,33 @@
+{
+  "rawSeconds": 126.3,
+  "finalSeconds": 93,
+  "finalMinutes": "1:33",
+  "size": "1206x2622",
+  "megabytes": 3,
+  "trimmed": {
+    "from": 33.1,
+    "to": 122.2
+  },
+  "taps": 12,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 8,
+    "of": 12,
+    "first": -1.01,
+    "last": -3.52
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome",
+    "Setup: a profile and an exam",
+    "The free sample: practice questions"
+  ],
+  "notes": [
+    "note: StoreKit test session from Review.storekit",
+    "note: keyboard Done found as candidate 0: Done"
+  ],
+  "steps": 4
+}

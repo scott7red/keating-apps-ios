@@ -1,0 +1,177 @@
+Attributes: Application, 0x106499aa0, pid: 17028, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x106499aa0, pid: 17028, label: 'ShiftLedger'
+    Window (Main), 0x106444140, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106438190, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1064444d0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x106433d20, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x1064467c0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x106440a90, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1064414e0, {{0.0, 0.0}, {402.0, 875.0}}
+                  Other, 0x10643de40, {{0.0, 0.0}, {402.0, 875.0}}
+                    Other, 0x10643daf0, {{0.0, -561.0}, {402.0, 875.0}}
+                      Other, 0x106442520, {{0.0, -561.0}, {402.0, 2529.0}}, label: 'ShiftLedger', Focused
+                        Other, 0x1064339c0, {{0.0, -561.0}, {402.0, 2405.0}}, label: 'main', Focused
+                          Other, 0x106446420, {{16.0, -561.0}, {370.0, 127.0}}, label: 'section header', Focused
+                            Other, 0x1064347a0, {{16.0, -483.0}, {67.0, 35.0}}, label: 'Tools', value: 1, Focused
+                              StaticText, 0x106446b40, {{16.0, -483.0}, {67.0, 35.0}}, label: 'Tools', value: Tools, Focused
+                          Other, 0x1064459e0, {{16.0, -435.0}, {370.0, 81.0}}, label: 'Tax year', Focused
+                            Other, 0x106442f80, {{16.0, -435.0}, {370.0, 22.0}}, Focused
+                              StaticText, 0x10643ebe0, {{16.0, -434.0}, {60.0, 19.0}}, label: 'Tax year', value: Tax year, Focused
+                            Other, 0x106434b10, {{21.0, -403.0}, {118.0, 44.0}}, Focused
+                              Other, 0x106430800, {{20.0, -404.0}, {119.0, 45.0}}, label: '2026', value: 1, Focused
+                              StaticText, 0x106447990, {{60.0, -391.0}, {40.0, 20.0}}, label: '2026', value: 2026, Focused
+                            Other, 0x106438bf0, {{142.0, -403.0}, {118.0, 44.0}}, Focused
+                              Other, 0x106435550, {{141.0, -404.0}, {119.0, 45.0}}, label: '2027', value: 0, Focused
+                              StaticText, 0x106441170, {{182.0, -391.0}, {38.0, 20.0}}, label: '2027', value: 2027, Focused
+                            Other, 0x10643d430, {{263.0, -403.0}, {118.0, 44.0}}, Focused
+                              Other, 0x106440df0, {{262.0, -404.0}, {119.0, 45.0}}, label: '2028', value: 0, Focused
+                              StaticText, 0x106436660, {{303.0, -391.0}, {38.0, 20.0}}, label: '2028', value: 2028, Focused
+                          Other, 0x106446ea0, {{16.0, -340.0}, {370.0, 979.0}}, label: 'Quick calculator, region', Focused
+                            Other, 0x1064403a0, {{33.0, -321.0}, {143.0, 26.0}}, label: 'Quick calculator', value: 2, Focused
+                              StaticText, 0x106430110, {{33.0, -321.0}, {144.0, 26.0}}, label: 'Quick calculator', value: Quick calculator, Focused
+                            StaticText, 0x106438870, {{261.0, -317.0}, {68.0, 16.0}}, label: 'TAX YEAR', value: TAX YEAR , Focused
+                            StaticText, 0x106445670, {{328.0, -317.0}, {30.0, 16.0}}, label: '2026', value: 2026, Focused
+                            Other, 0x106439290, {{33.0, -290.0}, {336.0, 44.0}}, Focused
+                              StaticText, 0x106440720, {{33.0, -289.0}, {312.0, 41.0}}, label: 'A yearly estimate from a few numbers. Nothing here is saved or added to your log.', value: A yearly estimate ..., Focused
+                            Other, 0x106439ca0, {{33.0, -234.0}, {336.0, 23.0}}, label: 'Tips for the year', Focused
+                              StaticText, 0x10643bf80, {{33.0, -233.0}, {116.0, 20.0}}, label: 'Tips for the year', value: Tips for the year, Focused
+                            TextField, 0x10643a690, {{56.0, -205.0}, {312.0, 49.0}}, label: 'Tips for the year', placeholderValue: '0.00', value: 0.00, Focused
+                            Other, 0x106438f40, {{33.0, -151.0}, {336.0, 38.0}}, Focused
+                              StaticText, 0x10643f2b0, {{33.0, -151.0}, {336.0, 37.0}}, label: 'Voluntary tips you keep, after tip-out. Leave out service charges and automatic gratuity.', value: Voluntary tips you..., Focused
+                            Other, 0x106437ad0, {{33.0, -99.0}, {336.0, 357.0}}, label: 'OVERTIME', Focused
+                              Other, 0x10643f5f0, {{48.0, -84.0}, {306.0, 17.0}}, Focused
+                                StaticText, 0x106434420, {{48.0, -84.0}, {63.0, 16.0}}, label: 'OVERTIME', value: OVERTIME, Focused
+                              Other, 0x10643d0b0, {{48.0, -57.0}, {306.0, 55.0}}, label: 'Overtime hours', Focused
+                                Other, 0x10643f940, {{47.0, -58.0}, {1.0, 3.0}}, Focused
+                                  StaticText, 0x10643e530, {{47.0, -57.0}, {110.0, 20.0}}, label: 'Overtime hours', value: Overtime hours, Focused
+                                Other, 0x1064373f0, {{53.0, -52.0}, {146.0, 44.0}}, Focused
+                                  Other, 0x10643c9c0, {{52.0, -53.0}, {147.0, 45.0}}, label: 'Average per week', value: 1, Focused
+                                  StaticText, 0x10643b0f0, {{62.0, -40.0}, {128.0, 20.0}}, label: 'Average per week', value: Average per week, Focused
+                                Other, 0x10643cd30, {{203.0, -52.0}, {146.0, 44.0}}, Focused
+                                  Other, 0x10643a330, {{202.0, -53.0}, {147.0, 45.0}}, label: 'Total for the year', value: 0, Focused
+                                  StaticText, 0x10643bc00, {{216.0, -40.0}, {120.0, 20.0}}, label: 'Total for the year', value: Total for the year, Focused
+                              Other, 0x106435200, {{48.0, 12.0}, {147.0, 44.0}}, label: 'Overtime hours a week', Focused
+                                StaticText, 0x106436d20, {{48.0, 13.0}, {122.0, 41.0}}, label: 'Overtime hours a week', value: Overtime hours a w..., Focused
+                              TextField, 0x10643ef40, {{49.0, 61.0}, {124.0, 49.0}}, label: 'Overtime hours a week', placeholderValue: '0', value: 0, Focused
+                              Other, 0x10643ada0, {{207.0, 12.0}, {147.0, 23.0}}, label: 'Weeks worked', Focused
+                                StaticText, 0x106437770, {{207.0, 13.0}, {103.0, 20.0}}, label: 'Weeks worked', value: Weeks worked, Focused
+                              TextField, 0x106437080, {{208.0, 40.0}, {145.0, 49.0}}, label: 'Weeks worked', placeholderValue: '50', value: 50, Focused
+                              Other, 0x106435fa0, {{48.0, 126.0}, {306.0, 23.0}}, label: 'Hourly rate', Focused
+                                StaticText, 0x10643fce0, {{48.0, 127.0}, {80.0, 20.0}}, label: 'Hourly rate', value: Hourly rate, Focused
+                              TextField, 0x106436320, {{71.0, 154.0}, {257.0, 49.0}}, label: 'Hourly rate', placeholderValue: '0.00', value: 15, Focused
+                              Other, 0x106435c30, {{48.0, 219.0}, {306.0, 20.0}}, Focused
+                                StaticText, 0x10643e880, {{48.0, 219.0}, {137.0, 19.0}}, label: 'Count only hours over', value: Count only hours o..., Focused
+                                StaticText, 0x106444850, {{184.0, 219.0}, {17.0, 19.0}}, label: '40', value: 40, Focused
+                                StaticText, 0x10643c2f0, {{200.0, 219.0}, {143.0, 19.0}}, label: 'in a week at a W-2 job.', value:  in a week at a W-..., Focused
+                            Other, 0x1064369b0, {{33.0, 272.0}, {336.0, 23.0}}, label: 'Filing status', Focused
+                              StaticText, 0x10643e1e0, {{33.0, 273.0}, {87.0, 20.0}}, label: 'Filing status', value: Filing status, Focused
+                            Other, 0x106440050, {{34.0, 300.0}, {334.0, 49.0}}, label: 'Filing status', value: Single, Focused
+                            Other, 0x10643d780, {{33.0, 365.0}, {336.0, 23.0}}, label: 'Estimated total income for the year', Focused
+                              StaticText, 0x1064358c0, {{33.0, 366.0}, {248.0, 20.0}}, label: 'Estimated total income for the year', value: Estimated total in..., Focused
+                            TextField, 0x106430b70, {{56.0, 393.0}, {312.0, 49.0}}, label: 'Estimated total income for the year', placeholderValue: '48000', value: 40000, Focused
+                            Other, 0x106461180, {{33.0, 448.0}, {336.0, 38.0}}, Focused
+                              StaticText, 0x1064384e0, {{33.0, 448.0}, {317.0, 37.0}}, label: 'Wages, tips and anything else. Needed for tax saved and the phase-out.', value: Wages, tips and an..., Focused
+                            Other, 0x106437e30, {{33.0, 500.0}, {336.0, 76.0}}, Focused
+                              Other, 0x106445300, {{49.0, 516.0}, {304.0, 44.0}}, Focused
+                                StaticText, 0x106434e70, {{49.0, 517.0}, {280.0, 41.0}}, label: 'Enter your tips or your overtime hours and rate to see the estimate.', value: Enter your tips or..., Focused
+                            StaticText, 0x10642fd70, {{56.0, 584.0}, {184.0, 19.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                            StaticText, 0x106439950, {{56.0, 584.0}, {303.0, 37.0}}, label: 'Social Security and Medicare still apply, and state taxes vary.', value: Social Security an..., Focused
+                          Other, 0x1064204f0, {{16.0, 649.0}, {370.0, 903.0}}, label: 'What counts as overtime premium, region', Focused
+                            Other, 0x1064246d0, {{33.0, 665.0}, {302.0, 26.0}}, label: 'What counts as overtime premium', value: 2, Focused
+                              StaticText, 0x10644dcc0, {{33.0, 665.0}, {302.0, 26.0}}, label: 'What counts as overtime premium', value: What counts as ove..., Focused
+                            Other, 0x1064e5810, {{33.0, 694.0}, {336.0, 65.0}}, Focused
+                              StaticText, 0x1064e0b60, {{33.0, 695.0}, {327.0, 62.0}}, label: 'Not all of your overtime pay can be deducted. Only the premium counts: the extra half on top of your normal rate, for hours over', value: Not all of your ov..., Focused
+                              StaticText, 0x1064cfeb0, {{246.0, 737.0}, {19.0, 20.0}}, label: '40', value: 40, Focused
+                              StaticText, 0x106451c00, {{264.0, 737.0}, {71.0, 20.0}}, label: 'in a week.', value:  in a week., Focused
+                            Other, 0x1064cfa90, {{33.0, 771.0}, {336.0, 25.0}}, Focused
+                              StaticText, 0x1064b9650, {{33.0, 772.0}, {80.0, 20.0}}, label: 'Hourly rate', value: Hourly rate, Focused
+                              Other, 0x1064c2ce0, {{308.0, 771.0}, {61.0, 25.0}}, Focused
+                                StaticText, 0x1064c45c0, {{308.0, 772.0}, {61.0, 22.0}}, label: '$20.00', value: $20.00, Focused
+                            Slider, 0x1064513a0, {{33.0, 800.0}, {336.0, 46.0}}, label: 'Hourly rate $20.00', value: $20.00 an hour, Focused
+                            Other, 0x1064c49e0, {{33.0, 860.0}, {336.0, 81.0}}, label: 'Your employer pays overtime at', Focused
+                              Other, 0x1064b9e90, {{33.0, 860.0}, {336.0, 23.0}}, Focused
+                                StaticText, 0x1064b8e10, {{33.0, 861.0}, {223.0, 20.0}}, label: 'Your employer pays overtime at', value: Your employer pays..., Focused
+                              Other, 0x1064c3520, {{38.0, 892.0}, {161.0, 44.0}}, Focused
+                                Other, 0x1064d02d0, {{37.0, 891.0}, {162.0, 45.0}}, label: 'Time and a half', value: 1, Focused
+                                StaticText, 0x1064b89f0, {{64.0, 904.0}, {110.0, 20.0}}, label: 'Time and a half', value: Time and a half, Focused
+                              Other, 0x1064c41a0, {{203.0, 892.0}, {161.0, 44.0}}, Focused
+                                Other, 0x1064cf670, {{202.0, 891.0}, {162.0, 45.0}}, label: 'Double time', value: 0, Focused
+                                StaticText, 0x1064c3100, {{241.0, 904.0}, {85.0, 20.0}}, label: 'Double time', value: Double time, Focused
+                            Other, 0x1064b9230, {{33.0, 955.0}, {336.0, 203.0}}, Focused
+                              Other, 0x10640c350, {{33.0, 955.0}, {336.0, 25.0}}, Focused
+                                StaticText, 0x10646cbc0, {{33.0, 956.0}, {177.0, 22.0}}, label: 'One overtime hour pays', value: One overtime hour ..., Focused
+                                StaticText, 0x1064b9a70, {{209.0, 956.0}, {59.0, 22.0}}, label: '$30.00', value: $30.00, Focused
+                              Other, 0x1064c3d80, {{33.0, 1048.0}, {336.0, 110.0}}, Focused
+                                Other, 0x10644fd00, {{33.0, 1048.0}, {336.0, 56.0}}, Focused
+                                  StaticText, 0x1064e8090, {{55.0, 1056.0}, {76.0, 20.0}}, label: 'Normal pay', value: Normal pay, Focused
+                                  StaticText, 0x1064e84b0, {{316.0, 1056.0}, {53.0, 20.0}}, label: '$20.00', value: $20.00, Focused
+                                  StaticText, 0x10646cfe0, {{55.0, 1076.0}, {93.0, 19.0}}, label: 'Does not count', value: Does not count, Focused
+                                Other, 0x10646a8a0, {{33.0, 1102.0}, {336.0, 56.0}}, Focused
+                                  StaticText, 0x10646a9c0, {{55.0, 1110.0}, {92.0, 20.0}}, label: 'The extra half', value: The extra half, Focused
+                                  StaticText, 0x10646aae0, {{316.0, 1110.0}, {53.0, 20.0}}, label: '$10.00', value: $10.00, Focused
+                                  StaticText, 0x10646ac00, {{55.0, 1130.0}, {47.0, 19.0}}, label: 'Counts', value: Counts, Focused
+                            Other, 0x10646ad20, {{33.0, 1170.0}, {336.0, 72.0}}, Focused
+                              StaticText, 0x10646ae40, {{51.0, 1183.0}, {20.0, 22.0}}, label: 'At', value: At , Focused
+                              StaticText, 0x10646af60, {{70.0, 1183.0}, {54.0, 22.0}}, label: '$20.00', value: $20.00, Focused
+                              StaticText, 0x10646b080, {{123.0, 1183.0}, {173.0, 22.0}}, label: 'an hour, overtime pays', value:  an hour, overtime..., Focused
+                              StaticText, 0x10646b1a0, {{295.0, 1183.0}, {55.0, 22.0}}, label: '$30.00', value: $30.00, Focused
+                              StaticText, 0x10646b2c0, {{51.0, 1183.0}, {303.0, 45.0}}, label: ', and only the extra', value: , and only the extra, Focused
+                              StaticText, 0x10646b3e0, {{184.0, 1206.0}, {59.0, 22.0}}, label: '$10.00', value: $10.00, Focused
+                              StaticText, 0x10646b500, {{242.0, 1206.0}, {59.0, 22.0}}, label: 'counts.', value:  counts., Focused
+                            Other, 0x10646b620, {{33.0, 1256.0}, {336.0, 25.0}}, Focused
+                              StaticText, 0x10646b740, {{33.0, 1257.0}, {179.0, 20.0}}, label: 'Overtime hours in a week', value: Overtime hours in ..., Focused
+                              Other, 0x10646b860, {{358.0, 1256.0}, {12.0, 25.0}}, Focused
+                                StaticText, 0x10646b980, {{358.0, 1257.0}, {11.0, 22.0}}, label: '5', value: 5, Focused
+                            Slider, 0x10646baa0, {{33.0, 1285.0}, {336.0, 46.0}}, label: 'Overtime hours in a week 5', value: 5 hours, Focused
+                            Other, 0x10646bbc0, {{33.0, 1345.0}, {336.0, 80.0}}, Focused
+                              Other, 0x10646bce0, {{46.0, 1356.0}, {143.0, 28.0}}, Focused
+                                StaticText, 0x10646be00, {{46.0, 1356.0}, {122.0, 28.0}}, label: 'OVERTIME PAY THAT WEEK', value: OVERTIME PAY THAT ..., Focused
+                              Other, 0x10646bf20, {{46.0, 1385.0}, {143.0, 29.0}}, Focused
+                                StaticText, 0x10646c040, {{46.0, 1386.0}, {80.0, 26.0}}, label: '$150.00', value: $150.00, Focused
+                              Other, 0x10646c160, {{213.0, 1356.0}, {144.0, 28.0}}, Focused
+                                StaticText, 0x10646c280, {{213.0, 1356.0}, {122.0, 28.0}}, label: 'COUNTS TOWARD THE DEDUCTION', value: COUNTS TOWARD THE ..., Focused
+                              Other, 0x10646c3a0, {{213.0, 1385.0}, {144.0, 29.0}}, Focused
+                                StaticText, 0x10646c4c0, {{213.0, 1386.0}, {69.0, 26.0}}, label: '$50.00', value: $50.00, Focused
+                            Other, 0x10646c5e0, {{33.0, 1433.0}, {336.0, 74.0}}, Focused
+                              StaticText, 0x10646c700, {{33.0, 1433.0}, {315.0, 37.0}}, label: 'Overtime you get only from a state daily rule or a contract, such as over 8 hours in a day but not over', value: Overtime you get o..., Focused
+                              StaticText, 0x10646c820, {{347.0, 1451.0}, {17.0, 19.0}}, label: '40', value: 40, Focused
+                              StaticText, 0x1064d3170, {{33.0, 1469.0}, {284.0, 37.0}}, label: 'in the week, does not count. Neither does self-employed work.', value: in the week, does ..., Focused
+                            StaticText, 0x1064d3290, {{56.0, 1515.0}, {184.0, 19.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                          Other, 0x1064d33b0, {{16.0, 1562.0}, {370.0, 270.0}}, label: 'Export, region', Focused
+                            Other, 0x1064d34d0, {{33.0, 1578.0}, {59.0, 26.0}}, label: 'Export', value: 3, Focused
+                              StaticText, 0x1064d35f0, {{33.0, 1578.0}, {59.0, 26.0}}, label: 'Export', value: Export, Focused
+                            StaticText, 0x1064d3710, {{340.0, 1583.0}, {20.0, 16.0}}, label: 'Pro', value: Pro, Focused
+                            Other, 0x1064d3830, {{33.0, 1607.0}, {336.0, 65.0}}, Focused
+                              StaticText, 0x1064d3950, {{33.0, 1608.0}, {14.0, 20.0}}, label: 'A', value: A , Focused
+                              StaticText, 0x1064d3a70, {{46.0, 1608.0}, {37.0, 20.0}}, label: '2026', value: 2026, Focused
+                              StaticText, 0x1064d3b90, {{33.0, 1608.0}, {334.0, 62.0}}, label: 'summary PDF with totals by month and by job, the deduction worked out line by line, and every shift. A CSV of all your shifts, every year.', value:  summary PDF with ..., Focused
+                            StaticText, 0x1064d3cb0, {{57.0, 1685.0}, {251.0, 20.0}}, label: 'PDF and CSV export are part of Pro.', value: PDF and CSV export..., Focused
+                            Other, 0x1064d3dd0, {{33.0, 1717.0}, {336.0, 38.0}}, Focused
+                              StaticText, 0x1064d3ef0, {{33.0, 1717.0}, {324.0, 37.0}}, label: 'Your backup file, in Settings, is free and holds all your data.', value: Your backup file, ..., Focused
+                            Button, 0x1064d4010, {{33.0, 1765.0}, {336.0, 50.0}}, label: 'See what Pro adds', Focused
+                        Other, 0x1064d4130, {{0.0, 777.0}, {603.0, 98.0}}, label: 'Main, navigation', Focused
+                          Button, 0x1064d4250, {{0.0, 778.0}, {258.0, 63.0}}, label: 'Home', Focused
+                          Button, 0x1064d4370, {{0.0, 778.0}, {258.0, 63.0}}, label: 'Shifts', Focused
+                          Button, 0x1064d4490, {{0.0, 778.0}, {271.0, 63.0}}, label: 'Deduction', Focused
+                          Button, 0x1064d45b0, {{65.0, 778.0}, {257.0, 63.0}}, label: 'Tools', Focused
+                          Button, 0x1064d46d0, {{137.0, 778.0}, {265.0, 63.0}}, label: 'Settings', Focused
+                        Other, 0x1064d47f0, {{0.0, -561.0}, {402.0, 11.0}}, label: 'application status', Focused
+              Other, 0x1064d4910, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 34%
+                Other, 0x1064d4a30, {{396.0, 230.0}, {3.0, 257.3}}
+              Other, 0x1064d4b50, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1064d4c70, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1064d4d90, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 34%
+                Other, 0x1064d4eb0, {{396.0, 230.0}, {3.0, 257.3}}
+              Other, 0x1064d4fd0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1064d50f0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x1064d5210, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1064d5330, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1064d5450, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x106499aa0, pid: 17028, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x1064890e0, pid: 17028, label: 'ShiftLedger'
+  }

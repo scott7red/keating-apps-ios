@@ -1,0 +1,113 @@
+Attributes: Application, 0x103aae460, pid: 16950, label: 'BRRR'
+Element subtree:
+ →Application, 0x103aae460, pid: 16950, label: 'BRRR'
+    Window (Main), 0x103a3aaf0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a30470, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a34cd0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103a30b50, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a2a170, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a376b0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a37a30, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a300f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a4b120, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a4adc0, {{0.0, 0.0}, {402.0, 1862.0}}, label: 'BRRR', Focused
+                        Other, 0x103a49ca0, {{0.0, 0.0}, {402.0, 1739.0}}, label: 'main', Focused
+                          Button, 0x103a4c270, {{8.0, 69.0}, {44.0, 44.0}}, label: 'Back to deals', Focused
+                          Button, 0x103a43f30, {{54.0, 68.0}, {248.0, 46.0}}, label: 'Property: Untitled deal. Edit property details', Focused
+                          Button, 0x103a442a0, {{304.0, 69.0}, {44.0, 44.0}}, label: 'Share deal', Focused
+                          Button, 0x103a3c280, {{350.0, 69.0}, {44.0, 44.0}}, label: 'More actions', Focused
+                          Other, 0x103a3a080, {{16.0, 115.0}, {370.0, 67.0}}, label: 'BRRRR steps, navigation', Focused
+                            Button, 0x103a48190, {{16.0, 115.0}, {74.0, 67.0}}, label: 'Buy: not filled in yet', Focused
+                            Button, 0x103a47e40, {{90.0, 118.0}, {74.0, 64.0}}, label: 'Rehab: not filled in yet', Focused
+                            Button, 0x103a49290, {{164.0, 118.0}, {74.0, 64.0}}, label: 'Rent: not filled in yet', Focused
+                            Button, 0x103a473d0, {{238.0, 118.0}, {74.0, 64.0}}, label: 'Refinance: not filled in yet', Focused
+                            Button, 0x103a47080, {{312.0, 118.0}, {74.0, 64.0}}, label: 'Repeat: not filled in yet', Focused
+                          Other, 0x103a46960, {{16.0, 193.0}, {370.0, 60.0}}, Focused
+                            StaticText, 0x103a46240, {{16.0, 193.0}, {67.0, 14.0}}, label: 'CASH LEFT', value: CASH LEFT, Focused
+                            StaticText, 0x103a46d00, {{82.0, 193.0}, {81.0, 14.0}}, label: 'IN THE DEAL', value: IN THE DEAL, Focused
+                            StaticText, 0x103a47ac0, {{16.0, 208.0}, {20.0, 28.0}}, label: '—', value: —, Focused
+                            StaticText, 0x103a457e0, {{135.0, 193.0}, {89.0, 14.0}}, label: 'CASH FLOW/MO', value: CASH FLOW/MO, Focused
+                            StaticText, 0x103a293f0, {{135.0, 208.0}, {20.0, 28.0}}, label: '—', value: —, Focused
+                            StaticText, 0x103a48bf0, {{334.0, 194.0}, {52.0, 14.0}}, label: 'VERDICT', value: VERDICT, Focused
+                            StaticText, 0x103a47740, {{279.0, 215.0}, {98.0, 16.0}}, label: 'Needs numbers', value: Needs numbers, Focused
+                            StaticText, 0x103a2efc0, {{282.0, 237.0}, {104.0, 14.0}}, label: 'rule-based screen', value: rule-based screen, Focused
+                          Other, 0x103a29070, {{17.0, 278.0}, {374.0, 65.0}}, label: 'Buy Price and financing', value: 2, Focused
+                            Button, 0x103a45ed0, {{17.0, 278.0}, {374.0, 65.0}}, label: 'Buy Price and financing', value: 2, Focused
+                          Other, 0x103a2c030, {{31.0, 346.0}, {340.0, 19.0}}, label: 'Purchase price', Focused
+                            StaticText, 0x103a35aa0, {{31.0, 346.0}, {99.0, 18.0}}, label: 'Purchase price', value: Purchase price, Focused
+                          TextField, 0x103a35e00, {{57.0, 372.0}, {313.0, 57.0}}, label: 'Purchase price', placeholderValue: '0', value: 0, Focused
+                          Other, 0x103a44970, {{31.0, 444.0}, {340.0, 19.0}}, label: 'Closing costs', Focused
+                            StaticText, 0x103a27a10, {{31.0, 444.0}, {89.0, 18.0}}, label: 'Closing costs', value: Closing costs, Focused
+                          TextField, 0x103a2cd80, {{32.0, 472.0}, {238.0, 46.0}}, label: 'Closing costs', placeholderValue: '0', value: 2, Focused
+                          Other, 0x103a35700, {{272.0, 472.0}, {95.0, 45.0}}, label: 'Closing costs: percent or dollars', Focused
+                            Switch, 0x103a2fd80, {{275.0, 475.0}, {43.0, 39.0}}, label: '%', value: 1, Focused
+                            Switch, 0x103a36510, {{321.0, 475.0}, {43.0, 39.0}}, label: '$', value: 0, Focused
+                          StaticText, 0x103a29e10, {{31.0, 528.0}, {153.0, 17.0}}, label: '$0, as a share of the price', value: $0, as a share of ..., Focused
+                          StaticText, 0x103a37330, {{31.0, 559.0}, {119.0, 18.0}}, label: 'How you pay for it', value: How you pay for it, Focused
+                          Other, 0x103a2f320, {{31.0, 583.0}, {340.0, 51.0}}, label: 'Financing', Focused
+                            Switch, 0x103a38b70, {{36.0, 588.0}, {108.0, 41.0}}, label: 'Hard money', value: 1, Focused
+                            Switch, 0x103a2dee0, {{147.0, 588.0}, {108.0, 41.0}}, label: 'Conventional', value: 0, Focused
+                            Switch, 0x103a2d110, {{258.0, 588.0}, {108.0, 41.0}}, label: 'Cash', value: 0, Focused
+                          Other, 0x103a323d0, {{31.0, 647.0}, {164.0, 19.0}}, label: 'Loan-to-cost on price', Focused
+                            StaticText, 0x103a31960, {{31.0, 647.0}, {143.0, 18.0}}, label: 'Loan-to-cost on price', value: Loan-to-cost on pr..., Focused
+                          TextField, 0x103a41c90, {{32.0, 672.0}, {135.0, 46.0}}, label: 'Loan-to-cost on price', placeholderValue: '0', value: 85, Focused
+                          Other, 0x103a415c0, {{207.0, 647.0}, {164.0, 19.0}}, label: 'Rehab financed', Focused
+                            StaticText, 0x103a33190, {{207.0, 647.0}, {102.0, 18.0}}, label: 'Rehab financed', value: Rehab financed, Focused
+                          TextField, 0x103a404b0, {{208.0, 672.0}, {135.0, 46.0}}, label: 'Rehab financed', placeholderValue: '0', value: 100, Focused
+                          Other, 0x103a30800, {{31.0, 733.0}, {164.0, 19.0}}, label: 'Interest rate', Focused
+                            StaticText, 0x103a42a00, {{31.0, 733.0}, {81.0, 18.0}}, label: 'Interest rate', value: Interest rate, Focused
+                          TextField, 0x103a30ef0, {{32.0, 758.0}, {135.0, 46.0}}, label: 'Interest rate', placeholderValue: '0', value: 11, Focused
+                          Other, 0x103a37da0, {{207.0, 733.0}, {164.0, 19.0}}, label: 'Points', Focused
+                            StaticText, 0x103a44610, {{207.0, 733.0}, {42.0, 18.0}}, label: 'Points', value: Points, Focused
+                          TextField, 0x103aa3240, {{208.0, 758.0}, {126.0, 46.0}}, label: 'Points', placeholderValue: '0', value: 2, Focused
+                          Other, 0x103a2c380, {{31.0, 819.0}, {340.0, 19.0}}, label: 'Other lender fees', Focused
+                            StaticText, 0x103a2e250, {{31.0, 819.0}, {115.0, 18.0}}, label: 'Other lender fees', value: Other lender fees, Focused
+                          TextField, 0x103a41910, {{54.0, 844.0}, {316.0, 46.0}}, label: 'Other lender fees', placeholderValue: '0', value: 0, Focused
+                          StaticText, 0x103a39680, {{31.0, 898.0}, {303.0, 17.0}}, label: 'Underwriting, processing, draw and document fees.', value: Underwriting, proc..., Focused
+                          Switch, 0x103a41ff0, {{31.0, 929.0}, {340.0, 58.0}}, label: 'Interest-only Most hard money and private loans are. Switch off for an amortizing loan.', value: 1, Focused
+                          StaticText, 0x103a45b60, {{44.0, 1012.0}, {96.0, 15.0}}, label: 'CASH TO CLOSE', value: CASH TO CLOSE, Focused
+                          Button, 0x103a42350, {{44.0, 1030.0}, {24.0, 19.0}}, label: '$0 , show how it is calculated', Focused
+                          StaticText, 0x103a465c0, {{152.0, 1012.0}, {30.0, 15.0}}, label: 'LOAN', value: LOAN, Focused
+                          Button, 0x103a3bb80, {{152.0, 1030.0}, {24.0, 19.0}}, label: '$0 , show how it is calculated', Focused
+                          StaticText, 0x103a342a0, {{260.0, 1012.0}, {89.0, 15.0}}, label: 'POINTS, FEES', value: POINTS, FEES, Focused
+                          Button, 0x103a34970, {{260.0, 1030.0}, {24.0, 19.0}}, label: '$0 , show how it is calculated', Focused
+                          Button, 0x103a34610, {{31.0, 1075.0}, {340.0, 49.0}}, label: 'Next: Rehab', Focused
+                          Other, 0x103a35040, {{17.0, 1153.0}, {368.0, 65.0}}, label: 'Rehab Budget, timeline and holding costs', value: 2, Focused
+                            Button, 0x103a31270, {{17.0, 1153.0}, {368.0, 65.0}}, label: 'Rehab Budget, timeline and holding costs', value: 2, Focused
+                          Other, 0x103a36180, {{17.0, 1231.0}, {368.0, 65.0}}, label: 'Rent Rent and running costs', value: 2, Focused
+                            Button, 0x103a36c30, {{17.0, 1231.0}, {368.0, 65.0}}, label: 'Rent Rent and running costs', value: 2, Focused
+                          Other, 0x103a28d00, {{17.0, 1309.0}, {368.0, 65.0}}, label: 'Refinance After-repair value and new loan', value: 2, Focused
+                            Button, 0x103a36fd0, {{17.0, 1309.0}, {368.0, 65.0}}, label: 'Refinance After-repair value and new loan', value: 2, Focused
+                          Other, 0x103a2e5b0, {{17.0, 1387.0}, {368.0, 65.0}}, label: 'Repeat Capital and long-term assumptions', value: 2, Focused
+                            Button, 0x103a33860, {{17.0, 1387.0}, {368.0, 65.0}}, label: 'Repeat Capital and long-term assumptions', value: 2, Focused
+                          Other, 0x103a368b0, {{16.0, 1476.0}, {370.0, 263.0}}, label: 'Results, region', Focused
+                            Other, 0x103a3b160, {{56.0, 1573.0}, {290.0, 25.0}}, Focused
+                              StaticText, 0x103a384c0, {{56.0, 1574.0}, {290.0, 23.0}}, label: 'Four numbers get you a first answer', value: Four numbers get y..., Focused
+                            StaticText, 0x103a4aa30, {{59.0, 1606.0}, {284.0, 58.0}}, label: 'Purchase price, rehab budget, rent and after-repair value. Everything else starts from your default assumptions and can be refined later.', value: Purchase price, re..., Focused
+                            StaticText, 0x103a33f30, {{67.0, 1674.0}, {77.0, 17.0}}, label: 'Still needed:', value: Still needed: , Focused
+                            StaticText, 0x103a35390, {{143.0, 1674.0}, {192.0, 35.0}}, label: 'purchase price, rent, after-repair value', value: purchase price, re..., Focused
+                            StaticText, 0x103a334e0, {{214.0, 1692.0}, {5.0, 17.0}}, label: '.', value: ., Focused
+                        Other, 0x103a2b5f0, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x103a3b4c0, {{0.0, 778.0}, {81.0, 62.0}}, label: 'Deals', Focused
+                          Button, 0x103a32740, {{80.0, 778.0}, {81.0, 62.0}}, label: 'Analyze', Focused
+                          Button, 0x103a32040, {{160.0, 778.0}, {82.0, 62.0}}, label: 'Markets', Focused
+                          Button, 0x103a48880, {{241.0, 778.0}, {81.0, 62.0}}, label: 'Learn', Focused
+                          Button, 0x103a49600, {{321.0, 778.0}, {81.0, 62.0}}, label: 'Settings', Focused
+              Other, 0x103a48f50, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 0%
+                Other, 0x103a49950, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a49ff0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a4a6b0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a43500, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 0%
+                Other, 0x103a4a350, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a484f0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a43880, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103a3a740, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a3b820, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a399d0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103aae460, pid: 16950, label: 'BRRR'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.brrr'
+  Output: {
+    Application, 0x103c3a9f0, pid: 16950, label: 'BRRR'
+  }

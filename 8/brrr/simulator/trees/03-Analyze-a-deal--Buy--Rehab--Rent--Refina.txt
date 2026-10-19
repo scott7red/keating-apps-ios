@@ -1,0 +1,533 @@
+Attributes: Application, 0x103aae460, pid: 16950, label: 'BRRR'
+Element subtree:
+ →Application, 0x103aae460, pid: 16950, label: 'BRRR'
+    Window (Main), 0x103a68020, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a3ae00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a5b660, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103a4bba0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a68700, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a3a740, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a30470, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a30b50, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a43880, {{0.0, -404.0}, {402.0, 874.0}}
+                      Other, 0x103a2d110, {{0.0, -404.0}, {402.0, 6494.0}}, label: 'BRRR', Focused
+                        Other, 0x103a34cd0, {{0.0, -404.0}, {402.0, 6370.0}}, label: 'main', Focused
+                          Button, 0x103a2fd80, {{8.0, 69.0}, {44.0, 44.0}}, label: 'Back to deals', Focused
+                          Button, 0x103a29e10, {{54.0, 68.0}, {248.0, 46.0}}, label: 'Property: Untitled deal. Edit property details', Focused
+                          Button, 0x103a514d0, {{304.0, 69.0}, {44.0, 44.0}}, label: 'Share deal', Focused
+                          Button, 0x103a50740, {{350.0, 69.0}, {44.0, 44.0}}, label: 'More actions', Focused
+                          Other, 0x103a51840, {{16.0, 118.0}, {370.0, 64.0}}, label: 'BRRRR steps, navigation', Focused
+                            Button, 0x103964a90, {{16.0, 118.0}, {74.0, 64.0}}, label: 'Buy: filled in', Focused
+                            Button, 0x103964dd0, {{90.0, 118.0}, {74.0, 64.0}}, label: 'Rehab: filled in', Focused
+                            Button, 0x1039be810, {{164.0, 118.0}, {74.0, 64.0}}, label: 'Rent: filled in', Focused
+                            Button, 0x1039bec30, {{238.0, 118.0}, {74.0, 64.0}}, label: 'Refinance: filled in', Focused
+                            Button, 0x1039c06c0, {{312.0, 118.0}, {74.0, 64.0}}, label: 'Repeat: not filled in yet', Focused
+                          Other, 0x1039bfe80, {{16.0, 193.0}, {370.0, 60.0}}, Focused
+                            StaticText, 0x1039c0ae0, {{16.0, 193.0}, {67.0, 14.0}}, label: 'CASH LEFT', value: CASH LEFT, Focused
+                            StaticText, 0x1039c02a0, {{82.0, 193.0}, {81.0, 14.0}}, label: 'IN THE DEAL', value: IN THE DEAL, Focused
+                            StaticText, 0x103965610, {{16.0, 208.0}, {94.0, 28.0}}, label: '$44,605', value: $44,605, Focused
+                            StaticText, 0x1039651f0, {{149.0, 193.0}, {89.0, 14.0}}, label: 'CASH FLOW/MO', value: CASH FLOW/MO, Focused
+                            StaticText, 0x103959910, {{149.0, 208.0}, {44.0, 28.0}}, label: '$76', value: $76, Focused
+                            StaticText, 0x103959a30, {{149.0, 237.0}, {113.0, 14.0}}, label: '2.0% cash-on-cash', value: 2.0% cash-on-cash, Focused
+                            StaticText, 0x103958310, {{334.0, 194.0}, {52.0, 14.0}}, label: 'VERDICT', value: VERDICT, Focused
+                            StaticText, 0x103958430, {{349.0, 215.0}, {28.0, 16.0}}, label: 'Thin', value: Thin, Focused
+                            StaticText, 0x103952ff0, {{282.0, 237.0}, {104.0, 14.0}}, label: 'rule-based screen', value: rule-based screen, Focused
+                          Other, 0x103953110, {{17.0, -126.0}, {368.0, 65.0}}, label: 'Buy $120,000 · hard money', value: 2, Focused
+                            Button, 0x103969f20, {{17.0, -126.0}, {368.0, 65.0}}, label: 'Buy $120,000 · hard money', value: 2, Focused
+                          Other, 0x10396a040, {{17.0, -48.0}, {368.0, 65.0}}, label: 'Rehab $33,000 over 3 months', value: 2, Focused
+                            Button, 0x103967b70, {{17.0, -48.0}, {368.0, 65.0}}, label: 'Rehab $33,000 over 3 months', value: 2, Focused
+                          Other, 0x103967c90, {{17.0, 30.0}, {368.0, 65.0}}, label: 'Rent $1,600 rent · NOI $998', value: 2, Focused
+                            Button, 0x103957cb0, {{17.0, 30.0}, {368.0, 65.0}}, label: 'Rent $1,600 rent · NOI $998', value: 2, Focused
+                          Other, 0x103957dd0, {{17.0, 108.0}, {368.0, 65.0}}, label: 'Refinance ARV $210,000 · loan $122k', value: 2, Focused
+                            Button, 0x1039bf270, {{17.0, 108.0}, {368.0, 65.0}}, label: 'Refinance ARV $210,000 · loan $122k', value: 2, Focused
+                          Other, 0x1039bf390, {{17.0, 186.0}, {368.0, 65.0}}, label: 'Repeat Capital and long-term assumptions', value: 2, Focused
+                            Button, 0x1039bf4b0, {{17.0, 186.0}, {368.0, 65.0}}, label: 'Repeat Capital and long-term assumptions', value: 2, Focused
+                          Other, 0x10395f6f0, {{16.0, 275.0}, {370.0, 643.0}}, label: 'Verdict, region', Focused
+                            StaticText, 0x10395f810, {{33.0, 299.0}, {208.0, 15.0}}, label: 'VERDICT · RULE-BASED SCREEN', value: VERDICT · RULE-BAS..., Focused
+                            Other, 0x10395f930, {{33.0, 319.0}, {208.0, 40.0}}, Focused
+                              StaticText, 0x10395fa50, {{33.0, 319.0}, {65.0, 40.0}}, label: 'Thin', value: Thin, Focused
+                            StaticText, 0x10395fb70, {{322.0, 299.0}, {47.0, 15.0}}, label: 'POINTS', value: POINTS, Focused
+                            Other, 0x10395fc90, {{322.0, 320.0}, {47.0, 29.0}}, Focused
+                              StaticText, 0x10395fdb0, {{325.0, 320.0}, {16.0, 29.0}}, label: '4', value: 4, Focused
+                              StaticText, 0x10395fed0, {{340.0, 329.0}, {12.0, 18.0}}, label: '/', value:  / , Focused
+                              StaticText, 0x10395fff0, {{351.0, 329.0}, {18.0, 18.0}}, label: '10', value: 10, Focused
+                            Other, 0x1039c29e0, {{33.0, 385.0}, {336.0, 43.0}}, Focused
+                              StaticText, 0x1039c2b00, {{33.0, 386.0}, {318.0, 40.0}}, label: 'It can work only if everything goes to plan. Little margin for error.', value: It can work only i..., Focused
+                            Other, 0x1039c2c20, {{69.0, 448.0}, {252.0, 22.0}}, Focused
+                              StaticText, 0x1039c2d40, {{69.0, 449.0}, {101.0, 19.0}}, label: 'Cash recycled', value: Cash recycled, Focused
+                            Other, 0x1039c2e60, {{69.0, 469.0}, {252.0, 37.0}}, Focused
+                              StaticText, 0x1039c3220, {{69.0, 469.0}, {234.0, 36.0}}, label: '0% of the cash invested comes back. $44,605 stays in the deal.', value: 0% of the cash inv..., Focused
+                            StaticText, 0x1039c3340, {{330.0, 452.0}, {39.0, 17.0}}, label: '0 / 2', value: 0 / 2, Focused
+                            Other, 0x1039c3460, {{69.0, 530.0}, {252.0, 22.0}}, Focused
+                              StaticText, 0x1039c3580, {{69.0, 531.0}, {129.0, 19.0}}, label: 'Cash flow per unit', value: Cash flow per unit, Focused
+                            Other, 0x1039c36a0, {{69.0, 551.0}, {252.0, 37.0}}, Focused
+                              StaticText, 0x1039c37c0, {{69.0, 551.0}, {188.0, 36.0}}, label: '$76 a month per unit after the refinance.', value: $76 a month per un..., Focused
+                            StaticText, 0x1039c38e0, {{330.0, 534.0}, {39.0, 17.0}}, label: '0 / 2', value: 0 / 2, Focused
+                            Other, 0x1039c3a00, {{69.0, 612.0}, {252.0, 22.0}}, Focused
+                              StaticText, 0x1039c3b20, {{69.0, 613.0}, {160.0, 19.0}}, label: 'Debt coverage (DSCR)', value: Debt coverage (DSCR), Focused
+                            Other, 0x1039c3c40, {{69.0, 633.0}, {252.0, 55.0}}, Focused
+                              StaticText, 0x1039c3d60, {{69.0, 633.0}, {248.0, 54.0}}, label: '1.20x against a lender minimum of 1.20x. The loan was sized down to meet it.', value: 1.20x against a le..., Focused
+                            StaticText, 0x1039c3e80, {{330.0, 616.0}, {39.0, 17.0}}, label: '1 / 2', value: 1 / 2, Focused
+                            Other, 0x1039689d0, {{69.0, 712.0}, {252.0, 22.0}}, Focused
+                              StaticText, 0x103968af0, {{69.0, 713.0}, {65.0, 19.0}}, label: '70% rule', value: 70% rule, Focused
+                            Other, 0x103968c10, {{69.0, 733.0}, {252.0, 37.0}}, Focused
+                              StaticText, 0x103968d30, {{69.0, 733.0}, {209.0, 36.0}}, label: 'Price is $6,000 over the 70% rule maximum of $114,000.', value: Price is $6,000 ov..., Focused
+                            StaticText, 0x103968e50, {{330.0, 716.0}, {39.0, 17.0}}, label: '1 / 2', value: 1 / 2, Focused
+                            Other, 0x103968f70, {{69.0, 794.0}, {252.0, 22.0}}, Focused
+                              StaticText, 0x103969090, {{69.0, 795.0}, {155.0, 19.0}}, label: 'Equity after refinance', value: Equity after refin..., Focused
+                            Other, 0x1039691b0, {{69.0, 815.0}, {252.0, 37.0}}, Focused
+                              StaticText, 0x1039692d0, {{69.0, 815.0}, {227.0, 36.0}}, label: '$88,037 of equity, 42% of the after-repair value.', value: $88,037 of equity,..., Focused
+                            StaticText, 0x1039693f0, {{330.0, 798.0}, {39.0, 17.0}}, label: '2 / 2', value: 2 / 2, Focused
+                            Other, 0x103969510, {{33.0, 863.0}, {336.0, 48.0}}, Focused
+                              Button, 0x103969630, {{33.0, 864.0}, {336.0, 47.0}}, label: 'How the verdict is decided', Focused
+                                Button, 0x103969750, {{33.0, 879.0}, {176.0, 18.0}}, label: 'How the verdict is decided', value: How the verdict is..., Focused
+                          Other, 0x103969870, {{58.0, 941.0}, {314.0, 134.0}}, Focused
+                            StaticText, 0x103969990, {{58.0, 942.0}, {158.0, 18.0}}, label: 'Estimated, not entered:', value: Estimated, not ent..., Focused
+                            StaticText, 0x103969ab0, {{58.0, 942.0}, {301.0, 94.0}}, label: 'property tax while holding ($110 a month); insurance while holding ($88 a month); property tax after the refinance ($2,310 a year, 1.1% of ARV); insurance after the refinance ($1,050 a year, 0.5% of ARV)', value: property tax while..., Focused
+                            StaticText, 0x103969bd0, {{58.0, 1018.0}, {299.0, 56.0}}, label: '. Replace these with real figures before you rely on the result.', value: . Replace these wi..., Focused
+                          Other, 0x1039cd260, {{16.0, 1119.0}, {370.0, 1741.0}}, label: 'BRRRR scorecard, region', Focused
+                            Other, 0x1039cd380, {{16.0, 1119.0}, {162.0, 26.0}}, label: 'BRRRR scorecard', value: 2, Focused
+                              StaticText, 0x1039cd4a0, {{16.0, 1119.0}, {162.0, 26.0}}, label: 'BRRRR scorecard', value: BRRRR scorecard, Focused
+                            StaticText, 0x1039cd5c0, {{219.0, 1127.0}, {167.0, 17.0}}, label: 'Tap a number for its working', value: Tap a number for i..., Focused
+                            Other, 0x1039cd6e0, {{79.0, 1171.0}, {290.0, 37.0}}, label: 'Buy', value: 3, Focused
+                              StaticText, 0x1039cd800, {{79.0, 1178.0}, {32.0, 23.0}}, label: 'Buy', value: Buy, Focused
+                            StaticText, 0x1039cd920, {{79.0, 1217.0}, {100.0, 19.0}}, label: 'Purchase price', value: Purchase price, Focused
+                            StaticText, 0x1039cda40, {{297.0, 1217.0}, {72.0, 19.0}}, label: '$120,000', value: $120,000, Focused
+                            StaticText, 0x1039cdb60, {{79.0, 1259.0}, {94.0, 19.0}}, label: 'Purchase loan', value: Purchase loan, Focused
+                            Button, 0x1039cdc80, {{297.0, 1258.0}, {72.0, 22.0}}, label: '$135,000 , show how it is calculated', Focused
+                            StaticText, 0x1039cdda0, {{79.0, 1301.0}, {103.0, 19.0}}, label: 'Points and fees', value: Points and fees, Focused
+                            Button, 0x1039cdec0, {{316.0, 1300.0}, {53.0, 22.0}}, label: '$2,700 , show how it is calculated', Focused
+                            StaticText, 0x1039cdfe0, {{79.0, 1349.0}, {96.0, 19.0}}, label: 'Cash to close', value: Cash to close, Focused
+                            Button, 0x1039ce100, {{295.0, 1345.0}, {74.0, 25.0}}, label: '$23,100 , show how it is calculated', Focused
+                            Other, 0x1039ce220, {{79.0, 1410.0}, {290.0, 37.0}}, label: 'Rehab', value: 3, Focused
+                              StaticText, 0x1039ce340, {{79.0, 1417.0}, {51.0, 23.0}}, label: 'Rehab', value: Rehab, Focused
+                            StaticText, 0x1039ce460, {{79.0, 1456.0}, {76.0, 19.0}}, label: 'Rehab total', value: Rehab total, Focused
+                            Button, 0x1039ce580, {{306.0, 1455.0}, {63.0, 22.0}}, label: '$33,000 , show how it is calculated', Focused
+                            StaticText, 0x1039ce6a0, {{79.0, 1498.0}, {126.0, 19.0}}, label: 'Rehab paid in cash', value: Rehab paid in cash, Focused
+                            Button, 0x1039ce7c0, {{349.0, 1497.0}, {21.0, 22.0}}, label: '$0 , show how it is calculated', Focused
+                            StaticText, 0x1039ce8e0, {{79.0, 1540.0}, {200.0, 19.0}}, label: 'Loan interest before refinance', value: Loan interest befo..., Focused
+                            Button, 0x1039cea00, {{316.0, 1539.0}, {53.0, 22.0}}, label: '$6,971 , show how it is calculated', Focused
+                            StaticText, 0x1039ceb20, {{79.0, 1582.0}, {163.0, 19.0}}, label: 'Holding costs, 6 months', value: Holding costs, 6 m..., Focused
+                            Button, 0x1039cec40, {{316.0, 1581.0}, {53.0, 22.0}}, label: '$5,419 , show how it is calculated', Focused
+                            StaticText, 0x1039ced60, {{79.0, 1624.0}, {68.0, 19.0}}, label: 'All-in cost', value: All-in cost, Focused
+                            Button, 0x1039cee80, {{297.0, 1623.0}, {72.0, 22.0}}, label: '$166,256 , show how it is calculated', Focused
+                            StaticText, 0x1039cefa0, {{79.0, 1673.0}, {137.0, 19.0}}, label: 'Total cash invested', value: Total cash invested, Focused
+                            Button, 0x1039cf0c0, {{295.0, 1669.0}, {74.0, 25.0}}, label: '$28,519 , show how it is calculated', Focused
+                            Other, 0x1039cf1e0, {{79.0, 1734.0}, {290.0, 37.0}}, label: 'Rent', value: 3, Focused
+                              StaticText, 0x1039cf300, {{79.0, 1741.0}, {38.0, 23.0}}, label: 'Rent', value: Rent, Focused
+                            StaticText, 0x1039cf420, {{79.0, 1780.0}, {152.0, 19.0}}, label: 'Effective gross income', value: Effective gross in..., Focused
+                            Button, 0x1039cf540, {{316.0, 1779.0}, {53.0, 22.0}}, label: '$1,504 , show how it is calculated', Focused
+                            StaticText, 0x1039cf7b0, {{79.0, 1822.0}, {134.0, 19.0}}, label: 'Operating expenses', value: Operating expenses, Focused
+                            Button, 0x1039cf8d0, {{330.0, 1821.0}, {39.0, 22.0}}, label: '$506 , show how it is calculated', Focused
+                            StaticText, 0x1039cf9f0, {{79.0, 1864.0}, {26.0, 19.0}}, label: 'NOI', value: NOI, Focused
+                            Button, 0x1039cfb10, {{330.0, 1863.0}, {39.0, 22.0}}, label: '$998 , show how it is calculated', Focused
+                            StaticText, 0x1039cfc30, {{79.0, 1906.0}, {96.0, 19.0}}, label: 'Capex reserve', value: Capex reserve, Focused
+                            Button, 0x1039cfd50, {{340.0, 1905.0}, {29.0, 22.0}}, label: '$90 , show how it is calculated', Focused
+                            StaticText, 0x1039cfe70, {{79.0, 1948.0}, {141.0, 19.0}}, label: 'Principal and interest', value: Principal and inte..., Focused
+                            Button, 0x1039cff90, {{330.0, 1947.0}, {39.0, 22.0}}, label: '$832 , show how it is calculated', Focused
+                            StaticText, 0x1039d00b0, {{79.0, 1996.0}, {151.0, 19.0}}, label: 'Cash flow, per month', value: Cash flow, per month, Focused
+                            Button, 0x1039d01d0, {{335.0, 1992.0}, {34.0, 25.0}}, label: '$76 , show how it is calculated', Focused
+                            Other, 0x1039d02f0, {{79.0, 2025.0}, {290.0, 35.0}}, Focused
+                              StaticText, 0x1039d0410, {{79.0, 2030.0}, {245.0, 17.0}}, label: 'NOI excludes the capex reserve and debt.', value: NOI excludes the c..., Focused
+                            Other, 0x1039d0530, {{79.0, 2091.0}, {290.0, 37.0}}, label: 'Refinance', value: 3, Focused
+                              StaticText, 0x1039d0650, {{79.0, 2098.0}, {81.0, 23.0}}, label: 'Refinance', value: Refinance, Focused
+                            StaticText, 0x1039d0770, {{79.0, 2137.0}, {62.0, 19.0}}, label: 'New loan', value: New loan, Focused
+                            StaticText, 0x1039d0890, {{151.0, 2139.0}, {101.0, 17.0}}, label: 'limited by DSCR', value: limited by DSCR, Focused
+                            Button, 0x1039d09b0, {{297.0, 2136.0}, {72.0, 22.0}}, label: '$121,963 , show how it is calculated', Focused
+                            StaticText, 0x1039d0ad0, {{79.0, 2179.0}, {94.0, 19.0}}, label: 'Loan-to-value', value: Loan-to-value, Focused
+                            Button, 0x1039cf660, {{320.0, 2178.0}, {50.0, 22.0}}, label: '58.1% , show how it is calculated', Focused
+                            StaticText, 0x1039d0e10, {{79.0, 2221.0}, {183.0, 19.0}}, label: 'Payoff of the purchase loan', value: Payoff of the purc..., Focused
+                            Button, 0x1039d0f30, {{297.0, 2220.0}, {72.0, 22.0}}, label: '$135,000 , show how it is calculated', Focused
+                            StaticText, 0x1039d1050, {{79.0, 2263.0}, {106.0, 19.0}}, label: 'Refinance costs', value: Refinance costs, Focused
+                            Button, 0x1039d1170, {{316.0, 2262.0}, {53.0, 22.0}}, label: '$3,049 , show how it is calculated', Focused
+                            StaticText, 0x1039d1290, {{79.0, 2305.0}, {60.0, 19.0}}, label: 'Cash out', value: Cash out, Focused
+                            Button, 0x1039d13b0, {{297.0, 2304.0}, {72.0, 22.0}}, label: '−$16,086 , show how it is calculated', Focused
+                            StaticText, 0x1039d14d0, {{79.0, 2347.0}, {143.0, 19.0}}, label: 'Equity after refinance', value: Equity after refin..., Focused
+                            Button, 0x1039d15f0, {{306.0, 2346.0}, {63.0, 22.0}}, label: '$88,037 , show how it is calculated', Focused
+                            StaticText, 0x1039d1710, {{79.0, 2389.0}, {97.0, 19.0}}, label: 'Equity created', value: Equity created, Focused
+                            Button, 0x1039c1120, {{306.0, 2388.0}, {63.0, 22.0}}, label: '$43,744 , show how it is calculated', Focused
+                            StaticText, 0x1039c1240, {{79.0, 2437.0}, {141.0, 19.0}}, label: 'Cash left in the deal', value: Cash left in the d..., Focused
+                            Button, 0x1039c1360, {{295.0, 2433.0}, {74.0, 25.0}}, label: '$44,605 , show how it is calculated', Focused
+                            Other, 0x1039c1480, {{79.0, 2466.0}, {290.0, 53.0}}, Focused
+                              StaticText, 0x1039c15a0, {{79.0, 2471.0}, {20.0, 17.0}}, label: '0%', value: 0%, Focused
+                              StaticText, 0x1039c16c0, {{79.0, 2471.0}, {253.0, 35.0}}, label: 'of the cash invested comes back at the refinance.', value:  of the cash inves..., Focused
+                            Other, 0x1039c17e0, {{79.0, 2550.0}, {290.0, 37.0}}, label: 'Repeat', value: 3, Focused
+                              StaticText, 0x1039c1900, {{79.0, 2557.0}, {57.0, 23.0}}, label: 'Repeat', value: Repeat, Focused
+                            StaticText, 0x1039c1a20, {{79.0, 2596.0}, {152.0, 19.0}}, label: 'Share of cash recycled', value: Share of cash recy..., Focused
+                            Button, 0x1039c1b40, {{344.0, 2595.0}, {26.0, 22.0}}, label: '0% , show how it is calculated', Focused
+                            StaticText, 0x1039c1c60, {{79.0, 2638.0}, {57.0, 19.0}}, label: 'Cap rate', value: Cap rate, Focused
+                            Button, 0x1039c1d80, {{320.0, 2637.0}, {50.0, 22.0}}, label: '5.71% , show how it is calculated', Focused
+                            StaticText, 0x1039d1a80, {{79.0, 2680.0}, {87.0, 19.0}}, label: 'Yield on cost', value: Yield on cost, Focused
+                            Button, 0x1039d1ba0, {{320.0, 2679.0}, {50.0, 22.0}}, label: '7.21% , show how it is calculated', Focused
+                            StaticText, 0x1039d1cc0, {{79.0, 2722.0}, {39.0, 19.0}}, label: 'DSCR', value: DSCR, Focused
+                            Button, 0x1039d1de0, {{327.0, 2721.0}, {43.0, 22.0}}, label: '1.20x , show how it is calculated', Focused
+                            StaticText, 0x1039d1f00, {{79.0, 2771.0}, {149.0, 19.0}}, label: 'Cash-on-cash return', value: Cash-on-cash return, Focused
+                            Button, 0x1039d2020, {{322.0, 2767.0}, {48.0, 25.0}}, label: '2.0% , show how it is calculated', Focused
+                            Other, 0x1039d2140, {{79.0, 2800.0}, {290.0, 53.0}}, Focused
+                              StaticText, 0x1039d2260, {{79.0, 2805.0}, {118.0, 17.0}}, label: 'Annual cash flow of', value: Annual cash flow of , Focused
+                              StaticText, 0x1039d2380, {{196.0, 2805.0}, {31.0, 17.0}}, label: '$914', value: $914, Focused
+                              StaticText, 0x1039d24a0, {{226.0, 2805.0}, {22.0, 17.0}}, label: 'on', value:  on , Focused
+                              StaticText, 0x1039d25c0, {{247.0, 2805.0}, {52.0, 17.0}}, label: '$44,605', value: $44,605, Focused
+                              StaticText, 0x1039d26e0, {{79.0, 2805.0}, {278.0, 35.0}}, label: 'left in the deal.', value:  left in the deal., Focused
+                          Other, 0x1039d0bf0, {{16.0, 2892.0}, {370.0, 600.0}}, label: 'Rules of thumb, region', Focused
+                            Other, 0x1039d2b70, {{16.0, 2892.0}, {139.0, 26.0}}, label: 'Rules of thumb', value: 2, Focused
+                              StaticText, 0x1039d2c90, {{16.0, 2892.0}, {139.0, 26.0}}, label: 'Rules of thumb', value: Rules of thumb, Focused
+                            Other, 0x103a51160, {{69.0, 2946.0}, {253.0, 22.0}}, Focused
+                              StaticText, 0x103a51bb0, {{69.0, 2947.0}, {65.0, 19.0}}, label: '70% rule', value: 70% rule, Focused
+                            Other, 0x103a50ab0, {{69.0, 2967.0}, {253.0, 19.0}}, Focused
+                              StaticText, 0x103a50060, {{69.0, 2967.0}, {250.0, 18.0}}, label: 'Price is $6,000 over the maximum offer.', value: Price is $6,000 ov..., Focused
+                            Other, 0x1039d2db0, {{69.0, 2988.0}, {253.0, 52.0}}, Focused
+                              StaticText, 0x103c3a9f0, {{69.0, 2988.0}, {235.0, 51.0}}, label: 'Maximum offer = $210,000 ARV x 70% - $33,000 rehab = $114,000. Your price: $120,000.', value: Maximum offer = $2..., Focused
+                            StaticText, 0x103c0e120, {{338.0, 2949.0}, {22.0, 17.0}}, label: 'Fail', value: Fail, Focused
+                            Other, 0x103c47ed0, {{69.0, 3064.0}, {245.0, 22.0}}, Focused
+                              StaticText, 0x103a503b0, {{69.0, 3065.0}, {54.0, 19.0}}, label: '1% rule', value: 1% rule, Focused
+                            Other, 0x103a50e20, {{69.0, 3085.0}, {245.0, 19.0}}, Focused
+                              StaticText, 0x103a3b820, {{69.0, 3085.0}, {209.0, 18.0}}, label: 'Rent is 1.05% of price plus rehab.', value: Rent is 1.05% of p..., Focused
+                            Other, 0x103a4f5d0, {{69.0, 3106.0}, {245.0, 35.0}}, Focused
+                              StaticText, 0x103a3aab0, {{69.0, 3106.0}, {237.0, 34.0}}, label: '1% of $153,000 (price + rehab) = $1,530 a month. Your rent: $1,600.', value: 1% of $153,000 (pr..., Focused
+                            StaticText, 0x103a5dc20, {{330.0, 3067.0}, {30.0, 17.0}}, label: 'Pass', value: Pass, Focused
+                            Other, 0x103a4e4d0, {{69.0, 3165.0}, {253.0, 22.0}}, Focused
+                              StaticText, 0x103a4fcd0, {{69.0, 3166.0}, {66.0, 19.0}}, label: '50% rule', value: 50% rule, Focused
+                            Other, 0x103aa3240, {{69.0, 3186.0}, {253.0, 37.0}}, Focused
+                              StaticText, 0x103a66b40, {{69.0, 3186.0}, {250.0, 36.0}}, label: 'Your costs before the mortgage are 43% of income. The rule assumes 50%.', value: Your costs before ..., Focused
+                            Other, 0x103a667d0, {{69.0, 3225.0}, {253.0, 86.0}}, Focused
+                              StaticText, 0x103a41c90, {{69.0, 3225.0}, {249.0, 85.0}}, label: 'At 50%: $1,600 income - $800 expenses - $832 loan payment = −$32 a month. Your own inputs are lighter than the rule: vacancy, operating expenses and capex come to $692.', value: At 50%: $1,600 inc..., Focused
+                            StaticText, 0x103a60fe0, {{338.0, 3168.0}, {22.0, 17.0}}, label: 'Fail', value: Fail, Focused
+                            Other, 0x103a49ca0, {{69.0, 3335.0}, {253.0, 22.0}}, Focused
+                              StaticText, 0x103a368b0, {{69.0, 3336.0}, {92.0, 19.0}}, label: 'Rent-to-ARV', value: Rent-to-ARV, Focused
+                            Other, 0x103a334e0, {{69.0, 3356.0}, {253.0, 19.0}}, Focused
+                              StaticText, 0x103a33860, {{69.0, 3356.0}, {242.0, 18.0}}, label: 'Rent is 0.76% of the after-repair value.', value: Rent is 0.76% of t..., Focused
+                            Other, 0x103a2a4f0, {{69.0, 3377.0}, {253.0, 52.0}}, Focused
+                              StaticText, 0x103a3db00, {{69.0, 3377.0}, {246.0, 51.0}}, label: '$1,600 rent / $210,000 ARV. The line used here is 0.8%: below it, a 75% refinance rarely pays for itself.', value: $1,600 rent / $210..., Focused
+                            StaticText, 0x103a4b120, {{338.0, 3338.0}, {22.0, 17.0}}, label: 'Fail', value: Fail, Focused
+                            Other, 0x103a5ed70, {{16.0, 3455.0}, {370.0, 37.0}}, Focused
+                              StaticText, 0x103a32040, {{16.0, 3456.0}, {340.0, 35.0}}, label: 'Rules of thumb are quick filters. Learn has a note on when each one misleads.', value: Rules of thumb are..., Focused
+                          Other, 0x103a376b0, {{16.0, 3524.0}, {370.0, 547.0}}, label: 'Solvers, region', Focused
+                            Other, 0x103a3c280, {{16.0, 3524.0}, {69.0, 26.0}}, label: 'Solvers', value: 2, Focused
+                              StaticText, 0x103a36510, {{16.0, 3524.0}, {69.0, 26.0}}, label: 'Solvers', value: Solvers, Focused
+                            StaticText, 0x103a31270, {{226.0, 3532.0}, {160.0, 17.0}}, label: 'Work backward from a goal', value: Work backward from..., Focused
+                            Other, 0x103a442a0, {{33.0, 3578.0}, {262.0, 22.0}}, Focused
+                              StaticText, 0x103a59ea0, {{33.0, 3579.0}, {262.0, 19.0}}, label: 'Maximum price that recycles all cash', value: Maximum price that..., Focused
+                            StaticText, 0x103a58280, {{33.0, 3600.0}, {74.0, 24.0}}, label: '$79,049', value: $79,049, Focused
+                            Other, 0x103a5a570, {{33.0, 3625.0}, {336.0, 39.0}}, Focused
+                              StaticText, 0x103a6a5a0, {{33.0, 3626.0}, {326.0, 37.0}}, label: 'Pay this or less and the refinance returns everything you put in.', value: Pay this or less a..., Focused
+                            Button, 0x103a6bdd0, {{33.0, 3663.0}, {176.0, 45.0}}, label: 'Use $79,049 as the price', Focused
+                            Other, 0x103a60550, {{33.0, 3732.0}, {236.0, 22.0}}, Focused
+                              StaticText, 0x103a61350, {{33.0, 3733.0}, {236.0, 19.0}}, label: 'Maximum price for $200 a month', value: Maximum price for ..., Focused
+                            StaticText, 0x103a601d0, {{295.0, 3729.0}, {74.0, 24.0}}, label: '$62,799', value: $62,799, Focused
+                            Other, 0x103a5fe80, {{33.0, 3757.0}, {336.0, 77.0}}, Focused
+                              StaticText, 0x103a616c0, {{33.0, 3758.0}, {335.0, 75.0}}, label: 'Cash flow depends on the new loan, not the price. To leave $200 a month the loan can be at most $103,809; at this price a $103,809 loan (49% of ARV) still returns all your cash.', value: Cash flow depends ..., Focused
+                            Button, 0x103a60c50, {{33.0, 3833.0}, {177.0, 45.0}}, label: 'Use $62,799 as the price', Focused
+                            Other, 0x103a63f50, {{33.0, 3902.0}, {114.0, 22.0}}, Focused
+                              StaticText, 0x103a64600, {{33.0, 3903.0}, {114.0, 19.0}}, label: 'Break-even rent', value: Break-even rent, Focused
+                            StaticText, 0x103a620d0, {{252.0, 3899.0}, {117.0, 24.0}}, label: '$608 a month', value: $608 a month, Focused
+                            Other, 0x103a7d420, {{33.0, 3927.0}, {336.0, 39.0}}, Focused
+                              StaticText, 0x103a82670, {{33.0, 3928.0}, {312.0, 37.0}}, label: 'The monthly rent, all units together, at which cash flow after the refinance is zero.', value: The monthly rent, ..., Focused
+                            Other, 0x103a62e80, {{33.0, 3990.0}, {218.0, 22.0}}, Focused
+                              StaticText, 0x103a62af0, {{33.0, 3991.0}, {218.0, 19.0}}, label: 'ARV needed to recycle all cash', value: ARV needed to recy..., Focused
+                            StaticText, 0x103a65370, {{281.0, 3987.0}, {88.0, 24.0}}, label: 'No answer', value: No answer, Focused
+                            Other, 0x103a33be0, {{33.0, 4015.0}, {336.0, 39.0}}, Focused
+                              StaticText, 0x103a4bf20, {{33.0, 4016.0}, {305.0, 37.0}}, label: 'The rent limits the loan through the DSCR, so a higher appraisal alone cannot return all the cash.', value: The rent limits th..., Focused
+                          Other, 0x103a838b0, {{16.0, 4103.0}, {370.0, 653.0}}, label: 'Stress test, region', Focused
+                            Other, 0x103a85970, {{16.0, 4103.0}, {100.0, 26.0}}, label: 'Stress test', value: 2, Focused
+                              StaticText, 0x103a85ee0, {{16.0, 4103.0}, {100.0, 26.0}}, label: 'Stress test', value: Stress test, Focused
+                            StaticText, 0x103a855e0, {{229.0, 4111.0}, {157.0, 17.0}}, label: 'Eight ways it can go wrong', value: Eight ways it can ..., Focused
+                            Other, 0x103a86260, {{75.0, 4169.0}, {280.0, 58.0}}, Focused
+                              StaticText, 0x103a41260, {{75.0, 4170.0}, {254.0, 56.0}}, label: 'No scenario here turns the cash flow negative. Look at how far cash left in the deal moves.', value: No scenario here t..., Focused
+                            Other, 0x103a69150, {{33.0, 4248.0}, {336.0, 444.0}}, Focused
+                              Other, 0x103a5afb0, {{33.0, 4248.0}, {336.0, 43.0}}, Focused
+                                Other, 0x103a40810, {{33.0, 4248.0}, {165.0, 43.0}}, Focused
+                                  StaticText, 0x103a46d00, {{33.0, 4268.0}, {59.0, 15.0}}, label: 'SCENARIO', value: SCENARIO, Focused
+                                Other, 0x103a2cd80, {{197.0, 4248.0}, {67.0, 43.0}}, Focused
+                                  StaticText, 0x103a3bb80, {{228.0, 4255.0}, {30.0, 28.0}}, label: 'CASH LEFT', value: CASH LEFT, Focused
+                                Other, 0x103a323d0, {{263.0, 4248.0}, {65.0, 43.0}}, Focused
+                                  StaticText, 0x103a5f0e0, {{291.0, 4255.0}, {30.0, 28.0}}, label: 'CASH FLOW', value: CASH FLOW, Focused
+                                Other, 0x103a37330, {{326.0, 4248.0}, {43.0, 43.0}}, Focused
+                                  StaticText, 0x103a2f320, {{339.0, 4268.0}, {31.0, 15.0}}, label: 'DSCR', value: DSCR, Focused
+                              Other, 0x103a3a080, {{33.0, 4290.0}, {336.0, 40.0}}, Focused
+                                Other, 0x103a38b70, {{33.0, 4290.0}, {165.0, 40.0}}, Focused
+                                  StaticText, 0x103a55210, {{33.0, 4301.0}, {73.0, 18.0}}, label: 'As entered', value: As entered, Focused
+                                Other, 0x103a79480, {{197.0, 4290.0}, {67.0, 40.0}}, Focused
+                                  StaticText, 0x103a779f0, {{203.0, 4301.0}, {55.0, 18.0}}, label: '$44,605', value: $44,605, Focused
+                                Other, 0x103a32e30, {{263.0, 4290.0}, {65.0, 40.0}}, Focused
+                                  StaticText, 0x103a53a60, {{295.0, 4301.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a566c0, {{326.0, 4290.0}, {43.0, 40.0}}, Focused
+                                  StaticText, 0x103a70520, {{332.0, 4301.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a6ed60, {{33.0, 4329.0}, {336.0, 41.0}}, Focused
+                                Other, 0x103a5ce40, {{33.0, 4329.0}, {165.0, 41.0}}, Focused
+                                  StaticText, 0x103a48880, {{33.0, 4340.0}, {94.0, 18.0}}, label: 'ARV down 5%', value: ARV down 5%, Focused
+                                Other, 0x103a47ac0, {{197.0, 4329.0}, {67.0, 41.0}}, Focused
+                                  StaticText, 0x103a49950, {{203.0, 4340.0}, {55.0, 18.0}}, label: '$44,605', value: $44,605, Focused
+                                Other, 0x103a4a350, {{263.0, 4329.0}, {65.0, 41.0}}, Focused
+                                  StaticText, 0x103a88230, {{295.0, 4340.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a4b4c0, {{326.0, 4329.0}, {43.0, 41.0}}, Focused
+                                  StaticText, 0x103a574d0, {{332.0, 4340.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a57bb0, {{33.0, 4369.0}, {336.0, 40.0}}, Focused
+                                Other, 0x103a56000, {{33.0, 4369.0}, {165.0, 40.0}}, Focused
+                                  StaticText, 0x103a86980, {{33.0, 4380.0}, {103.0, 18.0}}, label: 'ARV down 10%', value: ARV down 10%, Focused
+                                Other, 0x103a865f0, {{197.0, 4369.0}, {67.0, 40.0}}, Focused
+                                  StaticText, 0x103a43500, {{203.0, 4380.0}, {55.0, 18.0}}, label: '$44,605', value: $44,605, Focused
+                                Other, 0x103a38820, {{263.0, 4369.0}, {65.0, 40.0}}, Focused
+                                  StaticText, 0x103a56a50, {{295.0, 4380.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a57150, {{326.0, 4369.0}, {43.0, 40.0}}, Focused
+                                  StaticText, 0x103a56df0, {{332.0, 4380.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a6cba0, {{33.0, 4408.0}, {336.0, 41.0}}, Focused
+                                Other, 0x103a2e250, {{33.0, 4408.0}, {165.0, 41.0}}, Focused
+                                  StaticText, 0x103a40b90, {{33.0, 4420.0}, {98.0, 18.0}}, label: 'Rehab up 10%', value: Rehab up 10%, Focused
+                                Other, 0x103a87410, {{197.0, 4408.0}, {67.0, 41.0}}, Focused
+                                  StaticText, 0x103a88930, {{203.0, 4420.0}, {55.0, 18.0}}, label: '$48,108', value: $48,108, Focused
+                                Other, 0x103a885b0, {{263.0, 4408.0}, {65.0, 41.0}}, Focused
+                                  StaticText, 0x103a893c0, {{295.0, 4420.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a8a9e0, {{326.0, 4408.0}, {43.0, 41.0}}, Focused
+                                  StaticText, 0x103a804a0, {{332.0, 4420.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a7e940, {{33.0, 4448.0}, {336.0, 41.0}}, Focused
+                                Other, 0x103a86d00, {{33.0, 4448.0}, {165.0, 41.0}}, Focused
+                                  StaticText, 0x103a7ec90, {{33.0, 4459.0}, {98.0, 18.0}}, label: 'Rehab up 25%', value: Rehab up 25%, Focused
+                                Other, 0x103a7eff0, {{197.0, 4448.0}, {67.0, 41.0}}, Focused
+                                  StaticText, 0x103a987f0, {{203.0, 4459.0}, {55.0, 18.0}}, label: '$53,361', value: $53,361, Focused
+                                Other, 0x103a37da0, {{263.0, 4448.0}, {65.0, 41.0}}, Focused
+                                  StaticText, 0x103a99900, {{295.0, 4459.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a97dc0, {{326.0, 4448.0}, {43.0, 41.0}}, Focused
+                                  StaticText, 0x103a9b4f0, {{332.0, 4459.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a73cb0, {{33.0, 4488.0}, {336.0, 40.0}}, Focused
+                                Other, 0x103a9b170, {{33.0, 4488.0}, {165.0, 40.0}}, Focused
+                                  StaticText, 0x103a761c0, {{33.0, 4499.0}, {106.0, 18.0}}, label: 'Rent down 10%', value: Rent down 10%, Focused
+                                Other, 0x103a44970, {{197.0, 4488.0}, {67.0, 40.0}}, Focused
+                                  StaticText, 0x103a35aa0, {{203.0, 4499.0}, {55.0, 18.0}}, label: '$60,106', value: $60,106, Focused
+                                Other, 0x103a47740, {{263.0, 4488.0}, {65.0, 40.0}}, Focused
+                                  StaticText, 0x103a70f10, {{295.0, 4499.0}, {26.0, 18.0}}, label: '$64', value: $64, Focused
+                                Other, 0x103a45ed0, {{326.0, 4488.0}, {43.0, 40.0}}, Focused
+                                  StaticText, 0x103a5c420, {{332.0, 4499.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a75100, {{33.0, 4527.0}, {336.0, 56.0}}, Focused
+                                Other, 0x103a67c80, {{33.0, 4527.0}, {165.0, 56.0}}, Focused
+                                  StaticText, 0x103a90a80, {{33.0, 4538.0}, {129.0, 35.0}}, label: 'Refinance rate up 1 point', value: Refinance rate up ..., Focused
+                                Other, 0x103a54130, {{197.0, 4527.0}, {67.0, 56.0}}, Focused
+                                  StaticText, 0x103a7fdd0, {{203.0, 4546.0}, {55.0, 18.0}}, label: '$55,541', value: $55,541, Focused
+                                Other, 0x103a90df0, {{263.0, 4527.0}, {65.0, 56.0}}, Focused
+                                  StaticText, 0x103a3d430, {{295.0, 4546.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a9f660, {{326.0, 4527.0}, {43.0, 56.0}}, Focused
+                                  StaticText, 0x103a31960, {{332.0, 4546.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a89030, {{33.0, 4582.0}, {336.0, 56.0}}, Focused
+                                Other, 0x103a59b50, {{33.0, 4582.0}, {165.0, 56.0}}, Focused
+                                  StaticText, 0x103a53db0, {{33.0, 4592.0}, {123.0, 35.0}}, label: 'Timeline 3 months longer', value: Timeline 3 months ..., Focused
+                                Other, 0x103a8e810, {{197.0, 4582.0}, {67.0, 56.0}}, Focused
+                                  StaticText, 0x103a8cfa0, {{203.0, 4601.0}, {55.0, 18.0}}, label: '$48,457', value: $48,457, Focused
+                                Other, 0x103a3de60, {{263.0, 4582.0}, {65.0, 56.0}}, Focused
+                                  StaticText, 0x103a71620, {{295.0, 4601.0}, {26.0, 18.0}}, label: '$76', value: $76, Focused
+                                Other, 0x103a97340, {{326.0, 4582.0}, {43.0, 56.0}}, Focused
+                                  StaticText, 0x103a8eb60, {{332.0, 4601.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                              Other, 0x103a91150, {{33.0, 4637.0}, {336.0, 55.0}}, Focused
+                                Other, 0x103a6d230, {{33.0, 4637.0}, {165.0, 55.0}}, Focused
+                                  StaticText, 0x103a5d1b0, {{33.0, 4647.0}, {153.0, 35.0}}, label: 'Everything goes wrong a little', value: Everything goes wr..., Focused
+                                Other, 0x103a80140, {{197.0, 4637.0}, {67.0, 55.0}}, Focused
+                                  StaticText, 0x103a75b30, {{203.0, 4655.0}, {55.0, 18.0}}, label: '$63,775', value: $63,775, Focused
+                                Other, 0x103a3efd0, {{263.0, 4637.0}, {65.0, 55.0}}, Focused
+                                  StaticText, 0x103a52260, {{295.0, 4655.0}, {26.0, 18.0}}, label: '$70', value: $70, Focused
+                                Other, 0x103a2efc0, {{326.0, 4637.0}, {43.0, 55.0}}, Focused
+                                  StaticText, 0x103a3bee0, {{332.0, 4655.0}, {38.0, 18.0}}, label: '1.20x', value: 1.20x, Focused
+                            Other, 0x103a5b300, {{33.0, 4691.0}, {336.0, 48.0}}, Focused
+                              Button, 0x103a384c0, {{33.0, 4692.0}, {336.0, 47.0}}, label: 'What each scenario changes', Focused
+                                Button, 0x103a55cb0, {{33.0, 4706.0}, {190.0, 18.0}}, label: 'What each scenario changes', value: What each scenario..., Focused
+                          Other, 0x103a45b60, {{16.0, 4788.0}, {370.0, 894.0}}, label: 'Long-term projection, region', Focused
+                            Other, 0x103a4a6b0, {{16.0, 4788.0}, {196.0, 26.0}}, label: 'Long-term projection', value: 2, Focused
+                              StaticText, 0x103a30ef0, {{16.0, 4788.0}, {196.0, 26.0}}, label: 'Long-term projection', value: Long-term projection, Focused
+                            StaticText, 0x103a4ef10, {{266.0, 4796.0}, {120.0, 17.0}}, label: '10 years, then a sale', value: 10 years, then a s..., Focused
+                            StaticText, 0x103a49600, {{44.0, 4867.0}, {81.0, 15.0}}, label: 'NET AT SALE', value: NET AT SALE, Focused
+                            StaticText, 0x103a39680, {{44.0, 4882.0}, {56.0, 24.0}}, label: '$157k', value: $157k, Focused
+                            StaticText, 0x103a300f0, {{158.0, 4854.0}, {45.0, 28.0}}, label: 'TOTAL PROFIT', value: TOTAL PROFIT, Focused
+                            StaticText, 0x103a30800, {{158.0, 4882.0}, {57.0, 24.0}}, label: '$135k', value: $135k, Focused
+                            StaticText, 0x103a47080, {{273.0, 4867.0}, {23.0, 15.0}}, label: 'IRR', value: IRR, Focused
+                            StaticText, 0x103a33f30, {{273.0, 4882.0}, {59.0, 24.0}}, label: '16.0%', value: 16.0%, Focused
+                            Image, 0x103a3a3d0, {{33.0, 4932.0}, {336.0, 163.0}}, label: 'Equity grows from $95,518 in year 1 to $176,956 in year 10.', Focused
+                            Other, 0x103a2c380, {{33.0, 5130.0}, {336.0, 91.0}}, Focused
+                              StaticText, 0x103a35390, {{33.0, 5131.0}, {137.0, 17.0}}, label: 'Sold at the end of year', value: Sold at the end of..., Focused
+                              StaticText, 0x103a4ddd0, {{169.0, 5131.0}, {14.0, 17.0}}, label: '10', value: 10, Focused
+                              StaticText, 0x103a3b160, {{182.0, 5131.0}, {25.0, 17.0}}, label: 'for', value:  for , Focused
+                              StaticText, 0x103a48f50, {{206.0, 5131.0}, {57.0, 17.0}}, label: '$282,222', value: $282,222, Focused
+                              StaticText, 0x103a6f470, {{262.0, 5131.0}, {35.0, 17.0}}, label: ', less', value: , less , Focused
+                              StaticText, 0x103a4f270, {{296.0, 5131.0}, {48.0, 17.0}}, label: '$19,756', value: $19,756, Focused
+                              StaticText, 0x103a54b40, {{33.0, 5149.0}, {124.0, 17.0}}, label: 'selling costs and the', value: selling costs and ..., Focused
+                              StaticText, 0x103a53000, {{156.0, 5149.0}, {57.0, 17.0}}, label: '$105,266', value: $105,266, Focused
+                              StaticText, 0x103a525c0, {{33.0, 5149.0}, {333.0, 53.0}}, label: 'loan balance. Total profit is cumulative cash flow plus sale proceeds, less the cash left in the deal.', value:  loan balance. Tot..., Focused
+                              StaticText, 0x103a3b4c0, {{33.0, 5185.0}, {332.0, 35.0}}, label: 'IRR is the yearly return on the cash left in the deal.', value: IRR is the yearly ..., Focused
+                            Other, 0x103a4adc0, {{33.0, 5230.0}, {336.0, 389.0}}, Focused
+                              Other, 0x103a51f10, {{33.0, 5230.0}, {336.0, 43.0}}, Focused
+                                Other, 0x103a53380, {{33.0, 5230.0}, {36.0, 43.0}}, Focused
+                                  StaticText, 0x103a5ea00, {{33.0, 5250.0}, {30.0, 15.0}}, label: 'YEAR', value: YEAR, Focused
+                                Other, 0x103a57850, {{68.0, 5230.0}, {50.0, 43.0}}, Focused
+                                  StaticText, 0x103a54e90, {{74.0, 5250.0}, {38.0, 15.0}}, label: 'VALUE', value: VALUE, Focused
+                                Other, 0x103a52920, {{117.0, 5230.0}, {47.0, 43.0}}, Focused
+                                  StaticText, 0x103a6fe60, {{127.0, 5250.0}, {31.0, 15.0}}, label: 'LOAN', value: LOAN, Focused
+                                Other, 0x103a53700, {{163.0, 5230.0}, {57.0, 43.0}}, Focused
+                                  StaticText, 0x103a71290, {{169.0, 5250.0}, {45.0, 15.0}}, label: 'EQUITY', value: EQUITY, Focused
+                                Other, 0x103a5e310, {{219.0, 5230.0}, {71.0, 43.0}}, Focused
+                                  StaticText, 0x103a62440, {{254.0, 5237.0}, {30.0, 28.0}}, label: 'CASH FLOW', value: CASH FLOW, Focused
+                                Other, 0x103a41ff0, {{289.0, 5230.0}, {81.0, 43.0}}, Focused
+                                  StaticText, 0x103c55250, {{295.0, 5250.0}, {74.0, 15.0}}, label: 'CUMULATIVE', value: CUMULATIVE, Focused
+                              Other, 0x103c4d8e0, {{33.0, 5272.0}, {336.0, 35.0}}, Focused
+                                Other, 0x103c90f10, {{33.0, 5272.0}, {36.0, 35.0}}, Focused
+                                  StaticText, 0x103c906d0, {{37.0, 5281.0}, {9.0, 17.0}}, label: '1', value: 1, Focused
+                                Other, 0x103c99030, {{68.0, 5272.0}, {50.0, 35.0}}, Focused
+                                  StaticText, 0x103c4e7a0, {{75.0, 5281.0}, {39.0, 17.0}}, label: '$216k', value: $216k, Focused
+                                Other, 0x103c3bdb0, {{117.0, 5272.0}, {47.0, 35.0}}, Focused
+                                  StaticText, 0x103c4ebc0, {{121.0, 5281.0}, {39.0, 17.0}}, label: '$121k', value: $121k, Focused
+                                Other, 0x103c4efe0, {{163.0, 5272.0}, {57.0, 35.0}}, Focused
+                                  StaticText, 0x103a5d8b0, {{173.0, 5281.0}, {43.0, 17.0}}, label: '$95.5k', value: $95.5k, Focused
+                                Other, 0x103a2a170, {{219.0, 5272.0}, {71.0, 35.0}}, Focused
+                                  StaticText, 0x103a4d720, {{254.0, 5281.0}, {32.0, 17.0}}, label: '$914', value: $914, Focused
+                                Other, 0x103a35e00, {{289.0, 5272.0}, {81.0, 35.0}}, Focused
+                                  StaticText, 0x103a39d40, {{333.0, 5281.0}, {32.0, 17.0}}, label: '$914', value: $914, Focused
+                              Other, 0x103a656d0, {{33.0, 5306.0}, {336.0, 36.0}}, Focused
+                                Other, 0x103a4d3c0, {{33.0, 5306.0}, {36.0, 36.0}}, Focused
+                                  StaticText, 0x103a4da70, {{37.0, 5315.0}, {9.0, 17.0}}, label: '2', value: 2, Focused
+                                Other, 0x103a72800, {{68.0, 5306.0}, {50.0, 36.0}}, Focused
+                                  StaticText, 0x103a70860, {{75.0, 5315.0}, {39.0, 17.0}}, label: '$223k', value: $223k, Focused
+                                Other, 0x103a98b50, {{117.0, 5306.0}, {47.0, 36.0}}, Focused
+                                  StaticText, 0x103a4f950, {{121.0, 5315.0}, {39.0, 17.0}}, label: '$120k', value: $120k, Focused
+                                Other, 0x103a98140, {{163.0, 5306.0}, {57.0, 36.0}}, Focused
+                                  StaticText, 0x103a457e0, {{177.0, 5315.0}, {39.0, 17.0}}, label: '$103k', value: $103k, Focused
+                                Other, 0x103a89af0, {{219.0, 5306.0}, {71.0, 36.0}}, Focused
+                                  StaticText, 0x103a55910, {{242.0, 5315.0}, {44.0, 17.0}}, label: '$1,186', value: $1,186, Focused
+                                Other, 0x103a8f260, {{289.0, 5306.0}, {81.0, 36.0}}, Focused
+                                  StaticText, 0x103a5ac50, {{322.0, 5315.0}, {43.0, 17.0}}, label: '$2,100', value: $2,100, Focused
+                              Other, 0x103a608b0, {{33.0, 5341.0}, {336.0, 35.0}}, Focused
+                                Other, 0x103a99230, {{33.0, 5341.0}, {36.0, 35.0}}, Focused
+                                  StaticText, 0x103a87080, {{37.0, 5350.0}, {9.0, 17.0}}, label: '3', value: 3, Focused
+                                Other, 0x103a87790, {{68.0, 5341.0}, {50.0, 35.0}}, Focused
+                                  StaticText, 0x103a8e4a0, {{75.0, 5350.0}, {39.0, 17.0}}, label: '$229k', value: $229k, Focused
+                                Other, 0x103a2c030, {{117.0, 5341.0}, {47.0, 35.0}}, Focused
+                                  StaticText, 0x103a98ec0, {{121.0, 5350.0}, {39.0, 17.0}}, label: '$118k', value: $118k, Focused
+                                Other, 0x103a73240, {{163.0, 5341.0}, {57.0, 35.0}}, Focused
+                                  StaticText, 0x103a47e40, {{177.0, 5350.0}, {39.0, 17.0}}, label: '$111k', value: $111k, Focused
+                                Other, 0x103a8b0d0, {{219.0, 5341.0}, {71.0, 35.0}}, Focused
+                                  StaticText, 0x103a40160, {{242.0, 5350.0}, {44.0, 17.0}}, label: '$1,466', value: $1,466, Focused
+                                Other, 0x103a404b0, {{289.0, 5341.0}, {81.0, 35.0}}, Focused
+                                  StaticText, 0x103a52cb0, {{322.0, 5350.0}, {43.0, 17.0}}, label: '$3,566', value: $3,566, Focused
+                              Other, 0x103a94d80, {{33.0, 5375.0}, {336.0, 36.0}}, Focused
+                                Other, 0x103a94a20, {{33.0, 5375.0}, {36.0, 36.0}}, Focused
+                                  StaticText, 0x103a950e0, {{37.0, 5385.0}, {9.0, 17.0}}, label: '4', value: 4, Focused
+                                Other, 0x103a36180, {{68.0, 5375.0}, {50.0, 36.0}}, Focused
+                                  StaticText, 0x103a7f6e0, {{75.0, 5385.0}, {39.0, 17.0}}, label: '$236k', value: $236k, Focused
+                                Other, 0x103a32740, {{117.0, 5375.0}, {47.0, 36.0}}, Focused
+                                  StaticText, 0x103a95450, {{121.0, 5385.0}, {39.0, 17.0}}, label: '$117k', value: $117k, Focused
+                                Other, 0x103a957a0, {{163.0, 5375.0}, {57.0, 36.0}}, Focused
+                                  StaticText, 0x103a93fe0, {{177.0, 5385.0}, {39.0, 17.0}}, label: '$120k', value: $120k, Focused
+                                Other, 0x103a92a50, {{219.0, 5375.0}, {71.0, 36.0}}, Focused
+                                  StaticText, 0x103a914b0, {{242.0, 5385.0}, {44.0, 17.0}}, label: '$1,752', value: $1,752, Focused
+                                Other, 0x103a93120, {{289.0, 5375.0}, {81.0, 36.0}}, Focused
+                                  StaticText, 0x103a93480, {{322.0, 5385.0}, {43.0, 17.0}}, label: '$5,318', value: $5,318, Focused
+                              Other, 0x103a807f0, {{33.0, 5410.0}, {336.0, 36.0}}, Focused
+                                Other, 0x103a92dc0, {{33.0, 5410.0}, {36.0, 36.0}}, Focused
+                                  StaticText, 0x103a946c0, {{37.0, 5419.0}, {9.0, 17.0}}, label: '5', value: 5, Focused
+                                Other, 0x103a926d0, {{68.0, 5410.0}, {50.0, 36.0}}, Focused
+                                  StaticText, 0x103a94370, {{75.0, 5419.0}, {39.0, 17.0}}, label: '$243k', value: $243k, Focused
+                                Other, 0x103a92380, {{117.0, 5410.0}, {47.0, 36.0}}, Focused
+                                  StaticText, 0x103a415c0, {{121.0, 5419.0}, {39.0, 17.0}}, label: '$115k', value: $115k, Focused
+                                Other, 0x103a91840, {{163.0, 5410.0}, {57.0, 36.0}}, Focused
+                                  StaticText, 0x103a6fb10, {{177.0, 5419.0}, {39.0, 17.0}}, label: '$128k', value: $128k, Focused
+                                Other, 0x103a5e680, {{219.0, 5410.0}, {71.0, 36.0}}, Focused
+                                  StaticText, 0x103a903a0, {{242.0, 5419.0}, {44.0, 17.0}}, label: '$2,045', value: $2,045, Focused
+                                Other, 0x103a8fcd0, {{289.0, 5410.0}, {81.0, 36.0}}, Focused
+                                  StaticText, 0x103a90040, {{322.0, 5419.0}, {43.0, 17.0}}, label: '$7,363', value: $7,363, Focused
+                              Other, 0x103a8f940, {{33.0, 5445.0}, {336.0, 35.0}}, Focused
+                                Other, 0x103a768d0, {{33.0, 5445.0}, {36.0, 35.0}}, Focused
+                                  StaticText, 0x103a8f5b0, {{37.0, 5454.0}, {9.0, 17.0}}, label: '6', value: 6, Focused
+                                Other, 0x103a906f0, {{68.0, 5445.0}, {50.0, 35.0}}, Focused
+                                  StaticText, 0x103a701d0, {{75.0, 5454.0}, {39.0, 17.0}}, label: '$251k', value: $251k, Focused
+                                Other, 0x103a5a220, {{117.0, 5445.0}, {47.0, 35.0}}, Focused
+                                  StaticText, 0x103a67230, {{121.0, 5454.0}, {39.0, 17.0}}, label: '$113k', value: $113k, Focused
+                                Other, 0x103a76fa0, {{163.0, 5445.0}, {57.0, 35.0}}, Focused
+                                  StaticText, 0x103a66100, {{177.0, 5454.0}, {39.0, 17.0}}, label: '$137k', value: $137k, Focused
+                                Other, 0x103a42350, {{219.0, 5445.0}, {71.0, 35.0}}, Focused
+                                  StaticText, 0x103a66ea0, {{242.0, 5454.0}, {44.0, 17.0}}, label: '$2,346', value: $2,346, Focused
+                                Other, 0x103a675c0, {{289.0, 5445.0}, {81.0, 35.0}}, Focused
+                                  StaticText, 0x103a4c270, {{322.0, 5454.0}, {43.0, 17.0}}, label: '$9,709', value: $9,709, Focused
+                              Other, 0x103a3f6d0, {{33.0, 5479.0}, {336.0, 36.0}}, Focused
+                                Other, 0x103a76c20, {{33.0, 5479.0}, {36.0, 36.0}}, Focused
+                                  StaticText, 0x103a65a20, {{37.0, 5489.0}, {9.0, 17.0}}, label: '7', value: 7, Focused
+                                Other, 0x103a5d510, {{68.0, 5479.0}, {50.0, 36.0}}, Focused
+                                  StaticText, 0x103a29ac0, {{75.0, 5489.0}, {39.0, 17.0}}, label: '$258k', value: $258k, Focused
+                                Other, 0x103a28d00, {{117.0, 5479.0}, {47.0, 36.0}}, Focused
+                                  StaticText, 0x103a6b390, {{121.0, 5489.0}, {39.0, 17.0}}, label: '$112k', value: $112k, Focused
+                                Other, 0x103a36c30, {{163.0, 5479.0}, {57.0, 36.0}}, Focused
+                                  StaticText, 0x103a2dee0, {{177.0, 5489.0}, {39.0, 17.0}}, label: '$147k', value: $147k, Focused
+                                Other, 0x103a9adf0, {{219.0, 5479.0}, {71.0, 36.0}}, Focused
+                                  StaticText, 0x103a9e880, {{242.0, 5489.0}, {44.0, 17.0}}, label: '$2,654', value: $2,654, Focused
+                                Other, 0x103a7adb0, {{289.0, 5479.0}, {81.0, 36.0}}, Focused
+                                  StaticText, 0x103a6aca0, {{323.0, 5489.0}, {42.0, 17.0}}, label: '$12.4k', value: $12.4k, Focused
+                              Other, 0x103a9d420, {{33.0, 5514.0}, {336.0, 36.0}}, Focused
+                                Other, 0x103a84ee0, {{33.0, 5514.0}, {36.0, 36.0}}, Focused
+                                  StaticText, 0x103a9aa60, {{37.0, 5523.0}, {9.0, 17.0}}, label: '8', value: 8, Focused
+                                Other, 0x103a7d780, {{68.0, 5514.0}, {50.0, 36.0}}, Focused
+                                  StaticText, 0x103a6a240, {{75.0, 5523.0}, {39.0, 17.0}}, label: '$266k', value: $266k, Focused
+                                Other, 0x103a694a0, {{117.0, 5514.0}, {47.0, 36.0}}, Focused
+                                  StaticText, 0x103a95b00, {{121.0, 5523.0}, {39.0, 17.0}}, label: '$110k', value: $110k, Focused
+                                Other, 0x103a74000, {{163.0, 5514.0}, {57.0, 36.0}}, Focused
+                                  StaticText, 0x103a6b020, {{177.0, 5523.0}, {39.0, 17.0}}, label: '$156k', value: $156k, Focused
+                                Other, 0x103a2e5b0, {{219.0, 5514.0}, {71.0, 36.0}}, Focused
+                                  StaticText, 0x103a74db0, {{242.0, 5523.0}, {44.0, 17.0}}, label: '$2,970', value: $2,970, Focused
+                                Other, 0x103a75e70, {{289.0, 5514.0}, {81.0, 36.0}}, Focused
+                                  StaticText, 0x103a77d60, {{323.0, 5523.0}, {42.0, 17.0}}, label: '$15.3k', value: $15.3k, Focused
+                              Other, 0x103a5cae0, {{33.0, 5549.0}, {336.0, 35.0}}, Focused
+                                Other, 0x103a73930, {{33.0, 5549.0}, {36.0, 35.0}}, Focused
+                                  StaticText, 0x103a6dff0, {{37.0, 5558.0}, {9.0, 17.0}}, label: '9', value: 9, Focused
+                                Other, 0x103a5c0b0, {{68.0, 5549.0}, {50.0, 35.0}}, Focused
+                                  StaticText, 0x103a9a340, {{75.0, 5558.0}, {39.0, 17.0}}, label: '$274k', value: $274k, Focused
+                                Other, 0x103a77310, {{117.0, 5549.0}, {47.0, 35.0}}, Focused
+                                  StaticText, 0x103a48bf0, {{121.0, 5558.0}, {39.0, 17.0}}, label: '$108k', value: $108k, Focused
+                                Other, 0x103a46960, {{163.0, 5549.0}, {57.0, 35.0}}, Focused
+                                  StaticText, 0x103a5f440, {{177.0, 5558.0}, {39.0, 17.0}}, label: '$166k', value: $166k, Focused
+                                Other, 0x103a74a60, {{219.0, 5549.0}, {71.0, 35.0}}, Focused
+                                  StaticText, 0x103a75460, {{242.0, 5558.0}, {44.0, 17.0}}, label: '$3,294', value: $3,294, Focused
+                                Other, 0x103a42a00, {{289.0, 5549.0}, {81.0, 35.0}}, Focused
+                                  StaticText, 0x103a757c0, {{323.0, 5558.0}, {42.0, 17.0}}, label: '$18.6k', value: $18.6k, Focused
+                              Other, 0x103a4c610, {{33.0, 5583.0}, {336.0, 36.0}}, Focused
+                                Other, 0x103a78da0, {{33.0, 5583.0}, {36.0, 36.0}}, Focused
+                                  StaticText, 0x103a44610, {{37.0, 5593.0}, {17.0, 16.0}}, label: '10', value: 10, Focused
+                                Other, 0x103a97a60, {{68.0, 5583.0}, {50.0, 36.0}}, Focused
+                                  StaticText, 0x103a96fe0, {{75.0, 5593.0}, {39.0, 16.0}}, label: '$282k', value: $282k, Focused
+                                Other, 0x103a6f0f0, {{117.0, 5583.0}, {47.0, 36.0}}, Focused
+                                  StaticText, 0x103a7f370, {{121.0, 5593.0}, {39.0, 16.0}}, label: '$105k', value: $105k, Focused
+                                Other, 0x103a5dfa0, {{163.0, 5583.0}, {57.0, 36.0}}, Focused
+                                  StaticText, 0x103a2c6e0, {{177.0, 5593.0}, {39.0, 16.0}}, label: '$177k', value: $177k, Focused
+                                Other, 0x103a465c0, {{219.0, 5583.0}, {71.0, 36.0}}, Focused
+                                  StaticText, 0x103a77670, {{242.0, 5593.0}, {44.0, 16.0}}, label: '$3,626', value: $3,626, Focused
+                                Other, 0x103a31600, {{289.0, 5583.0}, {81.0, 36.0}}, Focused
+                                  StaticText, 0x103a4e840, {{323.0, 5593.0}, {42.0, 16.0}}, label: '$22.3k', value: $22.3k, Focused
+                            Other, 0x103aa00b0, {{33.0, 5628.0}, {336.0, 36.0}}, Focused
+                              StaticText, 0x103a9f9b0, {{33.0, 5629.0}, {333.0, 34.0}}, label: 'Value, loan, equity and cumulative cash flow are rounded in this table.', value: Value, loan, equit..., Focused
+                          Other, 0x103a54480, {{16.0, 5714.0}, {370.0, 131.0}}, label: 'Repeat simulator, region', Focused
+                            Other, 0x103a61a10, {{16.0, 5714.0}, {157.0, 25.0}}, label: 'Repeat simulator', value: 2, Focused
+                              StaticText, 0x103a5fb20, {{16.0, 5714.0}, {157.0, 25.0}}, label: 'Repeat simulator', value: Repeat simulator, Focused
+                            StaticText, 0x103a9f2f0, {{218.0, 5722.0}, {168.0, 16.0}}, label: 'The same deal, back to back', value: The same deal, bac..., Focused
+                            Other, 0x103a9fd40, {{33.0, 5768.0}, {336.0, 60.0}}, Focused
+                              StaticText, 0x103a484f0, {{33.0, 5769.0}, {325.0, 57.0}}, label: 'Enter the capital you have for the next deals in the Repeat step to see how many times this deal can be repeated over', value: Enter the capital ..., Focused
+                              StaticText, 0x103a9ef60, {{123.0, 5809.0}, {53.0, 17.0}}, label: '10 years', value: 10 years, Focused
+                              StaticText, 0x103a40f00, {{175.0, 5809.0}, {5.0, 17.0}}, label: '.', value: ., Focused
+                          Other, 0x103a62790, {{16.0, 5875.0}, {370.0, 91.0}}, Focused
+                            StaticText, 0x103a9c630, {{16.0, 5891.0}, {33.0, 16.0}}, label: 'BRRR', value: BRRR, Focused
+                            StaticText, 0x103a9cd20, {{16.0, 5891.0}, {349.0, 73.0}}, label: 'is an educational calculator, not financial, investment, tax, legal or lending advice. Results depend entirely on the numbers entered. Verify rents, repair costs, values and loan terms with local professionals before making an offer.', value:  is an educational..., Focused
+                        Other, 0x103a9c9a0, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x103a76560, {{0.0, 778.0}, {81.0, 62.0}}, label: 'Deals', Focused
+                          Button, 0x103a9bc00, {{80.0, 778.0}, {81.0, 62.0}}, label: 'Analyze', Focused
+                          Button, 0x103a9de30, {{160.0, 778.0}, {82.0, 62.0}}, label: 'Markets', Focused
+                          Button, 0x103a9ec10, {{241.0, 778.0}, {81.0, 62.0}}, label: 'Learn', Focused
+                          Button, 0x103a32ac0, {{321.0, 778.0}, {81.0, 62.0}}, label: 'Settings', Focused
+              Other, 0x103a67930, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 8 pages', value: 7%
+                Other, 0x103a41910, {{396.0, 111.3}, {3.0, 100.0}}
+              Other, 0x103a9e1c0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a84b50, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a6ba80, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 8 pages', value: 7%
+                Other, 0x103a68380, {{396.0, 111.3}, {3.0, 100.0}}
+              Other, 0x103c6acb0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103c64700, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103c64820, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103c64940, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103c64a60, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103aae460, pid: 16950, label: 'BRRR'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.brrr'
+  Output: {
+    Application, 0x103c63c40, pid: 16950, label: 'BRRR'
+  }

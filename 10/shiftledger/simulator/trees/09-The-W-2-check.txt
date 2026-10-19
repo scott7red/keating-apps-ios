@@ -1,0 +1,306 @@
+Attributes: Application, 0x103f97510, pid: 20211, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x103f97510, pid: 20211, label: 'ShiftLedger'
+    Window (Main), 0x103f33950, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f64350, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f388a0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103f4df60, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103f3a740, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103f52ab0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103f3a3e0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103f346f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103f46280, {{0.0, -3598.0}, {402.0, 874.0}}
+                      Other, 0x103f5b720, {{0.0, -3598.0}, {402.0, 4910.0}}, label: 'ShiftLedger', Focused
+                        Other, 0x103f4ed00, {{0.0, -3598.0}, {402.0, 4786.0}}, label: 'main', Focused
+                          Other, 0x103f37ab0, {{16.0, -3598.0}, {370.0, 126.0}}, label: 'section header', Focused
+                            Other, 0x103f42ea0, {{16.0, -3520.0}, {131.0, 34.0}}, label: 'Deduction', value: 1, Focused
+                              StaticText, 0x103f392d0, {{16.0, -3520.0}, {131.0, 34.0}}, label: 'Deduction', value: Deduction, Focused
+                          Other, 0x103f61d70, {{16.0, -3472.0}, {370.0, 80.0}}, label: 'Tax year', Focused
+                            Other, 0x103f34020, {{16.0, -3472.0}, {370.0, 21.0}}, Focused
+                              StaticText, 0x103f4c3d0, {{16.0, -3471.0}, {60.0, 18.0}}, label: 'Tax year', value: Tax year, Focused
+                            Other, 0x103f40520, {{21.0, -3440.0}, {118.0, 43.0}}, Focused
+                              Other, 0x103f5d2c0, {{20.0, -3441.0}, {119.0, 44.0}}, label: '2026', value: 1, Focused
+                              StaticText, 0x103f45140, {{60.0, -3428.0}, {40.0, 19.0}}, label: '2026', value: 2026, Focused
+                            Other, 0x103f5b380, {{142.0, -3440.0}, {118.0, 43.0}}, Focused
+                              Other, 0x103f54620, {{141.0, -3441.0}, {119.0, 44.0}}, label: '2027', value: 0, Focused
+                              StaticText, 0x103f45830, {{182.0, -3428.0}, {38.0, 19.0}}, label: '2027', value: 2027, Focused
+                            Other, 0x103f5c860, {{263.0, -3440.0}, {118.0, 43.0}}, Focused
+                              Other, 0x103f47a60, {{262.0, -3441.0}, {119.0, 44.0}}, label: '2028', value: 0, Focused
+                              StaticText, 0x103f34d90, {{303.0, -3428.0}, {38.0, 19.0}}, label: '2028', value: 2028, Focused
+                          Other, 0x103f4caf0, {{16.0, -3377.0}, {370.0, 246.0}}, label: 'TAX YEAR 2026 SINGLE, region', Focused
+                            Other, 0x103f52400, {{34.0, -3359.0}, {334.0, 16.0}}, Focused
+                              StaticText, 0x103f41cf0, {{34.0, -3359.0}, {71.0, 15.0}}, label: 'TAX YEAR', value: TAX YEAR , Focused
+                              StaticText, 0x103f48470, {{104.0, -3359.0}, {32.0, 15.0}}, label: '2026', value: 2026, Focused
+                              StaticText, 0x103f66600, {{158.0, -3359.0}, {48.0, 15.0}}, label: 'SINGLE', value: SINGLE, Focused
+                            Other, 0x103f59ba0, {{34.0, -3334.0}, {161.0, 19.0}}, Focused
+                              StaticText, 0x103f627d0, {{34.0, -3334.0}, {99.0, 18.0}}, label: 'Total deduction', value: Total deduction, Focused
+                            Other, 0x103f4dc00, {{34.0, -3316.0}, {161.0, 32.0}}, Focused
+                              StaticText, 0x103f34380, {{34.0, -3316.0}, {102.0, 32.0}}, label: '$155.00', value: $155.00, Focused
+                            Other, 0x103f69650, {{207.0, -3334.0}, {161.0, 19.0}}, Focused
+                              StaticText, 0x103f6a780, {{207.0, -3334.0}, {136.0, 18.0}}, label: 'Est. federal tax saved', value: Est. federal tax s..., Focused
+                            Other, 0x103f61680, {{207.0, -3316.0}, {161.0, 32.0}}, Focused
+                              StaticText, 0x103f36270, {{207.0, -3316.0}, {86.0, 32.0}}, label: '$18.60', value: $18.60, Focused
+                            Other, 0x103f327f0, {{34.0, -3252.0}, {334.0, 41.0}}, Focused
+                              StaticText, 0x103f62470, {{34.0, -3251.0}, {319.0, 39.0}}, label: 'Tax saved uses the 2026 brackets and standard deduction.', value: Tax saved uses the..., Focused
+                            Button, 0x103f6a0a0, {{34.0, -3198.0}, {334.0, 49.0}}, label: 'Edit tax profile', Focused
+                          StaticText, 0x103f553c0, {{39.0, -3122.0}, {184.0, 18.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                          StaticText, 0x103f681b0, {{225.0, -3122.0}, {148.0, 18.0}}, label: 'Federal income tax only.', value: Federal income tax..., Focused
+                          Other, 0x103f46600, {{16.0, -3075.0}, {90.0, 23.0}}, label: 'Breakdown', value: 2, Focused
+                            StaticText, 0x103f5fc90, {{16.0, -3075.0}, {90.0, 23.0}}, label: 'Breakdown', value: Breakdown, Focused
+                          Other, 0x103f4f710, {{16.0, -3043.0}, {370.0, 996.0}}, label: 'Deduction breakdown for 2026', Focused
+                            Other, 0x103f6aaf0, {{17.0, -3042.0}, {368.0, 32.0}}, Focused
+                              Other, 0x103f438d0, {{31.0, -3033.0}, {31.0, 15.0}}, Focused
+                                StaticText, 0x103f699c0, {{31.0, -3033.0}, {32.0, 15.0}}, label: 'TIPS', value: TIPS, Focused
+                            Other, 0x103f57620, {{17.0, -3011.0}, {368.0, 86.0}}, Focused
+                              Other, 0x103f44350, {{31.0, -2994.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f56520, {{30.0, -2995.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f4d8b0, {{31.0, -2994.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                              Other, 0x103f3fe40, {{63.0, -2997.0}, {233.0, 60.0}}, Focused
+                                StaticText, 0x103f50830, {{63.0, -2997.0}, {159.0, 21.0}}, label: 'Qualified tips logged', value: Qualified tips log..., Focused
+                                StaticText, 0x103f47700, {{63.0, -2974.0}, {212.0, 36.0}}, label: 'Tips kept after tip-out, on jobs that qualify.', value: Tips kept after ti..., Focused
+                              Other, 0x103f5e760, {{303.0, -2998.0}, {68.0, 24.0}}, Focused
+                                StaticText, 0x103f32150, {{303.0, -2997.0}, {68.0, 21.0}}, label: '$155.00', value: $155.00, Focused
+                            Other, 0x103f66980, {{17.0, -2926.0}, {368.0, 68.0}}, Focused
+                              Other, 0x103f42790, {{31.0, -2909.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f56bd0, {{30.0, -2910.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f52080, {{31.0, -2909.0}, {9.0, 18.0}}, label: '2', value: 2, Focused
+                              Other, 0x103f3f440, {{63.0, -2912.0}, {206.0, 42.0}}, Focused
+                                StaticText, 0x103f3b870, {{63.0, -2912.0}, {65.0, 21.0}}, label: 'Tips cap', value: Tips cap, Focused
+                                StaticText, 0x103f63c80, {{63.0, -2889.0}, {194.0, 18.0}}, label: 'The same for every filing status.', value: The same for every..., Focused
+                              Other, 0x103f64a30, {{277.0, -2913.0}, {95.0, 24.0}}, Focused
+                                StaticText, 0x103f3faf0, {{277.0, -2912.0}, {94.0, 21.0}}, label: '$25,000.00', value: $25,000.00, Focused
+                            Other, 0x103f52e30, {{17.0, -2859.0}, {368.0, 68.0}}, Focused
+                              Other, 0x103f47030, {{31.0, -2842.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f66d10, {{30.0, -2843.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f3f7b0, {{31.0, -2842.0}, {9.0, 18.0}}, label: '3', value: 3, Focused
+                              Other, 0x103f3e5e0, {{63.0, -2845.0}, {233.0, 42.0}}, Focused
+                                StaticText, 0x103f35470, {{63.0, -2845.0}, {135.0, 21.0}}, label: 'Tips after the cap', value: Tips after the cap, Focused
+                                StaticText, 0x103f34a30, {{63.0, -2822.0}, {171.0, 18.0}}, label: 'The smaller of lines 1 and 2.', value: The smaller of lin..., Focused
+                              Other, 0x103f401b0, {{303.0, -2846.0}, {68.0, 24.0}}, Focused
+                                StaticText, 0x103f4e2f0, {{303.0, -2845.0}, {68.0, 21.0}}, label: '$155.00', value: $155.00, Focused
+                            Other, 0x103f41290, {{17.0, -2792.0}, {368.0, 33.0}}, Focused
+                              Other, 0x103f57cd0, {{31.0, -2782.0}, {63.0, 15.0}}, Focused
+                                StaticText, 0x103f31060, {{31.0, -2782.0}, {63.0, 15.0}}, label: 'OVERTIME', value: OVERTIME, Focused
+                            Other, 0x103f313d0, {{17.0, -2760.0}, {368.0, 106.0}}, Focused
+                              Other, 0x103f6b1d0, {{31.0, -2743.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f4b940, {{30.0, -2744.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f4c770, {{31.0, -2743.0}, {9.0, 18.0}}, label: '4', value: 4, Focused
+                              Other, 0x103f56f40, {{63.0, -2746.0}, {253.0, 80.0}}, Focused
+                                StaticText, 0x103f52750, {{63.0, -2746.0}, {213.0, 41.0}}, label: 'Qualified overtime premium logged', value: Qualified overtime..., Focused
+                                StaticText, 0x103f55740, {{63.0, -2703.0}, {239.0, 36.0}}, label: 'The extra half on hours over 40 a week, W-2 jobs only.', value: The extra half on ..., Focused
+                              Other, 0x103f51610, {{324.0, -2747.0}, {48.0, 24.0}}, Focused
+                                StaticText, 0x103f335b0, {{324.0, -2746.0}, {47.0, 21.0}}, label: '$0.00', value: $0.00, Focused
+                            Other, 0x103f69d10, {{17.0, -2655.0}, {368.0, 68.0}}, Focused
+                              Other, 0x103f54ce0, {{31.0, -2638.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f5d620, {{30.0, -2639.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f31720, {{31.0, -2638.0}, {9.0, 18.0}}, label: '5', value: 5, Focused
+                              Other, 0x103f5ac80, {{63.0, -2641.0}, {206.0, 42.0}}, Focused
+                                StaticText, 0x103f46970, {{63.0, -2641.0}, {103.0, 21.0}}, label: 'Overtime cap', value: Overtime cap, Focused
+                                StaticText, 0x103f47dc0, {{63.0, -2618.0}, {63.0, 18.0}}, label: 'For single.', value: For single., Focused
+                              Other, 0x103f3f0f0, {{277.0, -2642.0}, {95.0, 24.0}}, Focused
+                                StaticText, 0x103f4d1b0, {{277.0, -2641.0}, {94.0, 21.0}}, label: '$12,500.00', value: $12,500.00, Focused
+                            Other, 0x103f63fe0, {{17.0, -2588.0}, {368.0, 68.0}}, Focused
+                              Other, 0x103f60f90, {{31.0, -2571.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f572b0, {{30.0, -2572.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f4b5d0, {{31.0, -2571.0}, {9.0, 18.0}}, label: '6', value: 6, Focused
+                              Other, 0x103f67ac0, {{63.0, -2574.0}, {253.0, 42.0}}, Focused
+                                StaticText, 0x103f5cbc0, {{63.0, -2574.0}, {173.0, 21.0}}, label: 'Overtime after the cap', value: Overtime after the..., Focused
+                                StaticText, 0x103f373d0, {{63.0, -2551.0}, {171.0, 18.0}}, label: 'The smaller of lines 4 and 5.', value: The smaller of lin..., Focused
+                              Other, 0x103f3e290, {{324.0, -2575.0}, {48.0, 24.0}}, Focused
+                                StaticText, 0x103f55040, {{324.0, -2574.0}, {47.0, 21.0}}, label: '$0.00', value: $0.00, Focused
+                            Other, 0x103f357f0, {{17.0, -2521.0}, {368.0, 33.0}}, Focused
+                              Other, 0x103f53840, {{31.0, -2511.0}, {70.0, 15.0}}, Focused
+                                StaticText, 0x103f45f20, {{31.0, -2511.0}, {71.0, 15.0}}, label: 'PHASE-OUT', value: PHASE-OUT, Focused
+                            Other, 0x103f58a70, {{17.0, -2489.0}, {368.0, 86.0}}, Focused
+                              Other, 0x103f65ef0, {{31.0, -2472.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f50f30, {{30.0, -2473.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f5bdc0, {{31.0, -2472.0}, {9.0, 18.0}}, label: '7', value: 7, Focused
+                              Other, 0x103f59820, {{63.0, -2475.0}, {253.0, 60.0}}, Focused
+                                StaticText, 0x103f63920, {{63.0, -2475.0}, {226.0, 21.0}}, label: 'Reduction for each deduction', value: Reduction for each..., Focused
+                                StaticText, 0x103f5c130, {{63.0, -2452.0}, {226.0, 36.0}}, label: 'Income is not a full $1,000 above $150,000.00, so nothing is taken off.', value: Income is not a fu..., Focused
+                              Other, 0x103f42410, {{324.0, -2476.0}, {48.0, 24.0}}, Focused
+                                StaticText, 0x103f3df30, {{324.0, -2475.0}, {47.0, 21.0}}, label: '$0.00', value: $0.00, Focused
+                            Other, 0x103f58030, {{17.0, -2404.0}, {368.0, 33.0}}, Focused
+                              Other, 0x103f688b0, {{31.0, -2394.0}, {70.0, 15.0}}, Focused
+                                StaticText, 0x103f61320, {{31.0, -2394.0}, {71.0, 15.0}}, label: 'DEDUCTION', value: DEDUCTION, Focused
+                            Other, 0x103f59ef0, {{17.0, -2372.0}, {368.0, 68.0}}, Focused
+                              Other, 0x103f4f3c0, {{31.0, -2355.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f62b70, {{30.0, -2356.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f3ae00, {{31.0, -2355.0}, {9.0, 18.0}}, label: '8', value: 8, Focused
+                              Other, 0x103f415f0, {{63.0, -2358.0}, {233.0, 42.0}}, Focused
+                                StaticText, 0x103f4b250, {{63.0, -2358.0}, {115.0, 21.0}}, label: 'Tips deduction', value: Tips deduction, Focused
+                                StaticText, 0x103f50120, {{63.0, -2335.0}, {214.0, 18.0}}, label: 'Line 3 minus line 7, not below zero.', value: Line 3 minus line ..., Focused
+                              Other, 0x103f43570, {{303.0, -2359.0}, {68.0, 24.0}}, Focused
+                                StaticText, 0x103f35ee0, {{303.0, -2358.0}, {68.0, 21.0}}, label: '$155.00', value: $155.00, Focused
+                            Other, 0x103f399a0, {{17.0, -2305.0}, {368.0, 68.0}}, Focused
+                              Other, 0x103f561b0, {{31.0, -2288.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f50b90, {{30.0, -2289.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f5f910, {{31.0, -2288.0}, {9.0, 18.0}}, label: '9', value: 9, Focused
+                              Other, 0x103f3aab0, {{63.0, -2291.0}, {253.0, 42.0}}, Focused
+                                StaticText, 0x103f4a3e0, {{63.0, -2291.0}, {152.0, 21.0}}, label: 'Overtime deduction', value: Overtime deduction, Focused
+                                StaticText, 0x103f3bf80, {{63.0, -2268.0}, {214.0, 18.0}}, label: 'Line 6 minus line 7, not below zero.', value: Line 6 minus line ..., Focused
+                              Other, 0x103f4d530, {{324.0, -2292.0}, {48.0, 24.0}}, Focused
+                                StaticText, 0x103f454b0, {{324.0, -2291.0}, {47.0, 21.0}}, label: '$0.00', value: $0.00, Focused
+                            Other, 0x103f3c6a0, {{17.0, -2238.0}, {368.0, 81.0}}, Focused
+                              Other, 0x103f608e0, {{31.0, -2210.0}, {24.0, 19.0}}, Focused
+                                StaticText, 0x103f55e20, {{30.0, -2211.0}, {33.0, 18.0}}, label: 'Line', value: Line, Focused
+                                StaticText, 0x103f41950, {{31.0, -2210.0}, {17.0, 18.0}}, label: '10', value: 10, Focused
+                              Other, 0x103f3ca40, {{63.0, -2213.0}, {211.0, 42.0}}, Focused
+                                StaticText, 0x103f31df0, {{63.0, -2213.0}, {122.0, 21.0}}, label: 'Total deduction', value: Total deduction, Focused
+                                StaticText, 0x103f4e9c0, {{63.0, -2190.0}, {107.0, 18.0}}, label: 'Line 8 plus line 9.', value: Line 8 plus line 9., Focused
+                              Other, 0x103f534e0, {{281.0, -2220.0}, {90.0, 32.0}}, Focused
+                                StaticText, 0x103f32b80, {{281.0, -2218.0}, {90.0, 28.0}}, label: '$155.00', value: $155.00, Focused
+                            Other, 0x103f6b540, {{17.0, -2158.0}, {368.0, 110.0}}, Focused
+                              Other, 0x103f3b170, {{63.0, -2138.0}, {225.0, 78.0}}, Focused
+                                StaticText, 0x103f38530, {{63.0, -2138.0}, {213.0, 21.0}}, label: 'Estimated federal tax saved', value: Estimated federal ..., Focused
+                                StaticText, 0x103f66280, {{63.0, -2115.0}, {184.0, 54.0}}, label: 'Tax on $23,900.00 of taxable income is $2,620.00. With the deduction it is $2,601.40.', value: Tax on $23,900.00 ..., Focused
+                              Other, 0x103f4ce40, {{295.0, -2145.0}, {76.0, 32.0}}, Focused
+                                StaticText, 0x103f36960, {{295.0, -2143.0}, {76.0, 28.0}}, label: '$18.60', value: $18.60, Focused
+                          StaticText, 0x103f40870, {{39.0, -2038.0}, {184.0, 18.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                          StaticText, 0x103f3dbb0, {{39.0, -2038.0}, {345.0, 54.0}}, label: 'Rules reflect the 2025 federal tax law as understood in October 2026 and apply to tax years 2025 to 2028.', value: Rules reflect the ..., Focused
+                          Other, 0x103f657d0, {{16.0, -1968.0}, {375.0, 1982.0}}, Focused
+                            Button, 0x103f39650, {{17.0, -1967.0}, {374.0, 58.0}}, label: 'How this is calculated', Focused
+                              Button, 0x103f635d0, {{31.0, -1950.0}, {169.0, 21.0}}, label: 'How this is calculated', value: How this is calcul..., Focused
+                            Other, 0x103f61a10, {{31.0, -1896.0}, {340.0, 24.0}}, label: 'Which years', value: 3, Focused
+                              StaticText, 0x103f350f0, {{31.0, -1895.0}, {96.0, 21.0}}, label: 'Which years', value: Which years, Focused
+                            Other, 0x103f47380, {{31.0, -1870.0}, {340.0, 106.0}}, Focused
+                              StaticText, 0x103f365c0, {{31.0, -1869.0}, {336.0, 103.0}}, label: 'Both deductions exist for tax years 2025 to 2028. This app counts a shift in the tax year of its date. On your return, tips and overtime count in the year you receive them, so pay for late December can fall in the next year.', value: Both deductions ex..., Focused
+                            Other, 0x103f5ba70, {{31.0, -1740.0}, {340.0, 24.0}}, label: 'What counts as a qualified tip', value: 3, Focused
+                              StaticText, 0x103f594d0, {{31.0, -1739.0}, {229.0, 21.0}}, label: 'What counts as a qualified tip', value: What counts as a q..., Focused
+                            Other, 0x103f4a740, {{31.0, -1714.0}, {340.0, 127.0}}, Focused
+                              StaticText, 0x103f5d990, {{31.0, -1713.0}, {338.0, 124.0}}, label: 'Voluntary tips you keep, by card or cash, plus what you receive from a tip pool, minus what you tip out to other staff. Mandatory service charges and automatic gratuity do not count. Your occupation has to be on the Treasury list of customarily tipped occupations.', value: Voluntary tips you..., Focused
+                            Other, 0x103f44dc0, {{31.0, -1563.0}, {340.0, 24.0}}, label: 'What counts as qualified overtime', value: 3, Focused
+                              StaticText, 0x103f51280, {{31.0, -1562.0}, {264.0, 21.0}}, label: 'What counts as qualified overtime', value: What counts as qua..., Focused
+                            Other, 0x103f63250, {{31.0, -1537.0}, {340.0, 211.0}}, Focused
+                              StaticText, 0x103f5e400, {{31.0, -1536.0}, {338.0, 208.0}}, label: 'Only the premium on overtime required by federal law (the Fair Labor Standards Act). For most W-2 jobs that means hours over 40 in a workweek. Some hospital, care home, police and fire jobs use other federal overtime periods, which this app does not work out. The premium is the extra half in time-and-a-half, so it is overtime hours x 0.5 x your regular rate, even if your employer pays double time. From 2026, you can deduct only the overtime your employer reports on your W-2.', value: Only the premium o..., Focused
+                            Other, 0x103f54980, {{31.0, -1302.0}, {340.0, 24.0}}, label: 'What does not count as overtime', value: 3, Focused
+                              StaticText, 0x103f542b0, {{31.0, -1301.0}, {255.0, 21.0}}, label: 'What does not count as overtime', value: What does not coun..., Focused
+                            Other, 0x103f53f40, {{31.0, -1276.0}, {340.0, 106.0}}, Focused
+                              StaticText, 0x103f30620, {{31.0, -1275.0}, {338.0, 103.0}}, label: 'Overtime you get only because of a state daily rule or a contract, such as over 8 hours in a day but not over 40 in the week. Self-employed and gig work has no qualified overtime. Hours at different employers are never added together.', value: Overtime you get o..., Focused
+                            Other, 0x103f56890, {{31.0, -1146.0}, {340.0, 24.0}}, label: 'Caps', value: 3, Focused
+                              StaticText, 0x103f67090, {{31.0, -1145.0}, {40.0, 21.0}}, label: 'Caps', value: Caps, Focused
+                            Other, 0x103f5e060, {{31.0, -1120.0}, {340.0, 106.0}}, Focused
+                              StaticText, 0x103f42b00, {{31.0, -1119.0}, {336.0, 103.0}}, label: 'Tips: up to $25,000.00 per return. Overtime: up to $12,500.00, or $25,000.00 married filing jointly. The caps are per tax return, so on a joint return a spouse's tips and overtime count toward the same caps. This app counts only what is logged here.', value: Tips: up to $25,00..., Focused
+                            Other, 0x103f64d90, {{31.0, -990.0}, {340.0, 24.0}}, label: 'Phase-out', value: 3, Focused
+                              StaticText, 0x103f33cc0, {{31.0, -989.0}, {81.0, 21.0}}, label: 'Phase-out', value: Phase-out, Focused
+                            Other, 0x103f49d10, {{31.0, -964.0}, {340.0, 106.0}}, Focused
+                              StaticText, 0x103f5f5c0, {{31.0, -963.0}, {335.0, 103.0}}, label: 'Each deduction drops by $100.00 for every full $1,000 of income above $150,000.00 ($300,000.00 married filing jointly). The reduction is taken off the tips deduction and the overtime deduction separately.', value: Each deduction dro..., Focused
+                            Other, 0x103f3c320, {{31.0, -834.0}, {340.0, 24.0}}, label: 'Married filing separately', value: 3, Focused
+                              StaticText, 0x103f5f240, {{31.0, -833.0}, {189.0, 21.0}}, label: 'Married filing separately', value: Married filing sep..., Focused
+                            Other, 0x103f5c4c0, {{31.0, -808.0}, {340.0, 22.0}}, Focused
+                              StaticText, 0x103f39d10, {{31.0, -807.0}, {215.0, 19.0}}, label: 'Not eligible for either deduction.', value: Not eligible for e..., Focused
+                            Other, 0x103f499a0, {{31.0, -762.0}, {340.0, 24.0}}, label: 'Social Security number', value: 3, Focused
+                              StaticText, 0x103f58df0, {{31.0, -761.0}, {180.0, 21.0}}, label: 'Social Security number', value: Social Security nu..., Focused
+                            Other, 0x103f4fdc0, {{31.0, -736.0}, {340.0, 64.0}}, Focused
+                              StaticText, 0x103f3a080, {{31.0, -735.0}, {310.0, 61.0}}, label: 'Whoever received the tips or overtime needs a Social Security number that is valid for employment, and it has to be on the return.', value: Whoever received t..., Focused
+                            Other, 0x103f40f30, {{31.0, -648.0}, {340.0, 24.0}}, label: 'Self-employed and gig work', value: 3, Focused
+                              StaticText, 0x103f45bd0, {{31.0, -647.0}, {217.0, 21.0}}, label: 'Self-employed and gig work', value: Self-employed and ..., Focused
+                            Other, 0x103f65b50, {{31.0, -622.0}, {340.0, 64.0}}, Focused
+                              StaticText, 0x103f46cd0, {{31.0, -621.0}, {331.0, 61.0}}, label: 'Tips can still qualify, limited to your net income from that work. This app does not apply that limit, so check it yourself.', value: Tips can still qua..., Focused
+                            Other, 0x103f4e660, {{31.0, -534.0}, {340.0, 24.0}}, label: 'Estimated federal tax saved', value: 3, Focused
+                              StaticText, 0x103f35b60, {{31.0, -533.0}, {215.0, 21.0}}, label: 'Estimated federal tax saved', value: Estimated federal ..., Focused
+                            Other, 0x103f5cf40, {{31.0, -508.0}, {340.0, 127.0}}, Focused
+                              StaticText, 0x103f504a0, {{31.0, -507.0}, {340.0, 124.0}}, label: 'Your estimated total income is treated as modified adjusted gross income. The app takes off the standard deduction, works out bracket tax with and without the two deductions, and shows the difference. If you choose your own tax rate, it is the deduction x that rate.', value: Your estimated tot..., Focused
+                            Other, 0x103f57980, {{31.0, -357.0}, {340.0, 24.0}}, label: 'What this does not change', value: 3, Focused
+                              StaticText, 0x103f51990, {{31.0, -356.0}, {206.0, 21.0}}, label: 'What this does not change', value: What this does not..., Focused
+                            Other, 0x103f67e30, {{31.0, -331.0}, {340.0, 64.0}}, Focused
+                              StaticText, 0x103f5a240, {{31.0, -330.0}, {335.0, 61.0}}, label: 'Both deductions reduce federal income tax only. Social Security and Medicare still apply to tips and overtime, and state tax treatment varies.', value: Both deductions re..., Focused
+                            Other, 0x103f2ff60, {{31.0, -245.0}, {340.0, 214.0}}, Focused
+                              Other, 0x103f58390, {{49.0, -245.0}, {322.0, 64.0}}, label: 'Rules reflect the 2025 federal tax law as understood in October 2026 and apply to tax years 2025 to 2028.', Focused
+                                Other, 0x103f37e40, {{32.0, -244.0}, {7.0, 19.0}}, label: '•', Focused
+                                StaticText, 0x103f43fc0, {{49.0, -244.0}, {301.0, 61.0}}, label: 'Rules reflect the 2025 federal tax law as understood in October 2026 and apply to tax years 2025 to 2028.', value: • Rules reflect th..., Focused
+                              Other, 0x103f43c40, {{49.0, -176.0}, {322.0, 43.0}}, label: 'Confirm with the IRS instructions for Schedule 1-A or a tax professional.', Focused
+                                Other, 0x103f40bd0, {{32.0, -175.0}, {7.0, 19.0}}, label: '•', Focused
+                                StaticText, 0x103f48120, {{49.0, -175.0}, {307.0, 40.0}}, label: 'Confirm with the IRS instructions for Schedule 1-A or a tax professional.', value: • Confirm with the..., Focused
+                              Other, 0x103f646c0, {{49.0, -128.0}, {322.0, 43.0}}, label: 'Social Security and Medicare still apply to tips and overtime.', Focused
+                                Other, 0x103f37070, {{32.0, -127.0}, {7.0, 19.0}}, label: '•', Focused
+                                StaticText, 0x103f5a5b0, {{49.0, -127.0}, {306.0, 40.0}}, label: 'Social Security and Medicare still apply to tips and overtime.', value: • Social Security ..., Focused
+                              Other, 0x103f55ad0, {{49.0, -80.0}, {322.0, 22.0}}, label: 'State taxes vary.', Focused
+                                Other, 0x103f492f0, {{32.0, -79.0}, {7.0, 19.0}}, label: '•', Focused
+                                StaticText, 0x103f37740, {{49.0, -79.0}, {110.0, 19.0}}, label: 'State taxes vary.', value: • State taxes vary., Focused
+                              Other, 0x103f4fa60, {{49.0, -53.0}, {322.0, 22.0}}, label: 'All data stays on this device.', Focused
+                                Other, 0x103f3d810, {{32.0, -52.0}, {7.0, 19.0}}, label: '•', Focused
+                                StaticText, 0x103f58720, {{49.0, -52.0}, {189.0, 19.0}}, label: 'All data stays on this device.', value: • All data stays o..., Focused
+                            Other, 0x103f620f0, {{31.0, -22.0}, {340.0, 19.0}}, Focused
+                              StaticText, 0x103f4bcb0, {{31.0, -22.0}, {228.0, 18.0}}, label: 'Official forms and instructions are on', value: Official forms and..., Focused
+                              Link, 0x103f2fbe0, {{258.0, -24.0}, {66.0, 20.0}}, label: 'IRS.gov (opens outside the app)', Focused
+                              StaticText, 0x103f43210, {{323.0, -22.0}, {5.0, 18.0}}, label: '.', value: ., Focused
+                          Other, 0x103f4f070, {{16.0, 42.0}, {164.0, 23.0}}, label: 'Year-end paperwork', value: 2, Focused
+                            StaticText, 0x103f32ee0, {{16.0, 42.0}, {164.0, 23.0}}, label: 'Year-end paperwork', value: Year-end paperwork, Focused
+                          Other, 0x103f53bc0, {{16.0, 74.0}, {370.0, 817.0}}, label: 'W-2 check, region', Focused
+                            Other, 0x103f381b0, {{33.0, 90.0}, {96.0, 25.0}}, label: 'W-2 check', value: 3, Focused
+                              StaticText, 0x103f68540, {{33.0, 90.0}, {96.0, 25.0}}, label: 'W-2 check', value: W-2 check, Focused
+                            Other, 0x103f324a0, {{33.0, 119.0}, {336.0, 64.0}}, Focused
+                              StaticText, 0x103f3d4a0, {{33.0, 120.0}, {301.0, 40.0}}, label: 'Enter the qualified tips and qualified overtime printed on your W-2.', value: Enter the qualifie..., Focused
+                              StaticText, 0x103f6a3f0, {{174.0, 141.0}, {79.0, 19.0}}, label: 'ShiftLedger', value: ShiftLedger, Focused
+                              StaticText, 0x103f38f50, {{33.0, 141.0}, {327.0, 40.0}}, label: 'compares them with your log and explains any gap.', value:  compares them wit..., Focused
+                            Other, 0x103f59170, {{33.0, 196.0}, {336.0, 22.0}}, label: 'Qualified tips on your W-2', Focused
+                              StaticText, 0x103f3b510, {{33.0, 197.0}, {185.0, 19.0}}, label: 'Qualified tips on your W-2', value: Qualified tips on ..., Focused
+                            TextField, 0x103f5dcf0, {{56.0, 225.0}, {312.0, 48.0}}, label: 'Qualified tips on your W-2', placeholderValue: '0.00', value: 150, Focused
+                            Other, 0x103f51ce0, {{33.0, 279.0}, {336.0, 37.0}}, Focused
+                              StaticText, 0x103f48f70, {{33.0, 279.0}, {300.0, 36.0}}, label: 'Usually in box 12 with code TP. Enter it exactly as printed.', value: Usually in box 12 ..., Focused
+                            Other, 0x103f22a70, {{33.0, 331.0}, {336.0, 22.0}}, label: 'Qualified overtime on your W-2', Focused
+                              StaticText, 0x103f81060, {{33.0, 332.0}, {220.0, 19.0}}, label: 'Qualified overtime on your W-2', value: Qualified overtime..., Focused
+                            TextField, 0x103fc96b0, {{56.0, 360.0}, {312.0, 48.0}}, label: 'Qualified overtime on your W-2', placeholderValue: '0.00', value: 0.00, Focused
+                            Other, 0x103fc8e70, {{33.0, 414.0}, {336.0, 37.0}}, Focused
+                              StaticText, 0x103f712d0, {{33.0, 414.0}, {312.0, 36.0}}, label: 'Usually in box 12 with code TT. This is the premium only, not all overtime pay.', value: Usually in box 12 ..., Focused
+                            Other, 0x103fd4910, {{33.0, 466.0}, {336.0, 378.0}}, Focused
+                              Other, 0x103fcbda0, {{48.0, 482.0}, {104.0, 24.0}}, label: 'Qualified tips', value: 4, Focused
+                                StaticText, 0x103fc7df0, {{48.0, 483.0}, {104.0, 21.0}}, label: 'Qualified tips', value: Qualified tips, Focused
+                              StaticText, 0x103fd3890, {{307.0, 485.0}, {37.0, 18.0}}, label: 'Close', value: Close, Focused
+                              Other, 0x103fd3050, {{48.0, 518.0}, {306.0, 128.0}}, Focused
+                                Other, 0x103f74000, {{48.0, 535.0}, {57.0, 14.0}}, Focused
+                                  StaticText, 0x103fc8630, {{48.0, 535.0}, {57.0, 14.0}}, label: 'YOUR LOG', value: YOUR LOG, Focused
+                                Other, 0x103f739c0, {{285.0, 528.0}, {69.0, 24.0}}, Focused
+                                  StaticText, 0x103f73180, {{285.0, 529.0}, {69.0, 21.0}}, label: '$155.00', value: $155.00, Focused
+                                Other, 0x103f98510, {{48.0, 577.0}, {57.0, 14.0}}, Focused
+                                  StaticText, 0x103f769d0, {{48.0, 577.0}, {57.0, 14.0}}, label: 'YOUR W-2', value: YOUR W-2, Focused
+                                Other, 0x103f74820, {{285.0, 570.0}, {69.0, 24.0}}, Focused
+                                  StaticText, 0x103f77820, {{285.0, 571.0}, {69.0, 21.0}}, label: '$150.00', value: $150.00, Focused
+                                Other, 0x103f72940, {{48.0, 619.0}, {72.0, 14.0}}, Focused
+                                  StaticText, 0x103f78070, {{48.0, 619.0}, {72.0, 14.0}}, label: 'DIFFERENCE', value: DIFFERENCE, Focused
+                                Other, 0x103f97cd0, {{299.0, 612.0}, {56.0, 24.0}}, Focused
+                                  StaticText, 0x103f735a0, {{299.0, 613.0}, {55.0, 21.0}}, label: '-$5.00', value: -$5.00, Focused
+                              Other, 0x103f978b0, {{48.0, 657.0}, {306.0, 67.0}}, Focused
+                                StaticText, 0x103fc4830, {{48.0, 658.0}, {305.0, 65.0}}, label: 'Your log is within $5.00 of the W-2 for qualified tips. A gap this small is usually rounding or one short shift.', value: Your log is within..., Focused
+                              Other, 0x103fc4950, {{33.0, 752.0}, {336.0, 92.0}}, label: 'note', Focused
+                                Other, 0x103fc4a70, {{78.0, 765.0}, {276.0, 21.0}}, Focused
+                                  StaticText, 0x103f9e250, {{78.0, 765.0}, {181.0, 21.0}}, label: 'Your log and W-2 agree', value: Your log and W-2 a..., Focused
+                                Other, 0x103f9e370, {{78.0, 788.0}, {276.0, 43.0}}, Focused
+                                  StaticText, 0x103f9e490, {{78.0, 789.0}, {245.0, 40.0}}, label: 'Nothing to chase. Keep the W-2 with your records.', value: Nothing to chase. ..., Focused
+                            StaticText, 0x103f9e5b0, {{56.0, 855.0}, {184.0, 18.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                          Other, 0x103f9e6d0, {{16.0, 902.0}, {370.0, 274.0}}, label: 'Export, region', Focused
+                            Other, 0x103f9e7f0, {{33.0, 918.0}, {59.0, 25.0}}, label: 'Export', value: 3, Focused
+                              StaticText, 0x103f9e910, {{33.0, 918.0}, {59.0, 25.0}}, label: 'Export', value: Export, Focused
+                            Other, 0x103f9ea30, {{33.0, 947.0}, {336.0, 64.0}}, Focused
+                              StaticText, 0x103f9eb50, {{33.0, 948.0}, {30.0, 19.0}}, label: 'The', value: The , Focused
+                              StaticText, 0x103f9ec70, {{62.0, 948.0}, {37.0, 19.0}}, label: '2026', value: 2026, Focused
+                              StaticText, 0x103f9ed90, {{33.0, 948.0}, {336.0, 61.0}}, label: 'summary PDF has totals by month and by job, the deduction worked out line by line, and every shift. The CSV has all your shifts, every year.', value:  summary PDF has t..., Focused
+                            Button, 0x103f9eeb0, {{33.0, 1024.0}, {336.0, 49.0}}, label: '2026 summary (PDF)', Focused
+                            Button, 0x103f9efd0, {{33.0, 1082.0}, {336.0, 49.0}}, label: 'All shifts (CSV)', Focused
+                            StaticText, 0x103f9f0f0, {{56.0, 1140.0}, {184.0, 18.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                        Other, 0x103f9f210, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x103f9f330, {{0.0, 778.0}, {258.0, 62.0}}, label: 'Home', Focused
+                          Button, 0x103f9f450, {{0.0, 778.0}, {258.0, 62.0}}, label: 'Shifts', Focused
+                          Button, 0x103f9f570, {{0.0, 778.0}, {272.0, 62.0}}, label: 'Deduction', Focused
+                          Button, 0x103f9f690, {{65.0, 778.0}, {257.0, 62.0}}, label: 'Tools', Focused
+                          Button, 0x103f9f7b0, {{137.0, 778.0}, {265.0, 62.0}}, label: 'Settings', Focused
+                        Other, 0x103f9f8d0, {{0.0, -3598.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x103f9f9f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 6 pages', value: 89%
+                Other, 0x103f9fb10, {{396.0, 610.3}, {3.0, 132.3}}
+              Other, 0x103f9fc30, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103f9fd50, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103f9fe70, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 6 pages', value: 89%
+                Other, 0x103f9ff90, {{396.0, 610.3}, {3.0, 132.3}}
+              Other, 0x103fa00b0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103fa01d0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103fa02f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103fa0410, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103fa0530, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103f97510, pid: 20211, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x103f30980, pid: 20211, label: 'ShiftLedger'
+  }

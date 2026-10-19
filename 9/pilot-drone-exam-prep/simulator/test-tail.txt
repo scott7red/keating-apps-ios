@@ -1,0 +1,32 @@
+Command line invocation:
+    /Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild test-without-building -xctestrun /Users/runner/work/_temp/dd/Build/Products/ReviewTour_iphonesimulator26.5-arm64.xctestrun -destination id=E1E9E223-164E-4A96-953D-C8D225667176 -only-testing ReviewTour/PilotDroneTour/testTour -resultBundlePath /Users/runner/work/_temp/out/tour.xcresult
+
+2026-10-19 11:37:31.698 xcodebuild[14548:48276] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+Writing result bundle at path:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+2026-10-19 11:37:31.836 xcodebuild[14548:48276] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-19 11:37:33.484 xcodebuild[14548:48276] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, arch:arm64, id:E1E9E223-164E-4A96-953D-C8D225667176, OS:26.2, name:App Review }
+{ platform:iOS Simulator, arch:x86_64, id:E1E9E223-164E-4A96-953D-C8D225667176, OS:26.2, name:App Review }
+2026-10-19 11:37:48.268 xcodebuild[14548:48276] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-19 11:37:49.980 xcodebuild[14548:48276] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-19 11:40:33.202314+0800 ReviewTour-Runner[22846:69166] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-19 11:40:43.702.
+Test Suite 'ReviewTour.xctest' started at 2026-10-19 11:40:43.706.
+Test Suite 'PilotDroneTour' started at 2026-10-19 11:40:43.706.
+Test Case '-[ReviewTour.PilotDroneTour testTour]' started.
+    t =     0.00s Start Test at 2026-10-19 11:40:43.709
+    t =     0.92s Set Up
+    t =     2.45s Launch from the Home Screen
+    t =     2.46s     Pressing Home button
+    t =     4.58s     Find the Window (First Match)
+    t =     5.73s     Waiting 8.0s for "Pilot+Drone" Icon to exist
+    t =     6.74s         Checking `Expect predicate `existsNoRetry == 1` for object "Pilot+Drone" Icon`
+    t =     6.74s             Checking existence of `"Pilot+Drone" Icon`
+    t =     7.39s     Waiting 8.0s for "Pilot+Drone" Icon to exist
+    t =     8.42s         Checking `Expect predicate `existsNoRetry == 1` for object "Pilot+Drone" Icon`
+    t =     8.42s             Checking existence of `"Pilot+Drone" Icon`
+    t =     8.65s     Find the "Pilot+Drone" Icon

@@ -1,0 +1,13 @@
+1792377684.590	setup	-[TidyQuoteTour testTour]
+1792377684.591	step	Launch from the Home Screen
+1792377686.602	screen	393 852
+1792377703.785	note	icon TidyQuote not found; opening the app directly
+1792377703.790	start	
+1792377711.270	step	Welcome, in English and Spanish
+1792377713.655	show	Everything stays on this phone
+1792377719.091	tap	330 101
+1792377723.593	tap	245 101
+1792377728.937	tap	196 728
+1792377730.954	step	Your business
+1792377747.976	fail	-[TidyQuoteTour testTour]
+1792377748.479	end	

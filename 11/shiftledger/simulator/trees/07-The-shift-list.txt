@@ -1,0 +1,102 @@
+Attributes: Application, 0x106361ff0, pid: 17028, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x106361ff0, pid: 17028, label: 'ShiftLedger'
+    Window (Main), 0x10636eed0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10634f6b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106360f50, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x106348470, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x106362350, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x106365720, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10635d7e0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x106352ab0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10634d390, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10636fca0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'ShiftLedger', Focused
+                        Other, 0x106369640, {{0.0, 0.0}, {402.0, 630.0}}, label: 'main', Focused
+                          Other, 0x106350140, {{16.0, 0.0}, {370.0, 140.0}}, label: 'section header', Focused
+                            Other, 0x106365dd0, {{16.0, 85.0}, {75.0, 34.0}}, label: 'Shifts', value: 1, Focused
+                              StaticText, 0x1063369e0, {{16.0, 85.0}, {75.0, 34.0}}, label: 'Shifts', value: Shifts, Focused
+                            Button, 0x106353b80, {{267.0, 80.0}, {119.0, 44.0}}, label: 'Log shift', Focused
+                          Button, 0x10636f5c0, {{16.0, 140.0}, {44.0, 44.0}}, label: 'Previous month', Focused
+                          Other, 0x10635ccd0, {{138.0, 148.0}, {126.0, 28.0}}, label: 'October 2026', value: 2, Focused
+                            StaticText, 0x1063504c0, {{138.0, 149.0}, {126.0, 25.0}}, label: 'October 2026', value: October 2026, Focused
+                          Button, 0x10635b880, {{341.0, 140.0}, {45.0, 44.0}}, label: 'Next month', Focused
+                          Other, 0x106355e60, {{16.0, 198.0}, {370.0, 66.0}}, Focused
+                            Other, 0x106349600, {{30.0, 212.0}, {52.0, 13.0}}, Focused
+                              StaticText, 0x106347320, {{30.0, 212.0}, {43.0, 13.0}}, label: 'SHIFTS', value: SHIFTS, Focused
+                            Other, 0x106364270, {{30.0, 228.0}, {52.0, 23.0}}, Focused
+                              StaticText, 0x1063534c0, {{30.0, 229.0}, {11.0, 20.0}}, label: '1', value: 1, Focused
+                            Other, 0x106358f00, {{89.0, 212.0}, {75.0, 13.0}}, Focused
+                              StaticText, 0x106350b70, {{89.0, 212.0}, {37.0, 13.0}}, label: 'HOURS', value: HOURS, Focused
+                            Other, 0x10636c220, {{89.0, 228.0}, {75.0, 23.0}}, Focused
+                              StaticText, 0x106338560, {{89.0, 229.0}, {38.0, 20.0}}, label: '9.00', value: 9.00, Focused
+                            Other, 0x106368c20, {{171.0, 212.0}, {97.0, 13.0}}, Focused
+                              StaticText, 0x10634e180, {{171.0, 212.0}, {65.0, 13.0}}, label: 'TIPS KEPT', value: TIPS KEPT, Focused
+                            Other, 0x10635f740, {{171.0, 228.0}, {97.0, 23.0}}, Focused
+                              StaticText, 0x10635fac0, {{171.0, 229.0}, {69.0, 20.0}}, label: '$155.00', value: $155.00, Focused
+                            Other, 0x1063595c0, {{275.0, 212.0}, {97.0, 13.0}}, Focused
+                              StaticText, 0x106347680, {{275.0, 212.0}, {73.0, 13.0}}, label: 'EST. WAGES', value: EST. WAGES, Focused
+                            Other, 0x106365040, {{275.0, 228.0}, {97.0, 23.0}}, Focused
+                              StaticText, 0x10634a3d0, {{275.0, 229.0}, {70.0, 20.0}}, label: '$135.00', value: $135.00, Focused
+                          Other, 0x106364610, {{16.0, 286.0}, {370.0, 238.0}}, label: 'Week of Oct 18 to 24, region', Focused
+                            Other, 0x106354280, {{16.0, 286.0}, {370.0, 23.0}}, label: 'section header', Focused
+                              Other, 0x10634bf30, {{18.0, 286.0}, {156.0, 15.0}}, Focused
+                                StaticText, 0x1063688e0, {{18.0, 286.0}, {63.0, 14.0}}, label: 'WEEK OF', value: WEEK OF , Focused
+                                StaticText, 0x106352e00, {{80.0, 286.0}, {94.0, 14.0}}, label: 'OCT 18 TO 24', value: OCT 18 TO 24, Focused
+                            Other, 0x106343960, {{16.0, 309.0}, {370.0, 146.0}}, Focused
+                              Other, 0x106355090, {{29.0, 320.0}, {98.0, 13.0}}, Focused
+                                StaticText, 0x10635e960, {{29.0, 320.0}, {93.0, 13.0}}, label: 'REGULAR HOURS', value: REGULAR HOURS, Focused
+                              Other, 0x10635bf30, {{29.0, 336.0}, {98.0, 23.0}}, Focused
+                                StaticText, 0x106363ba0, {{29.0, 337.0}, {37.0, 20.0}}, label: '9.00', value: 9.00, Focused
+                              Other, 0x10634f330, {{152.0, 320.0}, {98.0, 26.0}}, Focused
+                                StaticText, 0x10636a750, {{152.0, 320.0}, {57.0, 26.0}}, label: 'OVERTIME HOURS', value: OVERTIME HOURS, Focused
+                              Other, 0x10635f3d0, {{152.0, 349.0}, {98.0, 23.0}}, Focused
+                                StaticText, 0x1063519d0, {{152.0, 350.0}, {37.0, 20.0}}, label: '0.00', value: 0.00, Focused
+                              Other, 0x106347d80, {{275.0, 320.0}, {98.0, 13.0}}, Focused
+                                StaticText, 0x106363810, {{275.0, 320.0}, {65.0, 13.0}}, label: 'TIPS KEPT', value: TIPS KEPT, Focused
+                              Other, 0x10634c610, {{275.0, 336.0}, {98.0, 23.0}}, Focused
+                                StaticText, 0x10634b4e0, {{275.0, 337.0}, {69.0, 20.0}}, label: '$155.00', value: $155.00, Focused
+                              Other, 0x10634fa30, {{29.0, 393.0}, {98.0, 13.0}}, Focused
+                                StaticText, 0x10634b190, {{29.0, 393.0}, {72.0, 13.0}}, label: 'EST. WAGES', value: EST. WAGES, Focused
+                              Other, 0x10634daa0, {{29.0, 409.0}, {98.0, 23.0}}, Focused
+                                StaticText, 0x106334e20, {{29.0, 410.0}, {69.0, 20.0}}, label: '$135.00', value: $135.00, Focused
+                              Other, 0x10636b150, {{152.0, 393.0}, {98.0, 13.0}}, Focused
+                                StaticText, 0x106367b30, {{152.0, 393.0}, {86.0, 13.0}}, label: 'OVERTIME PAY', value: OVERTIME PAY, Focused
+                              Other, 0x1063343a0, {{152.0, 409.0}, {98.0, 23.0}}, Focused
+                                StaticText, 0x1063480f0, {{152.0, 410.0}, {48.0, 20.0}}, label: '$0.00', value: $0.00, Focused
+                              Other, 0x10636cfc0, {{275.0, 393.0}, {98.0, 26.0}}, Focused
+                                StaticText, 0x106356fd0, {{275.0, 393.0}, {72.0, 26.0}}, label: 'QUALIFYING PREMIUM', value: QUALIFYING PREMIUM, Focused
+                              Other, 0x106335840, {{275.0, 422.0}, {98.0, 23.0}}, Focused
+                                StaticText, 0x10635c2a0, {{275.0, 423.0}, {48.0, 20.0}}, label: '$0.00', value: $0.00, Focused
+                            Other, 0x106353160, {{16.0, 455.0}, {370.0, 69.0}}, Focused
+                              Other, 0x10636c8f0, {{17.0, 456.0}, {368.0, 67.0}}, Focused
+                                Button, 0x106339430, {{17.0, 456.0}, {318.0, 67.0}}, label: 'Edit shift, Mon, Oct 19 $155.00 9 h tips kept', Focused
+                                Button, 0x10634de00, {{335.0, 456.0}, {50.0, 67.0}}, label: 'Delete shift on Mon, Oct 19', Focused
+                          Other, 0x106369d20, {{16.0, 548.0}, {370.0, 36.0}}, Focused
+                            StaticText, 0x106358810, {{16.0, 548.0}, {342.0, 35.0}}, label: 'A week that crosses a month end is shown whole in both months, so its weekly totals stay true.', value: A week that crosse..., Focused
+                          StaticText, 0x10636f250, {{39.0, 594.0}, {184.0, 17.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                          StaticText, 0x10636bec0, {{39.0, 594.0}, {340.0, 35.0}}, label: 'Wages and the qualifying premium are worked out from what you logged.', value: Wages and the qual..., Focused
+                        Other, 0x1063523d0, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x10634ec30, {{0.0, 778.0}, {258.0, 62.0}}, label: 'Home', Focused
+                          Button, 0x10635c970, {{0.0, 778.0}, {259.0, 62.0}}, label: 'Shifts', Focused
+                          Button, 0x106337790, {{0.0, 778.0}, {271.0, 62.0}}, label: 'Deduction', Focused
+                          Button, 0x10636eb70, {{65.0, 778.0}, {257.0, 62.0}}, label: 'Tools', Focused
+                          Button, 0x10636d9f0, {{137.0, 778.0}, {265.0, 62.0}}, label: 'Settings', Focused
+                        Other, 0x10634b860, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x106368560, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x106337e90, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x1063692e0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1063557a0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x106361ca0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x106357a40, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10636a0a0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1063561d0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x106367400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106363120, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106357dc0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x106361ff0, pid: 17028, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x106440a90, pid: 17028, label: 'ShiftLedger'
+  }

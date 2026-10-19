@@ -1,0 +1,7 @@
+shiftledger: ShiftLedger - Tips & Overtime - App Review.mp4, 21.5 MB, MD5 067ee6737b028a03acff4ff5dac787ab (dry run: nothing is changed)
+App Store Connect app: ShiftLedger: Tips & Overtime (6823850032)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (e005ee84-bec7-4841-92ed-587e99544bf7)
+App Review Information: 7eba2aa8-bab9-4d7a-866a-ce45eb4a2982
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"ShiftLedger - Tips & Overtime - App Review.mp4","fileSize":21531632},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"7eba2aa8-bab9-4d7a-866a-ce45eb4a2982"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 067ee6737b028a03acff4ff5dac787ab.

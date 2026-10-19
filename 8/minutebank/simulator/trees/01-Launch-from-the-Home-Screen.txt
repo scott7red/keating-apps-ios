@@ -1,0 +1,59 @@
+Attributes: Application, 0x101a3e2e0, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x101a3e2e0, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x101b4ed90, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b55ef0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b544f0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101b543a0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101b42e40, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101b7ce50, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b7cf70, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101b6be90, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101b6bfb0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101b7d270, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank', Focused
+                        Other, 0x101b7d390, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x101b7d690, {{22.0, 84.0}, {358.0, 18.0}}, Focused
+                            StaticText, 0x101b7d7b0, {{22.0, 85.0}, {112.0, 16.0}}, label: 'HOW IT WORKS', value: HOW IT WORKS, Focused
+                          Other, 0x101b4f260, {{22.0, 116.0}, {358.0, 37.0}}, label: 'A bank for screen time', value: 1, Focused
+                            StaticText, 0x101b4f380, {{22.0, 116.0}, {308.0, 37.0}}, label: 'A bank for screen time', value: A bank for screen ..., Focused
+                          Other, 0x101b4f4a0, {{22.0, 167.0}, {358.0, 268.0}}, Focused
+                            Other, 0x1017463a0, {{22.0, 167.0}, {358.0, 87.0}}, Focused
+                              Other, 0x10172ac30, {{80.0, 167.0}, {300.0, 23.0}}, Focused
+                                StaticText, 0x10172f4f0, {{80.0, 168.0}, {94.0, 20.0}}, label: 'They earn it', value: They earn it, Focused
+                              StaticText, 0x10172eab0, {{80.0, 192.0}, {14.0, 19.0}}, label: 'A', value: A , Focused
+                              StaticText, 0x10172a1f0, {{93.0, 192.0}, {17.0, 19.0}}, label: '10', value: 10, Focused
+                              StaticText, 0x101738cb0, {{80.0, 192.0}, {300.0, 61.0}}, label: '-question math set, time spent reading, or a finished chore puts minutes in the bank.', value: -question math set..., Focused
+                            Other, 0x101725510, {{22.0, 268.0}, {358.0, 87.0}}, Focused
+                              Other, 0x1017385c0, {{80.0, 268.0}, {300.0, 23.0}}, Focused
+                                StaticText, 0x101739030, {{80.0, 269.0}, {108.0, 20.0}}, label: 'They spend it', value: They spend it, Focused
+                              StaticText, 0x1017393c0, {{80.0, 293.0}, {289.0, 61.0}}, label: 'They choose how long. A countdown runs here while they use the TV, console or tablet, and an alarm rings when time is up.', value: They choose how lo..., Focused
+                            Other, 0x101738940, {{22.0, 369.0}, {358.0, 66.0}}, Focused
+                              Other, 0x101729e80, {{80.0, 369.0}, {300.0, 23.0}}, Focused
+                                StaticText, 0x101739710, {{80.0, 370.0}, {133.0, 20.0}}, label: 'You set the rules', value: You set the rules, Focused
+                              StaticText, 0x101739ab0, {{80.0, 394.0}, {272.0, 40.0}}, label: 'Rewards, daily limits, allowed hours and approvals sit behind your PIN.', value: Rewards, daily lim..., Focused
+                          Other, 0x1017269b0, {{71.0, 464.0}, {294.0, 84.0}}, Focused
+                            StaticText, 0x101726d30, {{71.0, 465.0}, {102.0, 18.0}}, label: 'Good to know.', value: Good to know., Focused
+                            StaticText, 0x10172afb0, {{71.0, 465.0}, {287.0, 60.0}}, label: 'MinuteBank is a bank and a timer. It does not lock other apps or devices.', value: MinuteBank is a ba..., Focused
+                            StaticText, 0x101726610, {{71.0, 507.0}, {286.0, 39.0}}, label: 'Most families keep it on a parent’s phone or a shared tablet.', value:  Most families kee..., Focused
+                          Button, 0x1017270b0, {{22.0, 714.0}, {358.0, 56.0}}, label: 'Set up MinuteBank', Focused
+                          Button, 0x10173a520, {{173.0, 774.0}, {56.0, 44.0}}, label: 'Back', Focused
+                        Other, 0x10173dc00, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+                        Other, 0x10173df50, {{0.0, 0.0}, {402.0, 874.0}}, Focused
+              Other, 0x10173d530, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10173e660, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10173e9c0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10173f0d0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10173ed40, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101745ff0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101743670, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101727430, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101726290, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10172a8c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10173c0a0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101a3e2e0, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x101727e90, pid: 21046, label: 'MinuteBank'
+  }

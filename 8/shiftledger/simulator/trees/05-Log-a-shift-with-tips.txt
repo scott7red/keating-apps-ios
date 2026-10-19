@@ -1,0 +1,108 @@
+Attributes: Application, 0x10446aa00, pid: 16473, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x10446aa00, pid: 16473, label: 'ShiftLedger'
+    Window (Main), 0x10445d4b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10443d5a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1044635f0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10447e8d0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10445d210, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10447d610, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x104469b80, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10447c9b0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10447de50, {{0.0, -85.0}, {402.0, 874.0}}
+                      Other, 0x104469fa0, {{0.0, -85.0}, {402.0, 959.0}}, label: 'ShiftLedger'
+                        Other, 0x10446a3c0, {{0.0, 74.0}, {402.0, 800.0}}, label: 'Log shift, web dialog', Focused
+                          Other, 0x104449f60, {{0.0, 74.0}, {402.0, 71.0}}, label: 'banner', Focused
+                            Other, 0x10447cdd0, {{18.0, 100.0}, {77.0, 24.0}}, label: 'Log shift', value: 2, Focused
+                              StaticText, 0x10447f080, {{18.0, 100.0}, {78.0, 24.0}}, label: 'Log shift', value: Log shift, Focused
+                            Button, 0x10447d1f0, {{350.0, 90.0}, {44.0, 44.0}}, label: 'Close', Focused
+                          Other, 0x10444f430, {{18.0, -285.0}, {366.0, 1073.0}}, label: 'form', Focused
+                            Other, 0x10447ec60, {{18.0, -285.0}, {366.0, 47.0}}, label: 'note', Focused
+                              Other, 0x10445cf00, {{63.0, -272.0}, {238.0, 20.0}}, Focused
+                                StaticText, 0x104464380, {{63.0, -272.0}, {238.0, 20.0}}, label: 'Check the fields marked below', value: Check the fields m..., Focused
+                            Other, 0x1044644a0, {{18.0, -226.0}, {366.0, 21.0}}, label: 'Date', Focused
+                              StaticText, 0x104466380, {{18.0, -225.0}, {34.0, 18.0}}, label: 'Date', value: Date, Focused
+                            Other, 0x1044664a0, {{19.0, -198.0}, {364.0, 48.0}}, label: 'Date', value: Oct 19, 2026, Focused
+                            StaticText, 0x1044665c0, {{33.0, -117.0}, {27.0, 18.0}}, label: 'Job', value: Job, Focused
+                            Other, 0x1044666e0, {{237.0, -120.0}, {132.0, 23.0}}, Focused
+                              StaticText, 0x104466800, {{237.0, -119.0}, {132.0, 20.0}}, label: 'Test Diner server', value: Test Diner server, Focused
+                            Other, 0x104466920, {{18.0, -68.0}, {366.0, 80.0}}, label: 'Hours', Focused
+                              Other, 0x104466a40, {{18.0, -68.0}, {366.0, 21.0}}, Focused
+                                StaticText, 0x104466b60, {{18.0, -67.0}, {43.0, 18.0}}, label: 'Hours', value: Hours, Focused
+                              Other, 0x104466c80, {{23.0, -36.0}, {176.0, 43.0}}, Focused
+                                Other, 0x104480e20, {{22.0, -37.0}, {177.0, 44.0}}, label: 'Start and end', value: 0, Focused
+                                StaticText, 0x104480f40, {{63.0, -24.0}, {96.0, 19.0}}, label: 'Start and end', value: Start and end, Focused
+                              Other, 0x104481060, {{203.0, -36.0}, {176.0, 43.0}}, Focused
+                                Other, 0x104481180, {{202.0, -37.0}, {177.0, 44.0}}, label: 'Enter hours', value: 1, Focused
+                                StaticText, 0x1044812a0, {{249.0, -24.0}, {84.0, 19.0}}, label: 'Enter hours', value: Enter hours, Focused
+                            Other, 0x1044813c0, {{18.0, 27.0}, {366.0, 22.0}}, label: 'Paid hours', Focused
+                              StaticText, 0x1044814e0, {{18.0, 28.0}, {75.0, 19.0}}, label: 'Paid hours', value: Paid hours, Focused
+                            TextField, 0x104481600, {{20.0, 56.0}, {310.0, 48.0}}, label: 'Paid hours', placeholderValue: '7.5', value: 912035, Focused
+                            StaticText, 0x104481720, {{38.0, 111.0}, {250.0, 18.0}}, label: 'A shift cannot be longer than 24 hours.', value: A shift cannot be ..., Focused
+                            Other, 0x104481840, {{18.0, 135.0}, {366.0, 37.0}}, Focused
+                              StaticText, 0x104481960, {{18.0, 135.0}, {350.0, 36.0}}, label: 'Hours you were paid for, with unpaid breaks already taken off.', value: Hours you were pai..., Focused
+                            Other, 0x104481a80, {{18.0, 187.0}, {366.0, 22.0}}, label: 'Hourly rate for this shift', Focused
+                              StaticText, 0x104481ba0, {{18.0, 188.0}, {170.0, 19.0}}, label: 'Hourly rate for this shift', value: Hourly rate for th..., Focused
+                            TextField, 0x104481cc0, {{41.0, 216.0}, {317.0, 48.0}}, label: 'Hourly rate for this shift', placeholderValue: '0.00', value: 15, Focused
+                            Other, 0x104481de0, {{18.0, 270.0}, {366.0, 19.0}}, Focused
+                              StaticText, 0x104481f00, {{18.0, 270.0}, {351.0, 18.0}}, label: 'Copied from the job. Change it if this shift paid differently.', value: Copied from the jo..., Focused
+                            Other, 0x104482020, {{18.0, 304.0}, {366.0, 367.0}}, label: 'TIPS', Focused
+                              Other, 0x104482140, {{33.0, 319.0}, {336.0, 16.0}}, Focused
+                                StaticText, 0x104482260, {{33.0, 319.0}, {32.0, 15.0}}, label: 'TIPS', value: TIPS, Focused
+                              Other, 0x104482380, {{33.0, 346.0}, {162.0, 22.0}}, label: 'Card tips', Focused
+                                StaticText, 0x1044824a0, {{33.0, 347.0}, {65.0, 19.0}}, label: 'Card tips', value: Card tips, Focused
+                              TextField, 0x1044825c0, {{56.0, 375.0}, {138.0, 48.0}}, label: 'Card tips', placeholderValue: '0.00', value: 0.00, Focused
+                              Other, 0x1044826e0, {{207.0, 346.0}, {162.0, 22.0}}, label: 'Cash tips', Focused
+                                StaticText, 0x104482800, {{207.0, 347.0}, {67.0, 19.0}}, label: 'Cash tips', value: Cash tips, Focused
+                              TextField, 0x104482920, {{230.0, 375.0}, {138.0, 48.0}}, label: 'Cash tips', placeholderValue: '0.00', value: 0.00, Focused
+                              Other, 0x104482a40, {{33.0, 439.0}, {162.0, 22.0}}, label: 'From tip pool', Focused
+                                StaticText, 0x104482b60, {{33.0, 440.0}, {94.0, 19.0}}, label: 'From tip pool', value: From tip pool, Focused
+                              TextField, 0x104482c80, {{56.0, 468.0}, {138.0, 48.0}}, label: 'From tip pool', placeholderValue: '0.00', value: 0.00, Focused
+                              Other, 0x104482da0, {{207.0, 439.0}, {162.0, 22.0}}, label: 'Tip-out paid', Focused
+                                StaticText, 0x104482ec0, {{207.0, 440.0}, {87.0, 19.0}}, label: 'Tip-out paid', value: Tip-out paid, Focused
+                              TextField, 0x104482fe0, {{230.0, 468.0}, {138.0, 48.0}}, label: 'Tip-out paid', placeholderValue: '0.00', value: 0.00, Focused
+                              Other, 0x104483100, {{33.0, 532.0}, {336.0, 22.0}}, label: 'Service charges or auto-gratuity', Focused
+                                StaticText, 0x104483220, {{33.0, 533.0}, {231.0, 19.0}}, label: 'Service charges or auto-gratuity', value: Service charges or..., Focused
+                              TextField, 0x104483340, {{56.0, 561.0}, {312.0, 48.0}}, label: 'Service charges or auto-gratuity', placeholderValue: '0.00', value: 0.00, Focused
+                              Other, 0x104483460, {{33.0, 615.0}, {336.0, 37.0}}, Focused
+                                StaticText, 0x104483580, {{33.0, 615.0}, {317.0, 36.0}}, label: 'Not deductible. Mandatory charges are tracked here but only voluntary tips count.', value: Not deductible. Ma..., Focused
+                            Other, 0x1044836a0, {{18.0, 686.0}, {366.0, 22.0}}, label: 'Notes', Focused
+                              StaticText, 0x1044837c0, {{18.0, 687.0}, {42.0, 19.0}}, label: 'Notes', value: Notes, Focused
+                            TextView, 0x1044838e0, {{18.0, 713.0}, {366.0, 75.0}}, label: 'Notes', placeholderValue: 'Anything worth remembering', value: Anything worth rem..., Focused
+                              Other, 0x104483a00, {{31.0, 726.0}, {340.0, 24.0}}, Focused
+                                StaticText, 0x104483b20, {{31.0, 726.0}, {222.0, 23.0}}, label: 'Anything worth remembering', value: Anything worth rem..., Focused
+                              StaticText, 0x104483c40, {{31.0, 726.0}, {222.0, 23.0}}, label: 'Anything worth remembering', value: Anything worth rem..., Focused
+                          Other, 0x104483d60, {{0.0, 716.0}, {402.0, 158.0}}, label: 'content information', Focused
+                            Other, 0x104483e80, {{18.0, 729.0}, {366.0, 39.0}}, Focused
+                              Other, 0x104483fa0, {{18.0, 729.0}, {116.0, 13.0}}, Focused
+                                StaticText, 0x1044840c0, {{18.0, 729.0}, {72.0, 13.0}}, label: 'PAID HOURS', value: PAID HOURS, Focused
+                              Other, 0x1044841e0, {{18.0, 744.0}, {116.0, 24.0}}, Focused
+                                StaticText, 0x104484300, {{18.0, 745.0}, {49.0, 22.0}}, label: '24.00', value: 24.00, Focused
+                              Other, 0x104484420, {{143.0, 729.0}, {116.0, 13.0}}, Focused
+                                StaticText, 0x104484540, {{143.0, 729.0}, {65.0, 13.0}}, label: 'TIPS KEPT', value: TIPS KEPT, Focused
+                              Other, 0x104484660, {{143.0, 744.0}, {116.0, 24.0}}, Focused
+                                StaticText, 0x104484780, {{143.0, 745.0}, {50.0, 22.0}}, label: '$0.00', value: $0.00, Focused
+                              Other, 0x1044848a0, {{268.0, 729.0}, {116.0, 13.0}}, Focused
+                                StaticText, 0x1044849c0, {{268.0, 729.0}, {115.0, 13.0}}, label: 'HOURLY WITH TIPS', value: HOURLY WITH TIPS, Focused
+                              Other, 0x104484ae0, {{268.0, 744.0}, {116.0, 24.0}}, Focused
+                                StaticText, 0x104484c00, {{268.0, 745.0}, {76.0, 22.0}}, label: '$15.00/h', value: $15.00/h, Focused
+                            Button, 0x104484d20, {{18.0, 780.0}, {366.0, 48.0}}, label: 'Log shift', Focused
+                        Other, 0x104484e40, {{0.0, -85.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x104484f60, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                Other, 0x104485080, {{396.0, 131.0}, {3.0, 678.0}}
+              Other, 0x1044851a0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1044852c0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1044853e0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                Other, 0x104485500, {{396.0, 131.0}, {3.0, 678.0}}
+              Other, 0x104485620, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x104485740, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x104485860, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x104485980, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x104485aa0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10446aa00, pid: 16473, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x1047b1800, pid: 16473, label: 'ShiftLedger'
+  }

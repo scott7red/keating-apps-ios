@@ -1,0 +1,31 @@
+10:47:24 xcrun simctl status_bar 118AA2C4-416C-476E-B4DB-172BD1C7AF6C override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+10:47:28 xcrun simctl ui 118AA2C4-416C-476E-B4DB-172BD1C7AF6C appearance light
+  -> exit 0
+10:47:28 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+10:47:29 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+10:47:29 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+10:47:29 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+10:47:30 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+10:47:30 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+10:47:31 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+10:47:31 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+10:47:32 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+10:47:32 xcrun simctl spawn 118AA2C4-416C-476E-B4DB-172BD1C7AF6C defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+10:47:33 xcrun simctl launch 118AA2C4-416C-476E-B4DB-172BD1C7AF6C com.apple.mobilesafari
+com.apple.mobilesafari: 13679
+  -> exit 0
+10:47:54 xcrun simctl terminate 118AA2C4-416C-476E-B4DB-172BD1C7AF6C com.apple.mobilesafari
+  -> exit 0
+10:47:55 xcrun simctl install 118AA2C4-416C-476E-B4DB-172BD1C7AF6C /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

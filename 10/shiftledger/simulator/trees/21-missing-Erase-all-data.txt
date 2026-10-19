@@ -1,0 +1,304 @@
+Attributes: Application, 0x103d319b0, pid: 20211, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x103d319b0, pid: 20211, label: 'ShiftLedger'
+    Window (Main), 0x103d84d20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103d71810, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103d68fc0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1058c0270, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x1058c0390, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x1058bfdf0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1058bff10, {{0.0, 0.0}, {402.0, 875.0}}
+                  Other, 0x1058c0030, {{0.0, 0.0}, {402.0, 875.0}}
+                    Other, 0x1058c0150, {{0.0, -2310.0}, {402.0, 875.0}}
+                      Other, 0x1058c04b0, {{0.0, -2310.0}, {402.0, 3273.0}}, label: 'ShiftLedger'
+                        Other, 0x1058c05d0, {{0.0, -2310.0}, {402.0, 3149.0}}, label: 'main'
+                          Other, 0x1058c06f0, {{8.0, -2310.0}, {378.0, 3149.0}}, label: 'Help, article'
+                            Other, 0x1058c0810, {{8.0, -2310.0}, {378.0, 129.0}}, label: 'section header'
+                              Button, 0x1058ba540, {{8.0, -2230.0}, {101.0, 45.0}}, label: 'Settings'
+                            Other, 0x1058ba660, {{16.0, -2180.0}, {370.0, 35.0}}, label: 'Help', value: 1, Focused
+                              StaticText, 0x1058ba780, {{16.0, -2180.0}, {59.0, 35.0}}, label: 'Help', value: Help, Focused
+                            Other, 0x1058ba8a0, {{16.0, -2103.0}, {370.0, 17.0}}, label: 'YOUR DATA', value: 2
+                              StaticText, 0x1058ba9c0, {{16.0, -2102.0}, {71.0, 15.0}}, label: 'YOUR DATA', value: YOUR DATA
+                            Other, 0x1058baae0, {{16.0, -2077.0}, {370.0, 23.0}}, label: 'Where is my data saved?', value: 3
+                              StaticText, 0x1058bac00, {{16.0, -2077.0}, {202.0, 23.0}}, label: 'Where is my data saved?', value: Where is my data s...
+                            Other, 0x1058bad20, {{16.0, -2051.0}, {370.0, 73.0}}
+                              StaticText, 0x1058bae40, {{16.0, -2049.0}, {358.0, 69.0}}, label: 'On this device, inside the app. It saves by itself each time you add or change something. There is no account, and nothing is sent anywhere.', value: On this device, in...
+                            Other, 0x1058baf60, {{16.0, -1961.0}, {370.0, 23.0}}, label: 'How do I back up?', value: 3
+                              StaticText, 0x1058bb080, {{16.0, -1961.0}, {148.0, 23.0}}, label: 'How do I back up?', value: How do I back up?
+                            Other, 0x1058bb1a0, {{16.0, -1935.0}, {370.0, 145.0}}
+                              StaticText, 0x1058bb2c0, {{16.0, -1933.0}, {366.0, 141.0}}, label: 'In Settings, under Backup and restore, choose Export backup. You get one file with your jobs, shifts, tax profile and W-2 figures. Save it somewhere safe, such as your files or an email to yourself. A backup after a busy stretch, and before you change phones, is a good habit.', value: In Settings, under...
+                            Other, 0x1058bb640, {{16.0, -1773.0}, {370.0, 23.0}}, label: 'How do I restore a backup?', value: 3
+                              StaticText, 0x1058bb760, {{16.0, -1773.0}, {220.0, 23.0}}, label: 'How do I restore a backup?', value: How do I restore a...
+                            Other, 0x1058bb880, {{16.0, -1747.0}, {370.0, 73.0}}
+                              StaticText, 0x1058bb9a0, {{16.0, -1745.0}, {368.0, 69.0}}, label: 'Choose Import backup and pick the file. It replaces what is on this device, so export first if there is anything here you want to keep.', value: Choose Import back...
+                            Other, 0x1058bbac0, {{16.0, -1657.0}, {370.0, 23.0}}, label: 'How do I move to a new phone?', value: 3
+                              StaticText, 0x1058bbbe0, {{16.0, -1657.0}, {255.0, 23.0}}, label: 'How do I move to a new phone?', value: How do I move to a...
+                            Other, 0x1058bbd00, {{16.0, -1631.0}, {370.0, 73.0}}
+                              StaticText, 0x1058bbe20, {{16.0, -1629.0}, {369.0, 45.0}}, label: 'Export a backup on the old phone and send the file to the new one. Install', value: Export a backup on...
+                              StaticText, 0x10587b6f0, {{178.0, -1605.0}, {86.0, 21.0}}, label: 'ShiftLedger', value: ShiftLedger
+                              StaticText, 0x10587b810, {{16.0, -1605.0}, {355.0, 45.0}}, label: 'there, open Settings, choose Import backup and pick the file.', value:  there, open Setti...
+                            Other, 0x10587b930, {{16.0, -1541.0}, {370.0, 23.0}}, label: 'How do I delete everything?', value: 3
+                              StaticText, 0x10587ba50, {{16.0, -1541.0}, {226.0, 23.0}}, label: 'How do I delete everything?', value: How do I delete ev...
+                            Other, 0x10587bb70, {{16.0, -1515.0}, {370.0, 49.0}}
+                              StaticText, 0x10587a670, {{16.0, -1513.0}, {368.0, 45.0}}, label: 'In Settings, choose Erase all data. Deleting the app deletes its data too.', value: In Settings, choos...
+                            Other, 0x10587a790, {{16.0, -1422.0}, {370.0, 17.0}}, label: 'LOGGING SHIFTS', value: 2
+                              StaticText, 0x10587a8b0, {{16.0, -1421.0}, {110.0, 15.0}}, label: 'LOGGING SHIFTS', value: LOGGING SHIFTS
+                            Other, 0x10587a9d0, {{16.0, -1396.0}, {370.0, 23.0}}, label: 'How does logging work?', value: 3
+                              StaticText, 0x10587aaf0, {{16.0, -1396.0}, {199.0, 23.0}}, label: 'How does logging work?', value: How does logging w...
+                            Other, 0x10583cdb0, {{16.0, -1370.0}, {370.0, 145.0}}
+                              StaticText, 0x10583ced0, {{16.0, -1368.0}, {359.0, 117.0}}, label: 'Add a job first: your hourly rate, whether you earn tips and the day your workweek starts. After each shift, tap Log shift and enter your start and end times, or just the hours, and your tips. The app groups shifts into workweeks, finds hours over', value: Add a job first: y...
+                              StaticText, 0x10583d210, {{356.0, -1272.0}, {20.0, 21.0}}, label: '40', value: 40
+                              StaticText, 0x10583d330, {{16.0, -1272.0}, {365.0, 45.0}}, label: ', and adds up what qualifies.', value: , and adds up what...
+                            Other, 0x10583d450, {{16.0, -1208.0}, {370.0, 23.0}}, label: 'I work two jobs. Does that matter?', value: 3
+                              StaticText, 0x10583d570, {{16.0, -1208.0}, {278.0, 23.0}}, label: 'I work two jobs. Does that matter?', value: I work two jobs. D...
+                            Other, 0x10583d690, {{16.0, -1182.0}, {370.0, 73.0}}
+                              StaticText, 0x10583d7b0, {{16.0, -1180.0}, {361.0, 69.0}}, label: 'Add each one in Settings. Every job keeps its own workweek and its own overtime, because hours at different employers are never added together.', value: Add each one in Se...
+                            Other, 0x10583d8d0, {{16.0, -1092.0}, {370.0, 23.0}}, label: 'What goes under service charges?', value: 3
+                              StaticText, 0x10583d9f0, {{16.0, -1092.0}, {281.0, 23.0}}, label: 'What goes under service charges?', value: What goes under se...
+                            Other, 0x10583db10, {{16.0, -1066.0}, {370.0, 97.0}}
+                              StaticText, 0x10583dc30, {{16.0, -1064.0}, {352.0, 93.0}}, label: 'Mandatory charges and automatic gratuity. They are part of your pay but they are not tips, so the app keeps track of them and leaves them out of the deduction.', value: Mandatory charges ...
+                            Other, 0x10583dd50, {{16.0, -952.0}, {370.0, 23.0}}, label: 'Can I try it before entering my own shifts?', value: 3
+                              StaticText, 0x10583de70, {{16.0, -952.0}, {339.0, 23.0}}, label: 'Can I try it before entering my own shifts?', value: Can I try it befor...
+                            Other, 0x10583df90, {{16.0, -926.0}, {370.0, 97.0}}
+                              StaticText, 0x10583e0b0, {{16.0, -924.0}, {365.0, 93.0}}, label: 'Yes. At the bottom of Settings, choose Try the app with example data. Your own data is set aside while it shows and comes back when you remove it.', value: Yes. At the bottom...
+                            Other, 0x10583e1d0, {{16.0, -785.0}, {370.0, 17.0}}, label: 'WHAT THE NUMBERS MEAN', value: 2
+                              StaticText, 0x10583e2f0, {{16.0, -784.0}, {164.0, 15.0}}, label: 'WHAT THE NUMBERS MEAN', value: WHAT THE NUMBERS M...
+                            Other, 0x10583e410, {{16.0, -759.0}, {370.0, 924.0}}
+                              Other, 0x10583e530, {{16.0, -759.0}, {370.0, 25.0}}
+                                StaticText, 0x10583e650, {{16.0, -757.0}, {123.0, 21.0}}, label: 'Hourly with tips', value: Hourly with tips
+                              Other, 0x10583e770, {{16.0, -733.0}, {370.0, 49.0}}
+                                StaticText, 0x10583e890, {{16.0, -731.0}, {349.0, 45.0}}, label: 'Estimated wages, tips kept and service charges, divided by the hours you were paid for.', value: Estimated wages, t...
+                              Other, 0x10583e9b0, {{16.0, -660.0}, {370.0, 25.0}}
+                                StaticText, 0x10583ead0, {{16.0, -658.0}, {84.0, 21.0}}, label: 'Est. wages', value: Est. wages
+                              Other, 0x10583ebf0, {{16.0, -634.0}, {370.0, 73.0}}
+                                StaticText, 0x10583ed10, {{16.0, -632.0}, {370.0, 69.0}}, label: 'Paid hours at your rate, with overtime hours at your overtime rate. Your pay stub is the record; this is a guide.', value: Paid hours at your...
+                              Other, 0x10583ee30, {{16.0, -537.0}, {370.0, 25.0}}
+                                StaticText, 0x10583ef50, {{16.0, -535.0}, {72.0, 21.0}}, label: 'Tips kept', value: Tips kept
+                              Other, 0x10583f070, {{16.0, -511.0}, {370.0, 49.0}}
+                                StaticText, 0x10583f190, {{16.0, -509.0}, {368.0, 45.0}}, label: 'Card, cash and tip pool, minus what you tipped out to other staff.', value: Card, cash and tip...
+                              Other, 0x10583f2b0, {{16.0, -438.0}, {370.0, 25.0}}
+                                StaticText, 0x10583f3d0, {{16.0, -436.0}, {103.0, 21.0}}, label: 'Qualified tips', value: Qualified tips
+                              Other, 0x10583f4f0, {{16.0, -412.0}, {370.0, 49.0}}
+                                StaticText, 0x10583f610, {{16.0, -410.0}, {304.0, 45.0}}, label: 'Tips kept at a tipped job marked as on the Treasury list of tipped occupations.', value: Tips kept at a tip...
+                              Other, 0x10583f730, {{16.0, -339.0}, {370.0, 25.0}}
+                                StaticText, 0x10583f850, {{16.0, -337.0}, {145.0, 21.0}}, label: 'Overtime premium', value: Overtime premium
+                              Other, 0x10583f970, {{16.0, -313.0}, {370.0, 97.0}}
+                                StaticText, 0x10583fa90, {{16.0, -311.0}, {356.0, 69.0}}, label: 'Only the extra half of time and a half, on overtime federal law requires at a W-2 job. For most jobs that is hours over', value: Only the extra hal...
+                                StaticText, 0x10583fbb0, {{145.0, -263.0}, {21.0, 21.0}}, label: '40', value: 40
+                                StaticText, 0x10583fcd0, {{165.0, -263.0}, {135.0, 21.0}}, label: 'in a workweek. At', value:  in a workweek. At 
+                                StaticText, 0x10583fdf0, {{299.0, -263.0}, {31.0, 21.0}}, label: '$20', value: $20
+                                StaticText, 0x10583ff10, {{16.0, -263.0}, {335.0, 45.0}}, label: 'an hour, overtime pays', value:  an hour, overtime...
+                                StaticText, 0x105840030, {{162.0, -239.0}, {30.0, 21.0}}, label: '$30', value: $30
+                                StaticText, 0x105840150, {{191.0, -239.0}, {36.0, 21.0}}, label: 'and', value:  and 
+                                StaticText, 0x105840270, {{226.0, -239.0}, {31.0, 21.0}}, label: '$10', value: $10
+                                StaticText, 0x105840390, {{256.0, -239.0}, {91.0, 21.0}}, label: 'of it counts.', value:  of it counts.
+                              Other, 0x1058404b0, {{16.0, -192.0}, {370.0, 25.0}}
+                                StaticText, 0x1058405d0, {{16.0, -190.0}, {161.0, 21.0}}, label: 'Estimated deduction', value: Estimated deduction
+                              Other, 0x1058406f0, {{16.0, -166.0}, {370.0, 49.0}}
+                                StaticText, 0x105840810, {{16.0, -164.0}, {328.0, 45.0}}, label: 'Qualified tips and overtime premium after the yearly caps and the income phase-out.', value: Qualified tips and...
+                              Other, 0x105840930, {{16.0, -93.0}, {370.0, 25.0}}
+                                StaticText, 0x105840a50, {{16.0, -91.0}, {167.0, 21.0}}, label: 'Est. federal tax saved', value: Est. federal tax s...
+                              Other, 0x105840b70, {{16.0, -67.0}, {370.0, 97.0}}
+                                StaticText, 0x105840c90, {{16.0, -65.0}, {363.0, 93.0}}, label: 'Federal income tax on your estimated income, worked out with and without the deduction. The difference is the estimate. It needs your estimated income for the year, or a tax rate you choose.', value: Federal income tax...
+                              Other, 0x105840db0, {{16.0, 54.0}, {370.0, 25.0}}
+                                StaticText, 0x105840ed0, {{16.0, 56.0}, {127.0, 21.0}}, label: 'Toward the caps', value: Toward the caps
+                              Other, 0x105840ff0, {{16.0, 80.0}, {370.0, 73.0}}
+                                StaticText, 0x105841110, {{16.0, 82.0}, {268.0, 21.0}}, label: 'How far the year is toward the limits:', value: How far the year i...
+                                StaticText, 0x10583a270, {{283.0, 82.0}, {64.0, 21.0}}, label: '$25,000', value: $25,000
+                                StaticText, 0x10583a390, {{16.0, 82.0}, {350.0, 45.0}}, label: 'of tips, and', value:  of tips, and 
+                                StaticText, 0x10583a4b0, {{82.0, 106.0}, {64.0, 21.0}}, label: '$12,500', value: $12,500
+                                StaticText, 0x10583a5d0, {{145.0, 106.0}, {165.0, 21.0}}, label: 'of overtime premium (', value:  of overtime premi...
+                                StaticText, 0x10583a6f0, {{309.0, 106.0}, {64.0, 21.0}}, label: '$25,000', value: $25,000
+                                StaticText, 0x10583a810, {{16.0, 130.0}, {153.0, 21.0}}, label: 'married filing jointly).', value: married filing joi...
+                            Other, 0x10583a930, {{16.0, 209.0}, {370.0, 17.0}}, label: 'THE ESTIMATE', value: 2
+                              StaticText, 0x10583aa50, {{16.0, 210.0}, {94.0, 15.0}}, label: 'THE ESTIMATE', value: THE ESTIMATE
+                            Other, 0x10583ab70, {{16.0, 235.0}, {370.0, 23.0}}, label: 'Where do the rules and figures come from?', value: 3
+                              StaticText, 0x10583ac90, {{16.0, 235.0}, {350.0, 23.0}}, label: 'Where do the rules and figures come from?', value: Where do the rules...
+                            Other, 0x10583adb0, {{16.0, 261.0}, {370.0, 169.0}}
+                              StaticText, 0x10583aed0, {{16.0, 263.0}, {300.0, 69.0}}, label: 'The 2025 federal tax law that created the deductions for qualified tips and qualified overtime, for tax years', value: The 2025 federal t...
+                              StaticText, 0x10583aff0, {{181.0, 311.0}, {40.0, 21.0}}, label: '2025', value: 2025
+                              StaticText, 0x10583b110, {{220.0, 311.0}, {20.0, 21.0}}, label: 'to', value:  to
+                              StaticText, 0x105899ac0, {{243.0, 311.0}, {40.0, 21.0}}, label: '2028', value: 2028
+                              StaticText, 0x105899be0, {{16.0, 311.0}, {359.0, 45.0}}, label: ', and the IRS brackets and standard deductions for', value: , and the IRS brac...
+                              StaticText, 0x105899d00, {{291.0, 335.0}, {40.0, 21.0}}, label: '2026', value: 2026
+                              StaticText, 0x105899e20, {{16.0, 335.0}, {341.0, 45.0}}, label: ', as understood in', value: , as understood in 
+                              StaticText, 0x105899f40, {{120.0, 359.0}, {103.0, 21.0}}, label: 'October 2026', value: October 2026
+                              StaticText, 0x10589a060, {{16.0, 359.0}, {357.0, 69.0}}, label: '. The Deduction tab shows every line of the working under How this is calculated.', value: . The Deduction ta...
+                            Other, 0x10589a2d0, {{16.0, 439.0}, {370.0, 25.0}}
+                              StaticText, 0x10589a3f0, {{16.0, 441.0}, {272.0, 21.0}}, label: 'Official forms and instructions are on', value: Official forms and...
+                              Link, 0x10589a510, {{287.0, 438.0}, {75.0, 24.0}}, label: 'IRS.gov (opens outside the app)'
+                              StaticText, 0x10589a630, {{362.0, 441.0}, {5.0, 21.0}}, label: '.', value: .
+                            Other, 0x10589a750, {{16.0, 481.0}, {370.0, 23.0}}, label: 'Why does my W-2 not match my log?', value: 3
+                              StaticText, 0x10589a870, {{16.0, 481.0}, {301.0, 23.0}}, label: 'Why does my W-2 not match my log?', value: Why does my W-2 no...
+                            Other, 0x10589a990, {{16.0, 507.0}, {370.0, 97.0}}
+                              StaticText, 0x10589aab0, {{16.0, 509.0}, {368.0, 93.0}}, label: 'Use the W-2 check on the Deduction tab. It compares the two and lists the likely reasons, such as cash tips not reported to your employer, or pay for late December that was dated in January.', value: Use the W-2 check ...
+                            Other, 0x10589abd0, {{16.0, 621.0}, {370.0, 23.0}}, label: 'Is this tax advice?', value: 3
+                              StaticText, 0x10589acf0, {{16.0, 621.0}, {145.0, 23.0}}, label: 'Is this tax advice?', value: Is this tax advice?
+                            Other, 0x10589ae10, {{16.0, 647.0}, {370.0, 73.0}}
+                              StaticText, 0x10589af30, {{16.0, 649.0}, {30.0, 21.0}}, label: 'No.', value: No. 
+                              StaticText, 0x10589b050, {{45.0, 649.0}, {219.0, 21.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no...
+                              StaticText, 0x10589b170, {{16.0, 649.0}, {345.0, 69.0}}, label: 'Confirm with the IRS instructions for Schedule 1-A or a tax professional before you file.', value:  Confirm with the ...
+                            Other, 0x10589b290, {{16.0, 764.0}, {370.0, 17.0}}, label: 'STILL STUCK?', value: 2
+                              StaticText, 0x10589b3b0, {{16.0, 765.0}, {94.0, 15.0}}, label: 'STILL STUCK?', value: STILL STUCK?
+                            Other, 0x10589b4d0, {{16.0, 790.0}, {370.0, 49.0}}
+                              StaticText, 0x10589b5f0, {{16.0, 792.0}, {169.0, 21.0}}, label: 'Questions or problems:', value: Questions or probl...
+                              Link, 0x10589b710, {{16.0, 813.0}, {348.0, 24.0}}, label: 'scott+shiftledger@keatingkonsultancy.com (opens outside the app)'
+                        Other, 0x10589ba30, {{0.0, 776.0}, {603.0, 98.0}}, label: 'Main, navigation'
+                          Button, 0x10589bb50, {{0.0, 777.0}, {258.0, 63.0}}, label: 'Home'
+                          Button, 0x10589bc70, {{0.0, 777.0}, {258.0, 63.0}}, label: 'Shifts'
+                          Button, 0x10589bd90, {{0.0, 777.0}, {271.0, 63.0}}, label: 'Deduction'
+                          Button, 0x10589beb0, {{65.0, 777.0}, {257.0, 63.0}}, label: 'Tools'
+                          Button, 0x10589bfd0, {{136.0, 777.0}, {266.0, 63.0}}, label: 'Settings'
+                        Other, 0x10589c0f0, {{0.0, -2310.0}, {402.0, 11.0}}, label: 'application status'
+              Other, 0x10589c210, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 4 pages', value: 96%
+                Other, 0x10589c330, {{396.0, 590.3}, {3.0, 198.7}}
+              Other, 0x10589c450, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10589c570, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10589c690, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 4 pages', value: 96%
+                Other, 0x10589c7b0, {{396.0, 590.3}, {3.0, 198.7}}
+              Other, 0x10589c8d0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10589c9f0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x10589cb10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1058f96f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1058f9810, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103d319b0, pid: 20211, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x103fa8310, pid: 20211, label: 'ShiftLedger'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x105836d30, pid: 7619, label: ' '
+Element subtree:
+ →Application, 0x105836d30, pid: 7619, label: ' '
+    Window, 0x10584c010, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1058a7fd0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10584ba10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1058455a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10588c1c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1058516f0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x1058f7d10, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x1058d9f80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1058a7370, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1058b90a0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10582d8c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10584ce70, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10581a6e0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x1058d9b60, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10584c830, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x1058a6f50, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x10582ce80, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10587cfb0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10588d220, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x1058d9740, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x1058b9d00, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x10589d730, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10584d290, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x1058ba120, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x10589f030, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x1058f78f0, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x1058a7bb0, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x1058a7790, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x1058c8ae0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10588ffa0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10588fb80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10589df70, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10582dce0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105826f70, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10582a350, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1058d9320, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10587d5f0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1058c9d80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105882270, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1058c7000, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10584c410, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105833710, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10581af20, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10584b590, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10584b6b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10584b7d0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10584b8f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1058f9930, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1058f9a50, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1058f9b70, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1058f9c90, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1058f9db0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x1058f9ed0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1058f9ff0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x1058fa110, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x1058fa230, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1058fa350, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1058fa470, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1058fa590, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x1058fa6b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1058fa7d0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x1058fa8f0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1058faa10, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1058fab30, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1058fac50, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.shiftledger:sceneID:com.keatingkonsultancy.shiftledger-default', label: 'ShiftLedger'
+                  Other, 0x1058fad70, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1058fae90, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1058fafb0, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x1058fb0d0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x1058fb1f0, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x1058fb310, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x1058fb430, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x1058fb550, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x1058fb670, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x1058fb790, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x103fac8d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x103f5d620, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x103f553c0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x103f40f30, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x103f67090, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x103f63920, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x103f6a3f0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x103f5a5b0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x103f324a0, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x103f50f30, {{55.7, 22.3}, {36.7, 20.3}}, label: '10:59 AM'
+                                                      Other, 0x103f6a780, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x103f6a0a0, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x103f399a0, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x103f572b0, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x103f4caf0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x103f3d120, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x103f51280, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103f37ab0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103f37e40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103f56f40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103f335b0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103f4d8b0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103f30980, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103f327f0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x103f5d2c0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x103f30cd0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x103f4fdc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f99190, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f81880, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103f712d0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103fecb30, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f9d130, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103f74400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f73180, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103f77820, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103f980f0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x103fc5cd0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x103fab1f0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x103faba30, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x103f75060, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x103fa5010, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f71af0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103f74820, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103f78070, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103d6fff0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103d71ee0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105836d30, pid: 7619, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x103dc4790, pid: 7619, label: ' '
+  }

@@ -1,0 +1,26 @@
+11:03:13 xcrun simctl status_bar E9D1663D-4239-400D-8E14-A87600116FFF override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+11:03:21 xcrun simctl ui E9D1663D-4239-400D-8E14-A87600116FFF appearance light
+  -> exit 0
+11:03:23 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+11:03:24 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+11:03:25 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+11:03:26 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+11:03:27 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+11:03:27 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+11:03:28 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+11:03:29 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+11:03:30 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+11:03:31 xcrun simctl spawn E9D1663D-4239-400D-8E14-A87600116FFF defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+11:03:32 xcrun simctl install E9D1663D-4239-400D-8E14-A87600116FFF /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

@@ -1,0 +1,120 @@
+Attributes: Application, 0x101d57330, pid: 16582, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101d57330, pid: 16582, label: 'TidyQuote'
+    Window (Main), 0x101d714e0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d83740, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d50f60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d78cf0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101d3d0e0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101d48ef0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101d3e580, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101d82700, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101d58410, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101d693a0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101d5d9a0, {{0.0, 0.0}, {402.0, 1428.0}}, label: 'TidyQuote'
+                        Other, 0x101d58af0, {{0.0, 0.0}, {402.0, 1429.0}}, label: 'main', Focused
+                          Other, 0x101d580c0, {{0.0, 0.0}, {402.0, 122.0}}, label: 'section header', Focused
+                            Button, 0x101d56540, {{6.0, 70.0}, {44.0, 44.0}}, label: 'Back', Focused
+                            Other, 0x101d76e50, {{56.0, 77.0}, {330.0, 30.0}}, label: 'Business profile', value: 1, Focused
+                              StaticText, 0x101d3bc10, {{56.0, 75.0}, {192.0, 33.0}}, label: 'Business profile', value: Business profile, Focused
+                          Other, 0x101d5e750, {{34.0, 148.0}, {334.0, 26.0}}, label: 'Logo', value: 2, Focused
+                            StaticText, 0x101d4b530, {{34.0, 149.0}, {43.0, 23.0}}, label: 'Logo', value: Logo, Focused
+                          Button, 0x101d457a0, {{146.0, 214.0}, {144.0, 44.0}}, label: 'Upload logo', Focused
+                          Button, 0x101d5ead0, {{33.0, 293.0}, {1.0, 1.0}}, label: 'Upload logo', Focused
+                          Other, 0x101d58e70, {{34.0, 294.0}, {334.0, 18.0}}, Focused
+                            StaticText, 0x101d46520, {{34.0, 294.0}, {286.0, 17.0}}, label: 'Shown at the top of your quotes and invoices.', value: Shown at the top o..., Focused
+                          Other, 0x101d423d0, {{34.0, 362.0}, {334.0, 26.0}}, label: 'Business details', value: 2, Focused
+                            StaticText, 0x101d41cd0, {{34.0, 363.0}, {138.0, 23.0}}, label: 'Business details', value: Business details, Focused
+                          Other, 0x101d38bf0, {{34.0, 402.0}, {334.0, 20.0}}, label: 'Business name', Focused
+                            StaticText, 0x101d67110, {{34.0, 403.0}, {103.0, 18.0}}, label: 'Business name', value: Business name, Focused
+                          TextField, 0x101d49970, {{34.0, 428.0}, {334.0, 48.0}}, label: 'Business name', placeholderValue: 'Fresh Nest Cleaning', value: Sparkle Test Clean..., Focused
+                          Other, 0x101d579e0, {{34.0, 490.0}, {334.0, 20.0}}, label: 'Your name (optional)', Focused
+                            StaticText, 0x101d82010, {{34.0, 491.0}, {73.0, 18.0}}, label: 'Your name', value: Your name, Focused
+                            StaticText, 0x101d752b0, {{109.0, 491.0}, {65.0, 18.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101d5dd20, {{34.0, 516.0}, {334.0, 48.0}}, label: 'Your name (optional)', Focused
+                          Other, 0x101d5f170, {{34.0, 578.0}, {161.0, 20.0}}, label: 'Phone', Focused
+                            StaticText, 0x101d3c9e0, {{34.0, 579.0}, {43.0, 18.0}}, label: 'Phone', value: Phone, Focused
+                          TextField, 0x101d3cd70, {{34.0, 604.0}, {161.0, 48.0}}, label: 'Phone', Focused
+                          Other, 0x101d841a0, {{207.0, 578.0}, {161.0, 20.0}}, label: 'Email', Focused
+                            StaticText, 0x101d62550, {{207.0, 579.0}, {37.0, 18.0}}, label: 'Email', value: Email, Focused
+                          TextField, 0x101d61790, {{207.0, 604.0}, {161.0, 48.0}}, label: 'Email', Focused
+                          Other, 0x101d50500, {{34.0, 666.0}, {334.0, 20.0}}, label: 'Address (optional)', Focused
+                            StaticText, 0x101d52e90, {{34.0, 667.0}, {57.0, 18.0}}, label: 'Address', value: Address, Focused
+                            StaticText, 0x101d6d820, {{94.0, 667.0}, {65.0, 18.0}}, label: '(optional)', value: (optional), Focused
+                          TextView, 0x101d759c0, {{34.0, 692.0}, {334.0, 84.0}}, label: 'Address (optional)', Focused
+                          Other, 0x101d3a020, {{34.0, 790.0}, {334.0, 20.0}}, label: 'Currency', Focused
+                            StaticText, 0x101d6e240, {{34.0, 791.0}, {64.0, 18.0}}, label: 'Currency', value: Currency, Focused
+                          Other, 0x101d63690, {{34.0, 816.0}, {334.0, 48.0}}, label: 'Currency', value: US dollar (USD), Focused
+                          Other, 0x101d39960, {{34.0, 870.0}, {334.0, 36.0}}, Focused
+                            StaticText, 0x101d4c630, {{34.0, 870.0}, {311.0, 35.0}}, label: 'Starting prices are in US dollars. Adjust your price book if you change this.', value: Starting prices ar..., Focused
+                          Other, 0x101d4ae50, {{34.0, 956.0}, {334.0, 26.0}}, label: 'Getting paid', value: 2, Focused
+                            StaticText, 0x101d65270, {{34.0, 957.0}, {104.0, 23.0}}, label: 'Getting paid', value: Getting paid, Focused
+                          Other, 0x101d7ed10, {{34.0, 996.0}, {334.0, 20.0}}, label: 'Payment notes (optional)', Focused
+                            StaticText, 0x101d45e60, {{34.0, 997.0}, {102.0, 18.0}}, label: 'Payment notes', value: Payment notes, Focused
+                            StaticText, 0x101d3efb0, {{139.0, 997.0}, {65.0, 18.0}}, label: '(optional)', value: (optional), Focused
+                          TextView, 0x101d53220, {{34.0, 1022.0}, {334.0, 93.0}}, label: 'Payment notes (optional)', placeholderValue: 'Cash or check on the day of the visit', value: Cash or check on t..., Focused
+                            Other, 0x101d69a80, {{49.0, 1033.0}, {304.0, 24.0}}, Focused
+                              StaticText, 0x101d53590, {{49.0, 1034.0}, {265.0, 21.0}}, label: 'Cash or check on the day of the visit', value: Cash or check on t..., Focused
+                            StaticText, 0x101d71170, {{49.0, 1034.0}, {265.0, 21.0}}, label: 'Cash or check on the day of the visit', value: Cash or check on t..., Focused
+                          Other, 0x101d41970, {{34.0, 1120.0}, {334.0, 19.0}}, Focused
+                            StaticText, 0x101d4f310, {{34.0, 1120.0}, {154.0, 18.0}}, label: 'Printed on every invoice.', value: Printed on every i..., Focused
+                          Other, 0x101d57680, {{34.0, 1152.0}, {334.0, 21.0}}, label: 'Payment link (optional)', Focused
+                            StaticText, 0x101d3bfa0, {{34.0, 1153.0}, {88.0, 19.0}}, label: 'Payment link', value: Payment link, Focused
+                            StaticText, 0x101d80810, {{125.0, 1153.0}, {65.0, 19.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101d5cf60, {{34.0, 1178.0}, {334.0, 49.0}}, label: 'Payment link (optional)', placeholderValue: 'https://', value: https://, Focused
+                          Other, 0x101d5fbb0, {{34.0, 1232.0}, {334.0, 37.0}}, Focused
+                            StaticText, 0x101d68cb0, {{34.0, 1232.0}, {301.0, 36.0}}, label: 'Printed on invoices as a QR code your client can scan.', value: Printed on invoice..., Focused
+                        Other, 0x101d542f0, {{0.0, 778.0}, {576.0, 96.0}}, label: 'Main, navigation'
+                          Button, 0x101d45b00, {{0.0, 784.0}, {258.0, 50.0}}, label: 'Home'
+                          Button, 0x101d7bfc0, {{0.0, 784.0}, {262.0, 50.0}}, label: 'Quotes'
+                          Button, 0x101d74500, {{0.0, 784.0}, {265.0, 50.0}}, label: 'Invoices'
+                          Button, 0x101d78610, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients'
+                          Button, 0x101d67eb0, {{130.0, 784.0}, {266.0, 50.0}}, label: 'Settings'
+                        Other, 0x101d66370, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101d621f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101d66000, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101d7faa0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101d5ee20, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101c9a110, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101c99140, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101c98d20, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101c99980, {{65.0, 868.0}, {272.0, 3.0}}
+      Other, 0x101c99560, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c98900, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c91710, {{106.0, 226.0}, {250.0, 104.0}}
+            Other, 0x101c97e80, {{106.0, 226.0}, {250.0, 104.0}}
+              Other, 0x101c9aaf0, {{106.0, 226.0}, {250.0, 104.0}}
+                Other, 0x101c9ac10, {{106.0, 226.0}, {250.0, 104.0}}
+                CollectionView, 0x101c9ad30, {{106.0, 226.0}, {250.0, 874.0}}
+                  Cell, 0x101c9ae50, {{106.0, 236.0}, {250.0, 42.0}}
+                    Button, 0x101c9af70, {{106.0, 236.0}, {250.0, 42.0}}, label: 'Photo Library'
+                      Image, 0x101c9b090, {{129.7, 247.7}, {24.7, 19.0}}, identifier: 'photo.on.rectangle', label: 'photo.on.rectangle'
+                  Cell, 0x101c9b1b0, {{106.0, 278.0}, {250.0, 42.0}}
+                    Button, 0x101c9b2d0, {{106.0, 278.0}, {250.0, 42.0}}, label: 'Choose File'
+                      Image, 0x101c9b3f0, {{130.7, 290.7}, {23.0, 17.3}}, identifier: 'folder', label: 'move'
+                  Other, 0x101c9b510, {{323.0, 256.0}, {30.0, 44.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                    Other, 0x101c9b630, {{350.0, 259.0}, {3.0, 38.0}}
+                  Other, 0x101c9b750, {{168.0, 267.0}, {188.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x101c9b870, {{171.0, 294.0}, {182.0, 3.0}}
+                  Other, 0x101c9b990, {{323.0, 256.0}, {30.0, 44.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                    Other, 0x101c9bab0, {{350.0, 259.0}, {3.0, 38.0}}
+                  Other, 0x101c9bbd0, {{168.0, 267.0}, {188.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x101c9bcf0, {{171.0, 294.0}, {182.0, 3.0}}
+              Other, 0x101c9be10, {{106.0, 226.0}, {250.0, 104.0}}
+                Other, 0x101c9bf30, {{106.0, 226.0}, {250.0, 104.0}}
+                  Other, 0x101c9c050, {{106.0, 226.0}, {250.0, 104.0}}
+                    Other, 0x101c9c170, {{106.0, 226.0}, {250.0, 104.0}}
+                      Other, 0x101c9c290, {{106.0, 226.0}, {250.0, 104.0}}
+                        Other, 0x101c9c3b0, {{106.0, 226.0}, {250.0, 44.0}}
+                    Other, 0x101c9c4d0, {{106.0, 226.0}, {250.0, 104.0}}
+                      Other, 0x101c9c5f0, {{106.0, 226.0}, {250.0, 44.0}}
+    Window, 0x101c9c710, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c9c830, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c9c950, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101d57330, pid: 16582, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x101d484a0, pid: 16582, label: 'TidyQuote'
+  }

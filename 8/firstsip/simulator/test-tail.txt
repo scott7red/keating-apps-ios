@@ -1,0 +1,250 @@
+    t =    28.49s         Check for interrupting elements affecting "FirstSip" Application
+    t =    28.51s         Synthesize event
+    t =    28.51s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    28.53s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    28.55s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    28.84s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    30.16s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    30.31s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    30.33s Before you start
+    t =    30.33s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Before you start"'
+    t =    30.35s     Find the Any (Element at index 0)
+    t =    30.38s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "It never recommends, calculates or adjusts a dose"'
+    t =    30.39s     Checking existence of `Keyboard (First Match)`
+    t =    30.40s     Find the Any (Element at index 0)
+    t =    30.42s     Find the Window (First Match)
+    t =    32.94s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I understand" OR identifier ==[c] "I understand")'
+    t =    32.96s     Checking existence of `Keyboard (First Match)`
+    t =    32.97s     Find the Any (Element at index 0)
+    t =    32.99s     Find the Window (First Match)
+    t =    33.00s     Find the Window (First Match)
+    t =    33.00s     Checking existence of `Keyboard (First Match)`
+    t =    33.02s     Press Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    33.02s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    33.02s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    33.04s         Check for interrupting elements affecting "FirstSip" Application
+    t =    33.06s         Synthesize event
+    t =    33.06s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    33.07s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    33.09s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    33.11s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    33.13s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    34.26s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    34.79s     Find the "I understand" Button
+    t =    35.53s     Find the "I understand" Button
+    t =    35.56s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 739.0)
+    t =    35.56s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    35.56s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    35.58s         Check for interrupting elements affecting "FirstSip" Application
+    t =    35.60s         Synthesize event
+    t =    35.60s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    35.61s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    35.63s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    35.94s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    37.26s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    37.39s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    37.44s Which medicine
+    t =    37.44s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Which medicine do you take?"'
+    t =    37.46s     Find the Any (Element at index 0)
+    t =    38.51s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Semaglutide tablets (Wegovy pill)"'
+    t =    38.53s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label BEGINSWITH[c] "Semaglutide tablets (Wegovy pill)"'
+    t =    38.55s     Checking existence of `Keyboard (First Match)`
+    t =    38.56s     Find the Any (Element at index 0)
+    t =    38.58s     Find the Window (First Match)
+    t =    39.31s     Find the "Semaglutide tablets (Wegovy pill) Morning checklist and a 30 minute wait timer" Other
+    t =    39.33s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 311.5)
+    t =    39.33s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    39.33s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    39.34s         Check for interrupting elements affecting "FirstSip" Application
+    t =    39.36s         Synthesize event
+    t =    39.36s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    39.37s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    39.38s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    39.68s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    40.99s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Continue" OR identifier ==[c] "Continue")'
+    t =    41.00s     Checking existence of `Keyboard (First Match)`
+    t =    41.02s     Find the Any (Element at index 0)
+    t =    41.04s     Find the Window (First Match)
+    t =    41.04s     Find the Window (First Match)
+    t =    41.05s     Checking existence of `Keyboard (First Match)`
+    t =    41.06s     Press Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    41.06s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    41.07s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    41.08s         Check for interrupting elements affecting "FirstSip" Application
+    t =    41.10s         Synthesize event
+    t =    41.10s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    41.11s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    41.13s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    41.14s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    41.15s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    42.29s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    42.81s     Find the "Continue" Button
+    t =    43.55s     Find the "Continue" Button
+    t =    43.58s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 739.0)
+    t =    43.58s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    43.59s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    43.60s         Check for interrupting elements affecting "FirstSip" Application
+    t =    43.62s         Synthesize event
+    t =    43.62s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    43.64s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    43.66s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    43.96s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    45.27s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    45.48s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    45.52s A few details
+    t =    45.52s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "A few details"'
+    t =    45.54s     Find the Any (Element at index 0)
+    t =    45.56s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Pounds (lb)" OR identifier ==[c] "Pounds (lb)")'
+    t =    45.58s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Pounds (lb)" OR identifier ==[c] "Pounds (lb)")'
+    t =    45.60s     Checking existence of `Keyboard (First Match)`
+    t =    45.62s     Find the Any (Element at index 0)
+    t =    45.64s     Find the Window (First Match)
+    t =    46.36s     Find the "Pounds (lb)" Other
+    t =    46.39s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (113.0, 512.0)
+    t =    46.39s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    46.39s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    46.41s         Check for interrupting elements affecting "FirstSip" Application
+    t =    46.43s         Synthesize event
+    t =    46.43s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    46.44s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    46.46s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    46.76s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    48.07s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Start using FirstSip" OR identifier ==[c] "Start using FirstSip")'
+    t =    48.11s     Checking existence of `Keyboard (First Match)`
+    t =    48.12s     Find the Any (Element at index 0)
+    t =    48.15s     Find the Window (First Match)
+    t =    48.16s     Find the "Start using FirstSip" Button
+    t =    48.91s     Find the "Start using FirstSip" Button
+    t =    48.94s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 697.0)
+    t =    48.94s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    48.94s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    48.95s         Check for interrupting elements affecting "FirstSip" Application
+    t =    48.98s         Synthesize event
+    t =    48.98s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    48.99s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    49.01s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    49.36s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    50.68s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    50.93s Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    50.98s The label checklist and a dose
+    t =    50.98s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Before your first sip"'
+    t =    51.00s     Find the Any (Element at index 0)
+    t =    52.54s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Take it on an empty stomach"'
+    t =    52.57s     Checking existence of `Keyboard (First Match)`
+    t =    52.59s     Find the Any (Element at index 0)
+    t =    52.63s     Find the Window (First Match)
+    t =    53.34s     Find the "Take it on an empty stomach" Switch
+    t =    53.38s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 546.0)
+    t =    53.38s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    53.39s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    53.47s         Check for interrupting elements affecting "FirstSip" Application
+    t =    53.51s         Synthesize event
+    t =    53.52s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    53.54s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    53.57s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    53.88s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    54.69s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Swallow the tablet whole"'
+    t =    54.72s     Checking existence of `Keyboard (First Match)`
+    t =    54.73s     Find the Any (Element at index 0)
+    t =    54.76s     Find the Window (First Match)
+    t =    55.48s     Find the "Swallow the tablet whole" Switch
+    t =    55.52s     Tap Target Application 'com.keatingkonsultancy.firstsip'[0.00, 0.00] -> (201.0, 652.0)
+    t =    55.52s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    55.52s         Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    55.54s         Check for interrupting elements affecting "FirstSip" Application
+    t =    55.56s         Synthesize event
+    t =    55.57s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    55.59s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    55.60s             Find the Target Application 'com.keatingkonsultancy.firstsip'
+    t =    55.90s         Wait for com.keatingkonsultancy.firstsip to idle
+    t =    56.92s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    57.04s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    57.53s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    57.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    58.08s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    58.17s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    58.63s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    58.69s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    59.16s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    59.20s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    59.65s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    59.70s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    60.16s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    60.22s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    60.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    60.74s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    61.19s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    61.24s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    61.69s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    61.73s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    62.19s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    62.23s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    62.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    62.73s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    63.19s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    63.23s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    63.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    63.73s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    64.18s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    64.23s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    64.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    64.74s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    65.23s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    65.37s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    65.88s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    65.98s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    66.51s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    66.59s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    67.05s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    67.11s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    67.56s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    67.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    68.06s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    68.11s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    68.55s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    68.60s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    69.05s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    69.10s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    69.56s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    69.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    70.04s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    70.09s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    70.54s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    70.58s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    71.04s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    71.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    71.53s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    71.57s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "I took my pill" OR identifier ==[c] "I took my pill")'
+    t =    72.02s     Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    72.62s     Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    72.68s     Requesting snapshot of accessibility hierarchy for app with pid 2728
+    t =    73.59s     Requesting snapshot of accessibility hierarchy for app with pid 2728
+    t =    73.70s     Added attachment named '06-missing-I-took-my-pill.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/FirstSipTour.swift:43: error: -[ReviewTour.FirstSipTour testTour] : failed - Could not find "I took my pill" on screen within 15 s
+    t =    73.89s Tear Down
+    t =    73.89s     Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    74.44s     Requesting snapshot of accessibility hierarchy for app with pid 11012
+    t =    74.63s     Requesting snapshot of accessibility hierarchy for app with pid 2728
+    t =    75.36s     Requesting snapshot of accessibility hierarchy for app with pid 2728
+    t =    75.46s     Added attachment named '07-failure.txt'
+    t =    75.89s     Added attachment named 'failure'
+Test Case '-[ReviewTour.FirstSipTour testTour]' failed (77.000 seconds).
+Test Suite 'FirstSipTour' failed at 2026-10-19 11:05:24.598.
+	 Executed 1 test, with 1 failure (0 unexpected) in 77.000 (77.010) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 11:05:24.600.
+	 Executed 1 test, with 1 failure (0 unexpected) in 77.000 (77.012) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 11:05:24.601.
+	 Executed 1 test, with 1 failure (0 unexpected) in 77.000 (77.015) seconds
+2026-10-19 11:06:14.207 xcodebuild[9352:32300] [MT] IDETestOperationsObserverDebug: 175.110 elapsed -- Testing started completed.
+2026-10-19 11:06:14.208 xcodebuild[9352:32300] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 11:06:14.208 xcodebuild[9352:32300] [MT] IDETestOperationsObserverDebug: 175.110 sec, +175.110 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	FirstSipTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

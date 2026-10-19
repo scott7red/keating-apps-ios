@@ -1,0 +1,7 @@
+real-estate-exam-prep: Real Estate License Exam Coach - App Review.mp4, 3.8 MB, MD5 391124767e2f8295c1128f2ec7251fb0 (dry run: nothing is changed)
+App Store Connect app: Real Estate License Exam Coach (6823848684)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (4defd93f-afbe-4ff1-910b-d84b3951018c)
+App Review Information: 9b6640be-4910-4cac-969a-6d58945c6a76
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"Real Estate License Exam Coach - App Review.mp4","fileSize":3755593},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"9b6640be-4910-4cac-969a-6d58945c6a76"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 391124767e2f8295c1128f2ec7251fb0.

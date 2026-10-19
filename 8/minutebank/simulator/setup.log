@@ -1,0 +1,26 @@
+11:05:13 xcrun simctl status_bar C0F511E9-2655-46FF-A74B-03078B808F14 override --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+11:05:18 xcrun simctl ui C0F511E9-2655-46FF-A74B-03078B808F14 appearance light
+  -> exit 0
+11:05:18 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+11:05:19 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+11:05:19 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+11:05:20 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+11:05:20 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+11:05:21 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+11:05:22 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+11:05:23 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+11:05:24 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+11:05:24 xcrun simctl spawn C0F511E9-2655-46FF-A74B-03078B808F14 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+11:05:25 xcrun simctl install C0F511E9-2655-46FF-A74B-03078B808F14 /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

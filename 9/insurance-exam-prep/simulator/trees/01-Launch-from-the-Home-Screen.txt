@@ -1,0 +1,69 @@
+Attributes: Application, 0x10593fb50, pid: 15651, label: 'Ins Coach'
+Element subtree:
+ →Application, 0x10593fb50, pid: 15651, label: 'Ins Coach'
+    Window (Main), 0x105937aa0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10593c4d0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105940c40, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10593feb0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x105938fe0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x105941a20, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105941d80, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105943fd0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105942790, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105942e50, {{0.0, 0.0}, {402.0, 1395.0}}, label: 'Insurance License Exam Coach', Focused
+                        Other, 0x105943550, {{0.0, 0.0}, {402.0, 1395.0}}, label: 'main', Focused
+                          Other, 0x1059431d0, {{20.0, 80.0}, {362.0, 4.0}}, label: 'Setup progress', value: 1.00, Focused
+                          Image, 0x1059438c0, {{127.0, 110.0}, {148.0, 148.0}}, label: 'Readiness estimate not ready yet: 0 of 40 answers', Focused
+                          Other, 0x105943c40, {{20.0, 282.0}, {362.0, 30.0}}, Focused
+                            StaticText, 0x10593f130, {{20.0, 282.0}, {320.0, 30.0}}, label: 'UNITED STATES (GENERAL KNOWLEDGE) AND CALIFORNIA', value: UNITED STATES (GEN..., Focused
+                          Other, 0x105944a40, {{20.0, 320.0}, {362.0, 70.0}}, label: 'Insurance License Exam Coach', value: 1, Focused
+                            StaticText, 0x105944320, {{20.0, 320.0}, {252.0, 70.0}}, label: 'Insurance License Exam Coach', value: Insurance License ..., Focused
+                          Other, 0x105942450, {{20.0, 396.0}, {362.0, 44.0}}, Focused
+                            StaticText, 0x1059420e0, {{20.0, 396.0}, {349.0, 44.0}}, label: 'Insurance license exam prep, one exam at a time', value: Insurance license ..., Focused
+                          Other, 0x1059408e0, {{20.0, 446.0}, {362.0, 120.0}}, Focused
+                            StaticText, 0x105940550, {{20.0, 448.0}, {360.0, 116.0}}, label: 'Practice questions, practice exams, a study guide and flashcards for the life, health, property and casualty license exams, including the California agent exams. Exam preparation only: this app does not sell, quote or service insurance.', value: Practice questions..., Focused
+                          Other, 0x105940200, {{20.0, 584.0}, {362.0, 15.0}}, label: 'WHAT IS INSIDE', value: 2, Focused
+                            StaticText, 0x105940f90, {{20.0, 584.0}, {112.0, 15.0}}, label: 'WHAT IS INSIDE', value: WHAT IS INSIDE, Focused
+                          Other, 0x105941310, {{20.0, 609.0}, {362.0, 366.0}}, Focused
+                            Other, 0x1059416b0, {{20.0, 610.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x1059446c0, {{20.0, 618.0}, {71.0, 34.0}}, label: '1,731', value: 1,731, Focused
+                              StaticText, 0x105944dd0, {{104.0, 630.0}, {243.0, 40.0}}, label: 'original questions across 20 topics, each with an explanation', value: original questions..., Focused
+                            Other, 0x105945130, {{20.0, 683.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x1059454a0, {{23.0, 691.0}, {33.0, 34.0}}, label: '60', value: 60, Focused
+                              StaticText, 0x105945810, {{69.0, 703.0}, {312.0, 40.0}}, label: 'full-length practice tests, timed and weighted like the real exams', value: full-length practi..., Focused
+                            Other, 0x105945ba0, {{20.0, 756.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x105945f10, {{20.0, 764.0}, {71.0, 34.0}}, label: '1,218', value: 1,218, Focused
+                              StaticText, 0x105946290, {{104.0, 776.0}, {271.0, 40.0}}, label: 'flashcards that bring back what you are about to forget', value: flashcards that br..., Focused
+                            Other, 0x105946600, {{20.0, 829.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x105946960, {{23.0, 837.0}, {33.0, 34.0}}, label: '20', value: 20, Focused
+                              StaticText, 0x105946cb0, {{69.0, 849.0}, {259.0, 40.0}}, label: 'study guide topics with exam tips and common traps', value: study guide topics..., Focused
+                            Other, 0x105947030, {{20.0, 902.0}, {362.0, 73.0}}, Focused
+                              StaticText, 0x1059473b0, {{23.0, 910.0}, {33.0, 34.0}}, label: '10', value: 10, Focused
+                              StaticText, 0x105947700, {{69.0, 922.0}, {299.0, 40.0}}, label: 'exams in one app: study for one, switch any time', value: exams in one app: ..., Focused
+                          StaticText, 0x105947a70, {{48.0, 994.0}, {207.0, 19.0}}, label: 'Each exam has a free sample:', value: Each exam has a fr..., Focused
+                          StaticText, 0x105947de0, {{254.0, 994.0}, {19.0, 19.0}}, label: '25', value: 25, Focused
+                          StaticText, 0x105948140, {{48.0, 994.0}, {285.0, 40.0}}, label: 'practice questions and one study guide topic.', value:  practice question..., Focused
+                          StaticText, 0x1059484a0, {{48.0, 1015.0}, {325.0, 61.0}}, label: 'The full exam unlocks with a one-time in-app purchase, one exam at a time. No subscription.', value: The full exam unlo..., Focused
+                          StaticText, 0x105948810, {{48.0, 1090.0}, {334.0, 40.0}}, label: 'Works without a connection. Your progress stays on this device.', value: Works without a co..., Focused
+                          Other, 0x105948b60, {{20.0, 1149.0}, {362.0, 108.0}}, Focused
+                            StaticText, 0x105948ed0, {{20.0, 1150.0}, {321.0, 106.0}}, label: 'Practice material only. Not affiliated with the California Department of Insurance (CDI), any other state department of insurance, the NAIC, or the testing companies that give producer license exams, including PSI, Pearson VUE and Prometric. Does not count toward pre-license or continuing education credit.', value: Practice material ..., Focused
+                          Button, 0x105949950, {{20.0, 1285.0}, {362.0, 52.0}}, label: 'Get started', Focused
+                        Other, 0x105949ce0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x10594a080, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x10594a400, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10594a7a0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10594ab00, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10594ae80, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x10594b200, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10594b570, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10594b910, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x10594bc90, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10594bff0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10594c340, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10593fb50, pid: 15651, label: 'Ins Coach'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+  Output: {
+    Application, 0x10a37fe10, pid: 15651, label: 'Ins Coach'
+  }

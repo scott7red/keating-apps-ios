@@ -1,0 +1,5 @@
+Registered devices: 0 
+Certificates: DEVELOPMENT (Created via API, until 2027-10-12)
+com.keatingkonsultancy.tidyquote: registered, profiles: IOS_APP_STORE ACTIVE
+com.keatingkonsultancy.tidyquote.ReviewTour.xctrunner: not registered
+com.keatingkonsultancy.tidyquote.ReviewTour: not registered

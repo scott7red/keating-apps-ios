@@ -1,0 +1,221 @@
+Attributes: Application, 0x101b4beb0, pid: 55784, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101b4beb0, pid: 55784, label: 'TidyQuote'
+    Window (Main), 0x101b75250, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b8c8b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b5c7e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b47d20, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101b79330, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101b35120, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101b70d60, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b332b0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101ba1920, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101b9f660, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101b895a0, {{0.0, 0.0}, {402.0, 1488.0}}, label: 'TidyQuote'
+                        Other, 0x101b5a270, {{0.0, 0.0}, {402.0, 1488.0}}, label: 'main', Focused
+                          Other, 0x101b8fda0, {{0.0, 0.0}, {402.0, 124.0}}, label: 'section header', Focused
+                            Button, 0x101b5b700, {{6.0, 71.0}, {44.0, 44.0}}, label: 'Back', Focused
+                            StaticText, 0x101ba0440, {{56.0, 71.0}, {48.0, 15.0}}, label: 'QUOTE', value: QUOTE, Focused
+                            Other, 0x101b818b0, {{56.0, 87.0}, {330.0, 29.0}}, label: 'Q-0001', value: 1, Focused
+                              StaticText, 0x101b89230, {{56.0, 85.0}, {96.0, 32.0}}, label: 'Q-0001', value: Q-0001, Focused
+                          Other, 0x101b8c1b0, {{34.0, 141.0}, {225.0, 24.0}}, Focused
+                            StaticText, 0x101b84c70, {{34.0, 141.0}, {111.0, 24.0}}, label: 'Pat Example', value: Pat Example, Focused
+                          Other, 0x101b556d0, {{34.0, 167.0}, {225.0, 19.0}}, Focused
+                            StaticText, 0x101ba37c0, {{34.0, 167.0}, {202.0, 18.0}}, label: 'Not sent yet · Valid until Nov 18', value: Not sent yet · Val..., Focused
+                          Other, 0x101b43540, {{275.0, 141.0}, {94.0, 27.0}}, Focused
+                            StaticText, 0x101ba9c00, {{275.0, 141.0}, {93.0, 27.0}}, label: '$365.00', value: $365.00, Focused
+                          StaticText, 0x101b59b90, {{326.0, 177.0}, {33.0, 16.0}}, label: 'Draft', value: Draft, Focused
+                          Button, 0x101a717c0, {{16.0, 227.0}, {370.0, 48.0}}, label: 'Send PDF', Focused, Disabled
+                          Other, 0x101abe140, {{16.0, 293.0}, {370.0, 587.0}}, label: 'QUOTE Q-0001, article', Focused
+                            Other, 0x101a7a440, {{34.0, 317.0}, {334.0, 100.0}}, label: 'section header', Focused
+                              Other, 0x101a4f690, {{34.0, 318.0}, {145.0, 38.0}}, Focused
+                                StaticText, 0x101a520d0, {{34.0, 318.0}, {91.0, 38.0}}, label: 'Sparkle Test Cleaning', value: Sparkle Test Clean..., Focused
+                              Other, 0x101a705e0, {{192.0, 317.0}, {176.0, 26.0}}, Focused
+                                StaticText, 0x101a49fa0, {{297.0, 317.0}, {71.0, 26.0}}, label: 'QUOTE', value: QUOTE, Focused
+                              Other, 0x101a606f0, {{192.0, 349.0}, {176.0, 53.0}}, Focused
+                                Other, 0x101a60f30, {{261.0, 349.0}, {56.0, 17.0}}, Focused
+                                  StaticText, 0x101a61d60, {{261.0, 349.0}, {56.0, 16.0}}, label: 'Quote no.', value: Quote no., Focused
+                                Other, 0x101a62ae0, {{322.0, 349.0}, {46.0, 17.0}}, Focused
+                                  StaticText, 0x101a62c00, {{322.0, 349.0}, {46.0, 16.0}}, label: 'Q-0001', value: Q-0001, Focused
+                                Other, 0x101a73e50, {{233.0, 367.0}, {27.0, 17.0}}, Focused
+                                  StaticText, 0x101a73f70, {{233.0, 367.0}, {28.0, 16.0}}, label: 'Date', value: Date, Focused
+                                Other, 0x101a5ee40, {{266.0, 367.0}, {103.0, 17.0}}, Focused
+                                  StaticText, 0x101a5ef60, {{266.0, 367.0}, {102.0, 16.0}}, label: 'October 19, 2026', value: October 19, 2026, Focused
+                                Other, 0x101a8edd0, {{192.0, 385.0}, {57.0, 17.0}}, Focused
+                                  StaticText, 0x101a8eef0, {{192.0, 385.0}, {57.0, 16.0}}, label: 'Valid until', value: Valid until, Focused
+                                Other, 0x101a71140, {{254.0, 385.0}, {114.0, 17.0}}, Focused
+                                  StaticText, 0x101a71260, {{254.0, 385.0}, {114.0, 16.0}}, label: 'November 18, 2026', value: November 18, 2026, Focused
+                            Other, 0x101a70d20, {{34.0, 432.0}, {334.0, 15.0}}, Focused
+                              StaticText, 0x101a70e40, {{34.0, 432.0}, {93.0, 14.0}}, label: 'PREPARED FOR', value: PREPARED FOR, Focused
+                            Other, 0x101a70900, {{34.0, 449.0}, {334.0, 20.0}}, Focused
+                              StaticText, 0x101a70a20, {{34.0, 449.0}, {85.0, 19.0}}, label: 'Pat Example', value: Pat Example, Focused
+                            Other, 0x101a4f9b0, {{34.0, 484.0}, {334.0, 116.0}}, Focused
+                              Other, 0x101a4fad0, {{34.0, 484.0}, {334.0, 27.0}}, Focused
+                                Other, 0x101a544f0, {{34.0, 484.0}, {161.0, 27.0}}, Focused
+                                  StaticText, 0x101a54610, {{40.0, 490.0}, {78.0, 14.0}}, label: 'DESCRIPTION', value: DESCRIPTION, Focused
+                                Other, 0x101a540d0, {{195.0, 484.0}, {38.0, 27.0}}, Focused
+                                  StaticText, 0x101a541f0, {{202.0, 490.0}, {25.0, 14.0}}, label: 'QTY', value: QTY, Focused
+                                Other, 0x101a53cb0, {{232.0, 484.0}, {69.0, 27.0}}, Focused
+                                  StaticText, 0x101a53dd0, {{260.0, 490.0}, {35.0, 14.0}}, label: 'PRICE', value: PRICE, Focused
+                                Other, 0x101a53890, {{300.0, 484.0}, {68.0, 27.0}}, Focused
+                                  StaticText, 0x101a539b0, {{311.0, 490.0}, {52.0, 14.0}}, label: 'AMOUNT', value: AMOUNT, Focused
+                              Other, 0x101a53470, {{34.0, 510.0}, {334.0, 53.0}}, Focused
+                                Other, 0x101a53590, {{34.0, 510.0}, {161.0, 53.0}}, Focused
+                                  StaticText, 0x101a53050, {{40.0, 519.0}, {68.0, 18.0}}, label: 'Deep clean', value: Deep clean, Focused
+                                  StaticText, 0x101a53170, {{40.0, 538.0}, {142.0, 15.0}}, label: '4 bedrooms, 2 bathrooms', value: 4 bedrooms, 2 bath..., Focused
+                                Other, 0x101a52c30, {{195.0, 510.0}, {38.0, 53.0}}, Focused
+                                  StaticText, 0x101a52d50, {{218.0, 519.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                                Other, 0x101a52810, {{232.0, 510.0}, {69.0, 53.0}}, Focused
+                                  StaticText, 0x101a52930, {{241.0, 519.0}, {54.0, 18.0}}, label: '$330.00', value: $330.00, Focused
+                                Other, 0x101a523f0, {{300.0, 510.0}, {68.0, 53.0}}, Focused
+                                  StaticText, 0x101a52510, {{309.0, 519.0}, {54.0, 18.0}}, label: '$330.00', value: $330.00, Focused
+                              Other, 0x101a5f240, {{34.0, 562.0}, {334.0, 38.0}}, Focused
+                                Other, 0x101a5f360, {{34.0, 562.0}, {161.0, 38.0}}, Focused
+                                  StaticText, 0x101a794c0, {{40.0, 572.0}, {69.0, 18.0}}, label: 'Inside oven', value: Inside oven, Focused
+                                Other, 0x101a795e0, {{195.0, 562.0}, {38.0, 38.0}}, Focused
+                                  StaticText, 0x101a790a0, {{218.0, 572.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                                Other, 0x101a791c0, {{232.0, 562.0}, {69.0, 38.0}}, Focused
+                                  StaticText, 0x101a756f0, {{249.0, 572.0}, {46.0, 18.0}}, label: '$35.00', value: $35.00, Focused
+                                Other, 0x101a75810, {{300.0, 562.0}, {68.0, 38.0}}, Focused
+                                  StaticText, 0x101a752d0, {{317.0, 572.0}, {46.0, 18.0}}, label: '$35.00', value: $35.00, Focused
+                            Other, 0x101a753f0, {{160.0, 609.0}, {208.0, 67.0}}, Focused
+                              Other, 0x101a74eb0, {{166.0, 609.0}, {52.0, 19.0}}, Focused
+                                StaticText, 0x101a74fd0, {{166.0, 609.0}, {52.0, 18.0}}, label: 'Subtotal', value: Subtotal, Focused
+                              Other, 0x101a74a90, {{309.0, 609.0}, {53.0, 19.0}}, Focused
+                                StaticText, 0x101a74bb0, {{309.0, 609.0}, {53.0, 18.0}}, label: '$365.00', value: $365.00, Focused
+                              Other, 0x101a74670, {{166.0, 649.0}, {33.0, 19.0}}, Focused
+                                StaticText, 0x101a74790, {{166.0, 649.0}, {33.0, 18.0}}, label: 'Total', value: Total, Focused
+                              Other, 0x101a74250, {{292.0, 645.0}, {70.0, 23.0}}, Focused
+                                StaticText, 0x101a74370, {{292.0, 646.0}, {70.0, 21.0}}, label: '$365.00', value: $365.00, Focused
+                            Other, 0x101a6d980, {{48.0, 703.0}, {306.0, 20.0}}, Focused
+                              StaticText, 0x101a6daa0, {{48.0, 703.0}, {268.0, 19.0}}, label: 'Each visit after: $187.00 every 2 weeks', value: Each visit after: ..., Focused
+                            Other, 0x101a5df50, {{48.0, 724.0}, {306.0, 17.0}}, Focused
+                              StaticText, 0x101a5e070, {{48.0, 724.0}, {143.0, 16.0}}, label: 'Includes: Standard clean.', value: Includes: Standard..., Focused
+                            Other, 0x101a5db30, {{34.0, 768.0}, {334.0, 15.0}}, Focused
+                              StaticText, 0x101a5dc50, {{34.0, 768.0}, {43.0, 14.0}}, label: 'TERMS', value: TERMS, Focused
+                            Other, 0x101a5d710, {{34.0, 785.0}, {334.0, 73.0}}, Focused
+                              StaticText, 0x101a5d830, {{34.0, 785.0}, {307.0, 72.0}}, label: 'Prices are based on the home details provided and may change if the size or condition is different on arrival. Please give 24 hours' notice to cancel or reschedule.', value: Prices are based o..., Focused
+                          Other, 0x101a5d2f0, {{21.0, 902.0}, {1.0, 2.0}}, label: 'Actions', value: 2, Focused
+                            StaticText, 0x101a5d410, {{21.0, 904.0}, {86.0, 30.0}}, label: 'Actions', value: Actions, Focused
+                          Button, 0x101a5ced0, {{22.0, 903.0}, {358.0, 59.0}}, label: 'Mark as sent If you sent it another way', Focused
+                          Button, 0x101a5cff0, {{22.0, 961.0}, {358.0, 57.0}}, label: 'Mark accepted', Focused
+                          Button, 0x101a5cab0, {{22.0, 1017.0}, {358.0, 57.0}}, label: 'Mark declined', Focused
+                          Button, 0x101a5cbd0, {{22.0, 1073.0}, {358.0, 59.0}}, label: 'Convert to invoice Choose first-visit or recurring amounts', Focused
+                          Button, 0x101a5c690, {{22.0, 1131.0}, {358.0, 59.0}}, label: 'Duplicate A new draft with the same details', Focused
+                          Button, 0x101a5c7b0, {{22.0, 1189.0}, {358.0, 57.0}}, label: 'Edit quote', Focused
+                          Button, 0x101a5c270, {{22.0, 1245.0}, {358.0, 57.0}}, label: 'View Pat Example', Focused
+                          Button, 0x101a5c390, {{22.0, 1301.0}, {358.0, 57.0}}, label: 'Delete quote', Focused
+                        Other, 0x101a5be50, {{0.0, 778.0}, {576.0, 96.0}}, label: 'Main, navigation'
+                          Button, 0x101a5bf70, {{0.0, 784.0}, {258.0, 50.0}}, label: 'Home'
+                          Button, 0x101a5a170, {{0.0, 784.0}, {263.0, 50.0}}, label: 'Quotes'
+                          Button, 0x101a5a290, {{0.0, 784.0}, {265.0, 50.0}}, label: 'Invoices'
+                          Button, 0x101a8f670, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients'
+                          Button, 0x101a8f790, {{131.0, 784.0}, {265.0, 50.0}}, label: 'Settings'
+                        Other, 0x101a5e370, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101a5e490, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101a75b10, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101a75c30, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a75d50, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101aa9120, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101aa9240, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101aa9360, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101aa9480, {{65.0, 868.0}, {272.0, 3.0}}
+      Other, 0x101aa95a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101aa96c0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'PopoverDismissRegion', label: 'dismiss popup'
+        Popover, 0x101aa97e0, {{9.0, 498.0}, {384.0, 366.7}}
+          Image, 0x101aa9900, {{-141.0, 348.0}, {684.0, 666.7}}
+          Other, 0x101aa9a20, {{9.0, 498.0}, {384.0, 366.7}}
+            Other, 0x101aa9b40, {{9.0, 498.0}, {384.0, 366.7}}
+              Other, 0x101aa9c60, {{9.0, 498.0}, {384.0, 366.7}}
+                Other, 0x101aa9d80, {{9.0, 498.0}, {384.0, 366.7}}
+                  Other, 0x101aa9ea0, {{9.0, 498.0}, {384.0, 366.7}}
+                    Other, 0x101aa9fc0, {{9.0, 498.0}, {384.0, 366.7}}
+                      Other, 0x101aaa0e0, {{9.0, 498.0}, {0.0, 0.0}}
+                        Other, 0x101aaa200, {{9.0, 498.0}, {384.0, 366.7}}
+                          Other, 0x101aaa320, {{9.0, 498.0}, {384.0, 366.7}}
+                            Other, 0x101aaa440, {{9.0, 498.0}, {384.0, 366.7}}
+                              Other, 0x101aaa560, {{9.0, 498.0}, {384.0, 366.7}}
+            Other, 0x101aaa680, {{9.0, 498.0}, {384.0, 366.7}}
+              Other, 0x101aaa7a0, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'ActivityListView'
+                Other, 0x101aaa8c0, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'ShareSheet.RemoteContainerView'
+                  Other, 0x101aaa9e0, {{9.0, 498.0}, {384.0, 366.7}}
+                    Other, 0x101aaab00, {{9.0, 498.0}, {384.0, 366.7}}
+                      Other, 0x101aaac20, {{9.0, 498.0}, {384.0, 366.7}}
+                        Other, 0x101aaad40, {{9.0, 498.0}, {384.0, 366.7}}
+                          Other, 0x101aaae60, {{9.0, 498.0}, {384.0, 366.7}}
+                            Other, 0x101aaaf80, {{9.0, 498.0}, {384.0, 366.7}}
+                              Other, 0x101aab0a0, {{9.0, 498.0}, {384.0, 366.7}}
+                                Other, 0x101aab1c0, {{9.0, 498.0}, {384.0, 366.7}}
+                                  NavigationBar, 0x101aab2e0, {{9.0, 498.0}, {384.0, 104.3}}, identifier: 'UIActivityContentView'
+                                    Image, 0x101aab400, {{33.3, 522.3}, {49.0, 64.0}}
+                                    Other, 0x101aab520, {{97.3, 535.3}, {271.3, 18.0}}, identifier: 'LP.CaptionBar.TopCaption', label: 'Quote-Q-0001-Pat-Example'
+                                    Other, 0x101aab640, {{97.3, 553.3}, {271.3, 20.0}}, identifier: 'LP.CaptionBar.BottomCaption', label: 'PDF Document · 4 KB'
+                                  Other, 0x101aab760, {{9.0, 498.0}, {384.0, 366.7}}
+                                    Other, 0x101aab880, {{9.0, 498.0}, {384.0, 366.7}}
+                                      Other, 0x101aab9a0, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'shareSheet.activity.contentView'
+                                        CollectionView, 0x101aabac0, {{9.0, 498.0}, {384.0, 366.7}}, identifier: 'activityCollectionView'
+                                          Other, 0x101aabbe0, {{9.0, 498.0}, {384.0, 366.7}}
+                                            Other, 0x101aabd00, {{9.0, 498.0}, {384.0, 159.1}}
+                                          Other, 0x101aabe20, {{9.0, 498.0}, {384.0, 366.7}}
+                                          ScrollView, 0x101b4c210, {{27.3, 602.3}, {347.3, 123.0}}
+                                            Cell, 0x101b81c20, {{27.3, 602.3}, {82.0, 122.3}}, identifier: 'shareCell', label: 'Preview'
+                                              Other, 0x101b5a970, {{27.3, 602.3}, {82.0, 122.3}}
+                                                Other, 0x101b8b750, {{27.3, 694.3}, {82.0, 14.3}}
+                                                  StaticText, 0x101b51290, {{27.3, 694.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Preview'
+                                                  StaticText, 0x101b44970, {{27.3, 694.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x101aabf40, {{27.3, 694.3}, {82.0, 14.3}}
+                                                Image, 0x101aac060, {{34.3, 618.3}, {68.0, 68.0}}, identifier: 'activityImageView'
+                                            Cell, 0x101aac180, {{115.7, 602.3}, {82.0, 122.3}}, identifier: 'shareCell', label: 'More'
+                                              Other, 0x101aac2a0, {{115.7, 602.3}, {82.0, 122.3}}
+                                                Other, 0x101aac3c0, {{115.7, 694.3}, {82.0, 14.3}}
+                                                  StaticText, 0x101aac4e0, {{115.7, 694.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'More'
+                                                  StaticText, 0x101aac600, {{115.7, 694.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x101aac720, {{115.7, 694.3}, {82.0, 14.3}}
+                                                Image, 0x101aac840, {{122.7, 618.3}, {68.0, 68.0}}, identifier: 'activityImageView'
+                                          ScrollView, 0x101aac960, {{27.3, 726.3}, {347.3, 138.3}}
+                                            Cell, 0x101aaca80, {{27.3, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Copy'
+                                              Other, 0x101aacba0, {{27.3, 726.3}, {82.0, 138.3}}
+                                                Other, 0x101aaccc0, {{27.3, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x101aacde0, {{27.3, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Copy'
+                                                  StaticText, 0x101aacf00, {{27.3, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x101aad020, {{27.3, 818.3}, {82.0, 14.3}}
+                                                Other, 0x101aad140, {{33.3, 742.3}, {70.0, 70.0}}
+                                                Image, 0x101aad260, {{52.3, 759.0}, {32.0, 36.7}}, identifier: 'activityImageView', label: 'copy'
+                                            Cell, 0x101aad380, {{115.7, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Markup'
+                                              Other, 0x101aad4a0, {{115.7, 726.3}, {82.0, 138.3}}
+                                                Other, 0x101aad5c0, {{115.7, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x101aad6e0, {{115.7, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Markup'
+                                                  StaticText, 0x101aad800, {{115.7, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x101aad920, {{115.7, 818.3}, {82.0, 14.3}}
+                                                Other, 0x101aada40, {{121.7, 742.3}, {70.0, 70.0}}
+                                                Image, 0x101aadb60, {{140.7, 762.0}, {32.0, 30.7}}, identifier: 'activityImageView', label: 'Markup'
+                                            Cell, 0x101aadc80, {{204.0, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Print'
+                                              Other, 0x101ab85a0, {{204.0, 726.3}, {82.0, 138.3}}
+                                                Other, 0x101ab86c0, {{204.0, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x101ab87e0, {{204.0, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Print'
+                                                  StaticText, 0x101ab8900, {{204.0, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x101ab8a20, {{204.0, 818.3}, {82.0, 14.3}}
+                                                Other, 0x101ab8b40, {{210.0, 742.3}, {70.0, 70.0}}
+                                                Image, 0x101ab8c60, {{229.0, 761.7}, {32.0, 32.0}}, identifier: 'activityImageView', label: 'print'
+                                            Cell, 0x101ab8d80, {{292.3, 726.3}, {82.0, 138.3}}, identifier: 'actionGroupCell', label: 'Save to Files'
+                                              Other, 0x101ab8ea0, {{292.3, 726.3}, {82.0, 138.3}}
+                                                Other, 0x101ab8fc0, {{292.3, 818.3}, {82.0, 14.3}}
+                                                  StaticText, 0x101ab90e0, {{292.3, 818.3}, {82.0, 14.3}}, identifier: 'cellTitleLabel', label: 'Save to Files'
+                                                  StaticText, 0x101ab9200, {{292.3, 818.3}, {32.7, 30.3}}, identifier: 'cellTitleLabel', label: 'Apple Inc'
+                                                  Other, 0x101ab9320, {{292.3, 818.3}, {82.0, 14.3}}
+                                                Other, 0x101ab9440, {{298.3, 742.3}, {70.0, 70.0}}
+                                                Image, 0x101ab9560, {{311.7, 755.7}, {43.3, 43.3}}, identifier: 'activityImageView'
+                                          Other, 0x101ab9680, {{33.3, 725.3}, {335.3, 1.0}}, identifier: 'collectionView.footerView'
+                                        Other, 0x101ab97a0, {{33.3, 602.3}, {335.3, 1.0}}
+                                  Other, 0x101ab98c0, {{9.0, 498.0}, {384.0, 366.7}}
+                                    Other, 0x101ab99e0, {{9.0, 498.0}, {384.0, 366.7}}
+    Window, 0x101ab9b00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ab9c20, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101ab9d40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101b4beb0, pid: 55784, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x101b688c0, pid: 55784, label: 'TidyQuote'
+  }

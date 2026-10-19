@@ -1,0 +1,7 @@
+brrr: BRRR Deal Analyzer - App Review.mp4, 16.1 MB, MD5 e5c6f751eb97ef1efb2d1faa1b3cd78c (dry run: nothing is changed)
+App Store Connect app: BRRR Deal Analyzer (6823850424)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (315ed746-50bb-4802-b72e-76f9188995f6)
+App Review Information: 06b446d7-5eec-406b-9eb2-3597a8b342c0
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"BRRR Deal Analyzer - App Review.mp4","fileSize":16073848},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"06b446d7-5eec-406b-9eb2-3597a8b342c0"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum e5c6f751eb97ef1efb2d1faa1b3cd78c.

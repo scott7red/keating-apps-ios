@@ -1,0 +1,214 @@
+Attributes: Application, 0x103a2d7c0, pid: 16950, label: 'BRRR'
+Element subtree:
+ →Application, 0x103a2d7c0, pid: 16950, label: 'BRRR'
+    Window (Main), 0x103a2b960, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a29740, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a2e910, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103a2d470, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a2db40, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a2b260, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a2f680, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a2ec80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a2af10, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a2abb0, {{0.0, 0.0}, {402.0, 1314.0}}, label: 'BRRR', Focused
+                        Other, 0x103a2a850, {{0.0, 0.0}, {402.0, 1190.0}}, label: 'main', Focused
+                          Other, 0x103a75460, {{16.0, 0.0}, {370.0, 122.0}}, label: 'section header', Focused
+                            Other, 0x103a75100, {{16.0, 78.0}, {370.0, 34.0}}, label: 'Markets', value: 1, Focused
+                              StaticText, 0x103a97a60, {{16.0, 78.0}, {104.0, 34.0}}, label: 'Markets', value: Markets, Focused
+                          Other, 0x103a41ff0, {{58.0, 134.0}, {314.0, 76.0}}, Focused
+                            StaticText, 0x103a40160, {{58.0, 135.0}, {307.0, 74.0}}, label: 'Markets ranks areas, not individual properties. It scores the US ZIP codes with enough Census data, then links out to listing searches for the ZIP you pick.', value: Markets ranks area..., Focused
+                          Other, 0x103a58990, {{16.0, 240.0}, {370.0, 50.0}}, label: 'Where to look', Focused
+                            Switch, 0x103a63f50, {{21.0, 245.0}, {118.0, 40.0}}, label: 'Near me', value: 1, Focused
+                            Switch, 0x103a33860, {{142.0, 245.0}, {118.0, 40.0}}, label: 'By state', value: 0, Focused
+                            Switch, 0x103a426b0, {{263.0, 245.0}, {118.0, 40.0}}, label: 'Whole US', value: 0, Focused
+                          Button, 0x103a8a9e0, {{16.0, 302.0}, {370.0, 48.0}}, label: 'Finding you…', Focused, Disabled
+                          Other, 0x103a51840, {{16.0, 362.0}, {370.0, 18.0}}, label: 'Or type a ZIP or a city', Focused
+                            StaticText, 0x103a61d90, {{16.0, 362.0}, {142.0, 17.0}}, label: 'Or type a ZIP or a city', value: Or type a ZIP or a..., Focused
+                          TextField, 0x103a6ba80, {{17.0, 387.0}, {368.0, 46.0}}, label: 'Or type a ZIP or a city', placeholderValue: '45403 or Dayton, OH', value: 45403 or Dayton, OH, Focused
+                          StaticText, 0x103a5c0b0, {{16.0, 441.0}, {315.0, 34.0}}, label: 'Your location is used once, on this device, to measure distances. It is not stored or sent anywhere.', value: Your location is u..., Focused
+                          StaticText, 0x103a67230, {{16.0, 488.0}, {45.0, 17.0}}, label: 'Radius', value: Radius, Focused
+                          Other, 0x103a3b820, {{16.0, 512.0}, {370.0, 50.0}}, label: 'Radius in miles', Focused
+                            Switch, 0x103a98140, {{21.0, 517.0}, {118.0, 40.0}}, label: '25 mi', value: 0, Focused
+                            Switch, 0x103a5d1b0, {{142.0, 517.0}, {118.0, 40.0}}, label: '50 mi', value: 1, Focused
+                            Switch, 0x103a8a640, {{263.0, 517.0}, {118.0, 40.0}}, label: '100 mi', value: 0, Focused
+                          StaticText, 0x103a5fe80, {{16.0, 581.0}, {57.0, 17.0}}, label: 'Strategy', value: Strategy, Focused
+                          Button, 0x103a67930, {{248.0, 568.0}, {138.0, 44.0}}, label: 'How the score works', Focused
+                          Other, 0x103a3d7a0, {{16.0, 606.0}, {370.0, 50.0}}, label: 'Strategy preset', Focused
+                            Switch, 0x103a4bf20, {{21.0, 611.0}, {178.0, 40.0}}, label: 'Cash flow', value: 1, Focused
+                            Switch, 0x103a4d3c0, {{203.0, 611.0}, {178.0, 40.0}}, label: 'Balanced', value: 0, Focused
+                          Other, 0x103a987f0, {{16.0, 662.0}, {370.0, 18.0}}, Focused
+                            StaticText, 0x103a7eff0, {{16.0, 663.0}, {192.0, 16.0}}, label: 'Leans hard on rent against price.', value: Leans hard on rent..., Focused
+                          Button, 0x103a5d8b0, {{16.0, 692.0}, {370.0, 44.0}}, label: 'Filters Any home value · 5,000+ people', Focused
+                          Other, 0x103a9f9b0, {{16.0, 769.0}, {69.0, 25.0}}, label: 'Results', value: 2, Focused
+                            StaticText, 0x103a4aa30, {{16.0, 769.0}, {69.0, 25.0}}, label: 'Results', value: Results, Focused
+                          StaticText, 0x103a5dfa0, {{252.0, 777.0}, {66.0, 16.0}}, label: 'Ranked by', value: Ranked by , Focused
+                          StaticText, 0x103a94370, {{317.0, 777.0}, {34.0, 16.0}}, label: 'BRRR', value: BRRR, Focused
+                          StaticText, 0x103a51160, {{350.0, 777.0}, {36.0, 16.0}}, label: 'score', value:  score, Focused
+                          Other, 0x103a293f0, {{107.0, 903.0}, {189.0, 24.0}}, Focused
+                            StaticText, 0x103a8f5b0, {{107.0, 904.0}, {188.0, 22.0}}, label: 'Choose a starting point', value: Choose a starting ..., Focused
+                          StaticText, 0x103a8f260, {{50.0, 936.0}, {302.0, 37.0}}, label: 'Use your location, or type a ZIP or a city, to rank the ZIP codes around it.', value: Use your location,..., Focused
+                          Other, 0x103a68700, {{16.0, 1034.0}, {370.0, 110.0}}, Focused
+                            StaticText, 0x103a96fe0, {{16.0, 1050.0}, {363.0, 54.0}}, label: 'Area-level screening from Census medians. It points to places where the numbers tend to work. It does not find individual properties and it is not a recommendation.', value: Area-level screeni..., Focused
+                            StaticText, 0x103a33f30, {{267.0, 1088.0}, {34.0, 16.0}}, label: 'BRRR', value: BRRR, Focused
+                            StaticText, 0x103a74370, {{16.0, 1088.0}, {354.0, 54.0}}, label: 'is an educational calculator, not financial, investment, tax, legal or lending advice.', value:  is an educational..., Focused
+                          Other, 0x103a656d0, {{16.0, 1154.0}, {370.0, 36.0}}, Focused
+                            StaticText, 0x103a7f6e0, {{16.0, 1155.0}, {350.0, 34.0}}, label: 'Census ACS 5-year estimates, 2020–2024. Medians lag the market.', value: Census ACS 5-year ..., Focused
+                            StaticText, 0x103a35040, {{60.0, 1173.0}, {242.0, 16.0}}, label: 'Places and coordinates from GeoNames.', value:  Places and coordi..., Focused
+                        Other, 0x103a768d0, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x103a71970, {{0.0, 778.0}, {81.0, 62.0}}, label: 'Deals', Focused
+                          Button, 0x103a47080, {{80.0, 778.0}, {81.0, 62.0}}, label: 'Analyze', Focused
+                          Button, 0x103a71290, {{160.0, 778.0}, {82.0, 62.0}}, label: 'Markets', Focused
+                          Button, 0x103a36180, {{241.0, 778.0}, {81.0, 62.0}}, label: 'Learn', Focused
+                          Button, 0x103a4e840, {{321.0, 778.0}, {81.0, 62.0}}, label: 'Settings', Focused
+              Other, 0x103a97340, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x103a903a0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a484f0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a2cd80, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a950e0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x103a73240, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a885b0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a7bf50, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103a6f0f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a3a740, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a48bf0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a2d7c0, pid: 16950, label: 'BRRR'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.brrr'
+  Output: {
+    Application, 0x103969e00, pid: 16950, label: 'BRRR'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x103a61a10, pid: 2661, label: ' '
+Element subtree:
+ →Application, 0x103a61a10, pid: 2661, label: ' '
+    Window, 0x10399a560, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10396f8c0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103970980, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10396fce0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103970100, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103970f80, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x103970740, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x103970860, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10399b3c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10399b4e0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10399b600, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10399b720, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10399b840, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10399b960, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10399ba80, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10399bba0, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x10399bcc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10399bde0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10399bf00, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x10399c020, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10399c140, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x10399c260, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10399c380, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10399c4a0, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x10399c5c0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10399c6e0, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x10399c800, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x10399c920, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x10399ca40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10399cb60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10399cc80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a46960, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a9de30, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a503b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a59ea0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a342a0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a601d0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a8be50, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3a080, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a36510, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a2efc0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a5fb20, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a41260, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a3bb80, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a91840, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a50060, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a66470, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a9b170, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a90040, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a6a240, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a69ed0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a7e270, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a9cd20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a46240, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x103a9f2f0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x103a2c6e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a8f940, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a54b40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a5d510, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x103a75b30, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a57150, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x103a2b5f0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a822f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a8b790, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a49ca0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.brrr:sceneID:com.keatingkonsultancy.brrr-default', label: 'BRRR'
+                  Other, 0x103a7b4c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a39680, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a30800, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x103a86260, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x103a96c60, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x103a31600, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x103a51bb0, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x103a56000, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103a2e250, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x103a4e150, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x103a4c990, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x103a77670, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x103a42a00, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x103a85250, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x103a65a20, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x103a9fd40, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x103a4f270, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x103a82d70, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x103a33190, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x103a5a220, {{55.7, 22.3}, {36.7, 20.3}}, label: '11:14 AM'
+                                                      Other, 0x103a368b0, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x103a72800, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x103a7e940, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x103a87790, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x103a43f30, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x103a77d60, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x103a5b660, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103a6b390, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103a9a340, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a76560, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a70860, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a29ac0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a6d230, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a8cc40, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x103a4a6b0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x103a9c630, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x103a86d00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a73930, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a53000, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a404b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a8b420, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a38140, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a804a0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a2a4f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a34cd0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a3bee0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x103a89750, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x103a55210, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x103a32ac0, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x103a54e90, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x103a68020, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a46d00, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a6bdd0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a8d6c0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a3c620, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a32040, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a61a10, pid: 2661, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x103c9b380, pid: 2661, label: ' '
+  }

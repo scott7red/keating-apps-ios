@@ -1,0 +1,250 @@
+    t =   288.71s     Tap Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (201.0, 668.5)
+    t =   288.71s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   288.72s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   288.74s         Check for interrupting elements affecting "BRRR" Application
+    t =   288.77s         Synthesize event
+    t =   288.77s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   288.79s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   288.82s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   289.13s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   291.14s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Report ready"'
+    t =   291.21s     Find the Any (Element at index 0)
+    t =   292.28s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Share or save the PDF" OR identifier ==[c] "Share or save the PDF")'
+    t =   292.31s     Checking existence of `Keyboard (First Match)`
+    t =   292.34s     Find the Any (Element at index 0)
+    t =   292.38s     Find the Window (First Match)
+    t =   292.39s     Find the Window (First Match)
+    t =   292.40s     Checking existence of `Keyboard (First Match)`
+    t =   292.42s     Press Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   292.42s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   292.43s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   292.45s         Check for interrupting elements affecting "BRRR" Application
+    t =   292.51s         Synthesize event
+    t =   292.51s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   292.53s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   292.56s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   292.58s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   292.61s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   293.75s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   294.27s     Find the "Share or save the PDF" Button
+    t =   295.01s     Find the "Share or save the PDF" Button
+    t =   295.07s     Tap Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (201.0, 762.0)
+    t =   295.07s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   295.07s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   295.13s         Check for interrupting elements affecting "BRRR" Application
+    t =   295.19s         Synthesize event
+    t =   295.19s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   295.21s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   295.25s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   295.60s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   297.23s     Waiting 20.0s for Any (First Match) to exist
+    t =   298.25s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =   298.26s             Checking existence of `Any (First Match)`
+    t =   298.32s             Capturing element debug description
+    t =   299.26s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =   299.26s             Checking existence of `Any (First Match)`
+    t =   299.29s             Capturing element debug description
+    t =   300.29s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =   300.30s             Checking existence of `Any (First Match)`
+    t =   303.84s     Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   305.15s     Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   305.28s     Find the Any (First Match)
+    t =   305.42s     Tap "actionGroupCell" Cell
+    t =   305.42s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   305.43s         Find the "actionGroupCell" Cell
+    t =   305.58s         Check for interrupting elements affecting "actionGroupCell" Cell
+    t =   305.74s         Synthesize event
+    t =   306.19s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   308.73s     Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   312.45s     Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   313.36s     Get number of matches for: Elements matching predicate 'elementType IN {75, 9, 48, 1} AND (label ==[c] "On My iPhone" OR identifier ==[c] "On My iPhone")'
+    t =   314.16s     Find the Any (Element at index 0)
+    t =   314.38s     Find the "DOC.sidebar.item.On My iPhone" Cell
+    t =   314.58s     Find the "DOC.sidebar.item.On My iPhone" Cell
+    t =   314.85s     Tap "DOC.sidebar.item.On My iPhone" Cell
+    t =   314.85s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   314.85s         Find the "DOC.sidebar.item.On My iPhone" Cell
+    t =   315.07s         Check for interrupting elements affecting "DOC.sidebar.item.On My iPhone" Cell
+    t =   315.43s         Synthesize event
+    t =   315.84s             Scroll element to visible
+    t =   316.72s             Find the "DOC.sidebar.item.On My iPhone" Cell
+    t =   319.97s             Computed hit point {126.83333333333333, 110} after scrolling to visible
+    t =   320.27s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   321.79s     Waiting 8.0s for Button (First Match) to exist
+    t =   322.84s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =   322.84s             Checking existence of `Button (First Match)`
+    t =   323.08s     Find the Button (First Match)
+    t =   324.31s     Find the "Save" Button
+    t =   324.53s     Tap "Save" Button
+    t =   324.53s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   324.53s         Find the "Save" Button
+    t =   324.65s         Check for interrupting elements affecting "Save" Button
+    t =   324.78s         Synthesize event
+    t =   325.43s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   327.48s     Waiting 2.0s for Button (First Match) to exist
+    t =   328.52s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =   328.52s             Checking existence of `Button (First Match)`
+    t =   329.23s             Capturing element debug description
+    t =   329.48s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =   329.49s             Checking existence of `Button (First Match)`
+    t =   329.75s             Capturing element debug description
+    t =   329.75s         Checking existence of `Button (First Match)`
+    t =   329.99s     Collecting debug information to assist test failure triage
+    t =   329.99s         Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   330.79s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Close" OR identifier ==[c] "Close")'
+    t =   331.03s Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   336.39s Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   337.16s Deals
+    t =   337.17s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Deals" OR identifier ==[c] "Deals")'
+    t =   338.07s     Find the Any (Element at index 0)
+    t =   338.37s     Find the Window (First Match)
+    t =   338.38s     Tap Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (40.2, 809.0)
+    t =   338.38s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   338.39s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   338.52s         Check for interrupting elements affecting "BRRR" Application
+    t =   338.73s         Synthesize event
+    t =   338.77s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   338.92s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   339.19s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   339.62s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   341.15s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "100 Example St"'
+    t =   341.24s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "100 Example St"'
+    t =   341.27s     Find the Any (Element at index 0)
+    t =   341.32s     Checking existence of `Keyboard (First Match)`
+    t =   341.36s     Find the "Open 100 Example St. Verdict: Thin" Button
+    t =   341.40s     Find the Window (First Match)
+    t =   343.42s Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   343.76s Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   343.83s Markets near me, with the location prompt
+    t =   343.83s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Markets" OR identifier ==[c] "Markets")'
+    t =   344.47s     Find the Any (Element at index 0)
+    t =   344.52s     Find the Window (First Match)
+    t =   344.53s     Tap Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (201.0, 809.0)
+    t =   344.53s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   344.54s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   344.56s         Check for interrupting elements affecting "BRRR" Application
+    t =   344.60s         Synthesize event
+    t =   344.61s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   344.62s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   344.65s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   345.03s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   346.57s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Near me" OR identifier ==[c] "Near me")'
+    t =   346.69s     Checking existence of `Keyboard (First Match)`
+    t =   346.74s     Find the Any (Element at index 0)
+    t =   346.83s     Find the Window (First Match)
+    t =   347.55s     Find the "Near me" Switch
+    t =   347.64s     Tap Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (80.0, 265.0)
+    t =   347.64s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   347.64s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   347.68s         Check for interrupting elements affecting "BRRR" Application
+    t =   347.75s         Synthesize event
+    t =   347.76s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   347.79s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   347.84s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   348.17s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   349.38s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Use my location" OR identifier ==[c] "Use my location")'
+    t =   349.43s     Checking existence of `Keyboard (First Match)`
+    t =   349.46s     Find the Any (Element at index 0)
+    t =   349.54s     Find the Window (First Match)
+    t =   350.27s     Find the "Use my location" Button
+    t =   350.35s     Tap Target Application 'com.keatingkonsultancy.brrr'[0.00, 0.00] -> (201.0, 326.0)
+    t =   350.35s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   350.35s         Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   350.39s         Check for interrupting elements affecting "BRRR" Application
+    t =   350.47s         Synthesize event
+    t =   350.48s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   350.52s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   350.56s             Find the Target Application 'com.keatingkonsultancy.brrr'
+    t =   350.88s         Wait for com.keatingkonsultancy.brrr to idle
+    t =   351.41s     Waiting 20.0s for Alert (First Match) to exist
+    t =   352.46s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   352.46s             Checking existence of `Alert (First Match)`
+    t =   352.76s             Capturing element debug description
+    t =   353.51s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   353.51s             Checking existence of `Alert (First Match)`
+    t =   353.60s             Capturing element debug description
+    t =   354.46s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   354.47s             Checking existence of `Alert (First Match)`
+    t =   354.56s             Capturing element debug description
+    t =   355.46s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   355.46s             Checking existence of `Alert (First Match)`
+    t =   355.52s             Capturing element debug description
+    t =   356.48s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   356.49s             Checking existence of `Alert (First Match)`
+    t =   356.58s             Capturing element debug description
+    t =   357.42s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   357.42s             Checking existence of `Alert (First Match)`
+    t =   357.50s             Capturing element debug description
+    t =   358.43s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   358.43s             Checking existence of `Alert (First Match)`
+    t =   358.60s             Capturing element debug description
+    t =   359.43s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   359.43s             Checking existence of `Alert (First Match)`
+    t =   359.52s             Capturing element debug description
+    t =   360.46s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   360.46s             Checking existence of `Alert (First Match)`
+    t =   360.55s             Capturing element debug description
+    t =   361.50s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   361.50s             Checking existence of `Alert (First Match)`
+    t =   361.59s             Capturing element debug description
+    t =   362.42s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   362.42s             Checking existence of `Alert (First Match)`
+    t =   362.47s             Capturing element debug description
+    t =   363.48s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   363.48s             Checking existence of `Alert (First Match)`
+    t =   363.73s             Capturing element debug description
+    t =   364.70s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   364.70s             Checking existence of `Alert (First Match)`
+    t =   364.98s             Capturing element debug description
+    t =   365.42s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   365.46s             Checking existence of `Alert (First Match)`
+    t =   365.66s             Capturing element debug description
+    t =   366.46s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   366.47s             Checking existence of `Alert (First Match)`
+    t =   366.60s             Capturing element debug description
+    t =   367.42s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   367.42s             Checking existence of `Alert (First Match)`
+    t =   367.53s             Capturing element debug description
+    t =   368.46s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   368.47s             Checking existence of `Alert (First Match)`
+    t =   368.57s             Capturing element debug description
+    t =   369.48s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   369.48s             Checking existence of `Alert (First Match)`
+    t =   369.58s             Capturing element debug description
+    t =   370.47s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   370.47s             Checking existence of `Alert (First Match)`
+    t =   370.60s             Capturing element debug description
+    t =   371.42s         Checking `Expect predicate `existsNoRetry == 1` for object Alert (First Match)`
+    t =   371.42s             Checking existence of `Alert (First Match)`
+    t =   371.54s             Capturing element debug description
+    t =   371.54s         Checking existence of `Alert (First Match)`
+    t =   371.62s     Collecting debug information to assist test failure triage
+    t =   371.62s         Requesting snapshot of accessibility hierarchy for app with pid 2661
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/BRRRTour.swift:78: error: -[ReviewTour.BRRRTour testTour] : failed - No iOS prompt appeared within 20 s
+    t =   372.07s Tear Down
+    t =   372.08s     Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   372.68s     Requesting snapshot of accessibility hierarchy for app with pid 16950
+    t =   372.77s     Requesting snapshot of accessibility hierarchy for app with pid 2661
+    t =   373.23s     Requesting snapshot of accessibility hierarchy for app with pid 2661
+    t =   373.31s     Added attachment named '10-failure.txt'
+    t =   373.61s     Added attachment named 'failure'
+Test Case '-[ReviewTour.BRRRTour testTour]' failed (375.536 seconds).
+Test Suite 'BRRRTour' failed at 2026-10-19 11:14:17.411.
+	 Executed 1 test, with 1 failure (0 unexpected) in 375.536 (375.540) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 11:14:17.413.
+	 Executed 1 test, with 1 failure (0 unexpected) in 375.536 (375.542) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 11:14:17.413.
+	 Executed 1 test, with 1 failure (0 unexpected) in 375.536 (375.543) seconds
+2026-10-19 11:14:56.172 xcodebuild[9503:33219] [MT] IDETestOperationsObserverDebug: 575.916 elapsed -- Testing started completed.
+2026-10-19 11:14:56.173 xcodebuild[9503:33219] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 11:14:56.173 xcodebuild[9503:33219] [MT] IDETestOperationsObserverDebug: 575.916 sec, +575.916 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	BRRRTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

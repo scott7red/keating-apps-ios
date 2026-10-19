@@ -1,0 +1,250 @@
+    t =   365.70s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   365.76s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   366.22s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   366.28s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   366.75s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   366.81s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   367.27s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   367.33s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   367.80s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   367.86s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   368.32s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   368.38s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   368.85s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   368.91s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   369.37s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   369.43s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   369.90s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   369.97s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   370.45s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   370.51s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   370.99s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   371.05s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   371.51s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   371.57s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   372.03s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   372.09s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   372.55s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   372.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   373.08s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   373.14s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   373.60s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   373.66s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   374.13s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   374.19s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   374.66s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   374.72s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   375.18s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   375.24s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   375.71s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   375.77s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   376.24s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   376.30s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   376.77s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   376.82s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   377.29s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   377.34s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   377.81s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   377.87s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   378.33s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   378.39s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   378.86s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   378.92s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   379.39s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   379.46s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   379.93s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   379.99s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   380.47s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   380.55s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase all data" OR identifier ==[c] "Erase all data")'
+    t =   381.05s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   382.23s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   382.40s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   382.63s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   382.68s     Added attachment named '22-missing-Erase-all-data.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ShiftLedgerTour.swift:109: error: -[ReviewTour.ShiftLedgerTour testTour] : failed - Could not find "Erase all data" on screen within 15 s
+    t =   382.68s     Checking existence of `"tour-missing-element" Other`
+    t =   382.81s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   382.92s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   383.39s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   383.46s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   383.92s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   383.98s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   384.45s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   384.51s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   384.98s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   385.04s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   385.50s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   385.56s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   386.02s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   386.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   386.55s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   386.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   387.07s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   387.13s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   387.61s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   387.67s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   388.14s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   388.20s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   388.66s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   388.71s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   389.18s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   389.24s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   389.71s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   389.78s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   390.26s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   390.32s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   390.79s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   390.85s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   391.32s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   391.38s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   391.85s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   391.91s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   392.38s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   392.44s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   392.92s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   392.99s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   393.46s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   393.52s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   393.99s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   394.05s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   394.52s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   394.58s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   395.05s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   395.12s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   395.59s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   395.65s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   396.12s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   396.18s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   396.65s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   396.71s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   397.18s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   397.25s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   397.72s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   397.79s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Erase everything" OR identifier ==[c] "Erase everything")'
+    t =   398.25s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   399.14s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   399.32s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   399.55s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   399.60s     Added attachment named '23-missing-Erase-everything.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ShiftLedgerTour.swift:110: error: -[ReviewTour.ShiftLedgerTour testTour] : failed - Could not find "Erase everything" on screen within 15 s
+    t =   399.60s     Checking existence of `"tour-missing-element" Other`
+    t =   399.70s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   399.76s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   400.23s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   400.29s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   400.76s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   400.83s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   401.30s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   401.36s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   401.83s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   401.89s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   402.36s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   402.43s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   402.90s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   402.96s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   403.43s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   403.49s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   403.95s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   404.02s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   404.49s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   404.55s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   405.02s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   405.08s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   405.56s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   405.62s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   406.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   406.15s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   406.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   406.68s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   407.15s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   407.21s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   407.67s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   407.73s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   408.20s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   408.27s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   408.73s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   408.80s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   409.27s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   409.33s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   409.81s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   409.87s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   410.35s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   410.41s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   410.88s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   410.95s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   411.41s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   411.47s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   411.94s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   412.01s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   412.48s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   412.54s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   413.01s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   413.07s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   413.53s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   413.60s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   414.08s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   414.14s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   414.61s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   414.67s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   415.14s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   415.21s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   415.67s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   415.73s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   416.20s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   416.26s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   416.73s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   416.80s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   417.27s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   417.33s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   417.80s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   417.87s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   418.33s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   418.40s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   418.87s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   418.93s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   419.41s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Set up my first job"'
+    t =   419.47s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Set up my first job"'
+    t =   419.93s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   420.90s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   421.06s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   421.29s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   421.34s     Added attachment named '24-missing-Set-up-my-first-job.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ShiftLedgerTour.swift:111: error: -[ReviewTour.ShiftLedgerTour testTour] : failed - Could not find "Set up my first job" on screen within 20 s
+    t =   423.86s Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   424.53s Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   424.71s Tear Down
+    t =   424.71s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   425.34s     Requesting snapshot of accessibility hierarchy for app with pid 17028
+    t =   425.51s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   425.72s     Requesting snapshot of accessibility hierarchy for app with pid 5496
+    t =   425.76s     Added attachment named '26-failure.txt'
+    t =   425.91s     Added attachment named 'failure'
+Test Case '-[ReviewTour.ShiftLedgerTour testTour]' failed (426.529 seconds).
+Test Suite 'ShiftLedgerTour' failed at 2026-10-19 10:55:40.845.
+	 Executed 1 test, with 10 failures (0 unexpected) in 426.529 (426.532) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 10:55:40.846.
+	 Executed 1 test, with 10 failures (0 unexpected) in 426.529 (426.533) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 10:55:40.846.
+	 Executed 1 test, with 10 failures (0 unexpected) in 426.529 (426.534) seconds
+2026-10-19 10:56:09.061 xcodebuild[15410:48018] [MT] IDETestOperationsObserverDebug: 468.677 elapsed -- Testing started completed.
+2026-10-19 10:56:09.062 xcodebuild[15410:48018] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 10:56:09.062 xcodebuild[15410:48018] [MT] IDETestOperationsObserverDebug: 468.678 sec, +468.677 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+	ShiftLedgerTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

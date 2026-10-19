@@ -1,0 +1,67 @@
+Attributes: Application, 0x101d677e0, pid: 16582, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101d677e0, pid: 16582, label: 'TidyQuote'
+    Window (Main), 0x101c4de00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c463e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c46f80, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101c56b50, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101c4e980, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101c55020, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101c50640, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101c45b60, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c68940, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101c54c50, {{0.0, 0.0}, {402.0, 1351.0}}, label: 'TidyQuote'
+                        Other, 0x101c37d80, {{0.0, 0.0}, {402.0, 1351.0}}, label: 'main', Focused
+                          Other, 0x101c264d0, {{0.0, 0.0}, {402.0, 107.0}}, label: 'section header', Focused
+                            Other, 0x101c55410, {{16.0, 70.0}, {370.0, 29.0}}, label: 'Settings', value: 1, Focused
+                              StaticText, 0x101c509f0, {{16.0, 68.0}, {102.0, 32.0}}, label: 'Settings', value: Settings, Focused
+                          Other, 0x101c46940, {{16.0, 133.0}, {119.0, 26.0}}, label: 'Your business', value: 2, Focused
+                            StaticText, 0x101c63620, {{16.0, 134.0}, {119.0, 23.0}}, label: 'Your business', value: Your business, Focused
+                          Button, 0x101c65d60, {{22.0, 175.0}, {358.0, 58.0}}, label: 'Business profile Sparkle Test Cleaning', Focused
+                          Button, 0x101c55c00, {{22.0, 233.0}, {358.0, 58.0}}, label: 'Price book Rates, service types and add-ons', Focused
+                          Button, 0x101c68300, {{22.0, 291.0}, {358.0, 58.0}}, label: 'Documents Tax, terms, dates, numbering and paper', Focused
+                          Button, 0x101c6ced0, {{22.0, 349.0}, {358.0, 58.0}}, label: 'Language App: English · Documents: English', Focused
+                          Other, 0x101c446b0, {{16.0, 439.0}, {142.0, 26.0}}, label: 'Backup and data', value: 2, Focused
+                            StaticText, 0x101c43020, {{16.0, 440.0}, {142.0, 23.0}}, label: 'Backup and data', value: Backup and data, Focused
+                          Other, 0x101c6d2f0, {{16.0, 471.0}, {370.0, 40.0}}, Focused
+                            StaticText, 0x101c44f00, {{16.0, 472.0}, {343.0, 38.0}}, label: 'Everything stays on this device. Export a backup now and then so you have a copy somewhere else.', value: Everything stays o..., Focused
+                          Button, 0x101c43440, {{22.0, 527.0}, {358.0, 58.0}}, label: 'Export backup One file with all your data', Focused
+                          Button, 0x101c427e0, {{22.0, 585.0}, {358.0, 58.0}}, label: 'Import backup Replaces what is in the app now', Focused
+                          Button, 0x101c644e0, {{22.0, 643.0}, {358.0, 58.0}}, label: 'Erase all data Clients, documents and settings', Focused
+                          Other, 0x101c41300, {{16.0, 733.0}, {128.0, 26.0}}, label: 'Help and about', value: 2, Focused
+                            StaticText, 0x101c65940, {{16.0, 734.0}, {129.0, 23.0}}, label: 'Help and about', value: Help and about, Focused
+                          Button, 0x101c42c00, {{22.0, 775.0}, {358.0, 77.0}}, label: 'Help How things work and what the numbers mean', Focused
+                          Button, 0x101cfddf0, {{22.0, 852.0}, {358.0, 58.0}}, label: 'Privacy policy What the app keeps, and where', Focused
+                          Button, 0x101cfdf10, {{22.0, 910.0}, {358.0, 58.0}}, label: 'About Version and disclaimers', Focused
+                          Button, 0x101cfe030, {{22.0, 968.0}, {358.0, 58.0}}, label: 'Contact support scott+tidyquote@keatingkonsultancy.com', Focused
+                          Other, 0x101cfe150, {{16.0, 1058.0}, {114.0, 26.0}}, label: 'Example data', value: 2, Focused
+                            StaticText, 0x101cfe270, {{16.0, 1059.0}, {115.0, 23.0}}, label: 'Example data', value: Example data, Focused
+                          Button, 0x101cfe390, {{22.0, 1100.0}, {358.0, 77.0}}, label: 'Try the app with example data Adds example clients, quotes and invoices. You can remove them again here.', Focused
+                          Other, 0x101d373d0, {{16.0, 1209.0}, {370.0, 18.0}}, Focused
+                            StaticText, 0x101d3f9e0, {{151.0, 1209.0}, {64.0, 17.0}}, label: 'TidyQuote', value: TidyQuote, Focused
+                            StaticText, 0x101d4a760, {{218.0, 1209.0}, {33.0, 17.0}}, label: '1.0.0', value: 1.0.0, Focused
+                        Other, 0x101d71bd0, {{0.0, 778.0}, {576.0, 96.0}}, label: 'Main, navigation'
+                          Button, 0x101d7a800, {{0.0, 784.0}, {258.0, 50.0}}, label: 'Home'
+                          Button, 0x101af3bd0, {{0.0, 784.0}, {262.0, 50.0}}, label: 'Quotes'
+                          Button, 0x101ab8b30, {{0.0, 784.0}, {265.0, 50.0}}, label: 'Invoices'
+                          Button, 0x101a72b30, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients'
+                          Button, 0x101a49e20, {{130.0, 784.0}, {266.0, 50.0}}, label: 'Settings'
+                        Other, 0x101a4ab60, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101a407f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101a52110, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101a51d80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a45400, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101a3fdc0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101a53220, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101a51690, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a47730, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101a43190, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101a50c60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101a4c3a0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101d677e0, pid: 16582, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x101a43870, pid: 16582, label: 'TidyQuote'
+  }

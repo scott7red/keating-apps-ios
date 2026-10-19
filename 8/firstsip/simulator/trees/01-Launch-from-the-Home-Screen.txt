@@ -1,0 +1,55 @@
+Attributes: Application, 0x103726700, pid: 11012, label: 'FirstSip'
+Element subtree:
+ →Application, 0x103726700, pid: 11012, label: 'FirstSip'
+    Window (Main), 0x1039478d0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10393d5d0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10393b4d0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1039213e0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10393de10, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103939e40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10393b0b0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10393a870, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10393bd10, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103939600, {{0.0, 0.0}, {402.0, 874.0}}, label: 'FirstSip', Focused
+                        Other, 0x103941e20, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Image, 0x10393cf90, {{100.0, 112.0}, {202.0, 201.0}}, label: 'A sun rising over water', Focused
+                          Other, 0x103ab47f0, {{22.0, 348.0}, {358.0, 58.0}}, label: 'FirstSip', value: 1, Focused
+                            StaticText, 0x103a2c5c0, {{22.0, 348.0}, {155.0, 58.0}}, label: 'FirstSip', value: FirstSip, Focused
+                          Other, 0x103a2fd10, {{22.0, 413.0}, {358.0, 50.0}}, Focused
+                            StaticText, 0x103a364b0, {{22.0, 414.0}, {272.0, 47.0}}, label: 'Take your pill, tap once, and let the sun come up while you wait to eat.', value: Take your pill, ta..., Focused
+                          Other, 0x103a2adb0, {{22.0, 484.0}, {358.0, 218.0}}, Focused
+                            Other, 0x10393ee70, {{22.0, 484.0}, {358.0, 64.0}}, Focused
+                              Other, 0x103925970, {{78.0, 484.0}, {302.0, 22.0}}, Focused
+                                StaticText, 0x103925a90, {{78.0, 484.0}, {225.0, 22.0}}, label: 'A wait timer that keeps time', value: A wait timer that ..., Focused
+                              StaticText, 0x103a32610, {{78.0, 509.0}, {291.0, 38.0}}, label: 'One tap starts the countdown. A chime tells you when you can eat and drink.', value: One tap starts the..., Focused
+                            Other, 0x103747290, {{22.0, 561.0}, {358.0, 64.0}}, Focused
+                              Other, 0x103743880, {{78.0, 561.0}, {302.0, 22.0}}, Focused
+                                StaticText, 0x103746f80, {{78.0, 561.0}, {186.0, 22.0}}, label: 'Your streak, day by day', value: Your streak, day b..., Focused
+                              StaticText, 0x1037255d0, {{78.0, 586.0}, {282.0, 38.0}}, label: 'A calendar of every dose and how the wait went.', value: A calendar of ever..., Focused
+                            Other, 0x103a28190, {{22.0, 638.0}, {358.0, 64.0}}, Focused
+                              Other, 0x103a284f0, {{78.0, 638.0}, {302.0, 22.0}}, Focused
+                                StaticText, 0x103a27ab0, {{78.0, 638.0}, {195.0, 22.0}}, label: 'Ready for your next visit', value: Ready for your nex..., Focused
+                              StaticText, 0x103a2a020, {{78.0, 663.0}, {299.0, 38.0}}, label: 'Weight, symptoms and a PDF report to share with your doctor.', value: Weight, symptoms a..., Focused
+                          Button, 0x10374ced0, {{22.0, 728.0}, {358.0, 66.0}}, label: 'Get started', Focused
+                          Other, 0x10374cff0, {{22.0, 800.0}, {358.0, 18.0}}, Focused
+                            StaticText, 0x10374d110, {{39.0, 800.0}, {46.0, 17.0}}, label: 'FirstSip', value: FirstSip, Focused
+                            StaticText, 0x10374d230, {{84.0, 800.0}, {279.0, 17.0}}, label: 'records and reminds. It is not medical advice.', value:  records and remin..., Focused
+                        Other, 0x10374d350, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x10374d470, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10374d590, {{396.0, 808.0}, {3.0, 7.0}}
+              Other, 0x10374d6b0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10374d7d0, {{336.0, 868.0}, {7.0, 3.0}}
+              Other, 0x10374d8f0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10374da10, {{396.0, 808.0}, {3.0, 7.0}}
+              Other, 0x10374db30, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10374dc50, {{336.0, 868.0}, {7.0, 3.0}}
+    Window, 0x10374dd70, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10374de90, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10374dfb0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103726700, pid: 11012, label: 'FirstSip'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.firstsip'
+  Output: {
+    Application, 0x10374e0d0, pid: 11012, label: 'FirstSip'
+  }

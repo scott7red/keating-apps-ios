@@ -1,0 +1,7 @@
+firstsip: FirstSip - GLP-1 Pill Tracker - App Review.mp4, 2.3 MB, MD5 08fcd9d0f2e436f92d6e0c81e92d22fe (dry run: nothing is changed)
+App Store Connect app: FirstSip: GLP-1 Pill Tracker (6823850100)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (6006156c-6837-481a-8b4a-2f3c1f15bade)
+App Review Information: 04f7bfe5-620c-4d1a-aae9-ce88f37c2d79
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"FirstSip - GLP-1 Pill Tracker - App Review.mp4","fileSize":2269505},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"04f7bfe5-620c-4d1a-aae9-ce88f37c2d79"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 08fcd9d0f2e436f92d6e0c81e92d22fe.

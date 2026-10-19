@@ -1,0 +1,20 @@
+total 98488
+drwxr-xr-x  19 runner  staff       608 Oct 19 11:17 .
+drwxr-xr-x  22 runner  staff       704 Oct 19 11:17 ..
+-rw-r--r--   1 runner  staff    293106 Oct 19 11:05 build.log
+-rw-r--r--   1 runner  staff      1264 Oct 19 11:11 circle.png
+-rw-r--r--   1 runner  staff      6481 Oct 19 11:11 filter.txt
+drwxr-xr-x  22 runner  staff       704 Oct 19 11:17 frames
+-rw-r--r--   1 runner  staff      2442 Oct 19 11:17 info.json
+-rw-r--r--   1 runner  staff     41665 Oct 19 11:17 last.jpg
+-rw-r--r--   1 runner  staff      3591 Oct 19 11:10 marks.tsv
+-rw-r--r--@  1 runner  staff  48974737 Oct 19 11:11 raw.mp4
+-rw-r--r--   1 runner  staff        15 Oct 19 11:05 rec-start.txt
+-rw-r--r--   1 runner  staff       223 Oct 19 11:11 record.log
+-rw-r--r--   1 runner  staff    349911 Oct 19 11:16 sheet.jpg
+-rw-r--r--   1 runner  staff    203346 Oct 19 11:17 steps.jpg
+-rw-r--r--   1 runner  staff    130445 Oct 19 11:11 test.log
+-rw-r--r--   1 runner  staff      1194 Oct 19 11:16 text-jobs.json
+drwxr-xr-x   4 runner  staff       128 Oct 19 11:11 tour.xcresult
+drwxr-xr-x  13 runner  staff       416 Oct 19 11:10 trees
+drwxr-xr-x   3 runner  staff        96 Oct 19 11:17 video

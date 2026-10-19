@@ -1,0 +1,49 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "E9D1663D-4239-400D-8E14-A87600116FFF",
+        "deviceName" : "App Review",
+        "modelName" : "iPhone 17 Pro",
+        "osBuildNumber" : "23C54",
+        "osVersion" : "26.2",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 0,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "ReviewTour · Built with macOS 26.6.2",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1792379234.471,
+  "passedTests" : 0,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1792379048.852,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "failed - Could not find \"Tips logged\" on screen within 15 s",
+      "targetName" : "ReviewTour",
+      "testIdentifier" : 1,
+      "testIdentifierString" : "ShiftLedgerTour/testTour()",
+      "testIdentifierURL" : "test://com.apple.xcode/App/ReviewTour/ShiftLedgerTour/testTour",
+      "testName" : "testTour()"
+    }
+  ],
+  "title" : "Test - ReviewTour",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 1
+}

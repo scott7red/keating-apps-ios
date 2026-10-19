@@ -1,0 +1,128 @@
+Attributes: Application, 0x101ab8b30, pid: 16582, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101ab8b30, pid: 16582, label: 'TidyQuote'
+    Window (Main), 0x101ab6870, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101a4d4f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101a484e0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101a42af0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101a4cac0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101a4a4b0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101a44610, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101a40b50, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101a4d850, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101a4fe50, {{0.0, 0.0}, {402.0, 1353.0}}, label: 'TidyQuote'
+                        Other, 0x101a4f3a0, {{0.0, 0.0}, {402.0, 1353.0}}, label: 'main', Focused
+                          Other, 0x101a45e50, {{0.0, 0.0}, {402.0, 124.0}}, label: 'section header', Focused
+                            Button, 0x101a4b250, {{6.0, 71.0}, {44.0, 44.0}}, label: 'Back', Focused
+                            StaticText, 0x101a41930, {{56.0, 71.0}, {57.0, 15.0}}, label: 'INVOICE', value: INVOICE, Focused
+                            Other, 0x101a43bc0, {{56.0, 87.0}, {330.0, 29.0}}, label: 'INV-0001', value: 1, Focused
+                              StaticText, 0x101a4b5e0, {{56.0, 85.0}, {119.0, 32.0}}, label: 'INV-0001', value: INV-0001, Focused
+                          Other, 0x101a51690, {{34.0, 141.0}, {225.0, 24.0}}, Focused
+                            StaticText, 0x101a4a140, {{34.0, 141.0}, {111.0, 24.0}}, label: 'Pat Example', value: Pat Example, Focused
+                          Other, 0x101a47730, {{34.0, 167.0}, {225.0, 19.0}}, Focused
+                            StaticText, 0x101a493d0, {{34.0, 167.0}, {209.0, 18.0}}, label: 'Not sent yet · Paid Oct 19 · Cash', value: Not sent yet · Pai..., Focused
+                          Other, 0x101a50c60, {{275.0, 141.0}, {94.0, 27.0}}, Focused
+                            StaticText, 0x101a53c70, {{275.0, 141.0}, {93.0, 27.0}}, label: '$365.00', value: $365.00, Focused
+                          StaticText, 0x101a46510, {{331.0, 177.0}, {28.0, 16.0}}, label: 'Paid', value: Paid, Focused
+                          Button, 0x101a3cf10, {{16.0, 227.0}, {370.0, 48.0}}, label: 'Send PDF', Focused
+                          Other, 0x101a3dd10, {{16.0, 293.0}, {370.0, 510.0}}, label: 'INVOICE INV-0001, article', Focused
+                            Other, 0x101a43500, {{34.0, 317.0}, {334.0, 100.0}}, label: 'section header', Focused
+                              Other, 0x101a4f720, {{34.0, 318.0}, {159.0, 20.0}}, Focused
+                                StaticText, 0x101a41240, {{34.0, 318.0}, {159.0, 20.0}}, label: 'Sparkle Test Cleaning', value: Sparkle Test Clean..., Focused
+                              Other, 0x101a45ae0, {{233.0, 317.0}, {135.0, 26.0}}, Focused
+                                StaticText, 0x101a54350, {{284.0, 317.0}, {84.0, 26.0}}, label: 'INVOICE', value: INVOICE, Focused
+                              Other, 0x101a3fa40, {{233.0, 349.0}, {135.0, 53.0}}, Focused
+                                Other, 0x101a50550, {{245.0, 349.0}, {62.0, 17.0}}, Focused
+                                  StaticText, 0x101a442c0, {{245.0, 349.0}, {62.0, 16.0}}, label: 'Invoice no.', value: Invoice no., Focused
+                                Other, 0x101a4b940, {{312.0, 349.0}, {57.0, 17.0}}, Focused
+                                  StaticText, 0x101a40480, {{312.0, 349.0}, {56.0, 16.0}}, label: 'INV-0001', value: INV-0001, Focused
+                                Other, 0x101a4ce20, {{233.0, 367.0}, {27.0, 17.0}}, Focused
+                                  StaticText, 0x101a3e090, {{233.0, 367.0}, {28.0, 16.0}}, label: 'Date', value: Date, Focused
+                                Other, 0x101a41ca0, {{266.0, 367.0}, {103.0, 17.0}}, Focused
+                                  StaticText, 0x101a461b0, {{266.0, 367.0}, {102.0, 16.0}}, label: 'October 19, 2026', value: October 19, 2026, Focused
+                                Other, 0x101a48180, {{280.0, 385.0}, {23.0, 17.0}}, Focused
+                                  StaticText, 0x101a49a80, {{280.0, 385.0}, {23.0, 16.0}}, label: 'Due', value: Due, Focused
+                                Other, 0x101a43190, {{308.0, 385.0}, {60.0, 17.0}}, Focused
+                                  StaticText, 0x101a43f50, {{308.0, 385.0}, {60.0, 16.0}}, label: 'On receipt', value: On receipt, Focused
+                            Other, 0x101a4c3a0, {{34.0, 432.0}, {334.0, 15.0}}, Focused
+                              StaticText, 0x101a53220, {{34.0, 432.0}, {48.0, 14.0}}, label: 'BILL TO', value: BILL TO, Focused
+                            Other, 0x101a54a10, {{34.0, 449.0}, {334.0, 20.0}}, Focused
+                              StaticText, 0x101a3eb50, {{34.0, 449.0}, {85.0, 19.0}}, label: 'Pat Example', value: Pat Example, Focused
+                            Other, 0x101a468a0, {{34.0, 484.0}, {334.0, 116.0}}, Focused
+                              Other, 0x101a44d30, {{34.0, 484.0}, {334.0, 27.0}}, Focused
+                                Other, 0x101a538e0, {{34.0, 484.0}, {161.0, 27.0}}, Focused
+                                  StaticText, 0x101a4bcc0, {{40.0, 490.0}, {78.0, 14.0}}, label: 'DESCRIPTION', value: DESCRIPTION, Focused
+                                Other, 0x101a47ab0, {{195.0, 484.0}, {38.0, 27.0}}, Focused
+                                  StaticText, 0x101c46f80, {{202.0, 490.0}, {25.0, 14.0}}, label: 'QTY', value: QTY, Focused
+                                Other, 0x101c4de00, {{232.0, 484.0}, {69.0, 27.0}}, Focused
+                                  StaticText, 0x101a42000, {{260.0, 490.0}, {35.0, 14.0}}, label: 'PRICE', value: PRICE, Focused
+                                Other, 0x101a53fc0, {{300.0, 484.0}, {68.0, 27.0}}, Focused
+                                  StaticText, 0x101a49720, {{311.0, 490.0}, {52.0, 14.0}}, label: 'AMOUNT', value: AMOUNT, Focused
+                              Other, 0x101a3fdc0, {{34.0, 510.0}, {334.0, 53.0}}, Focused
+                                Other, 0x101a501d0, {{34.0, 510.0}, {161.0, 53.0}}, Focused
+                                  StaticText, 0x101a4e960, {{40.0, 519.0}, {68.0, 18.0}}, label: 'Deep clean', value: Deep clean, Focused
+                                  StaticText, 0x101a40130, {{40.0, 538.0}, {142.0, 15.0}}, label: '4 bedrooms, 2 bathrooms', value: 4 bedrooms, 2 bath..., Focused
+                                Other, 0x101a4fac0, {{195.0, 510.0}, {38.0, 53.0}}, Focused
+                                  StaticText, 0x101a3c470, {{218.0, 519.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                                Other, 0x101a4df20, {{232.0, 510.0}, {69.0, 53.0}}, Focused
+                                  StaticText, 0x101a4c040, {{241.0, 519.0}, {54.0, 18.0}}, label: '$330.00', value: $330.00, Focused
+                                Other, 0x101a4e290, {{300.0, 510.0}, {68.0, 53.0}}, Focused
+                                  StaticText, 0x101a43870, {{309.0, 519.0}, {54.0, 18.0}}, label: '$330.00', value: $330.00, Focused
+                              Other, 0x101a53590, {{34.0, 562.0}, {334.0, 38.0}}, Focused
+                                Other, 0x101a3e420, {{34.0, 562.0}, {161.0, 38.0}}, Focused
+                                  StaticText, 0x101a47e20, {{40.0, 572.0}, {69.0, 18.0}}, label: 'Inside oven', value: Inside oven, Focused
+                                Other, 0x101a42390, {{195.0, 562.0}, {38.0, 38.0}}, Focused
+                                  StaticText, 0x101a508e0, {{218.0, 572.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                                Other, 0x101a4a800, {{232.0, 562.0}, {69.0, 38.0}}, Focused
+                                  StaticText, 0x101a4c740, {{249.0, 572.0}, {46.0, 18.0}}, label: '$35.00', value: $35.00, Focused
+                                Other, 0x101a3f6a0, {{300.0, 562.0}, {68.0, 38.0}}, Focused
+                                  StaticText, 0x101a3e7b0, {{317.0, 572.0}, {46.0, 18.0}}, label: '$35.00', value: $35.00, Focused
+                            StaticText, 0x101a4aef0, {{75.0, 613.0}, {55.0, 32.0}}, label: 'PAID', value: PAID, Focused
+                            StaticText, 0x101a42720, {{54.0, 631.0}, {102.0, 37.0}}, label: 'October 19, 2026 - Cash', value: October 19, 2026 -..., Focused
+                            Other, 0x101a51d80, {{187.0, 609.0}, {181.0, 67.0}}, Focused
+                              Other, 0x101a407f0, {{193.0, 609.0}, {51.0, 19.0}}, Focused
+                                StaticText, 0x101a4ab60, {{193.0, 609.0}, {51.0, 18.0}}, label: 'Subtotal', value: Subtotal, Focused
+                              Other, 0x101a415a0, {{309.0, 609.0}, {53.0, 19.0}}, Focused
+                                StaticText, 0x101a546c0, {{309.0, 609.0}, {53.0, 18.0}}, label: '$365.00', value: $365.00, Focused
+                              Other, 0x101a52110, {{193.0, 649.0}, {64.0, 19.0}}, Focused
+                                StaticText, 0x101a45400, {{193.0, 649.0}, {64.0, 18.0}}, label: 'Total paid', value: Total paid, Focused
+                              Other, 0x101a3d610, {{292.0, 645.0}, {70.0, 23.0}}, Focused
+                                StaticText, 0x101a4d1a0, {{292.0, 646.0}, {70.0, 21.0}}, label: '$365.00', value: $365.00, Focused
+                            Other, 0x101a40eb0, {{34.0, 691.0}, {334.0, 15.0}}, Focused
+                              StaticText, 0x101a4e600, {{34.0, 691.0}, {43.0, 14.0}}, label: 'TERMS', value: TERMS, Focused
+                            Other, 0x101a52e90, {{34.0, 708.0}, {334.0, 73.0}}, Focused
+                              StaticText, 0x101a473e0, {{34.0, 708.0}, {307.0, 72.0}}, label: 'Prices are based on the home details provided and may change if the size or condition is different on arrival. Please give 24 hours' notice to cancel or reschedule.', value: Prices are based o..., Focused
+                          Other, 0x101a55110, {{21.0, 825.0}, {1.0, 2.0}}, label: 'Actions', value: 2, Focused
+                            StaticText, 0x101a49040, {{21.0, 827.0}, {86.0, 30.0}}, label: 'Actions', value: Actions, Focused
+                          Button, 0x101a54da0, {{22.0, 826.0}, {358.0, 59.0}}, label: 'Mark as sent If you sent it another way', Focused
+                          Button, 0x101a45750, {{22.0, 884.0}, {358.0, 57.0}}, label: 'Mark unpaid', Focused
+                          Button, 0x101a42e20, {{22.0, 940.0}, {358.0, 59.0}}, label: 'Create next invoice Same lines, new date and number', Focused
+                          Button, 0x101a52480, {{22.0, 998.0}, {358.0, 57.0}}, label: 'Edit invoice', Focused
+                          Button, 0x101a49de0, {{22.0, 1054.0}, {358.0, 57.0}}, label: 'From quote Q-0001', Focused
+                          Button, 0x101a63950, {{22.0, 1110.0}, {358.0, 57.0}}, label: 'View Pat Example', Focused
+                          Button, 0x101ab9af0, {{22.0, 1166.0}, {358.0, 57.0}}, label: 'Delete invoice', Focused
+                        Other, 0x101af4bd0, {{0.0, 778.0}, {576.0, 96.0}}, label: 'Main, navigation'
+                          Button, 0x101a8f730, {{0.0, 784.0}, {258.0, 50.0}}, label: 'Home'
+                          Button, 0x101ab7830, {{0.0, 784.0}, {262.0, 50.0}}, label: 'Quotes'
+                          Button, 0x101af5af0, {{0.0, 784.0}, {266.0, 50.0}}, label: 'Invoices'
+                          Button, 0x101ab6bd0, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients'
+                          Button, 0x101a8fb50, {{131.0, 784.0}, {265.0, 50.0}}, label: 'Settings'
+                        Other, 0x101af5f10, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101a8f310, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101ab28d0, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101a6dbe0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a8ff70, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101a8eef0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101af6330, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101a6e000, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a6e420, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101a607a0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ab7410, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101ab8e70, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101ab8b30, pid: 16582, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x101a63f40, pid: 16582, label: 'TidyQuote'
+  }

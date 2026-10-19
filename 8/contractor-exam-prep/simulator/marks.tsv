@@ -1,0 +1,26 @@
+1792378522.018	setup	-[ContractorTour testTour]
+1792378522.657	note	StoreKit test session from Review.storekit
+1792378522.658	step	Launch from the Home Screen
+1792378525.051	screen	402 874
+1792378529.923	start	
+1792378531.988	tap	247 233
+1792378548.606	step	Welcome
+1792378548.729	show	What is inside
+1792378552.948	show	free sample
+1792378560.719	tap	201 790
+1792378562.587	step	Setup: a profile and an exam
+1792378564.255	tap	201 288
+1792378568.977	note	keyboard Done found as candidate 0: Done
+1792378569.042	tap	361 505
+1792378571.281	tap	201 728
+1792378580.233	tap	156 272
+1792378588.276	tap	201 727
+1792378592.386	tap	201 728
+1792378594.894	tap	201 728
+1792378597.414	tap	201 728
+1792378600.533	step	The free sample: practice questions
+1792378600.701	show	Free sample
+1792378603.960	tap	201 821
+1792378606.816	tap	201 527
+1792378624.658	fail	-[ContractorTour testTour]
+1792378625.265	end	

@@ -1,0 +1,76 @@
+Attributes: Application, 0x1039478d0, pid: 11012, label: 'FirstSip'
+Element subtree:
+ →Application, 0x1039478d0, pid: 11012, label: 'FirstSip'
+    Window (Main), 0x103942430, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103941390, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10393e870, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1039213e0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10393c350, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103940430, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103945b30, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103942fb0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103946590, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103942b90, {{0.0, 0.0}, {402.0, 1050.0}}, label: 'FirstSip'
+                        Other, 0x10393b0b0, {{0.0, 0.0}, {402.0, 1050.0}}, label: 'main', Focused
+                          Other, 0x103942770, {{0.0, 0.0}, {402.0, 1050.0}}, label: 'Good morning, region', Focused
+                            Other, 0x103944ab0, {{20.0, 84.0}, {362.0, 74.0}}, label: 'section header', Focused
+                              Other, 0x103939600, {{20.0, 91.0}, {132.0, 20.0}}, Focused
+                                StaticText, 0x103948770, {{20.0, 92.0}, {132.0, 18.0}}, label: 'Monday, October 19', value: Monday, October 19, Focused
+                              Other, 0x103944270, {{20.0, 120.0}, {362.0, 38.0}}, label: 'Good morning', value: 1, Focused
+                                StaticText, 0x103944690, {{20.0, 120.0}, {196.0, 38.0}}, label: 'Good morning', value: Good morning, Focused
+                            Image, 0x10393d5d0, {{115.0, 174.0}, {172.0, 172.0}}, label: 'Today's pill is not logged yet', Focused
+                            Other, 0x10393b4d0, {{50.0, 360.0}, {302.0, 46.0}}, Focused
+                              StaticText, 0x103945f50, {{122.0, 361.0}, {149.0, 20.0}}, label: 'Semaglutide tablets', value: Semaglutide tablets, Focused
+                              StaticText, 0x103945710, {{113.0, 361.0}, {167.0, 43.0}}, label: '· usually around', value:  · usually around , Focused
+                              StaticText, 0x103948b90, {{225.0, 384.0}, {64.0, 20.0}}, label: '7:00 AM', value: 7:00 AM, Focused
+                            Other, 0x10393a870, {{200.0, 173.0}, {2.0, 1.0}}, label: 'application status', Focused
+                            Other, 0x103944ed0, {{39.0, 444.0}, {324.0, 23.0}}, label: 'Before your first sip', value: 2, Focused
+                              StaticText, 0x103939e40, {{39.0, 444.0}, {162.0, 23.0}}, label: 'Before your first sip', value: Before your first ..., Focused
+                            Other, 0x10393de10, {{39.0, 471.0}, {324.0, 40.0}}, Focused
+                              StaticText, 0x1039452f0, {{39.0, 472.0}, {170.0, 18.0}}, label: 'Reminders from the label.', value: Reminders from the..., Focused
+                              StaticText, 0x10393bd10, {{39.0, 472.0}, {324.0, 38.0}}, label: 'Follow your prescriber's instructions.', value: Follow your prescr..., Focused
+                            Other, 0x103941e20, {{33.0, 521.0}, {336.0, 212.0}}, Focused
+                              Other, 0x103949a50, {{33.0, 521.0}, {336.0, 50.0}}, Focused
+                                Switch, 0x103949b70, {{33.0, 521.0}, {336.0, 50.0}}, label: 'Take it on an empty stomach', value: 0, Focused
+                              Other, 0x103949c90, {{33.0, 571.0}, {336.0, 56.0}}, Focused
+                                Switch, 0x103949db0, {{33.0, 571.0}, {336.0, 56.0}}, label: 'Use a sip of plain water, no more than 4 oz', value: 0, Focused
+                              Other, 0x103949ed0, {{33.0, 627.0}, {336.0, 50.0}}, Focused
+                                Switch, 0x103949ff0, {{33.0, 627.0}, {336.0, 50.0}}, label: 'Swallow the tablet whole', value: 0, Focused
+                              Other, 0x10394a110, {{33.0, 677.0}, {336.0, 56.0}}, Focused
+                                Switch, 0x10394a230, {{33.0, 677.0}, {336.0, 56.0}}, label: 'Wait at least 30 minutes before food, drinks or other oral medicines', value: 0, Focused
+                            Other, 0x10394a350, {{20.0, 614.0}, {362.0, 30.0}}, Focused
+                              StaticText, 0x10394a470, {{36.0, 617.0}, {203.0, 18.0}}, label: 'Tap right after your pill and the', value: Tap right after yo..., Focused
+                              StaticText, 0x10394a590, {{238.0, 617.0}, {46.0, 18.0}}, label: '30 min', value: 30 min, Focused
+                              StaticText, 0x10394a6b0, {{283.0, 617.0}, {83.0, 18.0}}, label: 'timer starts.', value:  timer starts., Focused
+                            Button, 0x10394a7d0, {{20.0, 646.0}, {362.0, 66.0}}, label: 'I took my pill', Focused
+                            Button, 0x10394a8f0, {{131.0, 714.0}, {140.0, 44.0}}, label: 'I took it earlier', Focused
+                        Other, 0x10394aa10, {{0.0, 775.0}, {597.0, 99.0}}, label: 'Main, navigation'
+                          Link, 0x10394ab30, {{27.0, 814.0}, {36.0, 15.0}}, label: 'Today'
+                            StaticText, 0x10394ac50, {{27.0, 814.0}, {36.0, 15.0}}, label: 'Today', value: Today
+                          Link, 0x10394ad70, {{102.0, 814.0}, {42.0, 15.0}}, label: 'History'
+                            StaticText, 0x10394ae90, {{102.0, 814.0}, {42.0, 15.0}}, label: 'History', value: History
+                          Link, 0x10394afb0, {{181.0, 814.0}, {40.0, 15.0}}, label: 'Weight'
+                            StaticText, 0x10394b0d0, {{181.0, 814.0}, {40.0, 15.0}}, label: 'Weight', value: Weight
+                          Link, 0x10394b1f0, {{248.0, 814.0}, {62.0, 15.0}}, label: 'Symptoms'
+                            StaticText, 0x10394b310, {{248.0, 814.0}, {62.0, 15.0}}, label: 'Symptoms', value: Symptoms
+                          Link, 0x10394b430, {{342.0, 814.0}, {30.0, 15.0}}, label: 'More'
+                            StaticText, 0x10394b550, {{342.0, 814.0}, {30.0, 15.0}}, label: 'More', value: More
+                        Other, 0x10394b670, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x10394b790, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x10394b8b0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10394b9d0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10394baf0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10394bc10, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x10394bd30, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10394be50, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10394bf70, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x10394c090, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10394c1b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10394c2d0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1039478d0, pid: 11012, label: 'FirstSip'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.firstsip'
+  Output: {
+    Application, 0x103956480, pid: 11012, label: 'FirstSip'
+  }

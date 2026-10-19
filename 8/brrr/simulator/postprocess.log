@@ -1,0 +1,37 @@
+{
+  "rawSeconds": 604.2,
+  "finalSeconds": 417.7,
+  "finalMinutes": "6:58",
+  "size": "1206x2622",
+  "megabytes": 16.1,
+  "trimmed": {
+    "from": 186.3,
+    "to": 554.3
+  },
+  "taps": 36,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 20,
+    "of": 36,
+    "first": -0.17,
+    "last": -0.09
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Starting assumptions",
+    "Analyze a deal: Buy, Rehab, Rent, Refinance",
+    "The results",
+    "The property address",
+    "The PDF report, through the share sheet",
+    "Deals",
+    "Markets near me, with the location prompt"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done",
+    "note: no iOS prompt appeared"
+  ],
+  "steps": 8
+}

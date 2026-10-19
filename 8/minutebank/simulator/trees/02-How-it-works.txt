@@ -1,0 +1,55 @@
+Attributes: Application, 0x10173ac00, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x10173ac00, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x101747820, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101742f90, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10174c0c0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101742590, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x1017413e0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10174caf0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10174d1d0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10174d890, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10174e720, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10174d530, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank', Focused
+                        Other, 0x10174e3a0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x10173d1d0, {{22.0, 84.0}, {358.0, 18.0}}, Focused
+                            StaticText, 0x10174af10, {{22.0, 85.0}, {187.0, 16.0}}, label: 'STEP 1 OF 2 · PARENT PIN', value: STEP 1 OF 2 · PARE..., Focused
+                          Other, 0x101727b40, {{22.0, 116.0}, {358.0, 37.0}}, label: 'Create a parent PIN', value: 1, Focused
+                            StaticText, 0x101740960, {{22.0, 116.0}, {267.0, 37.0}}, label: 'Create a parent PIN', value: Create a parent PIN, Focused
+                          Other, 0x101744080, {{22.0, 167.0}, {358.0, 46.0}}, Focused
+                            StaticText, 0x1017405f0, {{22.0, 168.0}, {358.0, 43.0}}, label: 'Four digits your child does not know. You will use it to approve requests and change the rules.', value: Four digits your c..., Focused
+                          Image, 0x101b55ef0, {{41.0, 229.0}, {320.0, 30.0}}, label: '0 of 4 digits entered', Focused
+                          Other, 0x101b4f7e0, {{41.0, 267.0}, {320.0, 22.0}}, label: 'alert', Focused
+                          Other, 0x101b53ce0, {{41.0, 297.0}, {320.0, 270.0}}, label: 'Number keys', Focused
+                            Button, 0x101b42e40, {{41.0, 297.0}, {100.0, 60.0}}, label: '1', Focused
+                            Button, 0x101b687d0, {{151.0, 297.0}, {100.0, 60.0}}, label: '2', Focused
+                            Button, 0x101b543a0, {{261.0, 297.0}, {100.0, 60.0}}, label: '3', Focused
+                            Button, 0x101b544c0, {{41.0, 367.0}, {100.0, 60.0}}, label: '4', Focused
+                            Button, 0x101b6ade0, {{151.0, 367.0}, {100.0, 60.0}}, label: '5', Focused
+                            Button, 0x101b6af00, {{261.0, 367.0}, {100.0, 60.0}}, label: '6', Focused
+                            Button, 0x101b6b200, {{41.0, 437.0}, {100.0, 60.0}}, label: '7', Focused
+                            Button, 0x101b6b320, {{151.0, 437.0}, {100.0, 60.0}}, label: '8', Focused
+                            Button, 0x101b4f260, {{261.0, 437.0}, {100.0, 60.0}}, label: '9', Focused
+                            Button, 0x101b4f380, {{41.0, 507.0}, {100.0, 60.0}}, label: 'Delete', Focused
+                            Button, 0x101b4f4a0, {{151.0, 507.0}, {100.0, 60.0}}, label: '0', Focused
+                          Button, 0x101a3deb0, {{173.0, 774.0}, {56.0, 44.0}}, label: 'Back', Focused
+                        Other, 0x101a3e2e0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+                        Other, 0x101a077a0, {{0.0, 0.0}, {402.0, 874.0}}, Focused
+              Other, 0x101a411e0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101a3f180, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101a3f2a0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a3f3c0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101a3f4e0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101a3f600, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101a3f720, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a44820, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101a44940, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101a44a60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101a44b80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10173ac00, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x101a44ca0, pid: 21046, label: 'MinuteBank'
+  }

@@ -1,0 +1,121 @@
+Attributes: Application, 0x106434e70, pid: 17028, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x106434e70, pid: 17028, label: 'ShiftLedger'
+    Window (Main), 0x1064403a0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106442890, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106441170, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1064339c0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x106442f80, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x106647910, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x106384010, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10635f080, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x106343960, {{0.0, -375.0}, {402.0, 874.0}}
+                      Other, 0x10635a350, {{0.0, -375.0}, {402.0, 1249.0}}, label: 'ShiftLedger', Focused
+                        Other, 0x106336660, {{0.0, -375.0}, {402.0, 1125.0}}, label: 'main', Focused
+                          Other, 0x10634fda0, {{16.0, -375.0}, {370.0, 126.0}}, label: 'section header', Focused
+                            Other, 0x106357350, {{56.0, -294.0}, {117.0, 27.0}}, label: 'ShiftLedger', value: 1, Focused
+                              StaticText, 0x106336d60, {{56.0, -294.0}, {117.0, 27.0}}, label: 'ShiftLedger', value: ShiftLedger, Focused
+                            StaticText, 0x1063664d0, {{278.0, -288.0}, {68.0, 15.0}}, label: 'TAX YEAR', value: TAX YEAR , Focused
+                            StaticText, 0x10636cc50, {{345.0, -288.0}, {30.0, 15.0}}, label: '2026', value: 2026, Focused
+                          Other, 0x10635e960, {{16.0, -249.0}, {370.0, 303.0}}, label: 'THIS WEEK OCT 18 TO 24, region', Focused
+                            Other, 0x10636b150, {{34.0, -231.0}, {334.0, 15.0}}, Focused
+                              StaticText, 0x106337440, {{34.0, -231.0}, {78.0, 14.0}}, label: 'THIS WEEK', value: THIS WEEK , Focused
+                              StaticText, 0x106366840, {{127.0, -231.0}, {94.0, 14.0}}, label: 'OCT 18 TO 24', value: OCT 18 TO 24, Focused
+                            Other, 0x10634d700, {{34.0, -202.0}, {334.0, 18.0}}, Focused
+                              StaticText, 0x106348b50, {{34.0, -202.0}, {100.0, 17.0}}, label: 'Hourly with tips', value: Hourly with tips, Focused
+                            Other, 0x1063584b0, {{34.0, -186.0}, {334.0, 56.0}}, Focused
+                              StaticText, 0x10635ed00, {{34.0, -186.0}, {155.0, 56.0}}, label: '$32.22', value: $32.22, Focused
+                              StaticText, 0x106361290, {{190.0, -163.0}, {21.0, 27.0}}, label: '/h', value: /h, Focused
+                            Other, 0x10634c970, {{34.0, -128.0}, {334.0, 20.0}}, Focused
+                              StaticText, 0x106368f90, {{34.0, -127.0}, {97.0, 18.0}}, label: '1 shift logged.', value: 1 shift logged., Focused
+                            Other, 0x10634d040, {{34.0, -74.0}, {334.0, 39.0}}, Focused
+                              Other, 0x10635e5c0, {{34.0, -74.0}, {78.0, 13.0}}, Focused
+                                StaticText, 0x106347a00, {{34.0, -74.0}, {36.0, 13.0}}, label: 'HOURS', value: HOURS, Focused
+                              Other, 0x10634e510, {{34.0, -59.0}, {78.0, 24.0}}, Focused
+                                StaticText, 0x106353ee0, {{34.0, -59.0}, {43.0, 24.0}}, label: '9.00', value: 9.00, Focused
+                              Other, 0x10636e480, {{119.0, -74.0}, {79.0, 13.0}}, Focused
+                                StaticText, 0x106366bb0, {{119.0, -74.0}, {58.0, 13.0}}, label: 'OVERTIME', value: OVERTIME, Focused
+                              Other, 0x106430ee0, {{119.0, -59.0}, {79.0, 24.0}}, Focused
+                                StaticText, 0x106641190, {{119.0, -59.0}, {43.0, 24.0}}, label: '0.00', value: 0.00, Focused
+                              Other, 0x106644590, {{205.0, -74.0}, {78.0, 13.0}}, Focused
+                                StaticText, 0x106645380, {{205.0, -74.0}, {72.0, 13.0}}, label: 'EST. WAGES', value: EST. WAGES, Focused
+                              Other, 0x10665b9c0, {{205.0, -59.0}, {78.0, 24.0}}, Focused
+                                StaticText, 0x106653de0, {{205.0, -59.0}, {49.0, 24.0}}, label: '$135', value: $135, Focused
+                              Other, 0x106651650, {{290.0, -74.0}, {79.0, 13.0}}, Focused
+                                StaticText, 0x10662ba30, {{290.0, -74.0}, {29.0, 13.0}}, label: 'TIPS', value: TIPS, Focused
+                              Other, 0x10662a8b0, {{290.0, -59.0}, {79.0, 24.0}}, Focused
+                                StaticText, 0x106628250, {{290.0, -59.0}, {49.0, 24.0}}, label: '$155', value: $155, Focused
+                            Button, 0x106629040, {{34.0, -18.0}, {334.0, 54.0}}, label: 'Log shift', Focused
+                          Other, 0x106627ed0, {{16.0, 84.0}, {92.0, 22.0}}, label: '2026 so far', value: 2, Focused
+                            StaticText, 0x10662b6b0, {{16.0, 84.0}, {93.0, 22.0}}, label: '2026 so far', value: 2026 so far, Focused
+                          Other, 0x106629e70, {{246.0, 75.0}, {141.0, 44.0}}, Focused
+                            Button, 0x106629750, {{246.0, 75.0}, {141.0, 44.0}}, label: 'See the breakdown', Focused
+                          Other, 0x1066293c0, {{31.0, 134.0}, {156.0, 14.0}}, Focused
+                            StaticText, 0x10662ac30, {{31.0, 134.0}, {80.0, 13.0}}, label: 'TIPS LOGGED', value: TIPS LOGGED, Focused
+                          Other, 0x10662b320, {{31.0, 152.0}, {156.0, 31.0}}, Focused
+                            StaticText, 0x106621a90, {{31.0, 152.0}, {64.0, 31.0}}, label: '$155', value: $155, Focused
+                          Other, 0x1066268b0, {{31.0, 185.0}, {156.0, 18.0}}, Focused
+                            StaticText, 0x10665da80, {{31.0, 185.0}, {148.0, 17.0}}, label: 'qualified, before the cap', value: qualified, before ..., Focused
+                          Other, 0x106610e60, {{215.0, 134.0}, {157.0, 14.0}}, Focused
+                            StaticText, 0x106684130, {{215.0, 134.0}, {117.0, 13.0}}, label: 'OVERTIME PREMIUM', value: OVERTIME PREMIUM, Focused
+                          Other, 0x10664f0e0, {{215.0, 152.0}, {157.0, 31.0}}, Focused
+                            StaticText, 0x106656060, {{215.0, 152.0}, {33.0, 31.0}}, label: '$0', value: $0, Focused
+                          Other, 0x10664f500, {{215.0, 185.0}, {157.0, 18.0}}, Focused
+                            StaticText, 0x106684550, {{215.0, 185.0}, {119.0, 17.0}}, label: 'the half that counts', value: the half that counts, Focused
+                          Other, 0x10664e8a0, {{31.0, 243.0}, {156.0, 14.0}}, Focused
+                            StaticText, 0x1066e82e0, {{31.0, 243.0}, {138.0, 13.0}}, label: 'ESTIMATED DEDUCTION', value: ESTIMATED DEDUCTION, Focused
+                          Other, 0x10665c3e0, {{31.0, 261.0}, {156.0, 31.0}}, Focused
+                            StaticText, 0x1066e8700, {{31.0, 261.0}, {64.0, 31.0}}, label: '$155', value: $155, Focused
+                          Other, 0x1066fe0e0, {{31.0, 294.0}, {156.0, 18.0}}, Focused
+                            StaticText, 0x10665ab00, {{31.0, 294.0}, {36.0, 17.0}}, label: 'single', value: single, Focused
+                          Other, 0x1066537a0, {{215.0, 243.0}, {157.0, 28.0}}, Focused
+                            StaticText, 0x1066233a0, {{215.0, 243.0}, {117.0, 27.0}}, label: 'EST. FEDERAL TAX SAVED', value: EST. FEDERAL TAX S..., Focused
+                          Other, 0x10661d280, {{215.0, 275.0}, {157.0, 31.0}}, Focused
+                            StaticText, 0x1066d3f70, {{215.0, 275.0}, {48.0, 31.0}}, label: '$19', value: $19, Focused
+                          Other, 0x1066d4090, {{215.0, 308.0}, {157.0, 18.0}}, Focused
+                            StaticText, 0x1066d5c20, {{215.0, 308.0}, {108.0, 17.0}}, label: 'from the brackets', value: from the brackets, Focused
+                          StaticText, 0x1066d5d40, {{39.0, 351.0}, {184.0, 17.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no..., Focused
+                          Other, 0x1066d6040, {{16.0, 398.0}, {131.0, 22.0}}, label: 'Toward the caps', value: 2, Focused
+                            StaticText, 0x1066d6160, {{16.0, 398.0}, {131.0, 22.0}}, label: 'Toward the caps', value: Toward the caps, Focused
+                          StaticText, 0x1066d6460, {{33.0, 448.0}, {34.0, 20.0}}, label: 'Tips', value: Tips, Focused
+                          StaticText, 0x1066d6580, {{249.0, 450.0}, {120.0, 18.0}}, label: '$155 of $25,000', value: $155 of $25,000, Focused
+                          Other, 0x1066d6880, {{33.0, 478.0}, {336.0, 12.0}}, label: 'Tips', value: 1%. $155 of $25,000, Focused
+                          Other, 0x1066d69a0, {{33.0, 496.0}, {336.0, 18.0}}, Focused
+                            StaticText, 0x1066d6ca0, {{33.0, 496.0}, {183.0, 17.0}}, label: '1% of the cap. $24,845 to go.', value: 1% of the cap. $24..., Focused
+                          StaticText, 0x1066d6dc0, {{33.0, 533.0}, {145.0, 20.0}}, label: 'Overtime premium', value: Overtime premium, Focused
+                          StaticText, 0x1066d70c0, {{268.0, 535.0}, {101.0, 18.0}}, label: '$0 of $12,500', value: $0 of $12,500, Focused
+                          Other, 0x1066d71e0, {{33.0, 563.0}, {336.0, 12.0}}, label: 'Overtime premium', value: 0%. $0 of $12,500, Focused
+                          Other, 0x1066d74e0, {{33.0, 581.0}, {336.0, 18.0}}, Focused
+                            StaticText, 0x1066d7600, {{33.0, 581.0}, {183.0, 17.0}}, label: '0% of the cap. $12,500 to go.', value: 0% of the cap. $12..., Focused
+                          Other, 0x1066d7900, {{16.0, 646.0}, {105.0, 22.0}}, label: 'Recent shifts', value: 2, Focused
+                            StaticText, 0x1066d7a20, {{16.0, 646.0}, {105.0, 22.0}}, label: 'Recent shifts', value: Recent shifts, Focused
+                          Other, 0x1066d7e70, {{319.0, 637.0}, {68.0, 44.0}}, Focused
+                            Button, 0x1066835b0, {{319.0, 637.0}, {68.0, 44.0}}, label: 'All shifts', Focused
+                          Other, 0x1066836d0, {{16.0, 681.0}, {370.0, 69.0}}, Focused
+                            Other, 0x1066e8b20, {{17.0, 682.0}, {368.0, 67.0}}, Focused
+                              Button, 0x1066e8c40, {{17.0, 682.0}, {368.0, 67.0}}, label: 'Edit shift, Mon, Oct 19 $155.00 9 h tips kept', Focused
+                        Other, 0x1066e8f60, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x1066e9080, {{0.0, 778.0}, {259.0, 62.0}}, label: 'Home', Focused
+                          Button, 0x1066e91a0, {{0.0, 778.0}, {258.0, 62.0}}, label: 'Shifts', Focused
+                          Button, 0x1066e92c0, {{0.0, 778.0}, {271.0, 62.0}}, label: 'Deduction', Focused
+                          Button, 0x1066e93e0, {{65.0, 778.0}, {257.0, 62.0}}, label: 'Tools', Focused
+                          Button, 0x1066e9500, {{137.0, 778.0}, {265.0, 62.0}}, label: 'Settings', Focused
+                        Other, 0x1066e9620, {{0.0, -375.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x1066e9740, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                Other, 0x1066e9860, {{396.0, 288.3}, {3.0, 520.7}}
+              Other, 0x1066e9980, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1066e9aa0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1066e9bc0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                Other, 0x1066e9ce0, {{396.0, 288.3}, {3.0, 520.7}}
+              Other, 0x1066e9e00, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1066e9f20, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x1066ea040, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1066ea160, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1066ea280, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x106434e70, pid: 17028, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x106440df0, pid: 17028, label: 'ShiftLedger'
+  }

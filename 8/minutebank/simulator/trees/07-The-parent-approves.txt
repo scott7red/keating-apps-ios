@@ -1,0 +1,79 @@
+Attributes: Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x101b7f590, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b55ef0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b4f7e0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101b4f480, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101b53ce0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101b85cd0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b5b610, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101b5ba30, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101b860f0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101b80530, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank'
+                        Other, 0x101b69e00, {{0.0, 0.0}, {402.0, 774.0}}, label: 'main'
+                          Other, 0x101b687d0, {{20.0, 76.0}, {362.0, 60.0}}, label: 'section header'
+                            StaticText, 0x101b42e40, {{80.0, 93.0}, {43.0, 26.0}}, label: 'Sam', value: Sam
+                          Other, 0x101b50f40, {{200.0, 149.0}, {2.0, 1.0}}, label: 'Sam’s bank', value: 1, Focused
+                            StaticText, 0x101b500c0, {{200.0, 152.0}, {72.0, 42.0}}, label: 'Sam', value: Sam, Focused
+                            StaticText, 0x101b5b1f0, {{271.0, 152.0}, {112.0, 42.0}}, label: '’s bank', value: ’s bank, Focused
+                          StaticText, 0x101b86510, {{146.0, 200.0}, {110.0, 103.0}}, label: '10', value: 10
+                          StaticText, 0x101b50b40, {{166.0, 291.0}, {70.0, 23.0}}, label: 'minutes', value: minutes
+                          Other, 0x101b80110, {{76.0, 394.0}, {249.0, 21.0}}
+                            StaticText, 0x101b7fcf0, {{76.0, 395.0}, {250.0, 19.0}}, label: 'Your bank holds up to 180 minutes', value: Your bank holds up...
+                          Link, 0x101b7f8d0, {{47.0, 481.0}, {121.0, 25.0}}, label: 'Earn minutes'
+                            StaticText, 0x101b7de50, {{47.0, 481.0}, {121.0, 25.0}}, label: 'Earn minutes', value: Earn minutes
+                          Link, 0x101b80950, {{238.0, 481.0}, {113.0, 25.0}}, label: 'Use my time'
+                            StaticText, 0x101b647b0, {{238.0, 481.0}, {113.0, 25.0}}, label: 'Use my time', value: Use my time
+                          Other, 0x101b648d0, {{20.0, 545.0}, {362.0, 177.0}}, label: 'Today'
+                            Other, 0x101b649f0, {{20.0, 545.0}, {176.0, 78.0}}
+                              StaticText, 0x101b64b10, {{34.0, 556.0}, {42.0, 38.0}}, label: '10', value: 10
+                              StaticText, 0x101b64c30, {{55.0, 591.0}, {88.0, 18.0}}, label: 'Earned today', value: Earned today
+                            Other, 0x101b64d50, {{206.0, 545.0}, {176.0, 78.0}}
+                              StaticText, 0x101b64e70, {{220.0, 556.0}, {21.0, 38.0}}, label: '0', value: 0
+                              StaticText, 0x101b64f90, {{241.0, 591.0}, {75.0, 18.0}}, label: 'Used today', value: Used today
+                            Other, 0x101b650b0, {{20.0, 633.0}, {176.0, 89.0}}
+                              StaticText, 0x101b651d0, {{34.0, 642.0}, {21.0, 37.0}}, label: '0', value: 0
+                              StaticText, 0x101b652f0, {{55.0, 677.0}, {83.0, 33.0}}, label: 'Waiting for a parent', value: Waiting for a parent
+                            Other, 0x101b65410, {{206.0, 633.0}, {176.0, 89.0}}
+                              StaticText, 0x101b65530, {{220.0, 650.0}, {21.0, 37.0}}, label: '1', value: 1
+                              StaticText, 0x101b65650, {{241.0, 685.0}, {80.0, 17.0}}, label: 'Day in a row', value: Day in a row
+                          Other, 0x101b65770, {{20.0, 736.0}, {362.0, 134.0}}, label: 'Lately, region'
+                            Other, 0x101b65890, {{20.0, 736.0}, {362.0, 26.0}}, label: 'Lately', value: 2
+                              StaticText, 0x101b659b0, {{20.0, 737.0}, {56.0, 23.0}}, label: 'Lately', value: Lately
+                            Other, 0x101b65ad0, {{20.0, 770.0}, {362.0, 100.0}}
+                              Other, 0x101b65bf0, {{20.0, 770.0}, {362.0, 50.0}}
+                                StaticText, 0x101b65d10, {{34.0, 784.0}, {118.0, 22.0}}, label: 'Make your bed', value: Make your bed
+                                StaticText, 0x101b65e30, {{342.0, 783.0}, {26.0, 23.0}}, label: '+5', value: +5
+                              Other, 0x101b65f50, {{20.0, 820.0}, {362.0, 50.0}}
+                                StaticText, 0x101b66070, {{34.0, 835.0}, {71.0, 22.0}}, label: 'Math set', value: Math set
+                                StaticText, 0x101b66190, {{342.0, 834.0}, {26.0, 23.0}}, label: '+5', value: +5
+                        Other, 0x101b662b0, {{0.0, 774.0}, {402.0, 100.0}}, label: 'Main, navigation'
+                          Link, 0x101b663d0, {{36.0, 815.0}, {38.0, 17.0}}, label: 'Home'
+                            StaticText, 0x101b664f0, {{36.0, 815.0}, {38.0, 17.0}}, label: 'Home', value: Home
+                          Link, 0x101b66610, {{138.0, 815.0}, {29.0, 17.0}}, label: 'Earn'
+                            StaticText, 0x101b66730, {{138.0, 815.0}, {29.0, 17.0}}, label: 'Earn', value: Earn
+                          Link, 0x101b66850, {{222.0, 815.0}, {55.0, 17.0}}, label: 'Use time'
+                            StaticText, 0x101b66970, {{222.0, 815.0}, {55.0, 17.0}}, label: 'Use time', value: Use time
+                          Link, 0x101b66a90, {{323.0, 815.0}, {48.0, 17.0}}, label: 'Parents'
+                            StaticText, 0x101b66bb0, {{323.0, 815.0}, {48.0, 17.0}}, label: 'Parents', value: Parents
+                        Other, 0x101b66cd0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+                        Other, 0x101b66df0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101b66f10, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101b67030, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101b67150, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101b67270, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101b67390, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101b674b0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101b675d0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101b676f0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101b67810, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b67930, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b67a50, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x10177e080, pid: 21046, label: 'MinuteBank'
+  }

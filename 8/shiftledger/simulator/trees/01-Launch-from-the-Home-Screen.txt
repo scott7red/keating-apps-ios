@@ -1,0 +1,78 @@
+Attributes: Application, 0x1046307f0, pid: 16473, label: 'ShiftLedger'
+Element subtree:
+ →Application, 0x1046307f0, pid: 16473, label: 'ShiftLedger'
+    Window (Main), 0x10445d4b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1044667a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x104466380, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10443d5a0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10445d210, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10446ae90, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x104449f60, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10444f430, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10445cf00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x104466bc0, {{0.0, 0.0}, {402.0, 1114.0}}, label: 'ShiftLedger'
+                        Other, 0x10445e770, {{0.0, 0.0}, {402.0, 1048.0}}, label: 'main'
+                          Other, 0x10445e890, {{84.0, 108.0}, {105.0, 28.0}}
+                            StaticText, 0x10446b2b0, {{84.0, 109.0}, {105.0, 25.0}}, label: 'ShiftLedger', value: ShiftLedger
+                          Other, 0x10446b3d0, {{16.0, 170.0}, {370.0, 103.0}}, label: 'Know your tips and overtime deduction before your W-2 does', value: 1, Focused
+                            StaticText, 0x10446cc50, {{16.0, 170.0}, {291.0, 103.0}}, label: 'Know your tips and overtime deduction before your W-2 does', value: Know your tips and..., Focused
+                          Other, 0x10446cd70, {{16.0, 283.0}, {370.0, 72.0}}
+                            StaticText, 0x10446ce90, {{16.0, 284.0}, {117.0, 22.0}}, label: 'Log each shift.', value: Log each shift. 
+                            StaticText, 0x10446cfb0, {{132.0, 284.0}, {89.0, 22.0}}, label: 'ShiftLedger', value: ShiftLedger
+                            StaticText, 0x1044633d0, {{16.0, 284.0}, {365.0, 70.0}}, label: 'adds up the tips and overtime that qualify and estimates your federal deduction.', value:  adds up the tips ...
+                          Other, 0x1044634f0, {{16.0, 379.0}, {370.0, 196.0}}, label: 'The two rules in short, region'
+                            Other, 0x104463610, {{34.0, 397.0}, {334.0, 15.0}}
+                              StaticText, 0x104468560, {{34.0, 397.0}, {63.0, 14.0}}, label: 'OVERTIME', value: OVERTIME
+                            Other, 0x104468680, {{34.0, 418.0}, {334.0, 44.0}}
+                              StaticText, 0x1044687a0, {{34.0, 418.0}, {22.0, 22.0}}, label: 'At', value: At 
+                              StaticText, 0x1044688c0, {{55.0, 418.0}, {33.0, 22.0}}, label: '$20', value: $20
+                              StaticText, 0x1044689e0, {{87.0, 418.0}, {189.0, 22.0}}, label: 'an hour, overtime pays', value:  an hour, overtime...
+                              StaticText, 0x104468b00, {{275.0, 418.0}, {34.0, 22.0}}, label: '$30', value: $30
+                              StaticText, 0x104468c20, {{34.0, 418.0}, {320.0, 44.0}}, label: '. Only the extra', value: . Only the extra
+                              StaticText, 0x104468d40, {{108.0, 440.0}, {35.0, 22.0}}, label: '$10', value: $10
+                              StaticText, 0x104468e60, {{142.0, 440.0}, {64.0, 22.0}}, label: 'counts.', value:  counts.
+                            Other, 0x104468f80, {{34.0, 492.0}, {334.0, 15.0}}
+                              StaticText, 0x1044690a0, {{34.0, 492.0}, {32.0, 14.0}}, label: 'TIPS', value: TIPS
+                            Other, 0x1044691c0, {{34.0, 513.0}, {334.0, 44.0}}
+                              StaticText, 0x1044692e0, {{34.0, 513.0}, {214.0, 22.0}}, label: 'Tips you keep count, up to', value: Tips you keep coun...
+                              StaticText, 0x104469400, {{247.0, 513.0}, {73.0, 22.0}}, label: '$25,000', value: $25,000
+                              StaticText, 0x104469520, {{34.0, 513.0}, {300.0, 44.0}}, label: 'a year. Service charges do not.', value:  a year. Service c...
+                          Other, 0x104469640, {{16.0, 597.0}, {370.0, 252.0}}
+                            Other, 0x104469760, {{16.0, 597.0}, {370.0, 84.0}}
+                              Other, 0x104469880, {{66.0, 607.0}, {320.0, 20.0}}
+                                StaticText, 0x1044699a0, {{66.0, 607.0}, {165.0, 20.0}}, label: 'Log a shift after work', value: Log a shift after ...
+                              Other, 0x104469ac0, {{66.0, 629.0}, {320.0, 42.0}}
+                                StaticText, 0x104469be0, {{66.0, 630.0}, {310.0, 39.0}}, label: 'Hours, card and cash tips, tip pool and tip-out, in one short form.', value: Hours, card and ca...
+                            Other, 0x104469d00, {{16.0, 681.0}, {370.0, 84.0}}
+                              Other, 0x104469e20, {{66.0, 691.0}, {320.0, 20.0}}
+                                StaticText, 0x104469f40, {{66.0, 691.0}, {203.0, 20.0}}, label: 'Watch the deduction build', value: Watch the deductio...
+                              Other, 0x10446a060, {{66.0, 713.0}, {320.0, 42.0}}
+                                StaticText, 0x10446a180, {{66.0, 714.0}, {313.0, 39.0}}, label: 'Workweeks, overtime, the caps and the phase-out, worked out line by line.', value: Workweeks, overtim...
+                            Other, 0x10446a2a0, {{16.0, 765.0}, {370.0, 84.0}}
+                              Other, 0x10446a3c0, {{66.0, 775.0}, {320.0, 20.0}}
+                                StaticText, 0x10446a4e0, {{66.0, 775.0}, {200.0, 20.0}}, label: 'Check it against your W-2', value: Check it against y...
+                              Other, 0x10446a600, {{66.0, 797.0}, {320.0, 42.0}}
+                                StaticText, 0x10446a720, {{66.0, 798.0}, {302.0, 39.0}}, label: 'Then export a PDF or CSV for your records or your tax preparer.', value: Then export a PDF ...
+                          StaticText, 0x10446a840, {{42.0, 864.0}, {308.0, 18.0}}, label: 'No account. Everything stays on this device.', value: No account. Everyt...
+                          StaticText, 0x10446a960, {{39.0, 894.0}, {184.0, 17.0}}, label: 'Estimates only, not tax advice.', value: Estimates only, no...
+                          Button, 0x1044639e0, {{16.0, 936.0}, {370.0, 54.0}}, label: 'Set up my first job'
+                          Button, 0x104463b00, {{16.0, 1000.0}, {179.0, 48.0}}, label: 'Try the calculator'
+                          Button, 0x104463c20, {{207.0, 1000.0}, {179.0, 48.0}}, label: 'Skip setup'
+              Other, 0x104463d40, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x104463e60, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x104463f80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1044640a0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x104631e90, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x1046321e0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10462c300, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1046250b0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x104624630, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10462bf60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x104631770, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1046307f0, pid: 16473, label: 'ShiftLedger'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.shiftledger'
+  Output: {
+    Application, 0x1044664a0, pid: 16473, label: 'ShiftLedger'
+  }

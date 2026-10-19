@@ -1,0 +1,47 @@
+{
+  "rawSeconds": 345.6,
+  "finalSeconds": 309.2,
+  "finalMinutes": "5:09",
+  "size": "1206x2622",
+  "megabytes": 16.6,
+  "trimmed": {
+    "from": 36.4,
+    "to": 338.4
+  },
+  "taps": 51,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 39,
+    "of": 51,
+    "first": 1.07,
+    "last": -6.51
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome, in English and Spanish",
+    "Your business",
+    "Your starting prices",
+    "A new quote for a new client",
+    "Home details and the service",
+    "Price breakdown, then save",
+    "The quote as a PDF, through the share sheet",
+    "Accepted, then turned into an invoice",
+    "A payment",
+    "A logo for the quotes and invoices",
+    "Language",
+    "Example data",
+    "Help, Privacy policy and About",
+    "Erase all data"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done",
+    "note: tab Settings: reported at x 263, tapped at 361",
+    "note: picked Photo, October 19, 10:48 AM",
+    "note: tab Home: reported at x 129, tapped at 40",
+    "note: tab Settings: reported at x 263, tapped at 361"
+  ],
+  "steps": 15
+}

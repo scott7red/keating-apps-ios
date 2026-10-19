@@ -1,0 +1,64 @@
+Attributes: Application, 0x103a62480, pid: 16950, label: 'BRRR'
+Element subtree:
+ →Application, 0x103a62480, pid: 16950, label: 'BRRR'
+    Window (Main), 0x103aae460, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a61a10, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a426b0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103a33860, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a89af0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a58990, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a63f50, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a99230, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a41ff0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a40160, {{0.0, 0.0}, {402.0, 874.0}}, label: 'BRRR', Focused
+                        Other, 0x103a41260, {{0.0, 0.0}, {402.0, 749.0}}, label: 'main', Focused
+                          Other, 0x103a66b40, {{16.0, 0.0}, {370.0, 136.0}}, label: 'section header', Focused
+                            Other, 0x103a376b0, {{16.0, 85.0}, {240.0, 34.0}}, label: 'BRRR', value: 1, Focused
+                              Image, 0x103a4adc0, {{16.0, 85.0}, {72.0, 34.0}}, label: 'BRRR', value: 1, Focused
+                            Button, 0x103a57bb0, {{265.0, 80.0}, {122.0, 44.0}}, label: 'New deal', Focused
+                          Other, 0x103a8f940, {{16.0, 136.0}, {370.0, 213.0}}, label: 'Start from a link, region', Focused
+                            Other, 0x103a2bcb0, {{33.0, 153.0}, {336.0, 21.0}}, label: 'Paste a listing link', Focused
+                              StaticText, 0x103a7b130, {{33.0, 154.0}, {129.0, 18.0}}, label: 'Paste a listing link', value: Paste a listing link, Focused
+                            TextField, 0x103a5c770, {{34.0, 185.0}, {252.0, 46.0}}, label: 'Paste a listing link', placeholderValue: 'https://…', value: https://…, Focused
+                            Button, 0x103a8e130, {{295.0, 184.0}, {75.0, 48.0}}, label: 'Start', Focused
+                            Other, 0x103a9f2f0, {{33.0, 242.0}, {336.0, 90.0}}, Focused
+                              StaticText, 0x103a2c380, {{33.0, 243.0}, {33.0, 16.0}}, label: 'BRRR', value: BRRR, Focused
+                              StaticText, 0x103a342a0, {{33.0, 243.0}, {329.0, 88.0}}, label: 'reads the address from a Zillow, Redfin, Realtor.com, Trulia or Homes.com link and adds area data for the ZIP. It does not load the listing, so you enter the price and details. A deal link someone shared with you opens here too.', value:  reads the address..., Focused
+                          SearchField, 0x103a9cd20, {{47.0, 366.0}, {338.0, 46.0}}, label: 'Search deals', placeholderValue: 'Search address, city, ZIP, notes', value: Search address, ci..., Focused
+                            Other, 0x103a35aa0, {{53.0, 379.0}, {320.0, 20.0}}, Focused
+                              StaticText, 0x103a9de30, {{53.0, 379.0}, {227.0, 20.0}}, label: 'Search address, city, ZIP, notes', value: Search address, ci..., Focused
+                            StaticText, 0x103a7e270, {{53.0, 379.0}, {227.0, 20.0}}, label: 'Search address, city, ZIP, notes', value: Search address, ci..., Focused
+                          StaticText, 0x103a46240, {{16.0, 437.0}, {34.0, 16.0}}, label: '1 deal', value: 1 deal, Focused
+                          Other, 0x103a6a240, {{142.0, 423.0}, {245.0, 44.0}}, Focused
+                            StaticText, 0x103a2c6e0, {{142.0, 437.0}, {26.0, 16.0}}, label: 'Sort', value: Sort, Focused
+                            Other, 0x103a9b170, {{176.0, 427.0}, {209.0, 36.0}}, label: 'Sort deals', value: Recently edited, Focused
+                          Button, 0x103a5fb20, {{17.0, 480.0}, {368.0, 166.0}}, label: 'Open 100 Example St. Verdict: Thin', Focused
+                          Button, 0x103a50060, {{335.0, 486.0}, {44.0, 44.0}}, label: 'Actions for 100 Example St', Focused
+                          Other, 0x103a6a910, {{16.0, 677.0}, {370.0, 72.0}}, Focused
+                            StaticText, 0x103a69ed0, {{16.0, 693.0}, {351.0, 35.0}}, label: 'Each verdict is a rule-based screen of the numbers entered, not a recommendation.', value: Each verdict is a ..., Focused
+                            StaticText, 0x103a66470, {{154.0, 712.0}, {34.0, 16.0}}, label: 'BRRR', value: BRRR, Focused
+                            StaticText, 0x103a91840, {{16.0, 712.0}, {360.0, 35.0}}, label: 'is an educational calculator, not financial, investment, tax, legal or lending advice.', value:  is an educational..., Focused
+                        Other, 0x103a97a60, {{0.0, 777.0}, {603.0, 97.0}}, label: 'Main, navigation', Focused
+                          Button, 0x103a3bb80, {{0.0, 778.0}, {81.0, 62.0}}, label: 'Deals', Focused
+                          Button, 0x103a631d0, {{80.0, 778.0}, {81.0, 62.0}}, label: 'Analyze', Focused
+                          Button, 0x103a75460, {{160.0, 778.0}, {82.0, 62.0}}, label: 'Markets', Focused
+                          Button, 0x103a4d040, {{241.0, 778.0}, {81.0, 62.0}}, label: 'Learn', Focused
+                          Button, 0x103a75100, {{321.0, 778.0}, {81.0, 62.0}}, label: 'Settings', Focused
+              Other, 0x103a926d0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103a36fd0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a525c0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a43880, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a60c50, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103a46960, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a5ed70, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a6a5a0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103a76c20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a30470, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a50ab0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a62480, pid: 16950, label: 'BRRR'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.brrr'
+  Output: {
+    Application, 0x103957ed0, pid: 16950, label: 'BRRR'
+  }

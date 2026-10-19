@@ -1,0 +1,188 @@
+Attributes: Application, 0x101c9a110, pid: 16582, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101c9a110, pid: 16582, label: 'TidyQuote'
+    Window (Main), 0x101cc5080, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101cc56a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101cc57c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101cc3ab0, {{-402.0, -874.0}, {1206.0, 2622.0}}
+          WebView, 0x101c4b7d0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101cc58e0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101cc5a00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101cc5b20, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101cc5c40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101cc5d60, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101d50fa0, {{0.0, 0.0}, {402.0, 1428.0}}, label: 'TidyQuote'
+                        Other, 0x101d4ae50, {{0.0, 0.0}, {402.0, 1429.0}}, label: 'main', Focused
+                          Other, 0x101d7d870, {{0.0, 0.0}, {402.0, 122.0}}, label: 'section header', Focused
+                            Button, 0x101d484a0, {{6.0, 70.0}, {44.0, 44.0}}, label: 'Back', Focused
+                            Other, 0x101d6c060, {{56.0, 77.0}, {330.0, 30.0}}, label: 'Business profile', value: 1, Focused
+                              StaticText, 0x101d6e240, {{56.0, 75.0}, {192.0, 33.0}}, label: 'Business profile', value: Business profile, Focused
+                          Other, 0x101d52e90, {{34.0, 148.0}, {334.0, 26.0}}, label: 'Logo', value: 2, Focused
+                            StaticText, 0x101d65270, {{34.0, 149.0}, {43.0, 23.0}}, label: 'Logo', value: Logo, Focused
+                          Button, 0x101d45e60, {{146.0, 214.0}, {144.0, 44.0}}, label: 'Upload logo', Focused
+                          Button, 0x101d4c630, {{33.0, 293.0}, {1.0, 1.0}}, label: 'Upload logo', Focused
+                          Other, 0x101d3a020, {{34.0, 294.0}, {334.0, 18.0}}, Focused
+                            StaticText, 0x101d63690, {{34.0, 294.0}, {286.0, 17.0}}, label: 'Shown at the top of your quotes and invoices.', value: Shown at the top o..., Focused
+                          Other, 0x101d39960, {{34.0, 362.0}, {334.0, 26.0}}, label: 'Business details', value: 2, Focused
+                            StaticText, 0x101d476c0, {{34.0, 363.0}, {138.0, 23.0}}, label: 'Business details', value: Business details, Focused
+                          Other, 0x101d759c0, {{34.0, 402.0}, {334.0, 20.0}}, label: 'Business name', Focused
+                            StaticText, 0x101d3e580, {{34.0, 403.0}, {103.0, 18.0}}, label: 'Business name', value: Business name, Focused
+                          TextField, 0x101d703c0, {{34.0, 428.0}, {334.0, 48.0}}, label: 'Business name', placeholderValue: 'Fresh Nest Cleaning', value: Sparkle Test Clean..., Focused
+                          Other, 0x101d5ead0, {{34.0, 490.0}, {334.0, 20.0}}, label: 'Your name (optional)', Focused
+                            StaticText, 0x101d7e9a0, {{34.0, 491.0}, {73.0, 18.0}}, label: 'Your name', value: Your name, Focused
+                            StaticText, 0x101d3c670, {{109.0, 491.0}, {65.0, 18.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101d5ff40, {{34.0, 516.0}, {334.0, 48.0}}, label: 'Your name (optional)', Focused
+                          Other, 0x101d446e0, {{34.0, 578.0}, {161.0, 20.0}}, label: 'Phone', Focused
+                            StaticText, 0x101d68250, {{34.0, 579.0}, {43.0, 18.0}}, label: 'Phone', value: Phone, Focused
+                          TextField, 0x101d42050, {{34.0, 604.0}, {161.0, 48.0}}, label: 'Phone', Focused
+                          Other, 0x101d53c30, {{207.0, 578.0}, {161.0, 20.0}}, label: 'Email', Focused
+                            StaticText, 0x101d41250, {{207.0, 579.0}, {37.0, 18.0}}, label: 'Email', value: Email, Focused
+                          TextField, 0x101d7c310, {{207.0, 604.0}, {161.0, 48.0}}, label: 'Email', Focused
+                          Other, 0x101d3d0e0, {{34.0, 666.0}, {334.0, 20.0}}, label: 'Address (optional)', Focused
+                            StaticText, 0x101d5b450, {{34.0, 667.0}, {57.0, 18.0}}, label: 'Address', value: Address, Focused
+                            StaticText, 0x101d58410, {{94.0, 667.0}, {65.0, 18.0}}, label: '(optional)', value: (optional), Focused
+                          TextView, 0x101d3bc10, {{34.0, 692.0}, {334.0, 84.0}}, label: 'Address (optional)', Focused
+                          Other, 0x101d82700, {{34.0, 790.0}, {334.0, 20.0}}, label: 'Currency', Focused
+                            StaticText, 0x101d693a0, {{34.0, 791.0}, {64.0, 18.0}}, label: 'Currency', value: Currency, Focused
+                          Other, 0x101d580c0, {{34.0, 816.0}, {334.0, 48.0}}, label: 'Currency', value: US dollar (USD), Focused
+                          Other, 0x101d4b530, {{34.0, 870.0}, {334.0, 36.0}}, Focused
+                            StaticText, 0x101d76e50, {{34.0, 870.0}, {311.0, 35.0}}, label: 'Starting prices are in US dollars. Adjust your price book if you change this.', value: Starting prices ar..., Focused
+                          Other, 0x101d457a0, {{34.0, 956.0}, {334.0, 26.0}}, label: 'Getting paid', value: 2, Focused
+                            StaticText, 0x101d58e70, {{34.0, 957.0}, {104.0, 23.0}}, label: 'Getting paid', value: Getting paid, Focused
+                          Other, 0x101d5e750, {{34.0, 996.0}, {334.0, 20.0}}, label: 'Payment notes (optional)', Focused
+                            StaticText, 0x101d46520, {{34.0, 997.0}, {102.0, 18.0}}, label: 'Payment notes', value: Payment notes, Focused
+                            StaticText, 0x101d38bf0, {{139.0, 997.0}, {65.0, 18.0}}, label: '(optional)', value: (optional), Focused
+                          TextView, 0x101d542f0, {{34.0, 1022.0}, {334.0, 93.0}}, label: 'Payment notes (optional)', placeholderValue: 'Cash or check on the day of the visit', value: Cash or check on t..., Focused
+                            Other, 0x101d423d0, {{49.0, 1033.0}, {304.0, 24.0}}, Focused
+                              StaticText, 0x101d67110, {{49.0, 1034.0}, {265.0, 21.0}}, label: 'Cash or check on the day of the visit', value: Cash or check on t..., Focused
+                            StaticText, 0x101d49970, {{49.0, 1034.0}, {265.0, 21.0}}, label: 'Cash or check on the day of the visit', value: Cash or check on t..., Focused
+                          Other, 0x101d41cd0, {{34.0, 1120.0}, {334.0, 19.0}}, Focused
+                            StaticText, 0x101d752b0, {{34.0, 1120.0}, {154.0, 18.0}}, label: 'Printed on every invoice.', value: Printed on every i..., Focused
+                          Other, 0x101d82010, {{34.0, 1152.0}, {334.0, 21.0}}, label: 'Payment link (optional)', Focused
+                            StaticText, 0x101d3c9e0, {{34.0, 1153.0}, {88.0, 19.0}}, label: 'Payment link', value: Payment link, Focused
+                            StaticText, 0x101d5dd20, {{125.0, 1153.0}, {65.0, 19.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101d579e0, {{34.0, 1178.0}, {334.0, 49.0}}, label: 'Payment link (optional)', placeholderValue: 'https://', value: https://, Focused
+                          Other, 0x101d5f170, {{34.0, 1232.0}, {334.0, 37.0}}, Focused
+                            StaticText, 0x101d61790, {{34.0, 1232.0}, {301.0, 36.0}}, label: 'Printed on invoices as a QR code your client can scan.', value: Printed on invoice..., Focused
+                        Other, 0x101d62550, {{0.0, 778.0}, {576.0, 96.0}}, label: 'Main, navigation'
+                          Button, 0x101d6d820, {{0.0, 784.0}, {258.0, 50.0}}, label: 'Home'
+                          Button, 0x101d3cd70, {{0.0, 784.0}, {262.0, 50.0}}, label: 'Quotes'
+                          Button, 0x101d841a0, {{0.0, 784.0}, {265.0, 50.0}}, label: 'Invoices'
+                          Button, 0x101d50500, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients'
+                          Button, 0x101d53590, {{130.0, 784.0}, {266.0, 50.0}}, label: 'Settings'
+                        Other, 0x101d3efb0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101d7ed10, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101d69a80, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101d4f310, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101d71170, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101d53220, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x101d41970, {{396.0, 65.0}, {3.0, 435.3}}
+              Other, 0x101d80810, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101d3bfa0, {{65.0, 868.0}, {272.0, 3.0}}
+      Other, 0x101d5cf60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d57680, {{-402.0, -874.0}, {1206.0, 2622.0}}
+        Other, 0x101d5fbb0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101d68cb0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d58af0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d45b00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101d74500, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101d7bfc0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101d67eb0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101d5d9a0, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x101d78610, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x101d66370, {{0.0, 72.0}, {402.0, 802.0}}
+                            Image, 0x101d7faa0, {{-150.0, -78.0}, {702.0, 1102.0}}
+                            Other, 0x101d56540, {{0.0, 72.0}, {402.0, 802.0}}
+                              Other, 0x101cc5e80, {{0.0, 72.0}, {402.0, 802.0}}
+                                Other, 0x101cc5fa0, {{0.0, 72.0}, {402.0, 802.0}}
+                                  Other, 0x101ad8c80, {{0.0, 72.0}, {402.0, 802.0}}
+                                    Other, 0x101ae0a20, {{0.0, 72.0}, {402.0, 802.0}}
+                                      Other, 0x101a63150, {{0.0, 72.0}, {402.0, 802.0}}
+                                        Other, 0x101a84bc0, {{0.0, 72.0}, {402.0, 802.0}}
+                                          Other, 0x101ad7ba0, {{0.0, 72.0}, {402.0, 802.0}}
+                                            Other, 0x101a8cdc0, {{0.0, 72.0}, {402.0, 802.0}}
+                                              NavigationBar, 0x101a8cee0, {{0.0, 88.0}, {402.0, 62.0}}, identifier: 'Photos'
+                                                Button, 0x101a8d000, {{20.0, 92.0}, {36.0, 36.0}}, identifier: 'Cancel', label: 'Cancel'
+                                                SegmentedControl, 0x101cc60c0, {{106.0, 86.0}, {190.0, 48.0}}, label: 'Photos'
+                                                  Button, 0x101cc61e0, {{106.0, 86.0}, {95.0, 48.0}}, label: 'Photos', Selected
+                                                  Button, 0x101cc6300, {{201.0, 86.0}, {95.0, 48.0}}, label: 'Collections'
+                                              Other, 0x101cc6420, {{0.0, 72.0}, {402.0, 802.0}}
+                                                Other, 0x101cc6540, {{0.0, 72.0}, {402.0, 802.0}}
+                                                  Other, 0x101cc6660, {{0.0, 72.0}, {402.0, 802.0}}
+                                                    Other, 0x101cc6780, {{0.0, 72.0}, {402.0, 802.0}}, label: 'Photos'
+                                                      Other, 0x101cc68a0, {{0.0, 72.0}, {402.0, 802.0}}
+                                                        ScrollView, 0x101cc69c0, {{0.0, 72.0}, {402.0, 802.0}}, identifier: 'photosView_content_scroll_view'
+                                                          Other, 0x101cc6ae0, {{0.0, 150.0}, {402.0, 564.3}}, identifier: 'photos_layout'
+                                                            Other, 0x101cc6c00, {{0.0, 72.0}, {402.0, 802.0}}
+                                                            Other, 0x101cc6d20, {{0.0, 72.0}, {402.0, 802.0}}
+                                                            Other, 0x101cc6e40, {{0.0, 72.0}, {402.0, 802.0}}
+                                                            Other, 0x101cc6f60, {{0.0, 150.0}, {402.0, 162.0}}, identifier: 'PXGSingleViewLayout-Group'
+                                                              Other, 0x101cc7080, {{0.0, 150.0}, {402.0, 162.0}}, identifier: 'PXGSingleViewContainerView_AX', label: 'Private Access to Photos, Your photo library is shown here, but “TidyQuote” can only access the items you select.'
+                                                                Image, 0x101c8c260, {{32.0, 160.0}, {38.0, 38.0}}, identifier: 'PickerOnboardingHeaderViewIcon'
+                                                                Button, 0x101c8c380, {{350.0, 158.0}, {30.0, 22.0}}, label: 'Close'
+                                                                Button, 0x101c8c4a0, {{82.0, 267.7}, {99.7, 20.3}}, label: 'Learn More…'
+                                                                  StaticText, 0x101c8c5c0, {{82.0, 267.7}, {99.7, 20.3}}, label: 'Learn More…'
+                                                            Other, 0x101c8c6e0, {{0.0, 150.0}, {402.0, 162.0}}, label: 'Private Access to Photos, Your photo library is shown here, but “TidyQuote” can only access the items you select.'
+                                                              Image, 0x101c8c800, {{32.0, 160.0}, {38.0, 38.0}}, identifier: 'PickerOnboardingHeaderViewIcon'
+                                                              Button, 0x101c8c920, {{350.0, 158.0}, {30.0, 22.0}}, label: 'Close'
+                                                              Button, 0x101c8ca40, {{82.0, 267.7}, {99.7, 20.3}}, label: 'Learn More…'
+                                                                StaticText, 0x101c8cb60, {{82.0, 267.7}, {99.7, 20.3}}, label: 'Learn More…'
+                                                            Other, 0x101c8cc80, {{0.0, 312.0}, {402.0, 402.3}}, identifier: 'photos_sectioned_layout'
+                                                              Other, 0x101c8cda0, {{0.0, 312.0}, {402.0, 402.3}}, identifier: 'PXAssetsSectionLayout-Group'
+                                                                Other, 0x101c8cec0, {{0.0, 312.0}, {402.0, 402.3}}, identifier: 'PXZoomablePhotosLayout-Group'
+                                                                  Other, 0x101c8cfe0, {{0.0, 312.0}, {402.0, 402.3}}, identifier: 'PXGZoomLayout-Group'
+                                                                    Other, 0x101c8d100, {{0.0, 312.0}, {402.0, 402.3}}, identifier: 'PXGDecoratingLayout-Group'
+                                                                      Other, 0x101c8d220, {{0.0, 312.0}, {402.0, 402.3}}, identifier: 'PXGGridLayout-Group', label: 'Photo, October 19, 11:13 AM, Photo, March 31, 2018, 4:14 AM, Photo, August 09, 2012, 6:55 AM, Photo, August 09, 2012, 6:29 AM, Photo, August 09, 2012, 3:52 AM, Photo, March 13, 2011, 9:17 AM, Photo, October 10, 2009, 6:09 AM'
+                                                                        Image, 0x101c8d520, {{0.0, 312.0}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, October 19, 11:13 AM'
+                                                                        Image, 0x101c8d640, {{134.6, 312.0}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, March 31, 2018, 4:14 AM'
+                                                                        Image, 0x101c8d760, {{269.1, 312.0}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, August 09, 2012, 6:55 AM'
+                                                                        Image, 0x101c8d880, {{0.0, 446.7}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, August 09, 2012, 6:29 AM'
+                                                                        Image, 0x101c8d9a0, {{134.6, 446.7}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, August 09, 2012, 3:52 AM'
+                                                                        Image, 0x101c8dac0, {{269.1, 446.7}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, March 13, 2011, 9:17 AM'
+                                                                        Image, 0x101c8dbe0, {{0.0, 581.3}, {132.9, 133.0}}, identifier: 'PXGGridLayout-Info', label: 'Photo, October 10, 2009, 6:09 AM'
+                                                                  Other, 0x101c8dd00, {{0.0, 312.0}, {402.0, 0.0}}, identifier: 'PXZoomableInlineHeadersLayout-Group'
+                                                            Other, 0x101c8de20, {{369.0, 150.0}, {30.0, 638.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                                                              Other, 0x101c8df40, {{396.0, 226.7}, {3.0, 558.3}}
+                                                            Other, 0x101c8e060, {{56.0, 755.0}, {290.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                                                              Other, 0x101c8e180, {{59.0, 782.0}, {284.0, 3.0}}
+                                                          Other, 0x101c8e2a0, {{369.0, 150.0}, {30.0, 638.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                                                            Other, 0x101c8e3c0, {{396.0, 226.7}, {3.0, 558.3}}
+                                                          Other, 0x101c8e4e0, {{56.0, 755.0}, {290.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                                                            Other, 0x101c8e600, {{59.0, 782.0}, {284.0, 3.0}}
+                                              Other, 0x101c8e720, {{0.0, 72.0}, {402.0, 802.0}}
+                                                Other, 0x101c8e840, {{0.0, 72.0}, {402.0, 802.0}}
+                                                  Toolbar, 0x101c8e960, {{0.0, 788.0}, {402.0, 86.0}}, identifier: 'Toolbar', label: 'Toolbar'
+                                                    Other, 0x101c8ea80, {{28.0, 798.0}, {346.0, 48.0}}
+                                                      Other, 0x101c8eba0, {{28.0, 798.0}, {346.0, 48.0}}
+                                                        Other, 0x101cc4890, {{28.0, 798.0}, {0.0, 0.0}}
+                                                          Other, 0x101cc49b0, {{28.0, 798.0}, {48.0, 48.0}}
+                                                            Other, 0x101cc4ad0, {{28.0, 798.0}, {48.0, 48.0}}
+                                                              Other, 0x101cc4bf0, {{33.0, 803.0}, {38.0, 38.0}}
+                                                                Other, 0x101cc95c0, {{33.0, 803.0}, {38.0, 38.0}}
+                                                                  Button, 0x101cc96e0, {{33.0, 803.0}, {38.0, 38.0}}, identifier: 'Sort and Filter', label: 'Sort and Filter'
+                                                          Other, 0x101cc9800, {{326.0, 798.0}, {48.0, 48.0}}
+                                                            Other, 0x101cc9920, {{326.0, 798.0}, {48.0, 48.0}}
+                                                              Other, 0x101cc9a40, {{331.0, 803.0}, {38.0, 38.0}}
+                                                                Other, 0x101cc9b60, {{331.0, 803.0}, {38.0, 38.0}}
+                                                                  Button, 0x101cc9c80, {{331.0, 803.0}, {38.0, 38.0}}, label: 'Search'
+                                                      Other, 0x101cc9da0, {{28.0, 798.0}, {346.0, 48.0}}
+                                                        Other, 0x101cc9ec0, {{28.0, 798.0}, {0.0, 0.0}}
+                                                          Other, 0x101cc9fe0, {{115.7, 798.0}, {171.0, 48.0}}
+                                                            Other, 0x101cca100, {{115.7, 798.0}, {171.0, 48.0}}
+                                                              Other, 0x101cca220, {{120.7, 813.0}, {161.0, 18.0}}
+                                                                Other, 0x101cca340, {{120.7, 813.0}, {161.0, 18.0}}
+                                                                  Other, 0x101cca460, {{120.7, 813.0}, {161.0, 18.0}}
+                                                                    Other, 0x101cca580, {{120.7, 813.0}, {161.0, 18.0}}
+                                                                      StaticText, 0x101cca6a0, {{120.7, 813.0}, {161.0, 18.0}}, label: ' Location Is Included'
+                                        Other, 0x101cca7c0, {{0.0, 72.0}, {402.0, 802.0}}
+                                          Other, 0x101cca8e0, {{0.0, 72.0}, {402.0, 802.0}}
+    Window, 0x101ccaa00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101ccab20, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101ccac40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101c9a110, pid: 16582, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x106b63350, pid: 16582, label: 'TidyQuote'
+  }

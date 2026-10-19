@@ -1,0 +1,26 @@
+1792378460.933	setup	-[PilotDroneTour testTour]
+1792378461.648	note	StoreKit test session from Review.storekit
+1792378461.650	step	Launch from the Home Screen
+1792378464.599	screen	402 874
+1792378469.554	start	
+1792378471.627	tap	247 233
+1792378487.768	step	Welcome
+1792378487.885	show	What is inside
+1792378491.517	show	free sample
+1792378499.432	tap	201 790
+1792378501.674	step	Setup: a profile and an exam
+1792378504.924	tap	201 288
+1792378512.288	note	keyboard Done found as candidate 0: Done
+1792378512.330	tap	361 505
+1792378514.570	tap	201 728
+1792378519.773	tap	201 466
+1792378522.163	tap	201 728
+1792378526.227	tap	201 728
+1792378528.712	tap	201 728
+1792378531.215	tap	201 728
+1792378534.314	step	The free sample: practice questions
+1792378534.476	show	Free sample
+1792378537.690	tap	201 821
+1792378540.501	tap	201 527
+1792378558.163	fail	-[PilotDroneTour testTour]
+1792378558.820	end	

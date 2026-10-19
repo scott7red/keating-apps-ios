@@ -1,0 +1,61 @@
+-----
+2026-10-19 11:34:20.269 appintentsnltrainingprocessor[15230:48842] No AppShortcuts found - Skipping.
+
+CopyAndPreserveArchs /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/ReviewTour-Runner (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    /Applications/Xcode_26.6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/XCTRunner -output /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/ReviewTour-Runner -extract arm64
+
+CopyPlistFile /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Info.plist /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copyPlist --validate --convert xml1 --macro-expansion WRAPPEDPRODUCTNAME ReviewTour-Runner --macro-expansion WRAPPEDPRODUCTBUNDLEIDENTIFIER com.keatingkonsultancy.cacontractorlawbusinessexamprep.ReviewTour.xctrunner --macro-expansion TESTPRODUCTNAME ReviewTour --macro-expansion TESTPRODUCTBUNDLEIDENTIFIER com.keatingkonsultancy.cacontractorlawbusinessexamprep.ReviewTour --copy-value UIDeviceFamily /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest/Info.plist --outdir /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app -- /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/PkgInfo /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app
+
+MkDir /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    /bin/mkdir -p /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/libXCTestSwiftSupport.dylib /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/XCUnit.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/XCUIAutomation.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCUIAutomation.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/XCTestSupport.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestSupport.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/XCTestCore.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/XCTest.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/XCTAutomationSupport.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+Copy /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks/Testing.framework /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/Testing.framework /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/Frameworks
+
+RegisterExecutionPolicyException /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    builtin-RegisterExecutionPolicyException /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest
+
+Touch /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest (in target 'ReviewTour' from project 'App')
+    cd /Users/runner/work/keating-apps-ios/keating-apps-ios/native/ios/App
+    /usr/bin/touch -c /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/ReviewTour-Runner.app/PlugIns/ReviewTour.xctest
+
+** TEST BUILD SUCCEEDED **
+

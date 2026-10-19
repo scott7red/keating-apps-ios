@@ -1,0 +1,133 @@
+Attributes: Application, 0x101758550, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x101758550, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x1017bba30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10172a1f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101747f10, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1017bdc90, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101741080, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10173c420, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101750d50, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101751e50, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1017543d0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101752bb0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank', Focused
+                        Other, 0x101728570, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x1017466c0, {{22.0, 84.0}, {358.0, 784.0}}, label: 'form', Focused
+                            Other, 0x101726290, {{22.0, 84.0}, {358.0, 18.0}}, Focused
+                              StaticText, 0x101752860, {{22.0, 85.0}, {192.0, 16.0}}, label: 'STEP 2 OF 2 · YOUR CHILD', value: STEP 2 OF 2 · YOUR..., Focused
+                            Other, 0x101753270, {{22.0, 116.0}, {358.0, 37.0}}, label: 'Who is the bank for?', value: 1, Focused
+                              StaticText, 0x10173a890, {{22.0, 116.0}, {280.0, 37.0}}, label: 'Who is the bank for?', value: Who is the bank for?, Focused
+                            Other, 0x101743300, {{22.0, 167.0}, {358.0, 46.0}}, Focused
+                              StaticText, 0x101747110, {{22.0, 168.0}, {339.0, 43.0}}, label: 'You can add more children and change any of this later.', value: You can add more c..., Focused
+                            Other, 0x10174f180, {{22.0, 321.0}, {358.0, 20.0}}, label: 'Child’s name', Focused
+                              StaticText, 0x10174b5c0, {{22.0, 322.0}, {89.0, 18.0}}, label: 'Child’s name', value: Child’s name, Focused
+                            TextField, 0x10173f7f0, {{22.0, 347.0}, {358.0, 46.0}}, label: 'Child’s name', Focused
+                            Other, 0x10174a850, {{22.0, 409.0}, {358.0, 134.0}}, label: 'Avatar', Focused
+                              Other, 0x1017439c0, {{22.0, 409.0}, {358.0, 20.0}}, Focused
+                                StaticText, 0x101757090, {{22.0, 410.0}, {45.0, 18.0}}, label: 'Avatar', value: Avatar, Focused
+                              Other, 0x10174ea90, {{22.0, 429.0}, {53.0, 53.0}}, Focused
+                                Other, 0x10174ee00, {{22.0, 429.0}, {53.0, 53.0}}, label: 'Fox', value: 1, Focused
+                                StaticText, 0x1017443e0, {{24.0, 452.0}, {40.0, 32.0}}, label: 'Fox', value: Fox, Focused
+                              Other, 0x101746d90, {{83.0, 429.0}, {53.0, 53.0}}, Focused
+                                Other, 0x10173d890, {{83.0, 429.0}, {53.0, 53.0}}, label: 'Panda', value: 0, Focused
+                                StaticText, 0x101729e80, {{84.0, 452.0}, {70.0, 32.0}}, label: 'Panda', value: Panda, Focused
+                              Other, 0x10172afb0, {{144.0, 429.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101755c00, {{144.0, 429.0}, {53.0, 53.0}}, label: 'Lion', value: 0, Focused
+                                StaticText, 0x1017270b0, {{145.0, 452.0}, {48.0, 32.0}}, label: 'Lion', value: Lion, Focused
+                              Other, 0x10175a400, {{205.0, 429.0}, {53.0, 53.0}}, Focused
+                                Other, 0x10173a520, {{205.0, 429.0}, {53.0, 53.0}}, label: 'Frog', value: 0, Focused
+                                StaticText, 0x10174c440, {{206.0, 452.0}, {51.0, 32.0}}, label: 'Frog', value: Frog, Focused
+                              Other, 0x101752510, {{266.0, 429.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101751b10, {{266.0, 429.0}, {53.0, 53.0}}, label: 'Unicorn', value: 0, Focused
+                                StaticText, 0x10174ce60, {{267.0, 452.0}, {89.0, 32.0}}, label: 'Unicorn', value: Unicorn, Focused
+                              Other, 0x10174a180, {{327.0, 429.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101747b90, {{327.0, 429.0}, {53.0, 53.0}}, label: 'Octopus', value: 0, Focused
+                                StaticText, 0x101743d20, {{328.0, 452.0}, {96.0, 32.0}}, label: 'Octopus', value: Octopus, Focused
+                              Other, 0x10172eab0, {{22.0, 490.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101758190, {{22.0, 490.0}, {53.0, 53.0}}, label: 'Tiger', value: 0, Focused
+                                StaticText, 0x10173ac00, {{23.0, 513.0}, {58.0, 32.0}}, label: 'Tiger', value: Tiger, Focused
+                              Other, 0x101757ad0, {{83.0, 490.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101744e40, {{83.0, 490.0}, {53.0, 53.0}}, label: 'Koala', value: 0, Focused
+                                StaticText, 0x101759300, {{84.0, 513.0}, {62.0, 32.0}}, label: 'Koala', value: Koala, Focused
+                              Other, 0x101757400, {{144.0, 490.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101727e90, {{144.0, 490.0}, {53.0, 53.0}}, label: 'Penguin', value: 0, Focused
+                                StaticText, 0x10174c790, {{145.0, 513.0}, {91.0, 32.0}}, label: 'Penguin', value: Penguin, Focused
+                              Other, 0x10173fb90, {{205.0, 490.0}, {53.0, 53.0}}, Focused
+                                Other, 0x101747820, {{205.0, 490.0}, {53.0, 53.0}}, label: 'Dinosaur', value: 0, Focused
+                                StaticText, 0x10174e720, {{206.0, 513.0}, {101.0, 32.0}}, label: 'Dinosaur', value: Dinosaur, Focused
+                              Other, 0x101744740, {{266.0, 490.0}, {53.0, 53.0}}, Focused
+                                Other, 0x1017451e0, {{266.0, 490.0}, {53.0, 53.0}}, label: 'Rocket', value: 0, Focused
+                                StaticText, 0x10174d530, {{267.0, 513.0}, {78.0, 32.0}}, label: 'Rocket', value: Rocket, Focused
+                              Other, 0x1017493d0, {{327.0, 490.0}, {53.0, 53.0}}, Focused
+                                Other, 0x1017405f0, {{327.0, 490.0}, {53.0, 53.0}}, label: 'Star', value: 0, Focused
+                                StaticText, 0x101744080, {{328.0, 513.0}, {46.0, 32.0}}, label: 'Star', value: Star, Focused
+                            Other, 0x101751440, {{22.0, 559.0}, {358.0, 66.0}}, label: 'Color', Focused
+                              Other, 0x1017510b0, {{22.0, 559.0}, {358.0, 20.0}}, Focused
+                                StaticText, 0x101741730, {{22.0, 560.0}, {38.0, 18.0}}, label: 'Color', value: Color, Focused
+                              Other, 0x101748980, {{22.0, 579.0}, {46.0, 46.0}}, Focused
+                                Other, 0x1017521c0, {{21.0, 578.0}, {47.0, 47.0}}, label: 'Purple', value: 1, Focused
+                                StaticText, 0x101748290, {{21.0, 625.0}, {45.0, 19.0}}, label: 'Purple', value: Purple, Focused
+                              Other, 0x10172f4f0, {{78.0, 579.0}, {46.0, 46.0}}, Focused
+                                Other, 0x1017413e0, {{77.0, 578.0}, {47.0, 47.0}}, label: 'Blue', value: 0, Focused
+                                StaticText, 0x1017393c0, {{77.0, 625.0}, {31.0, 19.0}}, label: 'Blue', value: Blue, Focused
+                              Other, 0x101738cb0, {{134.0, 579.0}, {46.0, 46.0}}, Focused
+                                Other, 0x10175a090, {{133.0, 578.0}, {47.0, 47.0}}, label: 'Green', value: 0, Focused
+                                StaticText, 0x101742f90, {{133.0, 625.0}, {42.0, 19.0}}, label: 'Green', value: Green, Focused
+                              Other, 0x101749e20, {{190.0, 579.0}, {46.0, 46.0}}, Focused
+                                Other, 0x10173b680, {{189.0, 578.0}, {47.0, 47.0}}, label: 'Orange', value: 0, Focused
+                                StaticText, 0x10174af10, {{189.0, 625.0}, {51.0, 19.0}}, label: 'Orange', value: Orange, Focused
+                              Other, 0x101748d20, {{246.0, 579.0}, {46.0, 46.0}}, Focused
+                                Other, 0x101758890, {{245.0, 578.0}, {47.0, 47.0}}, label: 'Yellow', value: 0, Focused
+                                StaticText, 0x10174fc40, {{245.0, 625.0}, {44.0, 19.0}}, label: 'Yellow', value: Yellow, Focused
+                              Other, 0x101745560, {{302.0, 579.0}, {46.0, 46.0}}, Focused
+                                Other, 0x101759d20, {{301.0, 578.0}, {47.0, 47.0}}, label: 'Pink', value: 0, Focused
+                                StaticText, 0x1017288e0, {{301.0, 625.0}, {30.0, 19.0}}, label: 'Pink', value: Pink, Focused
+                            Other, 0x101725510, {{22.0, 641.0}, {358.0, 143.0}}, label: 'Age', Focused
+                              Other, 0x101727b40, {{22.0, 641.0}, {358.0, 20.0}}, Focused
+                                StaticText, 0x10173ed40, {{22.0, 642.0}, {27.0, 18.0}}, label: 'Age', value: Age, Focused
+                              Other, 0x101759670, {{22.0, 661.0}, {72.0, 44.0}}, Focused
+                                Other, 0x10174c0c0, {{22.0, 661.0}, {72.0, 44.0}}, label: '5 to 6', value: 0, Focused
+                                StaticText, 0x10173ce60, {{37.0, 673.0}, {42.0, 19.0}}, label: '5 to 6', value: 5 to 6, Focused
+                              Other, 0x10174a4d0, {{101.0, 661.0}, {40.0, 44.0}}, Focused
+                                Other, 0x101740960, {{101.0, 661.0}, {40.0, 44.0}}, label: '7', value: 0, Focused
+                                StaticText, 0x101748600, {{116.0, 673.0}, {10.0, 19.0}}, label: '7', value: 7, Focused
+                              Other, 0x101757e30, {{148.0, 661.0}, {61.0, 44.0}}, Focused
+                                StaticText, 0x101757770, {{164.0, 673.0}, {14.0, 19.0}}, label: '✓', Focused
+                                Other, 0x101739030, {{148.0, 661.0}, {61.0, 44.0}}, label: '✓ 8', value: 1, Focused
+                                StaticText, 0x10173df50, {{183.0, 673.0}, {11.0, 19.0}}, label: '8', value: 8, Focused
+                              Other, 0x101749ac0, {{216.0, 661.0}, {41.0, 44.0}}, Focused
+                                Other, 0x10173d530, {{216.0, 661.0}, {41.0, 44.0}}, label: '9', value: 0, Focused
+                                StaticText, 0x101755550, {{231.0, 673.0}, {11.0, 19.0}}, label: '9', value: 9, Focused
+                              Other, 0x101742c40, {{265.0, 661.0}, {48.0, 44.0}}, Focused
+                                Other, 0x101754e30, {{265.0, 661.0}, {48.0, 44.0}}, label: '10', value: 0, Focused
+                                StaticText, 0x10173e2c0, {{280.0, 673.0}, {18.0, 19.0}}, label: '10', value: 10, Focused
+                              Other, 0x10174e3a0, {{22.0, 713.0}, {104.0, 44.0}}, Focused
+                                Other, 0x101755f80, {{22.0, 713.0}, {104.0, 44.0}}, label: '11 or older', value: 0, Focused
+                                StaticText, 0x101750a00, {{37.0, 725.0}, {74.0, 19.0}}, label: '11 or older', value: 11 or older, Focused
+                              Other, 0x101726d30, {{22.0, 765.0}, {358.0, 19.0}}, Focused
+                                StaticText, 0x10173dc00, {{22.0, 766.0}, {123.0, 17.0}}, label: 'Math starts at level', value: Math starts at lev..., Focused
+                                StaticText, 0x101745c50, {{144.0, 766.0}, {10.0, 17.0}}, label: '3', value: 3, Focused
+                                StaticText, 0x101726610, {{153.0, 766.0}, {8.0, 17.0}}, label: ':', value: : , Focused
+                                StaticText, 0x1017385c0, {{160.0, 766.0}, {176.0, 17.0}}, label: 'add and subtract within 100', value: add and subtract w..., Focused
+                                StaticText, 0x101752f10, {{335.0, 766.0}, {5.0, 17.0}}, label: '.', value: ., Focused
+                            Button, 0x10174ff90, {{22.0, 812.0}, {358.0, 56.0}}, label: 'Open the bank', Focused
+                        Other, 0x101746a20, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+                        Other, 0x1017277b0, {{0.0, 0.0}, {402.0, 874.0}}, Focused
+              Other, 0x1017599e0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10173e660, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101a3deb0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a48820, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101a404a0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101a411e0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101a3e2e0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101a077a0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101a3e6e0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101a3e800, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101a3e920, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101758550, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+  }

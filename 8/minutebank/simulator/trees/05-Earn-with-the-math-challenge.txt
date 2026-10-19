@@ -1,0 +1,109 @@
+Attributes: Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+Element subtree:
+ →Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+    Window (Main), 0x101b7f590, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b55ef0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b4f7e0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101b4f480, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101b53ce0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101b50b40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b50f40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101b687d0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101b7de50, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101b69e00, {{0.0, 0.0}, {402.0, 874.0}}, label: 'MinuteBank', Focused
+                        Other, 0x101b80110, {{0.0, 0.0}, {402.0, 774.0}}, label: 'main', Focused
+                          Other, 0x101b500c0, {{20.0, 76.0}, {362.0, 52.0}}, label: 'section header', Focused
+                            Link, 0x101b80950, {{20.0, 78.0}, {48.0, 48.0}}, label: 'Back', Focused
+                            Other, 0x101b42e40, {{80.0, 86.0}, {128.0, 32.0}}, label: 'Your score', value: 1, Focused
+                              StaticText, 0x101b7fcf0, {{80.0, 86.0}, {129.0, 32.0}}, label: 'Your score', value: Your score, Focused
+                          StaticText, 0x101b7f8d0, {{99.0, 135.0}, {125.0, 116.0}}, label: '10', value: 10, Focused
+                          StaticText, 0x101b80530, {{233.0, 200.0}, {35.0, 34.0}}, label: 'of', value: of , Focused
+                          StaticText, 0x101b5c2f0, {{267.0, 200.0}, {36.0, 34.0}}, label: '10', value: 10, Focused
+                          Other, 0x101b5c410, {{20.0, 255.0}, {362.0, 26.0}}, label: 'Your answers', Focused
+                            Other, 0x101b5c530, {{44.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b5c650, {{43.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b5c770, {{114.0, 268.0}, {9.0, 23.0}}, label: '1', value: 1, Focused
+                              StaticText, 0x101b5c890, {{122.0, 268.0}, {9.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b5c9b0, {{130.0, 268.0}, {36.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b5cad0, {{76.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b5cbf0, {{75.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b5cd10, {{146.0, 268.0}, {11.0, 23.0}}, label: '2', value: 2, Focused
+                              StaticText, 0x101b5ce30, {{156.0, 268.0}, {9.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b5cf50, {{164.0, 268.0}, {36.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b5d070, {{108.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b5d190, {{107.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b5d2b0, {{178.0, 268.0}, {11.0, 23.0}}, label: '3', value: 3, Focused
+                              StaticText, 0x101b5d3d0, {{188.0, 268.0}, {10.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b5d4f0, {{197.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b5d610, {{140.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b5d730, {{139.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b5d850, {{210.0, 268.0}, {12.0, 23.0}}, label: '4', value: 4, Focused
+                              StaticText, 0x101b5d970, {{221.0, 268.0}, {9.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b5da90, {{229.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b5dbb0, {{172.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b5dcd0, {{171.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b5ddf0, {{242.0, 268.0}, {11.0, 23.0}}, label: '5', value: 5, Focused
+                              StaticText, 0x101b5df10, {{252.0, 268.0}, {10.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b80d70, {{261.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b80e90, {{204.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b80fb0, {{203.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b817d0, {{274.0, 268.0}, {11.0, 23.0}}, label: '6', value: 6, Focused
+                              StaticText, 0x101b818f0, {{284.0, 268.0}, {10.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b81a10, {{293.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b81b30, {{236.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b81c50, {{235.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b81d70, {{306.0, 268.0}, {11.0, 23.0}}, label: '7', value: 7, Focused
+                              StaticText, 0x101b81e90, {{316.0, 268.0}, {9.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b81fb0, {{324.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b820d0, {{268.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b821f0, {{267.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b82310, {{338.0, 268.0}, {11.0, 23.0}}, label: '8', value: 8, Focused
+                              StaticText, 0x101b82430, {{348.0, 268.0}, {10.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b82550, {{357.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b82670, {{300.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b82790, {{299.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b828b0, {{370.0, 268.0}, {11.0, 23.0}}, label: '9', value: 9, Focused
+                              StaticText, 0x101b829d0, {{380.0, 268.0}, {10.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b82af0, {{389.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                            Other, 0x101b82c10, {{332.0, 255.0}, {26.0, 26.0}}, Focused
+                              StaticText, 0x101b82d30, {{331.0, 268.0}, {72.0, 23.0}}, label: 'Question', value: Question , Focused
+                              StaticText, 0x101b82e50, {{402.0, 268.0}, {20.0, 23.0}}, label: '10', value: 10, Focused
+                              StaticText, 0x101b82f70, {{421.0, 268.0}, {9.0, 23.0}}, label: ':', value: : , Focused
+                              StaticText, 0x101b83090, {{429.0, 268.0}, {35.0, 23.0}}, label: 'right', value: right, Focused
+                          Other, 0x101b831b0, {{20.0, 297.0}, {362.0, 87.0}}, label: 'application status', Focused
+                            Other, 0x101b832d0, {{38.0, 311.0}, {326.0, 32.0}}, label: '+5 minutes', value: 2, Focused
+                              StaticText, 0x101b833f0, {{128.0, 311.0}, {146.0, 32.0}}, label: '+5 minutes', value: +5 minutes, Focused
+                            Other, 0x101b83510, {{38.0, 346.0}, {326.0, 22.0}}, Focused
+                              StaticText, 0x101b83630, {{128.0, 347.0}, {146.0, 19.0}}, label: 'Added to your bank.', value: Added to your bank., Focused
+                          Button, 0x101b83750, {{20.0, 400.0}, {362.0, 64.0}}, label: 'Do another set', Focused
+                          Link, 0x101b83870, {{145.0, 499.0}, {112.0, 26.0}}, label: 'Back home', Focused
+                            StaticText, 0x101b83990, {{145.0, 499.0}, {112.0, 26.0}}, label: 'Back home', value: Back home, Focused
+                        Other, 0x101b83ab0, {{0.0, 774.0}, {402.0, 100.0}}, label: 'Main, navigation', Focused
+                          Link, 0x101b83bd0, {{36.0, 815.0}, {37.0, 17.0}}, label: 'Home', Focused
+                            StaticText, 0x101b83cf0, {{36.0, 815.0}, {37.0, 17.0}}, label: 'Home', value: Home, Focused
+                          Link, 0x101b83e10, {{137.0, 815.0}, {30.0, 17.0}}, label: 'Earn', Focused
+                            StaticText, 0x101b83f30, {{137.0, 815.0}, {30.0, 17.0}}, label: 'Earn', value: Earn, Focused
+                          Link, 0x101b84050, {{222.0, 815.0}, {55.0, 17.0}}, label: 'Use time', Focused
+                            StaticText, 0x101b84170, {{222.0, 815.0}, {55.0, 17.0}}, label: 'Use time', value: Use time, Focused
+                          Link, 0x101b84290, {{323.0, 815.0}, {48.0, 17.0}}, label: 'Parents', Focused
+                            StaticText, 0x101b843b0, {{323.0, 815.0}, {48.0, 17.0}}, label: 'Parents', value: Parents, Focused
+                        Other, 0x101b844d0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+                        Other, 0x101b845f0, {{0.0, 0.0}, {402.0, 874.0}}, Focused
+              Other, 0x101b84710, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101b84830, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101b84950, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101b84a70, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101b84b90, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101b84cb0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101b84dd0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101b851f0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101b85310, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b85430, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b85550, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101b4ed90, pid: 21046, label: 'MinuteBank'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.minutebank'
+  Output: {
+    Application, 0x101b5b610, pid: 21046, label: 'MinuteBank'
+  }

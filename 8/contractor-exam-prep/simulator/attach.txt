@@ -1,0 +1,7 @@
+contractor-exam-prep: Contractor License Exam Coach - App Review.mp4, 4.9 MB, MD5 477dbeb626f7d0f51feffddb9f09bce4 (dry run: nothing is changed)
+App Store Connect app: Contractor License Exam Coach (6823849668)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (b1c36519-8e81-4d5b-8b56-70a07c5a8e58)
+App Review Information: df55543a-78ae-46ee-8e9e-2cce0ded0ed6
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"Contractor License Exam Coach - App Review.mp4","fileSize":4909000},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"df55543a-78ae-46ee-8e9e-2cce0ded0ed6"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 477dbeb626f7d0f51feffddb9f09bce4.

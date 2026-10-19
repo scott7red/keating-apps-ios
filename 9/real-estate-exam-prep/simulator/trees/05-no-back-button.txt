@@ -1,0 +1,601 @@
+Attributes: Application, 0x101bf7580, pid: 13013, label: 'RE Coach'
+Element subtree:
+ →Application, 0x101bf7580, pid: 13013, label: 'RE Coach'
+    Window (Main), 0x101b7efb0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b4f470, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b47680, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101be5b50, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101bed910, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101be76a0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b07420, {{0.0, 0.0}, {402.0, 875.0}}
+                  Other, 0x101bfde00, {{0.0, 0.0}, {402.0, 875.0}}
+                    Other, 0x101b7ebc0, {{0.0, -995.0}, {402.0, 875.0}}
+                      Other, 0x101b3ae10, {{0.0, -995.0}, {402.0, 21963.0}}, label: 'Real Estate License Exam Coach'
+                        Other, 0x101b3f100, {{0.0, -995.0}, {402.0, 21963.0}}, label: 'main', Focused
+                          Other, 0x101b39590, {{12.0, -921.0}, {378.0, 59.0}}, label: 'section header', Focused
+                            Button, 0x101b378a0, {{12.0, -914.0}, {44.0, 45.0}}, label: 'Back to Learn', Focused
+                            Other, 0x101b37060, {{60.0, -921.0}, {282.0, 59.0}}, label: 'California License Law & the DRE', value: 1, Focused
+                              StaticText, 0x101be8d30, {{65.0, -919.0}, {272.0, 55.0}}, label: 'California License Law & the DRE', value: California License..., Focused
+                            Button, 0x101b3d100, {{346.0, -914.0}, {44.0, 45.0}}, label: 'Text size', Focused
+                          StaticText, 0x101b8e2b0, {{20.0, -849.0}, {9.0, 18.0}}, label: '0', value: 0, Focused
+                          StaticText, 0x101b89120, {{28.0, -849.0}, {21.0, 18.0}}, label: 'of', value:  of , Focused
+                          StaticText, 0x101b7be10, {{48.0, -849.0}, {75.0, 18.0}}, label: '14 sections', value: 14 sections, Focused
+                          StaticText, 0x101bfb610, {{122.0, -849.0}, {34.0, 18.0}}, label: 'read', value:  read, Focused
+                          Other, 0x101bfb1f0, {{20.0, -823.0}, {362.0, 9.0}}, label: 'Sections read', value: 0.00, Focused
+                          Other, 0x101bfadd0, {{20.0, -797.0}, {362.0, 320.0}}, Focused
+                            StaticText, 0x101b8bad0, {{20.0, -795.0}, {361.0, 315.0}}, label: 'This topic covers the Real Estate Law as the Department of Real Estate enforces it: who needs a license and who is exempt, how brokers supervise salespersons, trust funds and advance fees, advertising, required records and notices, discipline and the Consumer Recovery Account. The exam tests exact numbers and deadlines, and it uses short fact patterns that ask which rule, exemption or ground for discipline applies.', value: This topic covers ..., Focused
+                          Other, 0x101b88950, {{20.0, -456.0}, {362.0, 1355.0}}, label: 'The Commissioner and the DRE, region', Focused
+                            Other, 0x101b88530, {{38.0, -416.0}, {326.0, 27.0}}, label: 'The Commissioner and the DRE', value: 2, Focused
+                              StaticText, 0x101b88110, {{38.0, -416.0}, {320.0, 27.0}}, label: 'The Commissioner and the DRE', value: The Commissioner a..., Focused
+                            Other, 0x101bfec80, {{38.0, -378.0}, {326.0, 1007.0}}, Focused
+                              Other, 0x101bfeda0, {{38.0, -378.0}, {326.0, 131.0}}, label: 'The Real Estate Commissioner is the chief officer of the Department of Real Estate (DRE) and is appointed by the Governor, not elected by voters or by licensees.', Focused
+                                StaticText, 0x101bfeec0, {{56.0, -375.0}, {271.0, 125.0}}, label: 'The Real Estate Commissioner is the chief officer of the Department of Real Estate (DRE) and is appointed by the Governor, not elected by voters or by licensees.', value: The Real Estate Co..., Focused
+                              Other, 0x101bfefe0, {{38.0, -238.0}, {326.0, 131.0}}, label: 'The Commissioner enforces the Real Estate Law, which governs licensees, and the Subdivided Lands Law, which governs the sale of lots in new subdivisions.', Focused
+                                StaticText, 0x101bff100, {{56.0, -235.0}, {237.0, 125.0}}, label: 'The Commissioner enforces the Real Estate Law, which governs licensees, and the Subdivided Lands Law, which governs the sale of lots in new subdivisions.', value: The Commissioner e..., Focused
+                              Other, 0x101bff220, {{38.0, -98.0}, {326.0, 131.0}}, label: 'The Commissioner's principal responsibility is to enforce these laws in the way that gives maximum protection to buyers of real property and to people dealing with licensees.', Focused
+                                StaticText, 0x101bff340, {{56.0, -95.0}, {274.0, 125.0}}, label: 'The Commissioner's principal responsibility is to enforce these laws in the way that gives maximum protection to buyers of real property and to people dealing with licensees.', value: The Commissioner's..., Focused
+                              Other, 0x101bff460, {{38.0, 42.0}, {326.0, 105.0}}, label: 'The DRE enforces the law through the license: it can investigate a complaint and then suspend, revoke or restrict the licensee's license.', Focused
+                                StaticText, 0x101bff580, {{56.0, 45.0}, {269.0, 99.0}}, label: 'The DRE enforces the law through the license: it can investigate a complaint and then suspend, revoke or restrict the licensee's license.', value: The DRE enforces t..., Focused
+                              Other, 0x101bff6a0, {{38.0, 156.0}, {326.0, 105.0}}, label: 'The DRE is not a court, so it cannot order a refund, cancel a contract or award damages; the consumer must go to court for those remedies.', Focused
+                                StaticText, 0x101bff7c0, {{56.0, 159.0}, {272.0, 99.0}}, label: 'The DRE is not a court, so it cannot order a refund, cancel a contract or award damages; the consumer must go to court for those remedies.', value: The DRE is not a c..., Focused
+                              Other, 0x101bff8e0, {{38.0, 270.0}, {326.0, 131.0}}, label: 'A restricted license is a probationary license the Commissioner may issue after a hearing, limited by term, by employing broker or by other conditions, with no automatic right of renewal.', Focused
+                                StaticText, 0x101bffa00, {{56.0, 273.0}, {301.0, 125.0}}, label: 'A restricted license is a probationary license the Commissioner may issue after a hearing, limited by term, by employing broker or by other conditions, with no automatic right of renewal.', value: A restricted licen..., Focused
+                              Other, 0x101bffb20, {{38.0, 410.0}, {326.0, 105.0}}, label: 'A contested accusation is heard under the Administrative Procedure Act before an administrative law judge of the Office of Administrative Hearings.', Focused
+                                StaticText, 0x101bffc40, {{56.0, 413.0}, {286.0, 99.0}}, label: 'A contested accusation is heard under the Administrative Procedure Act before an administrative law judge of the Office of Administrative Hearings.', value: A contested accusa..., Focused
+                              Other, 0x101bffd60, {{38.0, 524.0}, {326.0, 105.0}}, label: 'A person whose license was revoked or suspended may petition for reinstatement once at least one year has passed since the decision took effect.', Focused
+                                StaticText, 0x101bffe80, {{56.0, 527.0}, {301.0, 99.0}}, label: 'A person whose license was revoked or suspended may petition for reinstatement once at least one year has passed since the decision took effect.', value: A person whose lic..., Focused
+                            Other, 0x101bf0b60, {{38.0, 642.0}, {326.0, 191.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101bf0c80, {{76.0, 655.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101bf0da0, {{52.0, 676.0}, {298.0, 145.0}}, Focused
+                                StaticText, 0x101bf0ec0, {{52.0, 678.0}, {270.0, 140.0}}, label: 'When a consumer wants money back from a licensee, the DRE answer is the one about the license: investigate and discipline. Refunds, damages and contract cancellation belong to the courts.', value: When a consumer wa..., Focused
+                            Switch, 0x101bf0fe0, {{30.0, 842.0}, {151.0, 45.0}}, label: 'Mark as read : The Commissioner and the DRE', value: 0, Focused
+                          Other, 0x101bf1100, {{20.0, 912.0}, {362.0, 1141.0}}, label: 'Who needs a license, region', Focused
+                            Other, 0x101bf1220, {{38.0, 952.0}, {326.0, 27.0}}, label: 'Who needs a license', value: 2, Focused
+                              StaticText, 0x101bf1340, {{38.0, 952.0}, {204.0, 27.0}}, label: 'Who needs a license', value: Who needs a license, Focused
+                            Other, 0x101bf1460, {{38.0, 990.0}, {326.0, 841.0}}, Focused
+                              Other, 0x101bf1580, {{38.0, 990.0}, {326.0, 105.0}}, label: 'A license is required to negotiate the sale or lease of real property for another person and for compensation or in expectation of compensation.', Focused
+                                StaticText, 0x101bf16a0, {{56.0, 993.0}, {280.0, 99.0}}, label: 'A license is required to negotiate the sale or lease of real property for another person and for compensation or in expectation of compensation.', value: A license is requi..., Focused
+                              Other, 0x101bf17c0, {{38.0, 1104.0}, {326.0, 105.0}}, label: 'Both elements must be present: an owner handling his or her own property is not acting for another, and a person who expects no pay is outside the definition.', Focused
+                                StaticText, 0x101bf18e0, {{56.0, 1107.0}, {307.0, 99.0}}, label: 'Both elements must be present: an owner handling his or her own property is not acting for another, and a person who expects no pay is outside the definition.', value: Both elements must..., Focused
+                              Other, 0x101bf1a00, {{38.0, 1218.0}, {326.0, 105.0}}, label: 'Leasing or renting property for others, soliciting tenants and collecting rents for others for compensation are broker activities that require a license.', Focused
+                                StaticText, 0x101bf1b20, {{56.0, 1221.0}, {283.0, 99.0}}, label: 'Leasing or renting property for others, soliciting tenants and collecting rents for others for compensation are broker activities that require a license.', value: Leasing or renting..., Focused
+                              Other, 0x101bf1c40, {{38.0, 1332.0}, {326.0, 131.0}}, label: 'Soliciting borrowers or lenders, negotiating loans, and collecting payments for note owners on loans secured by real property are also licensed acts.', Focused
+                                StaticText, 0x101bf1d60, {{56.0, 1335.0}, {260.0, 125.0}}, label: 'Soliciting borrowers or lenders, negotiating loans, and collecting payments for note owners on loans secured by real property are also licensed acts.', value: Soliciting borrowe..., Focused
+                              Other, 0x101bf1e80, {{38.0, 1472.0}, {326.0, 105.0}}, label: 'Helping others file applications to buy or lease state or federal government land, for a fee, falls within the broker definition and needs a license.', Focused
+                                StaticText, 0x101bf1fa0, {{56.0, 1475.0}, {280.0, 99.0}}, label: 'Helping others file applications to buy or lease state or federal government land, for a fee, falls within the broker definition and needs a license.', value: Helping others fil..., Focused
+                              Other, 0x101bf20c0, {{38.0, 1586.0}, {326.0, 105.0}}, label: 'A broker licensed only in another state needs a California license to negotiate a California sale for another and for compensation.', Focused
+                                StaticText, 0x101bf21e0, {{56.0, 1589.0}, {244.0, 99.0}}, label: 'A broker licensed only in another state needs a California license to negotiate a California sale for another and for compensation.', value: A broker licensed ..., Focused
+                              Other, 0x101bf2300, {{38.0, 1700.0}, {326.0, 131.0}}, label: 'An unlicensed neighbor paid a commission, or a brokerage's unlicensed assistant paid per sale, is negotiating for another for compensation and needs a license.', Focused
+                                StaticText, 0x101bf2420, {{56.0, 1703.0}, {305.0, 125.0}}, label: 'An unlicensed neighbor paid a commission, or a brokerage's unlicensed assistant paid per sale, is negotiating for another for compensation and needs a license.', value: An unlicensed neig..., Focused
+                            Other, 0x101bf2540, {{38.0, 1844.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101b6bb30, {{76.0, 1857.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101b6bc50, {{52.0, 1878.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101b6bd70, {{52.0, 1880.0}, {274.0, 92.0}}, label: 'Test every license question with two words: 'another' and 'compensation.' If either is missing, or a listed exemption fits, no license is needed.', value: Test every license..., Focused
+                            Switch, 0x101b6be90, {{30.0, 1996.0}, {151.0, 45.0}}, label: 'Mark as read : Who needs a license', value: 0, Focused
+                          Other, 0x101b6bfb0, {{20.0, 2066.0}, {362.0, 1419.0}}, label: 'Exemptions from licensing, region', Focused
+                            Other, 0x101b6c0d0, {{38.0, 2106.0}, {326.0, 27.0}}, label: 'Exemptions from licensing', value: 2, Focused
+                              StaticText, 0x101b6c1f0, {{38.0, 2106.0}, {268.0, 27.0}}, label: 'Exemptions from licensing', value: Exemptions from li..., Focused
+                            Other, 0x101b6c310, {{38.0, 2144.0}, {326.0, 1095.0}}, Focused
+                              Other, 0x101b6c430, {{38.0, 2144.0}, {326.0, 105.0}}, label: 'A person holding a duly executed power of attorney from the owner is exempt and may negotiate and sign the sale for the owner without a license.', Focused
+                                StaticText, 0x101b6c550, {{56.0, 2147.0}, {293.0, 99.0}}, label: 'A person holding a duly executed power of attorney from the owner is exempt and may negotiate and sign the sale for the owner without a license.', value: A person holding a..., Focused
+                              Other, 0x101b6c670, {{38.0, 2258.0}, {326.0, 105.0}}, label: 'An attorney at law rendering legal services to a client is exempt; the exemption does not let an attorney run a separate brokerage business.', Focused
+                                StaticText, 0x101b6c790, {{56.0, 2261.0}, {261.0, 99.0}}, label: 'An attorney at law rendering legal services to a client is exempt; the exemption does not let an attorney run a separate brokerage business.', value: An attorney at law..., Focused
+                              Other, 0x101b6c8b0, {{38.0, 2372.0}, {326.0, 79.0}}, label: 'A receiver, a trustee in bankruptcy or anyone else acting under a court order is exempt, even when paid for the work.', Focused
+                                StaticText, 0x101b6c9d0, {{56.0, 2375.0}, {294.0, 73.0}}, label: 'A receiver, a trustee in bankruptcy or anyone else acting under a court order is exempt, even when paid for the work.', value: A receiver, a trus..., Focused
+                              Other, 0x101b6caf0, {{38.0, 2460.0}, {326.0, 105.0}}, label: 'A trustee selling under the power of sale in a deed of trust is exempt, so a trustee's sale needs no real estate license.', Focused
+                                StaticText, 0x101b6cc10, {{56.0, 2463.0}, {260.0, 99.0}}, label: 'A trustee selling under the power of sale in a deed of trust is exempt, so a trustee's sale needs no real estate license.', value: A trustee selling ..., Focused
+                              Other, 0x101b6cd30, {{38.0, 2574.0}, {326.0, 131.0}}, label: 'A regular corporate officer or general partner dealing with the entity's own property is exempt only if not acting in expectation of special compensation, such as a per-lease bonus.', Focused
+                                StaticText, 0x101b6ce50, {{56.0, 2577.0}, {285.0, 125.0}}, label: 'A regular corporate officer or general partner dealing with the entity's own property is exempt only if not acting in expectation of special compensation, such as a per-lease bonus.', value: A regular corporat..., Focused
+                              Other, 0x101b6cf70, {{38.0, 2714.0}, {326.0, 105.0}}, label: 'The resident manager of an apartment building or complex, and that manager's employees, may lease units and collect rents without a license.', Focused
+                                StaticText, 0x101b6d090, {{56.0, 2717.0}, {299.0, 99.0}}, label: 'The resident manager of an apartment building or complex, and that manager's employees, may lease units and collect rents without a license.', value: The resident manag..., Focused
+                              Other, 0x101b6d1b0, {{38.0, 2828.0}, {326.0, 105.0}}, label: 'No exemption applies to a person who uses it to evade the license law, such as collecting owners' powers of attorney to run a sales business.', Focused
+                                StaticText, 0x101b6d2d0, {{56.0, 2831.0}, {269.0, 99.0}}, label: 'No exemption applies to a person who uses it to evade the license law, such as collecting owners' powers of attorney to run a sales business.', value: No exemption appli..., Focused
+                              Other, 0x101b6d3f0, {{38.0, 2942.0}, {326.0, 157.0}}, label: 'Banks, savings associations, credit unions, insurers and licensed finance and residential mortgage lenders acting under their own licenses are exempt from the loan provisions of the broker definition.', Focused
+                                StaticText, 0x101b6d510, {{56.0, 2945.0}, {274.0, 151.0}}, label: 'Banks, savings associations, credit unions, insurers and licensed finance and residential mortgage lenders acting under their own licenses are exempt from the loan provisions of the broker definition.', value: Banks, savings ass..., Focused
+                              Other, 0x101b6d630, {{38.0, 3108.0}, {326.0, 131.0}}, label: 'A person who collects payments on 10 or fewer loans secured by real property, or on loans totaling $40,000 or less, in a calendar year needs no license for that collection work.', Focused
+                                StaticText, 0x101b6d750, {{56.0, 3111.0}, {282.0, 125.0}}, label: 'A person who collects payments on 10 or fewer loans secured by real property, or on loans totaling $40,000 or less, in a calendar year needs no license for that collection work.', value: A person who colle..., Focused
+                            Other, 0x101b6d870, {{38.0, 3252.0}, {326.0, 167.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101b6d990, {{76.0, 3265.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101b6dab0, {{52.0, 3286.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x101b6dbd0, {{52.0, 3288.0}, {297.0, 116.0}}, label: 'A per-transaction bonus turns a corporate officer's exempt work into a licensed act. A recorded power of attorney does not rescue someone using it to evade licensing.', value: A per-transaction ..., Focused
+                            Switch, 0x101b6dcf0, {{30.0, 3428.0}, {151.0, 45.0}}, label: 'Mark as read : Exemptions from licensing', value: 0, Focused
+                          Other, 0x101b6de10, {{20.0, 3498.0}, {362.0, 1166.0}}, label: 'Unlicensed activity, compensation and assistants, region', Focused
+                            Other, 0x101b6df30, {{38.0, 3538.0}, {326.0, 52.0}}, label: 'Unlicensed activity, compensation and assistants', value: 2, Focused
+                              StaticText, 0x101b6e050, {{38.0, 3538.0}, {290.0, 52.0}}, label: 'Unlicensed activity, compensation and assistants', value: Unlicensed activit..., Focused
+                            Other, 0x101b6e170, {{38.0, 3601.0}, {326.0, 841.0}}, Focused
+                              Other, 0x101b6e290, {{38.0, 3601.0}, {326.0, 105.0}}, label: 'To sue for a commission, a person must allege and prove that he or she was licensed at the time the cause of action arose; a later license does not help.', Focused
+                                StaticText, 0x101b6e3b0, {{56.0, 3604.0}, {294.0, 99.0}}, label: 'To sue for a commission, a person must allege and prove that he or she was licensed at the time the cause of action arose; a later license does not help.', value: To sue for a commi..., Focused
+                              Other, 0x101b6e4d0, {{38.0, 3715.0}, {326.0, 105.0}}, label: 'It is unlawful for a broker to pay anyone who is not licensed for performing licensed acts, and the broker's license may be suspended or revoked for it.', Focused
+                                StaticText, 0x101b6e5f0, {{56.0, 3718.0}, {290.0, 99.0}}, label: 'It is unlawful for a broker to pay anyone who is not licensed for performing licensed acts, and the broker's license may be suspended or revoked for it.', value: It is unlawful for..., Focused
+                              Other, 0x101b6e710, {{38.0, 3829.0}, {326.0, 105.0}}, label: 'A licensed broker may pay a commission to a broker of another state, as long as that broker performs no licensed acts in California.', Focused
+                                StaticText, 0x101b6e830, {{56.0, 3832.0}, {302.0, 99.0}}, label: 'A licensed broker may pay a commission to a broker of another state, as long as that broker performs no licensed acts in California.', value: A licensed broker ..., Focused
+                              Other, 0x101b6e950, {{38.0, 3943.0}, {326.0, 105.0}}, label: 'Acting or advertising as a broker or salesperson without a license is punishable by a fine of up to $20,000, up to six months in county jail, or both.', Focused
+                                StaticText, 0x101b6ea70, {{56.0, 3946.0}, {287.0, 99.0}}, label: 'Acting or advertising as a broker or salesperson without a license is punishable by a fine of up to $20,000, up to six months in county jail, or both.', value: Acting or advertis..., Focused
+                              Other, 0x101b6eb90, {{38.0, 4057.0}, {326.0, 131.0}}, label: 'A corporation that acts as a broker without a license faces a fine of up to $60,000, and district attorneys prosecute these violations in their counties.', Focused
+                                StaticText, 0x101b6ecb0, {{56.0, 4060.0}, {257.0, 125.0}}, label: 'A corporation that acts as a broker without a license faces a fine of up to $60,000, and district attorneys prosecute these violations in their counties.', value: A corporation that..., Focused
+                              Other, 0x101b6edd0, {{38.0, 4197.0}, {326.0, 131.0}}, label: 'At an open house, an unlicensed assistant may place signs, greet visitors, hand out licensee-approved materials and arrange appointments with the licensee.', Focused
+                                StaticText, 0x101b6eef0, {{56.0, 4200.0}, {271.0, 125.0}}, label: 'At an open house, an unlicensed assistant may place signs, greet visitors, hand out licensee-approved materials and arrange appointments with the licensee.', value: At an open house, ..., Focused
+                              Other, 0x101b6f010, {{38.0, 4337.0}, {326.0, 105.0}}, label: 'Only a licensee may show the property, discuss terms of a possible sale, or discuss features such as location, neighborhood or schools.', Focused
+                                StaticText, 0x101b6f130, {{56.0, 4340.0}, {274.0, 99.0}}, label: 'Only a licensee may show the property, discuss terms of a possible sale, or discuss features such as location, neighborhood or schools.', value: Only a licensee ma..., Focused
+                            Other, 0x101b6f250, {{38.0, 4455.0}, {326.0, 143.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101b6f370, {{76.0, 4468.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101b6f490, {{52.0, 4489.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101b6f5b0, {{52.0, 4491.0}, {289.0, 92.0}}, label: 'A broker's supervision does not make paying an unlicensed person for showing homes and obtaining offers lawful. The broker who pays is exposed to discipline.', value: A broker's supervi..., Focused
+                            Switch, 0x101b6f6d0, {{30.0, 4607.0}, {151.0, 45.0}}, label: 'Mark as read : Unlicensed activity, compensation and assistants', value: 0, Focused
+                          Other, 0x101b6f7f0, {{20.0, 4677.0}, {362.0, 1164.0}}, label: 'Salespersons, brokers and supervision, region', Focused
+                            Other, 0x101b6f910, {{38.0, 4717.0}, {326.0, 52.0}}, label: 'Salespersons, brokers and supervision', value: 2, Focused
+                              StaticText, 0x101b6fa30, {{38.0, 4717.0}, {218.0, 52.0}}, label: 'Salespersons, brokers and supervision', value: Salespersons, brok..., Focused
+                            Other, 0x101b6fb50, {{38.0, 4780.0}, {326.0, 815.0}}, Focused
+                              Other, 0x101b6fc70, {{38.0, 4780.0}, {326.0, 105.0}}, label: 'The responsible broker is the broker who must supervise the salespersons and broker associates working under that broker's license.', Focused
+                                StaticText, 0x101b6fd90, {{56.0, 4783.0}, {279.0, 99.0}}, label: 'The responsible broker is the broker who must supervise the salespersons and broker associates working under that broker's license.', value: The responsible br..., Focused
+                              Other, 0x101b6feb0, {{38.0, 4894.0}, {326.0, 79.0}}, label: 'A salesperson may accept compensation for licensed acts only from the broker under whom he or she is licensed.', Focused
+                                StaticText, 0x101b6ffd0, {{56.0, 4897.0}, {305.0, 73.0}}, label: 'A salesperson may accept compensation for licensed acts only from the broker under whom he or she is licensed.', value: A salesperson may ..., Focused
+                              Other, 0x101b700f0, {{38.0, 4982.0}, {326.0, 79.0}}, label: 'Sellers, buyers and cooperating brokers pay the salesperson's broker, and that broker then pays the salesperson.', Focused
+                                StaticText, 0x101b70210, {{56.0, 4985.0}, {295.0, 73.0}}, label: 'Sellers, buyers and cooperating brokers pay the salesperson's broker, and that broker then pays the salesperson.', value: Sellers, buyers an..., Focused
+                              Other, 0x101b70330, {{38.0, 5070.0}, {326.0, 131.0}}, label: 'The Commissioner's Regulations require a written agreement between a broker and each salesperson, dated and signed by the parties, covering supervision, duties and compensation.', Focused
+                                StaticText, 0x101b70450, {{56.0, 5073.0}, {286.0, 125.0}}, label: 'The Commissioner's Regulations require a written agreement between a broker and each salesperson, dated and signed by the parties, covering supervision, duties and compensation.', value: The Commissioner's..., Focused
+                              Other, 0x101b70570, {{38.0, 5210.0}, {326.0, 105.0}}, label: 'The broker and salesperson keep that agreement; it is not filed with the DRE, approved by the Commissioner or recorded.', Focused
+                                StaticText, 0x101b70690, {{56.0, 5213.0}, {277.0, 99.0}}, label: 'The broker and salesperson keep that agreement; it is not filed with the DRE, approved by the Commissioner or recorded.', value: The broker and sal..., Focused
+                              Other, 0x101b707b0, {{38.0, 5324.0}, {326.0, 131.0}}, label: 'Calling a salesperson an independent contractor matters for things like tax withholding, but the broker must still supervise the salesperson's licensed acts.', Focused
+                                StaticText, 0x101b708d0, {{56.0, 5327.0}, {278.0, 125.0}}, label: 'Calling a salesperson an independent contractor matters for things like tax withholding, but the broker must still supervise the salesperson's licensed acts.', value: Calling a salesper..., Focused
+                              Other, 0x101b709f0, {{38.0, 5464.0}, {326.0, 131.0}}, label: 'Reasonable supervision includes policies and systems for reviewing transactions, documents, trust fund handling and advertising; failing to supervise is itself a ground for discipline.', Focused
+                                StaticText, 0x101b70b10, {{56.0, 5467.0}, {303.0, 125.0}}, label: 'Reasonable supervision includes policies and systems for reviewing transactions, documents, trust fund handling and advertising; failing to supervise is itself a ground for discipline.', value: Reasonable supervi..., Focused
+                            Other, 0x101b70c30, {{38.0, 5608.0}, {326.0, 167.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101b70d50, {{76.0, 5621.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101b70e70, {{52.0, 5642.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x101b70f90, {{52.0, 5644.0}, {286.0, 116.0}}, label: 'A broker who took no money and did not know of a salesperson's misuse of funds can still be disciplined. The ground is failure to supervise, not conversion or secret profit.', value: A broker who took ..., Focused
+                            Switch, 0x101b710b0, {{30.0, 5784.0}, {151.0, 45.0}}, label: 'Mark as read : Salespersons, brokers and supervision', value: 0, Focused
+                          Other, 0x101b711d0, {{20.0, 5854.0}, {362.0, 1838.0}}, label: 'Qualifications, license term and renewal, region', Focused
+                            Other, 0x101b712f0, {{38.0, 5894.0}, {326.0, 52.0}}, label: 'Qualifications, license term and renewal', value: 2, Focused
+                              StaticText, 0x101b71410, {{38.0, 5894.0}, {221.0, 52.0}}, label: 'Qualifications, license term and renewal', value: Qualifications, li..., Focused
+                            Other, 0x101b71530, {{38.0, 5957.0}, {326.0, 1489.0}}, Focused
+                              Other, 0x101b71650, {{38.0, 5957.0}, {326.0, 131.0}}, label: 'A broker applicant needs at least two years as a licensed, actively working salesperson within the five years before applying, or equivalent experience approved on petition.', Focused
+                                StaticText, 0x101b71770, {{56.0, 5960.0}, {265.0, 125.0}}, label: 'A broker applicant needs at least two years as a licensed, actively working salesperson within the five years before applying, or equivalent experience approved on petition.', value: A broker applicant..., Focused
+                              Other, 0x101b71890, {{38.0, 6097.0}, {326.0, 105.0}}, label: 'On petition, the Commissioner may treat a four-year degree with a major or minor in real estate as equal to the two years of experience, even if earned long ago.', Focused
+                                StaticText, 0x101b719b0, {{56.0, 6100.0}, {300.0, 99.0}}, label: 'On petition, the Commissioner may treat a four-year degree with a major or minor in real estate as equal to the two years of experience, even if earned long ago.', value: On petition, the C..., Focused
+                              Other, 0x101b71ad0, {{38.0, 6211.0}, {326.0, 131.0}}, label: 'Broker applicants complete real estate practice, legal aspects of real estate, appraisal, finance, and economics or accounting, plus three electives such as escrows or property management.', Focused
+                                StaticText, 0x101b71bf0, {{56.0, 6214.0}, {285.0, 125.0}}, label: 'Broker applicants complete real estate practice, legal aspects of real estate, appraisal, finance, and economics or accounting, plus three electives such as escrows or property management.', value: Broker applicants ..., Focused
+                              Other, 0x101b71d10, {{38.0, 6351.0}, {326.0, 79.0}}, label: 'The Commissioner waives the broker course requirements for a member of the State Bar of California.', Focused
+                                StaticText, 0x101b71e30, {{56.0, 6354.0}, {281.0, 73.0}}, label: 'The Commissioner waives the broker course requirements for a member of the State Bar of California.', value: The Commissioner w..., Focused
+                              Other, 0x101b71f50, {{38.0, 6439.0}, {326.0, 79.0}}, label: 'Salesperson and broker licenses are both issued for four-year terms and are renewed for four years at a time.', Focused
+                                StaticText, 0x101b72070, {{56.0, 6442.0}, {268.0, 73.0}}, label: 'Salesperson and broker licenses are both issued for four-year terms and are renewed for four years at a time.', value: Salesperson and br..., Focused
+                              Other, 0x101b81270, {{38.0, 6527.0}, {326.0, 105.0}}, label: 'Renewal requires 45 clock hours of approved continuing education completed during the four years before the renewal.', Focused
+                                StaticText, 0x101b81390, {{56.0, 6530.0}, {250.0, 99.0}}, label: 'Renewal requires 45 clock hours of approved continuing education completed during the four years before the renewal.', value: Renewal requires 4..., Focused
+                              Other, 0x101b814b0, {{38.0, 6641.0}, {326.0, 79.0}}, label: 'A licensee who misses the expiration date may still renew within two years after it by filing a late renewal.', Focused
+                                StaticText, 0x101b815d0, {{56.0, 6644.0}, {273.0, 73.0}}, label: 'A licensee who misses the expiration date may still renew within two years after it by filing a late renewal.', value: A licensee who mis..., Focused
+                              Other, 0x101b816f0, {{38.0, 6729.0}, {326.0, 105.0}}, label: 'Until the license is actually renewed, the person is unlicensed and may not perform any act that requires a license, even while the late renewal is pending.', Focused
+                                StaticText, 0x101b81810, {{56.0, 6732.0}, {291.0, 99.0}}, label: 'Until the license is actually renewed, the person is unlicensed and may not perform any act that requires a license, even while the late renewal is pending.', value: Until the license ..., Focused
+                              Other, 0x101b81930, {{38.0, 6843.0}, {326.0, 157.0}}, label: 'Salesperson applicants complete Real Estate Principles, Real Estate Practice and one elective; since 2024 the Practice course must include implicit bias training and a fair housing role-play component.', Focused
+                                StaticText, 0x101b81a50, {{56.0, 6846.0}, {252.0, 151.0}}, label: 'Salesperson applicants complete Real Estate Principles, Real Estate Practice and one elective; since 2024 the Practice course must include implicit bias training and a fair housing role-play component.', value: Salesperson applic..., Focused
+                              Other, 0x101b81b70, {{38.0, 7009.0}, {326.0, 157.0}}, label: 'An applicant must be at least 18; California residency is not required, and California has no reciprocity, so out-of-state licensees must meet every California requirement and pass the exam.', Focused
+                                StaticText, 0x101b81c90, {{56.0, 7012.0}, {263.0, 151.0}}, label: 'An applicant must be at least 18; California residency is not required, and California has no reciprocity, so out-of-state licensees must meet every California requirement and pass the exam.', value: An applicant must ..., Focused
+                              Other, 0x101b81db0, {{38.0, 7175.0}, {326.0, 105.0}}, label: 'A late renewal within two years costs one and one-half times the regular fee; after two years the person must requalify by passing the examination again.', Focused
+                                StaticText, 0x101b81ed0, {{56.0, 7178.0}, {305.0, 99.0}}, label: 'A late renewal within two years costs one and one-half times the regular fee; after two years the person must requalify by passing the examination again.', value: A late renewal wit..., Focused
+                              Other, 0x101b81ff0, {{38.0, 7289.0}, {326.0, 157.0}}, label: 'Of the 45 CE hours, at least 18 must be consumer protection; brokers' first renewal adds management and supervision, and later renewals may use one 9-hour survey course for the mandated subjects.', Focused
+                                StaticText, 0x101b82110, {{56.0, 7292.0}, {268.0, 151.0}}, label: 'Of the 45 CE hours, at least 18 must be consumer protection; brokers' first renewal adds management and supervision, and later renewals may use one 9-hour survey course for the mandated subjects.', value: Of the 45 CE hours..., Focused
+                            Other, 0x101b82230, {{38.0, 7459.0}, {326.0, 167.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101b82350, {{76.0, 7472.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101b82470, {{52.0, 7493.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x101b82590, {{52.0, 7495.0}, {291.0, 116.0}}, label: 'During the two-year late renewal period the licensee has not lost the license and does not retake the examination, but may do no licensed work until the renewal is complete.', value: During the two-yea..., Focused
+                            Switch, 0x101b826b0, {{30.0, 7635.0}, {151.0, 45.0}}, label: 'Mark as read : Qualifications, license term and renewal', value: 0, Focused
+                          Other, 0x101b827d0, {{20.0, 7705.0}, {362.0, 756.0}}, label: 'Special licenses and endorsements, region', Focused
+                            Other, 0x101b828f0, {{38.0, 7745.0}, {326.0, 52.0}}, label: 'Special licenses and endorsements', value: 2, Focused
+                              StaticText, 0x101b82a10, {{38.0, 7745.0}, {187.0, 52.0}}, label: 'Special licenses and endorsements', value: Special licenses a..., Focused
+                            Other, 0x101b82b30, {{38.0, 7808.0}, {326.0, 587.0}}, Focused
+                              Other, 0x101b82c50, {{38.0, 7808.0}, {326.0, 105.0}}, label: 'A prepaid rental listing service (PRLS) supplies prospective tenants with lists of rentals for an advance fee, without negotiating the rentals.', Focused
+                                StaticText, 0x101b82d70, {{56.0, 7811.0}, {280.0, 99.0}}, label: 'A prepaid rental listing service (PRLS) supplies prospective tenants with lists of rentals for an advance fee, without negotiating the rentals.', value: A prepaid rental l..., Focused
+                              Other, 0x101b82e90, {{38.0, 7922.0}, {326.0, 105.0}}, label: 'A PRLS may be run only under a PRLS license or a real estate broker license; a broker does not need the separate PRLS license.', Focused
+                                StaticText, 0x101b82fb0, {{56.0, 7925.0}, {244.0, 99.0}}, label: 'A PRLS may be run only under a PRLS license or a real estate broker license; a broker does not need the separate PRLS license.', value: A PRLS may be run ..., Focused
+                              Other, 0x101b830d0, {{38.0, 8036.0}, {326.0, 157.0}}, label: 'A licensee who takes residential mortgage loan applications or negotiates loan terms needs a mortgage loan originator (MLO) endorsement, obtained through the Nationwide Multistate Licensing System.', Focused
+                                StaticText, 0x101b831f0, {{56.0, 8039.0}, {301.0, 151.0}}, label: 'A licensee who takes residential mortgage loan applications or negotiates loan terms needs a mortgage loan originator (MLO) endorsement, obtained through the Nationwide Multistate Licensing System.', value: A licensee who tak..., Focused
+                              Other, 0x101b83310, {{38.0, 8202.0}, {326.0, 79.0}}, label: 'Unlike the four-year license, the MLO endorsement expires every December 31 and must be renewed annually.', Focused
+                                StaticText, 0x101b83430, {{56.0, 8205.0}, {283.0, 73.0}}, label: 'Unlike the four-year license, the MLO endorsement expires every December 31 and must be renewed annually.', value: Unlike the four-ye..., Focused
+                              Other, 0x101b83550, {{38.0, 8290.0}, {326.0, 105.0}}, label: 'An otherwise eligible applicant on the child support noncompliance list must be issued a temporary license valid for 150 days.', Focused
+                                StaticText, 0x101b83670, {{56.0, 8293.0}, {250.0, 99.0}}, label: 'An otherwise eligible applicant on the child support noncompliance list must be issued a temporary license valid for 150 days.', value: An otherwise eligi..., Focused
+                            Switch, 0x101b83790, {{30.0, 8404.0}, {151.0, 45.0}}, label: 'Mark as read : Special licenses and endorsements', value: 0, Focused
+                          Other, 0x101b838b0, {{20.0, 8474.0}, {362.0, 1374.0}}, label: 'Receiving and depositing trust funds, region', Focused
+                            Other, 0x101b839d0, {{38.0, 8514.0}, {326.0, 52.0}}, label: 'Receiving and depositing trust funds', value: 2, Focused
+                              StaticText, 0x10637b170, {{38.0, 8514.0}, {221.0, 52.0}}, label: 'Receiving and depositing trust funds', value: Receiving and depo..., Focused
+                            Other, 0x101c79520, {{38.0, 8577.0}, {326.0, 893.0}}, Focused
+                              Other, 0x101c6c020, {{38.0, 8577.0}, {326.0, 131.0}}, label: 'Trust funds are money or other things of value a licensee receives on behalf of someone else in a licensed transaction, such as a buyer's deposit or collected rents.', Focused
+                                StaticText, 0x101c72a60, {{56.0, 8580.0}, {254.0, 125.0}}, label: 'Trust funds are money or other things of value a licensee receives on behalf of someone else in a licensed transaction, such as a buyer's deposit or collected rents.', value: Trust funds are mo..., Focused
+                              Other, 0x101c67810, {{38.0, 8717.0}, {326.0, 131.0}}, label: 'A salesperson who accepts trust funds must immediately deliver them to the broker or, if the broker so directs, to the broker's principal, a neutral escrow or the trust account.', Focused
+                                StaticText, 0x101c5dc60, {{56.0, 8720.0}, {274.0, 125.0}}, label: 'A salesperson who accepts trust funds must immediately deliver them to the broker or, if the broker so directs, to the broker's principal, a neutral escrow or the trust account.', value: A salesperson who ..., Focused
+                              Other, 0x101cacdc0, {{38.0, 8857.0}, {326.0, 131.0}}, label: 'The broker must place trust funds with the owner of the funds, in a neutral escrow depository or in the trust account no later than three business days following receipt.', Focused
+                                StaticText, 0x101c9c460, {{56.0, 8860.0}, {258.0, 125.0}}, label: 'The broker must place trust funds with the owner of the funds, in a neutral escrow depository or in the trust account no later than three business days following receipt.', value: The broker must pl..., Focused
+                              Other, 0x101c7e400, {{38.0, 8997.0}, {326.0, 105.0}}, label: 'The three business days run from receipt by the broker or by the broker's salesperson, whichever of them takes in the funds.', Focused
+                                StaticText, 0x101c6bcd0, {{56.0, 9000.0}, {249.0, 99.0}}, label: 'The three business days run from receipt by the broker or by the broker's salesperson, whichever of them takes in the funds.', value: The three business..., Focused
+                              Other, 0x101c90330, {{38.0, 9111.0}, {326.0, 105.0}}, label: 'A deposit check may be held uncashed before the offer is accepted if the buyer so instructs in writing and the seller is told the check is being held.', Focused
+                                StaticText, 0x101c993f0, {{56.0, 9114.0}, {291.0, 99.0}}, label: 'A deposit check may be held uncashed before the offer is accepted if the buyer so instructs in writing and the seller is told the check is being held.', value: A deposit check ma..., Focused
+                              Other, 0x101c8be40, {{38.0, 9225.0}, {326.0, 131.0}}, label: 'After acceptance, a held check must go into a neutral escrow or the trust account within three business days, unless the seller gives written authorization to keep holding it.', Focused
+                                StaticText, 0x101c65270, {{56.0, 9228.0}, {267.0, 125.0}}, label: 'After acceptance, a held check must go into a neutral escrow or the trust account within three business days, unless the seller gives written authorization to keep holding it.', value: After acceptance, ..., Focused
+                              Other, 0x101c8ffe0, {{38.0, 9365.0}, {326.0, 105.0}}, label: 'Example: a deposit check received on Monday must be in escrow or the trust account by Thursday of that week if no holiday falls in between.', Focused
+                                StaticText, 0x101c6a140, {{56.0, 9368.0}, {270.0, 99.0}}, label: 'Example: a deposit check received on Monday must be in escrow or the trust account by Thursday of that week if no holiday falls in between.', value: Example: a deposit..., Focused
+                            Other, 0x101c87360, {{38.0, 9483.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101c9a260, {{76.0, 9496.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101c7da00, {{52.0, 9517.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101c7b0b0, {{52.0, 9519.0}, {281.0, 92.0}}, label: 'Find the starting event, then count business days: receipt for an ordinary deposit, acceptance of the offer for a check that was properly held uncashed.', value: Find the starting ..., Focused
+                            Other, 0x101c62cf0, {{38.0, 9639.0}, {326.0, 143.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101c70e80, {{76.0, 9652.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101c5ac40, {{52.0, 9673.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101c85b40, {{52.0, 9675.0}, {294.0, 92.0}}, label: 'A salesperson who puts a deposit check in a personal account over a weekend has commingled, even if the money reaches the broker on Monday.', value: A salesperson who ..., Focused
+                            Switch, 0x101c6fda0, {{30.0, 9791.0}, {151.0, 45.0}}, label: 'Mark as read : Receiving and depositing trust funds', value: 0, Focused
+                          Other, 0x101c61b40, {{20.0, 9861.0}, {362.0, 1373.0}}, label: 'Trust account rules: commingling, records and shortages, region', Focused
+                            Other, 0x101c857d0, {{38.0, 9901.0}, {326.0, 77.0}}, label: 'Trust account rules: commingling, records and shortages', value: 2, Focused
+                              StaticText, 0x101c9ba40, {{38.0, 9901.0}, {220.0, 77.0}}, label: 'Trust account rules: commingling, records and shortages', value: Trust account rule..., Focused
+                            Other, 0x101c6c720, {{38.0, 9989.0}, {326.0, 867.0}}, Focused
+                              Other, 0x101c7d680, {{38.0, 9989.0}, {326.0, 105.0}}, label: 'Commingling is mixing trust funds with the licensee's own money; trust funds must be kept separate from the licensee's own funds.', Focused
+                                StaticText, 0x101c9a900, {{56.0, 9992.0}, {253.0, 99.0}}, label: 'Commingling is mixing trust funds with the licensee's own money; trust funds must be kept separate from the licensee's own funds.', value: Commingling is mix..., Focused
+                              Other, 0x101c6db80, {{38.0, 10103.0}, {326.0, 131.0}}, label: 'A broker may keep up to $200 of personal funds in the trust account to pay bank service charges; any larger amount of the broker's own money is commingling.', Focused
+                                StaticText, 0x101c76540, {{56.0, 10106.0}, {260.0, 125.0}}, label: 'A broker may keep up to $200 of personal funds in the trust account to pay bank service charges; any larger amount of the broker's own money is commingling.', value: A broker may keep ..., Focused
+                              Other, 0x101c6ca90, {{38.0, 10243.0}, {326.0, 131.0}}, label: 'When a deposit belongs partly to the principal and partly to the broker, the broker's earned, undisputed share may stay in the trust account no more than 25 days after the deposit.', Focused
+                                StaticText, 0x101c78e20, {{56.0, 10246.0}, {274.0, 125.0}}, label: 'When a deposit belongs partly to the principal and partly to the broker, the broker's earned, undisputed share may stay in the trust account no more than 25 days after the deposit.', value: When a deposit bel..., Focused
+                              Other, 0x101c7cfc0, {{38.0, 10383.0}, {326.0, 131.0}}, label: 'A broker keeps a record of all trust funds received and disbursed plus a separate record for each beneficiary, and reconciles the two at least once a month, except months with no activity.', Focused
+                                StaticText, 0x101c89210, {{56.0, 10386.0}, {286.0, 125.0}}, label: 'A broker keeps a record of all trust funds received and disbursed plus a separate record for each beneficiary, and reconciles the two at least once a month, except months with no activity.', value: A broker keeps a r..., Focused
+                              Other, 0x101c4fba0, {{38.0, 10523.0}, {326.0, 79.0}}, label: 'A record of each reconciliation must be kept, and brokers keep their transaction records for three years.', Focused
+                                StaticText, 0x101c51df0, {{56.0, 10526.0}, {268.0, 73.0}}, label: 'A record of each reconciliation must be kept, and brokers keep their transaction records for three years.', value: A record of each r..., Focused
+                              Other, 0x101c52180, {{38.0, 10611.0}, {326.0, 131.0}}, label: 'A disbursement that would drop the account below the broker's total trust fund liability to all owners requires the prior written consent of every principal who owns funds in the account.', Focused
+                                StaticText, 0x101c56040, {{56.0, 10614.0}, {287.0, 125.0}}, label: 'A disbursement that would drop the account below the broker's total trust fund liability to all owners requires the prior written consent of every principal who owns funds in the account.', value: A disbursement tha..., Focused
+                              Other, 0x101c88ea0, {{38.0, 10751.0}, {326.0, 105.0}}, label: 'Spending one client's money on another client's bills without that consent creates a trust fund shortage, even if the client who benefits promises to repay.', Focused
+                                StaticText, 0x101c617d0, {{56.0, 10754.0}, {302.0, 99.0}}, label: 'Spending one client's money on another client's bills without that consent creates a trust fund shortage, even if the client who benefits promises to repay.', value: Spending one clien..., Focused
+                            Other, 0x101c99090, {{38.0, 10869.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101c84dc0, {{76.0, 10882.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101c85eb0, {{52.0, 10903.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101c4f850, {{52.0, 10905.0}, {294.0, 92.0}}, label: 'Match the number to the rule: $200 is the broker's own money for bank charges, 25 days is for earned fees, three business days is for deposits.', value: Match the number t..., Focused
+                            Other, 0x101c757c0, {{38.0, 11025.0}, {326.0, 143.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101c5ba30, {{76.0, 11038.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101c644f0, {{52.0, 11059.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101cffe70, {{52.0, 11061.0}, {296.0, 92.0}}, label: 'Verbal approval from the one client whose bill is being paid is not enough. Every owner of funds in the account must consent in writing.', value: Verbal approval fr..., Focused
+                            Switch, 0x101c7c8c0, {{30.0, 11177.0}, {151.0, 45.0}}, label: 'Mark as read : Trust account rules: commingling, records and shortages', value: 0, Focused
+                          Other, 0x101c768c0, {{20.0, 11247.0}, {362.0, 1089.0}}, label: 'Advance fees, region', Focused
+                            Other, 0x101c5c800, {{38.0, 11287.0}, {326.0, 27.0}}, label: 'Advance fees', value: 2, Focused
+                              StaticText, 0x101c6d820, {{38.0, 11287.0}, {130.0, 27.0}}, label: 'Advance fees', value: Advance fees, Focused
+                            Other, 0x101c779c0, {{38.0, 11325.0}, {326.0, 789.0}}, Focused
+                              Other, 0x101c846e0, {{38.0, 11325.0}, {326.0, 105.0}}, label: 'An advance fee is a fee collected for licensed services, or for a listing, before the licensee has fully completed the services contracted for.', Focused
+                                StaticText, 0x101c577f0, {{56.0, 11328.0}, {292.0, 99.0}}, label: 'An advance fee is a fee collected for licensed services, or for a listing, before the licensee has fully completed the services contracted for.', value: An advance fee is ..., Focused
+                              Other, 0x101c5f840, {{38.0, 11439.0}, {326.0, 79.0}}, label: 'A commission that becomes payable only after the broker has fully performed the contract is not an advance fee.', Focused
+                                StaticText, 0x101c63730, {{56.0, 11442.0}, {300.0, 73.0}}, label: 'A commission that becomes payable only after the broker has fully performed the contract is not an advance fee.', value: A commission that ..., Focused
+                              Other, 0x101c56dd0, {{38.0, 11527.0}, {326.0, 79.0}}, label: 'Advance fees are trust funds and must be deposited in a trust account; they belong to the principal, not the broker.', Focused
+                                StaticText, 0x101c6e230, {{56.0, 11530.0}, {287.0, 73.0}}, label: 'Advance fees are trust funds and must be deposited in a trust account; they belong to the principal, not the broker.', value: Advance fees are t..., Focused
+                              Other, 0x101c77d20, {{38.0, 11615.0}, {326.0, 105.0}}, label: 'Each principal must receive a verified accounting at the end of each calendar quarter and when the contract has been completely performed.', Focused
+                                StaticText, 0x101c62230, {{56.0, 11618.0}, {290.0, 99.0}}, label: 'Each principal must receive a verified accounting at the end of each calendar quarter and when the contract has been completely performed.', value: Each principal mus..., Focused
+                              Other, 0x101ca2970, {{38.0, 11729.0}, {326.0, 131.0}}, label: 'The broker may withdraw advance fees for the broker's own benefit only when actually spent for the principal or five days after the verified accounting is mailed.', Focused
+                                StaticText, 0x101c59e40, {{56.0, 11732.0}, {255.0, 125.0}}, label: 'The broker may withdraw advance fees for the broker's own benefit only when actually spent for the principal or five days after the verified accounting is mailed.', value: The broker may wit..., Focused
+                              Other, 0x101c4ff10, {{38.0, 11869.0}, {326.0, 131.0}}, label: 'The Commissioner may require advance fee agreements and solicitation materials, including advertising, to be submitted at least 10 calendar days before they are used.', Focused
+                                StaticText, 0x101ca15e0, {{56.0, 11872.0}, {298.0, 125.0}}, label: 'The Commissioner may require advance fee agreements and solicitation materials, including advertising, to be submitted at least 10 calendar days before they are used.', value: The Commissioner m..., Focused
+                              Other, 0x101c69030, {{38.0, 12009.0}, {326.0, 105.0}}, label: 'If advance fees are misapplied, the principal may recover treble damages for the amount misapplied plus reasonable attorney's fees.', Focused
+                                StaticText, 0x101cbaf60, {{56.0, 12012.0}, {267.0, 99.0}}, label: 'If advance fees are misapplied, the principal may recover treble damages for the amount misapplied plus reasonable attorney's fees.', value: If advance fees ar..., Focused
+                            Other, 0x101c726c0, {{38.0, 12127.0}, {326.0, 143.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101c625d0, {{76.0, 12140.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101c7be40, {{52.0, 12161.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101c9df60, {{52.0, 12163.0}, {272.0, 92.0}}, label: 'Collecting the fee does not make it the broker's money. Until it is spent for the client or the accounting waiting period passes, it stays in trust.', value: Collecting the fee..., Focused
+                            Switch, 0x101ca07c0, {{30.0, 12279.0}, {151.0, 45.0}}, label: 'Mark as read : Advance fees', value: 0, Focused
+                          Other, 0x101c9d850, {{20.0, 12349.0}, {362.0, 1176.0}}, label: 'Offices, records and required notices, region', Focused
+                            Other, 0x101c7baf0, {{38.0, 12389.0}, {326.0, 52.0}}, label: 'Offices, records and required notices', value: 2, Focused
+                              StaticText, 0x101c5e670, {{38.0, 12389.0}, {199.0, 52.0}}, label: 'Offices, records and required notices', value: Offices, records a..., Focused
+                            Other, 0x101ca0b50, {{38.0, 12452.0}, {326.0, 1007.0}}, Focused
+                              Other, 0x101cba1a0, {{38.0, 12452.0}, {326.0, 105.0}}, label: 'Every broker must maintain a definite place of business in California, and a license authorizes business only from the location shown on it.', Focused
+                                StaticText, 0x101c9dbe0, {{56.0, 12455.0}, {276.0, 99.0}}, label: 'Every broker must maintain a definite place of business in California, and a license authorizes business only from the location shown on it.', value: Every broker must ..., Focused
+                              Other, 0x101c6eff0, {{38.0, 12566.0}, {326.0, 105.0}}, label: 'A broker who maintains more than one place of business in California must obtain a branch office license for each additional location.', Focused
+                                StaticText, 0x101c5c120, {{56.0, 12569.0}, {260.0, 99.0}}, label: 'A broker who maintains more than one place of business in California must obtain a branch office license for each additional location.', value: A broker who maint..., Focused
+                              Other, 0x101c9f520, {{38.0, 12680.0}, {326.0, 105.0}}, label: 'Under the Commissioner's Regulations, a responsible broker must notify the Commissioner within five days of retaining a salesperson.', Focused
+                                StaticText, 0x101c76f70, {{56.0, 12683.0}, {294.0, 99.0}}, label: 'Under the Commissioner's Regulations, a responsible broker must notify the Commissioner within five days of retaining a salesperson.', value: Under the Commissi..., Focused
+                              Other, 0x101c838f0, {{38.0, 12794.0}, {326.0, 131.0}}, label: 'A licensee who obtains a person's signature on a contract for licensed services must deliver a copy to that person as soon as reasonably practicable.', Focused
+                                StaticText, 0x101c772d0, {{56.0, 12797.0}, {263.0, 125.0}}, label: 'A licensee who obtains a person's signature on a contract for licensed services must deliver a copy to that person as soon as reasonably practicable.', value: A licensee who obt..., Focused
+                              Other, 0x101ca00b0, {{38.0, 12934.0}, {326.0, 105.0}}, label: 'Within one month after closing, the broker must tell the seller and buyer the selling price in writing; an escrow closing statement showing it satisfies the duty.', Focused
+                                StaticText, 0x101ca0ec0, {{56.0, 12937.0}, {303.0, 99.0}}, label: 'Within one month after closing, the broker must tell the seller and buyer the selling price in writing; an escrow closing statement showing it satisfies the duty.', value: Within one month a..., Focused
+                              Other, 0x101c707b0, {{38.0, 13048.0}, {326.0, 131.0}}, label: 'Within one week after closing a broker-negotiated sale, the broker must record a new deed of trust or deliver it to the beneficiary with a written recommendation to record.', Focused
+                                StaticText, 0x101ca7090, {{56.0, 13051.0}, {258.0, 125.0}}, label: 'Within one week after closing a broker-negotiated sale, the broker must record a new deed of trust or deliver it to the beneficiary with a written recommendation to record.', value: Within one week af..., Focused
+                              Other, 0x101ca1250, {{38.0, 13188.0}, {326.0, 131.0}}, label: 'A licensee must report to the DRE in writing within 30 days any felony charge, any conviction or plea of guilty or no contest, and discipline by another agency.', Focused
+                                StaticText, 0x101ca2260, {{56.0, 13191.0}, {259.0, 125.0}}, label: 'A licensee must report to the DRE in writing within 30 days any felony charge, any conviction or plea of guilty or no contest, and discipline by another agency.', value: A licensee must re..., Focused
+                              Other, 0x101ca1b50, {{38.0, 13328.0}, {326.0, 131.0}}, label: 'Knowingly destroying, altering, concealing or falsifying records that must be kept, or that are sought in an audit or investigation, is a ground for suspension or revocation.', Focused
+                                StaticText, 0x101ca0440, {{56.0, 13331.0}, {273.0, 125.0}}, label: 'Knowingly destroying, altering, concealing or falsifying records that must be kept, or that are sought in an audit or investigation, is a ground for suspension or revocation.', value: Knowingly destroyi..., Focused
+                            Switch, 0x101c9e9e0, {{30.0, 13468.0}, {151.0, 45.0}}, label: 'Mark as read : Offices, records and required notices', value: 0, Focused
+                          Other, 0x101c69a40, {{20.0, 13538.0}, {362.0, 1674.0}}, label: 'Advertising, names and the term Realtor, region', Focused
+                            Other, 0x101ca25f0, {{38.0, 13578.0}, {326.0, 52.0}}, label: 'Advertising, names and the term Realtor', value: 2, Focused
+                              StaticText, 0x101c6ec70, {{38.0, 13578.0}, {207.0, 52.0}}, label: 'Advertising, names and the term Realtor', value: Advertising, names..., Focused
+                            Other, 0x101ca3ea0, {{38.0, 13641.0}, {326.0, 1349.0}}, Focused
+                              Other, 0x101ca3080, {{38.0, 13641.0}, {326.0, 131.0}}, label: 'First-point-of-contact solicitation materials, such as business cards, must show the licensee's name, license identification number and the responsible broker's identity.', Focused
+                                StaticText, 0x101cb8d20, {{56.0, 13644.0}, {254.0, 125.0}}, label: 'First-point-of-contact solicitation materials, such as business cards, must show the licensee's name, license identification number and the responsible broker's identity.', value: First-point-of-con..., Focused
+                              Other, 0x101ca3400, {{38.0, 13781.0}, {326.0, 105.0}}, label: 'On a salesperson's business card the responsible broker's name is required, but the broker's own license number is optional.', Focused
+                                StaticText, 0x101c76c20, {{56.0, 13784.0}, {249.0, 99.0}}, label: 'On a salesperson's business card the responsible broker's name is required, but the broker's own license number is optional.', value: On a salesperson's..., Focused
+                              Other, 0x101ca4ca0, {{38.0, 13895.0}, {326.0, 105.0}}, label: 'The licensee's name and license number must also appear on real property purchase agreements when the licensee is acting in the transaction.', Focused
+                                StaticText, 0x101ca1ed0, {{56.0, 13898.0}, {294.0, 99.0}}, label: 'The licensee's name and license number must also appear on real property purchase agreements when the licensee is acting in the transaction.', value: The licensee's nam..., Focused
+                              Other, 0x101ca37a0, {{38.0, 14009.0}, {326.0, 105.0}}, label: 'To do business under a fictitious name, a licensee files a fictitious business name statement with the county clerk and has the DRE license issued in that name.', Focused
+                                StaticText, 0x101c68600, {{56.0, 14012.0}, {303.0, 99.0}}, label: 'To do business under a fictitious name, a licensee files a fictitious business name statement with the county clerk and has the DRE license issued in that name.', value: To do business und..., Focused
+                              Other, 0x101ca3b20, {{38.0, 14123.0}, {326.0, 131.0}}, label: 'A salesperson may hold a fictitious business name by contract with the responsible broker; its ads must show the broker as prominently, plus the salesperson's name and license number.', Focused
+                                StaticText, 0x101c9e660, {{56.0, 14126.0}, {301.0, 125.0}}, label: 'A salesperson may hold a fictitious business name by contract with the responsible broker; its ads must show the broker as prominently, plus the salesperson's name and license number.', value: A salesperson may ..., Focused
+                              Other, 0x101ca2cf0, {{38.0, 14263.0}, {326.0, 131.0}}, label: 'A team name needs no fictitious business name license if it combines 'associates,' 'group' or 'team' with the surname of at least one licensed team member.', Focused
+                                StaticText, 0x101ca4220, {{56.0, 14266.0}, {271.0, 125.0}}, label: 'A team name needs no fictitious business name license if it combines 'associates,' 'group' or 'team' with the surname of at least one licensed team member.', value: A team name needs ..., Focused
+                              Other, 0x101c5e320, {{38.0, 14403.0}, {326.0, 105.0}}, label: 'A team name must not use words such as 'broker' or 'brokerage' that suggest a firm independent of the responsible broker.', Focused
+                                StaticText, 0x101ca53c0, {{56.0, 14406.0}, {248.0, 99.0}}, label: 'A team name must not use words such as 'broker' or 'brokerage' that suggest a firm independent of the responsible broker.', value: A team name must n..., Focused
+                              Other, 0x101ca4920, {{38.0, 14517.0}, {326.0, 79.0}}, label: 'Advertising under a team name must still show the identity of the team's responsible broker.', Focused
+                                StaticText, 0x101ca69d0, {{56.0, 14520.0}, {246.0, 73.0}}, label: 'Advertising under a team name must still show the identity of the team's responsible broker.', value: Advertising under ..., Focused
+                              Other, 0x101ca62b0, {{38.0, 14605.0}, {326.0, 131.0}}, label: 'Willfully using the term 'Realtor,' or any trade name or insignia of a real estate organization the licensee does not belong to, is a ground for suspension or revocation.', Focused
+                                StaticText, 0x101ca7400, {{56.0, 14608.0}, {259.0, 125.0}}, label: 'Willfully using the term 'Realtor,' or any trade name or insignia of a real estate organization the licensee does not belong to, is a ground for suspension or revocation.', value: Willfully using th..., Focused
+                              Other, 0x101ca5760, {{38.0, 14745.0}, {326.0, 105.0}}, label: 'The right to use 'Realtor' comes from the licensee's own membership in the trade association, not from holding a license or from the broker's membership.', Focused
+                                StaticText, 0x101ca81b0, {{56.0, 14748.0}, {306.0, 99.0}}, label: 'The right to use 'Realtor' comes from the licensee's own membership in the trade association, not from holding a license or from the broker's membership.', value: The right to use '..., Focused
+                              Other, 0x101cb6a60, {{38.0, 14859.0}, {326.0, 131.0}}, label: 'Knowingly publishing false statements about land offered for sale is a public offense punishable by a fine of up to $1,000, up to one year in county jail, or both.', Focused
+                                StaticText, 0x101ca8540, {{56.0, 14862.0}, {284.0, 125.0}}, label: 'Knowingly publishing false statements about land offered for sale is a public offense punishable by a fine of up to $1,000, up to one year in county jail, or both.', value: Knowingly publishi..., Focused
+                            Other, 0x101ca6650, {{38.0, 15003.0}, {326.0, 143.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101cb74f0, {{76.0, 15016.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101ca7ac0, {{52.0, 15037.0}, {298.0, 97.0}}, Focused
+                                StaticText, 0x101ca5030, {{52.0, 15039.0}, {286.0, 92.0}}, label: 'To test a team name, look for two things: a licensed member's surname plus 'associates,' 'group' or 'team,' and no word suggesting a separate brokerage.', value: To test a team nam..., Focused
+                            Switch, 0x101ca8c10, {{30.0, 15155.0}, {151.0, 45.0}}, label: 'Mark as read : Advertising, names and the term Realtor', value: 0, Focused
+                          Other, 0x101ca7760, {{20.0, 15225.0}, {362.0, 1725.0}}, label: 'Grounds for discipline, region', Focused
+                            Other, 0x101c67480, {{38.0, 15265.0}, {326.0, 27.0}}, label: 'Grounds for discipline', value: 2, Focused
+                              StaticText, 0x101ca88b0, {{38.0, 15265.0}, {224.0, 27.0}}, label: 'Grounds for discipline', value: Grounds for discip..., Focused
+                            Other, 0x101c60940, {{38.0, 15303.0}, {326.0, 1401.0}}, Focused
+                              Other, 0x101c4ee00, {{38.0, 15303.0}, {326.0, 131.0}}, label: 'Claiming or taking any secret or undisclosed compensation or profit is a ground for discipline; the licensee must reveal a personal stake before the principal agrees to the deal.', Focused
+                                StaticText, 0x101cb1770, {{56.0, 15306.0}, {279.0, 125.0}}, label: 'Claiming or taking any secret or undisclosed compensation or profit is a ground for discipline; the licensee must reveal a personal stake before the principal agrees to the deal.', value: Claiming or taking..., Focused
+                              Other, 0x101ca7e50, {{38.0, 15443.0}, {326.0, 105.0}}, label: 'Other grounds for discipline include commingling trust funds with the licensee's own money and failing to exercise reasonable supervision.', Focused
+                                StaticText, 0x101ca6d40, {{56.0, 15446.0}, {265.0, 99.0}}, label: 'Other grounds for discipline include commingling trust funds with the licensee's own money and failing to exercise reasonable supervision.', value: Other grounds for ..., Focused
+                              Other, 0x101cb9e30, {{38.0, 15557.0}, {326.0, 131.0}}, label: 'A substantial misrepresentation is a false statement of a present or past fact; a false promise concerns future conduct made to persuade, and each is a separate ground.', Focused
+                                StaticText, 0x101c77640, {{56.0, 15560.0}, {260.0, 125.0}}, label: 'A substantial misrepresentation is a false statement of a present or past fact; a false promise concerns future conduct made to persuade, and each is a separate ground.', value: A substantial misr..., Focused
+                              Other, 0x101cb9090, {{38.0, 15697.0}, {326.0, 105.0}}, label: 'A continued and flagrant course of misrepresentation or false promises made through the broker's own licensees is its own ground for discipline.', Focused
+                                StaticText, 0x101cb21f0, {{56.0, 15700.0}, {303.0, 99.0}}, label: 'A continued and flagrant course of misrepresentation or false promises made through the broker's own licensees is its own ground for discipline.', value: A continued and fl..., Focused
+                              Other, 0x101cb7160, {{38.0, 15811.0}, {326.0, 131.0}}, label: 'A licensee who holds an option to buy within a listing must, before or when exercising it, reveal the full profit in writing and get the principal's written consent.', Focused
+                                StaticText, 0x101cb7870, {{56.0, 15814.0}, {250.0, 125.0}}, label: 'A licensee who holds an option to buy within a listing must, before or when exercising it, reveal the full profit in writing and get the principal's written consent.', value: A licensee who hol..., Focused
+                              Other, 0x101cb8990, {{38.0, 15951.0}, {326.0, 131.0}}, label: 'Taking a fee for referring customers to an escrow agent, pest control firm, home protection company or title insurer is a ground; moderate meals and equal-basis promotional items are allowed.', Focused
+                                StaticText, 0x101cb6de0, {{56.0, 15954.0}, {305.0, 125.0}}, label: 'Taking a fee for referring customers to an escrow agent, pest control firm, home protection company or title insurer is a ground; moderate meals and equal-basis promotional items are allowed.', value: Taking a fee for r..., Focused
+                              Other, 0x101ca45a0, {{38.0, 16091.0}, {326.0, 105.0}}, label: 'Obtaining a license or renewal by fraud or by a material misstatement in the application is a ground for discipline, separate from any underlying conviction.', Focused
+                                StaticText, 0x101cb1410, {{56.0, 16094.0}, {303.0, 99.0}}, label: 'Obtaining a license or renewal by fraud or by a material misstatement in the application is a ground for discipline, separate from any underlying conviction.', value: Obtaining a licens..., Focused
+                              Other, 0x101cb4b30, {{38.0, 16205.0}, {326.0, 105.0}}, label: 'Negligence or incompetence in licensed acts is a ground even without dishonesty, and so is violating the conditions of a restricted license.', Focused
+                                StaticText, 0x101cb5570, {{56.0, 16208.0}, {284.0, 99.0}}, label: 'Negligence or incompetence in licensed acts is a ground even without dishonesty, and so is violating the conditions of a restricted license.', value: Negligence or inco..., Focused
+                              Other, 0x101cb1e60, {{38.0, 16319.0}, {326.0, 131.0}}, label: 'The Commissioner may discipline a licensee whose license from another agency was revoked after due process for acts that would be grounds for a real estate licensee.', Focused
+                                StaticText, 0x101cb4460, {{56.0, 16322.0}, {258.0, 125.0}}, label: 'The Commissioner may discipline a licensee whose license from another agency was revoked after due process for acts that would be grounds for a real estate licensee.', value: The Commissioner m..., Focused
+                              Other, 0x101caf0f0, {{38.0, 16459.0}, {326.0, 131.0}}, label: 'Under the Commissioner's Regulations, licensees may not pressure appraisers with target values or promised business, but may provide the purchase contract or ask that errors be corrected.', Focused
+                                StaticText, 0x101cb4100, {{56.0, 16462.0}, {300.0, 125.0}}, label: 'Under the Commissioner's Regulations, licensees may not pressure appraisers with target values or promised business, but may provide the purchase contract or ask that errors be corrected.', value: Under the Commissi..., Focused
+                              Other, 0x101cb5210, {{38.0, 16599.0}, {326.0, 105.0}}, label: 'Intentionally delaying a mortgage loan closing solely to increase the borrower's interest, costs or fees is a ground for discipline.', Focused
+                                StaticText, 0x101cb3db0, {{56.0, 16602.0}, {246.0, 99.0}}, label: 'Intentionally delaying a mortgage loan closing solely to increase the borrower's interest, costs or fees is a ground for discipline.', value: Intentionally dela..., Focused
+                            Other, 0x101cb82a0, {{38.0, 16717.0}, {326.0, 167.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101cb47c0, {{76.0, 16730.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101cb2fb0, {{52.0, 16751.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x101cb0330, {{52.0, 16753.0}, {293.0, 116.0}}, label: 'For 'which ground fits' questions, name the specific wrong in the facts: a hidden stake is secret profit, a promise about the future is a false promise, careless work is negligence.', value: For 'which ground ..., Focused
+                            Switch, 0x101cb3a30, {{30.0, 16893.0}, {151.0, 45.0}}, label: 'Mark as read : Grounds for discipline', value: 0, Focused
+                          Other, 0x101cb8610, {{20.0, 16963.0}, {362.0, 2094.0}}, label: 'Disciplinary process and the Consumer Recovery Account, region', Focused
+                            Other, 0x101cb36d0, {{38.0, 17003.0}, {326.0, 52.0}}, label: 'Disciplinary process and the Consumer Recovery Account', value: 2, Focused
+                              StaticText, 0x101cb3350, {{38.0, 17003.0}, {288.0, 52.0}}, label: 'Disciplinary process and the Consumer Recovery Account', value: Disciplinary proce..., Focused
+                            Other, 0x101cb1b00, {{38.0, 17066.0}, {326.0, 1541.0}}, Focused
+                              Other, 0x101cb2c50, {{38.0, 17066.0}, {326.0, 131.0}}, label: 'An accusation must be filed within three years of the act, or for fraud, misrepresentation or a false promise within one year of discovery if later, but never after 10 years.', Focused
+                                StaticText, 0x101c805e0, {{56.0, 17069.0}, {271.0, 125.0}}, label: 'An accusation must be filed within three years of the act, or for fraud, misrepresentation or a false promise within one year of discovery if later, but never after 10 years.', value: An accusation must..., Focused
+                              Other, 0x101caffe0, {{38.0, 17206.0}, {326.0, 105.0}}, label: 'A citation may carry an administrative fine of up to $2,500; it replaces other discipline for that offense and is not reported as disciplinary action.', Focused
+                                StaticText, 0x101cac010, {{56.0, 17209.0}, {279.0, 99.0}}, label: 'A citation may carry an administrative fine of up to $2,500; it replaces other discipline for that offense and is not reported as disciplinary action.', value: A citation may car..., Focused
+                              Other, 0x101cb0d50, {{38.0, 17320.0}, {326.0, 105.0}}, label: 'A licensee may petition to pay a monetary penalty instead of serving a suspension, up to $250 per day stayed and no more than $10,000 per decision.', Focused
+                                StaticText, 0x101cb10c0, {{56.0, 17323.0}, {295.0, 99.0}}, label: 'A licensee may petition to pay a monetary penalty instead of serving a suspension, up to $250 per day stayed and no more than $10,000 per decision.', value: A licensee may pet..., Focused
+                              Other, 0x101caed90, {{38.0, 17434.0}, {326.0, 105.0}}, label: 'A corporate broker's license may be disciplined for the misconduct of an officer, a director or anyone owning or controlling 10% or more of its stock.', Focused
+                                StaticText, 0x101cb09f0, {{56.0, 17437.0}, {282.0, 99.0}}, label: 'A corporate broker's license may be disciplined for the misconduct of an officer, a director or anyone owning or controlling 10% or more of its stock.', value: A corporate broker..., Focused
+                              Other, 0x101cb6330, {{38.0, 17548.0}, {326.0, 157.0}}, label: 'The Consumer Recovery Account is a DRE fund, paid for from license fees, covering unpaid judgments against licensees for intentional fraud or conversion of trust funds in a licensed transaction.', Focused
+                                StaticText, 0x101cae340, {{56.0, 17551.0}, {260.0, 151.0}}, label: 'The Consumer Recovery Account is a DRE fund, paid for from license fees, covering unpaid judgments against licensees for intentional fraud or conversion of trust funds in a licensed transaction.', value: The Consumer Recov..., Focused
+                              Other, 0x101cad4b0, {{38.0, 17714.0}, {326.0, 79.0}}, label: 'The account pays up to $50,000 for any one transaction and up to $250,000 for any one licensee.', Focused
+                                StaticText, 0x101cafc50, {{56.0, 17717.0}, {246.0, 73.0}}, label: 'The account pays up to $50,000 for any one transaction and up to $250,000 for any one licensee.', value: The account pays u..., Focused
+                              Other, 0x101cb0690, {{38.0, 17802.0}, {326.0, 131.0}}, label: 'A claim may rest on a final civil judgment, a confirmed arbitration award or a criminal restitution order, and must be filed within one year after it becomes final.', Focused
+                                StaticText, 0x101caea30, {{56.0, 17805.0}, {249.0, 125.0}}, label: 'A claim may rest on a final civil judgment, a confirmed arbitration award or a criminal restitution order, and must be filed within one year after it becomes final.', value: A claim may rest o..., Focused
+                              Other, 0x101cb28d0, {{38.0, 17942.0}, {326.0, 105.0}}, label: 'A claimant with a judgment against a salesperson must also have pursued the employing broker who was liable, or the application will be denied.', Focused
+                                StaticText, 0x101cb2550, {{56.0, 17945.0}, {274.0, 99.0}}, label: 'A claimant with a judgment against a salesperson must also have pursued the employing broker who was liable, or the application will be denied.', value: A claimant with a ..., Focused
+                              Other, 0x101cae6c0, {{38.0, 18056.0}, {326.0, 105.0}}, label: 'When the fraud has been shown by clear and convincing evidence, a payment from the account automatically suspends the license as of the payment date.', Focused
+                                StaticText, 0x101cadff0, {{56.0, 18059.0}, {307.0, 99.0}}, label: 'When the fraud has been shown by clear and convincing evidence, a payment from the account automatically suspends the license as of the payment date.', value: When the fraud has..., Focused
+                              Other, 0x101cb66d0, {{38.0, 18170.0}, {326.0, 105.0}}, label: 'The license cannot be reinstated until the licensee repays the full amount plus interest, and a discharge in bankruptcy does not remove that requirement.', Focused
+                                StaticText, 0x101cad120, {{56.0, 18173.0}, {294.0, 99.0}}, label: 'The license cannot be reinstated until the licensee repays the full amount plus interest, and a discharge in bankruptcy does not remove that requirement.', value: The license cannot..., Focused
+                              Other, 0x101c79890, {{38.0, 18284.0}, {326.0, 157.0}}, label: 'Within 90 days after issuing a license obtained by fraud or a material misstatement, the Commissioner may suspend it without a prior hearing, pending a hearing the licensee may request.', Focused
+                                StaticText, 0x101cabcb0, {{56.0, 18287.0}, {276.0, 151.0}}, label: 'Within 90 days after issuing a license obtained by fraud or a material misstatement, the Commissioner may suspend it without a prior hearing, pending a hearing the licensee may request.', value: Within 90 days aft..., Focused
+                              Other, 0x101c71c70, {{38.0, 18450.0}, {326.0, 157.0}}, label: 'The Commissioner may suspend a license as soon as the licensee pleads guilty or no contest to a substantially related crime, before sentencing; the suspension is rescinded if the plea is withdrawn.', Focused
+                                StaticText, 0x101caca60, {{56.0, 18453.0}, {253.0, 151.0}}, label: 'The Commissioner may suspend a license as soon as the licensee pleads guilty or no contest to a substantially related crime, before sentencing; the suspension is rescinded if the plea is withdrawn.', value: The Commissioner m..., Focused
+                            Other, 0x101c7b790, {{38.0, 18620.0}, {326.0, 167.0}}, label: 'Exam tip, complementary', Focused
+                              StaticText, 0x101c5f170, {{76.0, 18633.0}, {68.0, 16.0}}, label: 'EXAM TIP', value: EXAM TIP, Focused
+                              Other, 0x101c64860, {{52.0, 18654.0}, {298.0, 121.0}}, Focused
+                                StaticText, 0x101c70b00, {{52.0, 18656.0}, {294.0, 116.0}}, label: 'For an accusation deadline involving fraud, compute both dates, three years after the act and one year after discovery, and take the later one, capped at 10 years.', value: For an accusation ..., Focused
+                            Other, 0x101c68cb0, {{38.0, 18800.0}, {326.0, 191.0}}, label: 'Common trap, complementary', Focused
+                              StaticText, 0x101c5cb70, {{76.0, 18813.0}, {107.0, 16.0}}, label: 'COMMON TRAP', value: COMMON TRAP, Focused
+                              Other, 0x101c4cb60, {{52.0, 18834.0}, {298.0, 145.0}}, Focused
+                                StaticText, 0x101c921d0, {{52.0, 18836.0}, {298.0, 140.0}}, label: 'The Recovery Account is not insurance for licensees. A payout on fraud shown by clear and convincing evidence suspends the license until it is repaid; the suspension is not for a fixed period and is not a permanent revocation.', value: The Recovery Accou..., Focused
+                            Switch, 0x101c7a9e0, {{30.0, 19000.0}, {151.0, 45.0}}, label: 'Mark as read : Disciplinary process and the Consumer Recovery Account', value: 0, Focused
+                          Other, 0x101c5d900, {{20.0, 19078.0}, {362.0, 1684.0}}, label: 'Must know, region', Focused
+                            Other, 0x101c50940, {{38.0, 19096.0}, {326.0, 30.0}}, label: 'Must know', value: 2, Focused
+                              StaticText, 0x101c5c480, {{66.0, 19098.0}, {107.0, 26.0}}, label: 'Must know', value: Must know, Focused
+                            Other, 0x101c590a0, {{38.0, 19137.0}, {326.0, 1607.0}}, Focused
+                              Other, 0x101c78090, {{38.0, 19137.0}, {326.0, 49.0}}, label: 'The Real Estate Commissioner is appointed by the Governor.', Focused
+                                StaticText, 0x101c6d4b0, {{60.0, 19139.0}, {237.0, 45.0}}, label: 'The Real Estate Commissioner is appointed by the Governor.', value: The Real Estate Co..., Focused
+                              Other, 0x101c66d90, {{38.0, 19195.0}, {326.0, 73.0}}, label: 'The DRE can discipline a license but cannot order refunds, award damages or cancel contracts.', Focused
+                                StaticText, 0x101c84a40, {{60.0, 19197.0}, {295.0, 69.0}}, label: 'The DRE can discipline a license but cannot order refunds, award damages or cancel contracts.', value: The DRE can discip..., Focused
+                              Other, 0x101c563b0, {{38.0, 19277.0}, {326.0, 73.0}}, label: 'A license is needed to act for another and for compensation or expected compensation.', Focused
+                                StaticText, 0x101c6ab80, {{60.0, 19279.0}, {302.0, 69.0}}, label: 'A license is needed to act for another and for compensation or expected compensation.', value: A license is neede..., Focused
+                              Other, 0x101c932e0, {{38.0, 19359.0}, {326.0, 97.0}}, label: 'Exempt: attorney-in-fact, attorney for a client, court appointee, deed of trust trustee, resident manager, officer without special pay.', Focused
+                                StaticText, 0x101c58990, {{60.0, 19361.0}, {300.0, 93.0}}, label: 'Exempt: attorney-in-fact, attorney for a client, court appointee, deed of trust trustee, resident manager, officer without special pay.', value: Exempt: attorney-i..., Focused
+                              Other, 0x101c92890, {{38.0, 19465.0}, {326.0, 49.0}}, label: 'To sue for a commission, the person must have been licensed when the claim arose.', Focused
+                                StaticText, 0x101c86c90, {{60.0, 19467.0}, {302.0, 45.0}}, label: 'To sue for a commission, the person must have been licensed when the claim arose.', value: To sue for a commi..., Focused
+                              Other, 0x101c92540, {{38.0, 19523.0}, {326.0, 73.0}}, label: 'Unlicensed activity: fine up to $20,000, six months in county jail, or both; $60,000 for a corporation.', Focused
+                                StaticText, 0x101c7eaf0, {{60.0, 19525.0}, {284.0, 69.0}}, label: 'Unlicensed activity: fine up to $20,000, six months in county jail, or both; $60,000 for a corporation.', value: Unlicensed activit..., Focused
+                              Other, 0x101c60280, {{38.0, 19605.0}, {326.0, 49.0}}, label: 'A salesperson may be paid for licensed acts only by his or her own broker.', Focused
+                                StaticText, 0x101c80270, {{60.0, 19607.0}, {283.0, 45.0}}, label: 'A salesperson may be paid for licensed acts only by his or her own broker.', value: A salesperson may ..., Focused
+                              Other, 0x101c3ef60, {{38.0, 19663.0}, {326.0, 73.0}}, label: 'Broker applicants need two years of salesperson experience in the last five; renewal needs 45 CE hours.', Focused
+                                StaticText, 0x101c58290, {{60.0, 19665.0}, {281.0, 69.0}}, label: 'Broker applicants need two years of salesperson experience in the last five; renewal needs 45 CE hours.', value: Broker applicants ..., Focused
+                              Other, 0x101c3de50, {{38.0, 19745.0}, {326.0, 73.0}}, label: 'Licenses run four years; late renewal is allowed for two years, with no licensed work until renewed.', Focused
+                                StaticText, 0x101c8b430, {{60.0, 19747.0}, {280.0, 69.0}}, label: 'Licenses run four years; late renewal is allowed for two years, with no licensed work until renewed.', value: Licenses run four ..., Focused
+                              Other, 0x101c8a9d0, {{38.0, 19827.0}, {326.0, 73.0}}, label: 'Trust funds must be placed within three business days of receipt; a salesperson delivers them to the broker immediately.', Focused
+                                StaticText, 0x101c8c820, {{60.0, 19829.0}, {290.0, 69.0}}, label: 'Trust funds must be placed within three business days of receipt; a salesperson delivers them to the broker immediately.', value: Trust funds must b..., Focused
+                              Other, 0x101c8f220, {{38.0, 19909.0}, {326.0, 73.0}}, label: 'A broker may keep up to $200 of personal funds in the trust account for bank service charges.', Focused
+                                StaticText, 0x101c528a0, {{60.0, 19911.0}, {278.0, 69.0}}, label: 'A broker may keep up to $200 of personal funds in the trust account for bank service charges.', value: A broker may keep ..., Focused
+                              Other, 0x101c734c0, {{38.0, 19991.0}, {326.0, 73.0}}, label: 'A broker's earned fees must leave the trust account within 25 days of the deposit.', Focused
+                                StaticText, 0x101c4c0e0, {{60.0, 19993.0}, {274.0, 69.0}}, label: 'A broker's earned fees must leave the trust account within 25 days of the deposit.', value: A broker's earned ..., Focused
+                              Other, 0x101c827b0, {{38.0, 20073.0}, {326.0, 73.0}}, label: 'Trust records are reconciled at least once a month, except in months with no activity.', Focused
+                                StaticText, 0x101c666a0, {{60.0, 20075.0}, {300.0, 69.0}}, label: 'Trust records are reconciled at least once a month, except in months with no activity.', value: Trust records are ..., Focused
+                              Other, 0x101c75440, {{38.0, 20155.0}, {326.0, 73.0}}, label: 'Advance fees are trust funds, with verified accountings every calendar quarter.', Focused
+                                StaticText, 0x101c8d290, {{60.0, 20157.0}, {258.0, 69.0}}, label: 'Advance fees are trust funds, with verified accountings every calendar quarter.', value: Advance fees are t..., Focused
+                              Other, 0x101c74960, {{38.0, 20237.0}, {326.0, 73.0}}, label: 'Selling price to both parties within one month of closing; report felony charges and convictions within 30 days.', Focused
+                                StaticText, 0x101c6e590, {{60.0, 20239.0}, {285.0, 69.0}}, label: 'Selling price to both parties within one month of closing; report felony charges and convictions within 30 days.', value: Selling price to b..., Focused
+                              Other, 0x101cba4f0, {{38.0, 20319.0}, {326.0, 73.0}}, label: 'Accusation: three years, or one year from discovery of fraud, never more than 10 years.', Focused
+                                StaticText, 0x101c835a0, {{60.0, 20321.0}, {298.0, 69.0}}, label: 'Accusation: three years, or one year from discovery of fraud, never more than 10 years.', value: Accusation: three ..., Focused
+                              Other, 0x101c81d70, {{38.0, 20401.0}, {326.0, 73.0}}, label: 'Citation fine up to $2,500; penalty in place of suspension up to $250 a day, $10,000 maximum.', Focused
+                                StaticText, 0x101c80930, {{60.0, 20403.0}, {275.0, 69.0}}, label: 'Citation fine up to $2,500; penalty in place of suspension up to $250 a day, $10,000 maximum.', value: Citation fine up t..., Focused
+                              Other, 0x101c50280, {{38.0, 20483.0}, {326.0, 73.0}}, label: 'The Consumer Recovery Account pays up to $50,000 per transaction and $250,000 per licensee.', Focused
+                                StaticText, 0x101c52c40, {{60.0, 20485.0}, {303.0, 69.0}}, label: 'The Consumer Recovery Account pays up to $50,000 per transaction and $250,000 per licensee.', value: The Consumer Recov..., Focused
+                              Other, 0x101c81690, {{38.0, 20565.0}, {326.0, 97.0}}, label: 'A Recovery Account payout on fraud shown by clear and convincing evidence suspends the license until it is repaid in full with interest.', Focused
+                                StaticText, 0x101c64bc0, {{60.0, 20567.0}, {292.0, 93.0}}, label: 'A Recovery Account payout on fraud shown by clear and convincing evidence suspends the license until it is repaid in full with interest.', value: A Recovery Account..., Focused
+                              Other, 0x101c5d580, {{38.0, 20671.0}, {326.0, 73.0}}, label: 'The MLO endorsement expires every December 31; the license itself runs four years.', Focused
+                                StaticText, 0x101c5fba0, {{60.0, 20673.0}, {292.0, 69.0}}, label: 'The MLO endorsement expires every December 31; the license itself runs four years.', value: The MLO endorsemen..., Focused
+                          Button, 0x101c5b340, {{20.0, 20785.0}, {362.0, 53.0}}, label: 'Quiz me on this topic', Focused
+                        Other, 0x101c53320, {{0.0, 775.0}, {599.0, 100.0}}, label: 'Main, navigation'
+                          Link, 0x101c7f870, {{26.0, 814.0}, {35.0, 16.0}}, label: 'Home'
+                            StaticText, 0x101c6f6d0, {{26.0, 814.0}, {35.0, 16.0}}, label: 'Home', value: Home
+                          Link, 0x101c83230, {{105.0, 814.0}, {34.0, 16.0}}, label: 'Learn'
+                            StaticText, 0x101c88120, {{105.0, 814.0}, {34.0, 16.0}}, label: 'Learn', value: Learn
+                          Link, 0x101c67130, {{177.0, 814.0}, {48.0, 16.0}}, label: 'Practice'
+                            StaticText, 0x101c78750, {{177.0, 814.0}, {48.0, 16.0}}, label: 'Practice', value: Practice
+                          Link, 0x101c5bdd0, {{264.0, 814.0}, {32.0, 16.0}}, label: 'Tests'
+                            StaticText, 0x101c57130, {{264.0, 814.0}, {32.0, 16.0}}, label: 'Tests', value: Tests
+                          Link, 0x101c9b350, {{333.0, 814.0}, {51.0, 16.0}}, label: 'Progress'
+                            StaticText, 0x101c7c1c0, {{333.0, 814.0}, {51.0, 16.0}}, label: 'Progress', value: Progress
+                        Other, 0x101c94a10, {{0.0, -995.0}, {402.0, 11.0}}, label: 'application status'
+              Other, 0x101c8b0e0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 26 pages', value: 5%
+                Other, 0x101c5b6b0, {{396.0, 98.3}, {3.0, 36.0}}
+              Other, 0x101c92f80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101c820e0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101c4d5d0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 26 pages', value: 5%
+                Other, 0x101c4b9f0, {{396.0, 98.3}, {3.0, 36.0}}
+              Other, 0x101c80fe0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101c6aee0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101c59410, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c82440, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c6ded0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101bf7580, pid: 13013, label: 'RE Coach'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.carealestateexamprep'
+  Output: {
+    Application, 0x101b34210, pid: 13013, label: 'RE Coach'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x101caaed0, pid: 3350, label: ' '
+Element subtree:
+ →Application, 0x101caaed0, pid: 3350, label: ' '
+    Window, 0x101cac360, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c7ad50, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c68280, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101cab5b0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c66320, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101caa7d0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101c536a0, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x101c65fc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c73b90, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c57ef0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c71580, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c55640, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c6b240, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c9a5b0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101c4c470, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c73140, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x101c88810, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c51a70, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c63040, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101c79180, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101c72dc0, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x101c85470, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c5dfc0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101caa110, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x101c4eaa0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101ca9330, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x101c552f0, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x101ca8fa0, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x101ca9a30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c51710, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101caab60, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101caa480, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101cab220, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101ca96c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c4d270, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101ca9da0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c696e0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c51370, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c92c10, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c6e920, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c63e00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c7a2f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c87a40, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c75b10, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c88b50, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c5a550, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c97f30, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c94d80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c99ee0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c8a680, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c950f0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c7fbc0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c7e760, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c8e7e0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x101c89570, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x101c78ab0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c3e540, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101c7d330, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101c89c60, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x101c6f370, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101c97850, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x101c86580, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101c71210, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c8ad60, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101c8c4d0, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.carealestateexamprep:sceneID:com.keatingkonsultancy.carealestateexamprep-default', label: 'RE Coach'
+                  Other, 0x101c917a0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c95470, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101c96690, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x101c64160, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x101c88490, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x101c86910, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x101c7c520, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x101c939d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101c8cb80, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x101c8fc70, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x101c605e0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x101c6c3b0, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x101c9e2e0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101c56a70, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101c910d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x101c700f0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x101c7dd40, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x101c83c90, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x101c8f5a0, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x101c6fa20, {{55.7, 22.3}, {36.7, 20.3}}, label: '11:37 AM'
+                                                      Other, 0x101c84370, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x101c57490, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x101c82b10, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x101c59770, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x101c73ef0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101c96da0, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101c70440, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101c58610, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101c87000, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101c7f1c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101c5a1c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101c54130, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101c61450, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c52fa0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101c547e0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101c5ced0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101c4f150, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c8b780, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c53a10, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c55cf0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c67ee0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c64f00, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c9afe0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c58d00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101c65c60, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c5f4f0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101c69dc0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101c83ff0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101c53db0, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x101c7b420, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x101c90d70, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c62970, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c79f80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c71fc0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101c73820, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101c6b940, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101caaed0, pid: 3350, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x101b957b0, pid: 3350, label: ' '
+  }

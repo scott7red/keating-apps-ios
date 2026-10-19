@@ -1,0 +1,236 @@
+Attributes: Application, 0x101bb7920, pid: 55784, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x101bb7920, pid: 55784, label: 'TidyQuote'
+    Window (Main), 0x101b5c120, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101b5b020, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101b411f0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101b5bdd0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101b54c80, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101b5c7e0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b32870, {{0.0, 0.0}, {402.0, 875.0}}
+                  Other, 0x101b5b390, {{0.0, 0.0}, {402.0, 875.0}}
+                    Other, 0x101b44cc0, {{0.0, -3.0}, {402.0, 875.0}}
+                      Other, 0x101b5ba70, {{0.0, -3.0}, {402.0, 3489.0}}, label: 'TidyQuote', Focused
+                        Other, 0x101b5cb70, {{0.0, -3.0}, {402.0, 3489.0}}, label: 'main', Focused
+                          Other, 0x101b5c480, {{0.0, 0.0}, {402.0, 123.0}}, label: 'section header', Focused
+                            Button, 0x101b37330, {{6.0, 70.0}, {44.0, 45.0}}, label: 'Back', Focused
+                            Other, 0x101b523b0, {{56.0, 77.0}, {330.0, 31.0}}, label: 'New quote', value: 1, Focused
+                              StaticText, 0x101b4da90, {{56.0, 75.0}, {130.0, 34.0}}, label: 'New quote', value: New quote, Focused
+                          Other, 0x101b41c60, {{34.0, 145.0}, {334.0, 27.0}}, label: 'Client', value: 2, Focused
+                            StaticText, 0x101b47660, {{34.0, 146.0}, {51.0, 24.0}}, label: 'Client', value: Client, Focused
+                          Other, 0x101b391e0, {{34.0, 185.0}, {334.0, 21.0}}, label: 'Client name', Focused
+                            StaticText, 0x101b38470, {{34.0, 186.0}, {82.0, 19.0}}, label: 'Client name', value: Client name, Focused
+                          TextField, 0x101b34a70, {{34.0, 211.0}, {334.0, 49.0}}, label: 'Client name', value: Pat Example, Focused
+                          Other, 0x101b49210, {{34.0, 273.0}, {161.0, 21.0}}, label: 'Phone (optional)', Focused
+                            StaticText, 0x101b4fd90, {{34.0, 274.0}, {43.0, 19.0}}, label: 'Phone', value: Phone, Focused
+                            StaticText, 0x101b58010, {{80.0, 274.0}, {65.0, 19.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101b52740, {{34.0, 299.0}, {161.0, 49.0}}, label: 'Phone (optional)', Focused
+                          Other, 0x101b4e4d0, {{207.0, 273.0}, {161.0, 21.0}}, label: 'Email (optional)', Focused
+                            StaticText, 0x101b4fa20, {{207.0, 274.0}, {37.0, 19.0}}, label: 'Email', value: Email, Focused
+                            StaticText, 0x101b3c600, {{247.0, 274.0}, {65.0, 19.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101b4bb50, {{207.0, 299.0}, {161.0, 49.0}}, label: 'Email (optional)', Focused
+                          Other, 0x101b3d720, {{34.0, 361.0}, {334.0, 21.0}}, label: 'Address (optional)', Focused
+                            StaticText, 0x101b4a020, {{34.0, 362.0}, {57.0, 19.0}}, label: 'Address', value: Address, Focused
+                            StaticText, 0x101b39540, {{94.0, 362.0}, {65.0, 19.0}}, label: '(optional)', value: (optional), Focused
+                          TextView, 0x101b38110, {{34.0, 387.0}, {334.0, 85.0}}, label: 'Address (optional)', Focused
+                          Other, 0x101b46be0, {{34.0, 521.0}, {334.0, 27.0}}, label: 'Home details', value: 2, Focused
+                            StaticText, 0x101b47d20, {{34.0, 522.0}, {112.0, 24.0}}, label: 'Home details', value: Home details, Focused
+                          StaticText, 0x101b365a0, {{34.0, 576.0}, {78.0, 22.0}}, label: 'Bedrooms', value: Bedrooms, Focused
+                          Other, 0x101b50100, {{234.0, 562.0}, {134.0, 51.0}}, label: 'Bedrooms', Focused
+                            Button, 0x101b54570, {{237.0, 565.0}, {44.0, 45.0}}, label: 'Decrease Bedrooms', Focused
+                            Other, 0x101b4eb90, {{283.0, 572.0}, {36.0, 31.0}}, label: '2, application status', Focused
+                              StaticText, 0x101b8e300, {{294.0, 574.0}, {14.0, 27.0}}, label: '2', value: 2, Focused
+                            Button, 0x101b34710, {{321.0, 565.0}, {44.0, 45.0}}, label: 'Increase Bedrooms', Focused
+                          StaticText, 0x101b8e690, {{34.0, 632.0}, {114.0, 22.0}}, label: 'Full bathrooms', value: Full bathrooms, Focused
+                          Other, 0x101b8ea10, {{234.0, 618.0}, {134.0, 51.0}}, label: 'Full bathrooms', Focused
+                            Button, 0x101b8d770, {{237.0, 621.0}, {44.0, 45.0}}, label: 'Decrease Full bathrooms', Focused
+                            Other, 0x101b8f110, {{283.0, 628.0}, {36.0, 31.0}}, label: '1, application status', Focused
+                              StaticText, 0x101b8f830, {{294.0, 630.0}, {14.0, 27.0}}, label: '1', value: 1, Focused
+                            Button, 0x101b8fda0, {{321.0, 621.0}, {44.0, 45.0}}, label: 'Increase Full bathrooms', Focused
+                          StaticText, 0x101b90120, {{34.0, 688.0}, {78.0, 22.0}}, label: 'Half baths', value: Half baths, Focused
+                          Other, 0x101b904b0, {{234.0, 674.0}, {134.0, 51.0}}, label: 'Half baths', Focused
+                            Button, 0x101b90bc0, {{237.0, 677.0}, {44.0, 45.0}}, label: 'Decrease Half baths', Focused, Disabled
+                            Other, 0x101b90840, {{283.0, 684.0}, {36.0, 31.0}}, label: '0, application status', Focused
+                              StaticText, 0x101b73360, {{294.0, 686.0}, {14.0, 27.0}}, label: '0', value: 0, Focused
+                            Button, 0x101b51d00, {{321.0, 677.0}, {44.0, 45.0}}, label: 'Increase Half baths', Focused
+                          Other, 0x101b725c0, {{34.0, 739.0}, {334.0, 21.0}}, label: 'Square feet (optional)', Focused
+                            StaticText, 0x101b79680, {{34.0, 740.0}, {80.0, 19.0}}, label: 'Square feet', value: Square feet, Focused
+                            StaticText, 0x101b3eb90, {{116.0, 740.0}, {65.0, 19.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x101b33600, {{34.0, 765.0}, {334.0, 49.0}}, label: 'Square feet (optional)', Focused
+                          Other, 0x101b79330, {{34.0, 819.0}, {334.0, 19.0}}, Focused
+                            StaticText, 0x101b78fb0, {{34.0, 819.0}, {322.0, 18.0}}, label: 'The first 1,500 sq ft are included in your base price.', value: The first 1,500 sq..., Focused
+                          Other, 0x101b78210, {{34.0, 851.0}, {334.0, 53.0}}, Focused
+                            StaticText, 0x101b78c20, {{68.0, 866.0}, {127.0, 22.0}}, label: 'Pets in the home', value: Pets in the home, Focused
+                            Switch, 0x101b86bc0, {{34.0, 851.0}, {334.0, 53.0}}, label: 'Pets in the home', value: 0, Focused
+                          Other, 0x101b836c0, {{34.0, 953.0}, {334.0, 27.0}}, label: 'Service', value: 2, Focused
+                            StaticText, 0x101b85aa0, {{34.0, 954.0}, {64.0, 24.0}}, label: 'Service', value: Service, Focused
+                          StaticText, 0x101b85e10, {{34.0, 994.0}, {92.0, 19.0}}, label: 'Type of clean', value: Type of clean, Focused
+                          Other, 0x101b86f60, {{34.0, 1019.0}, {334.0, 165.0}}, label: 'Type of clean', Focused
+                            Other, 0x101b85720, {{34.0, 1019.0}, {163.0, 61.0}}, label: 'Standard clean ×1', value: 1, Focused
+                            Other, 0x101b87640, {{205.0, 1019.0}, {163.0, 61.0}}, label: 'Deep clean ×1.5', value: 0, Focused
+                            Other, 0x1018cf830, {{34.0, 1086.0}, {163.0, 98.0}}, label: 'Move-in / move-out clean ×1.75', value: 0, Focused
+                            Other, 0x101861660, {{205.0, 1086.0}, {163.0, 98.0}}, label: 'Post-construction clean ×2.25', value: 0, Focused
+                          StaticText, 0x1018a3ef0, {{34.0, 1197.0}, {71.0, 20.0}}, label: 'How often', value: How often, Focused
+                          Other, 0x1018a7740, {{34.0, 1222.0}, {334.0, 129.0}}, label: 'How often', Focused
+                            Other, 0x1018a7c70, {{34.0, 1222.0}, {163.0, 61.0}}, label: 'One-time Single visit', value: 1, Focused
+                            Other, 0x101849620, {{205.0, 1222.0}, {163.0, 61.0}}, label: 'Weekly 20% off', value: 0, Focused
+                            Other, 0x1018cfb90, {{34.0, 1289.0}, {163.0, 62.0}}, label: 'Every 2 weeks 15% off', value: 0, Focused
+                            Other, 0x1018752a0, {{205.0, 1289.0}, {163.0, 62.0}}, label: 'Every 4 weeks 10% off', value: 0, Focused
+                          StaticText, 0x101874e80, {{34.0, 1364.0}, {151.0, 20.0}}, label: 'Condition of the home', value: Condition of the h..., Focused
+                          Other, 0x1018731a0, {{34.0, 1389.0}, {334.0, 174.0}}, label: 'Condition of the home', Focused
+                            Other, 0x1018cdf50, {{34.0, 1389.0}, {334.0, 54.0}}, label: 'Normal No extra', value: 1, Focused
+                            Other, 0x1018cebb0, {{34.0, 1449.0}, {334.0, 54.0}}, label: 'Needs extra work +15%', value: 0, Focused
+                            Other, 0x1018499f0, {{34.0, 1509.0}, {334.0, 54.0}}, label: 'Heavy buildup +30%', value: 0, Focused
+                          Other, 0x101842b20, {{34.0, 1611.0}, {334.0, 28.0}}, label: 'Add-ons', value: 2, Focused
+                            StaticText, 0x101872d80, {{34.0, 1612.0}, {74.0, 25.0}}, label: 'Add-ons', value: Add-ons, Focused
+                          Other, 0x1018cefd0, {{26.0, 1651.0}, {350.0, 470.0}}, Focused
+                            Other, 0x1018739e0, {{26.0, 1651.0}, {350.0, 54.0}}, label: 'Inside oven $35.00', Focused
+                              Other, 0x1018d0c10, {{26.0, 1651.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x1018d07f0, {{26.0, 1651.0}, {350.0, 54.0}}, label: 'Inside oven $35.00', value: 0, Focused
+                                StaticText, 0x1018ce790, {{74.0, 1667.0}, {86.0, 22.0}}, label: 'Inside oven', value: Inside oven, Focused
+                                StaticText, 0x101874220, {{308.0, 1667.0}, {58.0, 22.0}}, label: '$35.00', value: $35.00, Focused
+                            Other, 0x101874a60, {{26.0, 1703.0}, {350.0, 54.0}}, label: 'Inside fridge $35.00', Focused
+                              Other, 0x1018d03d0, {{26.0, 1703.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x1018ce370, {{26.0, 1703.0}, {350.0, 54.0}}, label: 'Inside fridge $35.00', value: 0, Focused
+                                StaticText, 0x101874640, {{74.0, 1719.0}, {95.0, 22.0}}, label: 'Inside fridge', value: Inside fridge, Focused
+                                StaticText, 0x101873e00, {{308.0, 1719.0}, {58.0, 22.0}}, label: '$35.00', value: $35.00, Focused
+                            Other, 0x1018a5010, {{26.0, 1755.0}, {350.0, 54.0}}, label: 'Interior windows $6.00 each', Focused
+                              Other, 0x101856a00, {{26.0, 1755.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x101856b20, {{26.0, 1755.0}, {350.0, 54.0}}, label: 'Interior windows $6.00 each', value: 0, Focused
+                                StaticText, 0x101856c40, {{74.0, 1771.0}, {126.0, 22.0}}, label: 'Interior windows', value: Interior windows, Focused
+                                StaticText, 0x101856d60, {{284.0, 1771.0}, {48.0, 22.0}}, label: '$6.00', value: $6.00, Focused
+                                StaticText, 0x101856e80, {{335.0, 1774.0}, {31.0, 19.0}}, label: 'each', value: each, Focused
+                            Other, 0x101856fa0, {{26.0, 1807.0}, {350.0, 54.0}}, label: 'Laundry (per load) $20.00 each', Focused
+                              Other, 0x101872020, {{26.0, 1807.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x101872140, {{26.0, 1807.0}, {350.0, 54.0}}, label: 'Laundry (per load) $20.00 each', value: 0, Focused
+                                StaticText, 0x101872260, {{74.0, 1823.0}, {141.0, 22.0}}, label: 'Laundry (per load)', value: Laundry (per load), Focused
+                                StaticText, 0x101872380, {{274.0, 1823.0}, {58.0, 22.0}}, label: '$20.00', value: $20.00, Focused
+                                StaticText, 0x1018724a0, {{335.0, 1826.0}, {31.0, 19.0}}, label: 'each', value: each, Focused
+                            Other, 0x1018725c0, {{26.0, 1859.0}, {350.0, 54.0}}, label: 'Inside cabinets $45.00', Focused
+                              Other, 0x1018726e0, {{26.0, 1859.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x101872800, {{26.0, 1859.0}, {350.0, 54.0}}, label: 'Inside cabinets $45.00', value: 0, Focused
+                                StaticText, 0x101872920, {{74.0, 1875.0}, {115.0, 22.0}}, label: 'Inside cabinets', value: Inside cabinets, Focused
+                                StaticText, 0x101872a40, {{308.0, 1875.0}, {58.0, 22.0}}, label: '$45.00', value: $45.00, Focused
+                            Other, 0x101858280, {{26.0, 1911.0}, {350.0, 54.0}}, label: 'Baseboards detail $35.00', Focused
+                              Other, 0x1018583a0, {{26.0, 1911.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x1018584c0, {{26.0, 1911.0}, {350.0, 54.0}}, label: 'Baseboards detail $35.00', value: 0, Focused
+                                StaticText, 0x1018585e0, {{74.0, 1927.0}, {137.0, 22.0}}, label: 'Baseboards detail', value: Baseboards detail, Focused
+                                StaticText, 0x101858700, {{308.0, 1927.0}, {58.0, 22.0}}, label: '$35.00', value: $35.00, Focused
+                            Other, 0x101858820, {{26.0, 1963.0}, {350.0, 54.0}}, label: 'Blinds $5.00 each', Focused
+                              Other, 0x101858940, {{26.0, 1963.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x101858a60, {{26.0, 1963.0}, {350.0, 54.0}}, label: 'Blinds $5.00 each', value: 0, Focused
+                                StaticText, 0x101858b80, {{74.0, 1979.0}, {47.0, 22.0}}, label: 'Blinds', value: Blinds, Focused
+                                StaticText, 0x101858ca0, {{284.0, 1979.0}, {48.0, 22.0}}, label: '$5.00', value: $5.00, Focused
+                                StaticText, 0x101858dc0, {{335.0, 1982.0}, {31.0, 19.0}}, label: 'each', value: each, Focused
+                            Other, 0x101858ee0, {{26.0, 2015.0}, {350.0, 54.0}}, label: 'Garage sweep $30.00', Focused
+                              Other, 0x101859000, {{26.0, 2015.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x101859120, {{26.0, 2015.0}, {350.0, 54.0}}, label: 'Garage sweep $30.00', value: 0, Focused
+                                StaticText, 0x101859240, {{74.0, 2031.0}, {108.0, 22.0}}, label: 'Garage sweep', value: Garage sweep, Focused
+                                StaticText, 0x101859360, {{308.0, 2031.0}, {58.0, 22.0}}, label: '$30.00', value: $30.00, Focused
+                            Other, 0x101859480, {{26.0, 2067.0}, {350.0, 54.0}}, label: 'Change bed linens $10.00 each', Focused
+                              Other, 0x1018595a0, {{26.0, 2067.0}, {350.0, 54.0}}, Focused
+                                Switch, 0x1018596c0, {{26.0, 2067.0}, {350.0, 54.0}}, label: 'Change bed linens $10.00 each', value: 0, Focused
+                                StaticText, 0x1018597e0, {{74.0, 2083.0}, {141.0, 22.0}}, label: 'Change bed linens', value: Change bed linens, Focused
+                                StaticText, 0x101859900, {{274.0, 2083.0}, {58.0, 22.0}}, label: '$10.00', value: $10.00, Focused
+                                StaticText, 0x101859a20, {{335.0, 2086.0}, {31.0, 19.0}}, label: 'each', value: each, Focused
+                          Other, 0x101859b40, {{34.0, 2169.0}, {334.0, 28.0}}, label: 'Adjustment', value: 2, Focused
+                            StaticText, 0x101859c60, {{34.0, 2170.0}, {99.0, 25.0}}, label: 'Adjustment', value: Adjustment, Focused
+                          StaticText, 0x101859d80, {{33.0, 2209.0}, {119.0, 22.0}}, label: 'Adjustment type', value: Adjustment type, Focused
+                          Other, 0x1018c5a90, {{34.0, 2209.0}, {334.0, 54.0}}, label: 'Adjustment type', Focused
+                            Other, 0x1018c5bb0, {{38.0, 2213.0}, {161.0, 46.0}}, label: 'Extra charge', value: 1, Focused
+                            Other, 0x1018c5cd0, {{203.0, 2213.0}, {161.0, 46.0}}, label: 'Discount', value: 0, Focused
+                          Other, 0x1018c5df0, {{34.0, 2275.0}, {161.0, 22.0}}, label: 'Amount (optional)', Focused
+                            StaticText, 0x1018c5f10, {{34.0, 2276.0}, {54.0, 20.0}}, label: 'Amount', value: Amount, Focused
+                            StaticText, 0x1018c6030, {{91.0, 2276.0}, {65.0, 20.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x1018c6150, {{34.0, 2301.0}, {161.0, 50.0}}, label: 'Amount (optional)', Focused
+                          Other, 0x1018c6270, {{207.0, 2275.0}, {161.0, 22.0}}, label: 'Shown as (optional)', Focused
+                            StaticText, 0x1018c6390, {{207.0, 2276.0}, {66.0, 20.0}}, label: 'Shown as', value: Shown as, Focused
+                            StaticText, 0x1018c64b0, {{275.0, 2276.0}, {65.0, 20.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x1018c65d0, {{207.0, 2301.0}, {161.0, 50.0}}, label: 'Shown as (optional)', placeholderValue: 'Extra time for garage', value: Extra time for gar..., Focused
+                          Other, 0x1018c66f0, {{34.0, 2399.0}, {334.0, 28.0}}, label: 'Your time', value: 2, Focused
+                            StaticText, 0x1018c6810, {{34.0, 2400.0}, {80.0, 25.0}}, label: 'Your time', value: Your time, Focused
+                          Other, 0x1018c6930, {{34.0, 2439.0}, {334.0, 22.0}}, label: 'Estimated hours (optional)', Focused
+                            StaticText, 0x1018c6a50, {{34.0, 2440.0}, {112.0, 20.0}}, label: 'Estimated hours', value: Estimated hours, Focused
+                            StaticText, 0x1018c6b70, {{148.0, 2440.0}, {65.0, 20.0}}, label: '(optional)', value: (optional), Focused
+                          TextField, 0x1018c6c90, {{34.0, 2465.0}, {334.0, 50.0}}, label: 'Estimated hours (optional)', Focused
+                          Other, 0x1018c6db0, {{34.0, 2519.0}, {334.0, 38.0}}, Focused
+                            StaticText, 0x1018c6ed0, {{34.0, 2519.0}, {315.0, 37.0}}, label: 'Only you see this. It shows what the first visit pays per hour.', value: Only you see this...., Focused
+                          Other, 0x1018c6ff0, {{34.0, 2605.0}, {334.0, 28.0}}, label: 'Note to client', value: 2, Focused
+                            StaticText, 0x1018c7110, {{34.0, 2606.0}, {113.0, 25.0}}, label: 'Note to client', value: Note to client, Focused
+                          Other, 0x1018c7230, {{34.0, 2645.0}, {334.0, 22.0}}, label: 'Note (optional)', Focused
+                            StaticText, 0x1018c7350, {{34.0, 2646.0}, {33.0, 20.0}}, label: 'Note', value: Note, Focused
+                            StaticText, 0x1018c7470, {{70.0, 2646.0}, {65.0, 20.0}}, label: '(optional)', value: (optional), Focused
+                          TextView, 0x1018735c0, {{34.0, 2671.0}, {334.0, 94.0}}, label: 'Note (optional)', placeholderValue: 'Thanks for having me over. I bring all supplies.', value: Thanks for having ..., Focused
+                            Other, 0x1018c77b0, {{49.0, 2682.0}, {304.0, 48.0}}, Focused
+                              StaticText, 0x1018c78d0, {{49.0, 2683.0}, {269.0, 45.0}}, label: 'Thanks for having me over. I bring all supplies.', value: Thanks for having ..., Focused
+                            StaticText, 0x1018c79f0, {{49.0, 2683.0}, {269.0, 45.0}}, label: 'Thanks for having me over. I bring all supplies.', value: Thanks for having ..., Focused
+                          Other, 0x1018c7b10, {{34.0, 2813.0}, {334.0, 28.0}}, label: 'Document', value: 2, Focused
+                            StaticText, 0x1018c7c30, {{34.0, 2814.0}, {88.0, 25.0}}, label: 'Document', value: Document, Focused
+                          StaticText, 0x1018c7d50, {{34.0, 2854.0}, {137.0, 20.0}}, label: 'Document language', value: Document language, Focused
+                          Other, 0x1018c7e70, {{34.0, 2879.0}, {334.0, 54.0}}, label: 'Document language', Focused
+                            Other, 0x1018c7f90, {{38.0, 2883.0}, {161.0, 46.0}}, label: 'English', value: 1, Focused
+                            Other, 0x1018c80b0, {{203.0, 2883.0}, {161.0, 46.0}}, label: 'Español', value: 0, Focused
+                          Other, 0x1018c81d0, {{34.0, 2945.0}, {161.0, 22.0}}, label: 'Quote date', Focused
+                            StaticText, 0x1018c82f0, {{34.0, 2946.0}, {76.0, 20.0}}, label: 'Quote date', value: Quote date, Focused
+                          Other, 0x1018c8410, {{34.0, 2971.0}, {161.0, 50.0}}, label: 'Quote date', value: Oct 19, 2026, Focused
+                          Other, 0x1018c8530, {{207.0, 2945.0}, {161.0, 22.0}}, label: 'Valid until', Focused
+                            StaticText, 0x1018c8650, {{207.0, 2946.0}, {68.0, 20.0}}, label: 'Valid until', value: Valid until, Focused
+                          Other, 0x1018c8770, {{207.0, 2971.0}, {161.0, 50.0}}, label: 'Valid until', value: Nov 18, 2026, Focused
+                          Other, 0x1018c8890, {{34.0, 3069.0}, {334.0, 28.0}}, label: 'Price breakdown', value: 2, Focused
+                            StaticText, 0x1018c89b0, {{34.0, 3070.0}, {142.0, 25.0}}, label: 'Price breakdown', value: Price breakdown, Focused
+                          Other, 0x1018c8ad0, {{34.0, 3109.0}, {334.0, 187.0}}, Focused
+                            Other, 0x1018c8bf0, {{33.0, 3108.0}, {68.0, 31.0}}, Focused
+                              Other, 0x1018c8d10, {{33.0, 3108.0}, {68.0, 11.0}}, Focused
+                                StaticText, 0x1018c8e30, {{32.0, 3114.0}, {32.0, 16.0}}, label: 'ITEM', value: ITEM, Focused
+                              Other, 0x1018c8f50, {{33.0, 3108.0}, {68.0, 31.0}}, Focused
+                                StaticText, 0x1018c9070, {{43.0, 3115.0}, {58.0, 16.0}}, label: 'AMOUNT', value: AMOUNT, Focused
+                            Other, 0x1018c9190, {{34.0, 3109.0}, {334.0, 37.0}}, Focused
+                              Other, 0x1018c92b0, {{34.0, 3109.0}, {211.0, 37.0}}, Focused
+                                StaticText, 0x1018c93d0, {{34.0, 3117.0}, {70.0, 20.0}}, label: 'Base price', value: Base price, Focused
+                              Other, 0x1018c94f0, {{244.0, 3109.0}, {124.0, 37.0}}, Focused
+                                StaticText, 0x1018c9610, {{319.0, 3117.0}, {50.0, 20.0}}, label: '$60.00', value: $60.00, Focused
+                            Other, 0x1018c9730, {{34.0, 3144.0}, {334.0, 37.0}}, Focused
+                              Other, 0x1018c9850, {{34.0, 3144.0}, {211.0, 37.0}}, Focused
+                                StaticText, 0x1018c9970, {{34.0, 3152.0}, {146.0, 20.0}}, label: '2 bedrooms × $25.00', value: 2 bedrooms × $25.00, Focused
+                              Other, 0x1018c9a90, {{244.0, 3144.0}, {124.0, 37.0}}, Focused
+                                StaticText, 0x1018c9bb0, {{319.0, 3152.0}, {50.0, 20.0}}, label: '$50.00', value: $50.00, Focused
+                            Other, 0x1018c9cd0, {{34.0, 3179.0}, {334.0, 38.0}}, Focused
+                              Other, 0x1018c9df0, {{34.0, 3179.0}, {211.0, 38.0}}, Focused
+                                StaticText, 0x1018c9f10, {{34.0, 3187.0}, {143.0, 20.0}}, label: '1 bathroom × $30.00', value: 1 bathroom × $30.00, Focused
+                              Other, 0x1018ca030, {{244.0, 3179.0}, {124.0, 38.0}}, Focused
+                                StaticText, 0x1018ca150, {{319.0, 3187.0}, {50.0, 20.0}}, label: '$30.00', value: $30.00, Focused
+                            Other, 0x1018ca270, {{34.0, 3215.0}, {334.0, 38.0}}, Focused
+                              Other, 0x1018ca390, {{34.0, 3215.0}, {211.0, 38.0}}, Focused
+                                StaticText, 0x1018ca4b0, {{34.0, 3223.0}, {63.0, 20.0}}, label: 'Cleaning', value: Cleaning, Focused
+                              Other, 0x1018ca5d0, {{244.0, 3215.0}, {124.0, 38.0}}, Focused
+                                StaticText, 0x1018ca6f0, {{305.0, 3223.0}, {64.0, 20.0}}, label: '$140.00', value: $140.00, Focused
+                            Other, 0x1018ca810, {{34.0, 3251.0}, {334.0, 45.0}}, Focused
+                              Other, 0x1018ca930, {{34.0, 3251.0}, {211.0, 45.0}}, Focused
+                                StaticText, 0x1018caa50, {{34.0, 3264.0}, {41.0, 24.0}}, label: 'Total', value: Total, Focused
+                              Other, 0x1018cab70, {{244.0, 3251.0}, {124.0, 45.0}}, Focused
+                                StaticText, 0x1018cac90, {{293.0, 3264.0}, {76.0, 24.0}}, label: '$140.00', value: $140.00, Focused
+                          Other, 0x1018cadb0, {{34.0, 3306.0}, {334.0, 38.0}}, Focused
+                            StaticText, 0x1018caed0, {{34.0, 3306.0}, {311.0, 37.0}}, label: 'Your client sees one cleaning line plus add-ons and fees, not this working.', value: Your client sees o..., Focused
+                          Other, 0x1018caff0, {{16.0, 781.0}, {168.0, 49.0}}, Focused
+                            StaticText, 0x1018cb110, {{16.0, 782.0}, {43.0, 16.0}}, label: 'TOTAL', value: TOTAL, Focused
+                            StaticText, 0x1018cb230, {{16.0, 795.0}, {114.0, 35.0}}, label: '$140.00', value: $140.00, Focused
+                          Button, 0x1018cb350, {{198.0, 780.0}, {189.0, 49.0}}, label: 'Save as draft', Focused
+                        Other, 0x1018cb470, {{0.0, -3.0}, {402.0, 11.0}}, label: 'application status', Focused
+              Other, 0x1018cb590, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 4 pages', value: 0%
+                Other, 0x1018cb6b0, {{396.0, 65.7}, {3.0, 186.3}}
+              Other, 0x1018cb7d0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1018cb8f0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x1018cba10, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 4 pages', value: 0%
+                Other, 0x1018cbb30, {{396.0, 65.7}, {3.0, 186.3}}
+              Other, 0x1018cbc50, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x1018cbd70, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x1018cbe90, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1018cbfb0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1018cc0d0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101bb7920, pid: 55784, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x101aa8da0, pid: 55784, label: 'TidyQuote'
+  }

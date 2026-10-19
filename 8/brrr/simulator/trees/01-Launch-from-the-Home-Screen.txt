@@ -1,0 +1,59 @@
+Attributes: Application, 0x103a38bb0, pid: 16950, label: 'BRRR'
+Element subtree:
+ →Application, 0x103a38bb0, pid: 16950, label: 'BRRR'
+    Window (Main), 0x103976a90, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103959a60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103958310, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103959910, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103958430, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103958a80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103952ff0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103953110, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103967b70, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103967c90, {{0.0, 0.0}, {402.0, 874.0}}, label: 'BRRR'
+                        Other, 0x103969f20, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main'
+                          Other, 0x10396a040, {{22.0, 88.0}, {358.0, 15.0}}
+                            StaticText, 0x103957cb0, {{22.0, 88.0}, {39.0, 14.0}}, label: 'STEP', value: STEP 
+                            StaticText, 0x103957dd0, {{60.0, 88.0}, {9.0, 14.0}}, label: '2', value: 2
+                            StaticText, 0x103959190, {{68.0, 88.0}, {31.0, 14.0}}, label: 'OF', value:  OF 
+                            StaticText, 0x1039592b0, {{98.0, 88.0}, {9.0, 14.0}}, label: '3', value: 3
+                            StaticText, 0x1039593d0, {{106.0, 88.0}, {9.0, 14.0}}, label: ':', value: :
+                            StaticText, 0x1039594f0, {{22.0, 88.0}, {192.0, 14.0}}, label: 'YOUR STARTING ASSUMPTIONS', value: YOUR STARTING ASSU...
+                          Other, 0x10395de70, {{22.0, 108.0}, {358.0, 73.0}}, label: 'How do you usually buy?', value: 1, Focused
+                            StaticText, 0x10395df90, {{22.0, 108.0}, {281.0, 73.0}}, label: 'How do you usually buy?', value: How do you usually..., Focused
+                          Other, 0x10395e0b0, {{22.0, 191.0}, {358.0, 75.0}}
+                            StaticText, 0x10395e1d0, {{22.0, 192.0}, {355.0, 72.0}}, label: 'These become the starting point for every new deal. You can change them on any deal, and later in Settings.', value: These become the s...
+                          StaticText, 0x10395e2f0, {{22.0, 288.0}, {109.0, 17.0}}, label: 'Purchase money', value: Purchase money
+                          Other, 0x10395e410, {{22.0, 312.0}, {358.0, 50.0}}, label: 'How you usually buy'
+                            Switch, 0x10395e530, {{27.0, 317.0}, {114.0, 40.0}}, label: 'Hard money', value: 1
+                            Switch, 0x10395e650, {{144.0, 317.0}, {114.0, 40.0}}, label: 'Conventional', value: 0
+                            Switch, 0x10395e770, {{261.0, 317.0}, {114.0, 40.0}}, label: 'Cash', value: 0
+                          StaticText, 0x10395e9f0, {{22.0, 374.0}, {160.0, 17.0}}, label: 'Who manages the rental', value: Who manages the re...
+                          Other, 0x10395eb10, {{22.0, 398.0}, {358.0, 50.0}}, label: 'Who manages the rental'
+                            Switch, 0x10395ec30, {{27.0, 403.0}, {172.0, 40.0}}, label: 'A property manager', value: 1
+                            Switch, 0x10395ed50, {{203.0, 403.0}, {172.0, 40.0}}, label: 'I do', value: 0
+                          StaticText, 0x10395ee70, {{22.0, 455.0}, {291.0, 16.0}}, label: 'Management is budgeted at 9% of collected rent.', value: Management is budg...
+                          Other, 0x10395ef90, {{22.0, 484.0}, {358.0, 18.0}}, label: 'Refinance rate you expect'
+                            StaticText, 0x10395f0b0, {{22.0, 484.0}, {171.0, 17.0}}, label: 'Refinance rate you expect', value: Refinance rate you...
+                          TextField, 0x10395f1d0, {{23.0, 509.0}, {329.0, 46.0}}, label: 'Refinance rate you expect', placeholderValue: '0', value: 7.25
+                          StaticText, 0x10395f2f0, {{22.0, 563.0}, {313.0, 16.0}}, label: 'A 30-year investor loan. Ask a lender for today's rate.', value: A 30-year investor...
+                          Button, 0x10395f6f0, {{22.0, 772.0}, {76.0, 48.0}}, label: 'Back'
+                          Button, 0x10395f810, {{107.0, 772.0}, {273.0, 48.0}}, label: 'Continue'
+              Other, 0x10395f930, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10395fa50, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10395fb70, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10395fc90, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10395fdb0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10395fed0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10395fff0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103960350, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103960470, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103960590, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1039606b0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a38bb0, pid: 16950, label: 'BRRR'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.brrr'
+  Output: {
+    Application, 0x103c3a9f0, pid: 16950, label: 'BRRR'
+  }

@@ -1,0 +1,63 @@
+Attributes: Application, 0x103ab47f0, pid: 11012, label: 'FirstSip'
+Element subtree:
+ →Application, 0x103ab47f0, pid: 11012, label: 'FirstSip'
+    Window (Main), 0x103a41870, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a3f930, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a461c0, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103a46530, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103a2ef40, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x103a45780, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103a449c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103a46f40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a2bb90, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103a45080, {{0.0, 0.0}, {402.0, 874.0}}, label: 'FirstSip'
+                        Other, 0x103a34910, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main'
+                          Other, 0x103a40e40, {{22.0, 92.0}, {358.0, 726.0}}, label: 'form'
+                            Other, 0x103a422b0, {{110.0, 92.0}, {72.0, 19.0}}
+                              StaticText, 0x103a33040, {{110.0, 93.0}, {34.0, 17.0}}, label: 'Step', value: Step 
+                              StaticText, 0x103a2c5c0, {{143.0, 93.0}, {10.0, 17.0}}, label: '3', value: 3
+                              StaticText, 0x103a35370, {{152.0, 93.0}, {30.0, 17.0}}, label: 'of 3', value:  of 3
+                            Other, 0x103a37310, {{22.0, 121.0}, {358.0, 38.0}}, label: 'A few details', value: 1, Focused
+                              StaticText, 0x103a4b060, {{22.0, 121.0}, {175.0, 38.0}}, label: 'A few details', value: A few details, Focused
+                            Other, 0x103a3e840, {{22.0, 165.0}, {358.0, 46.0}}
+                              StaticText, 0x103a28f30, {{22.0, 166.0}, {350.0, 43.0}}, label: 'All optional except the time. You can change any of it in Settings.', value: All optional excep...
+                            Other, 0x103a33ac0, {{22.0, 231.0}, {358.0, 21.0}}, label: 'Strength (optional)'
+                              StaticText, 0x103a29970, {{22.0, 232.0}, {133.0, 18.0}}, label: 'Strength (optional)', value: Strength (optional)
+                            TextField, 0x103a3fc90, {{37.0, 260.0}, {328.0, 48.0}}, label: 'Strength (optional)'
+                            Other, 0x103a31be0, {{22.0, 316.0}, {358.0, 36.0}}
+                              StaticText, 0x103a30e20, {{22.0, 316.0}, {348.0, 35.0}}, label: 'As printed on your prescription. It is only shown back to you and on your report.', value: As printed on your...
+                            Other, 0x103a2a020, {{22.0, 366.0}, {358.0, 21.0}}, label: 'When do you usually take it?'
+                              StaticText, 0x103a3daa0, {{22.0, 367.0}, {198.0, 18.0}}, label: 'When do you usually take it?', value: When do you usuall...
+                            Other, 0x103a2d340, {{37.0, 404.0}, {328.0, 30.0}}, label: 'When do you usually take it?', value: 7:00 AM
+                            StaticText, 0x103a2c900, {{22.0, 460.0}, {87.0, 18.0}}, label: 'Weight units', value: Weight units
+                            Other, 0x103a4a620, {{22.0, 486.0}, {358.0, 52.0}}, label: 'Weight units'
+                              Other, 0x103a49f50, {{26.0, 490.0}, {174.0, 44.0}}, label: 'Pounds (lb)', value: 1
+                              Other, 0x103a2c250, {{202.0, 490.0}, {174.0, 44.0}}, label: 'Kilograms (kg)', value: 0
+                            Other, 0x103a3fff0, {{22.0, 552.0}, {358.0, 21.0}}, label: 'Start weight (optional)'
+                              StaticText, 0x103a442a0, {{22.0, 553.0}, {157.0, 18.0}}, label: 'Start weight (optional)', value: Start weight (opti...
+                            TextField, 0x103a333e0, {{37.0, 581.0}, {308.0, 48.0}}, label: 'Start weight (optional)'
+                            Button, 0x103a45400, {{22.0, 668.0}, {358.0, 58.0}}, label: 'Start using FirstSip'
+                            Button, 0x103a295f0, {{22.0, 732.0}, {68.0, 44.0}}, label: 'Back'
+                            Button, 0x103a2cc60, {{269.0, 732.0}, {111.0, 44.0}}, label: 'Skip setup'
+                            Other, 0x103a2aa50, {{22.0, 782.0}, {358.0, 36.0}}
+                              StaticText, 0x103a3f5d0, {{55.0, 782.0}, {147.0, 17.0}}, label: 'Your start date is today.', value: Your start date is...
+                              StaticText, 0x103a3d700, {{163.0, 782.0}, {184.0, 35.0}}, label: 'Follow your prescriber's instructions.', value: Follow your prescr...
+                        Other, 0x103a39bc0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x103a3b440, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103a3ad70, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a48e00, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a38740, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a434a0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x103a43810, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a43120, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a31520, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103a43b80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a41be0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a3c220, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103ab47f0, pid: 11012, label: 'FirstSip'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.firstsip'
+  Output: {
+    Application, 0x103a0eac0, pid: 11012, label: 'FirstSip'
+  }

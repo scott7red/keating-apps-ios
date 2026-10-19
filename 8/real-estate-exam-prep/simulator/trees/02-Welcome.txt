@@ -1,0 +1,47 @@
+Attributes: Application, 0x103756e30, pid: 28296, label: 'RE Coach'
+Element subtree:
+ →Application, 0x103756e30, pid: 28296, label: 'RE Coach'
+    Window (Main), 0x103741fa0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103741140, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10373fc50, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x103728e00, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x103740350, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10373d290, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103746780, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103745640, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10373dcb0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1037459b0, {{0.0, 0.0}, {402.0, 874.0}}, label: 'Real Estate License Exam Coach', Focused
+                        Other, 0x103744f40, {{0.0, 0.0}, {402.0, 874.0}}, label: 'main', Focused
+                          Other, 0x1037452c0, {{20.0, 80.0}, {362.0, 4.0}}, label: 'Setup progress', value: 2.00, Focused
+                          Other, 0x103744800, {{20.0, 104.0}, {362.0, 37.0}}, label: 'Create your profile', value: 1, Focused
+                            StaticText, 0x1037444a0, {{20.0, 104.0}, {260.0, 37.0}}, label: 'Create your profile', value: Create your profile, Focused
+                          Other, 0x103744ba0, {{20.0, 149.0}, {362.0, 48.0}}, Focused
+                            StaticText, 0x1037433d0, {{20.0, 151.0}, {304.0, 44.0}}, label: 'Your profile and everything you study stay on this device. Nothing is sent anywhere.', value: Your profile and e..., Focused
+                          Other, 0x103742660, {{20.0, 233.0}, {362.0, 21.0}}, label: 'First name or nickname', Focused
+                            StaticText, 0x103744140, {{20.0, 234.0}, {164.0, 18.0}}, label: 'First name or nickname', value: First name or nick..., Focused
+                          TextField, 0x10373f1d0, {{20.0, 262.0}, {362.0, 52.0}}, label: 'First name or nickname', Focused
+                          Other, 0x10374d290, {{20.0, 332.0}, {362.0, 76.0}}, Focused
+                            StaticText, 0x10374eee0, {{20.0, 332.0}, {72.0, 19.0}}, label: 'Add a PIN', value: Add a PIN, Focused
+                            StaticText, 0x103750060, {{20.0, 354.0}, {258.0, 53.0}}, label: 'Optional. A 4-digit PIN keeps people who share this device from mixing up their progress.', value: Optional. A 4-digi..., Focused
+                            Switch, 0x10374f9a0, {{20.0, 332.0}, {362.0, 76.0}}, label: 'Add a PIN Optional. A 4-digit PIN keeps people who share this device from mixing up their progress.', value: 0, Focused
+                          Button, 0x10374cbc0, {{20.0, 702.0}, {362.0, 52.0}}, label: 'Continue', Focused
+                          Button, 0x1037503e0, {{20.0, 764.0}, {362.0, 52.0}}, label: 'Back', Focused
+                        Other, 0x103750760, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x10375a830, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10374d5f0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103757b90, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x10375a160, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x10375b920, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x10375bca0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x10375b5d0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103753a40, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x1037525c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103752fd0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103731990, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103756e30, pid: 28296, label: 'RE Coach'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.carealestateexamprep'
+  Output: {
+    Application, 0x103757830, pid: 28296, label: 'RE Coach'
+  }

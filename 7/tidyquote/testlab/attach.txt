@@ -1,0 +1,7 @@
+tidyquote: TidyQuote - App Review.mp4, 1.4 MB, MD5 1645f459df33e3b1dda0a9581ac1b1cc (dry run: nothing is changed)
+App Store Connect app: TidyQuote (6823850027)
+  version 1.0: PREPARE_FOR_SUBMISSION
+Editable version: 1.0 (ed55c7c1-974d-46dc-a65e-a3a529672313)
+App Review Information: d9c9a1ee-0062-465f-925e-0a116ba64383
+Would POST /v1/appStoreReviewAttachments {"data":{"type":"appStoreReviewAttachments","attributes":{"fileName":"TidyQuote - App Review.mp4","fileSize":1436582},"relationships":{"appStoreReviewDetail":{"data":{"type":"appStoreReviewDetails","id":"d9c9a1ee-0062-465f-925e-0a116ba64383"}}}}}
+then PUT the file in the parts Apple returns, then PATCH it with uploaded: true and sourceFileChecksum 1645f459df33e3b1dda0a9581ac1b1cc.

@@ -1,0 +1,94 @@
+Attributes: Application, 0x1059dd6e0, pid: 16564, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x1059dd6e0, pid: 16564, label: 'TidyQuote'
+    Window (Main), 0x105b74230, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105bcb380, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105b51640, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x105b55360, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x105b50450, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x105bd85b0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105b53810, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105b86e50, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105bd7110, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105b58320, {{0.0, 0.0}, {402.0, 1178.0}}, label: 'TidyQuote'
+                        Other, 0x105b54470, {{0.0, 0.0}, {402.0, 1178.0}}, label: 'main', Focused
+                          Other, 0x105bd9630, {{0.0, 0.0}, {402.0, 131.0}}, label: 'section header', Focused
+                            Other, 0x105bd9210, {{72.0, 80.0}, {220.0, 25.0}}, label: 'Sparkle Test Cleaning', value: 1, Focused
+                              StaticText, 0x105b8d430, {{72.0, 79.0}, {220.0, 27.0}}, label: 'Sparkle Test Cleaning', value: Sparkle Test Clean..., Focused
+                            Other, 0x105b88150, {{72.0, 105.0}, {220.0, 20.0}}, Focused
+                              StaticText, 0x105b4d490, {{72.0, 106.0}, {114.0, 18.0}}, label: 'October 19, 2026', value: October 19, 2026, Focused
+                          Other, 0x105bd7950, {{34.0, 174.0}, {334.0, 27.0}}, Focused
+                            StaticText, 0x105b75e20, {{34.0, 174.0}, {235.0, 27.0}}, label: 'Ready to price a home?', value: Ready to price a h..., Focused
+                          Button, 0x105b75a00, {{34.0, 217.0}, {334.0, 62.0}}, label: 'New quote', Focused
+                          Other, 0x105bd8190, {{16.0, 323.0}, {228.0, 26.0}}, label: 'This month · October 2026', value: 2, Focused
+                            StaticText, 0x105bd7d70, {{16.0, 324.0}, {228.0, 23.0}}, label: 'This month · October 2026', value: This month · Octob..., Focused
+                          Other, 0x105b50830, {{16.0, 359.0}, {370.0, 206.0}}, Focused
+                            Other, 0x105bd8df0, {{32.0, 373.0}, {148.0, 17.0}}, Focused
+                              StaticText, 0x105bd6050, {{32.0, 374.0}, {58.0, 15.0}}, label: 'QUOTED', value: QUOTED, Focused
+                            Other, 0x105b54050, {{32.0, 391.0}, {148.0, 33.0}}, Focused
+                              StaticText, 0x105bd89d0, {{32.0, 391.0}, {71.0, 33.0}}, label: '$365', value: $365, Focused
+                            Other, 0x105b4ca10, {{32.0, 425.0}, {148.0, 18.0}}, Focused
+                              StaticText, 0x105b53c30, {{32.0, 425.0}, {75.0, 17.0}}, label: '1 quote sent', value: 1 quote sent, Focused
+                            Other, 0x105b52690, {{222.0, 373.0}, {148.0, 17.0}}, Focused
+                              StaticText, 0x105b54890, {{222.0, 374.0}, {67.0, 15.0}}, label: 'INVOICED', value: INVOICED, Focused
+                            Other, 0x105b4f7f0, {{222.0, 391.0}, {148.0, 33.0}}, Focused
+                              StaticText, 0x105b4e3e0, {{222.0, 391.0}, {71.0, 33.0}}, label: '$365', value: $365, Focused
+                            Other, 0x105b4fc10, {{222.0, 425.0}, {148.0, 18.0}}, Focused
+                              StaticText, 0x105bd7530, {{222.0, 425.0}, {52.0, 17.0}}, label: '1 invoice', value: 1 invoice, Focused
+                            Other, 0x105bd6cf0, {{32.0, 481.0}, {148.0, 17.0}}, Focused
+                              StaticText, 0x105b54cb0, {{32.0, 482.0}, {81.0, 15.0}}, label: 'COLLECTED', value: COLLECTED, Focused
+                            Other, 0x105bd9a50, {{32.0, 499.0}, {148.0, 33.0}}, Focused
+                              StaticText, 0x105b755e0, {{32.0, 499.0}, {71.0, 33.0}}, label: '$365', value: $365, Focused
+                            Other, 0x105bba620, {{32.0, 533.0}, {148.0, 18.0}}, Focused
+                              StaticText, 0x105bba740, {{32.0, 533.0}, {62.0, 17.0}}, label: '1 payment', value: 1 payment, Focused
+                            Other, 0x105bba860, {{222.0, 481.0}, {148.0, 17.0}}, Focused
+                              StaticText, 0x105bba980, {{222.0, 482.0}, {100.0, 15.0}}, label: 'OUTSTANDING', value: OUTSTANDING, Focused
+                            Other, 0x105bbaaa0, {{222.0, 499.0}, {148.0, 33.0}}, Focused
+                              StaticText, 0x105bbabc0, {{222.0, 499.0}, {36.0, 33.0}}, label: '$0', value: $0, Focused
+                            Other, 0x105bbace0, {{222.0, 533.0}, {148.0, 18.0}}, Focused
+                              StaticText, 0x105bbae00, {{222.0, 533.0}, {106.0, 17.0}}, label: '0 unpaid invoices', value: 0 unpaid invoices, Focused
+                          Other, 0x105bbaf20, {{16.0, 591.0}, {136.0, 26.0}}, label: 'Needs attention', value: 2, Focused
+                            StaticText, 0x105bbb040, {{16.0, 592.0}, {136.0, 23.0}}, label: 'Needs attention', value: Needs attention, Focused
+                          Other, 0x105bbb160, {{82.0, 641.0}, {288.0, 23.0}}, Focused
+                            StaticText, 0x105bbb280, {{82.0, 642.0}, {186.0, 20.0}}, label: 'Nothing needs attention', value: Nothing needs atte..., Focused
+                          Other, 0x105bbb3a0, {{82.0, 666.0}, {288.0, 40.0}}, Focused
+                            StaticText, 0x105bbb4c0, {{82.0, 667.0}, {229.0, 38.0}}, label: 'Unpaid invoices and quotes with no answer after 3 days show up here.', value: Unpaid invoices an..., Focused
+                          Other, 0x105bbb5e0, {{16.0, 746.0}, {127.0, 26.0}}, label: 'Recent activity', value: 2, Focused
+                            StaticText, 0x105bbb700, {{16.0, 747.0}, {127.0, 23.0}}, label: 'Recent activity', value: Recent activity, Focused
+                          Other, 0x105bbb820, {{16.0, 782.0}, {370.0, 272.0}}, Focused
+                            Other, 0x105bbb940, {{22.0, 788.0}, {358.0, 52.0}}, Focused
+                              Button, 0x105bbba60, {{22.0, 788.0}, {358.0, 52.0}}, label: 'Pat Example paid invoice INV-0001 Today', Focused
+                            Other, 0x105bbbb80, {{22.0, 840.0}, {358.0, 52.0}}, Focused
+                              Button, 0x105bbbca0, {{22.0, 840.0}, {358.0, 52.0}}, label: 'Invoice INV-0001 created for Pat Example Today', Focused
+                            Other, 0x105bbbdc0, {{22.0, 892.0}, {358.0, 52.0}}, Focused
+                              Button, 0x105bbbee0, {{22.0, 892.0}, {358.0, 52.0}}, label: 'Pat Example accepted quote Q-0001 Today', Focused
+                            Other, 0x105bbc000, {{22.0, 944.0}, {358.0, 52.0}}, Focused
+                              Button, 0x105bbc120, {{22.0, 944.0}, {358.0, 52.0}}, label: 'Quote Q-0001 sent to Pat Example Today', Focused
+                            Other, 0x105bbc240, {{22.0, 996.0}, {358.0, 52.0}}, Focused
+                              Button, 0x105bbc360, {{22.0, 996.0}, {358.0, 52.0}}, label: 'Quote Q-0001 created for Pat Example Today', Focused
+                        Other, 0x105bbc480, {{0.0, 778.0}, {577.0, 96.0}}, label: 'Main, navigation'
+                          Button, 0x105bbc5a0, {{0.0, 784.0}, {259.0, 50.0}}, label: 'Home'
+                          Button, 0x105bbc6c0, {{0.0, 784.0}, {262.0, 50.0}}, label: 'Quotes'
+                          Button, 0x105bbc7e0, {{0.0, 784.0}, {265.0, 50.0}}, label: 'Invoices'
+                          Button, 0x105bbc900, {{57.0, 784.0}, {261.0, 50.0}}, label: 'Clients'
+                          Button, 0x105bbca20, {{131.0, 784.0}, {265.0, 50.0}}, label: 'Settings'
+                        Other, 0x105bbcb40, {{0.0, 707.0}, {484.0, 45.0}}, label: 'application status'
+                          StaticText, 0x105bbcc60, {{132.0, 720.0}, {166.0, 19.0}}, label: 'Example data removed', value: Example data removed
+              Other, 0x105bbcd80, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x105bbcea0, {{396.0, 65.0}, {3.0, 399.3}}
+              Other, 0x105bbcfc0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105bbd0e0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x105bbd200, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x105bbd320, {{396.0, 65.0}, {3.0, 399.3}}
+              Other, 0x105bbd440, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105bbd560, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x105bbd680, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105bbd7a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105bbd8c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1059dd6e0, pid: 16564, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x105c5ac40, pid: 16564, label: 'TidyQuote'
+  }

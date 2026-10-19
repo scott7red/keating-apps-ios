@@ -1,0 +1,26 @@
+1792378500.248	setup	-[RealEstateTour testTour]
+1792378500.818	note	StoreKit test session from Review.storekit
+1792378500.819	step	Launch from the Home Screen
+1792378503.298	screen	402 874
+1792378509.032	start	
+1792378511.196	tap	247 233
+1792378524.895	step	Welcome
+1792378525.133	show	What is inside
+1792378531.832	show	free sample
+1792378539.744	tap	201 790
+1792378541.646	step	Setup: a profile and an exam
+1792378543.297	tap	201 288
+1792378547.794	note	keyboard Done found as candidate 0: Done
+1792378547.839	tap	361 505
+1792378550.160	tap	201 728
+1792378555.608	tap	201 408
+1792378558.016	tap	201 728
+1792378562.127	tap	201 728
+1792378564.615	tap	201 728
+1792378567.095	tap	201 728
+1792378570.248	step	The free sample: practice questions
+1792378570.414	show	Free sample
+1792378573.616	tap	201 821
+1792378576.440	tap	201 527
+1792378594.091	fail	-[RealEstateTour testTour]
+1792378594.790	end	

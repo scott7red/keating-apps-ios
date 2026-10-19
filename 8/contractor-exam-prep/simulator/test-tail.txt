@@ -1,0 +1,250 @@
+    t =    51.25s         Synthesize event
+    t =    51.25s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    51.27s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    51.29s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    51.31s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    51.33s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    52.23s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    55.44s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "CSLB Law & Business"'
+    t =    55.47s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label BEGINSWITH[c] "CSLB Law & Business"'
+    t =    55.50s     Find the Any (Element at index 0)
+    t =    55.53s     Find the Any (Element at index 1)
+    t =    55.56s     Checking existence of `Keyboard (First Match)`
+    t =    55.58s     Find the "CSLB Law & Business" StaticText
+    t =    55.61s     Find the Window (First Match)
+    t =    55.61s     Find the Window (First Match)
+    t =    55.62s     Checking existence of `Keyboard (First Match)`
+    t =    55.64s     Press Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 218.5) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 585.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    55.64s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    55.64s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    55.66s         Check for interrupting elements affecting "Contractor" Application
+    t =    55.69s         Synthesize event
+    t =    55.70s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    55.71s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    55.73s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    55.75s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    55.77s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    56.90s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    57.42s     Find the "CSLB Law & Business" StaticText
+    t =    57.46s     Find the "CSLB Law & Business" StaticText
+    t =    57.51s     Find the Window (First Match)
+    t =    58.23s     Find the "CSLB Law & Business" StaticText
+    t =    58.27s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (156.0, 272.5)
+    t =    58.27s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    58.28s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    58.30s         Check for interrupting elements affecting "Contractor" Application
+    t =    58.33s         Synthesize event
+    t =    58.34s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    58.36s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    58.38s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    58.69s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    59.90s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Continue" OR identifier ==[c] "Continue")'
+    t =    59.93s     Checking existence of `Keyboard (First Match)`
+    t =    59.96s     Find the Any (Element at index 0)
+    t =    60.00s     Find the Window (First Match)
+    t =    60.00s     Find the Window (First Match)
+    t =    60.01s     Checking existence of `Keyboard (First Match)`
+    t =    60.04s     Press Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    60.04s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    60.04s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    60.06s         Check for interrupting elements affecting "Contractor" Application
+    t =    60.09s         Synthesize event
+    t =    60.09s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    60.11s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    60.13s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    60.15s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    60.17s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    61.31s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    63.56s     Find the "Continue" Button
+    t =    63.59s     Find the "Continue" Button
+    t =    63.63s     Find the Window (First Match)
+    t =    63.63s     Find the Window (First Match)
+    t =    63.64s     Checking existence of `Keyboard (First Match)`
+    t =    63.67s     Press Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    63.67s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    63.67s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    63.69s         Check for interrupting elements affecting "Contractor" Application
+    t =    63.72s         Synthesize event
+    t =    63.72s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    63.74s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    63.75s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    63.78s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    63.81s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    64.95s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    65.46s     Find the "Continue" Button
+    t =    65.50s     Find the "Continue" Button
+    t =    65.54s     Find the Window (First Match)
+    t =    65.54s     Find the "Continue" Button
+    t =    66.28s     Find the "Continue" Button
+    t =    66.32s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 727.5)
+    t =    66.32s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    66.32s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    66.34s         Check for interrupting elements affecting "Contractor" Application
+    t =    66.36s         Synthesize event
+    t =    66.37s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    66.38s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    66.40s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    66.70s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    68.02s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Four steps to exam day"'
+    t =    68.04s     Find the Any (Element at index 0)
+    t =    69.58s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Continue" OR identifier ==[c] "Continue")'
+    t =    69.60s     Checking existence of `Keyboard (First Match)`
+    t =    69.62s     Find the Any (Element at index 0)
+    t =    69.65s     Find the Window (First Match)
+    t =    69.66s     Find the "Continue" Button
+    t =    70.40s     Find the "Continue" Button
+    t =    70.43s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    70.43s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    70.43s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    70.45s         Check for interrupting elements affecting "Contractor" Application
+    t =    70.47s         Synthesize event
+    t =    70.48s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    70.49s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    70.51s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    70.81s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    72.12s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I do not have a date yet" OR identifier ==[c] "I do not have a date yet")'
+    t =    72.13s     Checking existence of `Keyboard (First Match)`
+    t =    72.15s     Find the Any (Element at index 0)
+    t =    72.17s     Find the Window (First Match)
+    t =    72.18s     Find the "I do not have a date yet" Button
+    t =    72.91s     Find the "I do not have a date yet" Button
+    t =    72.93s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    72.93s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    72.94s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    72.95s         Check for interrupting elements affecting "Contractor" Application
+    t =    72.97s         Synthesize event
+    t =    72.97s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    72.98s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    73.00s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    73.29s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    74.60s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Start studying" OR identifier ==[c] "Start studying")'
+    t =    74.62s     Checking existence of `Keyboard (First Match)`
+    t =    74.64s     Find the Any (Element at index 0)
+    t =    74.67s     Find the Window (First Match)
+    t =    74.68s     Find the "Start studying" Button
+    t =    75.42s     Find the "Start studying" Button
+    t =    75.45s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    75.45s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    75.46s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    75.48s         Check for interrupting elements affecting "Contractor" Application
+    t =    75.50s         Synthesize event
+    t =    75.51s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    75.52s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    75.54s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    75.94s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    77.97s Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =    78.49s Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =    78.57s The free sample: practice questions
+    t =    78.57s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Free sample"'
+    t =    78.61s     Find the Any (Element at index 0)
+    t =    78.66s     Checking existence of `Keyboard (First Match)`
+    t =    78.69s     Find the "Free sample, region" Other
+    t =    78.73s     Find the Window (First Match)
+    t =    81.25s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Practice" OR identifier ==[c] "Practice")'
+    t =    81.92s     Find the Any (Element at index 0)
+    t =    81.99s     Find the Window (First Match)
+    t =    82.00s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 821.5)
+    t =    82.00s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    82.00s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    82.03s         Check for interrupting elements affecting "Contractor" Application
+    t =    82.08s         Synthesize event
+    t =    82.08s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    82.11s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    82.14s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    82.46s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    83.99s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Start a Quick 10" OR identifier ==[c] "Start a Quick 10")'
+    t =    84.02s     Checking existence of `Keyboard (First Match)`
+    t =    84.06s     Find the Any (Element at index 0)
+    t =    84.11s     Find the Window (First Match)
+    t =    84.82s     Find the "Start a Quick 10" Button
+    t =    84.86s     Tap Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'[0.00, 0.00] -> (201.0, 527.0)
+    t =    84.86s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    84.86s         Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    84.88s         Check for interrupting elements affecting "Contractor" Application
+    t =    84.90s         Synthesize event
+    t =    84.91s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    84.93s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    84.95s             Find the Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+    t =    85.26s         Wait for com.keatingkonsultancy.cacontractorlawbusinessexamprep to idle
+    t =    86.77s     Waiting 15.0s for Button (First Match) to exist
+    t =    87.80s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    87.80s             Checking existence of `Button (First Match)`
+    t =    87.82s             Capturing element debug description
+    t =    88.86s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    88.87s             Checking existence of `Button (First Match)`
+    t =    88.97s             Capturing element debug description
+    t =    89.82s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    89.82s             Checking existence of `Button (First Match)`
+    t =    89.85s             Capturing element debug description
+    t =    90.78s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    90.78s             Checking existence of `Button (First Match)`
+    t =    90.81s             Capturing element debug description
+    t =    91.85s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    91.85s             Checking existence of `Button (First Match)`
+    t =    91.88s             Capturing element debug description
+    t =    92.79s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    92.79s             Checking existence of `Button (First Match)`
+    t =    92.81s             Capturing element debug description
+    t =    93.86s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    93.86s             Checking existence of `Button (First Match)`
+    t =    93.89s             Capturing element debug description
+    t =    94.78s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    94.78s             Checking existence of `Button (First Match)`
+    t =    94.81s             Capturing element debug description
+    t =    95.80s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    95.80s             Checking existence of `Button (First Match)`
+    t =    95.83s             Capturing element debug description
+    t =    96.81s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    96.81s             Checking existence of `Button (First Match)`
+    t =    96.84s             Capturing element debug description
+    t =    97.77s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    97.77s             Checking existence of `Button (First Match)`
+    t =    97.80s             Capturing element debug description
+    t =    98.81s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    98.81s             Checking existence of `Button (First Match)`
+    t =    98.83s             Capturing element debug description
+    t =    99.78s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    99.78s             Checking existence of `Button (First Match)`
+    t =    99.80s             Capturing element debug description
+    t =   100.80s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =   100.80s             Checking existence of `Button (First Match)`
+    t =   100.82s             Capturing element debug description
+    t =   101.78s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =   101.78s             Checking existence of `Button (First Match)`
+    t =   101.80s             Capturing element debug description
+    t =   101.80s         Checking existence of `Button (First Match)`
+    t =   101.82s     Collecting debug information to assist test failure triage
+    t =   101.82s         Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =   101.86s     Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =   102.03s     Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =   102.07s     Requesting snapshot of accessibility hierarchy for app with pid 27168
+    t =   102.57s     Requesting snapshot of accessibility hierarchy for app with pid 27168
+    t =   102.61s     Added attachment named '04-no-answer-A.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ExamTour.swift:53: error: -[ReviewTour.ContractorTour testTour] : failed - No answer A
+    t =   102.70s Tear Down
+    t =   102.70s     Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =   102.88s     Requesting snapshot of accessibility hierarchy for app with pid 37224
+    t =   102.91s     Requesting snapshot of accessibility hierarchy for app with pid 27168
+    t =   103.11s     Requesting snapshot of accessibility hierarchy for app with pid 27168
+    t =   103.16s     Added attachment named '05-failure.txt'
+    t =   103.30s     Added attachment named 'failure'
+Test Case '-[ReviewTour.ContractorTour testTour]' failed (103.680 seconds).
+Test Suite 'ContractorTour' failed at 2026-10-19 10:57:05.641.
+	 Executed 1 test, with 1 failure (0 unexpected) in 103.680 (103.682) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 10:57:05.642.
+	 Executed 1 test, with 1 failure (0 unexpected) in 103.680 (103.683) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 10:57:05.643.
+	 Executed 1 test, with 1 failure (0 unexpected) in 103.680 (103.685) seconds
+2026-10-19 10:57:25.634 xcodebuild[36036:95445] [MT] IDETestOperationsObserverDebug: 138.918 elapsed -- Testing started completed.
+2026-10-19 10:57:25.635 xcodebuild[36036:95445] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 10:57:25.635 xcodebuild[36036:95445] [MT] IDETestOperationsObserverDebug: 138.918 sec, +138.918 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	ContractorTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

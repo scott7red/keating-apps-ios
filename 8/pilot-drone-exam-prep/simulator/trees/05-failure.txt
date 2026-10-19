@@ -1,0 +1,191 @@
+Attributes: Application, 0x101e510c0, pid: 23696, label: 'Pilot+Drone'
+Element subtree:
+ →Application, 0x101e510c0, pid: 23696, label: 'Pilot+Drone'
+    Window (Main), 0x101e55510, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e56c80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101e39c70, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x101e349a0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x101e25830, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x101e1e8b0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101e55f10, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101e57330, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101e3de20, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101e22870, {{0.0, 0.0}, {402.0, 874.0}}, label: 'Pilot & Drone License Coach'
+                        Other, 0x101e576b0, {{0.0, 0.0}, {402.0, 834.0}}, label: 'main', Focused
+                          Other, 0x101e38e70, {{10.0, 72.0}, {382.0, 44.0}}, label: 'section header', Focused
+                            Button, 0x101e3a6e0, {{10.0, 72.0}, {44.0, 44.0}}, label: 'Close. Your progress is saved', Focused
+                            StaticText, 0x101e33140, {{60.0, 78.0}, {58.0, 18.0}}, label: 'Quick 10', value: Quick 10, Focused
+                            StaticText, 0x101e58b40, {{117.0, 78.0}, {12.0, 18.0}}, label: '·', value:  · , Focused
+                            StaticText, 0x101e3cc70, {{128.0, 78.0}, {9.0, 18.0}}, label: '1', value: 1, Focused
+                            StaticText, 0x101e2f960, {{136.0, 78.0}, {21.0, 18.0}}, label: 'of', value:  of , Focused
+                            StaticText, 0x101e4e3f0, {{156.0, 78.0}, {18.0, 18.0}}, label: '10', value: 10, Focused
+                            Other, 0x101e52560, {{60.0, 103.0}, {282.0, 7.0}}, label: 'Session progress', value: 0.00, Focused
+                            Switch, 0x101e3a360, {{348.0, 72.0}, {44.0, 44.0}}, label: 'Bookmark this question', value: 0, Focused
+                          Other, 0x101e40b60, {{20.0, 134.0}, {362.0, 494.0}}, label: 'After deviating from a Part 107 rule to deal with an in-flight emergency, what report must the remote pilot in command make?, article', Focused
+                            Other, 0x101e54400, {{20.0, 134.0}, {362.0, 17.0}}, Focused
+                              StaticText, 0x101e54790, {{20.0, 135.0}, {114.0, 15.0}}, label: 'PART 107 RULES', value: PART 107 RULES, Focused
+                              StaticText, 0x101e58450, {{133.0, 135.0}, {14.0, 15.0}}, label: '·', value:  · , Focused
+                              StaticText, 0x101e59590, {{146.0, 135.0}, {176.0, 15.0}}, label: 'IN-FLIGHT EMERGENCIES', value: IN-FLIGHT EMERGENC..., Focused
+                            Other, 0x101e58ed0, {{20.0, 161.0}, {362.0, 84.0}}, label: 'After deviating from a Part 107 rule to deal with an in-flight emergency, what report must the remote pilot in command make?', value: 1, Focused
+                              StaticText, 0x101e4ff90, {{20.0, 163.0}, {358.0, 79.0}}, label: 'After deviating from a Part 107 rule to deal with an in-flight emergency, what report must the remote pilot in command make?', value: After deviating fr..., Focused
+                            Other, 0x101e51430, {{20.0, 267.0}, {362.0, 361.0}}, label: 'Answer choices', Focused
+                              Switch, 0x101e587b0, {{20.0, 267.0}, {362.0, 83.0}}, label: 'A written report of the deviation, if the FAA requests one', value: 0, Focused
+                              Switch, 0x101e815e0, {{20.0, 359.0}, {362.0, 84.0}}, label: 'No report, because emergencies are exempt from all reporting', value: 0, Focused
+                              Switch, 0x101e81250, {{20.0, 452.0}, {362.0, 83.0}}, label: 'A written report to the FAA within 10 days in every case', value: 0, Focused
+                              Switch, 0x101e80470, {{20.0, 544.0}, {362.0, 84.0}}, label: 'A telephone call to the nearest control tower within 24 hours', value: 0, Focused
+                          Other, 0x101e80ec0, {{19.0, 626.0}, {1.0, 2.0}}, label: 'application status', Focused
+                            StaticText, 0x101e68530, {{19.0, 627.0}, {92.0, 21.0}}, label: '10 questions', value: 10 questions, Focused
+                            StaticText, 0x101e7efd0, {{110.0, 627.0}, {29.0, 21.0}}, label: 'left', value:  left, Focused
+                        Other, 0x101e7fdb0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x101e80120, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101e7fa40, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101e7f6d0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101e7ec40, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x101e7f360, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                Other, 0x101e7e8b0, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x101e7e550, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x101e7de50, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x101e7e1e0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e7daf0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101e7d760, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101e510c0, pid: 23696, label: 'Pilot+Drone'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.privatepilottestprep'
+  Output: {
+    Application, 0x101ef7d60, pid: 23696, label: 'Pilot+Drone'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x101d75ac0, pid: 14067, label: ' '
+Element subtree:
+ →Application, 0x101d75ac0, pid: 14067, label: ' '
+    Window, 0x101d5b3f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d5c090, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101d5a1f0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d51720, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d7cec0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101da0920, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101d56d30, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x101d76440, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d8bbe0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d8b3a0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101d94c50, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d85500, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101d941f0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101d99250, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101d9b770, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101d646d0, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x101d844d0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d981d0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101d82f10, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x101d99a90, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101d9a6f0, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x101d8cd70, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d98e30, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x101d99eb0, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x101d756a0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x101d9bb90, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x101d9ab10, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x101d9b350, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x101d74a40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d985f0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d97770, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101d9bfb0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d98a10, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d97db0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d97350, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d76020, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d840b0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d57770, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d99670, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d90080, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d73de0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d74e60, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d77080, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101d74200, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d8bfe0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d57b90, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d661c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d92f30, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101d909f0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d54e20, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d8ef20, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d80c60, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101d8d770, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101d8dfb0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x101d4e820, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x101d74620, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101d8e7f0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x101da0370, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x101d9a2d0, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x101d75280, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x101d76840, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x101d62090, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101d86150, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101d8c820, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101d86570, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.privatepilottestprep:sceneID:com.keatingkonsultancy.privatepilottestprep-default', label: 'Pilot+Drone'
+                  Other, 0x101d848f0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101d76c60, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101d86990, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x101d8db90, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x101e705a0, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x101e6d4f0, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x101e6ff00, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x101e6fb80, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101e6ed30, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x101e6f090, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x101e6e9b0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x101e6dbd0, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x101e681e0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101e6e610, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101e6d170, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x101e6cdd0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x101e6c330, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x101e6ca40, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x101e6b110, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x101e6c6c0, {{55.7, 22.3}, {36.7, 20.3}}, label: '10:55 AM'
+                                                      Other, 0x101e6ad90, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x101e69670, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x101e6aa20, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x101e68f80, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x101e6a6b0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x101e68c20, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x101e69300, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101b82b50, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x101b9b400, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x101b4d500, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x101b4baa0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x101b8c860, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x101e688b0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101e67780, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101e67e70, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101e62f30, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101e65240, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e65910, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101e64ec0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101e655c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e64480, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101e64b50, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101e647e0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e63280, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x101e64110, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101e624c0, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x101e60670, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x101e551b0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x101e63d90, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x101e62820, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x101e62ba0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e62170, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101e61e30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e61770, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x101e61420, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x101e61ae0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x101d75ac0, pid: 14067, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x101e2e500, pid: 14067, label: ' '
+  }

@@ -1,0 +1,79 @@
+1792392514.425	setup	-[ShiftLedgerTour testTour]
+1792392514.430	step	Launch from the Home Screen
+1792392516.659	screen	402 874
+1792392521.340	start	
+1792392523.409	tap	247 233
+1792392530.721	step	Welcome
+1792392532.676	show	Estimates only, not tax advice
+1792392535.881	tap	201 723
+1792392537.847	step	Your first job
+1792392539.881	tap	201 278
+1792392546.401	tap	199 328
+1792392550.461	note	keyboard Done found as candidate 0: Done
+1792392550.740	tap	361 532
+1792392553.298	tap	109 478
+1792392556.140	tap	201 544
+1792392557.999	show	IRS.gov
+1792392563.044	tap	201 722
+1792392564.948	step	Your tax profile
+1792392565.100	show	Filing status
+1792392567.584	tap	212 371
+1792392571.757	tap	361 532
+1792392574.234	tap	201 647
+1792392576.253	step	Log a shift with tips
+1792392578.960	tap	201 306
+1792392581.944	tap	290 374
+1792392584.731	tap	175 469
+1792392589.086	tap	361 532
+1792392593.998	tap	125 303
+1792392598.622	tap	299 249
+1792392602.386	tap	361 532
+1792392603.948	show	Tips kept
+1792392605.652	show	Hourly with tips
+1792392611.213	tap	201 804
+1792392614.377	step	This week and the year so far
+1792392614.572	show	Hourly with tips
+1792392616.261	show	Tips logged
+1792392617.914	show	Estimated deduction
+1792392621.550	show	Toward the caps
+1792392623.999	step	The shift list
+1792392624.695	tap	120 809
+1792392628.185	step	The deduction and how it is worked out
+1792392628.860	note	tab Deduction: reported at x 135, tapped at 201
+1792392628.860	tap	201 809
+1792392630.955	show	Total deduction
+1792392632.618	show	Est. federal tax saved
+1792392634.311	show	Breakdown
+1792392647.487	tap	201 120
+1792392655.759	step	The W-2 check
+1792392663.751	show	W-2 check
+1792392697.625	show	Your log
+1792392702.597	show	Difference
+1792392705.745	step	The summary PDF, through the share sheet
+1792392722.218	note	skipped a tap: the element is not there
+1792392745.718	note	the share sheet did not appear
+1792392747.127	step	The quick calculator
+1792392747.848	note	tab Tools: reported at x 193, tapped at 281
+1792392747.849	tap	281 808
+1792392753.946	show	Quick calculator
+1792392757.168	step	Example data
+1792392757.891	note	tab Settings: reported at x 269, tapped at 361
+1792392757.891	tap	361 809
+1792392770.346	tap	201 658
+1792392774.969	tap	271 804
+1792392777.572	note	tab Home: reported at x 129, tapped at 40
+1792392777.573	tap	40 809
+1792392779.687	show	You are looking at example data
+1792392789.754	note	tab Settings: reported at x 269, tapped at 361
+1792392789.754	tap	361 809
+1792392803.131	tap	201 658
+1792392807.725	tap	266 804
+1792392810.088	step	Help, Privacy policy and About
+1792392811.323	tap	201 127
+1792392841.896	note	skipped a tap: the element is not there
+1792392869.404	note	skipped a tap: the element is not there
+1792392880.011	step	Erase all data
+1792392897.122	note	skipped a tap: the element is not there
+1792392914.011	note	skipped a tap: the element is not there
+1792392939.020	fail	-[ShiftLedgerTour testTour]
+1792392940.224	end	

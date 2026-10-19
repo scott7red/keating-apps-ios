@@ -1,0 +1,86 @@
+{
+  "rawSeconds": 604.2,
+  "finalSeconds": 417.7,
+  "finalMinutes": "6:58",
+  "size": "1206x2622",
+  "megabytes": 16.1,
+  "trimmed": {
+    "from": 186.3,
+    "to": 554.3
+  },
+  "taps": 36,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 20,
+    "of": 36,
+    "first": -0.17,
+    "last": -0.09
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Starting assumptions",
+    "Analyze a deal: Buy, Rehab, Rent, Refinance",
+    "The results",
+    "The property address",
+    "The PDF report, through the share sheet",
+    "Deals",
+    "Markets near me, with the location prompt"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done",
+    "note: no iOS prompt appeared"
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "title": "Launch from the Home Screen",
+      "start": 0,
+      "end": 26.3
+    },
+    {
+      "n": 2,
+      "title": "Starting assumptions",
+      "start": 26.3,
+      "end": 39
+    },
+    {
+      "n": 3,
+      "title": "Analyze a deal: Buy, Rehab, Rent, Refinance",
+      "start": 39,
+      "end": 115.7
+    },
+    {
+      "n": 4,
+      "title": "The results",
+      "start": 115.7,
+      "end": 198.4
+    },
+    {
+      "n": 5,
+      "title": "The property address",
+      "start": 198.4,
+      "end": 275.9
+    },
+    {
+      "n": 6,
+      "title": "The PDF report, through the share sheet",
+      "start": 275.9,
+      "end": 330
+    },
+    {
+      "n": 7,
+      "title": "Deals",
+      "start": 330,
+      "end": 336.7
+    },
+    {
+      "n": 8,
+      "title": "Markets near me, with the location prompt",
+      "start": 336.7,
+      "end": 364.9
+    }
+  ]
+}

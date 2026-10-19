@@ -1,0 +1,25 @@
+10:44:55 xcrun simctl status_bar D2E841B5-717D-4F00-8C4D-8AC8539F8737 override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+10:45:05 xcrun simctl ui D2E841B5-717D-4F00-8C4D-8AC8539F8737 appearance light
+  -> exit 0
+10:45:05 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+10:45:06 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+10:45:07 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+10:45:07 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+10:45:08 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+10:45:08 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+10:45:09 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+10:45:10 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+10:45:10 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+10:45:11 xcrun simctl spawn D2E841B5-717D-4F00-8C4D-8AC8539F8737 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+10:45:11 xcrun simctl addmedia D2E841B5-717D-4F00-8C4D-8AC8539F8737 review-tours/media/logo.png

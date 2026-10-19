@@ -1,0 +1,1 @@
+model=iphone14pro,version=16.6,locale=en_US,orientation=portrait

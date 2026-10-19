@@ -1,0 +1,71 @@
+{
+  "rawSeconds": 179.5,
+  "finalSeconds": 139.5,
+  "finalMinutes": "2:20",
+  "size": "1206x2622",
+  "megabytes": 3.3,
+  "trimmed": {
+    "from": 37.7,
+    "to": 162
+  },
+  "taps": 18,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "drift": {
+    "anchors": 13,
+    "of": 18,
+    "first": 1.6,
+    "last": -0.37
+  },
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome",
+    "Your first job",
+    "Your tax profile",
+    "Log a shift with tips",
+    "This week and the year so far"
+  ],
+  "notes": [
+    "note: keyboard Done found as candidate 0: Done"
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "title": "Launch from the Home Screen",
+      "start": 0,
+      "end": 16.1
+    },
+    {
+      "n": 2,
+      "title": "Welcome",
+      "start": 16.1,
+      "end": 23.9
+    },
+    {
+      "n": 3,
+      "title": "Your first job",
+      "start": 23.9,
+      "end": 52.7
+    },
+    {
+      "n": 4,
+      "title": "Your tax profile",
+      "start": 52.7,
+      "end": 64.8
+    },
+    {
+      "n": 5,
+      "title": "Log a shift with tips",
+      "start": 64.8,
+      "end": 102.9
+    },
+    {
+      "n": 6,
+      "title": "This week and the year so far",
+      "start": 102.9,
+      "end": 121.3
+    }
+  ]
+}

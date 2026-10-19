@@ -1,0 +1,4 @@
+Debug-iphoneos/App.app: valid on disk
+Debug-iphoneos/App.app: satisfies its Designated Requirement
+Debug-iphoneos/ReviewTour-Runner.app: valid on disk
+Debug-iphoneos/ReviewTour-Runner.app: satisfies its Designated Requirement

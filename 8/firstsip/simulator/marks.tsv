@@ -1,0 +1,22 @@
+1792379047.753	setup	-[FirstSipTour testTour]
+1792379047.757	step	Launch from the Home Screen
+1792379050.142	screen	402 874
+1792379054.645	start	
+1792379056.699	tap	247 233
+1792379069.563	step	Welcome
+1792379071.471	show	It is not medical advice
+1792379076.059	tap	201 761
+1792379077.920	step	Before you start
+1792379078.018	show	It never recommends, calculates or adjusts a dose
+1792379083.147	tap	201 739
+1792379085.030	step	Which medicine
+1792379086.915	tap	201 311
+1792379091.169	tap	201 739
+1792379093.105	step	A few details
+1792379093.977	tap	113 512
+1792379096.525	tap	201 697
+1792379098.564	step	The label checklist and a dose
+1792379100.971	tap	201 546
+1792379103.103	tap	201 652
+1792379121.476	fail	-[FirstSipTour testTour]
+1792379123.484	end	

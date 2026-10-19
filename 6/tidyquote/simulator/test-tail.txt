@@ -1,0 +1,250 @@
+    t =   277.36s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   277.67s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   278.98s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "App language"'
+    t =   279.01s     Find the Any (Element at index 0)
+    t =   279.04s     Checking existence of `Keyboard (First Match)`
+    t =   279.08s     Find the "App language" StaticText
+    t =   279.13s     Find the Window (First Match)
+    t =   280.34s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Language for quotes and invoices"'
+    t =   280.39s     Find the Any (Element at index 0)
+    t =   280.46s     Checking existence of `Keyboard (First Match)`
+    t =   280.50s     Find the "Language for quotes and invoices" StaticText
+    t =   280.56s     Find the Window (First Match)
+    t =   282.58s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42} AND (label ==[c] "Back" OR identifier ==[c] "Back")'
+    t =   282.64s     Find the Any (Element at index 0)
+    t =   282.70s     Checking existence of `Keyboard (First Match)`
+    t =   282.78s     Find the "Back" Button
+    t =   282.85s     Find the Window (First Match)
+    t =   282.90s     Find the "Back" Button
+    t =   283.60s     Find the "Back" Button
+    t =   283.63s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (28.0, 92.0)
+    t =   283.63s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   283.63s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   283.67s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   283.72s         Synthesize event
+    t =   283.73s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   283.76s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   283.82s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   284.17s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   285.51s Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   285.77s Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   285.83s Example data
+    t =   285.83s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Try the app with example data"'
+    t =   285.86s     Checking existence of `Keyboard (First Match)`
+    t =   285.92s     Find the Any (Element at index 0)
+    t =   286.00s     Find the Window (First Match)
+    t =   286.01s     Find the Window (First Match)
+    t =   286.02s     Checking existence of `Keyboard (First Match)`
+    t =   286.18s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   286.18s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   286.19s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   286.23s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   286.27s         Synthesize event
+    t =   286.27s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   286.30s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   286.32s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   286.34s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   286.37s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   287.52s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   288.23s     Find the "Try the app with example data Adds example clients, quotes and invoices. You can remove them again here." Button
+    t =   288.36s     Find the "Try the app with example data Adds example clients, quotes and invoices. You can remove them again here." Button
+    t =   288.46s     Find the Window (First Match)
+    t =   289.19s     Find the "Try the app with example data Adds example clients, quotes and invoices. You can remove them again here." Button
+    t =   289.26s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 661.5)
+    t =   289.27s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   289.27s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   289.33s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   289.40s         Synthesize event
+    t =   289.40s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   289.45s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   289.49s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   289.80s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   291.12s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Add examples" OR identifier ==[c] "Add examples")'
+    t =   291.14s     Checking existence of `Keyboard (First Match)`
+    t =   291.16s     Find the Any (Element at index 0)
+    t =   291.20s     Find the Window (First Match)
+    t =   291.92s     Find the "Add examples" Button
+    t =   291.96s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (281.0, 528.5)
+    t =   291.96s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   291.97s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   292.00s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   292.05s         Synthesize event
+    t =   292.05s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   292.07s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   292.09s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   292.49s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   294.01s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Home" OR identifier ==[c] "Home")'
+    t =   294.70s     Find the Any (Element at index 0)
+    t =   294.79s     Find the Window (First Match)
+    t =   294.81s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (40.2, 809.0)
+    t =   294.81s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   294.81s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   294.85s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   294.91s         Synthesize event
+    t =   294.92s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   294.96s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   295.01s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   295.36s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   296.87s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Needs attention"'
+    t =   296.98s     Find the Any (Element at index 0)
+    t =   297.10s     Checking existence of `Keyboard (First Match)`
+    t =   297.17s     Find the "Needs attention" Other
+    t =   297.32s     Find the Window (First Match)
+    t =   297.38s     Find the "Needs attention" Other
+    t =   300.03s     Find the Window (First Match)
+    t =   300.05s     Find the Window (First Match)
+    t =   300.06s     Checking existence of `Keyboard (First Match)`
+    t =   300.17s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 349.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   300.17s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   300.18s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   300.25s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   300.30s         Synthesize event
+    t =   300.31s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   300.34s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   300.43s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   300.45s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   300.52s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   301.50s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   305.19s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Remove example data" OR identifier ==[c] "Remove example data")'
+    t =   305.24s     Checking existence of `Keyboard (First Match)`
+    t =   305.31s     Find the Any (Element at index 0)
+    t =   305.36s     Find the Window (First Match)
+    t =   305.38s     Find the Window (First Match)
+    t =   305.39s     Checking existence of `Keyboard (First Match)`
+    t =   305.43s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 218.5) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 585.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   305.43s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   305.44s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   305.48s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   305.52s         Synthesize event
+    t =   305.53s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   305.57s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   305.60s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   305.62s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   305.66s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   306.80s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   307.42s     Find the "Remove example data" Button
+    t =   307.49s     Find the "Remove example data" Button
+    t =   307.54s     Find the Window (First Match)
+    t =   308.26s     Find the "Remove example data" Button
+    t =   308.31s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (141.5, 197.0)
+    t =   308.32s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   308.32s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   308.35s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   308.39s         Synthesize event
+    t =   308.40s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   308.43s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   308.49s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   308.82s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   310.13s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Remove examples" OR identifier ==[c] "Remove examples")'
+    t =   310.17s     Checking existence of `Keyboard (First Match)`
+    t =   310.22s     Find the Any (Element at index 0)
+    t =   310.28s     Find the Window (First Match)
+    t =   311.00s     Find the "Remove examples" Button
+    t =   311.04s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (281.0, 505.5)
+    t =   311.04s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   311.04s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   311.08s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   311.10s         Synthesize event
+    t =   311.11s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   311.13s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   311.15s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   311.47s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   313.01s Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   313.66s Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   313.86s Help, Privacy policy and About
+    t =   313.86s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Settings" OR identifier ==[c] "Settings")'
+    t =   314.53s     Find the Any (Element at index 0)
+    t =   314.60s     Find the Window (First Match)
+    t =   314.61s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (361.8, 809.0)
+    t =   314.61s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   314.61s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   314.65s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   314.69s         Synthesize event
+    t =   314.69s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   314.72s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   314.76s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   315.09s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   316.61s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Help"'
+    t =   316.67s     Checking existence of `Keyboard (First Match)`
+    t =   316.73s     Find the Any (Element at index 0)
+    t =   316.78s     Find the Window (First Match)
+    t =   316.80s     Find the "Help How things work and what the numbers mean" Button
+    t =   317.79s     Find the "Help How things work and what the numbers mean" Button
+    t =   317.88s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 813.5)
+    t =   317.88s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   317.88s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   317.92s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   317.96s         Synthesize event
+    t =   317.96s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   318.01s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   318.13s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   318.67s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   320.19s     Find the Window (First Match)
+    t =   320.23s     Find the Window (First Match)
+    t =   320.25s     Checking existence of `Keyboard (First Match)`
+    t =   320.32s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 349.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   320.32s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   320.32s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   320.35s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   320.42s         Synthesize event
+    t =   320.43s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   320.47s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   321.27s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   321.34s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   323.56s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   324.85s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   326.66s     Find the Window (First Match)
+    t =   327.66s     Find the Window (First Match)
+    t =   327.87s     Checking existence of `Keyboard (First Match)`
+    t =   328.78s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (201.0, 349.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   328.78s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   328.79s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   329.78s         Check for interrupting elements affecting "TidyQuote" Application
+    t =   330.01s         Synthesize event
+    t =   330.04s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   330.11s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   330.14s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   330.21s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   330.33s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =   331.42s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =   333.15s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42} AND (label ==[c] "Back" OR identifier ==[c] "Back")'
+    t =   333.38s     Find the Window (First Match)
+    t =   333.45s     Get number of matches for: Descendants matching type Button
+    t =   333.55s     Find the Button (Element at index 0)
+    t =   333.67s     Find the Button (Element at index 1)
+    t =   334.08s     Find the Button (Element at index 2)
+    t =   334.28s     Find the Button (Element at index 3)
+    t =   334.49s     Find the Button (Element at index 4)
+    t =   334.54s     Find the Button (Element at index 5)
+    t =   334.65s     Find the Button (Element at index 6)
+    t =   334.71s     Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   334.96s     Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   335.05s     Requesting snapshot of accessibility hierarchy for app with pid 2579
+    t =   335.41s     Requesting snapshot of accessibility hierarchy for app with pid 2579
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/TidyQuoteTour.swift:102: error: -[ReviewTour.TidyQuoteTour testTour] : failed - No back button at the top left
+    t =   335.65s Tear Down
+    t =   335.66s     Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   335.89s     Requesting snapshot of accessibility hierarchy for app with pid 16582
+    t =   335.98s     Requesting snapshot of accessibility hierarchy for app with pid 2579
+    t =   336.24s     Requesting snapshot of accessibility hierarchy for app with pid 2579
+    t =   336.60s     Added attachment named 'failure'
+Test Case '-[ReviewTour.TidyQuoteTour testTour]' failed (338.577 seconds).
+Test Suite 'TidyQuoteTour' failed at 2026-10-19 11:27:09.514.
+	 Executed 1 test, with 1 failure (0 unexpected) in 338.577 (338.579) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 11:27:09.515.
+	 Executed 1 test, with 1 failure (0 unexpected) in 338.577 (338.580) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 11:27:09.516.
+	 Executed 1 test, with 1 failure (0 unexpected) in 338.577 (338.582) seconds
+2026-10-19 11:27:58.287 xcodebuild[13511:43658] [MT] IDETestOperationsObserverDebug: 418.931 elapsed -- Testing started completed.
+2026-10-19 11:27:58.288 xcodebuild[13511:43658] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 11:27:58.288 xcodebuild[13511:43658] [MT] IDETestOperationsObserverDebug: 418.931 sec, +418.931 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	TidyQuoteTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

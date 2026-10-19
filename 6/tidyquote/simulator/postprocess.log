@@ -1,0 +1,41 @@
+{
+  "rawSeconds": 383.7,
+  "finalSeconds": 326.2,
+  "finalMinutes": "5:26",
+  "size": "1206x2622",
+  "megabytes": 10.6,
+  "trimmed": {
+    "from": 57.5,
+    "to": 375.4
+  },
+  "taps": 42,
+  "spedUp": [],
+  "aligned": true,
+  "alignment": null,
+  "failed": true,
+  "stepsRun": [
+    "Launch from the Home Screen",
+    "Welcome, in English and Spanish",
+    "Your business",
+    "Your starting prices",
+    "A new quote for a new client",
+    "Home details and the service",
+    "Price breakdown, then save",
+    "The quote as a PDF, through the share sheet",
+    "Accepted, then turned into an invoice",
+    "A payment",
+    "A logo for the quotes and invoices",
+    "Language",
+    "Example data",
+    "Help, Privacy policy and About"
+  ],
+  "notes": [
+    "note: icon TidyQuote not found; opening the app directly",
+    "note: keyboard Done found as candidate 0: Done",
+    "note: tab Settings: reported at x 263, tapped at 361",
+    "note: no photos in the picker",
+    "note: tab Home: reported at x 129, tapped at 40",
+    "note: tab Settings: reported at x 263, tapped at 361"
+  ],
+  "steps": 14
+}

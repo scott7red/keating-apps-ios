@@ -1,0 +1,35 @@
+11:33:58 xcrun simctl status_bar ADEA98FB-D672-4687-BB94-4897E2820A28 override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+11:34:04 xcrun simctl ui ADEA98FB-D672-4687-BB94-4897E2820A28 appearance light
+  -> exit 0
+11:34:05 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+11:34:07 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+11:34:09 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+11:34:09 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+11:34:10 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+11:34:11 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+11:34:12 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+11:34:12 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+11:34:13 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+11:34:14 xcrun simctl spawn ADEA98FB-D672-4687-BB94-4897E2820A28 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+11:34:14 xcrun simctl addmedia ADEA98FB-D672-4687-BB94-4897E2820A28 review-tours/media/logo.png
+  -> exit 142
+11:35:15 xcrun simctl addmedia ADEA98FB-D672-4687-BB94-4897E2820A28 review-tours/media/logo.png
+  -> exit 0
+11:36:45 xcrun simctl launch ADEA98FB-D672-4687-BB94-4897E2820A28 com.apple.mobilesafari
+com.apple.mobilesafari: 51995
+  -> exit 0
+11:37:04 xcrun simctl terminate ADEA98FB-D672-4687-BB94-4897E2820A28 com.apple.mobilesafari
+  -> exit 0
+11:37:13 xcrun simctl install ADEA98FB-D672-4687-BB94-4897E2820A28 /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

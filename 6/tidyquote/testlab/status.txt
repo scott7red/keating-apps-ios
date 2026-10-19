@@ -1,0 +1,2 @@
+failed (gcloud exit 10)
+no video in the results

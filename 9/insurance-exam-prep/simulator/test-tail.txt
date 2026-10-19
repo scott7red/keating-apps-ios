@@ -1,0 +1,250 @@
+    t =   105.29s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   105.29s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   105.33s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   105.36s         Synthesize event
+    t =   105.37s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   105.40s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   105.46s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   105.80s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   107.32s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Start a Quick 10" OR identifier ==[c] "Start a Quick 10")'
+    t =   107.36s     Checking existence of `Keyboard (First Match)`
+    t =   107.38s     Find the Any (Element at index 0)
+    t =   107.43s     Find the Window (First Match)
+    t =   108.15s     Find the "Start a Quick 10" Button
+    t =   108.47s     Find the "Start a Quick 10" Button
+    t =   108.52s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 527.0)
+    t =   108.52s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   108.52s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   108.55s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   108.58s         Synthesize event
+    t =   108.59s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   108.61s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   108.64s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   108.96s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   110.47s     Waiting 15.0s for Any (First Match) to exist
+    t =   111.48s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =   111.48s             Checking existence of `Any (First Match)`
+    t =   111.53s     Get number of matches for: Elements matching predicate 'elementType IN {40, 9, 10, 12}'
+    t =   111.57s     Waiting 5.0s for Any (Element at index 0) to exist
+    t =   112.61s         Checking `Expect predicate `existsNoRetry == 1` for object Any (Element at index 0)`
+    t =   112.61s             Checking existence of `Any (Element at index 0)`
+    t =   112.64s     Checking existence of `Keyboard (First Match)`
+    t =   112.67s     Find the Any (Element at index 0)
+    t =   112.71s     Find the Window (First Match)
+    t =   114.23s     Find the "A life settlement" Switch
+    t =   114.54s     Find the "A life settlement" Switch
+    t =   114.58s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 372.5)
+    t =   114.58s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   114.58s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   114.60s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   114.64s         Synthesize event
+    t =   114.64s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   114.66s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   114.69s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   115.01s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   117.06s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Next question"'
+    t =   117.10s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label CONTAINS[c] "Next question"'
+    t =   117.14s     Checking existence of `Keyboard (First Match)`
+    t =   117.17s     Find the Any (Element at index 0)
+    t =   117.23s     Find the Window (First Match)
+    t =   117.24s     Find the Window (First Match)
+    t =   117.25s     Checking existence of `Keyboard (First Match)`
+    t =   117.27s     Press Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   117.27s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   117.28s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   117.30s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   117.35s         Synthesize event
+    t =   117.35s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   117.38s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   117.41s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   117.43s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   117.45s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   118.60s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   119.12s     Find the "Next question" Button
+    t =   121.19s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Next question" OR identifier ==[c] "Next question")'
+    t =   121.22s     Checking existence of `Keyboard (First Match)`
+    t =   121.26s     Find the Any (Element at index 0)
+    t =   121.31s     Find the Window (First Match)
+    t =   121.32s     Find the Window (First Match)
+    t =   121.33s     Checking existence of `Keyboard (First Match)`
+    t =   121.36s     Press Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 244.7) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   121.36s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   121.37s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   121.40s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   121.45s         Synthesize event
+    t =   121.46s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   121.49s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   121.52s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   121.54s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   121.56s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   122.72s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   123.24s     Find the "Next question" Button
+    t =   124.00s     Find the "Next question" Button
+    t =   124.31s     Find the "Next question" Button
+    t =   124.38s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 798.0)
+    t =   124.38s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   124.40s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   124.43s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   124.48s         Synthesize event
+    t =   124.48s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   124.51s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   124.54s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   124.86s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   126.07s     Waiting 15.0s for Any (First Match) to exist
+    t =   127.11s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =   127.11s             Checking existence of `Any (First Match)`
+    t =   127.17s     Get number of matches for: Elements matching predicate 'elementType IN {40, 9, 10, 12}'
+    t =   127.20s     Waiting 5.0s for Any (Element at index 1) to exist
+    t =   128.24s         Checking `Expect predicate `existsNoRetry == 1` for object Any (Element at index 1)`
+    t =   128.24s             Checking existence of `Any (Element at index 1)`
+    t =   128.28s     Checking existence of `Keyboard (First Match)`
+    t =   128.31s     Find the Any (Element at index 1)
+    t =   128.35s     Find the Window (First Match)
+    t =   129.87s     Find the "The dollar amount of a loss" Switch
+    t =   130.19s     Find the "The dollar amount of a loss" Switch
+    t =   130.26s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 353.0)
+    t =   130.26s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   130.26s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   130.28s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   130.32s         Synthesize event
+    t =   130.32s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   130.35s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   130.38s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   130.75s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   134.29s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Close"'
+    t =   134.34s     Checking existence of `Keyboard (First Match)`
+    t =   134.36s     Find the Any (Element at index 0)
+    t =   134.40s     Find the Window (First Match)
+    t =   134.41s     Find the Window (First Match)
+    t =   134.42s     Checking existence of `Keyboard (First Match)`
+    t =   134.47s     Press Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 218.5) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 585.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   134.47s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   134.47s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   134.50s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   134.54s         Synthesize event
+    t =   134.55s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   134.58s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   134.61s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   134.63s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   134.66s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   135.82s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   136.33s     Find the "Close. Your progress is saved" Button
+    t =   136.39s     Find the "Close. Your progress is saved" Button
+    t =   136.44s     Find the Window (First Match)
+    t =   136.46s     Find the "Close. Your progress is saved" Button
+    t =   137.24s     Find the "Close. Your progress is saved" Button
+    t =   137.55s     Find the "Close. Your progress is saved" Button
+    t =   137.61s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (32.0, 94.0)
+    t =   137.61s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   137.62s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   137.64s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   137.68s         Synthesize event
+    t =   137.69s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   137.71s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   137.74s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   138.08s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   139.59s Requesting snapshot of accessibility hierarchy for app with pid 15651
+    t =   140.79s Requesting snapshot of accessibility hierarchy for app with pid 15651
+    t =   140.97s The free sample: the study guide
+    t =   140.97s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Learn" OR identifier ==[c] "Learn")'
+    t =   141.65s     Find the Any (Element at index 0)
+    t =   141.75s     Find the Window (First Match)
+    t =   141.76s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (120.6, 821.5)
+    t =   141.76s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   141.77s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   141.82s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   141.89s         Synthesize event
+    t =   141.89s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   141.94s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   141.98s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   142.37s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   144.01s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "Start reading:"'
+    t =   144.08s     Checking existence of `Keyboard (First Match)`
+    t =   144.12s     Find the Any (Element at index 0)
+    t =   144.20s     Find the Window (First Match)
+    t =   144.92s     Find the "Start reading: Types of Life Policies" Button
+    t =   145.28s     Find the "Start reading: Types of Life Policies" Button
+    t =   145.34s     Tap Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 373.0)
+    t =   145.34s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   145.35s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   145.38s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   145.45s         Synthesize event
+    t =   145.45s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   145.48s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   145.52s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   145.88s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   147.91s     Find the Window (First Match)
+    t =   147.94s     Find the Window (First Match)
+    t =   147.95s     Checking existence of `Keyboard (First Match)`
+    t =   148.15s     Press Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 305.9) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   148.15s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   148.16s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   148.31s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   148.50s         Synthesize event
+    t =   148.52s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   148.69s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   148.86s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   149.02s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   149.18s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   150.39s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   153.89s     Find the Window (First Match)
+    t =   153.92s     Find the Window (First Match)
+    t =   153.94s     Checking existence of `Keyboard (First Match)`
+    t =   154.17s     Press Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'[0.00, 0.00] -> (201.0, 305.9) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =   154.17s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   154.18s         Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   154.35s         Check for interrupting elements affecting "Ins Coach" Application
+    t =   154.51s         Synthesize event
+    t =   154.55s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   154.69s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   154.91s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   155.03s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   155.15s             Find the Target Application 'com.keatingkonsultancy.califehealthinsuranceexamprep'
+    t =   156.32s         Wait for com.keatingkonsultancy.califehealthinsuranceexamprep to idle
+    t =   159.72s     Find the Window (First Match)
+    t =   159.73s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42} AND label BEGINSWITH[c] "Back"'
+    t =   159.97s     Find the Any (Element at index 0)
+    t =   160.19s     Get number of matches for: Descendants matching type Button
+    t =   160.33s     Find the Button (Element at index 0)
+    t =   160.48s     Find the Button (Element at index 1)
+    t =   160.62s     Find the "Back to Learn" Button
+    t =   160.76s     Find the Button (Element at index 2)
+    t =   160.91s     Get number of matches for: Descendants matching type Link
+    t =   161.05s     Find the Link (Element at index 0)
+    t =   161.19s     Find the Link (Element at index 1)
+    t =   161.33s     Find the Link (Element at index 2)
+    t =   161.48s     Find the Link (Element at index 3)
+    t =   161.59s     Find the Link (Element at index 4)
+    t =   161.74s     Requesting snapshot of accessibility hierarchy for app with pid 15651
+    t =   166.43s     Requesting snapshot of accessibility hierarchy for app with pid 15651
+    t =   166.96s     Requesting snapshot of accessibility hierarchy for app with pid 3766
+    t =   167.54s     Requesting snapshot of accessibility hierarchy for app with pid 3766
+    t =   167.61s     Added attachment named '05-no-back-button.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ExamTour.swift:64: error: -[ReviewTour.InsuranceTour testTour] : failed - No back button at the top left
+    t =   168.02s Tear Down
+    t =   168.03s     Requesting snapshot of accessibility hierarchy for app with pid 15651
+    t =   172.78s     Requesting snapshot of accessibility hierarchy for app with pid 15651
+    t =   173.47s     Requesting snapshot of accessibility hierarchy for app with pid 3766
+    t =   173.88s     Requesting snapshot of accessibility hierarchy for app with pid 3766
+    t =   173.95s     Added attachment named '06-failure.txt'
+    t =   174.25s     Added attachment named 'failure'
+Test Case '-[ReviewTour.InsuranceTour testTour]' failed (175.505 seconds).
+Test Suite 'InsuranceTour' failed at 2026-10-19 11:39:49.307.
+	 Executed 1 test, with 1 failure (0 unexpected) in 175.505 (175.508) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 11:39:49.310.
+	 Executed 1 test, with 1 failure (0 unexpected) in 175.505 (175.511) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 11:39:49.310.
+	 Executed 1 test, with 1 failure (0 unexpected) in 175.505 (175.514) seconds
+2026-10-19 11:41:05.644 xcodebuild[13633:44811] [MT] IDETestOperationsObserverDebug: 290.060 elapsed -- Testing started completed.
+2026-10-19 11:41:05.647 xcodebuild[13633:44811] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 11:41:05.647 xcodebuild[13633:44811] [MT] IDETestOperationsObserverDebug: 290.064 sec, +290.064 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	InsuranceTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

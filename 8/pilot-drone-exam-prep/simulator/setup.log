@@ -1,0 +1,26 @@
+10:53:24 xcrun simctl status_bar 20AD9057-50EF-4009-97D5-3A0377A68BE5 override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+  -> exit 0
+10:53:30 xcrun simctl ui 20AD9057-50EF-4009-97D5-3A0377A68BE5 appearance light
+  -> exit 0
+10:53:31 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardAutocorrection -bool NO
+  -> exit 0
+10:53:31 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardPrediction -bool NO
+  -> exit 0
+10:53:32 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardShowPredictionBar -bool NO
+  -> exit 0
+10:53:32 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardCheckSpelling -bool NO
+  -> exit 0
+10:53:33 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardAutocapitalization -bool NO
+  -> exit 0
+10:53:33 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardSmartPunctuation -bool NO
+  -> exit 0
+10:53:34 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences DidShowContinuousPathIntroduction -bool YES
+  -> exit 0
+10:53:35 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences DidShowGestureKeyboardIntroduction -bool YES
+  -> exit 0
+10:53:35 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences KeyboardDidShowProductivityTutorial -bool YES
+  -> exit 0
+10:53:36 xcrun simctl spawn 20AD9057-50EF-4009-97D5-3A0377A68BE5 defaults write com.apple.Preferences UIKeyboardDidShowInternationalInfoIntroduction -bool YES
+  -> exit 0
+10:53:36 xcrun simctl install 20AD9057-50EF-4009-97D5-3A0377A68BE5 /Users/runner/work/_temp/dd/Build/Products/Debug-iphonesimulator/App.app
+  -> exit 0

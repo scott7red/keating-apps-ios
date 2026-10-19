@@ -1,0 +1,134 @@
+Attributes: Application, 0x10603f330, pid: 23510, label: 'Contractor'
+Element subtree:
+ →Application, 0x10603f330, pid: 23510, label: 'Contractor'
+    Window (Main), 0x106016880, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10605c740, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106298730, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1062897f0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x106253820, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x106296a70, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10623edd0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10626b4c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10626da20, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x106246750, {{0.0, 0.0}, {402.0, 2006.0}}, label: 'Contractor License Exam Coach'
+                        Other, 0x1062463e0, {{0.0, 0.0}, {402.0, 2006.0}}, label: 'main', Focused
+                          Other, 0x106273dc0, {{0.0, 0.0}, {402.0, 497.0}}, label: 'Today, region', Focused
+                            Other, 0x1062747d0, {{20.0, 78.0}, {115.0, 32.0}}, label: 'Contractor', value: 1, Focused
+                              StaticText, 0x106275570, {{20.0, 80.0}, {115.0, 28.0}}, label: 'Contractor', value: Contractor, Focused
+                            Button, 0x105fc4860, {{142.0, 72.0}, {146.0, 44.0}}, label: 'Exam: CSLB Law & Business. Change exam', Focused
+                            Button, 0x105f643a0, {{296.0, 72.0}, {44.0, 44.0}}, label: 'Search', Focused
+                            Button, 0x105f3b0d0, {{348.0, 72.0}, {44.0, 44.0}}, label: 'Settings', Focused
+                            StaticText, 0x105f84580, {{55.0, 191.0}, {19.0, 38.0}}, label: '1', value: 1, Focused
+                            StaticText, 0x105f63b60, {{34.0, 226.0}, {61.0, 17.0}}, label: 'day streak', value: day streak, Focused
+                            Image, 0x105fc8fd0, {{113.0, 120.0}, {176.0, 176.0}}, label: 'Readiness estimate not ready yet: 2 of 40 answers', Focused
+                            Button, 0x105f353d0, {{293.0, 172.0}, {89.0, 72.0}}, label: 'Set exam date', Focused
+                            Other, 0x105f49850, {{63.0, 304.0}, {276.0, 36.0}}, Focused
+                              StaticText, 0x105fc9bc0, {{112.0, 304.0}, {178.0, 35.0}}, label: 'Answer 38 more questions to see your readiness estimate.', value: Answer 38 more que..., Focused
+                            StaticText, 0x106276320, {{20.0, 357.0}, {109.0, 17.0}}, label: 'Course progress', value: Course progress, Focused
+                            StaticText, 0x106271810, {{293.0, 357.0}, {10.0, 17.0}}, label: '4', value: 4, Focused
+                            StaticText, 0x1062545b0, {{302.0, 357.0}, {80.0, 17.0}}, label: '% complete', value: % complete, Focused
+                            Other, 0x1062587e0, {{20.0, 383.0}, {362.0, 8.0}}, label: 'Course completion', value: 4.00, Focused
+                            Button, 0x106256860, {{20.0, 409.0}, {362.0, 66.0}}, label: 'Continue where you left off Quick 10 · question 2 of 10', Focused
+                          Other, 0x106230ce0, {{20.0, 517.0}, {362.0, 199.0}}, label: 'Free sample, region', Focused
+                            StaticText, 0x106230970, {{56.0, 533.0}, {96.0, 15.0}}, label: 'FREE SAMPLE', value: FREE SAMPLE, Focused
+                            Other, 0x106242f40, {{36.0, 554.0}, {330.0, 84.0}}, Focused
+                              StaticText, 0x106241000, {{36.0, 555.0}, {99.0, 19.0}}, label: 'You are trying', value: You are trying , Focused
+                              StaticText, 0x106235190, {{134.0, 555.0}, {150.0, 19.0}}, label: 'CSLB Law & Business', value: CSLB Law & Business, Focused
+                              StaticText, 0x1062416c0, {{283.0, 555.0}, {9.0, 19.0}}, label: ':', value: : , Focused
+                              StaticText, 0x10624d4e0, {{36.0, 555.0}, {274.0, 61.0}}, label: '25 practice questions and the Business Organization & Licensing study guide', value: 25 practice questi..., Focused
+                              StaticText, 0x10624b9a0, {{291.0, 597.0}, {5.0, 19.0}}, label: '.', value: ., Focused
+                              StaticText, 0x106236db0, {{36.0, 597.0}, {321.0, 40.0}}, label: 'The rest of the exam unlocks with a one-time purchase.', value: The rest of the ex..., Focused
+                            Button, 0x10622f100, {{22.0, 656.0}, {255.0, 44.0}}, label: 'See what the full exam includes', Focused
+                          Button, 0x106278490, {{20.0, 732.0}, {362.0, 115.0}}, label: 'My answers Got right 1Need to study 1Not tried 23', Focused
+                          Other, 0x10625f1e0, {{20.0, 875.0}, {362.0, 15.0}}, label: 'YOUR PATH TO EXAM DAY', value: 2, Focused
+                            StaticText, 0x105fc9380, {{20.0, 875.0}, {181.0, 15.0}}, label: 'YOUR PATH TO EXAM DAY', value: YOUR PATH TO EXAM ..., Focused
+                          Other, 0x105fc7f10, {{20.0, 900.0}, {362.0, 554.0}}, Focused
+                            Other, 0x105f342a0, {{20.0, 900.0}, {362.0, 141.0}}, Focused
+                              Other, 0x105f4a250, {{88.0, 913.0}, {158.0, 22.0}}, label: 'Step 1: Learn the material', value: 3, Focused
+                                StaticText, 0x105fc7290, {{87.0, 923.0}, {42.0, 22.0}}, label: 'Step ', value: Step , Focused
+                                StaticText, 0x105f959d0, {{128.0, 923.0}, {9.0, 22.0}}, label: '1', value: 1, Focused
+                                StaticText, 0x105f24e80, {{136.0, 923.0}, {5.0, 22.0}}, label: ':', value: :, Focused
+                                StaticText, 0x105f34d00, {{88.0, 913.0}, {158.0, 22.0}}, label: 'Learn the material', value: Learn the material, Focused
+                              StaticText, 0x105fc7af0, {{342.0, 916.0}, {10.0, 18.0}}, label: '0', value: 0, Focused
+                              StaticText, 0x105f49e30, {{351.0, 916.0}, {15.0, 18.0}}, label: '%', value: %, Focused
+                              Other, 0x105fc4ba0, {{88.0, 938.0}, {278.0, 19.0}}, Focused
+                                StaticText, 0x105fc4cc0, {{88.0, 938.0}, {173.0, 18.0}}, label: '0 of 11 guide sections read', value: 0 of 11 guide sect..., Focused
+                              Button, 0x105fc4de0, {{88.0, 969.0}, {278.0, 44.0}}, label: 'Read: Business Organization & Licensing', Focused
+                            Other, 0x105fc4f00, {{20.0, 1041.0}, {362.0, 141.0}}, Focused
+                              Other, 0x105fc5020, {{88.0, 1054.0}, {141.0, 22.0}}, label: 'Step 2: Practice by topic', value: 3, Focused
+                                StaticText, 0x105fc5140, {{87.0, 1064.0}, {42.0, 22.0}}, label: 'Step ', value: Step , Focused
+                                StaticText, 0x105fc5260, {{128.0, 1064.0}, {10.0, 22.0}}, label: '2', value: 2, Focused
+                                StaticText, 0x105fc5380, {{137.0, 1064.0}, {6.0, 22.0}}, label: ':', value: :, Focused
+                                StaticText, 0x105fc54a0, {{88.0, 1054.0}, {141.0, 22.0}}, label: 'Practice by topic', value: Practice by topic, Focused
+                              StaticText, 0x105fc55c0, {{342.0, 1057.0}, {10.0, 18.0}}, label: '8', value: 8, Focused
+                              StaticText, 0x105fc56e0, {{351.0, 1057.0}, {15.0, 18.0}}, label: '%', value: %, Focused
+                              Other, 0x105fc5800, {{88.0, 1079.0}, {278.0, 19.0}}, Focused
+                                StaticText, 0x105fc5920, {{88.0, 1079.0}, {179.0, 18.0}}, label: '2 of 25 questions answered', value: 2 of 25 questions ..., Focused
+                              Button, 0x105fc5a40, {{88.0, 1110.0}, {278.0, 44.0}}, label: 'Practice: Contract Requirements & Execution', Focused
+                            Other, 0x105fc5b60, {{20.0, 1182.0}, {362.0, 145.0}}, Focused
+                              Other, 0x105fc5c80, {{88.0, 1199.0}, {157.0, 22.0}}, label: 'Step 3: Take practice tests', value: 3, Focused
+                                StaticText, 0x105fc5da0, {{87.0, 1209.0}, {42.0, 22.0}}, label: 'Step ', value: Step , Focused
+                                StaticText, 0x105fc5ec0, {{128.0, 1209.0}, {11.0, 22.0}}, label: '3', value: 3, Focused
+                                StaticText, 0x105fc5fe0, {{138.0, 1209.0}, {6.0, 22.0}}, label: ':', value: :, Focused
+                                StaticText, 0x105fc6100, {{88.0, 1199.0}, {157.0, 22.0}}, label: 'Take practice tests', value: Take practice tests, Focused
+                              StaticText, 0x105fc6220, {{353.0, 1208.0}, {255.0, 21.0}}, label: 'Locked: included with the full exam', value: Locked: included w..., Focused
+                              Other, 0x105fc6340, {{88.0, 1224.0}, {278.0, 19.0}}, Focused
+                                StaticText, 0x105fc6460, {{88.0, 1224.0}, {173.0, 18.0}}, label: 'Included with the full exam', value: Included with the ..., Focused
+                              Button, 0x105fc6580, {{88.0, 1255.0}, {278.0, 44.0}}, label: 'See the full exam', Focused
+                            Other, 0x105fc66a0, {{20.0, 1327.0}, {362.0, 127.0}}, Focused
+                              Other, 0x105fc67c0, {{88.0, 1340.0}, {159.0, 22.0}}, label: 'Step 4: Review weak spots', value: 3, Focused
+                                StaticText, 0x105fc68e0, {{87.0, 1350.0}, {42.0, 22.0}}, label: 'Step ', value: Step , Focused
+                                StaticText, 0x105fc6a00, {{128.0, 1350.0}, {12.0, 22.0}}, label: '4', value: 4, Focused
+                                StaticText, 0x105fc6b20, {{139.0, 1350.0}, {5.0, 22.0}}, label: ':', value: :, Focused
+                                StaticText, 0x105fc6c40, {{88.0, 1340.0}, {159.0, 22.0}}, label: 'Review weak spots', value: Review weak spots, Focused
+                              StaticText, 0x105fc6d60, {{342.0, 1343.0}, {10.0, 18.0}}, label: '4', value: 4, Focused
+                              StaticText, 0x105fc6e80, {{351.0, 1343.0}, {15.0, 18.0}}, label: '%', value: %, Focused
+                              Other, 0x105fbbad0, {{88.0, 1365.0}, {278.0, 19.0}}, Focused
+                                StaticText, 0x105fbbbf0, {{88.0, 1365.0}, {112.0, 18.0}}, label: '1 weak spot to fix', value: 1 weak spot to fix, Focused
+                              Button, 0x105fbbd10, {{88.0, 1396.0}, {278.0, 44.0}}, label: 'Fix 1 weak spot', Focused
+                          Other, 0x105fbbe30, {{20.0, 1482.0}, {362.0, 15.0}}, label: 'TODAY', value: 2, Focused
+                            StaticText, 0x105fbbf50, {{20.0, 1482.0}, {48.0, 15.0}}, label: 'TODAY', value: TODAY, Focused
+                          StaticText, 0x105fbc070, {{36.0, 1524.0}, {83.0, 17.0}}, label: 'Today's goal', value: Today's goal, Focused
+                          StaticText, 0x105fbc190, {{318.0, 1524.0}, {10.0, 17.0}}, label: '2', value: 2, Focused
+                          StaticText, 0x105fbc2b0, {{327.0, 1524.0}, {22.0, 17.0}}, label: 'of', value:  of , Focused
+                          StaticText, 0x105fbc3d0, {{348.0, 1524.0}, {18.0, 17.0}}, label: '20', value: 20, Focused
+                          Other, 0x105fbc4f0, {{36.0, 1550.0}, {330.0, 8.0}}, label: 'Today's goal progress', value: 10.00, Focused
+                          Button, 0x105fbc610, {{36.0, 1572.0}, {160.0, 48.0}}, label: 'Quick 10', Focused
+                          Button, 0x105fbc730, {{206.0, 1572.0}, {160.0, 48.0}}, label: 'Flashcards : included with the full exam', Focused
+                          Other, 0x105fc31a0, {{20.0, 1664.0}, {362.0, 212.0}}, Focused
+                            Other, 0x105fc32c0, {{20.0, 1664.0}, {362.0, 82.0}}, Focused
+                              Button, 0x105fc33e0, {{20.0, 1664.0}, {362.0, 82.0}}, label: 'Exam day The exam's format, your pace and how to approach it', Focused
+                            Other, 0x105fc3500, {{20.0, 1746.0}, {362.0, 65.0}}, Focused
+                              Button, 0x105fc3620, {{20.0, 1747.0}, {362.0, 64.0}}, label: 'Study plan Set an exam date to get a daily goal', Focused
+                            Other, 0x105fc3740, {{20.0, 1811.0}, {362.0, 65.0}}, Focused
+                              Button, 0x105fc3860, {{20.0, 1812.0}, {362.0, 64.0}}, label: 'Bookmarks None saved yet', Focused
+                        Other, 0x105fc3980, {{0.0, 775.0}, {599.0, 99.0}}, label: 'Main, navigation'
+                          Link, 0x105fc3aa0, {{26.0, 814.0}, {35.0, 15.0}}, label: 'Home'
+                            StaticText, 0x105fc3bc0, {{26.0, 814.0}, {35.0, 15.0}}, label: 'Home', value: Home
+                          Link, 0x105fc3ce0, {{106.0, 814.0}, {33.0, 15.0}}, label: 'Learn'
+                            StaticText, 0x105fc3e00, {{106.0, 814.0}, {33.0, 15.0}}, label: 'Learn', value: Learn
+                          Link, 0x105fc3f20, {{177.0, 814.0}, {48.0, 15.0}}, label: 'Practice'
+                            StaticText, 0x105fc4040, {{177.0, 814.0}, {48.0, 15.0}}, label: 'Practice', value: Practice
+                          Link, 0x105fc4160, {{264.0, 814.0}, {32.0, 15.0}}, label: 'Tests'
+                            StaticText, 0x105fc4280, {{264.0, 814.0}, {32.0, 15.0}}, label: 'Tests', value: Tests
+                          Link, 0x105fc43a0, {{333.0, 814.0}, {51.0, 15.0}}, label: 'Progress'
+                            StaticText, 0x105fc44c0, {{333.0, 814.0}, {51.0, 15.0}}, label: 'Progress', value: Progress
+                        Other, 0x105fb2290, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x105fb23b0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 0%
+                Other, 0x105fb24d0, {{396.0, 65.0}, {3.0, 454.7}}
+              Other, 0x105fb25f0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105fb2710, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x105fb2830, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 3 pages', value: 0%
+                Other, 0x105fb2950, {{396.0, 65.0}, {3.0, 454.7}}
+              Other, 0x105fb2a70, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105fb2b90, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x105fb2cb0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105fb2dd0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105fb2ef0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10603f330, pid: 23510, label: 'Contractor'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.cacontractorlawbusinessexamprep'
+  Output: {
+    Application, 0x10604c9f0, pid: 23510, label: 'Contractor'
+  }

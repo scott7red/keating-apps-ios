@@ -1,0 +1,242 @@
+Attributes: Application, 0x103942430, pid: 11012, label: 'FirstSip'
+Element subtree:
+ →Application, 0x103942430, pid: 11012, label: 'FirstSip'
+    Window (Main), 0x1039478d0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103941390, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10393e870, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x1039700c0, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10395e0a0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x10393c350, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103961aa0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103946590, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103963fc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103961ec0, {{0.0, 0.0}, {402.0, 990.0}}, label: '29:44 · FirstSip'
+                        Other, 0x103968ac0, {{0.0, 0.0}, {402.0, 990.0}}, label: 'main', Focused
+                          Other, 0x103956480, {{0.0, 0.0}, {402.0, 990.0}}, label: 'Pill taken, region', Focused
+                            Other, 0x103963360, {{20.0, 84.0}, {362.0, 75.0}}, label: 'section header', Focused
+                              Other, 0x1039622e0, {{20.0, 92.0}, {132.0, 19.0}}, Focused
+                                StaticText, 0x103962b20, {{20.0, 93.0}, {132.0, 17.0}}, label: 'Monday, October 19', value: Monday, October 19, Focused
+                              Image, 0x10393b4d0, {{300.0, 84.0}, {82.0, 35.0}}, label: 'Current streak: 1 day', Focused
+                              Other, 0x103969720, {{20.0, 121.0}, {362.0, 38.0}}, label: 'Pill taken', value: 1, Focused
+                                StaticText, 0x103944ab0, {{20.0, 121.0}, {123.0, 38.0}}, label: 'Pill taken', value: Pill taken, Focused
+                            Image, 0x103944690, {{51.0, 175.0}, {300.0, 300.0}}, label: '29:45 left on the wait timer', Focused
+                            Other, 0x10393de10, {{69.0, 489.0}, {264.0, 23.0}}, Focused
+                              StaticText, 0x103759900, {{69.0, 490.0}, {184.0, 20.0}}, label: 'You can eat and drink at', value: You can eat and dr..., Focused
+                              StaticText, 0x103760f00, {{252.0, 490.0}, {81.0, 20.0}}, label: '11:35 AM', value: 11:35 AM, Focused
+                            Other, 0x103779ff0, {{200.0, 174.0}, {2.0, 1.0}}, label: 'application status', Focused
+                            StaticText, 0x10376e8c0, {{94.0, 533.0}, {240.0, 18.0}}, label: 'Keep the app open to hear the chime', value: Keep the app open ..., Focused
+                            Button, 0x10374fbb0, {{20.0, 576.0}, {362.0, 58.0}}, label: 'I ate or drank', Focused
+                            Button, 0x10376e410, {{87.0, 636.0}, {228.0, 44.0}}, label: 'Logged by mistake? Undo', Focused
+                            Other, 0x103a4a9c0, {{39.0, 723.0}, {324.0, 60.0}}, Focused
+                              StaticText, 0x103a284f0, {{39.0, 724.0}, {291.0, 38.0}}, label: 'Label reminder: until the timer ends, no food, drinks or other oral medicines.', value: Label reminder: un..., Focused
+                              StaticText, 0x103a2bb90, {{39.0, 744.0}, {274.0, 38.0}}, label: 'Follow your prescriber's instructions.', value: Follow your prescr..., Focused
+                            StaticText, 0x103a3be90, {{39.0, 798.0}, {146.0, 21.0}}, label: 'Keep screen awake', value: Keep screen awake, Focused
+                            StaticText, 0x10375d0a0, {{39.0, 822.0}, {190.0, 18.0}}, label: 'Only while the timer is running', value: Only while the tim..., Focused
+                            Switch, 0x10375c6c0, {{305.0, 802.0}, {58.0, 34.0}}, label: 'Keep screen awake', value: 1, Focused
+                        Other, 0x103944ed0, {{0.0, 775.0}, {597.0, 99.0}}, label: 'Main, navigation'
+                          Link, 0x103942770, {{27.0, 814.0}, {36.0, 15.0}}, label: 'Today'
+                            StaticText, 0x103a2b820, {{27.0, 814.0}, {36.0, 15.0}}, label: 'Today', value: Today
+                          Link, 0x103942b90, {{102.0, 814.0}, {42.0, 15.0}}, label: 'History'
+                            StaticText, 0x10393a870, {{102.0, 814.0}, {42.0, 15.0}}, label: 'History', value: History
+                          Link, 0x10396dae0, {{181.0, 814.0}, {40.0, 15.0}}, label: 'Weight'
+                            StaticText, 0x103945710, {{181.0, 814.0}, {40.0, 15.0}}, label: 'Weight', value: Weight
+                          Link, 0x103a40e40, {{248.0, 814.0}, {62.0, 15.0}}, label: 'Symptoms'
+                            StaticText, 0x103a4a2d0, {{248.0, 814.0}, {62.0, 15.0}}, label: 'Symptoms', value: Symptoms
+                          Link, 0x103a475e0, {{342.0, 814.0}, {30.0, 15.0}}, label: 'More'
+                            StaticText, 0x103a50940, {{342.0, 814.0}, {30.0, 15.0}}, label: 'More', value: More
+                        Other, 0x10393b0b0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status'
+              Other, 0x103a45400, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x103743880, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a43b80, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a295f0, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x103a4cbb0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x103a52b50, {{396.0, 65.0}, {3.0, 744.0}}
+              Other, 0x103a2d6c0, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x103a39bc0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x103a4d610, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10375f2a0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103944270, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103942430, pid: 11012, label: 'FirstSip'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.firstsip'
+  Output: {
+    Application, 0x103a2cc60, pid: 11012, label: 'FirstSip'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x103a4c180, pid: 2728, label: ' '
+Element subtree:
+ →Application, 0x103a4c180, pid: 2728, label: ' '
+    Window, 0x103a2ef40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10375e600, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103753030, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a31520, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a48e00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a43810, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x103a3c220, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x103a43120, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a3ad70, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a434a0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a422b0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a461c0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x103a2c5c0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x103a37310, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x103a35370, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x103a33040, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x103a34ff0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a2cfc0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x103a3c5a0, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x103a39820, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x103a45ad0, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x103a36160, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a41510, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x103a36fc0, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x103a341f0, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x103a3ef00, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x103a31870, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x103a356e0, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x103a2b100, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a28ba0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a31f50, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103a2ddb0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103a3ddf0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3d010, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a34c70, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a32cd0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3d380, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a39f60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a35a80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3eba0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3e150, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3e4d0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103a3f250, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103970870, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10376d990, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10375fbf0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103760550, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103760010, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1037522a0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1037526c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10374d2d0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10375ddc0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1037255d0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10375cc80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10377bb30, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10374c140, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x103751220, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10375f6c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10375e1e0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10374c870, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x103751a60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103751640, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x10374ceb0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1039710d0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1039711f0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103971310, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.firstsip:sceneID:com.keatingkonsultancy.firstsip-default', label: 'FirstSip'
+                  Other, 0x103971430, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x103a394c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103971550, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x103971670, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x103971790, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x1039718b0, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x1039719d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x103971af0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103971c10, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x103971d30, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x103971e50, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x103971f70, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x103972090, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x1039721b0, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x1039722d0, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x1039723f0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x103972510, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x103972630, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      StaticText, 0x103972750, {{52.7, 22.3}, {42.7, 20.3}}, label: '11:05 AM'
+                                                      Other, 0x103972870, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x103972990, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x103972ab0, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x103972bd0, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x103972cf0, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x103972e10, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x103972f30, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x103973050, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103973170, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x103973290, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1039733b0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1039734d0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1039735f0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x103973710, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103a28850, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103a3c910, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a33e50, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103751e80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1037729e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103772b00, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103772c20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103772d40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103772e60, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103772f80, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x1037730a0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x1037731c0, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x1037732e0, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x103773400, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x103773520, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103773640, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x103773760, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103773880, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x1037739a0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103773ac0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x103773be0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103773d00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103773e20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103773f40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103774060, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x103a38aa0, {{0.0, 0.0}, {402.0, 874.0}}
+        Alert, 0x103a2bef0, {{41.0, 344.0}, {320.0, 214.0}}, label: '“FirstSip” Would Like to Send You Notifications'
+          Other, 0x103a39160, {{41.0, 344.0}, {320.0, 214.0}}
+            Other, 0x103a44d10, {{41.0, 344.0}, {320.0, 214.0}}
+              Other, 0x103a27ab0, {{41.0, 344.0}, {320.0, 214.0}}
+              Other, 0x103a41f50, {{41.0, 344.0}, {320.0, 214.0}}
+                ScrollView, 0x103a4b3b0, {{41.0, 344.0}, {320.0, 134.0}}
+                  Other, 0x103a2f2a0, {{41.0, 344.0}, {320.0, 134.0}}
+                    StaticText, 0x103a48a60, {{71.0, 366.0}, {260.0, 42.3}}, label: '“FirstSip” Would Like to Send You Notifications'
+                    StaticText, 0x103a42610, {{71.0, 415.7}, {260.0, 58.0}}, label: 'Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.'
+                  Other, 0x103a2b480, {{41.0, 476.0}, {320.0, 2.0}}
+                  Other, 0x103a322b0, {{328.0, 344.0}, {30.0, 134.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                    Other, 0x103a494e0, {{355.0, 305.0}, {3.0, 36.0}}
+                  Other, 0x103a2adb0, {{41.0, 445.0}, {320.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x103a30ad0, {{2.0, 472.0}, {36.0, 3.0}}
+                  Other, 0x103a33740, {{328.0, 344.0}, {30.0, 134.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                    Other, 0x103774180, {{355.0, 305.0}, {3.0, 36.0}}
+                  Other, 0x103973830, {{41.0, 445.0}, {320.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x103973950, {{2.0, 472.0}, {36.0, 3.0}}
+                ScrollView, 0x103973a70, {{41.0, 478.0}, {320.0, 80.0}}
+                  Other, 0x103a45e30, {{41.0, 478.0}, {320.0, 80.0}}
+                    Other, 0x103a40340, {{57.0, 494.0}, {288.0, 48.0}}
+                      Button, 0x103a43f00, {{57.0, 494.0}, {140.0, 48.0}}, label: 'Don’t Allow'
+                      Button, 0x1037742a0, {{205.0, 494.0}, {140.0, 48.0}}, label: 'Allow'
+                  Other, 0x1037743c0, {{328.0, 478.0}, {30.0, 80.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                    Other, 0x1037744e0, {{355.0, 568.0}, {3.0, 7.0}}
+                  Other, 0x103774600, {{41.0, 525.0}, {320.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x103774720, {{131.0, 552.0}, {7.0, 3.0}}
+                  Other, 0x103973b90, {{328.0, 478.0}, {30.0, 80.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                    Other, 0x103973cb0, {{355.0, 568.0}, {3.0, 7.0}}
+                  Other, 0x103973dd0, {{41.0, 525.0}, {320.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                    Other, 0x103973ef0, {{131.0, 552.0}, {7.0, 3.0}}
+          Other, 0x103974010, {{41.0, 344.0}, {320.0, 214.0}}
+            Other, 0x103974130, {{41.0, 344.0}, {320.0, 214.0}}
+              Other, 0x103974250, {{41.0, 344.0}, {320.0, 214.0}}
+                Other, 0x103974370, {{41.0, 344.0}, {320.0, 214.0}}
+                  Other, 0x103974490, {{41.0, 344.0}, {320.0, 214.0}}
+                    Other, 0x1039745b0, {{41.0, 344.0}, {402.0, 874.0}}
+                Other, 0x103774840, {{41.0, 344.0}, {320.0, 214.0}}
+                  Other, 0x103774960, {{41.0, 344.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x103a4c180, pid: 2728, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x103aad980, pid: 2728, label: ' '
+  }

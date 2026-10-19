@@ -1,0 +1,250 @@
+Test Case '-[ReviewTour.TidyQuoteTour testTour]' started.
+    t =     0.01s Start Test at 2026-10-18 19:41:24.496
+    t =     0.10s Set Up
+    t =     0.10s Launch from the Home Screen
+    t =     0.10s     Pressing Home button
+    t =     2.08s     Find the Window (First Match)
+    t =     2.11s     Waiting 8.0s for "TidyQuote" Icon to exist
+    t =     3.13s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     3.13s             Checking existence of `"TidyQuote" Icon`
+    t =     3.28s             Capturing element debug description
+    t =     4.20s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     4.20s             Checking existence of `"TidyQuote" Icon`
+    t =     4.32s             Capturing element debug description
+    t =     5.15s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     5.15s             Checking existence of `"TidyQuote" Icon`
+    t =     5.24s             Capturing element debug description
+    t =     6.13s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     6.13s             Checking existence of `"TidyQuote" Icon`
+    t =     6.23s             Capturing element debug description
+    t =     7.16s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     7.16s             Checking existence of `"TidyQuote" Icon`
+    t =     7.26s             Capturing element debug description
+    t =     8.18s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     8.19s             Checking existence of `"TidyQuote" Icon`
+    t =     8.31s             Capturing element debug description
+    t =     9.13s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =     9.14s             Checking existence of `"TidyQuote" Icon`
+    t =     9.24s             Capturing element debug description
+    t =    10.12s         Checking `Expect predicate `existsNoRetry == 1` for object "TidyQuote" Icon`
+    t =    10.12s             Checking existence of `"TidyQuote" Icon`
+    t =    10.22s             Capturing element debug description
+    t =    10.22s         Checking existence of `"TidyQuote" Icon`
+    t =    10.28s     Collecting debug information to assist test failure triage
+    t =    10.28s         Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    10.47s     Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    10.78s     Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    10.92s     Waiting 8.0s for Any (First Match) to exist
+    t =    11.94s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    11.94s             Checking existence of `Any (First Match)`
+    t =    12.07s             Capturing element debug description
+    t =    12.94s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    12.94s             Checking existence of `Any (First Match)`
+    t =    13.05s             Capturing element debug description
+    t =    13.94s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    13.94s             Checking existence of `Any (First Match)`
+    t =    14.05s             Capturing element debug description
+    t =    14.97s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    14.97s             Checking existence of `Any (First Match)`
+    t =    15.08s             Capturing element debug description
+    t =    16.01s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    16.01s             Checking existence of `Any (First Match)`
+    t =    16.14s             Capturing element debug description
+    t =    16.96s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    16.96s             Checking existence of `Any (First Match)`
+    t =    17.08s             Capturing element debug description
+    t =    18.01s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    18.01s             Checking existence of `Any (First Match)`
+    t =    18.12s             Capturing element debug description
+    t =    18.93s         Checking `Expect predicate `existsNoRetry == 1` for object Any (First Match)`
+    t =    18.93s             Checking existence of `Any (First Match)`
+    t =    19.04s             Capturing element debug description
+    t =    19.04s         Checking existence of `Any (First Match)`
+    t =    19.11s     Collecting debug information to assist test failure triage
+    t =    19.11s         Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    19.30s     Open com.keatingkonsultancy.tidyquote
+    t =    19.37s         Launch com.keatingkonsultancy.tidyquote
+    t =    22.32s             Setting up automation session
+    t =    22.38s             Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    23.49s     Wait for com.keatingkonsultancy.tidyquote to become Running Foreground
+    t =    23.49s     Waiting 30.0s for WebView (First Match) to exist
+    t =    24.51s         Checking `Expect predicate `existsNoRetry == 1` for object WebView (First Match)`
+    t =    24.52s             Checking existence of `WebView (First Match)`
+    t =    24.54s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Welcome to TidyQuote"'
+    t =    24.71s     Find the Any (Element at index 0)
+    t =    26.78s Welcome, in English and Spanish
+    t =    26.78s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Everything stays on this phone"'
+    t =    26.91s     Checking existence of `Keyboard (First Match)`
+    t =    26.94s     Find the Any (Element at index 0)
+    t =    26.99s     Find the Window (First Match)
+    t =    27.00s     Find the Window (First Match)
+    t =    27.01s     Checking existence of `Keyboard (First Match)`
+    t =    27.03s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 596.4) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 238.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    27.03s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    27.12s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    27.15s         Check for interrupting elements affecting "TidyQuote" Application
+    t =    27.18s         Synthesize event
+    t =    27.26s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    27.28s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    27.31s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    27.34s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    27.37s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    28.47s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    29.08s     Find the "Everything stays on this phone. No account, no sign-up." StaticText
+    t =    31.17s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Español" OR identifier ==[c] "Español")'
+    t =    31.30s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "Español" OR identifier ==[c] "Español")'
+    t =    31.42s     Checking existence of `Keyboard (First Match)`
+    t =    31.45s     Find the Any (Element at index 0)
+    t =    31.49s     Find the Window (First Match)
+    t =    31.50s     Find the Window (First Match)
+    t =    31.52s     Checking existence of `Keyboard (First Match)`
+    t =    31.54s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 213.0) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 570.4) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    31.54s         Wait for com.keatingkonsultancy.tidyquote to idle
+2026-10-18 19:41:56.083 xcodebuild[31872:37836107] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+    t =    31.63s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    31.66s         Check for interrupting elements affecting "TidyQuote" Application
+    t =    31.69s         Synthesize event
+    t =    31.78s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    31.82s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    31.86s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    31.90s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    31.94s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    33.06s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    33.67s     Find the "Español" Other
+    t =    33.72s     Find the "Español" Other
+    t =    33.77s     Find the Window (First Match)
+    t =    33.78s     Find the "Español" Other
+    t =    34.55s     Find the "Español" Other
+    t =    34.60s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (330.5, 101.0)
+    t =    34.60s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    34.69s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    34.72s         Check for interrupting elements affecting "TidyQuote" Application
+    t =    34.75s         Synthesize event
+    t =    34.83s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    34.87s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    34.91s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+2026-10-18 19:41:59.439 xcodebuild[31872:37836107] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+    t =    35.22s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    37.83s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "English" OR identifier ==[c] "English")'
+    t =    37.99s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND (label ==[c] "English" OR identifier ==[c] "English")'
+    t =    38.14s     Checking existence of `Keyboard (First Match)`
+    t =    38.18s     Find the Any (Element at index 0)
+    t =    38.23s     Find the Window (First Match)
+    t =    38.25s     Find the "English" Other
+    t =    39.01s     Find the "English" Other
+    t =    39.10s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (245.5, 101.0)
+    t =    39.10s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    39.19s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    39.23s         Check for interrupting elements affecting "TidyQuote" Application
+    t =    39.26s         Synthesize event
+    t =    39.35s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    39.38s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    39.41s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    39.71s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    41.31s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Get started" OR identifier ==[c] "Get started")'
+    t =    41.44s     Checking existence of `Keyboard (First Match)`
+    t =    41.46s     Find the Any (Element at index 0)
+    t =    41.51s     Find the Window (First Match)
+    t =    41.52s     Find the Window (First Match)
+    t =    41.53s     Checking existence of `Keyboard (First Match)`
+    t =    41.55s     Press Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 596.4) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 238.6) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    41.55s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    41.64s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    41.67s         Check for interrupting elements affecting "TidyQuote" Application
+    t =    41.70s         Synthesize event
+    t =    41.79s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    41.81s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    41.84s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    41.87s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    41.90s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    43.03s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    43.64s     Find the "Get started" Button
+    t =    44.40s     Find the "Get started" Button
+    t =    44.45s     Tap Target Application 'com.keatingkonsultancy.tidyquote'[0.00, 0.00] -> (196.5, 728.5)
+    t =    44.45s         Wait for com.keatingkonsultancy.tidyquote to idle
+    t =    44.54s         Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    44.57s         Check for interrupting elements affecting "TidyQuote" Application
+    t =    44.60s         Synthesize event
+    t =    44.68s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    44.71s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    44.74s             Find the Target Application 'com.keatingkonsultancy.tidyquote'
+    t =    45.05s         Wait for com.keatingkonsultancy.tidyquote to idle
+2026-10-18 19:42:10.273 xcodebuild[31872:37836107] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-18 19:42:10.822 xcodebuild[31872:37836107] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+    t =    46.46s Your business
+    t =    46.46s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Your business"'
+    t =    46.60s     Find the Any (Element at index 0)
+    t =    47.66s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    47.79s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    48.38s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    48.50s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    49.04s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    49.21s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    49.75s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    49.89s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    50.44s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    50.57s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    51.10s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    51.26s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    51.79s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    51.94s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    52.50s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    52.63s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    53.17s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    53.33s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    53.88s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    54.02s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    54.55s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    54.70s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    55.23s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    55.40s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    55.96s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    56.09s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    56.62s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    56.80s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    57.32s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    57.50s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    58.05s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+2026-10-18 19:42:22.599 xcodebuild[31872:37836107] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+    t =    58.18s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    58.75s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    58.87s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    59.41s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    59.58s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    60.11s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    60.24s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    60.82s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    60.95s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    61.48s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    61.65s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    62.18s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND (label ==[c] "Business name" OR identifier ==[c] "Business name")'
+    t =    62.33s     Get number of matches for: Elements matching predicate 'elementType IN {49, 50, 52, 45} AND label BEGINSWITH[c] "Business name"'
+    t =    62.90s     Requesting snapshot of accessibility hierarchy for app with pid 567
+    t =    63.08s     Requesting snapshot of accessibility hierarchy for app with pid 567
+    t =    63.13s     Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    63.31s     Requesting snapshot of accessibility hierarchy for app with pid 32
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/TidyQuoteTour.swift:25: error: -[ReviewTour.TidyQuoteTour testTour] : failed - Could not find "Business name" on screen within 15 s
+    t =    63.48s Tear Down
+    t =    63.49s     Requesting snapshot of accessibility hierarchy for app with pid 567
+    t =    63.63s     Requesting snapshot of accessibility hierarchy for app with pid 567
+    t =    63.68s     Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    63.86s     Requesting snapshot of accessibility hierarchy for app with pid 32
+    t =    63.99s     Added attachment named 'failure'
+Test Case '-[ReviewTour.TidyQuoteTour testTour]' failed (64.193 seconds).
+Test Suite 'TidyQuoteTour' failed at 2026-10-18 19:42:28.688.
+	 Executed 1 test, with 1 failure (0 unexpected) in 64.193 (64.200) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-18 19:42:28.694.
+	 Executed 1 test, with 1 failure (0 unexpected) in 64.193 (64.207) seconds
+Test Suite 'Selected tests' failed at 2026-10-18 19:42:28.697.
+	 Executed 1 test, with 1 failure (0 unexpected) in 64.193 (64.215) seconds
+2026-10-18 19:42:28.705803-0700 ReviewTour-Runner[547:16642] The EDOHostService (0x282224630) is invalidated on port 11237
+2026-10-18 19:42:28.751 xcodebuild[31872:37836107] [MT] IDETestOperationsObserverDebug: 72.214 elapsed -- Testing started completed.
+2026-10-18 19:42:28.751 xcodebuild[31872:37836107] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-18 19:42:28.751 xcodebuild[31872:37836107] [MT] IDETestOperationsObserverDebug: 72.214 sec, +72.214 sec -- end
+
+Test session results, code coverage, and logs:
+	/var/log/mh_lab_gen_files/d241a4c1-76d8-4a7b-973a-fd1f269120d0/test_ea04d6bd-f5ae-4265-ab3f-087bee669e10/mh_utp_runner_output/driver/Logs/Test/Test-ReviewTour-2026.10.18_19-41-16--0700.xcresult
+
+** TEST EXECUTE FAILED **
+
+Testing started

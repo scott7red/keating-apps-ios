@@ -1,0 +1,250 @@
+    t =    49.39s             Checking existence of `Keyboard (First Match)`
+    t =    49.41s     Find the "First name or nickname" TextField
+    t =    49.47s     Type 'Ale' into Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    49.47s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    49.47s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    49.50s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    49.54s         Synthesize event
+    t =    49.79s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    49.79s     Type 'x' into Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    49.79s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    49.79s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    49.82s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    49.85s         Synthesize event
+    t =    50.09s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    50.89s     Checking existence of `Keyboard (First Match)`
+    t =    51.33s     Checking existence of `"Done" Button`
+    t =    51.38s     Find the "Done" Button
+    t =    51.45s     Find the "Done" Button
+    t =    51.49s     Find the "Done" Button
+    t =    51.53s     Tap "Done" Button
+    t =    51.53s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    51.54s         Find the "Done" Button
+    t =    51.58s         Check for interrupting elements affecting "Done" Button
+    t =    51.62s         Synthesize event
+    t =    51.95s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    52.96s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Continue" OR identifier ==[c] "Continue")'
+    t =    52.98s     Checking existence of `Keyboard (First Match)`
+    t =    52.99s     Find the Any (Element at index 0)
+    t =    53.01s     Find the Window (First Match)
+    t =    53.02s     Find the "Continue" Button
+    t =    53.75s     Find the "Continue" Button
+    t =    53.77s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    53.77s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    53.78s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    53.79s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    53.81s         Synthesize event
+    t =    53.81s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    53.82s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    53.84s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    54.14s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    55.46s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Which exam are you studying for?"'
+    t =    55.49s     Find the Any (Element at index 0)
+    t =    55.52s     Find the Window (First Match)
+    t =    55.53s     Find the Window (First Match)
+    t =    55.54s     Checking existence of `Keyboard (First Match)`
+    t =    55.57s     Press Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 611.8) for 0.1 seconds, then drag to Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 393.3) with velocity of 650.00 pixels per second, and then hold for 0.2 seconds 
+    t =    55.57s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    55.57s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    55.59s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    55.63s         Synthesize event
+    t =    55.63s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    55.64s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    55.66s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    55.68s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    55.70s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    56.60s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    58.12s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND label BEGINSWITH[c] "FAA Part 107 Remote Pilot (UAG)"'
+    t =    58.14s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label BEGINSWITH[c] "FAA Part 107 Remote Pilot (UAG)"'
+    t =    58.16s     Find the Any (Element at index 0)
+    t =    58.19s     Checking existence of `Keyboard (First Match)`
+    t =    58.21s     Find the "FAA Part 107 Remote Pilot (UAG) Free sample Practice questions and 60-question mock tests for the FAA Part 107 remote pilot (commercial drone) knowledge test. 60 questions · 120 min · 70% to pass" Other
+    t =    58.23s     Find the Window (First Match)
+    t =    58.95s     Find the "FAA Part 107 Remote Pilot (UAG) Free sample Practice questions and 60-question mock tests for the FAA Part 107 remote pilot (commercial drone) knowledge test. 60 questions · 120 min · 70% to pass" Other
+    t =    58.98s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 466.5)
+    t =    58.98s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    58.98s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    58.99s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    59.01s         Synthesize event
+    t =    59.02s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    59.03s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    59.04s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    59.34s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    60.55s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Continue" OR identifier ==[c] "Continue")'
+    t =    60.56s     Checking existence of `Keyboard (First Match)`
+    t =    60.58s     Find the Any (Element at index 0)
+    t =    60.60s     Find the Window (First Match)
+    t =    60.61s     Find the "Continue" Button
+    t =    61.34s     Find the "Continue" Button
+    t =    61.37s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    61.37s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    61.37s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    61.38s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    61.40s         Synthesize event
+    t =    61.40s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    61.42s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    61.43s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    61.73s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    63.05s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Four steps to exam day"'
+    t =    63.07s     Find the Any (Element at index 0)
+    t =    64.60s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Continue" OR identifier ==[c] "Continue")'
+    t =    64.62s     Checking existence of `Keyboard (First Match)`
+    t =    64.64s     Find the Any (Element at index 0)
+    t =    64.66s     Find the Window (First Match)
+    t =    64.67s     Find the "Continue" Button
+    t =    65.41s     Find the "Continue" Button
+    t =    65.43s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    65.43s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    65.43s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    65.45s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    65.47s         Synthesize event
+    t =    65.47s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    65.48s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    65.50s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    65.80s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    67.11s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "I do not have a date yet" OR identifier ==[c] "I do not have a date yet")'
+    t =    67.13s     Checking existence of `Keyboard (First Match)`
+    t =    67.14s     Find the Any (Element at index 0)
+    t =    67.16s     Find the Window (First Match)
+    t =    67.16s     Find the "I do not have a date yet" Button
+    t =    67.89s     Find the "I do not have a date yet" Button
+    t =    67.92s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    67.92s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    67.92s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    67.93s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    67.95s         Synthesize event
+    t =    67.95s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    67.97s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    67.98s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    68.28s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    69.59s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Start studying" OR identifier ==[c] "Start studying")'
+    t =    69.61s     Checking existence of `Keyboard (First Match)`
+    t =    69.62s     Find the Any (Element at index 0)
+    t =    69.65s     Find the Window (First Match)
+    t =    69.66s     Find the "Start studying" Button
+    t =    70.39s     Find the "Start studying" Button
+    t =    70.42s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 728.0)
+    t =    70.42s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    70.42s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    70.43s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    70.45s         Synthesize event
+    t =    70.46s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    70.47s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    70.48s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    70.81s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    72.83s Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    73.41s Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    73.52s The free sample: practice questions
+    t =    73.52s     Get number of matches for: Elements matching predicate 'elementType IN {48, 1} AND label CONTAINS[c] "Free sample"'
+    t =    73.56s     Find the Any (Element at index 0)
+    t =    73.60s     Checking existence of `Keyboard (First Match)`
+    t =    73.63s     Find the "Free sample, region" Other
+    t =    73.67s     Find the Window (First Match)
+    t =    76.19s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 80} AND (label ==[c] "Practice" OR identifier ==[c] "Practice")'
+    t =    76.84s     Find the Any (Element at index 0)
+    t =    76.89s     Find the Window (First Match)
+    t =    76.89s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 821.5)
+    t =    76.89s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    76.90s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    76.92s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    76.96s         Synthesize event
+    t =    76.97s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    76.99s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    77.02s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    77.33s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    78.84s     Get number of matches for: Elements matching predicate 'elementType IN {9, 42, 10, 12, 40, 75, 54, 80, 37, 13, 14, 15, 49, 43} AND (label ==[c] "Start a Quick 10" OR identifier ==[c] "Start a Quick 10")'
+    t =    78.89s     Checking existence of `Keyboard (First Match)`
+    t =    78.92s     Find the Any (Element at index 0)
+    t =    78.96s     Find the Window (First Match)
+    t =    79.67s     Find the "Start a Quick 10" Button
+    t =    79.70s     Tap Target Application 'com.keatingkonsultancy.privatepilottestprep'[0.00, 0.00] -> (201.0, 527.0)
+    t =    79.71s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    79.71s         Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    79.73s         Check for interrupting elements affecting "Pilot+Drone" Application
+    t =    79.75s         Synthesize event
+    t =    79.76s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    79.77s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    79.79s             Find the Target Application 'com.keatingkonsultancy.privatepilottestprep'
+    t =    80.10s         Wait for com.keatingkonsultancy.privatepilottestprep to idle
+    t =    81.61s     Waiting 15.0s for Button (First Match) to exist
+    t =    82.65s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    82.65s             Checking existence of `Button (First Match)`
+    t =    82.68s             Capturing element debug description
+    t =    83.63s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    83.63s             Checking existence of `Button (First Match)`
+    t =    83.64s             Capturing element debug description
+    t =    84.68s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    84.68s             Checking existence of `Button (First Match)`
+    t =    84.70s             Capturing element debug description
+    t =    85.65s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    85.65s             Checking existence of `Button (First Match)`
+    t =    85.67s             Capturing element debug description
+    t =    86.61s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    86.61s             Checking existence of `Button (First Match)`
+    t =    86.63s             Capturing element debug description
+    t =    87.67s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    87.67s             Checking existence of `Button (First Match)`
+    t =    87.69s             Capturing element debug description
+    t =    88.62s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    88.62s             Checking existence of `Button (First Match)`
+    t =    88.65s             Capturing element debug description
+    t =    89.68s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    89.69s             Checking existence of `Button (First Match)`
+    t =    89.71s             Capturing element debug description
+    t =    90.65s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    90.65s             Checking existence of `Button (First Match)`
+    t =    90.69s             Capturing element debug description
+    t =    91.61s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    91.61s             Checking existence of `Button (First Match)`
+    t =    91.63s             Capturing element debug description
+    t =    92.64s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    92.64s             Checking existence of `Button (First Match)`
+    t =    92.66s             Capturing element debug description
+    t =    93.71s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    93.71s             Checking existence of `Button (First Match)`
+    t =    93.73s             Capturing element debug description
+    t =    94.61s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    94.61s             Checking existence of `Button (First Match)`
+    t =    94.64s             Capturing element debug description
+    t =    95.65s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    95.65s             Checking existence of `Button (First Match)`
+    t =    95.67s             Capturing element debug description
+    t =    96.62s         Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    96.62s             Checking existence of `Button (First Match)`
+    t =    96.64s             Capturing element debug description
+    t =    96.64s         Checking existence of `Button (First Match)`
+    t =    96.66s     Collecting debug information to assist test failure triage
+    t =    96.66s         Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    96.69s     Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    96.86s     Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    96.90s     Requesting snapshot of accessibility hierarchy for app with pid 14067
+    t =    97.21s     Requesting snapshot of accessibility hierarchy for app with pid 14067
+    t =    97.26s     Added attachment named '04-no-answer-A.txt'
+/Users/runner/work/keating-apps-ios/keating-apps-ios/review-tours/Sources/ExamTour.swift:53: error: -[ReviewTour.PilotDroneTour testTour] : failed - No answer A
+    t =    97.37s Tear Down
+    t =    97.37s     Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    97.54s     Requesting snapshot of accessibility hierarchy for app with pid 23696
+    t =    97.58s     Requesting snapshot of accessibility hierarchy for app with pid 14067
+    t =    97.80s     Requesting snapshot of accessibility hierarchy for app with pid 14067
+    t =    97.84s     Added attachment named '05-failure.txt'
+    t =    98.02s     Added attachment named 'failure'
+Test Case '-[ReviewTour.PilotDroneTour testTour]' failed (98.400 seconds).
+Test Suite 'PilotDroneTour' failed at 2026-10-19 10:55:59.198.
+	 Executed 1 test, with 1 failure (0 unexpected) in 98.400 (98.401) seconds
+Test Suite 'ReviewTour.xctest' failed at 2026-10-19 10:55:59.199.
+	 Executed 1 test, with 1 failure (0 unexpected) in 98.400 (98.402) seconds
+Test Suite 'Selected tests' failed at 2026-10-19 10:55:59.199.
+	 Executed 1 test, with 1 failure (0 unexpected) in 98.400 (98.404) seconds
+2026-10-19 10:56:23.145 xcodebuild[21598:62594] [MT] IDETestOperationsObserverDebug: 140.679 elapsed -- Testing started completed.
+2026-10-19 10:56:23.153 xcodebuild[21598:62594] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-19 10:56:23.153 xcodebuild[21598:62594] [MT] IDETestOperationsObserverDebug: 140.679 sec, +140.679 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/runner/work/_temp/out/tour.xcresult
+
+Failing tests:
+	PilotDroneTour.testTour()
+
+** TEST EXECUTE FAILED **
+
+Testing started

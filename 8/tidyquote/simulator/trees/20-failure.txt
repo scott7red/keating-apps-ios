@@ -1,0 +1,189 @@
+Attributes: Application, 0x1059a8620, pid: 16564, label: 'TidyQuote'
+Element subtree:
+ →Application, 0x1059a8620, pid: 16564, label: 'TidyQuote'
+    Window (Main), 0x105986e40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1059649c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10597a270, {{0.0, 0.0}, {402.0, 874.0}}
+          WebView, 0x10599f550, {{0.0, 0.0}, {402.0, 874.0}}
+            WebView, 0x10599d6a0, {{0.0, 0.0}, {402.0, 874.0}}
+              WebView, 0x105965410, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x105946230, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105b55360, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105b50450, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105b51640, {{0.0, 0.0}, {402.0, 965.0}}, label: 'TidyQuote', Focused
+                        Other, 0x105b50c50, {{0.0, 0.0}, {402.0, 965.0}}, label: 'main', Focused
+                          StaticText, 0x105b4fc10, {{70.0, 91.0}, {93.0, 25.0}}, label: 'TidyQuote', value: TidyQuote, Focused
+                          StaticText, 0x105b54470, {{213.0, 78.0}, {101.0, 20.0}}, label: 'App language', value: App language, Focused
+                          Other, 0x105b50830, {{214.0, 78.0}, {168.0, 52.0}}, label: 'App language', Focused
+                            Other, 0x105b4f7f0, {{218.0, 82.0}, {79.0, 44.0}}, label: 'English', value: 1, Focused
+                            Other, 0x105b53810, {{300.0, 82.0}, {79.0, 44.0}}, label: 'Español', value: 0, Focused
+                          Image, 0x105b54050, {{24.0, 154.0}, {326.0, 262.0}}, label: 'A sample quote', Focused
+                          Other, 0x105b53c30, {{20.0, 439.0}, {362.0, 40.0}}, label: 'Welcome to TidyQuote', value: 1, Focused
+                            StaticText, 0x105b52690, {{20.0, 439.0}, {330.0, 40.0}}, label: 'Welcome to TidyQuote', value: Welcome to TidyQuote, Focused
+                          Other, 0x105b4e3e0, {{20.0, 488.0}, {362.0, 47.0}}, Focused
+                            StaticText, 0x105b54890, {{20.0, 489.0}, {356.0, 44.0}}, label: 'Price a home, send the quote, and keep track of what you are owed.', value: Price a home, send..., Focused
+                          Other, 0x105b54cb0, {{20.0, 560.0}, {362.0, 225.0}}, Focused
+                            Other, 0x105b08790, {{20.0, 560.0}, {362.0, 65.0}}, Focused
+                              StaticText, 0x105b088b0, {{74.0, 561.0}, {157.0, 21.0}}, label: 'A price in a few taps', value: A price in a few t..., Focused
+                              StaticText, 0x105b56180, {{74.0, 585.0}, {291.0, 39.0}}, label: 'Rooms, add-ons and repeat-visit discounts, worked out from your own price book.', value: Rooms, add-ons and..., Focused
+                            Other, 0x105b562a0, {{20.0, 640.0}, {362.0, 65.0}}, Focused
+                              StaticText, 0x105b563c0, {{74.0, 641.0}, {233.0, 21.0}}, label: 'Paperwork that looks the part', value: Paperwork that loo..., Focused
+                              StaticText, 0x105b564e0, {{74.0, 665.0}, {298.0, 39.0}}, label: 'Quotes and invoices as PDFs with your name and logo, in English or Spanish.', value: Quotes and invoice..., Focused
+                            Other, 0x105b56600, {{20.0, 720.0}, {362.0, 65.0}}, Focused
+                              StaticText, 0x105b56720, {{74.0, 721.0}, {176.0, 21.0}}, label: 'See who still owes you', value: See who still owes..., Focused
+                              StaticText, 0x105b56840, {{74.0, 745.0}, {304.0, 39.0}}, label: 'Turn a quote into an invoice, record payments and keep unpaid work in view.', value: Turn a quote into ..., Focused
+                          Button, 0x105b56960, {{20.0, 722.0}, {362.0, 62.0}}, label: 'Get started', Focused
+                          StaticText, 0x105b56a80, {{46.0, 789.0}, {331.0, 36.0}}, label: 'Everything stays on this phone. No account, no sign-up.', value: Everything stays o..., Focused
+                        Other, 0x105b56ba0, {{0.0, 0.0}, {402.0, 10.0}}, label: 'application status', Focused
+              Other, 0x105b56cc0, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x105b56de0, {{396.0, 65.0}, {3.0, 674.0}}
+              Other, 0x105b56f00, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105b57020, {{65.0, 868.0}, {272.0, 3.0}}
+              Other, 0x105b57140, {{369.0, 62.0}, {30.0, 750.0}}, label: 'Vertical scroll bar, 2 pages', value: 0%
+                Other, 0x105b57260, {{396.0, 65.0}, {3.0, 674.0}}
+              Other, 0x105b57380, {{62.0, 841.0}, {278.0, 30.0}}, label: 'Horizontal scroll bar, 1 page', value: 0%
+                Other, 0x105b574a0, {{65.0, 868.0}, {272.0, 3.0}}
+    Window, 0x105b575c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105b576e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105b57800, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1059a8620, pid: 16564, label: 'TidyQuote'
+Query chain:
+ →Find: Target Application 'com.keatingkonsultancy.tidyquote'
+  Output: {
+    Application, 0x1059754d0, pid: 16564, label: 'TidyQuote'
+  }
+
+
+===== Springboard =====
+Attributes: Application, 0x105c2bfd0, pid: 4124, label: ' '
+Element subtree:
+ →Application, 0x105c2bfd0, pid: 4124, label: ' '
+    Window, 0x105c2dd30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105c0ca20, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105c26a10, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105c2cc00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105c27640, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105c26e00, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x105c263d0, {{138.3, 14.0}, {125.3, 36.7}}
+    Window, 0x1059caf00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105977330, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105991ff0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10596b0d0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1059977f0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x1059768f0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10594b880, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10596bb00, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105948170, {{139.3, 15.0}, {123.3, 34.7}}
+          Other, 0x10597cc70, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105960b90, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105972490, {{138.3, 14.0}, {125.3, 36.7}}
+            Other, 0x105994ae0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x10597f880, {{139.0, 14.7}, {124.0, 35.3}}
+          Other, 0x105955ea0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1059420b0, {{138.3, 14.0}, {125.3, 36.7}}
+              Other, 0x105953f40, {{128.3, 10.0}, {145.3, 52.0}}
+              Other, 0x105961940, {{138.3, 14.0}, {125.3, 36.7}}
+                Other, 0x10597c230, {{138.3, 14.0}, {125.3, 36.7}}
+                  Other, 0x1059827d0, {{138.3, 14.0}, {125.3, 36.7}}
+          Other, 0x105951d80, {{218.0, 28.0}, {9.0, 9.0}}
+    Window, 0x105980d30, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10598e910, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105989800, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10596fe90, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105994420, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105975800, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10597d370, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105997b60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1059691e0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10595cdc0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105971a40, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105972b60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105999a60, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10595efd0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10595e550, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105952480, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10594cd90, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10594dea0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1059527e0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1059716e0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10596b450, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1059958a0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105985980, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105954d50, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10598b9b0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1059810b0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window (Main), 0x10597bb40, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'SBSwitcherWindow:Main'
+      Other, 0x10596ea30, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1059a0da0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x105999db0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x105979890, {{0.0, 0.0}, {402.0, 874.0}}
+              ScrollView, 0x105948be0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x105997480, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'AppSwitcherContentView'
+                Other, 0x1059a2fc0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10597e7c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10595a9f0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10596cc10, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'card:com.keatingkonsultancy.tidyquote:sceneID:com.keatingkonsultancy.tidyquote-default', label: 'TidyQuote'
+                  Other, 0x10599eb10, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10596fb30, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10596ed90, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x1059531e0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x1059679d0, {{0.0, 0.0}, {402.0, 874.0}}
+                            ScrollView, 0x1059a4120, {{0.0, -437.0}, {402.0, 1311.0}}
+                              Other, 0x105973900, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x1059a1b50, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x10593b560, {{0.0, 0.0}, {402.0, 874.0}}
+                                    Other, 0x10594a0a0, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x10598f5a0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x105975b70, {{0.0, 0.0}, {402.0, 874.0}}
+                                          Other, 0x10599c7e0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x10594bf40, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x105973c60, {{0.0, 0.0}, {402.0, 874.0}}
+                                                StatusBar, 0x10596cf60, {{0.0, 0.0}, {402.0, 54.0}}
+                                                  Other, 0x105974360, {{0.0, 0.0}, {402.0, 54.0}}
+                                                    Other, 0x105973fd0, {{0.0, 0.0}, {402.0, 54.0}}
+                                                      Other, 0x1059598f0, {{55.7, 14.7}, {36.7, 36.7}}
+                                                      StaticText, 0x10596e380, {{55.7, 22.3}, {36.7, 20.3}}, label: '11:03 AM'
+                                                      Other, 0x1059a5cf0, {{309.0, 14.7}, {36.7, 36.7}}
+                                                      Other, 0x10598e5a0, {{288.3, 26.3}, {19.3, 12.3}}, label: 'Cellular', value: 4 of 4 bars, signa...
+                                                      Other, 0x10595ad60, {{315.0, 26.3}, {17.0, 12.3}}, identifier: '3 of 3 Wi-Fi bars', value: SSID, 3 of 3 Wi-Fi...
+                                                      Other, 0x105990e50, {{339.3, 26.0}, {27.3, 13.0}}, label: '100% battery power'
+                                          Other, 0x10596dcc0, {{0.0, 0.0}, {402.0, 874.0}}
+                                            Other, 0x1059969f0, {{0.0, 0.0}, {402.0, 874.0}}
+                                              Other, 0x105988a30, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x10596aa10, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x105972810, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10597b030, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x105993d00, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x105965e30, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x105996660, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10595ca40, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x105950590, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x10598e210, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x105984b80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x105946cc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10594e200, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10599c110, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10596c890, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105979be0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x10595ec60, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10597eb20, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10596d2c0, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105998220, {{0.0, 0.0}, {134.0, 291.3}}
+      Other, 0x105972ec0, {{0.0, 0.0}, {134.0, 291.3}}
+        Other, 0x1059a0320, {{0.0, 0.0}, {134.0, 291.3}}
+    Window, 0x105982ec0, {{0.0, 0.0}, {402.0, 874.0}}
+      StatusBar, 0x1059492d0, {{0.0, 0.0}, {402.0, 54.0}}
+    Window, 0x105972130, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10599ee60, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105995c00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10599a810, {{0.0, 0.0}, {402.0, 874.0}}
+    Window, 0x105964d20, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10593b8d0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x105c2bfd0, pid: 4124, label: ' '
+Query chain:
+ →Find: Application 'com.apple.springboard'
+  Output: {
+    Application, 0x105c70780, pid: 4124, label: ' '
+  }
