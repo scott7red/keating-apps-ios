@@ -391,9 +391,25 @@ class Tour: XCTestCase {
     }
 
     /// A tab in the app's tab bar at the bottom: tapped where it is, no scrolling.
+    /// The tab bars are full-width rows of equal tabs. WebKit can report a fixed, CSS-transformed bar's frames
+    /// shifted sideways (TidyQuote's "Settings" came out over "Clients"), so the tab is tapped by its place in
+    /// the row: the k-th of n tabs sits at (k + 0.5) / n of the screen width.
     func tab(_ name: String, after: Double = 1.5, file: StaticString = #filePath, line: UInt = #line) {
         let found = waitFor(name, how: .exact, kinds: [[.button, .link, .tab]], pick: .lowest, file: file, line: line)
-        tapFound(found, scroll: false, before: 0.6, after: after)
+        let s = screen()
+        let y = found.frame.midY
+        let row = s.nodes.filter { ($0.type == .button || $0.type == .link || $0.type == .tab) && !$0.frame.isEmpty
+                                   && abs($0.frame.midY - y) < 6 && $0.frame.height < 120 }
+            .sorted { $0.frame.minX < $1.frame.minX }
+        pause(0.6)
+        if row.count >= 3, let k = row.firstIndex(where: { $0.label == found.label && abs($0.frame.minX - found.frame.minX) < 1 }) {
+            let x = s.window.width * (CGFloat(k) + 0.5) / CGFloat(row.count)
+            if abs(x - found.frame.midX) > 20 { mark("note", "tab \(name): reported x \(Int(found.frame.midX)), tapped at \(Int(x))") }
+            tapPoint(CGRect(x: x - 1, y: y - 1, width: 2, height: 2))
+        } else {
+            tapPoint(found.frame)
+        }
+        pause(after)
     }
 
     /// Taps `text` only if it is on screen now. Returns whether it was there.
