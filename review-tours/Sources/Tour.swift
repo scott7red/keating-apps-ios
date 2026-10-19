@@ -213,15 +213,19 @@ class Tour: XCTestCase {
 
     /// Scrolls (slowly, with no fling) until the element sits comfortably on screen.
     func reveal(_ element: XCUIElement) {
+        // With the keyboard up, only the part above it (and its toolbar) counts as on screen.
+        let keyboard = app.keyboards.firstMatch
+        let keyboardTop: CGFloat? = keyboard.exists ? keyboard.frame.minY - 56 : nil
         for _ in 0..<20 {
             let f = element.frame
             if f.isEmpty || f.isNull || f.isInfinite { return }
             let w = window
             let top = w.minY + w.height * topBand
-            let bottom = w.minY + w.height * bottomBand
+            var bottom = w.minY + w.height * bottomBand
+            if let kt = keyboardTop, kt > top + 80 { bottom = min(bottom, kt) }
             if f.midY >= top && f.midY <= bottom { return }
             // Already fully on screen and tappable (for example in a fixed bar at the bottom): leave it.
-            if f.minY >= w.minY + 44 && f.maxY <= w.maxY - 8 && element.isHittable { return }
+            if f.minY >= w.minY + 44 && f.maxY <= min(w.maxY - 8, keyboardTop ?? w.maxY) && element.isHittable { return }
             let target = top + (bottom - top) * 0.4
             let limit = w.height * 0.42
             drag(max(-limit, min(limit, target - f.midY)))
@@ -233,9 +237,15 @@ class Tour: XCTestCase {
     func drag(_ dy: CGFloat, x: CGFloat = 0.5) {
         let w = window
         let origin = app.coordinate(withNormalizedOffset: .zero)
-        let startY = dy < 0 ? w.height * 0.70 : w.height * 0.30
+        // Drag only where the content is: above the keyboard when it is up.
+        let keyboard = app.keyboards.firstMatch
+        let low = keyboard.exists ? max(w.height * 0.3, keyboard.frame.minY - 70) : w.height * 0.70
+        let high = w.height * 0.25
+        var move = dy
+        if dy < 0 { move = max(dy, high - low) } else { move = min(dy, low - high) }
+        let startY = dy < 0 ? low : high
         let start = origin.withOffset(CGVector(dx: w.width * x, dy: startY))
-        let end = origin.withOffset(CGVector(dx: w.width * x, dy: startY + dy))
+        let end = origin.withOffset(CGVector(dx: w.width * x, dy: startY + move))
         start.press(forDuration: 0.05, thenDragTo: end, withVelocity: XCUIGestureVelocity(rawValue: 650), thenHoldForDuration: 0.25)
         pause(0.5)
     }
@@ -342,8 +352,64 @@ class Tour: XCTestCase {
         pause(0.7)
     }
 
-    func back(after: Double = 1.3) {
-        tap("Back", how: .exact, kinds: [[.button, .link]], after: after)
+    /// The back arrow at the top left of an app screen (labelled "Back", or with the previous screen's name).
+    func back(after: Double = 1.3, file: StaticString = #filePath, line: UInt = #line) {
+        if let b = find("Back", how: .exact, kinds: [[.button, .link]]), b.isHittable {
+            tapElement(b, before: 0.6, after: after)
+            return
+        }
+        let w = window
+        let buttons = app.webViews.firstMatch.descendants(matching: .button)
+        let count = min(buttons.count, 10)
+        for i in 0..<count {
+            let b = buttons.element(boundBy: i)
+            let f = b.frame
+            if f.minY < w.minY + w.height * 0.15 && f.midX < w.width * 0.4 && b.isHittable {
+                tapElement(b, before: 0.6, after: after)
+                return
+            }
+        }
+        dumpTree("no back button", force: true)
+        XCTFail("No back button at the top left", file: file, line: line)
+    }
+
+    /// Sets an <input type="time"> with iOS's own time picker: taps the field, turns the wheels to the hour,
+    /// minute and AM/PM of `date`, then closes the picker with Done.
+    func setTime(_ label: String, to date: Date, file: StaticString = #filePath, line: UInt = #line) {
+        let field = waitFor(label, kinds: [Tour.fields, [.button, .other, .staticText, .datePicker]], file: file, line: line)
+        tapElement(field, before: 0.6, after: 1.2)
+        dumpTree("time picker")
+        let cal = Calendar.current
+        var hour = cal.component(.hour, from: date)
+        let minute = cal.component(.minute, from: date)
+        let pm = hour >= 12
+        hour = hour % 12 == 0 ? 12 : hour % 12
+        mark("note", "time picker: \(hour):\(String(format: "%02d", minute)) \(pm ? "PM" : "AM")")
+        let wheels = app.pickerWheels
+        if wheels.firstMatch.waitForExistence(timeout: 6) {
+            let all = wheels.allElementsBoundByIndex
+            mark("note", "picker wheels: " + all.map { ($0.value as? String) ?? "?" }.joined(separator: " | "))
+            if all.count >= 2 {
+                all[0].adjust(toPickerWheelValue: "\(hour)")
+                pause(0.7)
+                all[1].adjust(toPickerWheelValue: String(format: "%02d", minute))
+                pause(0.7)
+                if all.count >= 3 {
+                    all[2].adjust(toPickerWheelValue: pm ? "PM" : "AM")
+                    pause(0.7)
+                }
+            }
+        } else {
+            mark("note", "no picker wheels for the time")
+            dumpTree("time picker without wheels", force: true)
+        }
+        pause(1.0)
+        for candidate in [app.toolbars.buttons["Done"], app.buttons["Done"]] where candidate.exists && candidate.isHittable {
+            markTap(candidate.frame)
+            candidate.tap()
+            pause(1.0)
+            break
+        }
     }
 
     // MARK: - System prompts

@@ -364,6 +364,8 @@ jobs:
         run: |
           cd "$RUNNER_TEMP/dd/Build/Products"
           ls -la . Debug-iphoneos
+          # Test Lab runs every test in the file: keep only this app's tour.
+          python3 "$GITHUB_WORKSPACE/review-tours/xctestrun.py" "$(ls *.xctestrun | head -1)" "${{ steps.tour.outputs.class }}"
           for a in Debug-iphoneos/*.app; do codesign --verify --deep --verbose=2 "$a" 2>&1 | tee -a "$FB/codesign.txt"; done
           zip -qr "$OUT/tests.zip" Debug-iphoneos *.xctestrun
           ls -la "$OUT/tests.zip"

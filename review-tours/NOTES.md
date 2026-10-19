@@ -33,4 +33,11 @@ Newest entries at the bottom of each section.
 
 ## Log
 
-- Run 1 (pending): infrastructure + first TidyQuote steps, simulator, debug trees on.
+- Run 1: plan, simulator boot (iOS 26.2), npm ci, prepare, add-target.rb and build-for-testing all worked first time.
+  The "Set up the simulator for filming" step then hung (>5 min, no logs visible without a token). Fix: every simctl
+  call there now has a time limit (perl alarm) and a line in setup.log (pushed with the feedback); step time limits added.
+- Labels for all 9 apps were collected by running each built web app (apps/<id>/www) in a local browser at 402x874
+  and listing buttons/links/inputs with their accessible names. Notable: duplicate labels when a sheet is open
+  (find() prefers the hittable match, else the last); Settings back buttons are named after the parent screen in
+  FirstSip ("Settings", "More"), hence the generic top-left back().
+- Test Lab runs every test in the .xctestrun, so `xctestrun.py` limits it to the app's tour (OnlyTestIdentifiers).
