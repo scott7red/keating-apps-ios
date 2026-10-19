@@ -75,10 +75,15 @@ final class BRRRTour: Tour {
             tab("Markets", after: 1.5)
             tap("Near me", how: .exact, after: 1.2)
             tap("Use my location", how: .exact, after: 0.5)
-            answerSystemAlert(["Allow While Using App", "Allow Once", "Allow"])
-            if springboard.alerts.firstMatch.waitForExistence(timeout: 3) {
-                mark("note", "a second location prompt appeared: \(springboard.alerts.firstMatch.label)")
-                dumpTree("second location prompt", force: true)
+            if answerSystemAlert(["Allow While Using App", "Allow Once", "Allow"], timeout: 45, required: false) {
+                if springboard.alerts.firstMatch.waitForExistence(timeout: 3) {
+                    mark("note", "a second location prompt appeared: \(springboard.alerts.firstMatch.label)")
+                    dumpTree("second location prompt", force: true)
+                }
+            } else {
+                // Location is optional in BRRR: the ZIP box gives the same list.
+                type("43215", into: "Or type a ZIP or a city", how: .prefix)
+                hideKeyboard()
             }
             waitText("Ranked by BRRR score", timeout: 20)
             pause(2.0)

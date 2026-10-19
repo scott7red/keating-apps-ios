@@ -195,9 +195,18 @@ class ExamTour: Tour {
 
     /// Taps an answer by its letter (the answers read "A ...", "B ...").
     func answer(_ letter: String, file: StaticString = #filePath, line: UInt = #line) {
-        let choice = app.webViews.firstMatch.buttons
+        // The answers are a group named "Answer choices" whose items (switches) are labelled with the answer
+        // text only; on some iOS versions they are buttons that start with the letter.
+        let index = Int(letter.unicodeScalars.first!.value) - 65
+        let group = app.descendants(matching: .any).matching(NSPredicate(format: "label == 'Answer choices'")).firstMatch
+        var choice = app.webViews.firstMatch.buttons
             .matching(NSPredicate(format: "label BEGINSWITH %@ OR label BEGINSWITH %@", letter + " ", letter + ",")).firstMatch
-        guard choice.waitForExistence(timeout: 15) else {
+        if group.waitForExistence(timeout: 15) {
+            let items = group.descendants(matching: .any).matching(NSPredicate(format: "elementType IN %@",
+                [XCUIElement.ElementType.switch, .button, .radioButton, .checkBox].map { NSNumber(value: $0.rawValue) }))
+            if items.count > index { choice = items.element(boundBy: index) }
+        }
+        guard choice.waitForExistence(timeout: 5) else {
             dumpTree("no answer \(letter)", force: true)
             XCTFail("No answer \(letter)", file: file, line: line)
             return

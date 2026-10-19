@@ -314,7 +314,14 @@ class Tour: XCTestCase {
     func tapElement(_ element: XCUIElement, before: Double = 0.7, after: Double = 1.3) {
         reveal(element)
         pause(before)
-        let f = element.frame
+        // Wait for it to stop moving (a sheet sliding up, a list growing after the last tap).
+        var f = element.frame
+        for _ in 0..<8 {
+            Thread.sleep(forTimeInterval: 0.25)
+            let again = element.frame
+            if abs(again.midY - f.midY) < 2 && abs(again.midX - f.midX) < 2 { break }
+            f = again
+        }
         markTap(f)
         app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: f.midX, dy: f.midY)).tap()
         pause(after)
@@ -385,6 +392,10 @@ class Tour: XCTestCase {
     /// Taps the text field labelled `label`, clears it and types `text` at a readable speed.
     func type(_ text: String, into label: String, clear: Bool = true, how: How? = nil, file: StaticString = #filePath, line: UInt = #line) {
         let field = findField(label, how: how) ?? waitFor(label, how: how, kinds: [Tour.fields], file: file, line: line)
+        // A field behind the keyboard (or its bar) cannot always be scrolled above it inside a sheet: put the
+        // keyboard away first, then scroll to the field and tap it.
+        let keyboard = app.keyboards.firstMatch
+        if keyboard.exists && field.frame.maxY > keyboard.frame.minY - 60 { hideKeyboard() }
         tapElement(field, before: 0.5, after: 0.4)
         _ = app.keyboards.firstMatch.waitForExistence(timeout: 4)
         if clear, let current = field.value as? String, !current.isEmpty, current != (field.placeholderValue ?? "") {
@@ -392,6 +403,9 @@ class Tour: XCTestCase {
         }
         typeSlowly(text)
         pause(0.8)
+        if let now = field.value as? String, !now.contains(text) {
+            mark("note", "typed \(text) into \(label), but it shows \(now)")
+        }
     }
 
     /// A text field by its label. Some iOS versions name a web field by its placeholder, or not at all; then the
@@ -473,19 +487,22 @@ class Tour: XCTestCase {
 
     /// The back arrow at the top left of an app screen (labelled "Back", or with the previous screen's name).
     func back(after: Double = 1.3, file: StaticString = #filePath, line: UInt = #line) {
-        if let b = find("Back", how: .exact, kinds: [[.button, .link]]), b.isHittable {
+        let w = window
+        // "Back", "Back to Settings", "Back to deals"...
+        if let b = find("Back", how: .prefix, kinds: [[.button, .link]]), b.isHittable, b.frame.minY < w.minY + w.height * 0.2 {
             tapElement(b, before: 0.6, after: after)
             return
         }
-        let w = window
-        let buttons = app.webViews.firstMatch.descendants(matching: .button)
-        let count = min(buttons.count, 10)
-        for i in 0..<count {
-            let b = buttons.element(boundBy: i)
-            let f = b.frame
-            if f.minY < w.minY + w.height * 0.15 && f.midX < w.width * 0.4 && b.isHittable {
-                tapElement(b, before: 0.6, after: after)
-                return
+        for kind in [Kind.button, Kind.link] {
+            let candidates = app.webViews.firstMatch.descendants(matching: kind)
+            let count = min(candidates.count, 10)
+            for i in 0..<count {
+                let b = candidates.element(boundBy: i)
+                let f = b.frame
+                if f.minY < w.minY + w.height * 0.15 && f.midX < w.width * 0.4 && b.isHittable {
+                    tapElement(b, before: 0.6, after: after)
+                    return
+                }
             }
         }
         dumpTree("no back button", force: true)
@@ -536,11 +553,13 @@ class Tour: XCTestCase {
     /// Waits for an iOS prompt (notifications, location, camera), leaves it on screen so the viewer can
     /// read it, then taps the first of `choices` that it offers.
     @discardableResult
-    func answerSystemAlert(_ choices: [String], timeout: Double = 20, hold: Double = 2.2, file: StaticString = #filePath, line: UInt = #line) -> Bool {
+    func answerSystemAlert(_ choices: [String], timeout: Double = 20, hold: Double = 2.2, required: Bool = true,
+                           file: StaticString = #filePath, line: UInt = #line) -> Bool {
         let alert = springboard.alerts.firstMatch
         guard alert.waitForExistence(timeout: timeout) else {
             mark("note", "no iOS prompt appeared")
-            XCTFail("No iOS prompt appeared within \(Int(timeout)) s", file: file, line: line)
+            dumpTree("no iOS prompt", force: true)
+            if required { XCTFail("No iOS prompt appeared within \(Int(timeout)) s", file: file, line: line) }
             return false
         }
         mark("alert", alert.label)
