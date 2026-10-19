@@ -363,8 +363,10 @@ class Tour: XCTestCase {
 
     /// Brings the element into view and taps its centre, with a pause before and after.
     func tapFound(_ found: Found, scroll: Bool = true, before: Double = 0.7, after: Double = 1.3) {
-        let target = scroll ? reveal(found) : found
+        var target = scroll ? reveal(found) : found
         pause(before)
+        // Where it is now, after any animation (a sheet sliding up) has finished.
+        if let settled = refind(target, in: screen()) { target = settled }
         tapPoint(target.frame)
         pause(after)
     }
