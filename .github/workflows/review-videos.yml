@@ -128,6 +128,7 @@ jobs:
         run: node review-tours/ci.mjs tour "$APP" | tee -a "$GITHUB_OUTPUT"
 
       - name: Start an iPhone simulator (daytime clock, on-screen keyboard)
+        timeout-minutes: 12
         run: |
           xcodebuild -version
           TZONE=$(node review-tours/ci.mjs timezone)
@@ -158,6 +159,7 @@ jobs:
           ruby review-tours/add-target.rb "$APP" "${SK[@]}"
 
       - name: Build the app and the tour
+        timeout-minutes: 30
         run: |
           set +e
           xcodebuild build-for-testing \
@@ -169,23 +171,28 @@ jobs:
           [ $STATUS -eq 0 ] || { tail -80 "$OUT/build.log"; echo "build failed" > "$FB/status.txt"; exit 1; }
 
       - name: Set up the simulator for filming
+        timeout-minutes: 8
         run: |
-          # No autocorrection, suggestions or keyboard tips, so typed text stays exactly as typed.
-          for k in KeyboardAutocorrection KeyboardPrediction KeyboardShowPredictionBar KeyboardCheckSpelling KeyboardAutocapitalization KeyboardSmartPunctuation; do
-            xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool NO
-          done
-          for k in DidShowContinuousPathIntroduction DidShowGestureKeyboardIntroduction KeyboardDidShowProductivityTutorial UIKeyboardDidShowInternationalInfoIntroduction; do
-            xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool YES
-          done
+          # Each command gets a time limit (macOS has no `timeout`) and a line in setup.log.
+          t() { local s=$1; shift; echo "$(date +%T) $*" >> "$FB/setup.log"; perl -e 'alarm shift; exec @ARGV' "$s" "$@" >> "$FB/setup.log" 2>&1; local r=$?; echo "  -> exit $r" >> "$FB/setup.log"; return 0; }
           TIME=()
           [ "${{ steps.tour.outputs.clock }}" = "true" ] && TIME=(--time 9:41)
-          xcrun simctl status_bar "$UDID" override "${TIME[@]}" --dataNetwork wifi --wifiMode active --wifiBars 3 \
-            --cellularMode active --cellularBars 4 --operatorName "" --batteryState charged --batteryLevel 100
-          xcrun simctl ui "$UDID" appearance light
-          if [ -n "${{ steps.tour.outputs.location }}" ]; then xcrun simctl location "$UDID" set "${{ steps.tour.outputs.location }}"; fi
-          if [ "$APP" = "tidyquote" ]; then xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
+          t 30 xcrun simctl status_bar "$UDID" override "${TIME[@]}" --dataNetwork wifi --wifiMode active --wifiBars 3 \
+            --cellularMode active --cellularBars 4 --batteryState charged --batteryLevel 100
+          t 30 xcrun simctl ui "$UDID" appearance light
+          if [ -n "${{ steps.tour.outputs.location }}" ]; then t 30 xcrun simctl location "$UDID" set "${{ steps.tour.outputs.location }}"; fi
+          # No autocorrection, suggestions or keyboard tips, so typed text stays exactly as typed.
+          for k in KeyboardAutocorrection KeyboardPrediction KeyboardShowPredictionBar KeyboardCheckSpelling KeyboardAutocapitalization KeyboardSmartPunctuation; do
+            t 20 xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool NO
+          done
+          for k in DidShowContinuousPathIntroduction DidShowGestureKeyboardIntroduction KeyboardDidShowProductivityTutorial UIKeyboardDidShowInternationalInfoIntroduction; do
+            t 20 xcrun simctl spawn "$UDID" defaults write com.apple.Preferences "$k" -bool YES
+          done
+          if [ "$APP" = "tidyquote" ]; then t 90 xcrun simctl addmedia "$UDID" review-tours/media/logo.png; fi
+          cat "$FB/setup.log"
 
       - name: Record the tour
+        timeout-minutes: 40
         id: record
         run: |
           xcrun simctl io "$UDID" recordVideo --codec=h264 --mask=black --force "$OUT/raw.mp4" > "$OUT/record.log" 2>&1 &
@@ -195,7 +202,9 @@ jobs:
           cat "$OUT/record.log"
           XCTESTRUN=$(ls "$RUNNER_TEMP"/dd/Build/Products/*.xctestrun | head -1)
           set +e
+          # At most 30 minutes, so the recording is still stopped properly if the tour hangs.
           TEST_RUNNER_TOUR_OUT="$OUT" TEST_RUNNER_TOUR_DEBUG="$([ "$DEBUG_TREES" = true ] && echo 1 || echo 0)" \
+            perl -e 'alarm shift; exec @ARGV' 1800 \
             xcodebuild test-without-building -xctestrun "$XCTESTRUN" -destination "id=$UDID" \
             -only-testing "ReviewTour/${{ steps.tour.outputs.class }}/testTour" \
             -resultBundlePath "$OUT/tour.xcresult" > "$OUT/test.log" 2>&1
@@ -213,6 +222,7 @@ jobs:
           ls -la "$OUT"
 
       - name: Make the video and the pictures
+        timeout-minutes: 25
         id: video
         if: always() && steps.record.outcome != 'skipped'
         run: |
@@ -337,6 +347,7 @@ jobs:
       # Test Lab signs the app and the tour again with its own certificate and profile, so both are built
       # with an ad hoc signature here: no certificate or device registration is needed.
       - name: Build the app and the tour for a real iPhone
+        timeout-minutes: 30
         run: |
           xcodebuild -version
           set +e
@@ -374,6 +385,7 @@ jobs:
         if: env.GCP_READY == 'true'
 
       - name: Run the tour on a real iPhone in Test Lab
+        timeout-minutes: 60
         id: record
         if: env.GCP_READY == 'true'
         env:
@@ -409,6 +421,7 @@ jobs:
           [ -n "$VIDEO" ] || echo "no video in the results" >> "$FB/status.txt"
 
       - name: Make the video and the pictures
+        timeout-minutes: 25
         id: video
         if: always() && steps.record.outputs.video == 'yes'
         run: |

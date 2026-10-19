@@ -23,7 +23,8 @@ class Tour: XCTestCase {
 
     enum How { case exact, prefix, contains }
     typealias Kind = XCUIElement.ElementType
-    static let actionable: [Kind] = [.button, .link, .radioButton, .checkBox, .switch, .cell, .menuItem, .tab, .segmentedControl, .textField, .image]
+    static let actionable: [Kind] = [.button, .link, .radioButton, .checkBox, .switch, .cell, .menuItem, .tab, .segmentedControl,
+                                     .disclosureTriangle, .popUpButton, .comboBox, .textField, .image]
     static let passive: [Kind] = [.staticText, .other]
     static let fields: [Kind] = [.textField, .secureTextField, .textView, .searchField]
 
@@ -148,13 +149,20 @@ class Tour: XCTestCase {
         return (root ?? app).descendants(matching: .any).matching(predicate)
     }
 
-    /// The first element showing `text`, trying each group of element kinds in order.
+    /// The element showing `text`, trying each group of element kinds in order. When several match
+    /// (a button behind an open sheet and the sheet's own button with the same name), the one that can
+    /// be tapped wins; if none can yet, the last one (sheets come last in the page).
     func find(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], in root: XCUIElement? = nil) -> XCUIElement? {
         let hows: [How] = how.map { [$0] } ?? [.exact, .prefix]
         for h in hows {
             for group in kinds {
-                let element = query(text, h, group, in: root).firstMatch
-                if element.exists { return element }
+                let q = query(text, h, group, in: root)
+                let count = q.count
+                if count == 0 { continue }
+                if count == 1 { return q.element(boundBy: 0) }
+                let all = (0..<min(count, 8)).map { q.element(boundBy: $0) }
+                if let tappable = all.first(where: { $0.isHittable }) { return tappable }
+                return all[all.count - 1]
             }
         }
         return nil
@@ -181,6 +189,16 @@ class Tour: XCTestCase {
     @discardableResult
     func waitText(_ text: String, timeout: Double = 15, file: StaticString = #filePath, line: UInt = #line) -> XCUIElement {
         waitFor(text, how: .contains, kinds: [Tour.passive, Tour.actionable], timeout: timeout, file: file, line: line)
+    }
+
+    /// Waits for some text without failing the tour; returns whether it appeared.
+    func waitOptional(_ text: String, how: How = .contains, kinds: [[Kind]] = [Tour.passive, Tour.actionable], timeout: Double) -> Bool {
+        let deadline = Date().addingTimeInterval(timeout)
+        repeat {
+            if find(text, how: how, kinds: kinds) != nil { return true }
+            Thread.sleep(forTimeInterval: 0.4)
+        } while Date() < deadline
+        return false
     }
 
     /// Waits until `text` is gone (for example a sheet closing).
@@ -365,6 +383,57 @@ class Tour: XCTestCase {
         markTap(button.frame)
         button.tap()
         pause(1.0)
+    }
+
+    // MARK: - Share sheet
+
+    /// The iOS share sheet that an export opens: holds on it, then Save to Files, On My iPhone, Save.
+    /// If a part of that is missing, the sheet is closed instead and the tour carries on.
+    func shareSheetSaveToFiles() {
+        let saveToFiles = app.descendants(matching: .any).matching(NSPredicate(format: "label ==[c] 'Save to Files'")).firstMatch
+        guard saveToFiles.waitForExistence(timeout: 20) else {
+            mark("note", "the share sheet did not appear")
+            dumpTree("no share sheet", force: true)
+            return
+        }
+        mark("show", "share sheet")
+        pause(2.5)
+        dumpTree("share sheet")
+        markTap(saveToFiles.frame)
+        saveToFiles.tap()
+        pause(2.5)
+        dumpTree("save to files")
+        if let onPhone = find("On My iPhone", how: .exact, kinds: [[.cell, .button, .staticText, .other]]), onPhone.isHittable {
+            markTap(onPhone.frame)
+            onPhone.tap()
+            pause(1.5)
+        }
+        let save = app.buttons.matching(NSPredicate(format: "label ==[c] 'Save'")).firstMatch
+        if save.waitForExistence(timeout: 8) && save.isHittable {
+            pause(1.0)
+            markTap(save.frame)
+            save.tap()
+            pause(2.0)
+            // Saving again over the same name asks first.
+            let replace = app.buttons.matching(NSPredicate(format: "label ==[c] 'Replace'")).firstMatch
+            if replace.waitForExistence(timeout: 2) {
+                markTap(replace.frame)
+                replace.tap()
+                pause(1.5)
+            }
+        } else {
+            mark("note", "Save to Files had no Save button")
+            dumpTree("no save button", force: true)
+            for name in ["Cancel", "Close"] {
+                let b = app.buttons[name]
+                if b.exists && b.isHittable {
+                    markTap(b.frame)
+                    b.tap()
+                    pause(1.5)
+                    break
+                }
+            }
+        }
     }
 
     // MARK: - Home Screen and notifications
