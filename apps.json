@@ -76,7 +76,8 @@
     },
     "plugins": [
       "@capacitor/share",
-      "@capacitor/filesystem"
+      "@capacitor/filesystem",
+      "@capgo/native-purchases"
     ],
     "wave": 1,
     "kind": "tool"
@@ -91,7 +92,8 @@
     "permissions": {},
     "plugins": [
       "@capacitor/share",
-      "@capacitor/filesystem"
+      "@capacitor/filesystem",
+      "@capgo/native-purchases"
     ],
     "wave": 1,
     "kind": "tool"
@@ -107,7 +109,8 @@
     "plugins": [
       "@capacitor/share",
       "@capacitor/filesystem",
-      "@capacitor/local-notifications"
+      "@capacitor/local-notifications",
+      "@capgo/native-purchases"
     ],
     "wave": 1,
     "kind": "tool"
@@ -123,7 +126,8 @@
     "plugins": [
       "@capacitor/share",
       "@capacitor/filesystem",
-      "@capacitor/local-notifications"
+      "@capacitor/local-notifications",
+      "@capgo/native-purchases"
     ],
     "wave": 1,
     "kind": "tool"
@@ -136,12 +140,14 @@
     "sku": "brrr",
     "background": "#0a1016",
     "permissions": {
-      "NSLocationWhenInUseUsageDescription": "Find rental markets near you. Your location stays on your phone."
+      "NSLocationWhenInUseUsageDescription": "Find rental markets near you. Your location stays on your phone.",
+      "NSLocationAlwaysAndWhenInUseUsageDescription": "BRRR only uses your location while you are using it, to find rental markets near you. Your location stays on your phone."
     },
     "plugins": [
       "@capacitor/share",
       "@capacitor/filesystem",
-      "@capacitor/geolocation"
+      "@capacitor/geolocation",
+      "@capgo/native-purchases"
     ],
     "wave": 1,
     "kind": "tool"
