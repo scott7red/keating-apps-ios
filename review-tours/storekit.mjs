@@ -1,4 +1,4 @@
-// Writes a local StoreKit configuration (.storekit) with an exam app's in-app purchases, for the
+// Writes a local StoreKit configuration (.storekit) with an app's in-app purchases and subscriptions, for the
 // simulator recording: StoreKit then shows its own purchase sheet and completes the purchase on the
 // Mac, with no App Store account and no money. The products come from iap-products.json (a copy of
 // app-store/iap-products.json, the list that was entered in App Store Connect).
@@ -19,7 +19,7 @@ const digits = (s) => String(1e9 + (parseInt(hex(s, 8), 16) % 8e9))
 const config = {
   identifier: hex(id, 8),
   nonRenewingSubscriptions: [],
-  products: products.map((p) => ({
+  products: products.filter((p) => p.type !== 'auto-renewable subscription').map((p) => ({
     displayPrice: p.price,
     familyShareable: false,
     internalID: digits(p.productId),
@@ -35,7 +35,30 @@ const config = {
     _storefront: 'USA',
     _storeKitErrors: [],
   },
-  subscriptionGroups: [],
+  // The tool apps' subscriptions (monthly/yearly, 7-day free trial on yearly), one group per app.
+  subscriptionGroups: [...new Set(products.filter((p) => p.subscriptionGroup).map((p) => p.subscriptionGroup))].map((group) => ({
+    id: digits(`group|${group}`),
+    localizations: [],
+    name: group,
+    subscriptions: products
+      .filter((p) => p.subscriptionGroup === group)
+      .map((p) => ({
+        adHocOffers: [],
+        codeOffers: [],
+        displayPrice: p.price,
+        familyShareable: false,
+        groupNumber: 1,
+        internalID: digits(p.productId),
+        introductoryOffer: p.trial ? { internalID: digits(`intro|${p.productId}`), paymentMode: 'free', subscriptionPeriod: 'P1W' } : null,
+        localizations: [{ description: p.description, displayName: p.displayName, locale: 'en_US' }],
+        productID: p.productId,
+        recurringSubscriptionPeriod: p.period === 'ONE_YEAR' ? 'P1Y' : 'P1M',
+        referenceName: p.referenceName,
+        subscriptionGroupID: digits(`group|${group}`),
+        type: 'RecurringSubscription',
+        winbackOffers: [],
+      })),
+  })),
   version: { major: 4, minor: 0 },
 }
 fs.writeFileSync(out, JSON.stringify(config, null, 2) + '\n')

@@ -20,17 +20,31 @@ const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'))
 // never links a plugin it does not use (an unused location plugin would still need a usage string).
 const FILES = ['@capacitor/share', '@capacitor/filesystem']
 
+// Every tool app sells its paid plan (monthly/yearly subscription and a lifetime purchase) through
+// StoreKit 2, so each one links the purchases plugin too (see each app's src/lib/iap.ts).
+const IAP = '@capgo/native-purchases'
+// BRRR asks only for location while the app is in use. Apple's upload check still asks for the
+// "Always and When In Use" text whenever the location plugin's code can request it, so it is set too;
+// the app never asks for Always.
+const BRRR_LOCATION = 'Find rental markets near you. Your location stays on your phone.'
 const TOOLS = {
   tidyquote: {
+    plugins: [...FILES, IAP],
     permissions: {
       NSCameraUsageDescription: 'Take a photo of your logo for your quotes and invoices.',
       NSPhotoLibraryUsageDescription: 'Choose your logo for your quotes and invoices.',
     },
   },
-  shiftledger: {},
-  firstsip: { plugins: [...FILES, '@capacitor/local-notifications'] },
-  minutebank: { plugins: [...FILES, '@capacitor/local-notifications'] },
-  brrr: { plugins: [...FILES, '@capacitor/geolocation'], permissions: { NSLocationWhenInUseUsageDescription: 'Find rental markets near you. Your location stays on your phone.' } },
+  shiftledger: { plugins: [...FILES, IAP] },
+  firstsip: { plugins: [...FILES, '@capacitor/local-notifications', IAP] },
+  minutebank: { plugins: [...FILES, '@capacitor/local-notifications', IAP] },
+  brrr: {
+    plugins: [...FILES, '@capacitor/geolocation', IAP],
+    permissions: {
+      NSLocationWhenInUseUsageDescription: BRRR_LOCATION,
+      NSLocationAlwaysAndWhenInUseUsageDescription: 'BRRR only uses your location while you are using it, to find rental markets near you. Your location stays on your phone.',
+    },
+  },
 }
 
 // The exam apps in the App Store: four industry apps, each selling its exams one by one as in-app

@@ -1,5 +1,5 @@
 {
-  "note": "One non-consumable in-app purchase per exam. Price $29.99 (USD tier). Display name 30 characters or fewer, description 45 or fewer. Generated from exam-prep/apps/<appId>/app.json.",
+  "note": "Every in-app purchase and subscription of the 9 iPhone apps. Exams: one non-consumable per exam, prices set October 2026 (old price $29.99 each, kept as oldPrice). Tools: free download with a subscription group (monthly and/or yearly, 7-day free trial on yearly only, as an Apple introductory offer) plus a lifetime non-consumable that unlocks the same features. All prices are Apple price points in USD with the United States as base territory and the only availability. Family Sharing is off on every product. Display name 30 characters or fewer, description 45 or fewer.",
   "products": [
     {
       "appId": "real-estate-exam-prep",
@@ -9,11 +9,13 @@
       "referenceName": "Real Estate: National Salesperson",
       "displayName": "National Salesperson Exam",
       "description": "Unlocks full prep for the national portion",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "national"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "real-estate-exam-prep",
@@ -23,11 +25,13 @@
       "referenceName": "Real Estate: CA Salesperson",
       "displayName": "CA Salesperson Exam",
       "description": "Unlocks full prep for the CA salesperson exam",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "california"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "real-estate-exam-prep",
@@ -37,11 +41,13 @@
       "referenceName": "Real Estate: CA Broker",
       "displayName": "CA Broker Exam",
       "description": "Unlocks full prep for the CA broker exam",
-      "price": "29.99",
+      "price": "49.99",
       "currency": "USD",
       "tracks": [
         "california-broker"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -51,11 +57,13 @@
       "referenceName": "Insurance: Life (general)",
       "displayName": "Life Insurance Exam",
       "description": "Unlocks full prep for the life exam",
-      "price": "29.99",
+      "price": "34.99",
       "currency": "USD",
       "tracks": [
         "life"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -65,11 +73,13 @@
       "referenceName": "Insurance: Accident & Health (general)",
       "displayName": "Health Insurance Exam",
       "description": "Unlocks full prep for the health exam",
-      "price": "29.99",
+      "price": "34.99",
       "currency": "USD",
       "tracks": [
         "health"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -79,12 +89,14 @@
       "referenceName": "Insurance: Life & Health (general)",
       "displayName": "Life & Health Exam",
       "description": "Unlocks full prep for life and health exams",
-      "price": "29.99",
+      "price": "44.99",
       "currency": "USD",
       "tracks": [
         "life",
         "health"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -94,11 +106,13 @@
       "referenceName": "Insurance: Property (general)",
       "displayName": "Property Insurance Exam",
       "description": "Unlocks full prep for the property exam",
-      "price": "29.99",
+      "price": "34.99",
       "currency": "USD",
       "tracks": [
         "property"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -108,11 +122,13 @@
       "referenceName": "Insurance: Casualty (general)",
       "displayName": "Casualty Insurance Exam",
       "description": "Unlocks full prep for the casualty exam",
-      "price": "29.99",
+      "price": "34.99",
       "currency": "USD",
       "tracks": [
         "casualty"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -122,12 +138,14 @@
       "referenceName": "Insurance: Property & Casualty (general)",
       "displayName": "Property & Casualty Exam",
       "description": "Unlocks full prep for P&C exams",
-      "price": "29.99",
+      "price": "44.99",
       "currency": "USD",
       "tracks": [
         "property",
         "casualty"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -137,11 +155,13 @@
       "referenceName": "Insurance: CA Life Agent",
       "displayName": "CA Life Agent Exam",
       "description": "Unlocks full prep for the CA Life Agent exam",
-      "price": "29.99",
+      "price": "34.99",
       "currency": "USD",
       "tracks": [
         "ca-life"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -151,11 +171,13 @@
       "referenceName": "Insurance: CA Accident & Health Agent",
       "displayName": "CA Accident & Health Exam",
       "description": "Unlocks full prep for the CA A&H agent exam",
-      "price": "29.99",
+      "price": "34.99",
       "currency": "USD",
       "tracks": [
         "ca-health"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -165,11 +187,13 @@
       "referenceName": "Insurance: CA Life, Accident & Health Agent",
       "displayName": "CA Life, Accident & Health",
       "description": "Unlocks full prep for the CA L/A&H exam",
-      "price": "29.99",
+      "price": "44.99",
       "currency": "USD",
       "tracks": [
         "ca-life-health"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "insurance-exam-prep",
@@ -179,11 +203,13 @@
       "referenceName": "Insurance: CA Property & Casualty Broker-Agent",
       "displayName": "CA Property & Casualty Exam",
       "description": "Unlocks full prep for the CA P&C exam",
-      "price": "29.99",
+      "price": "44.99",
       "currency": "USD",
       "tracks": [
         "ca-property-casualty"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -193,11 +219,13 @@
       "referenceName": "Contractor: CSLB Law & Business",
       "displayName": "CSLB Law & Business Exam",
       "description": "Unlocks full prep for CSLB Law & Business",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "ca-law-business"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -207,12 +235,14 @@
       "referenceName": "Contractor: CA C-10 Electrical",
       "displayName": "CA C-10 Electrical Contractor",
       "description": "C-10 trade exam plus Law & Business",
-      "price": "29.99",
+      "price": "59.99",
       "currency": "USD",
       "tracks": [
         "ca-c10-electrical",
         "ca-law-business"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -222,12 +252,14 @@
       "referenceName": "Contractor: CA C-36 Plumbing",
       "displayName": "CA C-36 Plumbing Contractor",
       "description": "C-36 trade exam plus Law & Business",
-      "price": "29.99",
+      "price": "59.99",
       "currency": "USD",
       "tracks": [
         "ca-c36-plumbing",
         "ca-law-business"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -237,12 +269,14 @@
       "referenceName": "Contractor: CA B General Building",
       "displayName": "CA B General Contractor",
       "description": "B trade exam plus Law & Business",
-      "price": "29.99",
+      "price": "59.99",
       "currency": "USD",
       "tracks": [
         "ca-b-general",
         "ca-law-business"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -252,11 +286,13 @@
       "referenceName": "Contractor: General (IRC & OSHA)",
       "displayName": "General Contractor Exam",
       "description": "Unlocks full prep for the GC exam (IRC, OSHA)",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "general"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -266,11 +302,13 @@
       "referenceName": "Contractor: Journeyman Electrician (NEC)",
       "displayName": "Journeyman Electrician Exam",
       "description": "Unlocks full prep for NEC electrician exams",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "electrical"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "contractor-exam-prep",
@@ -280,11 +318,13 @@
       "referenceName": "Contractor: Journeyman Plumber (IPC & UPC)",
       "displayName": "Journeyman Plumber Exam",
       "description": "Unlocks full prep for IPC/UPC plumber exams",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "plumbing"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "pilot-drone-exam-prep",
@@ -294,11 +334,13 @@
       "referenceName": "Pilot: FAA Private Pilot (PAR)",
       "displayName": "Private Pilot Knowledge Test",
       "description": "Unlocks full prep for the FAA PAR test",
-      "price": "29.99",
+      "price": "39.99",
       "currency": "USD",
       "tracks": [
         "private-pilot"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
     },
     {
       "appId": "pilot-drone-exam-prep",
@@ -312,7 +354,228 @@
       "currency": "USD",
       "tracks": [
         "drone-part-107"
-      ]
+      ],
+      "oldPrice": "29.99",
+      "familySharing": false
+    },
+    {
+      "appId": "tidyquote",
+      "bundleId": "com.keatingkonsultancy.tidyquote",
+      "productId": "com.keatingkonsultancy.tidyquote.pro.monthly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "TidyQuote Pro",
+      "period": "ONE_MONTH",
+      "referenceName": "TidyQuote Pro Monthly",
+      "displayName": "TidyQuote Pro (Monthly)",
+      "description": "Unlimited quotes and invoices, no footer",
+      "price": "9.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false
+    },
+    {
+      "appId": "tidyquote",
+      "bundleId": "com.keatingkonsultancy.tidyquote",
+      "productId": "com.keatingkonsultancy.tidyquote.pro.yearly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "TidyQuote Pro",
+      "period": "ONE_YEAR",
+      "referenceName": "TidyQuote Pro Yearly",
+      "displayName": "TidyQuote Pro (Yearly)",
+      "description": "Unlimited quotes and invoices, no footer",
+      "price": "59.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": "7-day free trial (introductory offer, ONE_WEEK x1, FREE_TRIAL)",
+      "familySharing": false
+    },
+    {
+      "appId": "tidyquote",
+      "bundleId": "com.keatingkonsultancy.tidyquote",
+      "productId": "com.keatingkonsultancy.tidyquote.lifetime",
+      "type": "non-consumable",
+      "referenceName": "TidyQuote Pro Lifetime",
+      "displayName": "TidyQuote Pro Lifetime",
+      "description": "All Pro features for one payment, no renewal",
+      "price": "149.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false,
+      "unlocks": "same as TidyQuote Pro"
+    },
+    {
+      "appId": "shiftledger",
+      "bundleId": "com.keatingkonsultancy.shiftledger",
+      "productId": "com.keatingkonsultancy.shiftledger.pro.yearly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "ShiftLedger Pro",
+      "period": "ONE_YEAR",
+      "referenceName": "ShiftLedger Pro Yearly",
+      "displayName": "ShiftLedger Pro (Yearly)",
+      "description": "Deductions, W-2 check, exports, more jobs",
+      "price": "19.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": "7-day free trial (introductory offer, ONE_WEEK x1, FREE_TRIAL)",
+      "familySharing": false
+    },
+    {
+      "appId": "shiftledger",
+      "bundleId": "com.keatingkonsultancy.shiftledger",
+      "productId": "com.keatingkonsultancy.shiftledger.lifetime",
+      "type": "non-consumable",
+      "referenceName": "ShiftLedger Pro Lifetime",
+      "displayName": "ShiftLedger Pro Lifetime",
+      "description": "All Pro features for one payment, no renewal",
+      "price": "39.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false,
+      "unlocks": "same as ShiftLedger Pro"
+    },
+    {
+      "appId": "firstsip",
+      "bundleId": "com.keatingkonsultancy.firstsip",
+      "productId": "com.keatingkonsultancy.firstsip.premium.monthly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "FirstSip Premium",
+      "period": "ONE_MONTH",
+      "referenceName": "FirstSip Premium Monthly",
+      "displayName": "FirstSip Premium (Monthly)",
+      "description": "Doctor report, trends and refill countdown",
+      "price": "4.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false
+    },
+    {
+      "appId": "firstsip",
+      "bundleId": "com.keatingkonsultancy.firstsip",
+      "productId": "com.keatingkonsultancy.firstsip.premium.yearly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "FirstSip Premium",
+      "period": "ONE_YEAR",
+      "referenceName": "FirstSip Premium Yearly",
+      "displayName": "FirstSip Premium (Yearly)",
+      "description": "Doctor report, trends and refill countdown",
+      "price": "34.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": "7-day free trial (introductory offer, ONE_WEEK x1, FREE_TRIAL)",
+      "familySharing": false
+    },
+    {
+      "appId": "firstsip",
+      "bundleId": "com.keatingkonsultancy.firstsip",
+      "productId": "com.keatingkonsultancy.firstsip.lifetime",
+      "type": "non-consumable",
+      "referenceName": "FirstSip Premium Lifetime",
+      "displayName": "FirstSip Premium Lifetime",
+      "description": "All Premium features for one payment",
+      "price": "79.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false,
+      "unlocks": "same as FirstSip Premium"
+    },
+    {
+      "appId": "minutebank",
+      "bundleId": "com.keatingkonsultancy.minutebank",
+      "productId": "com.keatingkonsultancy.minutebank.family.monthly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "MinuteBank Family",
+      "period": "ONE_MONTH",
+      "referenceName": "MinuteBank Family Monthly",
+      "displayName": "MinuteBank Family (Monthly)",
+      "description": "More children, chores, reading and reports",
+      "price": "2.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false
+    },
+    {
+      "appId": "minutebank",
+      "bundleId": "com.keatingkonsultancy.minutebank",
+      "productId": "com.keatingkonsultancy.minutebank.family.yearly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "MinuteBank Family",
+      "period": "ONE_YEAR",
+      "referenceName": "MinuteBank Family Yearly",
+      "displayName": "MinuteBank Family (Yearly)",
+      "description": "More children, chores, reading and reports",
+      "price": "14.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": "7-day free trial (introductory offer, ONE_WEEK x1, FREE_TRIAL)",
+      "familySharing": false
+    },
+    {
+      "appId": "minutebank",
+      "bundleId": "com.keatingkonsultancy.minutebank",
+      "productId": "com.keatingkonsultancy.minutebank.lifetime",
+      "type": "non-consumable",
+      "referenceName": "MinuteBank Family Lifetime",
+      "displayName": "MinuteBank Family Lifetime",
+      "description": "All Family features for one payment",
+      "price": "24.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false,
+      "unlocks": "same as MinuteBank Family"
+    },
+    {
+      "appId": "brrr",
+      "bundleId": "com.keatingkonsultancy.brrr",
+      "productId": "com.keatingkonsultancy.brrr.pro.monthly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "BRRR Pro",
+      "period": "ONE_MONTH",
+      "referenceName": "BRRR Pro Monthly",
+      "displayName": "BRRR Pro (Monthly)",
+      "description": "Stress tests, projections, markets, PDFs",
+      "price": "7.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false
+    },
+    {
+      "appId": "brrr",
+      "bundleId": "com.keatingkonsultancy.brrr",
+      "productId": "com.keatingkonsultancy.brrr.pro.yearly",
+      "type": "auto-renewable subscription",
+      "subscriptionGroup": "BRRR Pro",
+      "period": "ONE_YEAR",
+      "referenceName": "BRRR Pro Yearly",
+      "displayName": "BRRR Pro (Yearly)",
+      "description": "Stress tests, projections, markets, PDFs",
+      "price": "49.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": "7-day free trial (introductory offer, ONE_WEEK x1, FREE_TRIAL)",
+      "familySharing": false
+    },
+    {
+      "appId": "brrr",
+      "bundleId": "com.keatingkonsultancy.brrr",
+      "productId": "com.keatingkonsultancy.brrr.lifetime",
+      "type": "non-consumable",
+      "referenceName": "BRRR Pro Lifetime",
+      "displayName": "BRRR Pro Lifetime",
+      "description": "All Pro features for one payment, no renewal",
+      "price": "119.99",
+      "currency": "USD",
+      "oldPrice": null,
+      "trial": null,
+      "familySharing": false,
+      "unlocks": "same as BRRR Pro"
     }
   ]
 }

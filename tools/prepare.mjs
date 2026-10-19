@@ -20,8 +20,12 @@ fs.cpSync(path.join(src, 'www'), path.join(native, 'www'), { recursive: true })
 // 2. Capacitor settings. includePlugins limits cap sync to the plugins this app uses, so no app links
 // a plugin it does not need (an unused location plugin would still need a usage string).
 if (!Array.isArray(app.plugins) || app.plugins.length === 0) throw new Error(`${id}: apps.json has no plugins list`)
-if (app.plugins.includes('@capacitor/geolocation') && !app.permissions?.NSLocationWhenInUseUsageDescription) {
-  throw new Error(`${id}: @capacitor/geolocation needs NSLocationWhenInUseUsageDescription`)
+// The location plugin's code can request "Always" access, so App Store Connect's upload check wants
+// both texts (ITMS-90683), even though the apps only ever ask for "While Using".
+for (const key of ['NSLocationWhenInUseUsageDescription', 'NSLocationAlwaysAndWhenInUseUsageDescription']) {
+  if (app.plugins.includes('@capacitor/geolocation') && !app.permissions?.[key]) {
+    throw new Error(`${id}: @capacitor/geolocation needs ${key} in apps.json permissions`)
+  }
 }
 fs.writeFileSync(
   path.join(native, 'capacitor.config.json'),
