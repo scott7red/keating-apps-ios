@@ -7,11 +7,6 @@ import XCTest
 /// native controls), scrolls until it is in view, pauses so a viewer can follow, and taps it.
 /// Nothing is added to the app; this bundle only exists on the build machine.
 ///
-/// Looking things up: every XCUIElement property read makes XCTest copy the whole screen from the app,
-/// and a web view's screen is large. So the tour takes one snapshot of the screen and searches it here
-/// (`screen()`, `find`), and taps by coordinates. System UI outside the app (alerts, the share sheet,
-/// notifications) is still reached through ordinary XCUIElement queries.
-///
 /// Every step writes a line to marks.tsv (time, kind, detail). The workflow uses the marks to trim
 /// the video to the app's launch, to draw a circle where each tap lands, to speed up waiting parts
 /// (with a caption saying so) and to make the contact sheets.
@@ -27,15 +22,6 @@ class Tour: XCTestCase {
     var bottomBand: CGFloat = 0.78
 
     enum How { case exact, prefix, contains }
-    /// Which match to use when several elements show the same text.
-    enum Pick {
-        /// The last one on screen: an open sheet's button rather than the same-named one behind it.
-        case lastOnScreen
-        /// The first one in the page.
-        case first
-        /// The lowest on screen (a tab in the tab bar).
-        case lowest
-    }
     typealias Kind = XCUIElement.ElementType
     static let actionable: [Kind] = [.button, .link, .radioButton, .checkBox, .switch, .cell, .menuItem, .tab, .segmentedControl,
                                      .disclosureTriangle, .popUpButton, .comboBox, .textField, .image]
@@ -44,8 +30,23 @@ class Tour: XCTestCase {
 
     // MARK: - Setup
 
+    /// The app's tab bars, each left to right (see tab()).
+    var tabBars: [[String]] { [] }
+
+    /// Which match to use when several elements show the same text.
+    enum Pick {
+        /// The one that can be tapped now (an open sheet's button rather than the same-named one behind it), else the last.
+        case tappable
+        /// The first one in the page.
+        case first
+        /// The lowest on screen.
+        case lowest
+    }
+
     override func setUpWithError() throws {
         continueAfterFailure = false
+        // Xcode's default limit per test is 10 minutes; MinuteBank's tour is longer.
+        executionTimeAllowance = 3600
         try? FileManager.default.createDirectory(at: Tour.outDir, withIntermediateDirectories: true)
         mark("setup", name)
     }
@@ -132,8 +133,8 @@ class Tour: XCTestCase {
     func launchFromHomeScreen() {
         XCUIDevice.shared.press(.home)
         pause(1.5)
-        let screenFrame = springboard.windows.firstMatch.frame
-        mark("screen", "\(Int(screenFrame.width)) \(Int(screenFrame.height))")
+        let screen = springboard.windows.firstMatch.frame
+        mark("screen", "\(Int(screen.width)) \(Int(screen.height))")
         var icon = springboard.icons[iconName]
         if !icon.waitForExistence(timeout: 8) {
             // On some iOS versions the Home Screen icons are not of type "icon".
@@ -160,96 +161,37 @@ class Tour: XCTestCase {
         XCTAssertTrue(app.webViews.firstMatch.waitForExistence(timeout: 30), "The app's web view did not appear")
     }
 
-    // MARK: - What is on screen
+    // MARK: - Finding things
 
-    /// One element of a snapshot of the screen.
-    struct Node {
-        let type: Kind
-        let label: String
-        let identifier: String
-        let value: String
-        let placeholder: String
-        let frame: CGRect
-        let enabled: Bool
-    }
-
-    /// The app's screen at one moment: every element, the window and the keyboard (if it is up).
-    struct Screen {
-        let nodes: [Node]
-        let window: CGRect
-        let keyboard: CGRect?
-    }
-
-    /// A found element, and what is needed to find it again after the screen scrolls.
-    struct Found {
-        let node: Node
-        let text: String
-        let how: How
-        let ordinal: Int
-        var frame: CGRect { node.frame }
-        var label: String { node.label }
-    }
-
-    func screen() -> Screen {
-        var nodes: [Node] = []
-        var window = CGRect.zero
-        var keyboard: CGRect?
-        if let snap = try? app.snapshot() {
-            func walk(_ s: XCUIElementSnapshot) {
-                nodes.append(Node(type: s.elementType, label: s.label, identifier: s.identifier, value: (s.value as? String) ?? "",
-                                  placeholder: s.placeholderValue ?? "", frame: s.frame, enabled: s.isEnabled))
-                if s.elementType == .window && window == .zero && !s.frame.isEmpty { window = s.frame }
-                if s.elementType == .keyboard && !s.frame.isEmpty { keyboard = s.frame }
-                for child in s.children { walk(child) }
-            }
-            walk(snap)
-            if window == .zero { window = snap.frame }
-        }
-        return Screen(nodes: nodes, window: window, keyboard: keyboard)
-    }
-
-    func matches(_ n: Node, _ text: String, _ how: How) -> Bool {
+    func query(_ text: String, _ how: How, _ kinds: [Kind], in root: XCUIElement? = nil) -> XCUIElementQuery {
+        let types = kinds.map { NSNumber(value: $0.rawValue) }
+        let predicate: NSPredicate
         switch how {
-        case .exact: return n.label.compare(text, options: .caseInsensitive) == .orderedSame || n.identifier == text
-        case .prefix: return n.label.range(of: text, options: [.caseInsensitive, .anchored]) != nil
-        case .contains: return n.label.range(of: text, options: .caseInsensitive) != nil
+        case .exact: predicate = NSPredicate(format: "elementType IN %@ AND (label ==[c] %@ OR identifier ==[c] %@)", types, text, text)
+        case .prefix: predicate = NSPredicate(format: "elementType IN %@ AND label BEGINSWITH[c] %@", types, text)
+        case .contains: predicate = NSPredicate(format: "elementType IN %@ AND label CONTAINS[c] %@", types, text)
         }
+        return (root ?? app).descendants(matching: .any).matching(predicate)
     }
 
-    func onScreen(_ f: CGRect, _ s: Screen) -> Bool {
-        f.intersects(s.window) && (s.keyboard.map { f.midY < $0.minY } ?? true)
-    }
-
-    /// The element showing `text`: exact label first, then a label starting with it (unless `how` is given),
-    /// trying each group of element kinds in order.
-    func find(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], pick: Pick = .lastOnScreen, in given: Screen? = nil) -> Found? {
-        let s = given ?? screen()
+    /// The element showing `text`, trying each group of element kinds in order. When several match
+    /// (a button behind an open sheet and the sheet's own button with the same name), the one that can
+    /// be tapped wins; if none can yet, the last one (sheets come last in the page).
+    func find(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], pick: Pick = .tappable, in root: XCUIElement? = nil) -> XCUIElement? {
         let hows: [How] = how.map { [$0] } ?? [.exact, .prefix]
         for h in hows {
             for group in kinds {
-                let hits = s.nodes.indices.filter { group.contains(s.nodes[$0].type) && !s.nodes[$0].frame.isEmpty && matches(s.nodes[$0], text, h) }
-                if hits.isEmpty { continue }
-                let visible = hits.filter { onScreen(s.nodes[$0].frame, s) }
-                let chosen: Int
-                switch pick {
-                case .first: chosen = hits[0]
-                case .lastOnScreen: chosen = visible.last ?? hits[hits.count - 1]
-                case .lowest: chosen = (visible.isEmpty ? hits : visible).max { s.nodes[$0].frame.midY < s.nodes[$1].frame.midY }!
-                }
-                let node = s.nodes[chosen]
-                let sameType = hits.filter { s.nodes[$0].type == node.type }
-                return Found(node: node, text: text, how: h, ordinal: sameType.firstIndex(of: chosen) ?? 0)
+                let q = query(text, h, group, in: root)
+                let count = q.count
+                if count == 0 { continue }
+                if count == 1 || pick == .first { return q.element(boundBy: 0) }
+                let all = (0..<min(count, 8)).map { q.element(boundBy: $0) }
+                if pick == .lowest { return all.max { $0.frame.midY < $1.frame.midY }! }
+                if let tappable = all.first(where: { $0.isHittable }) { return tappable }
+                return all[all.count - 1]
             }
         }
         return nil
-    }
-
-    /// The same element in a newer snapshot.
-    func refind(_ f: Found, in s: Screen) -> Found? {
-        let same = s.nodes.filter { $0.type == f.node.type && !$0.frame.isEmpty && matches($0, f.text, f.how) }
-        guard !same.isEmpty else { return nil }
-        let k = min(f.ordinal, same.count - 1)
-        return Found(node: same[k], text: f.text, how: f.how, ordinal: k)
     }
 
     func exists(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive]) -> Bool {
@@ -257,22 +199,21 @@ class Tour: XCTestCase {
     }
 
     @discardableResult
-    func waitFor(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], pick: Pick = .lastOnScreen,
-                 timeout: Double = 15, file: StaticString = #filePath, line: UInt = #line) -> Found {
+    func waitFor(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], pick: Pick = .tappable, in root: XCUIElement? = nil,
+                 timeout: Double = 15, file: StaticString = #filePath, line: UInt = #line) -> XCUIElement {
         let deadline = Date().addingTimeInterval(timeout)
         repeat {
-            if let found = find(text, how: how, kinds: kinds, pick: pick) { return found }
-            Thread.sleep(forTimeInterval: 0.3)
+            if let element = find(text, how: how, kinds: kinds, pick: pick, in: root) { return element }
+            Thread.sleep(forTimeInterval: 0.4)
         } while Date() < deadline
         dumpTree("missing " + text, force: true)
         XCTFail("Could not find \"\(text)\" on screen within \(Int(timeout)) s", file: file, line: line)
-        return Found(node: Node(type: .other, label: "", identifier: "", value: "", placeholder: "", frame: .zero, enabled: false),
-                     text: text, how: .exact, ordinal: 0)
+        return app.otherElements["tour-missing-element"]
     }
 
     /// Waits for some text to be on screen.
     @discardableResult
-    func waitText(_ text: String, timeout: Double = 15, file: StaticString = #filePath, line: UInt = #line) -> Found {
+    func waitText(_ text: String, timeout: Double = 15, file: StaticString = #filePath, line: UInt = #line) -> XCUIElement {
         waitFor(text, how: .contains, kinds: [Tour.passive, Tour.actionable], timeout: timeout, file: file, line: line)
     }
 
@@ -281,7 +222,7 @@ class Tour: XCTestCase {
         let deadline = Date().addingTimeInterval(timeout)
         repeat {
             if find(text, how: how, kinds: kinds) != nil { return true }
-            Thread.sleep(forTimeInterval: 0.3)
+            Thread.sleep(forTimeInterval: 0.4)
         } while Date() < deadline
         return false
     }
@@ -289,75 +230,70 @@ class Tour: XCTestCase {
     /// Waits until `text` is gone (for example a sheet closing).
     func waitGone(_ text: String, how: How = .contains, timeout: Double = 15) {
         let deadline = Date().addingTimeInterval(timeout)
-        while Date() < deadline && exists(text, how: how) { Thread.sleep(forTimeInterval: 0.3) }
+        while Date() < deadline && exists(text, how: how) { Thread.sleep(forTimeInterval: 0.4) }
     }
 
     // MARK: - Scrolling
 
-    var window: CGRect { screen().window }
+    var window: CGRect { app.windows.firstMatch.frame }
 
-    /// Scrolls (slowly, with no fling) until the element sits comfortably on screen; returns it as it is then.
-    @discardableResult
-    func reveal(_ found: Found) -> Found {
-        var current = found
-        var s = screen()
-        if let again = refind(found, in: s) { current = again }
-        for _ in 0..<15 {
-            let f = current.frame
-            let w = s.window
+    /// Scrolls (slowly, with no fling) until the element sits comfortably on screen.
+    func reveal(_ element: XCUIElement) {
+        // With the keyboard up, only the part above it (and its toolbar) counts as on screen.
+        let keyboard = app.keyboards.firstMatch
+        let keyboardTop: CGFloat? = keyboard.exists ? keyboard.frame.minY - 56 : nil
+        for _ in 0..<20 {
+            let f = element.frame
+            if f.isEmpty || f.isNull || f.isInfinite { return }
+            let w = window
             let top = w.minY + w.height * topBand
             var bottom = w.minY + w.height * bottomBand
-            if let kb = s.keyboard, kb.minY - 50 > top + 80 { bottom = min(bottom, kb.minY - 50) }
-            if f.midY >= top && f.midY <= bottom { return current }
+            if let kt = keyboardTop, kt > top + 80 { bottom = min(bottom, kt) }
+            if f.midY >= top && f.midY <= bottom { return }
+            // Already fully on screen and tappable (for example in a fixed bar at the bottom): leave it.
+            if f.minY >= w.minY + 44 && f.maxY <= min(w.maxY - 8, keyboardTop ?? w.maxY) && element.isHittable { return }
             let target = top + (bottom - top) * 0.4
             let limit = w.height * 0.42
-            drag(max(-limit, min(limit, target - f.midY)), in: s)
-            s = screen()
-            guard let moved = refind(current, in: s) else { return current }
-            // Nothing moved: a fixed bar (or the end of the page). Use it where it is.
-            if abs(moved.frame.midY - f.midY) < 2 { return moved }
-            current = moved
+            drag(max(-limit, min(limit, target - f.midY)))
+            if abs(element.frame.midY - f.midY) < 2 { return }
         }
-        return current
     }
 
     /// Drags the content by `dy` points (negative shows what is below), slowly and without a fling.
-    func drag(_ dy: CGFloat, x: CGFloat = 0.5, in given: Screen? = nil) {
-        let s = given ?? screen()
-        let w = s.window
+    func drag(_ dy: CGFloat, x: CGFloat = 0.5) {
+        let w = window
         let origin = app.coordinate(withNormalizedOffset: .zero)
         // Drag only where the content is: above the keyboard when it is up.
-        let low = s.keyboard.map { max(w.height * 0.3, $0.minY - 70) } ?? w.height * 0.70
+        let keyboard = app.keyboards.firstMatch
+        let low = keyboard.exists ? max(w.height * 0.3, keyboard.frame.minY - 70) : w.height * 0.70
         let high = w.height * 0.25
-        let move = dy < 0 ? max(dy, high - low) : min(dy, low - high)
+        var move = dy
+        if dy < 0 { move = max(dy, high - low) } else { move = min(dy, low - high) }
         let startY = dy < 0 ? low : high
         let start = origin.withOffset(CGVector(dx: w.width * x, dy: startY))
         let end = origin.withOffset(CGVector(dx: w.width * x, dy: startY + move))
         start.press(forDuration: 0.05, thenDragTo: end, withVelocity: XCUIGestureVelocity(rawValue: 650), thenHoldForDuration: 0.25)
-        pause(0.4)
+        pause(0.5)
     }
 
     /// Scrolls down by part of a screen, `times` times, holding after each so the viewer can read.
     func scrollDown(_ fraction: CGFloat = 0.35, times: Int = 1, hold: Double = 1.4) {
-        let s = screen()
         for _ in 0..<times {
-            drag(-s.window.height * fraction, in: s)
+            drag(-window.height * fraction)
             pause(hold)
         }
     }
 
     func scrollUp(_ fraction: CGFloat = 0.35, times: Int = 1, hold: Double = 0.8) {
-        let s = screen()
         for _ in 0..<times {
-            drag(s.window.height * fraction, in: s)
+            drag(window.height * fraction)
             pause(hold)
         }
     }
 
     /// Scrolls to the top of the screen quickly (a few big drags).
     func scrollToTop() {
-        let s = screen()
-        for _ in 0..<5 { drag(s.window.height * 0.6, in: s) }
+        for _ in 0..<6 { drag(window.height * 0.6) }
     }
 
     // MARK: - Tapping and typing
@@ -366,64 +302,74 @@ class Tour: XCTestCase {
         mark("tap", "\(Int(frame.midX)) \(Int(frame.midY))")
     }
 
-    func tapPoint(_ frame: CGRect) {
-        markTap(frame)
-        app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: frame.midX, dy: frame.midY)).tap()
-    }
-
-    /// Brings the element into view and taps its centre, with a pause before and after.
-    func tapFound(_ found: Found, scroll: Bool = true, before: Double = 0.7, after: Double = 1.3) {
-        var target = scroll ? reveal(found) : found
+    /// Taps the element at its centre after bringing it into view, with a pause before and after.
+    func tapElement(_ element: XCUIElement, before: Double = 0.7, after: Double = 1.3) {
+        reveal(element)
         pause(before)
-        // Where it is now, after any animation (a sheet sliding up) has finished.
-        if let settled = refind(target, in: screen()) { target = settled }
-        tapPoint(target.frame)
+        let f = element.frame
+        markTap(f)
+        app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: f.midX, dy: f.midY)).tap()
         pause(after)
     }
 
     /// Finds `text` (a button, link, choice...) and taps it.
     @discardableResult
-    func tap(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], pick: Pick = .lastOnScreen, timeout: Double = 15,
-             before: Double = 0.7, after: Double = 1.3, file: StaticString = #filePath, line: UInt = #line) -> Found {
-        let found = waitFor(text, how: how, kinds: kinds, pick: pick, timeout: timeout, file: file, line: line)
-        tapFound(found, before: before, after: after)
-        return found
+    func tap(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable, Tour.passive], pick: Pick = .tappable, timeout: Double = 15,
+             before: Double = 0.7, after: Double = 1.3, file: StaticString = #filePath, line: UInt = #line) -> XCUIElement {
+        let element = waitFor(text, how: how, kinds: kinds, pick: pick, timeout: timeout, file: file, line: line)
+        tapElement(element, before: before, after: after)
+        return element
     }
 
-    /// A tab in the app's tab bar at the bottom: tapped where it is, no scrolling.
-    /// The tab bars are full-width rows of equal tabs. WebKit can report a fixed, CSS-transformed bar's frames
-    /// shifted sideways (TidyQuote's "Settings" came out over "Clients"), so the tab is tapped by its place in
-    /// the row: the k-th of n tabs sits at (k + 0.5) / n of the screen width.
+    /// Taps an element without scrolling first (when `scroll` is false), with the usual pauses.
+    func tapFound(_ element: XCUIElement, scroll: Bool = true, before: Double = 0.7, after: Double = 1.3) {
+        if scroll {
+            tapElement(element, before: before, after: after)
+            return
+        }
+        pause(before)
+        let f = element.frame
+        markTap(f)
+        app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: f.midX, dy: f.midY)).tap()
+        pause(after)
+    }
+
+    /// A tab in the app's tab bar. The bars are full-width rows of equal tabs, and WebKit can report a fixed,
+    /// CSS-transformed bar's frames shifted sideways (TidyQuote's "Settings" came out over "Clients"), so the
+    /// k-th of the n names in its bar (`tabBars`) is tapped at (k + 0.5) / n of the screen width.
     func tab(_ name: String, after: Double = 1.5, file: StaticString = #filePath, line: UInt = #line) {
         let found = waitFor(name, how: .exact, kinds: [[.button, .link, .tab]], pick: .lowest, file: file, line: line)
-        let s = screen()
-        let y = found.frame.midY
-        let row = s.nodes.filter { ($0.type == .button || $0.type == .link || $0.type == .tab) && !$0.frame.isEmpty
-                                   && abs($0.frame.midY - y) < 6 && $0.frame.height < 120 }
-            .sorted { $0.frame.minX < $1.frame.minX }
         pause(0.6)
-        if row.count >= 3, let k = row.firstIndex(where: { $0.label == found.label && abs($0.frame.minX - found.frame.minX) < 1 }) {
-            let x = s.window.width * (CGFloat(k) + 0.5) / CGFloat(row.count)
-            if abs(x - found.frame.midX) > 20 { mark("note", "tab \(name): reported x \(Int(found.frame.midX)), tapped at \(Int(x))") }
-            tapPoint(CGRect(x: x - 1, y: y - 1, width: 2, height: 2))
+        let f = found.frame
+        if let bar = tabBars.first(where: { $0.contains(name) }), let k = bar.firstIndex(of: name) {
+            let x = window.width * (CGFloat(k) + 0.5) / CGFloat(bar.count)
+            if abs(x - f.midX) > 20 { mark("note", "tab \(name): reported at x \(Int(f.midX)), tapped at \(Int(x))") }
+            let point = CGRect(x: x - 1, y: f.midY - 1, width: 2, height: 2)
+            markTap(point)
+            app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: x, dy: f.midY)).tap()
         } else {
-            tapPoint(found.frame)
+            markTap(f)
+            app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: f.midX, dy: f.midY)).tap()
         }
         pause(after)
+    }
+
+    func onScreen(_ element: XCUIElement) -> Bool {
+        element.exists && element.frame.intersects(window) && element.isHittable
     }
 
     /// Taps `text` only if it is on screen now. Returns whether it was there.
     @discardableResult
     func tapIfPresent(_ text: String, how: How? = nil, kinds: [[Kind]] = [Tour.actionable], before: Double = 0.6, after: Double = 1.2) -> Bool {
-        guard let found = find(text, how: how, kinds: kinds) else { return false }
-        tapFound(found, before: before, after: after)
+        guard let element = find(text, how: how, kinds: kinds) else { return false }
+        tapElement(element, before: before, after: after)
         return true
     }
 
     /// Brings some text into view and holds on it, for "point at ..." in the guide.
     func show(_ text: String, hold: Double = 2.0, timeout: Double = 15, file: StaticString = #filePath, line: UInt = #line) {
-        let found = waitFor(text, how: .contains, kinds: [Tour.passive, Tour.actionable], timeout: timeout, file: file, line: line)
-        reveal(found)
+        let element = waitFor(text, how: .contains, kinds: [Tour.passive, Tour.actionable], timeout: timeout, file: file, line: line)
+        reveal(element)
         mark("show", text)
         pause(hold)
     }
@@ -431,10 +377,9 @@ class Tour: XCTestCase {
     /// Taps the text field labelled `label`, clears it and types `text` at a readable speed.
     func type(_ text: String, into label: String, clear: Bool = true, how: How? = nil, file: StaticString = #filePath, line: UInt = #line) {
         let field = waitFor(label, how: how, kinds: [Tour.fields], file: file, line: line)
-        tapFound(field, before: 0.5, after: 0.4)
+        tapElement(field, before: 0.5, after: 0.4)
         _ = app.keyboards.firstMatch.waitForExistence(timeout: 4)
-        let current = field.node.value
-        if clear && !current.isEmpty && current != field.node.placeholder {
+        if clear, let current = field.value as? String, !current.isEmpty, current != (field.placeholderValue ?? "") {
             app.typeText(String(repeating: XCUIKeyboardKey.delete.rawValue, count: current.count + 1))
         }
         typeSlowly(text)
@@ -456,48 +401,59 @@ class Tour: XCTestCase {
 
     /// Puts the keyboard away with the Done button above it (or a tap on the screen's title area).
     func hideKeyboard() {
-        let s = screen()
-        guard let kb = s.keyboard else { return }
+        guard app.keyboards.firstMatch.exists else { return }
         pause(0.4)
-        // The web view's Done sits in the bar just above the keyboard.
-        let done = s.nodes.filter { $0.type == .button && ($0.label == "Done" || $0.identifier == "Done") && $0.frame.maxY <= kb.minY + 4 && $0.frame.minY > kb.minY - 80 }
-        if let d = done.first {
-            tapPoint(d.frame)
-        } else if let d = s.nodes.first(where: { $0.type == .button && $0.label == "Done" && kb.contains(CGPoint(x: $0.frame.midX, y: $0.frame.midY)) }) {
-            tapPoint(d.frame)
-        } else {
-            // A tap on plain text (nothing that reacts to a tap) takes the focus away from the field.
-            // (Not a field's label either: a tap there focuses the field again.)
-            let controls = s.nodes.filter { Tour.actionable.contains($0.type) }.map { $0.frame.insetBy(dx: -6, dy: -6) }
-                + s.nodes.filter { Tour.fields.contains($0.type) }.map { $0.frame.insetBy(dx: -6, dy: -44) }
-            let plain = s.nodes.first { n in
-                n.type == .staticText && !n.frame.isEmpty && n.frame.minY > s.window.height * 0.12 && n.frame.maxY < kb.minY - 60
-                    && !controls.contains { $0.intersects(n.frame) }
-            }
-            if let p = plain {
-                tapPoint(p.frame)
-            } else {
-                mark("note", "no Done button or plain text to put the keyboard away")
-                dumpTree("keyboard stays", force: true)
+        for (i, candidate) in [app.toolbars.buttons["Done"], app.buttons["Done"], app.keyboards.buttons["Done"]].enumerated() {
+            if candidate.exists && candidate.isHittable {
+                if !keyboardDoneNoted { mark("note", "keyboard Done found as candidate \(i): \(candidate.label)"); keyboardDoneNoted = true }
+                markTap(candidate.frame)
+                candidate.tap()
+                pause(0.7)
+                return
             }
         }
-        pause(0.8)
+        // A tap on plain text (nothing that reacts to a tap, and not a field's label, which would focus the field
+        // again) takes the focus away from the field.
+        guard let snap = try? app.snapshot() else { return }
+        var texts: [CGRect] = []
+        var controls: [CGRect] = []
+        var keyboardTop = snap.frame.maxY
+        func walk(_ s: XCUIElementSnapshot) {
+            if s.elementType == .keyboard && !s.frame.isEmpty { keyboardTop = min(keyboardTop, s.frame.minY) }
+            if s.elementType == .staticText && !s.frame.isEmpty { texts.append(s.frame) }
+            if Tour.fields.contains(s.elementType) { controls.append(s.frame.insetBy(dx: -6, dy: -44)) }
+            else if Tour.actionable.contains(s.elementType) { controls.append(s.frame.insetBy(dx: -6, dy: -6)) }
+            for c in s.children { walk(c) }
+        }
+        walk(snap)
+        if let plain = texts.first(where: { t in t.minY > snap.frame.height * 0.12 && t.maxY < keyboardTop - 60 && !controls.contains { $0.intersects(t) } }) {
+            mark("note", "keyboard put away by tapping plain text")
+            markTap(plain)
+            app.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: plain.midX, dy: plain.midY)).tap()
+        } else {
+            mark("note", "no Done button or plain text to put the keyboard away")
+            dumpTree("keyboard stays", force: true)
+        }
+        pause(0.7)
     }
+    private var keyboardDoneNoted = false
 
     /// The back arrow at the top left of an app screen (labelled "Back", or with the previous screen's name).
     func back(after: Double = 1.3, file: StaticString = #filePath, line: UInt = #line) {
-        let s = screen()
-        if let b = find("Back", how: .exact, kinds: [[.button, .link]], in: s), onScreen(b.frame, s) {
-            tapFound(b, scroll: false, before: 0.6, after: after)
+        if let b = find("Back", how: .exact, kinds: [[.button, .link]]), b.isHittable {
+            tapElement(b, before: 0.6, after: after)
             return
         }
-        let w = s.window
-        if let b = s.nodes.first(where: { ($0.type == .button || $0.type == .link) && !$0.frame.isEmpty && $0.frame.minY >= w.minY + 30
-                                          && $0.frame.maxY < w.minY + w.height * 0.16 && $0.frame.midX < w.width * 0.4 }) {
-            pause(0.6)
-            tapPoint(b.frame)
-            pause(after)
-            return
+        let w = window
+        let buttons = app.webViews.firstMatch.descendants(matching: .button)
+        let count = min(buttons.count, 10)
+        for i in 0..<count {
+            let b = buttons.element(boundBy: i)
+            let f = b.frame
+            if f.minY < w.minY + w.height * 0.15 && f.midX < w.width * 0.4 && b.isHittable {
+                tapElement(b, before: 0.6, after: after)
+                return
+            }
         }
         dumpTree("no back button", force: true)
         XCTFail("No back button at the top left", file: file, line: line)
@@ -507,7 +463,7 @@ class Tour: XCTestCase {
     /// minute and AM/PM of `date`, then closes the picker with Done.
     func setTime(_ label: String, to date: Date, file: StaticString = #filePath, line: UInt = #line) {
         let field = waitFor(label, kinds: [Tour.fields, [.button, .other, .staticText, .datePicker]], file: file, line: line)
-        tapFound(field, before: 0.6, after: 1.2)
+        tapElement(field, before: 0.6, after: 1.2)
         dumpTree("time picker")
         let cal = Calendar.current
         var hour = cal.component(.hour, from: date)
@@ -570,6 +526,17 @@ class Tour: XCTestCase {
         return false
     }
 
+    /// An alert shown by the app itself (a web confirm() dialog).
+    func answerAppAlert(_ choice: String, timeout: Double = 10) {
+        let alert = app.alerts.firstMatch
+        XCTAssertTrue(alert.waitForExistence(timeout: timeout), "No alert appeared")
+        pause(1.5)
+        let button = alert.buttons[choice]
+        markTap(button.frame)
+        button.tap()
+        pause(1.0)
+    }
+
     // MARK: - Share sheet
 
     /// The iOS share sheet that an export opens: holds on it, then Save to Files, On My iPhone, Save.
@@ -588,8 +555,7 @@ class Tour: XCTestCase {
         saveToFiles.tap()
         pause(2.5)
         dumpTree("save to files")
-        let onPhone = app.descendants(matching: .any).matching(NSPredicate(format: "label ==[c] 'On My iPhone'")).firstMatch
-        if onPhone.exists && onPhone.isHittable {
+        if let onPhone = find("On My iPhone", how: .exact, kinds: [[.cell, .button, .staticText, .other]]), onPhone.isHittable {
             markTap(onPhone.frame)
             onPhone.tap()
             pause(1.5)

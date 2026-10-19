@@ -6,6 +6,7 @@ import XCTest
 /// Help, Privacy policy, About, and Erase all data.
 final class ShiftLedgerTour: Tour {
     override var iconName: String { "ShiftLedger" }
+    override var tabBars: [[String]] { [["Home", "Shifts", "Deduction", "Tools", "Settings"]] }
 
     func testTour() throws {
         step("Launch from the Home Screen") {

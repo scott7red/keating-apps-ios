@@ -7,6 +7,7 @@ import XCTest
 /// the share sheet, the calendar reminder screen, the example data, Help, Privacy policy, About, Erase all data.
 final class FirstSipTour: Tour {
     override var iconName: String { "FirstSip" }
+    override var tabBars: [[String]] { [["Today", "History", "Weight", "Symptoms", "More"]] }
 
     func testTour() throws {
         step("Launch from the Home Screen") {

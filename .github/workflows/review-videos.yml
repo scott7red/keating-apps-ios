@@ -263,6 +263,7 @@ jobs:
       - name: Collect the feedback
         if: always()
         run: |
+          set +e  # collect whatever is there
           ls -la "$OUT" > "$FB/out-listing.txt" 2>&1 || true
           for f in info.json sheet.jpg steps.jpg last.jpg marks.tsv record.log; do [ -f "$OUT/$f" ] && cp "$OUT/$f" "$FB/"; done
           [ -f "$OUT/test.log" ] && grep -v "^TOURMARK" "$OUT/test.log" | tail -250 > "$FB/test-tail.txt"
@@ -408,7 +409,9 @@ jobs:
           set -e
           cat "$OUT/testlab.out"; tail -40 "$OUT/testlab.log"
           cp "$OUT/testlab.out" "$FB/testlab-out.txt"; tail -120 "$OUT/testlab.log" > "$FB/testlab-log.txt"
-          BUCKET=$(grep -oE "storage/browser/[^/]+" "$OUT/testlab.log" | head -1 | sed 's#storage/browser/##')
+          MATRIX=$(grep -oE "matrix-[a-z0-9]+" "$OUT/testlab.log" | head -1 || true)
+          if [ -n "$MATRIX" ]; then curl -s -H "Authorization: Bearer $(gcloud auth print-access-token)" "https://testing.googleapis.com/v1/projects/$PROJECT/testMatrices/$MATRIX" > "$FB/matrix.json" || true; fi
+          BUCKET=$(grep -oE "storage/browser/[^/]+" "$OUT/testlab.log" | head -1 | sed 's#storage/browser/##' || true)
           [ -n "$BUCKET" ] || BUCKET=$(gcloud storage buckets list --format="value(name)" | grep -m1 '^test-lab-' || true)
           echo "status $STATUS, results gs://$BUCKET/$DIR"
           mkdir -p "$OUT/results"
@@ -466,7 +469,8 @@ jobs:
       - name: Collect the feedback
         if: always()
         run: |
-          for f in info.json sheet.jpg last.jpg marks.tsv; do [ -f "$OUT/$f" ] && cp "$OUT/$f" "$FB/"; done
+          set +e
+          for f in info.json sheet.jpg last.jpg marks.tsv postprocess.log; do [ -f "$OUT/$f" ] && cp "$OUT/$f" "$FB/"; done
           [ -f "$OUT/build.log" ] && { grep -E "error:|\*\* BUILD" "$OUT/build.log" | head -80; echo "-----"; tail -60 "$OUT/build.log"; } > "$FB/build-tail.txt"
           [ -f "$FB/status.txt" ] || echo "did not run" > "$FB/status.txt"
           du -sh "$FB"; ls -la "$FB"

@@ -7,6 +7,7 @@ import XCTest
 /// and Erase all data. The wait for the notification is sped up in the video, with a caption saying so.
 final class MinuteBankTour: Tour {
     override var iconName: String { "MinuteBank" }
+    override var tabBars: [[String]] { [["Home", "Earn", "Use time", "Parents"], ["Approvals", "Kids", "Rules", "Activity", "Settings"]] }
     let pin = ["2", "4", "6", "8"]
 
     func enterPin() {

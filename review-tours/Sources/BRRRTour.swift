@@ -6,6 +6,7 @@ import XCTest
 /// and Erase all data. The simulator's location is set to Columbus, Ohio (ZIP 43215) by the workflow.
 final class BRRRTour: Tour {
     override var iconName: String { "BRRR" }
+    override var tabBars: [[String]] { [["Deals", "Analyze", "Markets", "Learn", "Settings"]] }
 
     func testTour() throws {
         step("Launch from the Home Screen") {

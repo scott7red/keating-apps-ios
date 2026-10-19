@@ -5,6 +5,7 @@ import XCTest
 /// quote to invoice, a payment, a logo, the example data, Help, Privacy policy, About, and Erase all data.
 final class TidyQuoteTour: Tour {
     override var iconName: String { "TidyQuote" }
+    override var tabBars: [[String]] { [["Home", "Quotes", "Invoices", "Clients", "Settings"]] }
 
     func testTour() throws {
         step("Launch from the Home Screen") {
@@ -118,12 +119,11 @@ final class TidyQuoteTour: Tour {
     /// which has no camera: a made-up logo picture from the photo library (put there by the workflow).
     func pickLogo() {
         let menu = ["Take Photo", "Photo Library", "Choose File"]
-        var options: [String: Found] = [:]
+        var options: [String: XCUIElement] = [:]
         let deadline = Date().addingTimeInterval(8)
         while options.isEmpty && Date() < deadline {
-            let s = screen()
             for name in menu {
-                if let e = find(name, how: .exact, kinds: [[.button, .menuItem, .cell, .staticText]], in: s), onScreen(e.frame, s) { options[name] = e }
+                if let e = find(name, how: .exact, kinds: [[.button, .menuItem, .cell, .staticText]]), onScreen(e) { options[name] = e }
             }
             if options.isEmpty { Thread.sleep(forTimeInterval: 0.4) }
         }

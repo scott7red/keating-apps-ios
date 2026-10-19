@@ -13,6 +13,7 @@ class ExamTour: Tour {
     /// The exam picked during setup (its name in the list) and its short name (in "<short> is unlocked").
     var examName: String { "" }
     var shortName: String { "" }
+    override var tabBars: [[String]] { [["Home", "Learn", "Practice", "Tests", "Progress"]] }
     let profileName = "Alex"
     private var storeSession: Any?
 
@@ -120,7 +121,7 @@ class ExamTour: Tour {
             setUpProfile(slow: false)
         } else {
             step("Buy, on a real iPhone without a sandbox account") {
-                if let buy = find("Buy for", how: .prefix, kinds: [[.button]]), buy.node.enabled {
+                if let buy = find("Buy for", how: .prefix, kinds: [[.button]]), buy.isEnabled {
                     tapFound(buy, before: 1.0, after: 2.0)
                     dumpTree("device purchase", force: true)
                     pause(8.0)
@@ -194,18 +195,14 @@ class ExamTour: Tour {
 
     /// Taps an answer by its letter (the answers read "A ...", "B ...").
     func answer(_ letter: String, file: StaticString = #filePath, line: UInt = #line) {
-        let deadline = Date().addingTimeInterval(15)
-        while Date() < deadline {
-            let s = screen()
-            if let n = s.nodes.first(where: { $0.type == .button && !$0.frame.isEmpty && ($0.label.hasPrefix(letter + " ") || $0.label.hasPrefix(letter + ",")) }) {
-                let found = Found(node: n, text: n.label, how: .exact, ordinal: 0)
-                tapFound(found, before: 1.5, after: 2.0)
-                return
-            }
-            Thread.sleep(forTimeInterval: 0.4)
+        let choice = app.webViews.firstMatch.buttons
+            .matching(NSPredicate(format: "label BEGINSWITH %@ OR label BEGINSWITH %@", letter + " ", letter + ",")).firstMatch
+        guard choice.waitForExistence(timeout: 15) else {
+            dumpTree("no answer \(letter)", force: true)
+            XCTFail("No answer \(letter)", file: file, line: line)
+            return
         }
-        dumpTree("no answer \(letter)", force: true)
-        XCTFail("No answer \(letter)", file: file, line: line)
+        tapElement(choice, before: 1.5, after: 2.0)
     }
 
     /// Waits until the sheet shows the price (or says why not).

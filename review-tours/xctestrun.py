@@ -16,7 +16,21 @@ def limit(target):
         return False
     target["OnlyTestIdentifiers"] = [f"{tour}/testTour"]
     target.pop("SkipTestIdentifiers", None)
+    # Xcode 26 injects /usr/lib/libRPAC.dylib, which iOS 16 (the Test Lab iPhones that record video) does not
+    # have: with it the app and the runner cannot start there.
+    drop_rpac(target)
     return True
+
+
+def drop_rpac(node):
+    if isinstance(node, dict):
+        if "libRPAC" in str(node.get("DYLD_INSERT_LIBRARIES", "")):
+            del node["DYLD_INSERT_LIBRARIES"]
+        for value in node.values():
+            drop_rpac(value)
+    elif isinstance(node, list):
+        for value in node:
+            drop_rpac(value)
 
 
 changed = 0
